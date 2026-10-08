@@ -4,8 +4,10 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 * * * *"
+
 permissions:
   contents: write
+
 jobs:
   hunt:
     runs-on: ubuntu-latest
@@ -19,13 +21,44 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run Money Agent
+      - name: Run Hunter
         run: python backend/hunter.py
+
+      - name: Run Analyst
+        run: python backend/analyst.py
+
+      - name: Validate Agent
+        run: |
+          python -m py_compile backend/hunter.py
+          python -m py_compile backend/analyst.py
+          python - <<'PY'
+          import json
+
+          with open("report.json", "r", encoding="utf-8") as f:
+              report = json.load(f)
+
+          opportunities = report.get("opportunities", [])
+
+          print("Money Agent validation")
+          print("Opportunities:", len(opportunities))
+
+          if opportunities:
+              top = opportunities[0]
+              analysis = top.get("analysis", {})
+
+              print("Top opportunity:", top.get("title"))
+              print("Priority:", analysis.get("priority"))
+              print("Opportunity score:", analysis.get("opportunity_score"))
+              print("Estimated value EUR:", analysis.get("estimated_value_eur"))
+
+          if not isinstance(opportunities, list):
+              raise SystemExit("Invalid opportunities format")
+          PY
 
       - name: Save report
         run: |
           git config user.name "Money Agent"
           git config user.email "money-agent@users.noreply.github.com"
           git add report.json
-          git diff --cached --quiet || git commit -m "Update Money Agent report"
+          git diff --cached --quiet || git commit -m "Update Money Agent analysis"
           git push
