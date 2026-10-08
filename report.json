@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-10-08T09:14:11.607946+00:00",
+  "agent": "Money Agent",
+  "mode": "opportunity_hunter",
+  "target": "Find legitimate income opportunities",
+  "safety": {
+    "auto_submit": false,
+    "auto_signup": false,
+    "auto_spend": false,
+    "auto_click_ads": false
+  },
+  "opportunities": [],
+  "errors": [
+    {
+      "source": "Upwork AI Automation",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "Upwork AI Integration",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
+}
