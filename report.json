@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-08T09:34:04.153616+00:00",
+  "generated_at": "2026-10-08T09:50:40.573763+00:00",
   "agent": "Money Agent",
-  "mode": "opportunity_hunter",
+  "mode": "opportunity_hunter_and_analyst",
   "target": "Find legitimate income opportunities",
   "safety": {
     "auto_submit": false,
@@ -24,21 +24,37 @@
   "opportunities": [
     {
       "source": "We Work Remotely",
-      "title": "Dropbox: Scaled Customer Success Manager",
-      "url": "https://weworkremotely.com/remote-jobs/dropbox-scaled-customer-success-manager",
-      "published": "Tue, 06 Oct 2026 22:42:07 +0000",
-      "snippet": "Headquarters: California URL: https://www.dropbox.com/ Role Description As a Scaled Customer Success Manager at Dropbox, you will drive adoption, value realization, and renewal readiness across a portfolio of mid-market and small business managed customers. You will use customer and product signals to identify where engagement can have the greatest impact, then deliver timely, relevant experiences through targeted campaigns, group programs, digital touchpoints, and selective personalized outreach. You will play a central role in connecting our Programmatic and Digital Customer Success team with the Renewals Desk for scaled segment accounts. You will ensure customer health, sentiment, risk, and adoption signals translate into clear renewal-readiness actions, while identifying and qualifying customer-backed growth opportunities as Customer Success Qualified Leads (CSQLs) for handoff to Sal",
+      "title": "Ace Ventures: Executive Personal Assistant to the Founder (Remote, UAE or Europe)",
+      "url": "https://weworkremotely.com/remote-jobs/ace-ventures-executive-personal-assistant-to-the-founder-remote-uae-or-europe",
+      "published": "Sun, 06 Sep 2026 13:01:11 +0000",
+      "snippet": "Headquarters: Dubai, United Arab Emirates URL: https://aceventures.ai/ Location: Remote, based in the UAE or Europe. Engagement: full-time independent contractor (own visa and invoicing setup required). About the role You will be the right hand to a Dubai-based founder who runs a group of companies in performance marketing and consumer brands and splits his time between Dubai and Europe. Your job is to take every administrative task off his plate, business and personal, so his time goes to decisions and deals rather than logistics. We are looking for an A player. This is a fast-moving environment with high expectations: priorities change daily, decisions are made quickly, and the standard is that things get done properly the first time. You need to be driven, want to work hard, and take pride in running a tight operation for someone who moves fast. This is a hands-on, high-trust role. Yo",
       "score": 62,
       "confidence": 0.77,
       "automation_fit": 0.76,
       "matched_keywords": [
         "automation",
+        "ai agent",
         "workflow",
-        "crm",
-        "sales",
-        "marketing automation",
+        "zapier",
+        "n8n",
         "ai"
-      ]
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "MEDIUM",
+        "opportunity_score": 69,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     },
     {
       "source": "We Work Remotely",
@@ -56,42 +72,57 @@
         "crm",
         "sales",
         "ai"
-      ]
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "MEDIUM",
+        "opportunity_score": 66,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     },
     {
       "source": "We Work Remotely",
-      "title": "Ace Ventures: Executive Personal Assistant to the Founder (Remote, UAE or Europe)",
-      "url": "https://weworkremotely.com/remote-jobs/ace-ventures-executive-personal-assistant-to-the-founder-remote-uae-or-europe",
-      "published": "Sun, 06 Sep 2026 13:01:11 +0000",
-      "snippet": "Headquarters: Dubai, United Arab Emirates URL: https://aceventures.ai/ Location: Remote, based in the UAE or Europe. Engagement: full-time independent contractor (own visa and invoicing setup required). About the role You will be the right hand to a Dubai-based founder who runs a group of companies in performance marketing and consumer brands and splits his time between Dubai and Europe. Your job is to take every administrative task off his plate, business and personal, so his time goes to decisions and deals rather than logistics. We are looking for an A player. This is a fast-moving environment with high expectations: priorities change daily, decisions are made quickly, and the standard is that things get done properly the first time. You need to be driven, want to work hard, and take pride in running a tight operation for someone who moves fast. This is a hands-on, high-trust role. Yo",
+      "title": "Dropbox: Scaled Customer Success Manager",
+      "url": "https://weworkremotely.com/remote-jobs/dropbox-scaled-customer-success-manager",
+      "published": "Tue, 06 Oct 2026 22:42:07 +0000",
+      "snippet": "Headquarters: California URL: https://www.dropbox.com/ Role Description As a Scaled Customer Success Manager at Dropbox, you will drive adoption, value realization, and renewal readiness across a portfolio of mid-market and small business managed customers. You will use customer and product signals to identify where engagement can have the greatest impact, then deliver timely, relevant experiences through targeted campaigns, group programs, digital touchpoints, and selective personalized outreach. You will play a central role in connecting our Programmatic and Digital Customer Success team with the Renewals Desk for scaled segment accounts. You will ensure customer health, sentiment, risk, and adoption signals translate into clear renewal-readiness actions, while identifying and qualifying customer-backed growth opportunities as Customer Success Qualified Leads (CSQLs) for handoff to Sal",
       "score": 62,
       "confidence": 0.77,
       "automation_fit": 0.76,
       "matched_keywords": [
         "automation",
-        "ai agent",
         "workflow",
-        "zapier",
-        "n8n",
-        "ai"
-      ]
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Mixmax: Billing Support Analyst - Philippines",
-      "url": "https://weworkremotely.com/remote-jobs/mixmax-billing-support-analyst-philippines",
-      "published": "Wed, 07 Oct 2026 07:31:00 +0000",
-      "snippet": "Headquarters: Philippines - remote At Mixmax, we're building the future of how revenue teams work: smarter, faster, and more human. Our platform helps teams stay on top of every conversation by automating busywork, delivering real-time insights, and integrating with the tools they already use. We're hiring a&nbsp; Billing Support Analyst &nbsp;in the Philippines to join our small but mighty team as one of the go-to contributors and resources for how our customers are billed. You'll resolve billing questions from start to finish, dig into the technical issues that sit underneath them, and keep our Stripe records accurate to the cent. It's part customer support, part billing operations, and part detective work. This role reports directly to our Billing Team Lead, who reports into Head of Customer Experience. You'll work closely with Customer Support, Customer Success, Sales and Engineering",
-      "score": 55,
-      "confidence": 0.7,
-      "automation_fit": 0.7,
-      "matched_keywords": [
-        "automation",
-        "workflow",
+        "crm",
         "sales",
-        "customer support",
+        "marketing automation",
         "ai"
-      ]
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "MEDIUM",
+        "opportunity_score": 64,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     },
     {
       "source": "We Work Remotely",
@@ -108,7 +139,23 @@
         "crm",
         "sales",
         "ai"
-      ]
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "MEDIUM",
+        "opportunity_score": 61,
+        "estimated_value_eur": 650,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     },
     {
       "source": "We Work Remotely",
@@ -125,7 +172,23 @@
         "workflow",
         "sales",
         "ai"
-      ]
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "MEDIUM",
+        "opportunity_score": 61,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     },
     {
       "source": "We Work Remotely",
@@ -142,103 +205,23 @@
         "workflow",
         "sales",
         "ai"
-      ]
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Logicstics: Digital Marketing & Google Ads / AI Search Specialist",
-      "url": "https://weworkremotely.com/remote-jobs/logicstics-digital-marketing-google-ads-ai-search-specialist",
-      "published": "Wed, 07 Oct 2026 21:47:34 +0000",
-      "snippet": "Headquarters: Philadelphia, PA, USA URL: https://logicstics.com Remote | Full-Time Logicstics is looking for an experienced Digital Marketing &amp; Google Ads / AI Search Specialist to take ownership of our online lead generation strategy. We are an international moving and logistics company serving customers relocating throughout the world. This is a hands-on position. We are looking for someone who can build, manage, analyze, and improve campaigns themselves, not simply coordinate with outside agencies. What You'll Do You will be responsible for increasing qualified leads while continuously improving our cost per acquisition and overall marketing ROI. Your responsibilities will include: Manage and optimize Google Ads campaigns across Search, Display, Performance Max, and remarketing Conduct keyword research and continuously improve PPC campaign structure, targeting, bidding, ad copy, a",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "lead generation",
-        "ai"
-      ]
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Current: Producer, Client Experience & Growth (Contract)",
-      "url": "https://weworkremotely.com/remote-jobs/current-producer-client-experience-growth-contract",
-      "published": "Wed, 07 Oct 2026 07:31:04 +0000",
-      "snippet": "Headquarters: Remote (US) At Current At Current, we partner with ambitious brands to create digital experiences that drive meaningful business results. By bringing together strategy, design, production, and technology, we help organizations solve complex challenges and build experiences that create lasting impact. We're looking for a Producer, Client Experience &amp; Growth to support our business development efforts by producing proposals, coordinating pitches, and keeping new business opportunities moving from intake through handoff. This role works closely with strategy, creative, production, and operations teams to deliver a seamless experience for prospective clients while ensuring every proposal is organized, polished, and on time. What You'll Do Coordinate business development opportunities from initial intake through proposal submission Manage proposal timelines, deliverables, an",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "workflow",
-        "crm",
-        "sales",
-        "ai"
-      ]
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Current: Lead QA Engineer",
-      "url": "https://weworkremotely.com/remote-jobs/current-lead-qa-engineer",
-      "published": "Wed, 07 Oct 2026 07:31:00 +0000",
-      "snippet": "Headquarters: Remote (US) About the Role As a Lead QA Engineer, you'll own testing strategy and quality standards across our most important work; Deciding what should be automated, what needs a human eye, where the real risk is hiding, and acting on it. You'll work hands-on across both manual and automated testing, splitting your time based on what a given release actually needs, while mentoring other engineers and acting as the go-to voice on quality across projects. You've got the critical thinking skills to chase down a hard bug yourself, know when to ask for help and delegate, and the range to set direction for how the whole team approaches quality. You seek to help your coworkers and do so regularly. Key Responsibilities Lead test strategy and quality standards across multiple projects, deciding what warrants automated coverage versus focused manual and exploratory testing. Build an",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "crm",
-        "ai"
-      ]
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "BeyondTrust: Account Executive II - Riyadh (Saudi National)",
-      "url": "https://weworkremotely.com/remote-jobs/beyondtrust-account-executive-ii-riyadh-saudi-national",
-      "published": "Wed, 07 Oct 2026 07:30:42 +0000",
-      "snippet": "Headquarters: Remote Riyadh, Saudi Arabia BeyondTrust is a place where you can bring your purpose to life through the work that you do, creating a safer world through our cyber security SaaS portfolio. Our culture of flexibility, trust, and continual learning means you will be recognized for your growth, and for the impact you make on our success. You will be surrounded by people who challenge, support, and inspire you to be the best version of yourself. The Role The Account Executive II will manage a defined sales territory and be responsible for delivering against a quota goal for the defined territory.&nbsp;The Account Executive II will identify, generate, qualify, and close new business for customers and prospects in a defined territory.&nbsp; Responsible for managing the full sales lifecycle, building the go-to-market plan (including direct and indirect business).&nbsp; What You’ll ",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "lead generation",
-        "crm",
-        "sales",
-        "ai"
-      ]
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "FP Markets: Global CRM & Lifecycle Marketing Manager",
-      "url": "https://weworkremotely.com/remote-jobs/fp-markets-global-crm-lifecycle-marketing-manager",
-      "published": "Tue, 06 Oct 2026 22:04:13 +0000",
-      "snippet": "Headquarters: Malta URL: http://fpmarkets.com.au Description FP Markets Group of Companies is a well-established multi-regulated broker, founded in Australia, offering traders access to CFD trading on Forex, Indices, Commodities, Stocks and Cryptocurrencies. We are growing and looking to recruit a Full-time Global CRM &amp; Lifecycle Marketing Manager (remote). This role owns everything we say to a client between the moment they first raise their hand and the moment they place their first trade. You will design, build, send and continuously improve every automated and campaign communication across four funnel stages — Lead, Registration, First Time Deposit and First Time Trade — using email and WhatsApp, built and run in Salesforce Marketing Cloud. This is a hands-on build-and-send role rather than a strategy role: you will have the support of content, creative and analytics teams, but t",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "automation",
-        "crm",
-        "sales",
-        "ai"
-      ]
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "AssemblyAI: Senior GTM AI Engineer",
-      "url": "https://weworkremotely.com/remote-jobs/assemblyai-senior-gtm-ai-engineer",
-      "published": "Sun, 04 Oct 2026 07:31:28 +0000",
-      "snippet": "Headquarters: Remote - North America Why AssemblyAI AssemblyAI builds the best-in-class Voice AI models powering the next generation of voice applications. Our models serve 600M+ inference calls monthly, process 1M+ hours of audio daily, and power 2 billion+ end-user experiences. The Voice AI space is at an inflection point; we’re looking for folks truly excited to join a small team and help define the future of the industry. We are one of the most capital-efficient AI companies on the planet - with under 100 people generating roughly $600K ARR per employee, we sit among the top 5 most revenue-dense teams within the fastest-growing AI companies today. That's not an accident; it's a deliberate choice to stay lean, move fast, and give every person on the team outsized ownership and impact. With thousands of customers including Granola, Fireflies, Figure AI, and CallRail, the company has re",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "automation",
-        "crm",
-        "sales",
-        "ai"
-      ]
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "MEDIUM",
+        "opportunity_score": 61,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     },
     {
       "source": "We Work Remotely",
@@ -254,37 +237,252 @@
         "workflow",
         "crm",
         "ai"
-      ]
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "MEDIUM",
+        "opportunity_score": 60,
+        "estimated_value_eur": 80000,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          80000.0
+        ],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     },
     {
-      "source": "Remotive",
-      "title": "Senior React Full-stack Developer",
-      "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133",
-      "published": "Fri, 02 Oct 2026 13:30:06 GMT",
-      "snippet": "Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io &#8212; the marketplace that connects you with hand-picked startups in the US and Europe. &#160; What we offer: The rate depends on your seniority level, skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates &#8212; let us handle the business side of things so you can focus on what you do best. We'll manually find the best project for you according to your skills and preferences. Choose a schedule that works best for you. It&#8217;s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. Communicate directly with the clients. Most of them have technical backgrounds. So",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
+      "source": "We Work Remotely",
+      "title": "Mixmax: Billing Support Analyst - Philippines",
+      "url": "https://weworkremotely.com/remote-jobs/mixmax-billing-support-analyst-philippines",
+      "published": "Wed, 07 Oct 2026 07:31:00 +0000",
+      "snippet": "Headquarters: Philippines - remote At Mixmax, we're building the future of how revenue teams work: smarter, faster, and more human. Our platform helps teams stay on top of every conversation by automating busywork, delivering real-time insights, and integrating with the tools they already use. We're hiring a&nbsp; Billing Support Analyst &nbsp;in the Philippines to join our small but mighty team as one of the go-to contributors and resources for how our customers are billed. You'll resolve billing questions from start to finish, dig into the technical issues that sit underneath them, and keep our Stripe records accurate to the cent. It's part customer support, part billing operations, and part detective work. This role reports directly to our Billing Team Lead, who reports into Head of Customer Experience. You'll work closely with Customer Support, Customer Success, Sales and Engineering",
+      "score": 55,
+      "confidence": 0.7,
+      "automation_fit": 0.7,
       "matched_keywords": [
         "automation",
-        "ai agent",
+        "workflow",
+        "sales",
+        "customer support",
         "ai"
-      ]
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "MEDIUM",
+        "opportunity_score": 59,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     },
     {
-      "source": "Remotive",
-      "title": "Senior back-end Engineer",
-      "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-engineer-2091132",
-      "published": "Wed, 30 Sep 2026 13:15:26 GMT",
-      "snippet": "Senior Developer? Work Remote. Get Paid Well. Build What Matters. &#160; Lemon.io connects hand-picked senior developers with vetted startups across the US and Europe &#8212; no bidding wars, no ghosting, just serious opportunities. We're currently hiring for a research-driven AI company on a mission to slash the cost of modern AI &#8212; co-designing hardware, software, algorithms, and models to make AI's benefits accessible to everyone. They're active open-source contributors, building the infrastructure behind next-generation AI at scale. &#160; Open roles: Senior Back-end Engineer (Golang), Senior DevOps Engineer, Senior Site Reliability Engineer, Senior Storage Engineer, Senior Python &amp; LLM Developer, Senior Back-end Engineer (Python) &#160; Why this one's worth a look: You'll be working on infrastructure that directly shapes how AI gets built and deployed, at a company operatin",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
+      "source": "We Work Remotely",
+      "title": "BeyondTrust: Account Executive II - Riyadh (Saudi National)",
+      "url": "https://weworkremotely.com/remote-jobs/beyondtrust-account-executive-ii-riyadh-saudi-national",
+      "published": "Wed, 07 Oct 2026 07:30:42 +0000",
+      "snippet": "Headquarters: Remote Riyadh, Saudi Arabia BeyondTrust is a place where you can bring your purpose to life through the work that you do, creating a safer world through our cyber security SaaS portfolio. Our culture of flexibility, trust, and continual learning means you will be recognized for your growth, and for the impact you make on our success. You will be surrounded by people who challenge, support, and inspire you to be the best version of yourself. The Role The Account Executive II will manage a defined sales territory and be responsible for delivering against a quota goal for the defined territory.&nbsp;The Account Executive II will identify, generate, qualify, and close new business for customers and prospects in a defined territory.&nbsp; Responsible for managing the full sales lifecycle, building the go-to-market plan (including direct and indirect business).&nbsp; What You’ll ",
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "lead generation",
+        "crm",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "MEDIUM",
+        "opportunity_score": 57,
+        "estimated_value_eur": 750,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Current: Producer, Client Experience & Growth (Contract)",
+      "url": "https://weworkremotely.com/remote-jobs/current-producer-client-experience-growth-contract",
+      "published": "Wed, 07 Oct 2026 07:31:04 +0000",
+      "snippet": "Headquarters: Remote (US) At Current At Current, we partner with ambitious brands to create digital experiences that drive meaningful business results. By bringing together strategy, design, production, and technology, we help organizations solve complex challenges and build experiences that create lasting impact. We're looking for a Producer, Client Experience &amp; Growth to support our business development efforts by producing proposals, coordinating pitches, and keeping new business opportunities moving from intake through handoff. This role works closely with strategy, creative, production, and operations teams to deliver a seamless experience for prospective clients while ensuring every proposal is organized, polished, and on time. What You'll Do Coordinate business development opportunities from initial intake through proposal submission Manage proposal timelines, deliverables, an",
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "workflow",
+        "crm",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "MEDIUM",
+        "opportunity_score": 55,
+        "estimated_value_eur": 750,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "FP Markets: Global CRM & Lifecycle Marketing Manager",
+      "url": "https://weworkremotely.com/remote-jobs/fp-markets-global-crm-lifecycle-marketing-manager",
+      "published": "Tue, 06 Oct 2026 22:04:13 +0000",
+      "snippet": "Headquarters: Malta URL: http://fpmarkets.com.au Description FP Markets Group of Companies is a well-established multi-regulated broker, founded in Australia, offering traders access to CFD trading on Forex, Indices, Commodities, Stocks and Cryptocurrencies. We are growing and looking to recruit a Full-time Global CRM &amp; Lifecycle Marketing Manager (remote). This role owns everything we say to a client between the moment they first raise their hand and the moment they place their first trade. You will design, build, send and continuously improve every automated and campaign communication across four funnel stages — Lead, Registration, First Time Deposit and First Time Trade — using email and WhatsApp, built and run in Salesforce Marketing Cloud. This is a hands-on build-and-send role rather than a strategy role: you will have the support of content, creative and analytics teams, but t",
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
       "matched_keywords": [
         "automation",
-        "ai agent",
+        "crm",
+        "sales",
         "ai"
-      ]
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "MEDIUM",
+        "opportunity_score": 55,
+        "estimated_value_eur": 750,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Logicstics: Digital Marketing & Google Ads / AI Search Specialist",
+      "url": "https://weworkremotely.com/remote-jobs/logicstics-digital-marketing-google-ads-ai-search-specialist",
+      "published": "Wed, 07 Oct 2026 21:47:34 +0000",
+      "snippet": "Headquarters: Philadelphia, PA, USA URL: https://logicstics.com Remote | Full-Time Logicstics is looking for an experienced Digital Marketing &amp; Google Ads / AI Search Specialist to take ownership of our online lead generation strategy. We are an international moving and logistics company serving customers relocating throughout the world. This is a hands-on position. We are looking for someone who can build, manage, analyze, and improve campaigns themselves, not simply coordinate with outside agencies. What You'll Do You will be responsible for increasing qualified leads while continuously improving our cost per acquisition and overall marketing ROI. Your responsibilities will include: Manage and optimize Google Ads campaigns across Search, Display, Performance Max, and remarketing Conduct keyword research and continuously improve PPC campaign structure, targeting, bidding, ad copy, a",
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "automation",
+        "workflow",
+        "lead generation",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 54,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Current: Lead QA Engineer",
+      "url": "https://weworkremotely.com/remote-jobs/current-lead-qa-engineer",
+      "published": "Wed, 07 Oct 2026 07:31:00 +0000",
+      "snippet": "Headquarters: Remote (US) About the Role As a Lead QA Engineer, you'll own testing strategy and quality standards across our most important work; Deciding what should be automated, what needs a human eye, where the real risk is hiding, and acting on it. You'll work hands-on across both manual and automated testing, splitting your time based on what a given release actually needs, while mentoring other engineers and acting as the go-to voice on quality across projects. You've got the critical thinking skills to chase down a hard bug yourself, know when to ask for help and delegate, and the range to set direction for how the whole team approaches quality. You seek to help your coworkers and do so regularly. Key Responsibilities Lead test strategy and quality standards across multiple projects, deciding what warrants automated coverage versus focused manual and exploratory testing. Build an",
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "automation",
+        "workflow",
+        "crm",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 54,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "AssemblyAI: Senior GTM AI Engineer",
+      "url": "https://weworkremotely.com/remote-jobs/assemblyai-senior-gtm-ai-engineer",
+      "published": "Sun, 04 Oct 2026 07:31:28 +0000",
+      "snippet": "Headquarters: Remote - North America Why AssemblyAI AssemblyAI builds the best-in-class Voice AI models powering the next generation of voice applications. Our models serve 600M+ inference calls monthly, process 1M+ hours of audio daily, and power 2 billion+ end-user experiences. The Voice AI space is at an inflection point; we’re looking for folks truly excited to join a small team and help define the future of the industry. We are one of the most capital-efficient AI companies on the planet - with under 100 people generating roughly $600K ARR per employee, we sit among the top 5 most revenue-dense teams within the fastest-growing AI companies today. That's not an accident; it's a deliberate choice to stay lean, move fast, and give every person on the team outsized ownership and impact. With thousands of customers including Granola, Fireflies, Figure AI, and CallRail, the company has re",
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "automation",
+        "crm",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "LOW",
+        "opportunity_score": 54,
+        "estimated_value_eur": 600,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          600.0
+        ],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     },
     {
       "source": "Remotive",
@@ -299,67 +497,23 @@
         "workflow",
         "api integration",
         "ai"
-      ]
-    },
-    {
-      "source": "Remotive",
-      "title": "Senior AI Engineer",
-      "url": "https://remotive.com/remote-jobs/artificial-intelligence/senior-ai-engineer-2091131",
-      "published": "Fri, 18 Sep 2026 12:23:56 GMT",
-      "snippet": "Are you a talented Senior AI Engineer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io &#8212; the marketplace that connects you with hand-picked startups in the US and Europe. &#160; What we offer: The rate depends on your skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates &#8212; let us handle the business side of things so you can focus on what you do best. We'll manually find the best project for you according to your skills and preferences. Choose a schedule that works best for you. It&#8217;s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. Most of our projects involve working in a fast-paced startup environment. We hope you like it as ",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "automation",
-        "ai agent",
-        "ai"
-      ]
-    },
-    {
-      "source": "Remotive",
-      "title": "Senior .NET Full-stack Developer",
-      "url": "https://remotive.com/remote-jobs/software-development/senior-net-full-stack-developer-2091130",
-      "published": "Thu, 17 Sep 2026 13:22:05 GMT",
-      "snippet": "Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io &#8212; the marketplace that connects you with hand-picked startups in the US and Europe. &#160; What we offer: The rate depends on your seniority level, skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates &#8212; let us handle the business side of things so you can focus on what you do best. Choose a schedule that works best for you. It&#8217;s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. We will support you from the time you submit the application throughout all cooperation stages. Most of our projects involve working in a fast-paced startup environment.",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "automation",
-        "ai agent",
-        "ai"
-      ]
-    },
-    {
-      "source": "Remotive",
-      "title": "Senior Data Scientist",
-      "url": "https://remotive.com/remote-jobs/data/senior-data-scientist-2091129",
-      "published": "Wed, 16 Sep 2026 12:35:28 GMT",
-      "snippet": "Are you a talented Senior Data Scientist looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io &#8212; the marketplace that connects you with hand-picked startups in the US and Europe. &#160; What we offer: The rate depends on your skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates &#8212; let us handle the business side of things so you can focus on what you do best. We'll manually find the best project for you according to your skills and preferences. Choose a schedule that works best for you. It&#8217;s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. Most of our projects involve working in a fast-paced startup environment. We hope you like it ",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "automation",
-        "ai agent",
-        "ai"
-      ]
-    },
-    {
-      "source": "Remotive",
-      "title": "Tech Lead Full-Stack Rails Engineer",
-      "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
-      "published": "Mon, 14 Sep 2026 20:33:27 GMT",
-      "snippet": "About Mitre Media Mitre Media is redefining FinTech with AI-driven tools that empower millions of investors. Our portfolio, including Dividend.com and MutualFunds.com, leverages LLMs to deliver novel data insights and visually rich user experiences. For over a decade, we&#8217;ve served individual investors, financial advisors, and top asset managers like BlackRock and Vanguard through our premium data, tools, and advertising solutions. Join our lean, entrepreneurial team to shape the future of AI-powered investing from your location &#177;3 hours from Eastern Time. Our users are deeply engaged, spending over 5 minutes per visit with a bounce rate below 10%, researching investments across hundreds of different categories. With 40 million brokerage accounts in the U.S., we take pride in building tools that make a real impact, fostering a culture of trust, innovation, and dynamism. If you&",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "ai integration",
-        "workflow",
-        "ai"
-      ]
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 51,
+        "estimated_value_eur": 650,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     },
     {
       "source": "Remotive",
@@ -374,7 +528,23 @@
         "crm",
         "sales",
         "ai"
-      ]
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "LOW",
+        "opportunity_score": 50,
+        "estimated_value_eur": 750,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     },
     {
       "source": "We Work Remotely",
@@ -389,37 +559,23 @@
         "lead generation",
         "sales",
         "ai"
-      ]
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Vercel: Security Software Engineer, IAM",
-      "url": "https://weworkremotely.com/remote-jobs/vercel-security-software-engineer-iam",
-      "published": "Thu, 08 Oct 2026 07:31:26 +0000",
-      "snippet": "Headquarters: Remote - United States About Vercel: Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience. Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. About the Role: Traditional IAM teams operate as an approval queue: a request comes in, someone reviews it, grants it, and (hopefully) remembers to revoke it. Access reviews become quarterly spreadsheet exercises, audit evidence is assembled by hand, and the central team becomes the bottleneck for every decision. That model doesn't scale past a certain point, and Vercel is past it. Adding more approvers doesn't close the gap. Buildi",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "ai"
-      ]
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Jumio: Machine Learning Engineer - IV (Biometrics)",
-      "url": "https://weworkremotely.com/remote-jobs/jumio-machine-learning-engineer-iv-biometrics",
-      "published": "Thu, 08 Oct 2026 07:31:21 +0000",
-      "snippet": "Headquarters: India (remote) Role Purpose We’re looking for a Staff/Senior Machine Learning Engineer with deep expertise in computer vision and biometrics to lead the design and scaling of face recognition systems in production. You’ll build and train models, and own ML systems end-to-end on AWS. The final job level for this role will be determined following the interview process. What You’ll Do Lead the design and development of computer vision systems for biometrics (face attributes, detection, quality, and recognition) Rigorous fairness analysis and benchmarking of biometric models across various datasets and operating conditions. Architect, train, and optimize models using PyTorch, Tensorflow, and/or JAX Own and evolve end-to-end ML pipelines, from data ingestion to deployment. Design automated pipelines (Airflow) for data ingestion and cleaning. You will be responsible for curating ",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "ai"
-      ]
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "LOW",
+        "opportunity_score": 50,
+        "estimated_value_eur": 750,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     },
     {
       "source": "We Work Remotely",
@@ -434,7 +590,116 @@
         "crm",
         "sales",
         "ai"
-      ]
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "LOW",
+        "opportunity_score": 50,
+        "estimated_value_eur": 750,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Remotive",
+      "title": "Senior back-end Engineer",
+      "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-engineer-2091132",
+      "published": "Wed, 30 Sep 2026 13:15:26 GMT",
+      "snippet": "Senior Developer? Work Remote. Get Paid Well. Build What Matters. &#160; Lemon.io connects hand-picked senior developers with vetted startups across the US and Europe &#8212; no bidding wars, no ghosting, just serious opportunities. We're currently hiring for a research-driven AI company on a mission to slash the cost of modern AI &#8212; co-designing hardware, software, algorithms, and models to make AI's benefits accessible to everyone. They're active open-source contributors, building the infrastructure behind next-generation AI at scale. &#160; Open roles: Senior Back-end Engineer (Golang), Senior DevOps Engineer, Senior Site Reliability Engineer, Senior Storage Engineer, Senior Python &amp; LLM Developer, Senior Back-end Engineer (Python) &#160; Why this one's worth a look: You'll be working on infrastructure that directly shapes how AI gets built and deployed, at a company operatin",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "automation",
+        "ai agent",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 49,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Vercel: Security Software Engineer, IAM",
+      "url": "https://weworkremotely.com/remote-jobs/vercel-security-software-engineer-iam",
+      "published": "Thu, 08 Oct 2026 07:31:26 +0000",
+      "snippet": "Headquarters: Remote - United States About Vercel: Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience. Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. About the Role: Traditional IAM teams operate as an approval queue: a request comes in, someone reviews it, grants it, and (hopefully) remembers to revoke it. Access reviews become quarterly spreadsheet exercises, audit evidence is assembled by hand, and the central team becomes the bottleneck for every decision. That model doesn't scale past a certain point, and Vercel is past it. Adding more approvers doesn't close the gap. Buildi",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "automation",
+        "workflow",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 49,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Jumio: Machine Learning Engineer - IV (Biometrics)",
+      "url": "https://weworkremotely.com/remote-jobs/jumio-machine-learning-engineer-iv-biometrics",
+      "published": "Thu, 08 Oct 2026 07:31:21 +0000",
+      "snippet": "Headquarters: India (remote) Role Purpose We’re looking for a Staff/Senior Machine Learning Engineer with deep expertise in computer vision and biometrics to lead the design and scaling of face recognition systems in production. You’ll build and train models, and own ML systems end-to-end on AWS. The final job level for this role will be determined following the interview process. What You’ll Do Lead the design and development of computer vision systems for biometrics (face attributes, detection, quality, and recognition) Rigorous fairness analysis and benchmarking of biometric models across various datasets and operating conditions. Architect, train, and optimize models using PyTorch, Tensorflow, and/or JAX Own and evolve end-to-end ML pipelines, from data ingestion to deployment. Design automated pipelines (Airflow) for data ingestion and cleaning. You will be responsible for curating ",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "automation",
+        "workflow",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 49,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     },
     {
       "source": "We Work Remotely",
@@ -449,37 +714,23 @@
         "automation",
         "workflow",
         "ai"
-      ]
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "HighRadius: Enterprise Account Executive - DACH Region",
-      "url": "https://weworkremotely.com/remote-jobs/highradius-enterprise-account-executive-dach-region",
-      "published": "Thu, 08 Oct 2026 07:31:21 +0000",
-      "snippet": "Headquarters: Amsterdam, North Holland, Netherlands; London, England, United Kingdom; Remote - Germany Location: Germany (Remote), London and Amsterdam (Office based 5 days per week) Must be fluent in German and English for this role. Summary About HighRadius: HighRadius guarantees Value Creation for the Office of the CFO with a single Agentic AI platform. The platform integrates 190+ AI agents that orchestrate end-to-end processes across Order-to-Cash, Close &amp; Reconciliation, Consolidation &amp; Reporting, Accounts Payable, B2B Payments, and Treasury. Each agent is tied to measurable KPIs, ensuring real outcomes in just 3–6 months across 1,300+ Global Enterprises.&nbsp; Location: Germany (Remote) |London - 5 days a week in the office |Amsterdam - 5 days a week in the office)&nbsp; Travel: Up to 50% (Client Sites) The Account Executive (aka Digital Transformation Advisor) is responsi",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "ai agent",
-        "sales",
-        "ai"
-      ]
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Faire: Senior Brand Success Manager - Bilingual (Korean/English)",
-      "url": "https://weworkremotely.com/remote-jobs/faire-senior-brand-success-manager-bilingual-korean-english",
-      "published": "Thu, 08 Oct 2026 07:31:04 +0000",
-      "snippet": "Headquarters: Remote - US About Faire Faire is a technology wholesale platform built on the belief that the future is local. Independent retailers around the globe collectively represent a multi-hundred-billion-dollar wholesale market that has historically been fragmented and offline. At Faire, we're using the power of tech, data, and machine learning to connect this thriving community of entrepreneurs across the globe. Picture your favorite boutique in town — we help them discover the best products from around the world to sell in their stores. With the right tools and insights, we believe that we can level the playing field so businesses can grow and local communities can thrive. We’re looking for smart, resourceful and passionate people to join us as we power the shop local movement. If you believe in community, come join ours. About this role The mission of the Brand Success team is ",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "workflow",
-        "sales",
-        "ai"
-      ]
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 49,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     },
     {
       "source": "We Work Remotely",
@@ -494,8 +745,254 @@
         "automation",
         "workflow",
         "ai"
-      ]
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 49,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Remotive",
+      "title": "Tech Lead Full-Stack Rails Engineer",
+      "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
+      "published": "Mon, 14 Sep 2026 20:33:27 GMT",
+      "snippet": "About Mitre Media Mitre Media is redefining FinTech with AI-driven tools that empower millions of investors. Our portfolio, including Dividend.com and MutualFunds.com, leverages LLMs to deliver novel data insights and visually rich user experiences. For over a decade, we&#8217;ve served individual investors, financial advisors, and top asset managers like BlackRock and Vanguard through our premium data, tools, and advertising solutions. Join our lean, entrepreneurial team to shape the future of AI-powered investing from your location &#177;3 hours from Eastern Time. Our users are deeply engaged, spending over 5 minutes per visit with a bounce rate below 10%, researching investments across hundreds of different categories. With 40 million brokerage accounts in the U.S., we take pride in building tools that make a real impact, fostering a culture of trust, innovation, and dynamism. If you&",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "ai integration",
+        "workflow",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 48,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "HighRadius: Enterprise Account Executive - DACH Region",
+      "url": "https://weworkremotely.com/remote-jobs/highradius-enterprise-account-executive-dach-region",
+      "published": "Thu, 08 Oct 2026 07:31:21 +0000",
+      "snippet": "Headquarters: Amsterdam, North Holland, Netherlands; London, England, United Kingdom; Remote - Germany Location: Germany (Remote), London and Amsterdam (Office based 5 days per week) Must be fluent in German and English for this role. Summary About HighRadius: HighRadius guarantees Value Creation for the Office of the CFO with a single Agentic AI platform. The platform integrates 190+ AI agents that orchestrate end-to-end processes across Order-to-Cash, Close &amp; Reconciliation, Consolidation &amp; Reporting, Accounts Payable, B2B Payments, and Treasury. Each agent is tied to measurable KPIs, ensuring real outcomes in just 3–6 months across 1,300+ Global Enterprises.&nbsp; Location: Germany (Remote) |London - 5 days a week in the office |Amsterdam - 5 days a week in the office)&nbsp; Travel: Up to 50% (Client Sites) The Account Executive (aka Digital Transformation Advisor) is responsi",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "ai agent",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 48,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Faire: Senior Brand Success Manager - Bilingual (Korean/English)",
+      "url": "https://weworkremotely.com/remote-jobs/faire-senior-brand-success-manager-bilingual-korean-english",
+      "published": "Thu, 08 Oct 2026 07:31:04 +0000",
+      "snippet": "Headquarters: Remote - US About Faire Faire is a technology wholesale platform built on the belief that the future is local. Independent retailers around the globe collectively represent a multi-hundred-billion-dollar wholesale market that has historically been fragmented and offline. At Faire, we're using the power of tech, data, and machine learning to connect this thriving community of entrepreneurs across the globe. Picture your favorite boutique in town — we help them discover the best products from around the world to sell in their stores. With the right tools and insights, we believe that we can level the playing field so businesses can grow and local communities can thrive. We’re looking for smart, resourceful and passionate people to join us as we power the shop local movement. If you believe in community, come join ours. About this role The mission of the Brand Success team is ",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "workflow",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 48,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Remotive",
+      "title": "Senior React Full-stack Developer",
+      "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133",
+      "published": "Fri, 02 Oct 2026 13:30:06 GMT",
+      "snippet": "Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io &#8212; the marketplace that connects you with hand-picked startups in the US and Europe. &#160; What we offer: The rate depends on your seniority level, skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates &#8212; let us handle the business side of things so you can focus on what you do best. We'll manually find the best project for you according to your skills and preferences. Choose a schedule that works best for you. It&#8217;s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. Communicate directly with the clients. Most of them have technical backgrounds. So",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "automation",
+        "ai agent",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 45,
+        "estimated_value_eur": 11,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          11.0
+        ],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Remotive",
+      "title": "Senior AI Engineer",
+      "url": "https://remotive.com/remote-jobs/artificial-intelligence/senior-ai-engineer-2091131",
+      "published": "Fri, 18 Sep 2026 12:23:56 GMT",
+      "snippet": "Are you a talented Senior AI Engineer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io &#8212; the marketplace that connects you with hand-picked startups in the US and Europe. &#160; What we offer: The rate depends on your skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates &#8212; let us handle the business side of things so you can focus on what you do best. We'll manually find the best project for you according to your skills and preferences. Choose a schedule that works best for you. It&#8217;s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. Most of our projects involve working in a fast-paced startup environment. We hope you like it as ",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "automation",
+        "ai agent",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 45,
+        "estimated_value_eur": 11,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          11.0
+        ],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Remotive",
+      "title": "Senior .NET Full-stack Developer",
+      "url": "https://remotive.com/remote-jobs/software-development/senior-net-full-stack-developer-2091130",
+      "published": "Thu, 17 Sep 2026 13:22:05 GMT",
+      "snippet": "Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io &#8212; the marketplace that connects you with hand-picked startups in the US and Europe. &#160; What we offer: The rate depends on your seniority level, skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates &#8212; let us handle the business side of things so you can focus on what you do best. Choose a schedule that works best for you. It&#8217;s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. We will support you from the time you submit the application throughout all cooperation stages. Most of our projects involve working in a fast-paced startup environment.",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "automation",
+        "ai agent",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 45,
+        "estimated_value_eur": 11,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          11.0
+        ],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Remotive",
+      "title": "Senior Data Scientist",
+      "url": "https://remotive.com/remote-jobs/data/senior-data-scientist-2091129",
+      "published": "Wed, 16 Sep 2026 12:35:28 GMT",
+      "snippet": "Are you a talented Senior Data Scientist looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io &#8212; the marketplace that connects you with hand-picked startups in the US and Europe. &#160; What we offer: The rate depends on your skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates &#8212; let us handle the business side of things so you can focus on what you do best. We'll manually find the best project for you according to your skills and preferences. Choose a schedule that works best for you. It&#8217;s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. Most of our projects involve working in a fast-paced startup environment. We hope you like it ",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "automation",
+        "ai agent",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 45,
+        "estimated_value_eur": 11,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          11.0
+        ],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     }
   ],
-  "errors": []
+  "errors": [],
+  "analysis": {
+    "status": "ready_for_human_review",
+    "note": "Scores and prices are estimates, not guaranteed earnings.",
+    "next_step": "Review the highest-priority opportunity before contacting the buyer."
+  }
 }
