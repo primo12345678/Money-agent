@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T11:06:32.291595+00:00",
+  "generated_at": "2026-10-08T12:07:57.483566+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find legitimate income opportunities",
@@ -733,37 +733,6 @@
       }
     },
     {
-      "source": "We Work Remotely",
-      "title": "Coinbase: Analyst, Privacy",
-      "url": "https://weworkremotely.com/remote-jobs/coinbase-analyst-privacy",
-      "published": "Wed, 07 Oct 2026 07:31:00 +0000",
-      "snippet": "Headquarters: Remote - USA Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; learn more about working at Coinbase . Coinbase's Privacy team is hiring a Privacy Analyst to own the Privacy Incident Management function, reporting to the Head of Privacy. You'll partner across Privacy, Privacy Legal, Security, Product, Engineering, and Communications to triage incidents involving ",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 49,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "Remotive",
       "title": "Tech Lead Full-Stack Rails Engineer",
       "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
@@ -987,6 +956,39 @@
         },
         "human_approval_required": true
       }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Lemon.io: Senior .NET Full-stack Developer",
+      "url": "https://weworkremotely.com/remote-jobs/lemon-io-senior-net-full-stack-developer-2",
+      "published": "Thu, 08 Oct 2026 11:41:36 +0000",
+      "snippet": "Headquarters: New York, NY URL: https://lemon.io Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your seniority level, skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates — let us handle the business side of things so you can focus on what you do best. We'll manually find the best project for you according to your skills and preferences. Choose a schedule that works best for you. It’s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. Communicate directly with the clients. Most of them have t",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "automation",
+        "ai agent",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 45,
+        "estimated_value_eur": 11,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          11.0
+        ],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     }
   ],
   "errors": [],
@@ -997,7 +999,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-08T11:06:32.333862+00:00",
+    "created_at": "2026-10-08T12:07:57.533811+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
