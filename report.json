@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T12:07:57.483566+00:00",
+  "generated_at": "2026-10-08T13:11:26.021846+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find legitimate income opportunities",
@@ -548,6 +548,37 @@
     },
     {
       "source": "We Work Remotely",
+      "title": "HYROS: Customer Success Manager – High-Touch Onboarding",
+      "url": "https://weworkremotely.com/remote-jobs/hyros-customer-success-manager-high-touch-onboarding",
+      "published": "Thu, 08 Oct 2026 12:52:37 +0000",
+      "snippet": "Headquarters: Delaware URL: https://hyros.com/ About the Job At HYROS , we help businesses understand exactly where their customers and revenue come from through advanced ad tracking and attribution. We're looking for an experienced Customer Success Manager with 5+ years of experience to own high-touch onboarding and customer success for key customers. This is not a purely relationship-focused CSM role. Onboarding at HYROS has a strong technical component. You'll need to understand how a customer's marketing and sales ecosystem works, help them connect the right platforms, troubleshoot setup issues, and make sure their tracking is working correctly. Your goal is clear: help customers get set up correctly, reach value fast, trust their data, and use HYROS to make better business decisions. This is a high-ownership role. You'll lead customer relationships, identify risks early, solve probl",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "crm",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "LOW",
+        "opportunity_score": 50,
+        "estimated_value_eur": 750,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
       "title": "Vercel: Site Engineer",
       "url": "https://weworkremotely.com/remote-jobs/vercel-site-engineer",
       "published": "Thu, 08 Oct 2026 07:31:34 +0000",
@@ -795,37 +826,6 @@
       }
     },
     {
-      "source": "We Work Remotely",
-      "title": "Faire: Senior Brand Success Manager - Bilingual (Korean/English)",
-      "url": "https://weworkremotely.com/remote-jobs/faire-senior-brand-success-manager-bilingual-korean-english",
-      "published": "Thu, 08 Oct 2026 07:31:04 +0000",
-      "snippet": "Headquarters: Remote - US About Faire Faire is a technology wholesale platform built on the belief that the future is local. Independent retailers around the globe collectively represent a multi-hundred-billion-dollar wholesale market that has historically been fragmented and offline. At Faire, we're using the power of tech, data, and machine learning to connect this thriving community of entrepreneurs across the globe. Picture your favorite boutique in town — we help them discover the best products from around the world to sell in their stores. With the right tools and insights, we believe that we can level the playing field so businesses can grow and local communities can thrive. We’re looking for smart, resourceful and passionate people to join us as we power the shop local movement. If you believe in community, come join ours. About this role The mission of the Brand Success team is ",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "workflow",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 48,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "Remotive",
       "title": "Senior React Full-stack Developer",
       "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133",
@@ -999,7 +999,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-08T12:07:57.533811+00:00",
+    "created_at": "2026-10-08T13:11:26.368408+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
