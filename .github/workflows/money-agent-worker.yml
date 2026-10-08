@@ -1,4 +1,4 @@
-name: Money Agent Worker
+ name: Money Agent Worker
 
 on:
   workflow_dispatch:
@@ -27,10 +27,15 @@ jobs:
       - name: Run Analyst
         run: python backend/analyst.py
 
+      - name: Run Deal Maker
+        run: python backend/deal_maker.py
+
       - name: Validate Agent
         run: |
           python -m py_compile backend/hunter.py
           python -m py_compile backend/analyst.py
+          python -m py_compile backend/deal_maker.py
+
           python - <<'PY'
           import json
 
@@ -42,23 +47,38 @@ jobs:
           print("Money Agent validation")
           print("Opportunities:", len(opportunities))
 
-          if opportunities:
-              top = opportunities[0]
-              analysis = top.get("analysis", {})
-
-              print("Top opportunity:", top.get("title"))
-              print("Priority:", analysis.get("priority"))
-              print("Opportunity score:", analysis.get("opportunity_score"))
-              print("Estimated value EUR:", analysis.get("estimated_value_eur"))
-
           if not isinstance(opportunities, list):
               raise SystemExit("Invalid opportunities format")
+
+          deal_maker = report.get("deal_maker", {})
+
+          print(
+              "Deal Maker status:",
+              deal_maker.get("status")
+          )
+
+          print(
+              "Drafts:",
+              deal_maker.get("draft_count", 0)
+          )
+
+          print("Validation: OK")
+
+          if deal_maker.get("status") != "drafts_ready_for_human_review":
+              raise SystemExit("Deal Maker did not produce drafts")
+
+          if deal_maker.get("draft_count", 0) == 0:
+              raise SystemExit("No deal drafts generated")
           PY
 
       - name: Save report
         run: |
           git config user.name "Money Agent"
           git config user.email "money-agent@users.noreply.github.com"
+
           git add report.json
-          git diff --cached --quiet || git commit -m "Update Money Agent analysis"
+
+          git diff --cached --quiet || \
+            git commit -m "Update Money Agent opportunity and deal report"
+
           git push
