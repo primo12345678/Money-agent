@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T18:06:51.164827+00:00",
+  "generated_at": "2026-10-08T19:08:11.252116+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find legitimate income opportunities",
@@ -77,40 +77,6 @@
         "category": "ai_automation",
         "priority": "MEDIUM",
         "opportunity_score": 66,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Dropbox: Scaled Customer Success Manager",
-      "url": "https://weworkremotely.com/remote-jobs/dropbox-scaled-customer-success-manager",
-      "published": "Tue, 06 Oct 2026 22:42:07 +0000",
-      "snippet": "Headquarters: California URL: https://www.dropbox.com/ Role Description As a Scaled Customer Success Manager at Dropbox, you will drive adoption, value realization, and renewal readiness across a portfolio of mid-market and small business managed customers. You will use customer and product signals to identify where engagement can have the greatest impact, then deliver timely, relevant experiences through targeted campaigns, group programs, digital touchpoints, and selective personalized outreach. You will play a central role in connecting our Programmatic and Digital Customer Success team with the Renewals Desk for scaled segment accounts. You will ensure customer health, sentiment, risk, and adoption signals translate into clear renewal-readiness actions, while identifying and qualifying customer-backed growth opportunities as Customer Success Qualified Leads (CSQLs) for handoff to Sal",
-      "score": 62,
-      "confidence": 0.77,
-      "automation_fit": 0.76,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "crm",
-        "sales",
-        "marketing automation",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "MEDIUM",
-        "opportunity_score": 64,
         "estimated_value_eur": 600,
         "value_basis": "Service-band estimate; not a quoted budget",
         "budget_signals": [],
@@ -259,6 +225,39 @@
     },
     {
       "source": "We Work Remotely",
+      "title": "Creatio: Enterprise Account Executive (Kazakhstan)",
+      "url": "https://weworkremotely.com/remote-jobs/creatio-enterprise-account-executive-kazakhstan",
+      "published": "Thu, 08 Oct 2026 18:37:31 +0000",
+      "snippet": "Headquarters: Kazakhstan URL: http://creatio.com Creatio is a global vendor of&nbsp;an agentic CRM &amp; workflow platform with no-code and AI at its core. We help organizations automate customer and operational workflows achieving the fastest time-to-value and the highest ROI on the market. Millions of workflows run on Creatio daily, supporting thousands of clients in over 100 countries. Genuine care for our clients and partners is at the heart of our DNA.&nbsp;We’re proud to be recognized by top industry analysts as a&nbsp;Leader and Strong Performer in multiple Gartner and Forrester reports.In 2025, Creatio was named to Inc.’s Best Workplaces list,&nbsp;recognizing our commitment to employee wellbeing and a strong workplace culture.Who We’re Looking For:We are seeking an experienced Enterprise Account Executive to help us scale the number of Enterprises that use the Creatio platform. ",
+      "score": 55,
+      "confidence": 0.7,
+      "automation_fit": 0.7,
+      "matched_keywords": [
+        "workflow",
+        "crm",
+        "no-code",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "MEDIUM",
+        "opportunity_score": 60,
+        "estimated_value_eur": 750,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
       "title": "Mixmax: Billing Support Analyst - Philippines",
       "url": "https://weworkremotely.com/remote-jobs/mixmax-billing-support-analyst-philippines",
       "published": "Wed, 07 Oct 2026 07:31:00 +0000",
@@ -356,32 +355,32 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "FP Markets: Global CRM & Lifecycle Marketing Manager",
-      "url": "https://weworkremotely.com/remote-jobs/fp-markets-global-crm-lifecycle-marketing-manager",
-      "published": "Tue, 06 Oct 2026 22:04:13 +0000",
-      "snippet": "Headquarters: Malta URL: http://fpmarkets.com.au Description FP Markets Group of Companies is a well-established multi-regulated broker, founded in Australia, offering traders access to CFD trading on Forex, Indices, Commodities, Stocks and Cryptocurrencies. We are growing and looking to recruit a Full-time Global CRM &amp; Lifecycle Marketing Manager (remote). This role owns everything we say to a client between the moment they first raise their hand and the moment they place their first trade. You will design, build, send and continuously improve every automated and campaign communication across four funnel stages — Lead, Registration, First Time Deposit and First Time Trade — using email and WhatsApp, built and run in Salesforce Marketing Cloud. This is a hands-on build-and-send role rather than a strategy role: you will have the support of content, creative and analytics teams, but t",
+      "title": "Bondora: Head of CRM & Lifecycle Marketing",
+      "url": "https://weworkremotely.com/remote-jobs/bondora-head-of-crm-lifecycle-marketing",
+      "published": "Thu, 08 Oct 2026 18:37:31 +0000",
+      "snippet": "Headquarters: Denmark; Finland; Latvia; Netherlands; Remote; Spain; Tallinn, Harju, Estonia URL: http://bondora.group At Bondora, our mission is simple: to make finance easy, transparent, and accessible for everyone. Founded in 2008, we’ve helped more than 700,000 customers across Europe borrow and invest effortlessly through our trusted digital products. As a rapidly growing financial technology company, we’re reaching new heights with a bold vision. We’re set to acquire a banking license, unlocking a world of possibilities for our customers. This transition will allow us to expand our lending across more EU countries and broaden our product suite to deliver even more value. Join us on this journey and let’s build the future of finance together! What is this role about? 🚀 As the Head of CRM &amp; Lifecycle Marketing at Bondora, you'll own the strategy behind how we engage, retain, and g",
       "score": 48,
       "confidence": 0.63,
       "automation_fit": 0.64,
       "matched_keywords": [
         "automation",
+        "workflow",
         "crm",
-        "sales",
         "ai"
       ],
       "analysis": {
-        "category": "lead_generation",
-        "priority": "MEDIUM",
-        "opportunity_score": 55,
-        "estimated_value_eur": 750,
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 54,
+        "estimated_value_eur": 600,
         "value_basis": "Service-band estimate; not a quoted budget",
         "budget_signals": [],
         "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -796,16 +795,16 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "HighRadius: Enterprise Account Executive - DACH Region",
-      "url": "https://weworkremotely.com/remote-jobs/highradius-enterprise-account-executive-dach-region",
-      "published": "Thu, 08 Oct 2026 07:31:21 +0000",
-      "snippet": "Headquarters: Amsterdam, North Holland, Netherlands; London, England, United Kingdom; Remote - Germany Location: Germany (Remote), London and Amsterdam (Office based 5 days per week) Must be fluent in German and English for this role. Summary About HighRadius: HighRadius guarantees Value Creation for the Office of the CFO with a single Agentic AI platform. The platform integrates 190+ AI agents that orchestrate end-to-end processes across Order-to-Cash, Close &amp; Reconciliation, Consolidation &amp; Reporting, Accounts Payable, B2B Payments, and Treasury. Each agent is tied to measurable KPIs, ensuring real outcomes in just 3–6 months across 1,300+ Global Enterprises.&nbsp; Location: Germany (Remote) |London - 5 days a week in the office |Amsterdam - 5 days a week in the office)&nbsp; Travel: Up to 50% (Client Sites) The Account Executive (aka Digital Transformation Advisor) is responsi",
+      "title": "Prospex CRM: Tech Lead",
+      "url": "https://weworkremotely.com/remote-jobs/prospex-crm-tech-lead",
+      "published": "Thu, 08 Oct 2026 18:37:31 +0000",
+      "snippet": "Headquarters: Egypt, Bahrain, Turkey URL: http://prospexcrm.xyz Senior Software Engineer About Our Client Our Client is a fast-growing procurement and technology company headquartered in Riyadh with operations across Saudi Arabia and Bahrain. We are building innovative solutions to simplify procurement processes, empower businesses, and create meaningful impact. Why Join Us? We are looking for talented, growth-minded individuals eager to take on new challenges. We nurture potential and provide an environment where every employee can thrive professionally and personally . Role Summary: As a Senior Software Engineer, you'll be a key technical leader, driving the design, development, and maintenance of our core backend services. You'll collaborate extensively with product, frontend, and DevOps teams to architect and build highly scalable, efficient, and robust systems. Your contributions wi",
       "score": 41,
       "confidence": 0.56,
       "automation_fit": 0.58,
       "matched_keywords": [
-        "ai agent",
-        "sales",
+        "workflow",
+        "crm",
         "ai"
       ],
       "analysis": {
@@ -999,7 +998,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-08T18:06:51.208311+00:00",
+    "created_at": "2026-10-08T19:08:11.299136+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -1030,21 +1029,6 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"Smartsheet: Director, Finance Systems & ERP\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Dropbox: Scaled Customer Success Manager",
-        "url": "https://weworkremotely.com/remote-jobs/dropbox-scaled-customer-success-manager",
-        "priority": "MEDIUM",
-        "opportunity_score": 64,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"Dropbox: Scaled Customer Success Manager\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -1105,6 +1089,21 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"Humane World for Animals: Web Designer, eCRM\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Creatio: Enterprise Account Executive (Kazakhstan)",
+        "url": "https://weworkremotely.com/remote-jobs/creatio-enterprise-account-executive-kazakhstan",
+        "priority": "MEDIUM",
+        "opportunity_score": 60,
+        "estimated_value_eur": 750,
+        "offer": {
+          "subject": "Proposal: AI lead generation and follow-up",
+          "price_eur": 750,
+          "starter_price_eur": 300,
+          "message": "Hi,\n\nI saw your request about \"Creatio: Enterprise Account Executive (Kazakhstan)\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
