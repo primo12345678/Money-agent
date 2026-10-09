@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T14:08:15.240442+00:00",
+  "generated_at": "2026-10-09T15:07:14.737660+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find legitimate income opportunities",
@@ -387,6 +387,38 @@
       }
     },
     {
+      "source": "We Work Remotely",
+      "title": "UTTR: Senior Performance Marketing Manager (Part-Time)",
+      "url": "https://weworkremotely.com/remote-jobs/uttr-senior-performance-marketing-manager-part-time",
+      "published": "Wed, 09 Sep 2026 14:34:00 +0000",
+      "snippet": "Headquarters: New York URL: https://www.uttr.com/ UTTR is on the lookout for a part-time Performance Marketing Manager . You'll be responsible for shaping marketing strategies and cultivating deep, trusted partnerships with our core clients. At UTTR, we believe in “up &amp; to the right” — sustainable, measurable growth. Your expertise will guide clients toward achieving SMART goals while navigating the multifaceted landscape of B2B digital marketing. This role is ideal for an experienced performance marketer who wants meaningful ownership and strategic impact in a flexible, part-time capacity. Responsibilities Deeply Understand Audiences We work across the B2B world in a diverse range of industries and niches. You need to quickly understand each audience to recommend relevant, high-impact advertising strategies. Drive Outcomes (Pipeline Ownership) All engagements are OKR- or goal-based.",
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "automation",
+        "sales",
+        "marketing automation",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 53,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
       "source": "Remotive",
       "title": "Senior Shopify Developer",
       "url": "https://remotive.com/remote-jobs/software-development/senior-shopify-developer-2091140",
@@ -640,37 +672,6 @@
       "url": "https://weworkremotely.com/remote-jobs/jumio-machine-learning-engineer",
       "published": "Thu, 08 Oct 2026 07:31:21 +0000",
       "snippet": "Headquarters: Austria (remote) Machine Learning Engineer&nbsp; We’re looking for a Machine Learning Engineer with deep expertise in computer vision and biometrics to lead the design and scaling of face recognition systems in production. You’ll build and train models, and own ML systems end-to-end on AWS. The final job level for this role will be determined following the interview process. What You’ll Do Lead the design and development of computer vision systems for biometrics (face attributes, detection, quality, and recognition) Rigorous fairness analysis and benchmarking of biometric models across various datasets and operating conditions. Architect, train, and optimize models using PyTorch, Tensorflow, and/or JAX Own and evolve end-to-end ML pipelines, from data ingestion to deployment. Design automated pipelines (Airflow) for data ingestion and cleaning. You will be responsible for c",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 49,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Coinbase: Analyst, Privacy",
-      "url": "https://weworkremotely.com/remote-jobs/coinbase-analyst-privacy",
-      "published": "Wed, 07 Oct 2026 07:31:00 +0000",
-      "snippet": "Headquarters: Remote - USA Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; learn more about working at Coinbase . Coinbase's Privacy team is hiring a Privacy Analyst to own the Privacy Incident Management function, reporting to the Head of Privacy. You'll partner across Privacy, Privacy Legal, Security, Product, Engineering, and Communications to triage incidents involving ",
       "score": 41,
       "confidence": 0.56,
       "automation_fit": 0.58,
@@ -996,7 +997,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-09T14:08:15.281523+00:00",
+    "created_at": "2026-10-09T15:07:14.783509+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
