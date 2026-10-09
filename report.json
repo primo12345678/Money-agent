@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T17:06:34.744852+00:00",
+  "generated_at": "2026-10-09T18:06:27.996507+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find legitimate income opportunities",
@@ -730,16 +730,16 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "Prospex CRM: Tech Lead",
-      "url": "https://weworkremotely.com/remote-jobs/prospex-crm-tech-lead",
-      "published": "Thu, 08 Oct 2026 18:37:31 +0000",
-      "snippet": "Headquarters: Egypt, Bahrain, Turkey URL: http://prospexcrm.xyz Senior Software Engineer About Our Client Our Client is a fast-growing procurement and technology company headquartered in Riyadh with operations across Saudi Arabia and Bahrain. We are building innovative solutions to simplify procurement processes, empower businesses, and create meaningful impact. Why Join Us? We are looking for talented, growth-minded individuals eager to take on new challenges. We nurture potential and provide an environment where every employee can thrive professionally and personally . Role Summary: As a Senior Software Engineer, you'll be a key technical leader, driving the design, development, and maintenance of our core backend services. You'll collaborate extensively with product, frontend, and DevOps teams to architect and build highly scalable, efficient, and robust systems. Your contributions wi",
+      "title": "RETR: Customer Success Manager",
+      "url": "https://weworkremotely.com/remote-jobs/retr-customer-success-manager",
+      "published": "Fri, 09 Oct 2026 17:46:45 +0000",
+      "snippet": "Headquarters: Remote URL: https://retr.app/ About RETR RETR is a mortgage market intelligence platform. Loan officers use us to find the real estate agents worth building relationships with, mortgage companies use us to recruit top producers, and lenders use us to decide who to lend their money through. More than 55% of the Top 100 mortgage lenders are customers. We were founded in 2022, we are bootstrapped and profitable, and we have never taken outside money. We grew because loan officers told other loan officers about us. That word of mouth is the whole company in one sentence, and it is why customer outcomes are not a service function here. They are the growth engine. We are fully remote and we operate on a few principles: lead with value, do the right thing, be generous without keeping score . We hire for honesty, integrity, fairness, accountability, and excellence, and we have very",
       "score": 41,
       "confidence": 0.56,
       "automation_fit": 0.58,
       "matched_keywords": [
-        "workflow",
-        "crm",
+        "automation",
+        "sales",
         "ai"
       ],
       "analysis": {
@@ -761,16 +761,16 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "Faire: Senior Brand Success Manager - Bilingual (Korean/English)",
-      "url": "https://weworkremotely.com/remote-jobs/faire-senior-brand-success-manager-bilingual-korean-english",
-      "published": "Thu, 08 Oct 2026 07:31:04 +0000",
-      "snippet": "Headquarters: Remote - US About Faire Faire is a technology wholesale platform built on the belief that the future is local. Independent retailers around the globe collectively represent a multi-hundred-billion-dollar wholesale market that has historically been fragmented and offline. At Faire, we're using the power of tech, data, and machine learning to connect this thriving community of entrepreneurs across the globe. Picture your favorite boutique in town — we help them discover the best products from around the world to sell in their stores. With the right tools and insights, we believe that we can level the playing field so businesses can grow and local communities can thrive. We’re looking for smart, resourceful and passionate people to join us as we power the shop local movement. If you believe in community, come join ours. About this role The mission of the Brand Success team is ",
+      "title": "Prospex CRM: Tech Lead",
+      "url": "https://weworkremotely.com/remote-jobs/prospex-crm-tech-lead",
+      "published": "Thu, 08 Oct 2026 18:37:31 +0000",
+      "snippet": "Headquarters: Egypt, Bahrain, Turkey URL: http://prospexcrm.xyz Senior Software Engineer About Our Client Our Client is a fast-growing procurement and technology company headquartered in Riyadh with operations across Saudi Arabia and Bahrain. We are building innovative solutions to simplify procurement processes, empower businesses, and create meaningful impact. Why Join Us? We are looking for talented, growth-minded individuals eager to take on new challenges. We nurture potential and provide an environment where every employee can thrive professionally and personally . Role Summary: As a Senior Software Engineer, you'll be a key technical leader, driving the design, development, and maintenance of our core backend services. You'll collaborate extensively with product, frontend, and DevOps teams to architect and build highly scalable, efficient, and robust systems. Your contributions wi",
       "score": 41,
       "confidence": 0.56,
       "automation_fit": 0.58,
       "matched_keywords": [
         "workflow",
-        "sales",
+        "crm",
         "ai"
       ],
       "analysis": {
@@ -997,7 +997,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-09T17:06:34.775813+00:00",
+    "created_at": "2026-10-09T18:06:28.046749+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
