@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T21:04:13.801010+00:00",
+  "generated_at": "2026-10-10T22:03:52.428167+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find legitimate income opportunities",
@@ -458,6 +458,38 @@
     },
     {
       "source": "We Work Remotely",
+      "title": "QuickMail: Technical Customer Support",
+      "url": "https://weworkremotely.com/remote-jobs/quickmail-technical-customer-support",
+      "published": "Sat, 10 Oct 2026 21:21:48 +0000",
+      "snippet": "Headquarters: Zurich, Switzerland URL: https://quickmail.com The role We are hiring a technical customer support person with an owner's mentality. You will own support for QuickMail and Mailflow, our deliverability add-on. There is no first or second line. You are the first and last person our customers talk to. Customers count on you to solve their problems and find the real cause when something breaks. You work closely with engineering, and you tell the founder what we need to know to make the product better: where the friction is and where the opportunities are. The role covers the help desk, system health checks, testing new releases before they ship, and leading the weekly team meeting. It takes excellent communication, solid technical understanding and sharp critical thinking. This is not a script-reading job. Most tickets involve deliverability, DNS records, LinkedIn automation or",
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "automation",
+        "workflow",
+        "customer support",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 54,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
       "title": "Pendo: Senior Pre- & Post-Sales Customer Engineer, Enterprise",
       "url": "https://weworkremotely.com/remote-jobs/pendo-senior-pre-post-sales-customer-engineer-enterprise",
       "published": "Sat, 10 Oct 2026 07:30:46 +0000",
@@ -805,37 +837,6 @@
       }
     },
     {
-      "source": "We Work Remotely",
-      "title": "RETR: Customer Success Manager",
-      "url": "https://weworkremotely.com/remote-jobs/retr-customer-success-manager",
-      "published": "Fri, 09 Oct 2026 17:46:45 +0000",
-      "snippet": "Headquarters: Remote URL: https://retr.app/ About RETR RETR is a mortgage market intelligence platform. Loan officers use us to find the real estate agents worth building relationships with, mortgage companies use us to recruit top producers, and lenders use us to decide who to lend their money through. More than 55% of the Top 100 mortgage lenders are customers. We were founded in 2022, we are bootstrapped and profitable, and we have never taken outside money. We grew because loan officers told other loan officers about us. That word of mouth is the whole company in one sentence, and it is why customer outcomes are not a service function here. They are the growth engine. We are fully remote and we operate on a few principles: lead with value, do the right thing, be generous without keeping score . We hire for honesty, integrity, fairness, accountability, and excellence, and we have very",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "automation",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 48,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "Remotive",
       "title": "Senior React Full-stack Developer",
       "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133",
@@ -1009,7 +1010,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-10T21:04:13.850214+00:00",
+    "created_at": "2026-10-10T22:03:52.464102+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
