@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T07:06:36.049697+00:00",
+  "generated_at": "2026-10-10T08:04:53.632538+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find legitimate income opportunities",
@@ -58,6 +58,74 @@
     },
     {
       "source": "We Work Remotely",
+      "title": "Tines: Manager, Renewals",
+      "url": "https://weworkremotely.com/remote-jobs/tines-manager-renewals",
+      "published": "Sat, 10 Oct 2026 07:31:08 +0000",
+      "snippet": "Headquarters: North America (Remote) Tines is the intelligent workflow company that powers some of the world's most important workflows.&nbsp; Tines has been supporting IT and security teams from a diverse range of customers, including Canva, Reddit, SAP, Coinbase, Mars, Fin (Intercom), and McKesson. Tines 3B, launched in 2026, is the next generation of Tines – a single, secure environment for every team’s apps, agents and automations. As an integrator across the entire tech stack, Tines is vendor-agnostic integrating with any API-enabled service. This flexibility enables our customers to achieve their highest-priority goals faster. Tines has security woven into its DNA, and our platform is secure and private by design.&nbsp; At Tines, we're driven by our values of Simplicity, Speed, and Soundness. We're committed to delivering exceptional customer experiences while fostering a company c",
+      "score": 62,
+      "confidence": 0.77,
+      "automation_fit": 0.76,
+      "matched_keywords": [
+        "automation",
+        "ai agent",
+        "workflow",
+        "crm",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "MEDIUM",
+        "opportunity_score": 66,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Tines: GTM Systems Specialist",
+      "url": "https://weworkremotely.com/remote-jobs/tines-gtm-systems-specialist",
+      "published": "Sat, 10 Oct 2026 07:31:08 +0000",
+      "snippet": "Headquarters: United States (Remote) Tines is the intelligent workflow company that powers some of the world's most important workflows.&nbsp; Tines has been supporting IT and security teams from a diverse range of customers, including Canva, Reddit, SAP, Coinbase, Mars, Fin (Intercom), and McKesson. Tines 3B, launched in 2026, is the next generation of Tines – a single, secure environment for every team’s apps, agents and automations. As an integrator across the entire tech stack, Tines is vendor-agnostic integrating with any API-enabled service. This flexibility enables our customers to achieve their highest-priority goals faster. Tines has security woven into its DNA, and our platform is secure and private by design.&nbsp; At Tines, we're driven by our values of Simplicity, Speed, and Soundness. We're committed to delivering exceptional customer experiences while fostering a company c",
+      "score": 62,
+      "confidence": 0.77,
+      "automation_fit": 0.76,
+      "matched_keywords": [
+        "automation",
+        "ai agent",
+        "workflow",
+        "crm",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "MEDIUM",
+        "opportunity_score": 66,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
       "title": "Smartsheet: Director, Finance Systems & ERP",
       "url": "https://weworkremotely.com/remote-jobs/smartsheet-director-finance-systems-erp",
       "published": "Sun, 04 Oct 2026 07:31:27 +0000",
@@ -92,33 +160,33 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "PagerDuty: Senior Director, Field Enablement",
-      "url": "https://weworkremotely.com/remote-jobs/pagerduty-senior-director-field-enablement",
-      "published": "Tue, 06 Oct 2026 07:31:16 +0000",
-      "snippet": "Headquarters: Remote (USA - San Francisco, CA) PagerDuty, Inc. (NYSE: PD) is the global leader in AI-first digital operations. By automatically detecting, diagnosing, and remediating issues, the PagerDuty Platform orchestrates AI agents and automated workflows with context from over 750 integrations. Trusted by approximately two-thirds of the Fortune 100 and nearly half of the Fortune 500, PagerDuty is the industry standard for organizations scaling resilient, autonomous operations. Notable customers include Chipotle, Cloudflare, Docusign, Fox, Nvidia, Salesforce, Spotify, Zoom and more. We are growing rapidly and hiring top talent with leading AI skills across engineering, sales, product, marketing, and beyond as we build the leading digital operations platform. &nbsp; ABOUT THE ROLE PagerDuty is seeking a Sr. Director, Field Enablement to join our diverse, customer-focused team! As Sr.",
+      "title": "BeyondTrust: Cyber Defense Engineer",
+      "url": "https://weworkremotely.com/remote-jobs/beyondtrust-cyber-defense-engineer",
+      "published": "Sat, 10 Oct 2026 07:30:48 +0000",
+      "snippet": "Headquarters: Remote Manchester, UK BeyondTrust is a place where you can bring your purpose to life through the work that you do, creating a safer world through our cybersecurity SaaS portfolio. Our culture of flexibility, trust, and continual learning means you will be recognized for your growth, and for the impact you make on our success. You will be surrounded by people who challenge, support, and inspire you to be the best version of yourself. The Role BeyondTrust is a global leader in privileged access management. Our products provide remote access and privileged control capabilities that are deployed across thousands of enterprise environments worldwide. That makes us a high-value target. Nation-state actors, ransomware operators, and sophisticated threat groups actively target companies like ours—not just to compromise our corporate environment, but to reach the customers who trus",
       "score": 55,
       "confidence": 0.7,
       "automation_fit": 0.7,
       "matched_keywords": [
+        "automation",
         "ai agent",
+        "ai integration",
         "workflow",
-        "crm",
-        "sales",
         "ai"
       ],
       "analysis": {
-        "category": "integration",
+        "category": "ai_automation",
         "priority": "MEDIUM",
         "opportunity_score": 61,
-        "estimated_value_eur": 650,
+        "estimated_value_eur": 600,
         "value_basis": "Service-band estimate; not a quoted budget",
         "budget_signals": [],
         "offer": {
-          "service": "AI/API/CRM integration",
+          "service": "AI workflow automation",
           "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -258,6 +326,71 @@
     },
     {
       "source": "We Work Remotely",
+      "title": "Huntress: Senior Sales Operations Business Partner",
+      "url": "https://weworkremotely.com/remote-jobs/huntress-senior-sales-operations-business-partner",
+      "published": "Sat, 10 Oct 2026 07:30:50 +0000",
+      "snippet": "Headquarters: Remote US What We Do: Cybercrime is growing, and more businesses are getting hit by threats that used to target only the biggest organizations. That pushes defenders like us to operate at the highest level, and it deepens our need for good people who want to make a meaningful impact. Founded in 2015 by former NSA cyber operators, Huntress is a remote-first team working to make enterprise-grade cybersecurity accessible to businesses of all sizes. We work closely with security teams and service providers protecting complex environments, often without the time or headcount to handle it all. That’s why we build our technology in-house and back it with a 24/7 human-led Security Operations Center (SOC). As a result, our platform is never disconnected from the experts who manage it, ensuring our customers' protection. Huntress now secures more than 5M endpoints and 16M identities ",
+      "score": 55,
+      "confidence": 0.7,
+      "automation_fit": 0.7,
+      "matched_keywords": [
+        "automation",
+        "workflow",
+        "crm",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "MEDIUM",
+        "opportunity_score": 59,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Typeform: Full Stack Developer",
+      "url": "https://weworkremotely.com/remote-jobs/typeform-full-stack-developer",
+      "published": "Sat, 10 Oct 2026 07:31:08 +0000",
+      "snippet": "Headquarters: Germany (Remote) ; Ireland (Remote); Netherlands (Remote) ; Portugal (Remote) ; Spain (Remote) ; United Kingdom (Remote) Who we are Typeform is a refreshingly different form builder. We help over 150,000 businesses collect the data they need with forms, surveys, and quizzes that people enjoy. Designed to look striking and feel effortless to fill out, Typeform drives 500 million responses every year—and integrates with essential tools like Slack, Zapier, and Hubspot. Typeform is fully remote by design. For this role, we can hire candidates based in the UK, Ireland, Germany, Portugal, Spain or The Netherlands About the team Typeform is a leading provider of interactive forms, surveys, and data collection experiences. We help businesses create more engaging ways to collect, manage, and understand data. This team sits at the center of how Typeform builds product experiences, cr",
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "automation",
+        "workflow",
+        "zapier",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "MEDIUM",
+        "opportunity_score": 56,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
       "title": "Current: Producer, Client Experience & Growth (Contract)",
       "url": "https://weworkremotely.com/remote-jobs/current-producer-client-experience-growth-contract",
       "published": "Wed, 07 Oct 2026 07:31:04 +0000",
@@ -284,6 +417,38 @@
           "target_price_eur": 750,
           "premium_price_eur": 2000,
           "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Pendo: Senior Pre- & Post-Sales Customer Engineer, Enterprise",
+      "url": "https://weworkremotely.com/remote-jobs/pendo-senior-pre-post-sales-customer-engineer-enterprise",
+      "published": "Sat, 10 Oct 2026 07:30:46 +0000",
+      "snippet": "Headquarters: San Francisco, CA / Seattle, WA / Denver, CO / Remote The Team + The Role Pendo’s Customer Engineering team is the technical backbone of the pre- and post-sales customer motion. The team brings together work that has historically sat across Customer Success, Technical Account Management, and Solutions Engineering into one full-lifecycle technical owner. Customer Engineering helps customers connect technical execution to business outcomes and realize the value of their investment in Pendo. As a Senior Customer Engineer, you own strategic and complex Enterprise accounts across acquisition, implementation, adoption, expansion, and escalation. You lead technical strategy for complex deployments, resolve ambiguous customer challenges, and partner closely with account teams to drive retention, expansion, and customer value. Your impact extends beyond your own accounts through pla",
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "automation",
+        "workflow",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 54,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -482,72 +647,10 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "HYROS: Customer Success Manager – High-Touch Onboarding",
-      "url": "https://weworkremotely.com/remote-jobs/hyros-customer-success-manager-high-touch-onboarding",
-      "published": "Thu, 08 Oct 2026 12:52:37 +0000",
-      "snippet": "Headquarters: Delaware URL: https://hyros.com/ About the Job At HYROS , we help businesses understand exactly where their customers and revenue come from through advanced ad tracking and attribution. We're looking for an experienced Customer Success Manager with 5+ years of experience to own high-touch onboarding and customer success for key customers. This is not a purely relationship-focused CSM role. Onboarding at HYROS has a strong technical component. You'll need to understand how a customer's marketing and sales ecosystem works, help them connect the right platforms, troubleshoot setup issues, and make sure their tracking is working correctly. Your goal is clear: help customers get set up correctly, reach value fast, trust their data, and use HYROS to make better business decisions. This is a high-ownership role. You'll lead customer relationships, identify risks early, solve probl",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "crm",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "lead_generation",
-        "priority": "LOW",
-        "opportunity_score": 50,
-        "estimated_value_eur": 750,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Vercel: Site Engineer",
-      "url": "https://weworkremotely.com/remote-jobs/vercel-site-engineer",
-      "published": "Thu, 08 Oct 2026 07:31:34 +0000",
-      "snippet": "Headquarters: Remote - United States About Vercel: Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience. Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. About the Role: As a growth-focused Fullstack Engineer on our team, you will play a central role in driving user acquisition, conversion, and retention through highly performant and visually stunning web experiences. You will collaborate with cross-functional teams—from marketing to sales to product design—to build dynamic pages, run A/B tests, and optimize conversion funnels. In this role, you’ll design and develop scalable feature",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "lead generation",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "lead_generation",
-        "priority": "LOW",
-        "opportunity_score": 50,
-        "estimated_value_eur": 750,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Forter: Regional Director, Enterprise Sales",
-      "url": "https://weworkremotely.com/remote-jobs/forter-regional-director-enterprise-sales",
-      "published": "Thu, 08 Oct 2026 07:31:21 +0000",
-      "snippet": "Headquarters: United States - Remote About the role: Forter is seeking an accomplished Regional Director, Enterprise Sales to lead our enterprise sales strategy and execution across the Eastern United States. This role will own regional revenue growth, new-logo acquisition, strategic account development, pipeline health, and forecast accuracy across a complex enterprise territory. You will lead, coach, and develop a high-performing enterprise sales team while building executive relationships with major digital commerce, payments, and technology organizations. Using a consultative, value-based approach, you will help customers understand how Forter’s Trust Platform can reduce fraud and abuse, improve approval rates, optimize payments, and strengthen the customer experience. This is a highly visible leadership role requiring strong commercial judgment, operational rigor, executive presence",
+      "title": "BeyondTrust: Customer Retention Executive",
+      "url": "https://weworkremotely.com/remote-jobs/beyondtrust-customer-retention-executive",
+      "published": "Sat, 10 Oct 2026 07:30:42 +0000",
+      "snippet": "Headquarters: Remote United States | East Coast BeyondTrust is a place where you can bring your purpose to life through the work that you do, creating a safer world through our cybersecurity SaaS portfolio. Our culture of flexibility, trust, and continual learning means you will be recognized for your growth and for the impact you make on our success. You will be surrounded by people who challenge, support, and inspire you to be the best version of yourself. Please note: This is a remote role in the US but candidates must be located on the east coast in order to be considered. The Role The Customer Retention Executive (CRE1) is a member of the global Customer Retention &amp; Growth Team within the Go to Market organization of BeyondTrust. The CRE1 works to secure and expand the recurring revenue business of the BeyondTrust customer base through driving both renewals and identifying/assis",
       "score": 41,
       "confidence": 0.56,
       "automation_fit": 0.58,
@@ -606,72 +709,10 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "Vercel: Security Software Engineer, IAM",
-      "url": "https://weworkremotely.com/remote-jobs/vercel-security-software-engineer-iam",
-      "published": "Thu, 08 Oct 2026 07:31:26 +0000",
-      "snippet": "Headquarters: Remote - United States About Vercel: Vercel is the agentic infrastructure company, freeing people and agents to ship what's next. For more than a decade we've helped builders move from idea to production with speed, security, and exceptional developer experience. Now we're scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. About the Role: Traditional IAM teams operate as an approval queue: a request comes in, someone reviews it, grants it, and (hopefully) remembers to revoke it. Access reviews become quarterly spreadsheet exercises, audit evidence is assembled by hand, and the central team becomes the bottleneck for every decision. That model doesn't scale past a certain point, and Vercel is past it. Adding more approvers doesn't close the gap. Buildi",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 49,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Jumio: Machine Learning Engineer - IV (Biometrics)",
-      "url": "https://weworkremotely.com/remote-jobs/jumio-machine-learning-engineer-iv-biometrics",
-      "published": "Thu, 08 Oct 2026 07:31:21 +0000",
-      "snippet": "Headquarters: India (remote) Role Purpose We’re looking for a Staff/Senior Machine Learning Engineer with deep expertise in computer vision and biometrics to lead the design and scaling of face recognition systems in production. You’ll build and train models, and own ML systems end-to-end on AWS. The final job level for this role will be determined following the interview process. What You’ll Do Lead the design and development of computer vision systems for biometrics (face attributes, detection, quality, and recognition) Rigorous fairness analysis and benchmarking of biometric models across various datasets and operating conditions. Architect, train, and optimize models using PyTorch, Tensorflow, and/or JAX Own and evolve end-to-end ML pipelines, from data ingestion to deployment. Design automated pipelines (Airflow) for data ingestion and cleaning. You will be responsible for curating ",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 49,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Jumio: Machine Learning Engineer",
-      "url": "https://weworkremotely.com/remote-jobs/jumio-machine-learning-engineer",
-      "published": "Thu, 08 Oct 2026 07:31:21 +0000",
-      "snippet": "Headquarters: Austria (remote) Machine Learning Engineer&nbsp; We’re looking for a Machine Learning Engineer with deep expertise in computer vision and biometrics to lead the design and scaling of face recognition systems in production. You’ll build and train models, and own ML systems end-to-end on AWS. The final job level for this role will be determined following the interview process. What You’ll Do Lead the design and development of computer vision systems for biometrics (face attributes, detection, quality, and recognition) Rigorous fairness analysis and benchmarking of biometric models across various datasets and operating conditions. Architect, train, and optimize models using PyTorch, Tensorflow, and/or JAX Own and evolve end-to-end ML pipelines, from data ingestion to deployment. Design automated pipelines (Airflow) for data ingestion and cleaning. You will be responsible for c",
+      "title": "Jumio: Machine Learning Engineer - IV (Computer Vision)",
+      "url": "https://weworkremotely.com/remote-jobs/jumio-machine-learning-engineer-iv-computer-vision",
+      "published": "Sat, 10 Oct 2026 07:30:40 +0000",
+      "snippet": "Headquarters: India (remote) Machine Learning Engineer IV – (Computer Vision) We’re looking for a Staff/Senior Machine Learning Engineer with deep expertise in computer vision and biometrics to lead the design and scaling of face recognition systems in production. You’ll build and train models, and own ML systems end-to-end on AWS. The final job level for this role will be determined following the interview process. What You’ll Do Lead the design and development of computer vision systems for biometrics (face attributes, detection, quality, and recognition) Rigorous fairness analysis and benchmarking of biometric models across various datasets and operating conditions. Architect, train, and optimize models using PyTorch, Tensorflow, and/or JAX Own and evolve end-to-end ML pipelines, from data ingestion to deployment. Design automated pipelines (Airflow) for data ingestion and cleaning. Y",
       "score": 41,
       "confidence": 0.56,
       "automation_fit": 0.58,
@@ -740,37 +781,6 @@
       "matched_keywords": [
         "automation",
         "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 48,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Prospex CRM: Tech Lead",
-      "url": "https://weworkremotely.com/remote-jobs/prospex-crm-tech-lead",
-      "published": "Thu, 08 Oct 2026 18:37:31 +0000",
-      "snippet": "Headquarters: Egypt, Bahrain, Turkey URL: http://prospexcrm.xyz Senior Software Engineer About Our Client Our Client is a fast-growing procurement and technology company headquartered in Riyadh with operations across Saudi Arabia and Bahrain. We are building innovative solutions to simplify procurement processes, empower businesses, and create meaningful impact. Why Join Us? We are looking for talented, growth-minded individuals eager to take on new challenges. We nurture potential and provide an environment where every employee can thrive professionally and personally . Role Summary: As a Senior Software Engineer, you'll be a key technical leader, driving the design, development, and maintenance of our core backend services. You'll collaborate extensively with product, frontend, and DevOps teams to architect and build highly scalable, efficient, and robust systems. Your contributions wi",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "workflow",
-        "crm",
         "ai"
       ],
       "analysis": {
@@ -957,26 +967,26 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "Lemon.io: Senior .NET Full-stack Developer",
-      "url": "https://weworkremotely.com/remote-jobs/lemon-io-senior-net-full-stack-developer-2",
-      "published": "Thu, 08 Oct 2026 11:41:36 +0000",
-      "snippet": "Headquarters: New York, NY URL: https://lemon.io Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your seniority level, skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates — let us handle the business side of things so you can focus on what you do best. We'll manually find the best project for you according to your skills and preferences. Choose a schedule that works best for you. It’s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. Communicate directly with the clients. Most of them have t",
+      "title": "Netlify: Customer Success Associate (Denver, CO)",
+      "url": "https://weworkremotely.com/remote-jobs/netlify-customer-success-associate-denver-co",
+      "published": "Sat, 10 Oct 2026 07:31:08 +0000",
+      "snippet": "Headquarters: Remote About the Team Netlify's Customer Success team is responsible for making sure customers get real, lasting value from the platform - from onboarding through renewal and beyond. The team works closely with Sales, Product, and Marketing to help customers grow their usage, see clear outcomes, and stay engaged over time. Every motion the team runs - whether it's a renewal conversation, a feature adoption push or customer escalation - is designed to build trust and relationships that compound. This role exists because we have a growing book of SMB accounts that need a dedicated, consistent point of contact. As our Customer Success Associate, you’ll drive broad-stroke outreach and build the workflows to manage them well. You'll carry a book of 120+ accounts with roughly $2M in ARR, and your job is to make sure those customers are engaged, getting value, and set up for renew",
       "score": 41,
       "confidence": 0.56,
       "automation_fit": 0.58,
       "matched_keywords": [
-        "automation",
-        "ai agent",
+        "workflow",
+        "sales",
         "ai"
       ],
       "analysis": {
         "category": "ai_automation",
         "priority": "LOW",
-        "opportunity_score": 45,
-        "estimated_value_eur": 11,
+        "opportunity_score": 43,
+        "estimated_value_eur": 2,
         "value_basis": "Detected budget/rate in listing",
         "budget_signals": [
-          11.0
+          2.0
         ],
         "offer": {
           "service": "AI workflow automation",
@@ -997,7 +1007,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-10T07:06:36.134947+00:00",
+    "created_at": "2026-10-10T08:04:53.671556+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -1018,6 +1028,36 @@
         }
       },
       {
+        "title": "Tines: Manager, Renewals",
+        "url": "https://weworkremotely.com/remote-jobs/tines-manager-renewals",
+        "priority": "MEDIUM",
+        "opportunity_score": 66,
+        "estimated_value_eur": 600,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"Tines: Manager, Renewals\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Tines: GTM Systems Specialist",
+        "url": "https://weworkremotely.com/remote-jobs/tines-gtm-systems-specialist",
+        "priority": "MEDIUM",
+        "opportunity_score": 66,
+        "estimated_value_eur": 600,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"Tines: GTM Systems Specialist\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "Smartsheet: Director, Finance Systems & ERP",
         "url": "https://weworkremotely.com/remote-jobs/smartsheet-director-finance-systems-erp",
         "priority": "MEDIUM",
@@ -1033,16 +1073,16 @@
         }
       },
       {
-        "title": "PagerDuty: Senior Director, Field Enablement",
-        "url": "https://weworkremotely.com/remote-jobs/pagerduty-senior-director-field-enablement",
+        "title": "BeyondTrust: Cyber Defense Engineer",
+        "url": "https://weworkremotely.com/remote-jobs/beyondtrust-cyber-defense-engineer",
         "priority": "MEDIUM",
         "opportunity_score": 61,
-        "estimated_value_eur": 650,
+        "estimated_value_eur": 600,
         "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
           "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"PagerDuty: Senior Director, Field Enablement\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"BeyondTrust: Cyber Defense Engineer\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -1108,46 +1148,16 @@
         }
       },
       {
-        "title": "Current: Producer, Client Experience & Growth (Contract)",
-        "url": "https://weworkremotely.com/remote-jobs/current-producer-client-experience-growth-contract",
+        "title": "Huntress: Senior Sales Operations Business Partner",
+        "url": "https://weworkremotely.com/remote-jobs/huntress-senior-sales-operations-business-partner",
         "priority": "MEDIUM",
-        "opportunity_score": 55,
-        "estimated_value_eur": 750,
-        "offer": {
-          "subject": "Proposal: AI lead generation and follow-up",
-          "price_eur": 750,
-          "starter_price_eur": 300,
-          "message": "Hi,\n\nI saw your request about \"Current: Producer, Client Experience & Growth (Contract)\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Bondora: Head of CRM & Lifecycle Marketing",
-        "url": "https://weworkremotely.com/remote-jobs/bondora-head-of-crm-lifecycle-marketing",
-        "priority": "LOW",
-        "opportunity_score": 54,
+        "opportunity_score": 59,
         "estimated_value_eur": 600,
         "offer": {
           "subject": "Proposal: AI workflow automation",
           "price_eur": 600,
           "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"Bondora: Head of CRM & Lifecycle Marketing\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Current: Lead QA Engineer",
-        "url": "https://weworkremotely.com/remote-jobs/current-lead-qa-engineer",
-        "priority": "LOW",
-        "opportunity_score": 54,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"Current: Lead QA Engineer\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"Huntress: Senior Sales Operations Business Partner\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
