@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T07:07:30.550248+00:00",
+  "generated_at": "2026-10-11T08:05:42.762156+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find legitimate income opportunities",
@@ -44,40 +44,6 @@
         "category": "ai_automation",
         "priority": "HIGH",
         "opportunity_score": 75,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Ace Ventures: Executive Personal Assistant to the Founder (Remote, UAE or Europe)",
-      "url": "https://weworkremotely.com/remote-jobs/ace-ventures-executive-personal-assistant-to-the-founder-remote-uae-or-europe",
-      "published": "Sun, 06 Sep 2026 13:01:11 +0000",
-      "snippet": "Headquarters: Dubai, United Arab Emirates URL: https://aceventures.ai/ Location: Remote, based in the UAE or Europe. Engagement: full-time independent contractor (own visa and invoicing setup required). About the role You will be the right hand to a Dubai-based founder who runs a group of companies in performance marketing and consumer brands and splits his time between Dubai and Europe. Your job is to take every administrative task off his plate, business and personal, so his time goes to decisions and deals rather than logistics. We are looking for an A player. This is a fast-moving environment with high expectations: priorities change daily, decisions are made quickly, and the standard is that things get done properly the first time. You need to be driven, want to work hard, and take pride in running a tight operation for someone who moves fast. This is a hands-on, high-trust role. Yo",
-      "score": 62,
-      "confidence": 0.77,
-      "automation_fit": 0.76,
-      "matched_keywords": [
-        "automation",
-        "ai agent",
-        "workflow",
-        "zapier",
-        "n8n",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "MEDIUM",
-        "opportunity_score": 69,
         "estimated_value_eur": 600,
         "value_basis": "Service-band estimate; not a quoted budget",
         "budget_signals": [],
@@ -554,38 +520,6 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "Current: Lead QA Engineer",
-      "url": "https://weworkremotely.com/remote-jobs/current-lead-qa-engineer",
-      "published": "Wed, 07 Oct 2026 07:31:00 +0000",
-      "snippet": "Headquarters: Remote (US) About the Role As a Lead QA Engineer, you'll own testing strategy and quality standards across our most important work; Deciding what should be automated, what needs a human eye, where the real risk is hiding, and acting on it. You'll work hands-on across both manual and automated testing, splitting your time based on what a given release actually needs, while mentoring other engineers and acting as the go-to voice on quality across projects. You've got the critical thinking skills to chase down a hard bug yourself, know when to ask for help and delegate, and the range to set direction for how the whole team approaches quality. You seek to help your coworkers and do so regularly. Key Responsibilities Lead test strategy and quality standards across multiple projects, deciding what warrants automated coverage versus focused manual and exploratory testing. Build an",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "crm",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 54,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
       "title": "AssemblyAI: Senior GTM AI Engineer",
       "url": "https://weworkremotely.com/remote-jobs/assemblyai-senior-gtm-ai-engineer",
       "published": "Sun, 04 Oct 2026 07:31:28 +0000",
@@ -614,38 +548,6 @@
           "target_price_eur": 750,
           "premium_price_eur": 2000,
           "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "UTTR: Senior Performance Marketing Manager (Part-Time)",
-      "url": "https://weworkremotely.com/remote-jobs/uttr-senior-performance-marketing-manager-part-time",
-      "published": "Wed, 09 Sep 2026 14:34:00 +0000",
-      "snippet": "Headquarters: New York URL: https://www.uttr.com/ UTTR is on the lookout for a part-time Performance Marketing Manager . You'll be responsible for shaping marketing strategies and cultivating deep, trusted partnerships with our core clients. At UTTR, we believe in “up &amp; to the right” — sustainable, measurable growth. Your expertise will guide clients toward achieving SMART goals while navigating the multifaceted landscape of B2B digital marketing. This role is ideal for an experienced performance marketer who wants meaningful ownership and strategic impact in a flexible, part-time capacity. Responsibilities Deeply Understand Audiences We work across the B2B world in a diverse range of industries and niches. You need to quickly understand each audience to recommend relevant, high-impact advertising strategies. Drive Outcomes (Pipeline Ownership) All engagements are OKR- or goal-based.",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "automation",
-        "sales",
-        "marketing automation",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 53,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -744,26 +646,29 @@
       }
     },
     {
-      "source": "Remotive",
-      "title": "Senior back-end Engineer",
-      "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-engineer-2091132",
-      "published": "Wed, 30 Sep 2026 13:15:26 GMT",
-      "snippet": "Senior Developer? Work Remote. Get Paid Well. Build What Matters. &#160; Lemon.io connects hand-picked senior developers with vetted startups across the US and Europe &#8212; no bidding wars, no ghosting, just serious opportunities. We're currently hiring for a research-driven AI company on a mission to slash the cost of modern AI &#8212; co-designing hardware, software, algorithms, and models to make AI's benefits accessible to everyone. They're active open-source contributors, building the infrastructure behind next-generation AI at scale. &#160; Open roles: Senior Back-end Engineer (Golang), Senior DevOps Engineer, Senior Site Reliability Engineer, Senior Storage Engineer, Senior Python &amp; LLM Developer, Senior Back-end Engineer (Python) &#160; Why this one's worth a look: You'll be working on infrastructure that directly shapes how AI gets built and deployed, at a company operatin",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
+      "source": "We Work Remotely",
+      "title": "Stripe: Account Executive, Product Sales - Tax",
+      "url": "https://weworkremotely.com/remote-jobs/stripe-account-executive-product-sales-tax",
+      "published": "Sun, 11 Oct 2026 07:31:07 +0000",
+      "snippet": "Headquarters: US-Remote Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team Product Sales is a team of functional and technical specialists who both lead and advise on deals for the most strategically important products in the Stripe portfolio. Revenue suite Product Sales is tasked with pursuing a $100B market opportunity for back-office finance automation across billing, tax, revenue reporting, and data. What you",
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
       "matched_keywords": [
         "automation",
-        "ai agent",
+        "workflow",
+        "sales",
         "ai"
       ],
       "analysis": {
         "category": "ai_automation",
         "priority": "LOW",
-        "opportunity_score": 49,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
+        "opportunity_score": 50,
+        "estimated_value_eur": 100,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          100.0
+        ],
         "offer": {
           "service": "AI workflow automation",
           "starter_price_eur": 250,
@@ -775,17 +680,17 @@
       }
     },
     {
-      "source": "We Work Remotely",
-      "title": "Jumio: Machine Learning Engineer - IV (Computer Vision)",
-      "url": "https://weworkremotely.com/remote-jobs/jumio-machine-learning-engineer-iv-computer-vision",
-      "published": "Sat, 10 Oct 2026 07:30:40 +0000",
-      "snippet": "Headquarters: India (remote) Machine Learning Engineer IV – (Computer Vision) We’re looking for a Staff/Senior Machine Learning Engineer with deep expertise in computer vision and biometrics to lead the design and scaling of face recognition systems in production. You’ll build and train models, and own ML systems end-to-end on AWS. The final job level for this role will be determined following the interview process. What You’ll Do Lead the design and development of computer vision systems for biometrics (face attributes, detection, quality, and recognition) Rigorous fairness analysis and benchmarking of biometric models across various datasets and operating conditions. Architect, train, and optimize models using PyTorch, Tensorflow, and/or JAX Own and evolve end-to-end ML pipelines, from data ingestion to deployment. Design automated pipelines (Airflow) for data ingestion and cleaning. Y",
+      "source": "Remotive",
+      "title": "Senior back-end Engineer",
+      "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-engineer-2091132",
+      "published": "Wed, 30 Sep 2026 13:15:26 GMT",
+      "snippet": "Senior Developer? Work Remote. Get Paid Well. Build What Matters. &#160; Lemon.io connects hand-picked senior developers with vetted startups across the US and Europe &#8212; no bidding wars, no ghosting, just serious opportunities. We're currently hiring for a research-driven AI company on a mission to slash the cost of modern AI &#8212; co-designing hardware, software, algorithms, and models to make AI's benefits accessible to everyone. They're active open-source contributors, building the infrastructure behind next-generation AI at scale. &#160; Open roles: Senior Back-end Engineer (Golang), Senior DevOps Engineer, Senior Site Reliability Engineer, Senior Storage Engineer, Senior Python &amp; LLM Developer, Senior Back-end Engineer (Python) &#160; Why this one's worth a look: You'll be working on infrastructure that directly shapes how AI gets built and deployed, at a company operatin",
       "score": 41,
       "confidence": 0.56,
       "automation_fit": 0.58,
       "matched_keywords": [
         "automation",
-        "workflow",
+        "ai agent",
         "ai"
       ],
       "analysis": {
@@ -826,6 +731,103 @@
         "estimated_value_eur": 600,
         "value_basis": "Service-band estimate; not a quoted budget",
         "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Zscaler: Account Executive, Enterprise - NY/NJ",
+      "url": "https://weworkremotely.com/remote-jobs/zscaler-account-executive-enterprise-ny-nj",
+      "published": "Sun, 11 Oct 2026 07:31:07 +0000",
+      "snippet": "Headquarters: Remote - New York, USA Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from cyberattacks and data loss by securely connecting users, devices, and applications in any location. Distributed across 200+ public data centers globally and thousands of private sites at the edge, the SASE-based Zero Trust Exchange is the world’s largest in-line cloud security platform. We believe the future of work is Human + AI and are building an AI-native enterprise where human potential is amplified by machine intelligence to solve the world’s hardest security challenges. Driven by deep customer obsession, we are committed to the mission, outcome, and to each other. We bring these commitments to life through three core behaviors: ownership and collab",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "workflow",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 48,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Maven Clinic: Customer Success Director",
+      "url": "https://weworkremotely.com/remote-jobs/maven-clinic-customer-success-director",
+      "published": "Sun, 11 Oct 2026 07:31:07 +0000",
+      "snippet": "Headquarters: Remote Maven Clinic is the world's largest virtual clinic for women and families on a mission to make healthcare work for all of us. Through Maven Enterprise, the company partners with more than 2,300 employers and health plans to provide end-to-end women's and family health programs spanning fertility and family building, maternity and newborn care, parenting and pediatrics, and menopause and midlife — improving clinical outcomes, reducing healthcare costs, and expanding equitable access to high-quality care at scale. Through its consumer platform, Maven provides direct access to virtual care across 30+ specialties, as well as dedicated hormone and GLP-1 care programs purpose-built for women. Founded in 2014 by CEO Kate Ryder, Maven Clinic has raised more than $425 million from leading healthcare and technology investors including General Catalyst, Sequoia, Dragoneer Inves",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "crm",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "LOW",
+        "opportunity_score": 48,
+        "estimated_value_eur": 425,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          425.0
+        ],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Maven Clinic: Client Success Manager",
+      "url": "https://weworkremotely.com/remote-jobs/maven-clinic-client-success-manager",
+      "published": "Sun, 11 Oct 2026 07:30:56 +0000",
+      "snippet": "Headquarters: New York, NY; Remote, US (Hub cities) Maven Clinic is the world's largest virtual clinic for women and families on a mission to make healthcare work for all of us. Through Maven Enterprise, the company partners with more than 2,300 employers and health plans to provide end-to-end women's and family health programs spanning fertility and family building, maternity and newborn care, parenting and pediatrics, and menopause and midlife — improving clinical outcomes, reducing healthcare costs, and expanding equitable access to high-quality care at scale. Through its consumer platform, Maven provides direct access to virtual care across 30+ specialties, as well as dedicated hormone and GLP-1 care programs purpose-built for women. Founded in 2014 by CEO Kate Ryder, Maven Clinic has raised more than $425 million from leading healthcare and technology investors including General Cat",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "workflow",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 46,
+        "estimated_value_eur": 425,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          425.0
+        ],
         "offer": {
           "service": "AI workflow automation",
           "starter_price_eur": 250,
@@ -1010,7 +1012,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-11T07:07:30.582041+00:00",
+    "created_at": "2026-10-11T08:05:42.803855+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -1026,21 +1028,6 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"TestGorilla: Sr. People & Talent Operations Partner\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Ace Ventures: Executive Personal Assistant to the Founder (Remote, UAE or Europe)",
-        "url": "https://weworkremotely.com/remote-jobs/ace-ventures-executive-personal-assistant-to-the-founder-remote-uae-or-europe",
-        "priority": "MEDIUM",
-        "opportunity_score": 69,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"Ace Ventures: Executive Personal Assistant to the Founder (Remote, UAE or Europe)\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -1161,6 +1148,21 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"Creatio: Enterprise Account Executive (Kazakhstan)\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Huntress: Senior Sales Operations Business Partner",
+        "url": "https://weworkremotely.com/remote-jobs/huntress-senior-sales-operations-business-partner",
+        "priority": "MEDIUM",
+        "opportunity_score": 59,
+        "estimated_value_eur": 600,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"Huntress: Senior Sales Operations Business Partner\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
