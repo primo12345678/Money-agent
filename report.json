@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T07:15:13.661255+00:00",
+  "generated_at": "2026-10-12T08:09:01.980440+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find legitimate income opportunities",
@@ -161,6 +161,39 @@
     },
     {
       "source": "We Work Remotely",
+      "title": "Samsara: Account Development Representative - Canada",
+      "url": "https://weworkremotely.com/remote-jobs/samsara-account-development-representative-canada",
+      "published": "Mon, 12 Oct 2026 07:31:05 +0000",
+      "snippet": "Headquarters: Remote - Toronto Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale. Working at Samsara means you’ll help define the future of physical operations and be on a team that’s shaping an exciting array of product solutions, including Video-Based Safety, Vehicle Telematics, Apps and",
+      "score": 55,
+      "confidence": 0.7,
+      "automation_fit": 0.7,
+      "matched_keywords": [
+        "workflow",
+        "lead generation",
+        "crm",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "MEDIUM",
+        "opportunity_score": 62,
+        "estimated_value_eur": 750,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
       "title": "BeyondTrust: Cyber Defense Engineer",
       "url": "https://weworkremotely.com/remote-jobs/beyondtrust-cyber-defense-engineer",
       "published": "Sat, 10 Oct 2026 07:30:48 +0000",
@@ -173,39 +206,6 @@
         "ai agent",
         "ai integration",
         "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "MEDIUM",
-        "opportunity_score": 61,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "PagerDuty: Principal Solutions Consultant",
-      "url": "https://weworkremotely.com/remote-jobs/pagerduty-principal-solutions-consultant",
-      "published": "Tue, 06 Oct 2026 07:31:09 +0000",
-      "snippet": "Headquarters: Remote (USA) PagerDuty, Inc. (NYSE: PD) is the global leader in AI-first digital operations. By automatically detecting, diagnosing, and remediating issues, the PagerDuty Platform orchestrates AI agents and automated workflows with context from over 750 integrations. Trusted by approximately two-thirds of the Fortune 100 and nearly half of the Fortune 500, PagerDuty is the industry standard for organizations scaling resilient, autonomous operations. Notable customers include Chipotle, Cloudflare, Docusign, Fox, Nvidia, Salesforce, Spotify, Zoom and more. We are growing rapidly and hiring top talent with leading AI skills across engineering, sales, product, marketing, and beyond as we build the leading digital operations platform. &nbsp; PagerDuty is seeking a Principal Solutions Consultant to join our talented, customer-focused team! You will be a key strategic leader and t",
-      "score": 55,
-      "confidence": 0.7,
-      "automation_fit": 0.7,
-      "matched_keywords": [
-        "automation",
-        "ai agent",
-        "workflow",
-        "sales",
         "ai"
       ],
       "analysis": {
@@ -327,39 +327,6 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "Huntress: Senior Sales Operations Business Partner",
-      "url": "https://weworkremotely.com/remote-jobs/huntress-senior-sales-operations-business-partner",
-      "published": "Sat, 10 Oct 2026 07:30:50 +0000",
-      "snippet": "Headquarters: Remote US What We Do: Cybercrime is growing, and more businesses are getting hit by threats that used to target only the biggest organizations. That pushes defenders like us to operate at the highest level, and it deepens our need for good people who want to make a meaningful impact. Founded in 2015 by former NSA cyber operators, Huntress is a remote-first team working to make enterprise-grade cybersecurity accessible to businesses of all sizes. We work closely with security teams and service providers protecting complex environments, often without the time or headcount to handle it all. That’s why we build our technology in-house and back it with a 24/7 human-led Security Operations Center (SOC). As a result, our platform is never disconnected from the experts who manage it, ensuring our customers' protection. Huntress now secures more than 5M endpoints and 16M identities ",
-      "score": 55,
-      "confidence": 0.7,
-      "automation_fit": 0.7,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "crm",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "MEDIUM",
-        "opportunity_score": 59,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
       "title": "Typeform: Full Stack Developer",
       "url": "https://weworkremotely.com/remote-jobs/typeform-full-stack-developer",
       "published": "Sat, 10 Oct 2026 07:31:08 +0000",
@@ -392,6 +359,102 @@
     },
     {
       "source": "We Work Remotely",
+      "title": "Samsara: Account Development Representative - DACH",
+      "url": "https://weworkremotely.com/remote-jobs/samsara-account-development-representative-dach",
+      "published": "Mon, 12 Oct 2026 07:31:11 +0000",
+      "snippet": "Headquarters: Remote - Germany Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale. Working at Samsara means you’ll help define the future of physical operations and be on a team that’s shaping an exciting array of product solutions, including Video-Based Safety, Vehicle Telematics, Apps and",
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "workflow",
+        "crm",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "MEDIUM",
+        "opportunity_score": 55,
+        "estimated_value_eur": 750,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Rubrik Job Board: Field Sales Operations Manager",
+      "url": "https://weworkremotely.com/remote-jobs/rubrik-job-board-field-sales-operations-manager",
+      "published": "Mon, 12 Oct 2026 07:31:05 +0000",
+      "snippet": "Headquarters: Remote - United States Rubrik has become the fastest growing enterprise software company in Silicon Valley.&nbsp; We are seeking a passionate and highly driven individual to join our world class, career enhancing Sales Operations team! This team partners with Field Sales Leaders on cutting edge GTM strategies, metric tracking, and infrastructure development.&nbsp; Sales Operations is integral to the overall success of the sales organization,&nbsp; providing data, process, and decision making that ultimately drives revenue, growth and sales productivity. Rubrik’s Americas Sales team is one of the fastest growing in the industry and is led by a dynamic team of sales executives and cross-functional leaders. The Field Sales Operations Manager will have the charter and opportunity to help shape the growth of the business through a combination of metric tracking and reporting, te",
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "ai agent",
+        "crm",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "MEDIUM",
+        "opportunity_score": 55,
+        "estimated_value_eur": 750,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Rubrik Job Board: Customer Resilience Manager - Customer Success (Remote)",
+      "url": "https://weworkremotely.com/remote-jobs/rubrik-job-board-customer-resilience-manager-customer-success-remote",
+      "published": "Mon, 12 Oct 2026 07:31:00 +0000",
+      "snippet": "Headquarters: US Remote About the team and role The Customer Resilience Manager (CRM) is a key role within the Customer Success organization. The successful candidate will drive all aspects of the post-sales journey for a select group of Enterprise Accounts at Rubrik. The CRM works as the driver, customer advocate, and primary point of contact between Rubrik and its select clients, managing their life cycle with Rubrik, maximizing ROI, and coordinating to achieve their business goals and objectives. The CRM functions as an extension of the Sales Account Team and partners with the customer to achieve faster adoption, time to value, and overall engagement and satisfaction. CRMs drive product enhancements and manage escalations while leveraging cross-functional relationships to maintain and enhance customer confidence in Rubrik as the leader in cloud data management. The position's objectiv",
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "ai agent",
+        "crm",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "MEDIUM",
+        "opportunity_score": 55,
+        "estimated_value_eur": 750,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
       "title": "Current: Producer, Client Experience & Growth (Contract)",
       "url": "https://weworkremotely.com/remote-jobs/current-producer-client-experience-growth-contract",
       "published": "Wed, 07 Oct 2026 07:31:04 +0000",
@@ -418,6 +481,102 @@
           "target_price_eur": 750,
           "premium_price_eur": 2000,
           "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Glean: Enterprise Account Executive, Ohio Valley",
+      "url": "https://weworkremotely.com/remote-jobs/glean-enterprise-account-executive-ohio-valley",
+      "published": "Mon, 12 Oct 2026 07:31:14 +0000",
+      "snippet": "Headquarters: Remote - US About Glean: &nbsp; Glean is the Work AI platform that helps everyone work smarter with AI. What began as the industry’s most advanced enterprise search has evolved into a full-scale Work AI ecosystem, powering intelligent Search, an AI Assistant, and scalable AI agents on one secure, open platform. With over 100 enterprise SaaS connectors, flexible LLM choice, and robust APIs, Glean gives organizations the infrastructure to govern, scale, and customize AI across their entire business - without vendor lock-in or costly implementation cycles. &nbsp; At its core, Glean is redefining how enterprises find, use, and act on knowledge. Its Enterprise Graph and Personal Knowledge Graph map the relationships between people, content, and activity, delivering deeply personalized, context-aware responses for every employee. This foundation powers Glean’s agentic capabilitie",
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "ai agent",
+        "workflow",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 54,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Bitwarden: Channel Marketing Manager (Partner Growth)",
+      "url": "https://weworkremotely.com/remote-jobs/bitwarden-channel-marketing-manager-partner-growth",
+      "published": "Mon, 12 Oct 2026 07:31:14 +0000",
+      "snippet": "Headquarters: Remote US Bitwarden is the trusted identity security leader for millions of users worldwide, empowering enterprises, developers, and individuals to securely manage and share sensitive information anywhere. Bitwarden makes it easy for all users to extend robust security across their devices with password management, secrets management, and passwordless and passkey innovations. The company is headquartered in Santa Barbara, California with team members located across the globe. Learn more at&nbsp; bitwarden.com . We're hiring a Channel Marketing Manager to own partner marketing end-to-end — from partner onboarding and enablement to demand generation and events — across MSP, reseller, and VAR motions, prioritizing effort based on revenue potential and business urgency rather than spreading evenly across all three.&nbsp; This is an all-remote team and we're looking for someone ",
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "automation",
+        "ai agent",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 54,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Glean: Enterprise Account Executive, Mid-Atlantic",
+      "url": "https://weworkremotely.com/remote-jobs/glean-enterprise-account-executive-mid-atlantic",
+      "published": "Mon, 12 Oct 2026 07:31:11 +0000",
+      "snippet": "Headquarters: Remote - US About Glean: &nbsp; Glean is the Work AI platform that helps everyone work smarter with AI. What began as the industry’s most advanced enterprise search has evolved into a full-scale Work AI ecosystem, powering intelligent Search, an AI Assistant, and scalable AI agents on one secure, open platform. With over 100 enterprise SaaS connectors, flexible LLM choice, and robust APIs, Glean gives organizations the infrastructure to govern, scale, and customize AI across their entire business - without vendor lock-in or costly implementation cycles. &nbsp; At its core, Glean is redefining how enterprises find, use, and act on knowledge. Its Enterprise Graph and Personal Knowledge Graph map the relationships between people, content, and activity, delivering deeply personalized, context-aware responses for every employee. This foundation powers Glean’s agentic capabilitie",
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "ai agent",
+        "workflow",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 54,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -467,38 +626,6 @@
         "automation",
         "workflow",
         "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 54,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Bondora: Head of CRM & Lifecycle Marketing",
-      "url": "https://weworkremotely.com/remote-jobs/bondora-head-of-crm-lifecycle-marketing",
-      "published": "Thu, 08 Oct 2026 18:37:31 +0000",
-      "snippet": "Headquarters: Denmark; Finland; Latvia; Netherlands; Remote; Spain; Tallinn, Harju, Estonia URL: http://bondora.group At Bondora, our mission is simple: to make finance easy, transparent, and accessible for everyone. Founded in 2008, we’ve helped more than 700,000 customers across Europe borrow and invest effortlessly through our trusted digital products. As a rapidly growing financial technology company, we’re reaching new heights with a bold vision. We’re set to acquire a banking license, unlocking a world of possibilities for our customers. This transition will allow us to expand our lending across more EU countries and broaden our product suite to deliver even more value. Join us on this journey and let’s build the future of finance together! What is this role about? 🚀 As the Head of CRM &amp; Lifecycle Marketing at Bondora, you'll own the strategy behind how we engage, retain, and g",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "crm",
         "ai"
       ],
       "analysis": {
@@ -589,37 +716,6 @@
       "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
       "published": "Thu, 08 Oct 2026 21:47:32 GMT",
       "snippet": "About Us We are a financial services start up focusing on helping to improve consumer credit profiles. We are currently seeking KPI driven sales representatives looking to earn up to 45K in their first year while working remotely. We offer comprehensive training and continuous sales coaching to help you meet your financial goals. During our training period we offer a guaranteed training stipend while our trainees are acclimating to the position (*see weekly pay below). If you are a seasoned sales professional looking for the autonomy of a remote position combined with great compensation, we want to hear from you! Compensation Structure This role is 100% commission-based , which means your earning potential is unlimited. In addition, we regularly offer competitive performance-based bonuses to reward hard work and results. Training Period (Weeks 1&#8211;4) We invest in your success and wan",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "crm",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "lead_generation",
-        "priority": "LOW",
-        "opportunity_score": 50,
-        "estimated_value_eur": 750,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "BeyondTrust: Customer Retention Executive",
-      "url": "https://weworkremotely.com/remote-jobs/beyondtrust-customer-retention-executive",
-      "published": "Sat, 10 Oct 2026 07:30:42 +0000",
-      "snippet": "Headquarters: Remote United States | East Coast BeyondTrust is a place where you can bring your purpose to life through the work that you do, creating a safer world through our cybersecurity SaaS portfolio. Our culture of flexibility, trust, and continual learning means you will be recognized for your growth and for the impact you make on our success. You will be surrounded by people who challenge, support, and inspire you to be the best version of yourself. Please note: This is a remote role in the US but candidates must be located on the east coast in order to be considered. The Role The Customer Retention Executive (CRE1) is a member of the global Customer Retention &amp; Growth Team within the Go to Market organization of BeyondTrust. The CRE1 works to secure and expand the recurring revenue business of the BeyondTrust customer base through driving both renewals and identifying/assis",
       "score": 41,
       "confidence": 0.56,
       "automation_fit": 0.58,
@@ -743,37 +839,6 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "Zscaler: Account Executive, Enterprise - NY/NJ",
-      "url": "https://weworkremotely.com/remote-jobs/zscaler-account-executive-enterprise-ny-nj",
-      "published": "Sun, 11 Oct 2026 07:31:07 +0000",
-      "snippet": "Headquarters: Remote - New York, USA Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from cyberattacks and data loss by securely connecting users, devices, and applications in any location. Distributed across 200+ public data centers globally and thousands of private sites at the edge, the SASE-based Zero Trust Exchange is the world’s largest in-line cloud security platform. We believe the future of work is Human + AI and are building an AI-native enterprise where human potential is amplified by machine intelligence to solve the world’s hardest security challenges. Driven by deep customer obsession, we are committed to the mission, outcome, and to each other. We bring these commitments to life through three core behaviors: ownership and collab",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "workflow",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 48,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
       "title": "Maven Clinic: Customer Success Director",
       "url": "https://weworkremotely.com/remote-jobs/maven-clinic-customer-success-director",
       "published": "Sun, 11 Oct 2026 07:31:07 +0000",
@@ -801,39 +866,6 @@
           "target_price_eur": 750,
           "premium_price_eur": 2000,
           "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Maven Clinic: Client Success Manager",
-      "url": "https://weworkremotely.com/remote-jobs/maven-clinic-client-success-manager",
-      "published": "Sun, 11 Oct 2026 07:30:56 +0000",
-      "snippet": "Headquarters: New York, NY; Remote, US (Hub cities) Maven Clinic is the world's largest virtual clinic for women and families on a mission to make healthcare work for all of us. Through Maven Enterprise, the company partners with more than 2,300 employers and health plans to provide end-to-end women's and family health programs spanning fertility and family building, maternity and newborn care, parenting and pediatrics, and menopause and midlife — improving clinical outcomes, reducing healthcare costs, and expanding equitable access to high-quality care at scale. Through its consumer platform, Maven provides direct access to virtual care across 30+ specialties, as well as dedicated hormone and GLP-1 care programs purpose-built for women. Founded in 2014 by CEO Kate Ryder, Maven Clinic has raised more than $425 million from leading healthcare and technology investors including General Cat",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "workflow",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 46,
-        "estimated_value_eur": 425,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          425.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -969,39 +1001,6 @@
         },
         "human_approval_required": true
       }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Netlify: Customer Success Associate (Denver, CO)",
-      "url": "https://weworkremotely.com/remote-jobs/netlify-customer-success-associate-denver-co",
-      "published": "Sat, 10 Oct 2026 07:31:08 +0000",
-      "snippet": "Headquarters: Remote About the Team Netlify's Customer Success team is responsible for making sure customers get real, lasting value from the platform - from onboarding through renewal and beyond. The team works closely with Sales, Product, and Marketing to help customers grow their usage, see clear outcomes, and stay engaged over time. Every motion the team runs - whether it's a renewal conversation, a feature adoption push or customer escalation - is designed to build trust and relationships that compound. This role exists because we have a growing book of SMB accounts that need a dedicated, consistent point of contact. As our Customer Success Associate, you’ll drive broad-stroke outreach and build the workflows to manage them well. You'll carry a book of 120+ accounts with roughly $2M in ARR, and your job is to make sure those customers are engaged, getting value, and set up for renew",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "workflow",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 43,
-        "estimated_value_eur": 2,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          2.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
     }
   ],
   "errors": [],
@@ -1012,7 +1011,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-12T07:15:13.705490+00:00",
+    "created_at": "2026-10-12T08:09:02.013981+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -1078,6 +1077,21 @@
         }
       },
       {
+        "title": "Samsara: Account Development Representative - Canada",
+        "url": "https://weworkremotely.com/remote-jobs/samsara-account-development-representative-canada",
+        "priority": "MEDIUM",
+        "opportunity_score": 62,
+        "estimated_value_eur": 750,
+        "offer": {
+          "subject": "Proposal: AI lead generation and follow-up",
+          "price_eur": 750,
+          "starter_price_eur": 300,
+          "message": "Hi,\n\nI saw your request about \"Samsara: Account Development Representative - Canada\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "BeyondTrust: Cyber Defense Engineer",
         "url": "https://weworkremotely.com/remote-jobs/beyondtrust-cyber-defense-engineer",
         "priority": "MEDIUM",
@@ -1088,21 +1102,6 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"BeyondTrust: Cyber Defense Engineer\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "PagerDuty: Principal Solutions Consultant",
-        "url": "https://weworkremotely.com/remote-jobs/pagerduty-principal-solutions-consultant",
-        "priority": "MEDIUM",
-        "opportunity_score": 61,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"PagerDuty: Principal Solutions Consultant\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -1153,16 +1152,16 @@
         }
       },
       {
-        "title": "Huntress: Senior Sales Operations Business Partner",
-        "url": "https://weworkremotely.com/remote-jobs/huntress-senior-sales-operations-business-partner",
+        "title": "Typeform: Full Stack Developer",
+        "url": "https://weworkremotely.com/remote-jobs/typeform-full-stack-developer",
         "priority": "MEDIUM",
-        "opportunity_score": 59,
+        "opportunity_score": 56,
         "estimated_value_eur": 600,
         "offer": {
           "subject": "Proposal: AI workflow automation",
           "price_eur": 600,
           "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"Huntress: Senior Sales Operations Business Partner\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"Typeform: Full Stack Developer\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
