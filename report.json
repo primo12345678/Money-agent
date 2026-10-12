@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T15:11:32.042713+00:00",
+  "generated_at": "2026-10-12T16:08:13.908527+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find legitimate income opportunities",
@@ -253,39 +253,6 @@
           "target_price_eur": 600,
           "premium_price_eur": 1500,
           "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Creatio: Enterprise Account Executive (Kazakhstan)",
-      "url": "https://weworkremotely.com/remote-jobs/creatio-enterprise-account-executive-kazakhstan",
-      "published": "Thu, 08 Oct 2026 18:37:31 +0000",
-      "snippet": "Headquarters: Kazakhstan URL: http://creatio.com Creatio is a global vendor of&nbsp;an agentic CRM &amp; workflow platform with no-code and AI at its core. We help organizations automate customer and operational workflows achieving the fastest time-to-value and the highest ROI on the market. Millions of workflows run on Creatio daily, supporting thousands of clients in over 100 countries. Genuine care for our clients and partners is at the heart of our DNA.&nbsp;We’re proud to be recognized by top industry analysts as a&nbsp;Leader and Strong Performer in multiple Gartner and Forrester reports.In 2025, Creatio was named to Inc.’s Best Workplaces list,&nbsp;recognizing our commitment to employee wellbeing and a strong workplace culture.Who We’re Looking For:We are seeking an experienced Enterprise Account Executive to help us scale the number of Enterprises that use the Creatio platform. ",
-      "score": 55,
-      "confidence": 0.7,
-      "automation_fit": 0.7,
-      "matched_keywords": [
-        "workflow",
-        "crm",
-        "no-code",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "lead_generation",
-        "priority": "MEDIUM",
-        "opportunity_score": 60,
-        "estimated_value_eur": 750,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -867,6 +834,39 @@
       }
     },
     {
+      "source": "We Work Remotely",
+      "title": "Maven Clinic: Client Success Manager",
+      "url": "https://weworkremotely.com/remote-jobs/maven-clinic-client-success-manager",
+      "published": "Sun, 11 Oct 2026 07:30:56 +0000",
+      "snippet": "Headquarters: New York, NY; Remote, US (Hub cities) Maven Clinic is the world's largest virtual clinic for women and families on a mission to make healthcare work for all of us. Through Maven Enterprise, the company partners with more than 2,300 employers and health plans to provide end-to-end women's and family health programs spanning fertility and family building, maternity and newborn care, parenting and pediatrics, and menopause and midlife — improving clinical outcomes, reducing healthcare costs, and expanding equitable access to high-quality care at scale. Through its consumer platform, Maven provides direct access to virtual care across 30+ specialties, as well as dedicated hormone and GLP-1 care programs purpose-built for women. Founded in 2014 by CEO Kate Ryder, Maven Clinic has raised more than $425 million from leading healthcare and technology investors including General Cat",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "workflow",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 46,
+        "estimated_value_eur": 425,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          425.0
+        ],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
       "source": "Remotive",
       "title": "Senior React Full-stack Developer",
       "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133",
@@ -1007,7 +1007,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-12T15:11:32.088431+00:00",
+    "created_at": "2026-10-12T16:08:13.954301+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -1118,21 +1118,6 @@
         }
       },
       {
-        "title": "Creatio: Enterprise Account Executive (Kazakhstan)",
-        "url": "https://weworkremotely.com/remote-jobs/creatio-enterprise-account-executive-kazakhstan",
-        "priority": "MEDIUM",
-        "opportunity_score": 60,
-        "estimated_value_eur": 750,
-        "offer": {
-          "subject": "Proposal: AI lead generation and follow-up",
-          "price_eur": 750,
-          "starter_price_eur": 300,
-          "message": "Hi,\n\nI saw your request about \"Creatio: Enterprise Account Executive (Kazakhstan)\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "Typeform: Full Stack Developer",
         "url": "https://weworkremotely.com/remote-jobs/typeform-full-stack-developer",
         "priority": "MEDIUM",
@@ -1158,6 +1143,21 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"Samsara: Account Development Representative - DACH\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Rubrik Job Board: Field Sales Operations Manager",
+        "url": "https://weworkremotely.com/remote-jobs/rubrik-job-board-field-sales-operations-manager",
+        "priority": "MEDIUM",
+        "opportunity_score": 55,
+        "estimated_value_eur": 750,
+        "offer": {
+          "subject": "Proposal: AI lead generation and follow-up",
+          "price_eur": 750,
+          "starter_price_eur": 300,
+          "message": "Hi,\n\nI saw your request about \"Rubrik Job Board: Field Sales Operations Manager\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
