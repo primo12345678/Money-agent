@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T16:08:13.908527+00:00",
+  "generated_at": "2026-10-12T17:06:52.145462+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find legitimate income opportunities",
@@ -771,6 +771,37 @@
     },
     {
       "source": "We Work Remotely",
+      "title": "Toptal: Salesforce Developers with AI-Assisted Coding Experience",
+      "url": "https://weworkremotely.com/remote-jobs/toptal-salesforce-developers-with-ai-assisted-coding-experience",
+      "published": "Mon, 12 Oct 2026 16:21:23 +0000",
+      "snippet": "Headquarters: We are looking for Salesforce Developers for a global company. Their goal is to accelerate Salesforce delivery across Flows, Lightning Web Components, and Apex while using AI copilots and agents to improve delivery speed, testing, and documentation. General Information Location: Remote. Talents from the USA or Canada. Overlap: 6hs with East Coast time zone, USA Commitment: full-time Length: 12+ months Required Skills: 3–6+ years of Salesforce development experience Strong hands-on experience with Apex Strong experience building Lightning Web Components (LWC) Strong experience with Salesforce Flow Experience with Git-based development and pull request workflows Strong automated testing mindset, including unit testing and security checks Experience validating Salesforce security, sharing rules, bulkification, and governor limits Experience integrating Salesforce components wi",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "workflow",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 48,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
       "title": "Zscaler: Account Executive, Enterprise - NY/NJ",
       "url": "https://weworkremotely.com/remote-jobs/zscaler-account-executive-enterprise-ny-nj",
       "published": "Sun, 11 Oct 2026 07:31:07 +0000",
@@ -829,39 +860,6 @@
           "target_price_eur": 750,
           "premium_price_eur": 2000,
           "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Maven Clinic: Client Success Manager",
-      "url": "https://weworkremotely.com/remote-jobs/maven-clinic-client-success-manager",
-      "published": "Sun, 11 Oct 2026 07:30:56 +0000",
-      "snippet": "Headquarters: New York, NY; Remote, US (Hub cities) Maven Clinic is the world's largest virtual clinic for women and families on a mission to make healthcare work for all of us. Through Maven Enterprise, the company partners with more than 2,300 employers and health plans to provide end-to-end women's and family health programs spanning fertility and family building, maternity and newborn care, parenting and pediatrics, and menopause and midlife — improving clinical outcomes, reducing healthcare costs, and expanding equitable access to high-quality care at scale. Through its consumer platform, Maven provides direct access to virtual care across 30+ specialties, as well as dedicated hormone and GLP-1 care programs purpose-built for women. Founded in 2014 by CEO Kate Ryder, Maven Clinic has raised more than $425 million from leading healthcare and technology investors including General Cat",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "workflow",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 46,
-        "estimated_value_eur": 425,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          425.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -1007,7 +1005,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-12T16:08:13.954301+00:00",
+    "created_at": "2026-10-12T17:06:52.188314+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
