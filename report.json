@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T16:09:11.579607+00:00",
+  "generated_at": "2026-10-13T17:08:03.354470+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find legitimate income opportunities",
@@ -487,38 +487,6 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "Pendo: Senior Pre- & Post-Sales Customer Engineer, Enterprise",
-      "url": "https://weworkremotely.com/remote-jobs/pendo-senior-pre-post-sales-customer-engineer-enterprise",
-      "published": "Sat, 10 Oct 2026 07:30:46 +0000",
-      "snippet": "Headquarters: San Francisco, CA / Seattle, WA / Denver, CO / Remote The Team + The Role Pendo’s Customer Engineering team is the technical backbone of the pre- and post-sales customer motion. The team brings together work that has historically sat across Customer Success, Technical Account Management, and Solutions Engineering into one full-lifecycle technical owner. Customer Engineering helps customers connect technical execution to business outcomes and realize the value of their investment in Pendo. As a Senior Customer Engineer, you own strategic and complex Enterprise accounts across acquisition, implementation, adoption, expansion, and escalation. You lead technical strategy for complex deployments, resolve ambiguous customer challenges, and partner closely with account teams to drive retention, expansion, and customer value. Your impact extends beyond your own accounts through pla",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 54,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
       "title": "AssemblyAI: Senior GTM AI Engineer",
       "url": "https://weworkremotely.com/remote-jobs/assemblyai-senior-gtm-ai-engineer",
       "published": "Sun, 04 Oct 2026 07:31:28 +0000",
@@ -588,6 +556,37 @@
       "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
       "published": "Thu, 08 Oct 2026 21:47:32 GMT",
       "snippet": "About Us We are a financial services start up focusing on helping to improve consumer credit profiles. We are currently seeking KPI driven sales representatives looking to earn up to 45K in their first year while working remotely. We offer comprehensive training and continuous sales coaching to help you meet your financial goals. During our training period we offer a guaranteed training stipend while our trainees are acclimating to the position (*see weekly pay below). If you are a seasoned sales professional looking for the autonomy of a remote position combined with great compensation, we want to hear from you! Compensation Structure This role is 100% commission-based , which means your earning potential is unlimited. In addition, we regularly offer competitive performance-based bonuses to reward hard work and results. Training Period (Weeks 1&#8211;4) We invest in your success and wan",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "crm",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "LOW",
+        "opportunity_score": 50,
+        "estimated_value_eur": 750,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Müller`s Solutions: Pre-Sales Senior Consultant (ERP/CRM)/Remote",
+      "url": "https://weworkremotely.com/remote-jobs/muller-s-solutions-pre-sales-senior-consultant-erp-crm-remote",
+      "published": "Tue, 13 Oct 2026 16:12:12 +0000",
+      "snippet": "Headquarters: Cairo, Cairo Governorate, Egypt URL: http://mullerssolutions.com Description Müller's Solutions is seeking an experienced Pre-Sales Senior Consultant specializing in ERP and CRM solutions to join our remote team. In this role, you will leverage your expertise to support the sales process by providing technical insights, conducting product demonstrations, and tailoring solutions to meet client requirements. You will collaborate closely with sales, marketing, and technical teams to develop compelling proposals that drive business growth. Key Responsibilities: Engage with prospective clients to understand their business challenges and requirements related to ERP and CRM systems. Develop and deliver tailored product demonstrations, presentations, and workshops. Collaborate with sales teams to develop winning strategies and solution proposals. Provide technical guidance and supp",
       "score": 41,
       "confidence": 0.56,
       "automation_fit": 0.58,
@@ -1002,7 +1001,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-13T16:09:11.622020+00:00",
+    "created_at": "2026-10-13T17:08:03.397063+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
