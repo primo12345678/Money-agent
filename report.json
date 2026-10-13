@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T07:14:28.532309+00:00",
+  "generated_at": "2026-10-13T08:08:38.133451+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find legitimate income opportunities",
@@ -24,35 +24,36 @@
   "opportunities": [
     {
       "source": "We Work Remotely",
-      "title": "TestGorilla: Sr. People & Talent Operations Partner",
-      "url": "https://weworkremotely.com/remote-jobs/testgorilla-sr-people-talent-operations-partner",
-      "published": "Thu, 10 Sep 2026 20:28:02 +0000",
-      "snippet": "Headquarters: Fully remote URL: https://www.testgorilla.com/ Senior People &amp; Talent Operations Partner ⚡ This one's going to move fast. We're expecting a lot of interest, so we're running this as a focused hiring sprint. Applications and assessments close September 20 , with interviews happening over the two weeks after that.&nbsp; Where do we hire from? Almost everywhere. Check that your country appears on this page . For this role, you'll have at least 4 hours daily overlap with your UK-based manager. Hi there, I'm Olive Turon, Head of People &amp; Culture at TestGorilla. I'm excited to share more about the Senior People &amp; Talent Operations Partner role and our team. About TestGorilla At TestGorilla, we're on a mission to place 1 billion people in their dream jobs. To democratize opportunity, we're building the world's leading skills-based talent discovery platform - one that r",
-      "score": 69,
-      "confidence": 0.84,
-      "automation_fit": 0.82,
+      "title": "Prove: Senior Director, Global Support",
+      "url": "https://weworkremotely.com/remote-jobs/prove-senior-director-global-support",
+      "published": "Tue, 13 Oct 2026 07:30:53 +0000",
+      "snippet": "Headquarters: United States (Remote) About Prove&nbsp; As the world moves to a mobile-first economy, businesses need to modernize how they acquire, engage with and enable consumers. Prove’s phone-centric identity tokenization and passive cryptographic authentication solutions reduce friction, enhance security and privacy across all digital channels, and accelerate revenues while reducing operating expenses and fraud losses. Over 1,000 enterprise customers use Prove’s platform to process 20 billion customer requests annually across industries, including banking, lending, healthcare, gaming, crypto, e-commerce, marketplaces, and payments. For the latest updates from Prove, follow us on LinkedIn. Prove is driving the future of digital identity. We are looking for Provers who know how to make an impact. We’re talking self-starting professionals who thrive in a fast-paced environment, process",
+      "score": 76,
+      "confidence": 0.91,
+      "automation_fit": 0.88,
       "matched_keywords": [
         "automation",
-        "ai agent",
+        "ai integration",
         "workflow",
-        "zapier",
-        "make.com",
-        "n8n",
+        "crm",
+        "api integration",
+        "sales",
+        "customer support",
         "ai"
       ],
       "analysis": {
-        "category": "ai_automation",
+        "category": "integration",
         "priority": "HIGH",
-        "opportunity_score": 75,
-        "estimated_value_eur": 600,
+        "opportunity_score": 78,
+        "estimated_value_eur": 650,
         "value_basis": "Service-band estimate; not a quoted budget",
         "budget_signals": [],
         "offer": {
-          "service": "AI workflow automation",
+          "service": "AI/API/CRM integration",
           "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -161,33 +162,33 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "Samsara: Account Development Representative - Canada",
-      "url": "https://weworkremotely.com/remote-jobs/samsara-account-development-representative-canada",
-      "published": "Mon, 12 Oct 2026 07:31:05 +0000",
-      "snippet": "Headquarters: Remote - Toronto Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale. Working at Samsara means you’ll help define the future of physical operations and be on a team that’s shaping an exciting array of product solutions, including Video-Based Safety, Vehicle Telematics, Apps and",
+      "title": "Webflow: Senior Manager, AI Customer Success",
+      "url": "https://weworkremotely.com/remote-jobs/webflow-senior-manager-ai-customer-success",
+      "published": "Tue, 13 Oct 2026 07:30:59 +0000",
+      "snippet": "Headquarters: U.S. Remote Webflow is the agentic web marketing platform for modern marketing teams, helping organizations build, manage, and optimize high-performing web experiences that drive predictable growth and strengthen brand trust. Building at Webflow will need grit, because we move fast, without ever sacrificing craft or quality. We’re looking for a Senior Manager, AI Customer Success to help us build and lead the Customer Success team for Source by Webflow, a new platform where marketing teams and their AI agents launch, optimize and scale digital experiences together. Source is in limited research preview today, and this team will support customers as it moves into commercial availability. You’ll start as a player/coach, owning a small portfolio of strategic enterprise Source accounts, including renewals and growth. As Source adoption grows, you’ll build and scale the team. Yo",
       "score": 55,
       "confidence": 0.7,
       "automation_fit": 0.7,
       "matched_keywords": [
+        "automation",
+        "ai agent",
         "workflow",
-        "lead generation",
-        "crm",
         "sales",
         "ai"
       ],
       "analysis": {
-        "category": "lead_generation",
+        "category": "ai_automation",
         "priority": "MEDIUM",
-        "opportunity_score": 62,
-        "estimated_value_eur": 750,
+        "opportunity_score": 61,
+        "estimated_value_eur": 600,
         "value_basis": "Service-band estimate; not a quoted budget",
         "budget_signals": [],
         "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -326,70 +327,6 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "Samsara: Account Development Representative - DACH",
-      "url": "https://weworkremotely.com/remote-jobs/samsara-account-development-representative-dach",
-      "published": "Mon, 12 Oct 2026 07:31:11 +0000",
-      "snippet": "Headquarters: Remote - Germany Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale. Working at Samsara means you’ll help define the future of physical operations and be on a team that’s shaping an exciting array of product solutions, including Video-Based Safety, Vehicle Telematics, Apps and",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "workflow",
-        "crm",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "lead_generation",
-        "priority": "MEDIUM",
-        "opportunity_score": 55,
-        "estimated_value_eur": 750,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Rubrik Job Board: Field Sales Operations Manager",
-      "url": "https://weworkremotely.com/remote-jobs/rubrik-job-board-field-sales-operations-manager",
-      "published": "Mon, 12 Oct 2026 07:31:05 +0000",
-      "snippet": "Headquarters: Remote - United States Rubrik has become the fastest growing enterprise software company in Silicon Valley.&nbsp; We are seeking a passionate and highly driven individual to join our world class, career enhancing Sales Operations team! This team partners with Field Sales Leaders on cutting edge GTM strategies, metric tracking, and infrastructure development.&nbsp; Sales Operations is integral to the overall success of the sales organization,&nbsp; providing data, process, and decision making that ultimately drives revenue, growth and sales productivity. Rubrik’s Americas Sales team is one of the fastest growing in the industry and is led by a dynamic team of sales executives and cross-functional leaders. The Field Sales Operations Manager will have the charter and opportunity to help shape the growth of the business through a combination of metric tracking and reporting, te",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "ai agent",
-        "crm",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "lead_generation",
-        "priority": "MEDIUM",
-        "opportunity_score": 55,
-        "estimated_value_eur": 750,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
       "title": "Rubrik Job Board: Customer Resilience Manager - Customer Success (Remote)",
       "url": "https://weworkremotely.com/remote-jobs/rubrik-job-board-customer-resilience-manager-customer-success-remote",
       "published": "Mon, 12 Oct 2026 07:31:00 +0000",
@@ -454,49 +391,17 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "Glean: Enterprise Account Executive, Ohio Valley",
-      "url": "https://weworkremotely.com/remote-jobs/glean-enterprise-account-executive-ohio-valley",
-      "published": "Mon, 12 Oct 2026 07:31:14 +0000",
-      "snippet": "Headquarters: Remote - US About Glean: &nbsp; Glean is the Work AI platform that helps everyone work smarter with AI. What began as the industry’s most advanced enterprise search has evolved into a full-scale Work AI ecosystem, powering intelligent Search, an AI Assistant, and scalable AI agents on one secure, open platform. With over 100 enterprise SaaS connectors, flexible LLM choice, and robust APIs, Glean gives organizations the infrastructure to govern, scale, and customize AI across their entire business - without vendor lock-in or costly implementation cycles. &nbsp; At its core, Glean is redefining how enterprises find, use, and act on knowledge. Its Enterprise Graph and Personal Knowledge Graph map the relationships between people, content, and activity, delivering deeply personalized, context-aware responses for every employee. This foundation powers Glean’s agentic capabilitie",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "ai agent",
-        "workflow",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 54,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Bitwarden: Channel Marketing Manager (Partner Growth)",
-      "url": "https://weworkremotely.com/remote-jobs/bitwarden-channel-marketing-manager-partner-growth",
-      "published": "Mon, 12 Oct 2026 07:31:14 +0000",
-      "snippet": "Headquarters: Remote US Bitwarden is the trusted identity security leader for millions of users worldwide, empowering enterprises, developers, and individuals to securely manage and share sensitive information anywhere. Bitwarden makes it easy for all users to extend robust security across their devices with password management, secrets management, and passwordless and passkey innovations. The company is headquartered in Santa Barbara, California with team members located across the globe. Learn more at&nbsp; bitwarden.com . We're hiring a Channel Marketing Manager to own partner marketing end-to-end — from partner onboarding and enablement to demand generation and events — across MSP, reseller, and VAR motions, prioritizing effort based on revenue potential and business urgency rather than spreading evenly across all three.&nbsp; This is an all-remote team and we're looking for someone ",
+      "title": "Elation Health: Case Resolution Engineer",
+      "url": "https://weworkremotely.com/remote-jobs/elation-health-case-resolution-engineer",
+      "published": "Tue, 13 Oct 2026 07:31:00 +0000",
+      "snippet": "Headquarters: Canada - Remote Our team is committed to enhancing physician and patient quality of life through Elation, a SaaS cloud-based clinical platform. Since inception, we've been focused on building a delightful, world-class experience that empowers physicians to deliver phenomenal care to patients. Customer support has been the same job for twenty years: a queue, a ticket, an SLA, a closed case. That's ending, fast. Over the next 6–9 months, AI will take on more of the routine, repetitive cases at Elation. That doesn't shrink the human role — it builds on it. The work becomes product intelligence: shaping how AI handles conversations, holding the customer-trust moments that need real judgment, and turning patterns into priorities Engineering delivers. We're hiring Support Engineers to anchor that shift: people who don't just close tickets, but trace them back to the line of produ",
       "score": 48,
       "confidence": 0.63,
       "automation_fit": 0.64,
       "matched_keywords": [
         "automation",
-        "ai agent",
-        "sales",
+        "workflow",
+        "customer support",
         "ai"
       ],
       "analysis": {
@@ -518,9 +423,9 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "Glean: Enterprise Account Executive, Mid-Atlantic",
-      "url": "https://weworkremotely.com/remote-jobs/glean-enterprise-account-executive-mid-atlantic",
-      "published": "Mon, 12 Oct 2026 07:31:11 +0000",
+      "title": "Glean: Enterprise Account Executive, Ohio Valley",
+      "url": "https://weworkremotely.com/remote-jobs/glean-enterprise-account-executive-ohio-valley",
+      "published": "Mon, 12 Oct 2026 07:31:14 +0000",
       "snippet": "Headquarters: Remote - US About Glean: &nbsp; Glean is the Work AI platform that helps everyone work smarter with AI. What began as the industry’s most advanced enterprise search has evolved into a full-scale Work AI ecosystem, powering intelligent Search, an AI Assistant, and scalable AI agents on one secure, open platform. With over 100 enterprise SaaS connectors, flexible LLM choice, and robust APIs, Glean gives organizations the infrastructure to govern, scale, and customize AI across their entire business - without vendor lock-in or costly implementation cycles. &nbsp; At its core, Glean is redefining how enterprises find, use, and act on knowledge. Its Enterprise Graph and Personal Knowledge Graph map the relationships between people, content, and activity, delivering deeply personalized, context-aware responses for every employee. This foundation powers Glean’s agentic capabilitie",
       "score": 48,
       "confidence": 0.63,
@@ -710,34 +615,62 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "Stripe: Account Executive, Product Sales - Tax",
-      "url": "https://weworkremotely.com/remote-jobs/stripe-account-executive-product-sales-tax",
-      "published": "Sun, 11 Oct 2026 07:31:07 +0000",
-      "snippet": "Headquarters: US-Remote Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team Product Sales is a team of functional and technical specialists who both lead and advise on deals for the most strategically important products in the Stripe portfolio. Revenue suite Product Sales is tasked with pursuing a $100B market opportunity for back-office finance automation across billing, tax, revenue reporting, and data. What you",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
+      "title": "Webflow: Senior Manager, Corporate Sales - West",
+      "url": "https://weworkremotely.com/remote-jobs/webflow-senior-manager-corporate-sales-west",
+      "published": "Tue, 13 Oct 2026 07:31:00 +0000",
+      "snippet": "Headquarters: CA Remote (BC &amp; ON only); U.S. Remote Webflow is the agentic web marketing platform for modern marketing teams, helping organizations build, manage, and optimize high-performing web experiences that drive predictable growth and strengthen brand trust. Building at Webflow will need grit, because we move fast, without ever sacrificing craft or quality. We’re looking for a Sr. Manager, Corporate Sales to lead and scale Webflow’s strategic , full-cycle sales motion within our West Coast Corporate segment. In this role, you will drive strategy and execution for a team of Account Executives responsible for prospecting, pipeline generation, and closing new business, while ensuring a seamless, efficient, and high-performing sales process. You will recruit, develop, and coach top-performing AEs, fostering a culture of continuous improvement, accountability, and excellence. You w",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
       "matched_keywords": [
-        "automation",
-        "workflow",
+        "crm",
         "sales",
         "ai"
       ],
       "analysis": {
-        "category": "ai_automation",
+        "category": "lead_generation",
         "priority": "LOW",
         "opportunity_score": 50,
-        "estimated_value_eur": 100,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          100.0
-        ],
+        "estimated_value_eur": 750,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
         "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Elation Health: Account Executive, Small Group",
+      "url": "https://weworkremotely.com/remote-jobs/elation-health-account-executive-small-group",
+      "published": "Tue, 13 Oct 2026 07:30:53 +0000",
+      "snippet": "Headquarters: US-Remote Our team is committed to enhancing physician and patient quality of life through Elation, a SaaS cloud-based clinical platform. Since inception, we’ve been focused on building a world-class technology solution that creates an experience of delight and ease for physicians, and that our users love. Elation is looking for an Account Executive with a keen interest in helping Elation grow its acquisition efforts to independent physician practices. This is a quota carrying role where we’re looking for a hungry, goal-oriented sales professional to take our team to the next level. The primary function of this role will be to partner with our sales leadership team to drive and nurture prospect engagement as we build Elation’s customer portfolio. Responsibilities: Full-Cycle Sales Process Management: Lead a comprehensive sales process that encompasses creative lead generati",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "lead generation",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "LOW",
+        "opportunity_score": 50,
+        "estimated_value_eur": 750,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -754,6 +687,37 @@
       "matched_keywords": [
         "automation",
         "ai agent",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 49,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Tebra: Data Engineer",
+      "url": "https://weworkremotely.com/remote-jobs/tebra-data-engineer",
+      "published": "Tue, 13 Oct 2026 07:30:48 +0000",
+      "snippet": "Headquarters: United States - Remote Tebra only initiates contact with candidates via email from an official Tebra email address (@ tebra.com , @ patientpop.com , or @ kareo.com ) or through our applicant tracking system, Greenhouse.&nbsp;We will only ask you to provide sensitive personal information through our official application portal — not via social media or text message. We do not conduct interviews via instant messaging. About the Role As a Data Engineer focused on AI/ML , you’ll build, maintain, and optimize the data infrastructure that powers Tebra’s intelligent features. You’ll partner closely with Machine Learning Engineers, Data Scientists, and Software Engineers to transform complex healthcare data into high-quality datasets and real-time features that enable machine learning models. This is a hands-on engineering role where you’ll contribute to scalable data pipelines, im",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "automation",
+        "workflow",
         "ai"
       ],
       "analysis": {
@@ -806,15 +770,15 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "Toptal: Salesforce Developers with AI-Assisted Coding Experience",
-      "url": "https://weworkremotely.com/remote-jobs/toptal-salesforce-developers-with-ai-assisted-coding-experience",
-      "published": "Mon, 12 Oct 2026 16:21:23 +0000",
-      "snippet": "Headquarters: We are looking for Salesforce Developers for a global company. Their goal is to accelerate Salesforce delivery across Flows, Lightning Web Components, and Apex while using AI copilots and agents to improve delivery speed, testing, and documentation. General Information Location: Remote. Talents from the USA or Canada. Overlap: 6hs with East Coast time zone, USA Commitment: full-time Length: 12+ months Required Skills: 3–6+ years of Salesforce development experience Strong hands-on experience with Apex Strong experience building Lightning Web Components (LWC) Strong experience with Salesforce Flow Experience with Git-based development and pull request workflows Strong automated testing mindset, including unit testing and security checks Experience validating Salesforce security, sharing rules, bulkification, and governor limits Experience integrating Salesforce components wi",
+      "title": "Collibra: General Manager, Collibra Public Sector",
+      "url": "https://weworkremotely.com/remote-jobs/collibra-general-manager-collibra-public-sector",
+      "published": "Tue, 13 Oct 2026 07:30:53 +0000",
+      "snippet": "Headquarters: Remote, East Coast USA Collibra is the Enterprise AI Control Plane. Built over eighteen years of meta-data and ontology engineering, Collibra governs context and control across any data storage system, AI model, and AI agent.&nbsp; Collibra delivers clarity and context to AI leaders who need data certainty at the speed of AI. A 5x Forrester Wave Leader and 2x Gartner Magic Quadrant Leader, Collibra serves more than 700 customers, including 78 of the Fortune 500, and governs more than 2 billion assets. Collibra Public Sector LLC is the purpose-built subsidiary that serves US federal government agencies and the Defense Industrial Base. Collibra Public Sector is a FOCI-mitigated entity with a DCSA facility clearance. Collibra Public Sector personnel service clients in some of the most demanding mission organizations. Collibra Public Sector products, people and partners are uni",
       "score": 41,
       "confidence": 0.56,
       "automation_fit": 0.58,
       "matched_keywords": [
-        "workflow",
+        "ai agent",
         "sales",
         "ai"
       ],
@@ -837,33 +801,62 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "Maven Clinic: Customer Success Director",
-      "url": "https://weworkremotely.com/remote-jobs/maven-clinic-customer-success-director",
-      "published": "Sun, 11 Oct 2026 07:31:07 +0000",
-      "snippet": "Headquarters: Remote Maven Clinic is the world's largest virtual clinic for women and families on a mission to make healthcare work for all of us. Through Maven Enterprise, the company partners with more than 2,300 employers and health plans to provide end-to-end women's and family health programs spanning fertility and family building, maternity and newborn care, parenting and pediatrics, and menopause and midlife — improving clinical outcomes, reducing healthcare costs, and expanding equitable access to high-quality care at scale. Through its consumer platform, Maven provides direct access to virtual care across 30+ specialties, as well as dedicated hormone and GLP-1 care programs purpose-built for women. Founded in 2014 by CEO Kate Ryder, Maven Clinic has raised more than $425 million from leading healthcare and technology investors including General Catalyst, Sequoia, Dragoneer Inves",
+      "title": "Tebra: Product Marketing Manager (TEMPORARY)",
+      "url": "https://weworkremotely.com/remote-jobs/tebra-product-marketing-manager-temporary",
+      "published": "Tue, 13 Oct 2026 07:30:53 +0000",
+      "snippet": "Headquarters: United States - Remote Tebra only initiates contact with candidates via email from an official Tebra email address (@ tebra.com , @ patientpop.com , or @ kareo.com ) or through our applicant tracking system, Greenhouse.&nbsp;We will only ask you to provide sensitive personal information through our official application portal — not via social media or text message. We do not conduct interviews via instant messaging. About the Role We’re looking for a candidate who is passionate about healthcare, and providing independent healthcare practitioners the best single solution for delivering high quality care to patients. If you nerd out on positioning and messaging, love diving deep into market research and competitive intelligence, and think any time spent talking to customers is time well spent, this is the job for you. This role serves as the nexus of knowledge for EHR and car",
       "score": 41,
       "confidence": 0.56,
       "automation_fit": 0.58,
       "matched_keywords": [
-        "crm",
+        "automation",
         "sales",
         "ai"
       ],
       "analysis": {
-        "category": "lead_generation",
+        "category": "ai_automation",
         "priority": "LOW",
         "opportunity_score": 48,
-        "estimated_value_eur": 425,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          425.0
-        ],
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
         "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Collibra: Collibra Public Sector Senior Account Executive, Federal Civilian Agencies",
+      "url": "https://weworkremotely.com/remote-jobs/collibra-collibra-public-sector-senior-account-executive-federal-civilian-agencies",
+      "published": "Tue, 13 Oct 2026 07:30:48 +0000",
+      "snippet": "Headquarters: Remote, USA Joining Collibra’s Public Sector team Make an impact at Collibra Public Sector by driving growth in US federal civilian agencies. This role will be responsible for selling Collibra's value and vision to prospects and existing customers, offering a complete solution that includes software, support and services. As part of our federal sales team, you will manage some of Collibra’s largest accounts. You will use your knowledge and skills in enterprise sales to establish trusted and credible relationships, build Collibra’s brand and awareness around our solutions, and serve as a data intelligence advisor throughout the customer journey. You will be actively involved in the entire sales cycle&nbsp; Senior Account Executives at Collibra Public Sector are responsible for Achieving assigned goals for new license revenue and customer renewals&nbsp;&nbsp; Reliable and acc",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "workflow",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 48,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -1009,22 +1002,22 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-13T07:14:28.585679+00:00",
+    "created_at": "2026-10-13T08:08:38.174962+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
     "drafts": [
       {
-        "title": "TestGorilla: Sr. People & Talent Operations Partner",
-        "url": "https://weworkremotely.com/remote-jobs/testgorilla-sr-people-talent-operations-partner",
+        "title": "Prove: Senior Director, Global Support",
+        "url": "https://weworkremotely.com/remote-jobs/prove-senior-director-global-support",
         "priority": "HIGH",
-        "opportunity_score": 75,
-        "estimated_value_eur": 600,
+        "opportunity_score": 78,
+        "estimated_value_eur": 650,
         "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
           "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"TestGorilla: Sr. People & Talent Operations Partner\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"Prove: Senior Director, Global Support\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -1075,16 +1068,16 @@
         }
       },
       {
-        "title": "Samsara: Account Development Representative - Canada",
-        "url": "https://weworkremotely.com/remote-jobs/samsara-account-development-representative-canada",
+        "title": "Webflow: Senior Manager, AI Customer Success",
+        "url": "https://weworkremotely.com/remote-jobs/webflow-senior-manager-ai-customer-success",
         "priority": "MEDIUM",
-        "opportunity_score": 62,
-        "estimated_value_eur": 750,
+        "opportunity_score": 61,
+        "estimated_value_eur": 600,
         "offer": {
-          "subject": "Proposal: AI lead generation and follow-up",
-          "price_eur": 750,
-          "starter_price_eur": 300,
-          "message": "Hi,\n\nI saw your request about \"Samsara: Account Development Representative - Canada\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"Webflow: Senior Manager, AI Customer Success\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -1150,8 +1143,8 @@
         }
       },
       {
-        "title": "Samsara: Account Development Representative - DACH",
-        "url": "https://weworkremotely.com/remote-jobs/samsara-account-development-representative-dach",
+        "title": "Rubrik Job Board: Customer Resilience Manager - Customer Success (Remote)",
+        "url": "https://weworkremotely.com/remote-jobs/rubrik-job-board-customer-resilience-manager-customer-success-remote",
         "priority": "MEDIUM",
         "opportunity_score": 55,
         "estimated_value_eur": 750,
@@ -1159,7 +1152,7 @@
           "subject": "Proposal: AI lead generation and follow-up",
           "price_eur": 750,
           "starter_price_eur": 300,
-          "message": "Hi,\n\nI saw your request about \"Samsara: Account Development Representative - DACH\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"Rubrik Job Board: Customer Resilience Manager - Customer Success (Remote)\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
