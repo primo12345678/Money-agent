@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T17:08:03.354470+00:00",
+  "generated_at": "2026-10-13T18:09:18.157821+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find legitimate income opportunities",
@@ -423,38 +423,6 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "Glean: Enterprise Account Executive, Ohio Valley",
-      "url": "https://weworkremotely.com/remote-jobs/glean-enterprise-account-executive-ohio-valley",
-      "published": "Mon, 12 Oct 2026 07:31:14 +0000",
-      "snippet": "Headquarters: Remote - US About Glean: &nbsp; Glean is the Work AI platform that helps everyone work smarter with AI. What began as the industry’s most advanced enterprise search has evolved into a full-scale Work AI ecosystem, powering intelligent Search, an AI Assistant, and scalable AI agents on one secure, open platform. With over 100 enterprise SaaS connectors, flexible LLM choice, and robust APIs, Glean gives organizations the infrastructure to govern, scale, and customize AI across their entire business - without vendor lock-in or costly implementation cycles. &nbsp; At its core, Glean is redefining how enterprises find, use, and act on knowledge. Its Enterprise Graph and Personal Knowledge Graph map the relationships between people, content, and activity, delivering deeply personalized, context-aware responses for every employee. This foundation powers Glean’s agentic capabilitie",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "ai agent",
-        "workflow",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 54,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
       "title": "QuickMail: Technical Customer Support",
       "url": "https://weworkremotely.com/remote-jobs/quickmail-technical-customer-support",
       "published": "Sat, 10 Oct 2026 21:21:48 +0000",
@@ -556,6 +524,37 @@
       "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
       "published": "Thu, 08 Oct 2026 21:47:32 GMT",
       "snippet": "About Us We are a financial services start up focusing on helping to improve consumer credit profiles. We are currently seeking KPI driven sales representatives looking to earn up to 45K in their first year while working remotely. We offer comprehensive training and continuous sales coaching to help you meet your financial goals. During our training period we offer a guaranteed training stipend while our trainees are acclimating to the position (*see weekly pay below). If you are a seasoned sales professional looking for the autonomy of a remote position combined with great compensation, we want to hear from you! Compensation Structure This role is 100% commission-based , which means your earning potential is unlimited. In addition, we regularly offer competitive performance-based bonuses to reward hard work and results. Training Period (Weeks 1&#8211;4) We invest in your success and wan",
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "crm",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "LOW",
+        "opportunity_score": 50,
+        "estimated_value_eur": 750,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Kyro AI: Sales Development Representative",
+      "url": "https://weworkremotely.com/remote-jobs/kyro-ai-sales-development-representative",
+      "published": "Tue, 13 Oct 2026 17:13:53 +0000",
+      "snippet": "Headquarters: Texas URL: https://kyro.ai Sales Development Representative (SDR) Location: Remote, non-US based, working US Central Time business hours Experience: 1-3 years in a B2B SDR/BDR role Employment type: Full-time Reports to: Product Manager - Growth ABOUT KYRO AI When a major storm knocks out power, utilities race to mobilize crews and get the lights back on. Kyro AI builds the software behind that effort: workforce and contractor management for electric utilities, storm restoration contractors, and aggregators. We are headquartered in Plano, Texas, and were spun off from Think Power Solutions, so we pair long-standing utility expertise with the pace and ownership of a product company. https://kyro.ai/ WHY JOIN KYRO - Work that matters: our platform helps communities get power back after storms and keeps a critical, regulated industry compliant. - A growing product suite: StormS",
       "score": 41,
       "confidence": 0.56,
       "automation_fit": 0.58,
@@ -1001,7 +1000,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-13T17:08:03.397063+00:00",
+    "created_at": "2026-10-13T18:09:18.215301+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
