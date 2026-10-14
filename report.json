@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T21:18:15.724790+00:00",
+  "generated_at": "2026-10-14T22:16:42.760617+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find legitimate income opportunities",
@@ -765,7 +765,7 @@
       "source": "Remotive",
       "title": "Tech Lead Full-Stack Rails Engineer",
       "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
-      "published": "Mon, 14 Sep 2026 20:33:27 GMT",
+      "published": "Wed, 14 Oct 2026 20:33:44 GMT",
       "snippet": "About Mitre Media Mitre Media is redefining FinTech with AI-driven tools that empower millions of investors. Our portfolio, including Dividend.com and MutualFunds.com, leverages LLMs to deliver novel data insights and visually rich user experiences. For over a decade, we&#8217;ve served individual investors, financial advisors, and top asset managers like BlackRock and Vanguard through our premium data, tools, and advertising solutions. Join our lean, entrepreneurial team to shape the future of AI-powered investing from your location &#177;3 hours from Eastern Time. Our users are deeply engaged, spending over 5 minutes per visit with a bounce rate below 10%, researching investments across hundreds of different categories. With 40 million brokerage accounts in the U.S., we take pride in building tools that make a real impact, fostering a culture of trust, innovation, and dynamism. If you&",
       "score": 41,
       "confidence": 0.56,
@@ -995,7 +995,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-14T21:18:15.774514+00:00",
+    "created_at": "2026-10-14T22:16:42.805006+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
