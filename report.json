@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T06:18:44.590748+00:00",
+  "generated_at": "2026-10-14T07:30:43.212705+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find legitimate income opportunities",
@@ -22,42 +22,6 @@
     }
   ],
   "opportunities": [
-    {
-      "source": "We Work Remotely",
-      "title": "Prove: Senior Director, Global Support",
-      "url": "https://weworkremotely.com/remote-jobs/prove-senior-director-global-support",
-      "published": "Tue, 13 Oct 2026 07:30:53 +0000",
-      "snippet": "Headquarters: United States (Remote) About Prove&nbsp; As the world moves to a mobile-first economy, businesses need to modernize how they acquire, engage with and enable consumers. Prove’s phone-centric identity tokenization and passive cryptographic authentication solutions reduce friction, enhance security and privacy across all digital channels, and accelerate revenues while reducing operating expenses and fraud losses. Over 1,000 enterprise customers use Prove’s platform to process 20 billion customer requests annually across industries, including banking, lending, healthcare, gaming, crypto, e-commerce, marketplaces, and payments. For the latest updates from Prove, follow us on LinkedIn. Prove is driving the future of digital identity. We are looking for Provers who know how to make an impact. We’re talking self-starting professionals who thrive in a fast-paced environment, process",
-      "score": 76,
-      "confidence": 0.91,
-      "automation_fit": 0.88,
-      "matched_keywords": [
-        "automation",
-        "ai integration",
-        "workflow",
-        "crm",
-        "api integration",
-        "sales",
-        "customer support",
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "HIGH",
-        "opportunity_score": 78,
-        "estimated_value_eur": 650,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
     {
       "source": "We Work Remotely",
       "title": "Tines: Manager, Renewals",
@@ -207,6 +171,39 @@
         "ai agent",
         "ai integration",
         "workflow",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "MEDIUM",
+        "opportunity_score": 61,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "PagerDuty: Principal Solutions Consultant",
+      "url": "https://weworkremotely.com/remote-jobs/pagerduty-principal-solutions-consultant",
+      "published": "Tue, 06 Oct 2026 07:31:09 +0000",
+      "snippet": "Headquarters: Remote (USA) PagerDuty, Inc. (NYSE: PD) is the global leader in AI-first digital operations. By automatically detecting, diagnosing, and remediating issues, the PagerDuty Platform orchestrates AI agents and automated workflows with context from over 750 integrations. Trusted by approximately two-thirds of the Fortune 100 and nearly half of the Fortune 500, PagerDuty is the industry standard for organizations scaling resilient, autonomous operations. Notable customers include Chipotle, Cloudflare, Docusign, Fox, Nvidia, Salesforce, Spotify, Zoom and more. We are growing rapidly and hiring top talent with leading AI skills across engineering, sales, product, marketing, and beyond as we build the leading digital operations platform. &nbsp; PagerDuty is seeking a Principal Solutions Consultant to join our talented, customer-focused team! You will be a key strategic leader and t",
+      "score": 55,
+      "confidence": 0.7,
+      "automation_fit": 0.7,
+      "matched_keywords": [
+        "automation",
+        "ai agent",
+        "workflow",
+        "sales",
         "ai"
       ],
       "analysis": {
@@ -434,6 +431,38 @@
         "automation",
         "workflow",
         "customer support",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 54,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Pendo: Senior Pre- & Post-Sales Customer Engineer, Enterprise",
+      "url": "https://weworkremotely.com/remote-jobs/pendo-senior-pre-post-sales-customer-engineer-enterprise",
+      "published": "Sat, 10 Oct 2026 07:30:46 +0000",
+      "snippet": "Headquarters: San Francisco, CA / Seattle, WA / Denver, CO / Remote The Team + The Role Pendo’s Customer Engineering team is the technical backbone of the pre- and post-sales customer motion. The team brings together work that has historically sat across Customer Success, Technical Account Management, and Solutions Engineering into one full-lifecycle technical owner. Customer Engineering helps customers connect technical execution to business outcomes and realize the value of their investment in Pendo. As a Senior Customer Engineer, you own strategic and complex Enterprise accounts across acquisition, implementation, adoption, expansion, and escalation. You lead technical strategy for complex deployments, resolve ambiguous customer challenges, and partner closely with account teams to drive retention, expansion, and customer value. Your impact extends beyond your own accounts through pla",
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "automation",
+        "workflow",
+        "sales",
         "ai"
       ],
       "analysis": {
@@ -829,37 +858,6 @@
       }
     },
     {
-      "source": "We Work Remotely",
-      "title": "Collibra: Collibra Public Sector Senior Account Executive, Federal Civilian Agencies",
-      "url": "https://weworkremotely.com/remote-jobs/collibra-collibra-public-sector-senior-account-executive-federal-civilian-agencies",
-      "published": "Tue, 13 Oct 2026 07:30:48 +0000",
-      "snippet": "Headquarters: Remote, USA Joining Collibra’s Public Sector team Make an impact at Collibra Public Sector by driving growth in US federal civilian agencies. This role will be responsible for selling Collibra's value and vision to prospects and existing customers, offering a complete solution that includes software, support and services. As part of our federal sales team, you will manage some of Collibra’s largest accounts. You will use your knowledge and skills in enterprise sales to establish trusted and credible relationships, build Collibra’s brand and awareness around our solutions, and serve as a data intelligence advisor throughout the customer journey. You will be actively involved in the entire sales cycle&nbsp; Senior Account Executives at Collibra Public Sector are responsible for Achieving assigned goals for new license revenue and customer renewals&nbsp;&nbsp; Reliable and acc",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "workflow",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 48,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "Remotive",
       "title": "Senior React Full-stack Developer",
       "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133",
@@ -1000,26 +998,11 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-14T06:18:44.643779+00:00",
+    "created_at": "2026-10-14T07:30:43.257482+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
     "drafts": [
-      {
-        "title": "Prove: Senior Director, Global Support",
-        "url": "https://weworkremotely.com/remote-jobs/prove-senior-director-global-support",
-        "priority": "HIGH",
-        "opportunity_score": 78,
-        "estimated_value_eur": 650,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"Prove: Senior Director, Global Support\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
       {
         "title": "Tines: Manager, Renewals",
         "url": "https://weworkremotely.com/remote-jobs/tines-manager-renewals",
@@ -1091,6 +1074,21 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"BeyondTrust: Cyber Defense Engineer\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "PagerDuty: Principal Solutions Consultant",
+        "url": "https://weworkremotely.com/remote-jobs/pagerduty-principal-solutions-consultant",
+        "priority": "MEDIUM",
+        "opportunity_score": 61,
+        "estimated_value_eur": 600,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"PagerDuty: Principal Solutions Consultant\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
