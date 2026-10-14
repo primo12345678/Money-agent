@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T16:22:22.002469+00:00",
+  "generated_at": "2026-10-14T17:19:05.896350+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find legitimate income opportunities",
@@ -77,39 +77,6 @@
         "category": "ai_automation",
         "priority": "MEDIUM",
         "opportunity_score": 66,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Webflow: Senior Manager, AI Customer Success",
-      "url": "https://weworkremotely.com/remote-jobs/webflow-senior-manager-ai-customer-success",
-      "published": "Tue, 13 Oct 2026 07:30:59 +0000",
-      "snippet": "Headquarters: U.S. Remote Webflow is the agentic web marketing platform for modern marketing teams, helping organizations build, manage, and optimize high-performing web experiences that drive predictable growth and strengthen brand trust. Building at Webflow will need grit, because we move fast, without ever sacrificing craft or quality. We’re looking for a Senior Manager, AI Customer Success to help us build and lead the Customer Success team for Source by Webflow, a new platform where marketing teams and their AI agents launch, optimize and scale digital experiences together. Source is in limited research preview today, and this team will support customers as it moves into commercial availability. You’ll start as a player/coach, owning a small portfolio of strategic enterprise Source accounts, including renewals and growth. As Source adoption grows, you’ll build and scale the team. Yo",
-      "score": 55,
-      "confidence": 0.7,
-      "automation_fit": 0.7,
-      "matched_keywords": [
-        "automation",
-        "ai agent",
-        "workflow",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "MEDIUM",
-        "opportunity_score": 61,
         "estimated_value_eur": 600,
         "value_basis": "Service-band estimate; not a quoted budget",
         "budget_signals": [],
@@ -349,6 +316,38 @@
           "target_price_eur": 750,
           "premium_price_eur": 2000,
           "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Apollo: Business Recruiter",
+      "url": "https://weworkremotely.com/remote-jobs/apollo-business-recruiter",
+      "published": "Wed, 14 Oct 2026 17:15:52 +0000",
+      "snippet": "Headquarters: URL: https://www.apollo.io/es About the Role Apollo is hiring a&nbsp; Business Recruiter to own full-cycle recruiting across our G&amp;A, Sales and Marketing organizations . This is a high-ownership role on a lean, high-performing team. You will manage a portfolio of mid and senior-level requisitions, build and execute sourcing strategies, and serve as a genuine business partner to your hiring managers. This role requires someone who operates with low oversight , self-diagnoses problems before they escalate , and brings a talent advisor posture to every stakeholder conversation. The best person for this role brings their own operating system and makes the team around them sharper. &nbsp; What You Will Do Own full-cycle recruiting for mid and senior-level roles across G&amp;A, Sales and Marketing, with consistent delivery across multiple verticals simultaneously Build and ex",
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "automation",
+        "workflow",
+        "sales",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 54,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -996,7 +995,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-14T16:22:22.049024+00:00",
+    "created_at": "2026-10-14T17:19:05.938497+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -1027,21 +1026,6 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"Smartsheet: Director, Finance Systems & ERP\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Webflow: Senior Manager, AI Customer Success",
-        "url": "https://weworkremotely.com/remote-jobs/webflow-senior-manager-ai-customer-success",
-        "priority": "MEDIUM",
-        "opportunity_score": 61,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"Webflow: Senior Manager, AI Customer Success\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -1147,6 +1131,21 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"Current: Producer, Client Experience & Growth (Contract)\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Apollo: Business Recruiter",
+        "url": "https://weworkremotely.com/remote-jobs/apollo-business-recruiter",
+        "priority": "LOW",
+        "opportunity_score": 54,
+        "estimated_value_eur": 600,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"Apollo: Business Recruiter\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
