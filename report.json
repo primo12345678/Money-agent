@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T20:16:06.794675+00:00",
+  "generated_at": "2026-10-15T21:19:09.491464+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -488,10 +488,10 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[Hiring] a Female Scifi Story Narrator for YouTube Channel $60- $70 per story",
-      "url": "https://www.reddit.com/r/forhire/comments/1x6m286/hiring_a_female_scifi_story_narrator_for_youtube/",
-      "published": "2026-10-15T13:45:31+00:00",
-      "snippet": "We&#39;re a YouTube production team behind an established science fiction audiobook channel, and we&#39;re looking for a female narrator who can deliver engaging story narrations and appear on camera for short video introductions. Please note: This role requires a 30-second on-camera introduction for each story , so you must be comfortable on camera and have access to a good recording setup. Pay &amp; Workload Our current base rate is $0.010 per word , with stories averaging 6,000–7,000 words ($60–$70 per story). The per-word rate will increase gradually based on performance. We&#39;ll consider output volume, consistency, turnaround time, story length, and audience reception when reviewing rates. What You&#39;ll Do Narrate science fiction and HFY romance stories. Record a 30-second on-camera introduction for each story. Deliver clean, edited audio files free of mistakes, repeated lines, ",
+      "title": "[Hiring] Female On-Camera Presenter for YouTube Channel Introduction (Remote) $30–50",
+      "url": "https://www.reddit.com/r/forhire/comments/1x6wr5n/hiring_female_oncamera_presenter_for_youtube/",
+      "published": "2026-10-15T20:31:51+00:00",
+      "snippet": "I&#39;m looking for a female on-camera presenter/actress to record a short (~2-minute) introduction video for an established YouTube entertainment channel. **Requirements:** - Female, 18+, preferably with a youthful appearance (18–25). - Fluent English, preferably with an American accent. - Confident, expressive, and natural on camera. - Friendly, playful personality with a good sense of humor. - Good camera quality (1080p minimum), lighting, and clear audio. - Horizontal (16:9) recording with a clean background and casual, modest clothing. I&#39;ll provide the complete script and recording instructions. No editing required, just the raw video footage. Budget: $ 30–50, depending on experience and quality, including permanent commercial usage rights. If interested, please DM me with a recent on-camera video sample and your expected rate. Thanks! &#32; submitted by &#32; /u/ProfessionalWeb",
       "lead_type": "potential_buyer_request",
       "buyer_intent_score": 25,
       "buyer_signals": [
@@ -508,14 +508,11 @@
         "category": "other",
         "priority": "LOW",
         "opportunity_score": 32,
-        "estimated_value_eur": 70,
+        "estimated_value_eur": 30,
         "value_basis": "Detected budget/rate in listing",
         "budget_signals": [
-          60.0,
-          70.0,
-          0.01,
-          60.0,
-          70.0
+          30.0,
+          30.0
         ],
         "offer": {
           "service": "AI workflow improvement",
@@ -660,7 +657,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-15T20:16:06.829905+00:00",
+    "created_at": "2026-10-15T21:19:09.521416+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
