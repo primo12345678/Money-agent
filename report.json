@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T16:18:49.912259+00:00",
+  "generated_at": "2026-10-15T17:21:02.950793+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -611,10 +611,10 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[Hiring] US-based: 5-min task, order a Missouri LLC Certificate of Good Standing, $10",
-      "url": "https://www.reddit.com/r/forhire/comments/1x655ha/hiring_usbased_5min_task_order_a_missouri_llc/",
-      "published": "2026-10-14T22:32:10+00:00",
-      "snippet": "Need a US-based person to order a Certificate of Good Standing from the Secretary of State portal and email me the PDF. Takes about 5 minutes. Pay: $10 (PayPal/Wise). The state fee is about $10.50 DM me if you can do it today. Thanks &#32; submitted by &#32; /u/ExtraZebra2361 [link] &#32; [comments]",
+      "title": "[HIRING] High-End Device Owners Needed for Photos & Videos - $10-$25 Per Device",
+      "url": "https://www.reddit.com/r/forhire/comments/1x6qcix/hiring_highend_device_owners_needed_for_photos/",
+      "published": "2026-10-15T16:28:56+00:00",
+      "snippet": "Hello everyone, we&#39;re looking for people who own certain high-end devices and can take specific pictures and short videos for use in small-scale dropshipping advertisements. Payment ranges from $10 to $25 per collection of pictures and videos, depending on the device. This is ongoing work, with the possibility of completing multiple collections over time. Devices we&#39;re interested in: iPhone 14 and newer models High-end PCs and GPUs, including NVIDIA RTX cards Gaming consoles such as PS5 and Xbox Series S/X Other high-end electronics We&#39;ll provide instructions detailing exactly what pictures and videos are needed. The process is simple and doesn&#39;t require any professional photography experience. If you&#39;re interested, feel free to message me with the device model you own for more information. &#32; submitted by &#32; /u/midasmantics [link] &#32; [comments]",
       "lead_type": "potential_buyer_request",
       "buyer_intent_score": 25,
       "buyer_signals": [
@@ -631,12 +631,13 @@
         "category": "other",
         "priority": "LOW",
         "opportunity_score": 32,
-        "estimated_value_eur": 10,
+        "estimated_value_eur": 25,
         "value_basis": "Detected budget/rate in listing",
         "budget_signals": [
           10.0,
+          25.0,
           10.0,
-          10.5
+          25.0
         ],
         "offer": {
           "service": "AI workflow improvement",
@@ -662,7 +663,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-15T16:18:49.949595+00:00",
+    "created_at": "2026-10-15T17:21:02.993218+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
