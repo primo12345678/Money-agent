@@ -190,6 +190,5 @@ report = {
 
 with open("report.json", "w", encoding="utf-8") as file:
     json.dump(report, file, ensure_ascii=False, indent=2)
-
- if __name__ == "__main__":
+if __name__ == "__main__":
     main()
