@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T18:18:34.273961+00:00",
+  "generated_at": "2026-10-15T19:23:05.693530+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 16,
+    "buyer_leads_found": 15,
     "human_review_required": true
   },
   "opportunities": [
@@ -224,47 +224,6 @@
           "target_price_eur": 750,
           "premium_price_eur": 2000,
           "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Remote Usability Testers (US-Based) — $25/hr ($100 Total Budget)",
-      "url": "https://www.reddit.com/r/forhire/comments/1x67c3v/hiring_remote_usability_testers_usbased_25hr_100/",
-      "published": "2026-10-15T00:12:54+00:00",
-      "snippet": "Hello everyone, Our software development team is seeking US-based participants to evaluate an unreleased web platform and provide structured feedback before our public launch. Role &amp; Overview: About the Platform: A new web-based software platform requiring usability and user-flow testing. Task: Navigate through features, test core workflows, and log any usability issues or bugs. Time Required: Approximately 4 hours total. Communication Method: Reddit Direct Messages. Compensation: $25/hr ($100 total budget) paid upon completion. Location: 100% Remote (US residents only). Requirements: Located in the United States. Access to a desktop/laptop with a stable internet connection. Ability to provide clear, detailed feedback. How to Apply: If interested, please leave a comment below or send a Direct Message (DM) on Reddit ! I will follow up with complete details and next steps. &#32; submit",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 34,
-      "confidence": 0.49,
-      "automation_fit": 0.52,
-      "matched_keywords": [
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 39,
-        "estimated_value_eur": 100,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          25.0,
-          100.0,
-          25.0,
-          100.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -491,43 +450,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[For Hire] I'll build your hardware/software project for a fixed price!",
-      "url": "https://www.reddit.com/r/forhire/comments/1x65fky/for_hire_ill_build_your_hardwaresoftware_project/",
-      "published": "2026-10-14T22:44:46+00:00",
-      "snippet": "I specialize in Proof-of-Concept and One-off (single unit) microcontroller-based Embedded control systems. My work blends firmware engineering, electronics design, and custom software into cohesive, reliable devices. I will handle the entire technical stack from circuit design to low‑level firmware, communication protocols, and supporting desktop or cloud tools. I will build from scratch or refine an existing design, with minimal handholding. You don&#39;t need to spend hours a week on project management or redirection: I&#39;ll provide updates at a cadence you request. If you need someone who can design it, build it, program it, and deliver it, I’m available now for freelance and contract work. Very small projects start at a $250 minimum fixed price. &#32; submitted by &#32; /u/NoBulletsLeft [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_support",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 250,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          250.0
-        ],
-        "offer": {
-          "service": "AI customer-support automation",
-          "starter_price_eur": 200,
-          "target_price_eur": 500,
-          "premium_price_eur": 1200,
-          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[Hiring] a Female Scifi Story Narrator for YouTube Channel $60- $70 per story",
       "url": "https://www.reddit.com/r/forhire/comments/1x6m286/hiring_a_female_scifi_story_narrator_for_youtube/",
       "published": "2026-10-15T13:45:31+00:00",
@@ -556,6 +478,43 @@
           0.01,
           60.0,
           70.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[FOR HIRE] Brand designer helping startups look like one company everywhere (site, socials, deck)",
+      "url": "https://www.reddit.com/r/forhire/comments/1x6uqyd/for_hire_brand_designer_helping_startups_look/",
+      "published": "2026-10-15T19:14:28+00:00",
+      "snippet": "Does your startup&#39;s brand look different on your website, socials, and pitch deck? That&#39;s the problem I fix. I&#39;m Ryan, a brand designer with 6+ years of experience. I build the logo and the visual system behind it, so everything you put out looks like it comes from the same place. A recent example: I built the identity for a programming education platform that needed to feel approachable instead of intimidating (AlgoStudio, case study here: https://www.heymythstudio.com/work/algostudio/ ). Tell me what you&#39;re building and where your brand feels off, and I&#39;ll tell you how I&#39;d approach it. DM me or email → [ contact@heymythstudio.com ](mailto: contact@heymythstudio.com ). Portfolio: https://www.heymythstudio.com/ Behance: https://www.behance.net/heymyth Rate: $30/hr, or I can quote a fixed price for the whole project. &#32; submitted by &#32; /u/MythDZNs [link] &#32",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 30,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          30.0
         ],
         "offer": {
           "service": "AI workflow improvement",
@@ -663,7 +622,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-15T18:18:34.310652+00:00",
+    "created_at": "2026-10-15T19:23:05.735990+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -744,21 +703,6 @@
         }
       },
       {
-        "title": "[Hiring] Remote Usability Testers (US-Based) — $25/hr ($100 Total Budget)",
-        "url": "https://www.reddit.com/r/forhire/comments/1x67c3v/hiring_remote_usability_testers_usbased_25hr_100/",
-        "priority": "LOW",
-        "opportunity_score": 39,
-        "estimated_value_eur": 100,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Remote Usability Testers (US-Based) — $25/hr ($100 Total Budget)\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "AssemblyAI: Senior Research Engineer",
         "url": "https://weworkremotely.com/remote-jobs/assemblyai-senior-research-engineer",
         "priority": "LOW",
@@ -814,6 +758,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Expel: Product Manager, Detection Pipeline\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Contra: Senior 3D Designer",
+        "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
