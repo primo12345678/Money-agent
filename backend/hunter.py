@@ -23,8 +23,8 @@ BUYER_SIGNALS = [
 "looking to hire", "need help with", "looking for someone to",
 "seeking someone to", "project budget", "budget is",
 "paying", "paid project", "fixed price", "contractor needed",
-"need someone to build", "want to build", "looking for a developer",
-"looking for an expert", "[hiring]",
+"need someone to build", "want to build",
+"looking for a developer", "looking for an expert", "[hiring]",
 ]
 
 EMPLOYMENT_SIGNALS = [
@@ -33,10 +33,15 @@ EMPLOYMENT_SIGNALS = [
 "join our team", "employment opportunity", "benefits package",
 ]
 
+STRONG_PROJECT_SIGNALS = [
+"project budget", "budget is", "paid project",
+"fixed price", "contractor needed", "[hiring]",
+]
+
 def fetch(url):
 request = urllib.request.Request(
 url,
-headers={"User-Agent": "MoneyAgent/1.0 (opportunity research)"},
+headers={"User-Agent": "MoneyAgent/1.0"},
 )
 with urllib.request.urlopen(request, timeout=25) as response:
 return response.read().decode("utf-8", "ignore")
@@ -55,6 +60,16 @@ return {
 "matched_keywords": hits[:10],
 }
 
+def child_text(item, names):
+for name in names:
+value = item.findtext(name)
+if value:
+return value
+value = item.findtext("{*}" + name)
+if value:
+return value
+return ""
+
 def parse_rss(xml_text, source):
 root = ET.fromstring(xml_text)
 items = root.findall(".//item")
@@ -63,8 +78,11 @@ items = root.findall(".//{*}entry")
 
 found = []
 for item in items:
-    title = clean(item.findtext("title"))
+    title = clean(child_text(item, ["title"]))
     link_node = item.find("link")
+    if link_node is None:
+        link_node = item.find("{*}link")
+
     link = ""
     if link_node is not None:
         link = clean(
@@ -72,14 +90,10 @@ for item in items:
         )
 
     description = clean(
-        item.findtext("description")
-        or item.findtext("{*}summary")
-        or item.findtext("{*}content")
+        child_text(item, ["description", "summary", "content"])
     )
     published = clean(
-        item.findtext("pubDate")
-        or item.findtext("{*}published")
-        or item.findtext("{*}updated")
+        child_text(item, ["pubDate", "published", "updated"])
     )
 
     combined = f"{title} {description}"
@@ -88,21 +102,18 @@ for item in items:
     if not any(word in low for word in KEYWORDS):
         continue
 
-    buyer_hits = [phrase for phrase in BUYER_SIGNALS if phrase in low]
+    buyer_hits = [
+        phrase for phrase in BUYER_SIGNALS if phrase in low
+    ]
     employment_hits = [
         phrase for phrase in EMPLOYMENT_SIGNALS if phrase in low
     ]
 
-    # Reject ordinary job vacancies unless the post also signals
-    # a specific paid project or contractor request.
-    strong_project_signals = [
-        "project budget", "budget is", "paid project",
-        "fixed price", "contractor needed", "[hiring]",
-    ]
     if not buyer_hits:
         continue
+
     if employment_hits and not any(
-        phrase in low for phrase in strong_project_signals
+        phrase in low for phrase in STRONG_PROJECT_SIGNALS
     ):
         continue
 
@@ -120,7 +131,6 @@ for item in items:
     })
 
 return found
-
 def main():
 opportunities = []
 errors = []
@@ -129,13 +139,19 @@ for source, url in SOURCES:
     try:
         opportunities.extend(parse_rss(fetch(url), source))
     except Exception as error:
-        errors.append({"source": source, "error": str(error)})
+        errors.append({
+            "source": source,
+            "error": str(error),
+        })
 
 seen = set()
 unique = []
 for item in sorted(
     opportunities,
-    key=lambda x: (x["buyer_intent_score"], x["score"]),
+    key=lambda x: (
+        x["buyer_intent_score"],
+        x["score"],
+    ),
     reverse=True,
 ):
     key = item.get("url") or item.get("title")
@@ -147,7 +163,7 @@ report = {
     "generated_at": datetime.now(timezone.utc).isoformat(),
     "agent": "Money Agent",
     "mode": "buyer_opportunity_hunter",
-    "target": "Find potential buyers for AI automation and integration services",
+    "target": "Find potential buyers for AI automation services",
     "safety": {
         "auto_submit": False,
         "auto_signup": False,
@@ -156,11 +172,15 @@ report = {
         "auto_send": False,
     },
     "sources": [
-        {"name": name, "url": url, "attribution_required": True}
+        {
+            "name": name,
+            "url": url,
+            "attribution_required": True,
+        }
         for name, url in SOURCES
     ],
     "lead_quality": {
-        "rule": "Keyword match plus explicit buyer-intent signal; ordinary vacancies filtered.",
+        "rule": "Require relevant keywords and buyer-intent signals.",
         "buyer_leads_found": len(unique),
         "human_review_required": True,
     },
@@ -171,5 +191,5 @@ report = {
 with open("report.json", "w", encoding="utf-8") as file:
     json.dump(report, file, ensure_ascii=False, indent=2)
 
-if __name__ == "__main__":
+ if __name__ == "__main__":
     main()
