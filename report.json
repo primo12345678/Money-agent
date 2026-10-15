@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T14:23:06.566444+00:00",
+  "generated_at": "2026-10-15T15:22:41.066876+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -111,50 +111,6 @@
           "target_price_eur": 500,
           "premium_price_eur": 1200,
           "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Remote architectural product, 3D, archviz, BIM, interiors and QA roles | Proposed budgets: $65k–$100k/year or $25–$70/hour",
-      "url": "https://www.reddit.com/r/forhire/comments/1x62x53/hiring_remote_architectural_product_3d_archviz/",
-      "published": "2026-10-14T20:58:48+00:00",
-      "snippet": "I’m Daniel, founder of InktoBrick, recruiting for the following open roles. InktoBrick turns floor plans into conceptual 3D models. Full-time employee openings Architectural Product Specialist — $70,000–$100,000 USD/year proposed annual gross base-pay budget. Interpret dimensioned drawings, review circulation, openings and model fidelity, and turn architectural workflow problems into reproducible product findings. Collaborate with engineering and design to test corrections and explain limitations. Show architectural drawings and spatial decisions you contributed to. Bring architectural modeling experience, careful source-to-model comparison and clear written English. Architectural 3D Modeling Specialist — $65,000–$95,000 USD/year proposed annual gross base-pay budget. Build walls, openings, stairs and floor relationships from references. Resolve scale, topology and materials, document as",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [
-        "full-time"
-      ],
-      "score": 34,
-      "confidence": 0.49,
-      "automation_fit": 0.52,
-      "matched_keywords": [
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 49,
-        "estimated_value_eur": 100000,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          65.0,
-          100.0,
-          25.0,
-          70.0,
-          70000.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -346,6 +302,41 @@
           "target_price_eur": 650,
           "premium_price_eur": 1600,
           "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Video Editor & Motion Graphics Designer (AI Video Experience) - based in EU",
+      "url": "https://www.reddit.com/r/forhire/comments/1x6obz9/hiring_video_editor_motion_graphics_designer_ai/",
+      "published": "2026-10-15T15:13:36+00:00",
+      "snippet": "Hey everyone! We&#39;re looking for a video editor / motion graphics designer based in EU to collaborate with our creative team on branding, app campaigns, and social-first video content. We&#39;re especially interested in someone with experience using AI video generation tools like Seedance, Kling, and similar platforms. What you&#39;d be working on Turning creative briefs and storyboards into polished video content Editing and creating motion graphics for branding and app advertising campaigns Generating and refining AI video assets using Seedance, Kling, and other tools Compositing AI-generated footage with live-action or stock footage, ensuring visual consistency and smooth transitions Creating short-form content for TikTok, Instagram Reels, and paid social ads What we&#39;re looking for Strong Adobe Premiere Pro skills Experience with After Effects or DaVinci Resolve is a plus Prove",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -632,7 +623,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-15T14:23:06.611155+00:00",
+    "created_at": "2026-10-15T15:22:41.114403+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -663,21 +654,6 @@
           "price_eur": 500,
           "starter_price_eur": 200,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Experienced bilingual (ENG/ESP) operations assistant ready to manage your workflows! — async-friendly | For startups, agencies, nonprofits & independent business owners\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Remote architectural product, 3D, archviz, BIM, interiors and QA roles | Proposed budgets: $65k–$100k/year or $25–$70/hour",
-        "url": "https://www.reddit.com/r/forhire/comments/1x62x53/hiring_remote_architectural_product_3d_archviz/",
-        "priority": "LOW",
-        "opportunity_score": 49,
-        "estimated_value_eur": 100000,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Remote architectural product, 3D, archviz, BIM, interiors and QA roles | Proposed budgets: $65k–$100k/year or $25–$70/hour\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -753,6 +729,21 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"AssemblyAI: Senior Research Engineer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Video Editor & Motion Graphics Designer (AI Video Experience) - based in EU",
+        "url": "https://www.reddit.com/r/forhire/comments/1x6obz9/hiring_video_editor_motion_graphics_designer_ai/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Video Editor & Motion Graphics Designer (AI Video Experience) - based in EU\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
