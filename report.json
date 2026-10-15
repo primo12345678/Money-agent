@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T19:23:05.693530+00:00",
+  "generated_at": "2026-10-15T20:16:06.794675+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 15,
+    "buyer_leads_found": 16,
     "human_review_required": true
   },
   "opportunities": [
@@ -450,6 +450,44 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[For hire] Open for freelance social media management cum website designing + paid ads",
+      "url": "https://www.reddit.com/r/forhire/comments/1x6v54z/for_hire_open_for_freelance_social_media/",
+      "published": "2026-10-15T19:29:36+00:00",
+      "snippet": "Hi Guys, so if anyone is looking for a professional social media management service / website designing / paid ads. We can connect and lets build your brand together. If you are an individual or just planning to take your business online. Lets connect in DM. Budget is $100 for 1 month social media management and basic website starts at $50 &#32; submitted by &#32; /u/Whole_Scarcity_4360 [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "budget is"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 100,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          100.0,
+          50.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[Hiring] a Female Scifi Story Narrator for YouTube Channel $60- $70 per story",
       "url": "https://www.reddit.com/r/forhire/comments/1x6m286/hiring_a_female_scifi_story_narrator_for_youtube/",
       "published": "2026-10-15T13:45:31+00:00",
@@ -494,7 +532,7 @@
       "title": "[FOR HIRE] Brand designer helping startups look like one company everywhere (site, socials, deck)",
       "url": "https://www.reddit.com/r/forhire/comments/1x6uqyd/for_hire_brand_designer_helping_startups_look/",
       "published": "2026-10-15T19:14:28+00:00",
-      "snippet": "Does your startup&#39;s brand look different on your website, socials, and pitch deck? That&#39;s the problem I fix. I&#39;m Ryan, a brand designer with 6+ years of experience. I build the logo and the visual system behind it, so everything you put out looks like it comes from the same place. A recent example: I built the identity for a programming education platform that needed to feel approachable instead of intimidating (AlgoStudio, case study here: https://www.heymythstudio.com/work/algostudio/ ). Tell me what you&#39;re building and where your brand feels off, and I&#39;ll tell you how I&#39;d approach it. DM me or email → [ contact@heymythstudio.com ](mailto: contact@heymythstudio.com ). Portfolio: https://www.heymythstudio.com/ Behance: https://www.behance.net/heymyth Rate: $30/hr, or I can quote a fixed price for the whole project. &#32; submitted by &#32; /u/MythDZNs [link] &#32",
+      "snippet": "Does your startup&#39;s brand look different on your website, socials, and pitch deck? That&#39;s the problem I fix. I&#39;m Ryan from Myth Studio, a brand designer with 6+ years of experience. I build the logo and the visual system behind it, so everything you put out looks like it comes from the same place. A recent example: I built the identity for a programming education platform that needed to feel approachable instead of intimidating (AlgoStudio, case study here: https://www.heymythstudio.com/work/algostudio/ ). Tell me what you&#39;re building and where your brand feels off, and I&#39;ll tell you how I&#39;d approach it. DM me or email → [ contact@heymythstudio.com ](mailto: contact@heymythstudio.com ). Portfolio: https://www.heymythstudio.com/ Behance: https://www.behance.net/heymyth Rate: $30/hr, or I can quote a fixed price for the whole project. &#32; submitted by &#32; /u/Myt",
       "lead_type": "potential_buyer_request",
       "buyer_intent_score": 25,
       "buyer_signals": [
@@ -622,7 +660,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-15T19:23:05.735990+00:00",
+    "created_at": "2026-10-15T20:16:06.829905+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
