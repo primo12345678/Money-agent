@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T11:26:11.147353+00:00",
+  "generated_at": "2026-10-15T12:19:50.493071+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -460,16 +460,18 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[FOR HIRE] High-Quality Graphic Design with Fast Turnaround @ $20/hr!",
-      "url": "https://www.reddit.com/r/forhire/comments/1x5w5mb/for_hire_highquality_graphic_design_with_fast/",
-      "published": "2026-10-14T16:40:22+00:00",
-      "snippet": "🖌️ Who am I? I’m Eduardo, a Graphic Designer with a bachelor’s degree in Graphic Design. My proficiencies: Photoshop (Photo Editing, Flyers, Folders, Posters, etc.) Illustrator (Logos, Icons, Vector Drawings, Logo Vector Tracing, Flyers, Folders, Posters, etc.); Premiere (Video editing); After Effects; (Motion Graphics, Animated logos, Videos, Icons, etc.); InDesign (Magazines, Manuals, Books, Flyers, Folders, etc.). Due to me having 4+ years of experience with graphic design and being a college graduate, I know many design principles and techniques that allow me to create attractive designs in a lot of different styles. So I assure you I can make you something of high quality, that is going to surpass the expectations you have for something you paid so little for. My Website: https://signedbyeduardo.com/ My Instagram 💼 The offer: Need graphic design services at an affordable cost? I&#39",
+      "title": "[Hiring] Reddit Strategist who builds with AI | US AI marketing platform | Remote, EST hours | $20 to $30/hr USD | Full time contract",
+      "url": "https://www.reddit.com/r/forhire/comments/1x6jzk5/hiring_reddit_strategist_who_builds_with_ai_us_ai/",
+      "published": "2026-10-15T12:12:20+00:00",
+      "snippet": "Search Atlas is hiring a Reddit Strategist to own the channel. You&#39;d build the strategy, post, grow the subreddits we own, track sentiment about our name, and send a daily report. This is a hard requirement: you build with AI. Vibe coding, dashboards, and things that run on their own. Send examples of what you&#39;ve built. Also needed: hands on Reddit work for a brand or product, subreddits you&#39;ve moderated or grown with numbers to show, and working knowledge of AutoMod, karma gates, account age limits and flair rules. Pay is $20 to $30 per hour USD. Fully remote, open to any location, EST hours. Apply: https://careers.searchatlas.com/jobs/703505-reddit-strategist/339e1a99-0320-4adc-8326-4b242431c3a6 &#32; submitted by &#32; /u/Mangafried [link] &#32; [comments]",
       "lead_type": "potential_buyer_request",
       "buyer_intent_score": 25,
       "buyer_signals": [
-        "fixed price"
+        "[hiring]"
       ],
-      "employment_signals": [],
+      "employment_signals": [
+        "full time"
+      ],
       "score": 27,
       "confidence": 0.42,
       "automation_fit": 0.46,
@@ -480,10 +482,13 @@
         "category": "other",
         "priority": "LOW",
         "opportunity_score": 32,
-        "estimated_value_eur": 20,
+        "estimated_value_eur": 30,
         "value_basis": "Detected budget/rate in listing",
         "budget_signals": [
-          20.0
+          20.0,
+          30.0,
+          20.0,
+          30.0
         ],
         "offer": {
           "service": "AI workflow improvement",
@@ -548,7 +553,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-15T11:26:11.237035+00:00",
+    "created_at": "2026-10-15T12:19:50.537952+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
