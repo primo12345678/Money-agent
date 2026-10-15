@@ -1,15 +1,26 @@
 {
-  "generated_at": "2026-10-15T10:18:55.082769+00:00",
+  "generated_at": "2026-10-15T11:21:08.721323+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
-  "target": "Find legitimate income opportunities",
+  "target": "Find potential buyers for AI automation services",
   "safety": {
     "auto_submit": false,
     "auto_signup": false,
     "auto_spend": false,
-    "auto_click_ads": false
+    "auto_click_ads": false,
+    "auto_send": false
   },
   "sources": [
+    {
+      "name": "Reddit r/forhire",
+      "url": "https://www.reddit.com/r/forhire/new/.rss",
+      "attribution_required": true
+    },
+    {
+      "name": "Reddit r/slavelabour",
+      "url": "https://www.reddit.com/r/slavelabour/new/.rss",
+      "attribution_required": true
+    },
     {
       "name": "Remotive",
       "url": "https://remotive.com/remote-jobs/feed",
@@ -21,81 +32,24 @@
       "attribution_required": true
     }
   ],
+  "lead_quality": {
+    "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
+    "buyer_leads_found": 13,
+    "human_review_required": true
+  },
   "opportunities": [
-    {
-      "source": "We Work Remotely",
-      "title": "Tines: GTM Systems Specialist",
-      "url": "https://weworkremotely.com/remote-jobs/tines-gtm-systems-specialist",
-      "published": "Sat, 10 Oct 2026 07:31:08 +0000",
-      "snippet": "Headquarters: United States (Remote) Tines is the intelligent workflow company that powers some of the world's most important workflows.&nbsp; Tines has been supporting IT and security teams from a diverse range of customers, including Canva, Reddit, SAP, Coinbase, Mars, Fin (Intercom), and McKesson. Tines 3B, launched in 2026, is the next generation of Tines – a single, secure environment for every team’s apps, agents and automations. As an integrator across the entire tech stack, Tines is vendor-agnostic integrating with any API-enabled service. This flexibility enables our customers to achieve their highest-priority goals faster. Tines has security woven into its DNA, and our platform is secure and private by design.&nbsp; At Tines, we're driven by our values of Simplicity, Speed, and Soundness. We're committed to delivering exceptional customer experiences while fostering a company c",
-      "score": 62,
-      "confidence": 0.77,
-      "automation_fit": 0.76,
-      "matched_keywords": [
-        "automation",
-        "ai agent",
-        "workflow",
-        "crm",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "MEDIUM",
-        "opportunity_score": 66,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Smartsheet: Director, Finance Systems & ERP",
-      "url": "https://weworkremotely.com/remote-jobs/smartsheet-director-finance-systems-erp",
-      "published": "Sun, 04 Oct 2026 07:31:27 +0000",
-      "snippet": "Headquarters: -REMOTE, USA- For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual tasks and uncovering insights at scale, we create the space for people to focus on what truly matters: judgment, creativity, and big thinking. That is magic at work, and it’s what we show up for every day. Corporate Systems Engineering builds and operates the software platforms, integrations, and automations that power Smartsheet’s core business functions across Finance, Sales/GTM, and People &amp; Culture. Our team owns mission-critical systems and workflows that enable how the company hires, sells, bills, pays, reports, and scales. We operate at the intersection of software engineering, enterprise platforms, and bu",
-      "score": 62,
-      "confidence": 0.77,
-      "automation_fit": 0.76,
-      "matched_keywords": [
-        "automation",
-        "ai agent",
-        "workflow",
-        "crm",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "MEDIUM",
-        "opportunity_score": 66,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
     {
       "source": "We Work Remotely",
       "title": "BeyondTrust: Cyber Defense Engineer",
       "url": "https://weworkremotely.com/remote-jobs/beyondtrust-cyber-defense-engineer",
       "published": "Sat, 10 Oct 2026 07:30:48 +0000",
       "snippet": "Headquarters: Remote Manchester, UK BeyondTrust is a place where you can bring your purpose to life through the work that you do, creating a safer world through our cybersecurity SaaS portfolio. Our culture of flexibility, trust, and continual learning means you will be recognized for your growth, and for the impact you make on our success. You will be surrounded by people who challenge, support, and inspire you to be the best version of yourself. The Role BeyondTrust is a global leader in privileged access management. Our products provide remote access and privileged control capabilities that are deployed across thousands of enterprise environments worldwide. That makes us a high-value target. Nation-state actors, ransomware operators, and sophisticated threat groups actively target companies like ours—not just to compromise our corporate environment, but to reach the customers who trus",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "want to build"
+      ],
+      "employment_signals": [],
       "score": 55,
       "confidence": 0.7,
       "automation_fit": 0.7,
@@ -124,287 +78,39 @@
       }
     },
     {
-      "source": "We Work Remotely",
-      "title": "Smartsheet: Group Product Manager – Corporate Systems",
-      "url": "https://weworkremotely.com/remote-jobs/smartsheet-group-product-manager-corporate-systems",
-      "published": "Sun, 04 Oct 2026 07:31:27 +0000",
-      "snippet": "Headquarters: -REMOTE, USA- For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual tasks and uncovering insights at scale, we create the space for people to focus on what truly matters: judgment, creativity, and big thinking. That is magic at work, and it’s what we show up for every day. Corporate Systems Engineering builds and operates the software platforms, integrations, and automations that power Smartsheet’s core business functions across Finance, Sales/GTM, and People &amp; Culture.&nbsp; Our team owns mission-critical systems and workflows that enable how the company hires, sells, bills, pays, reports, and scales. We operate at the intersection of software engineering, enterprise platforms, ",
-      "score": 55,
-      "confidence": 0.7,
-      "automation_fit": 0.7,
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Remote architectural product, 3D, archviz, BIM, interiors and QA roles | Proposed budgets: $65k–$100k/year or $25–$70/hour",
+      "url": "https://www.reddit.com/r/forhire/comments/1x62x53/hiring_remote_architectural_product_3d_archviz/",
+      "published": "2026-10-14T20:58:48+00:00",
+      "snippet": "I’m Daniel, founder of InktoBrick, recruiting for the following open roles. InktoBrick turns floor plans into conceptual 3D models. Full-time employee openings Architectural Product Specialist — $70,000–$100,000 USD/year proposed annual gross base-pay budget. Interpret dimensioned drawings, review circulation, openings and model fidelity, and turn architectural workflow problems into reproducible product findings. Collaborate with engineering and design to test corrections and explain limitations. Show architectural drawings and spatial decisions you contributed to. Bring architectural modeling experience, careful source-to-model comparison and clear written English. Architectural 3D Modeling Specialist — $65,000–$95,000 USD/year proposed annual gross base-pay budget. Build walls, openings, stairs and floor relationships from references. Resolve scale, topology and materials, document as",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [
+        "full-time"
+      ],
+      "score": 34,
+      "confidence": 0.49,
+      "automation_fit": 0.52,
       "matched_keywords": [
-        "automation",
-        "ai agent",
         "workflow",
-        "sales",
         "ai"
       ],
       "analysis": {
         "category": "ai_automation",
-        "priority": "MEDIUM",
-        "opportunity_score": 61,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Humane World for Animals: Web Designer, eCRM",
-      "url": "https://weworkremotely.com/remote-jobs/humane-world-for-animals-web-designer-ecrm-1",
-      "published": "Fri, 02 Oct 2026 17:39:45 +0000",
-      "snippet": "Headquarters: Humane World for Animals URL: https://humaneworld.org The general salary range for this full-time position is $80,000 – 115,000. Salary offers will be commensurate with experience, qualifications, skills, training and education. &nbsp; Humane World for Animals, a global leader in animal advocacy and protection, is seeking a Web Developer, eCRM to support Digital Marketing and other departments by providing front-end, global web development solutions for fundraising, advocacy engagement, and other strategic priorities — incorporating AI-assisted and agentic development tools to accelerate delivery while maintaining rigorous human oversight, quality, and security standards. &nbsp; Responsibilities: Collaborates regularly with Digital Marketing, Brand and Visuals, and IS teams to discuss project requirements and makes technical recommendations. Writes efficient code and mainta",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "crm",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "MEDIUM",
-        "opportunity_score": 60,
-        "estimated_value_eur": 80000,
+        "priority": "LOW",
+        "opportunity_score": 49,
+        "estimated_value_eur": 100000,
         "value_basis": "Detected budget/rate in listing",
         "budget_signals": [
-          80000.0
+          65.0,
+          100.0,
+          25.0,
+          70.0,
+          70000.0
         ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Customer.io: Events Marketing Manager, EMEA",
-      "url": "https://weworkremotely.com/remote-jobs/customer-io-events-marketing-manager-emea",
-      "published": "Thu, 15 Oct 2026 07:31:14 +0000",
-      "snippet": "Headquarters: EMEA Remote About Customer.io Over 9,000 companies — from scrappy startups to global brands — use our platform to send billions of emails, push notifications, in-app messages, and SMS every day. Customer.io powers automated communication that people actually want to receive. We help teams send smarter, more relevant messages using real-time behavioral data. About the role Hi, my name is Rosie, Events Team Manager here at Customer.io , and I am looking for an Events Marketing Manager to own our in-person events across EMEA. You'll lead live field events, hosted customer and prospect experiences, and sponsored conferences across the region, and run our monthly EMEA webinar. You'll partner closely with Demand Gen, Content, Design, Partnerships, and EMEA Sales to create events that feel polished, thoughtful, and unmistakably \"us\" - tailored to EMEA markets rather than a copy-pa",
-      "score": 55,
-      "confidence": 0.7,
-      "automation_fit": 0.7,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "sales",
-        "marketing automation",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "MEDIUM",
-        "opportunity_score": 59,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Current: Producer, Client Experience & Growth (Contract)",
-      "url": "https://weworkremotely.com/remote-jobs/current-producer-client-experience-growth-contract",
-      "published": "Wed, 07 Oct 2026 07:31:04 +0000",
-      "snippet": "Headquarters: Remote (US) At Current At Current, we partner with ambitious brands to create digital experiences that drive meaningful business results. By bringing together strategy, design, production, and technology, we help organizations solve complex challenges and build experiences that create lasting impact. We're looking for a Producer, Client Experience &amp; Growth to support our business development efforts by producing proposals, coordinating pitches, and keeping new business opportunities moving from intake through handoff. This role works closely with strategy, creative, production, and operations teams to deliver a seamless experience for prospective clients while ensuring every proposal is organized, polished, and on time. What You'll Do Coordinate business development opportunities from initial intake through proposal submission Manage proposal timelines, deliverables, an",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "workflow",
-        "crm",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "lead_generation",
-        "priority": "MEDIUM",
-        "opportunity_score": 55,
-        "estimated_value_eur": 750,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Dropbox: GTM Readiness Manager",
-      "url": "https://weworkremotely.com/remote-jobs/dropbox-gtm-readiness-manager",
-      "published": "Thu, 15 Oct 2026 07:31:21 +0000",
-      "snippet": "Headquarters: Remote - Canada: Select locations Role Description As a GTM Readiness Manager within the GTM organization, you will help turn product and business changes into executable go-to-market motions. You will work across Product, Sales, Marketing, Customer Experience, Customer Success, Finance, Legal, Enablement, and Technology to ensure the business is operationally ready to bring new products, packaging, and other commercial changes to market. You will play a critical role in translating product decisions into GTM requirements, identifying cross-functional dependencies, coordinating operational readiness, and ensuring the end-to-end customer and seller experience works as intended. This role sits at the intersection of product and commercial execution, giving you broad exposure across the business and the opportunity to improve how we bring increasingly complex products and comm",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 54,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Lattice: Senior Contracts Manager",
-      "url": "https://weworkremotely.com/remote-jobs/lattice-senior-contracts-manager",
-      "published": "Thu, 15 Oct 2026 07:31:16 +0000",
-      "snippet": "Headquarters: Remote - US This is Legal at Lattice The Lattice Legal team is looking for an experienced, business-minded Senior Contracts Manager to help lead our commercial contracting function. In this role, you will independently manage a broad portfolio of customer, vendor, partnership, and other commercial agreements while serving as a trusted adviser to teams across the company. You will be expected to understand Lattice’s business, products, contracting standards, and risk framework well enough to resolve most matters independently, identify practical paths through difficult negotiations, and escalate issues with a clear assessment and recommendation. The right candidate combines strong contract judgment, operational discipline, commercial awareness, and fluency with modern legal technology and AI-assisted workflows. This is a highly cross-functional role supporting Sales, Deal De",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 54,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Upgrade: AI Experience Engineer (Conversational AI)",
-      "url": "https://weworkremotely.com/remote-jobs/upgrade-ai-experience-engineer-conversational-ai",
-      "published": "Thu, 15 Oct 2026 07:31:14 +0000",
-      "snippet": "Headquarters: Canada (Remote) About the Role: An AI Experience Engineer owns the full lifecycle of the journeys our customers have with Upgrade's AI agent on chat, voice and email: creation, optimization, edge case handling and containment growth. They build journeys in Sierra's no-code tooling, partner with Upgrade's product groups to bring their servicing flows to the agent, and are accountable for whether the agent resolves the customer's issue safely, accurately and without a human. We are hiring an AI Experience Engineer to own Upgrade's customer-facing AI agent. You will sit between engineering, product and customer operations. You will turn servicing workflows, such as making a payment, checking loan details, updating an address or enabling autopay, into production journeys and keep improving them after launch. You will build and own the journeys end to end, from first draft to st",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "ai agent",
-        "workflow",
-        "no-code",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 54,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Apollo: Business Recruiter",
-      "url": "https://weworkremotely.com/remote-jobs/apollo-business-recruiter",
-      "published": "Wed, 14 Oct 2026 17:15:52 +0000",
-      "snippet": "Headquarters: URL: https://www.apollo.io/es About the Role Apollo is hiring a&nbsp; Business Recruiter to own full-cycle recruiting across our G&amp;A, Sales and Marketing organizations . This is a high-ownership role on a lean, high-performing team. You will manage a portfolio of mid and senior-level requisitions, build and execute sourcing strategies, and serve as a genuine business partner to your hiring managers. This role requires someone who operates with low oversight , self-diagnoses problems before they escalate , and brings a talent advisor posture to every stakeholder conversation. The best person for this role brings their own operating system and makes the team around them sharper. &nbsp; What You Will Do Own full-cycle recruiting for mid and senior-level roles across G&amp;A, Sales and Marketing, with consistent delivery across multiple verticals simultaneously Build and ex",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 54,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Elation Health: Case Resolution Engineer",
-      "url": "https://weworkremotely.com/remote-jobs/elation-health-case-resolution-engineer",
-      "published": "Tue, 13 Oct 2026 07:31:00 +0000",
-      "snippet": "Headquarters: Canada - Remote Our team is committed to enhancing physician and patient quality of life through Elation, a SaaS cloud-based clinical platform. Since inception, we've been focused on building a delightful, world-class experience that empowers physicians to deliver phenomenal care to patients. Customer support has been the same job for twenty years: a queue, a ticket, an SLA, a closed case. That's ending, fast. Over the next 6–9 months, AI will take on more of the routine, repetitive cases at Elation. That doesn't shrink the human role — it builds on it. The work becomes product intelligence: shaping how AI handles conversations, holding the customer-trust moments that need real judgment, and turning patterns into priorities Engineering delivers. We're hiring Support Engineers to anchor that shift: people who don't just close tickets, but trace them back to the line of produ",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "customer support",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 54,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
         "offer": {
           "service": "AI workflow automation",
           "starter_price_eur": 250,
@@ -421,52 +127,62 @@
       "url": "https://weworkremotely.com/remote-jobs/assemblyai-senior-gtm-ai-engineer",
       "published": "Sun, 04 Oct 2026 07:31:28 +0000",
       "snippet": "Headquarters: Remote - North America Why AssemblyAI AssemblyAI builds the best-in-class Voice AI models powering the next generation of voice applications. Our models serve 600M+ inference calls monthly, process 1M+ hours of audio daily, and power 2 billion+ end-user experiences. The Voice AI space is at an inflection point; we’re looking for folks truly excited to join a small team and help define the future of the industry. We are one of the most capital-efficient AI companies on the planet - with under 100 people generating roughly $600K ARR per employee, we sit among the top 5 most revenue-dense teams within the fastest-growing AI companies today. That's not an accident; it's a deliberate choice to stay lean, move fast, and give every person on the team outsized ownership and impact. With thousands of customers including Granola, Fireflies, Figure AI, and CallRail, the company has re",
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "paying"
+      ],
+      "employment_signals": [],
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
       "matched_keywords": [
         "automation",
         "crm",
-        "sales",
         "ai"
       ],
       "analysis": {
-        "category": "lead_generation",
+        "category": "integration",
         "priority": "LOW",
-        "opportunity_score": 54,
+        "opportunity_score": 49,
         "estimated_value_eur": 600,
         "value_basis": "Detected budget/rate in listing",
         "budget_signals": [
           600.0
         ],
         "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
     },
     {
-      "source": "Remotive",
-      "title": "Senior Shopify Developer",
-      "url": "https://remotive.com/remote-jobs/software-development/senior-shopify-developer-2091140",
-      "published": "Fri, 18 Sep 2026 15:10:28 GMT",
-      "snippet": "We are hiring a contract-based Senior Shopify Developer to contribute to our Design and Development Team. Original Job posting link here &#160; &#127758; About garden3d We are worker owned creative collective, innovating on everything from brands and IRL communities to IoT devices and cross platform apps. We share profit, open source everything, spin out new businesses, and invest in exciting ideas through financial and/or in-kind contributions. Our client roster includes Google, Stripe, Figma, Hinge, Black Socialists in America, ACLU, Pratt, Parsons, Mozilla, The Nobel Prize, MIT, Gnosis, Etsy &amp; Gagosian. We&#8217;re the software team behind innovative products like The Light Phone &amp; Mill, and we operate a global, decentralized community space collective called Index Space. We think of our garden3d as collective for creative people, prioritizing a happy, talented, and diverse st",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
+      "source": "We Work Remotely",
+      "title": "Twikey: Senior Java Developer",
+      "url": "https://weworkremotely.com/remote-jobs/twikey-senior-java-developer",
+      "published": "Thu, 17 Sep 2026 10:51:23 +0000",
+      "snippet": "Headquarters: Ghent - Belgium URL: https://www.twikey.com/jobs Are you a driven back-end developer who doesn't wait for instructions, but is already thinking two steps ahead? Who experiments with new technologies and smart solutions alongside the job? Then we want to talk to you. Straight forward but clear: Twikey isn't looking for someone to just execute. We're looking for someone who thinks, does and keeps going when the going gets tough. Because fintech is evolving at breakneck speed. That calls for real ownership and for someone who can dive deep on the technical side to keep innovating and improving our platform. You get plenty in return, such as the freedom and responsibility to deliver your own projects. Thanks in part to our organisational structure, you can shape your ideas in the short term and see the results of your hard work quickly. Driven by your passion for building scala",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "looking for someone to"
+      ],
+      "employment_signals": [],
+      "score": 34,
+      "confidence": 0.49,
+      "automation_fit": 0.52,
       "matched_keywords": [
-        "workflow",
         "api integration",
         "ai"
       ],
       "analysis": {
         "category": "integration",
         "priority": "LOW",
-        "opportunity_score": 51,
+        "opportunity_score": 46,
         "estimated_value_eur": 650,
         "value_basis": "Service-band estimate; not a quoted budget",
         "budget_signals": [],
@@ -481,23 +197,30 @@
       }
     },
     {
-      "source": "Remotive",
-      "title": "Inside Sales Contractor",
-      "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
-      "published": "Thu, 08 Oct 2026 21:47:32 GMT",
-      "snippet": "About Us We are a financial services start up focusing on helping to improve consumer credit profiles. We are currently seeking KPI driven sales representatives looking to earn up to 45K in their first year while working remotely. We offer comprehensive training and continuous sales coaching to help you meet your financial goals. During our training period we offer a guaranteed training stipend while our trainees are acclimating to the position (*see weekly pay below). If you are a seasoned sales professional looking for the autonomy of a remote position combined with great compensation, we want to hear from you! Compensation Structure This role is 100% commission-based , which means your earning potential is unlimited. In addition, we regularly offer competitive performance-based bonuses to reward hard work and results. Training Period (Weeks 1&#8211;4) We invest in your success and wan",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
+      "source": "Reddit r/forhire",
+      "title": "[HIRING] INFLUENCER OUTREACH VA",
+      "url": "https://www.reddit.com/r/forhire/comments/1x6ehdy/hiring_influencer_outreach_va/",
+      "published": "2026-10-15T06:39:22+00:00",
+      "snippet": "[HIRING] Influencer Outreach Assistant - Full Time, Remote Ruvant Media is an influencer marketing agency working with tech, productivity and lifestyle brands. We are hiring outreach assistants. What you will do: - Find Instagram and YouTube creators (50K to 600K followers) in our niches - Check each creator against our rules (paid partnership label, engagement, views) - Find the brands they work with and their contact emails - Send 40 to 50 personalized outreach emails per day using our templates - Follow up and keep a daily tracker updated Requirements: - Excellent written English - You follow a process exactly as written, every time - Comfortable with Instagram, YouTube, Google Sheets and Gmail - Own laptop and reliable internet - Lead generation or cold email experience is a plus. We will train you. Schedule: Full time, Monday to Friday, with at least 3 hours overlap with Bahrain tim",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [
+        "full time"
+      ],
+      "score": 34,
+      "confidence": 0.49,
+      "automation_fit": 0.52,
       "matched_keywords": [
-        "crm",
-        "sales",
+        "lead generation",
         "ai"
       ],
       "analysis": {
         "category": "lead_generation",
         "priority": "LOW",
-        "opportunity_score": 50,
+        "opportunity_score": 44,
         "estimated_value_eur": 750,
         "value_basis": "Service-band estimate; not a quoted budget",
         "budget_signals": [],
@@ -512,368 +235,35 @@
       }
     },
     {
-      "source": "We Work Remotely",
-      "title": "StockX: Category Manager",
-      "url": "https://weworkremotely.com/remote-jobs/stockx-category-manager",
-      "published": "Thu, 15 Oct 2026 07:31:14 +0000",
-      "snippet": "Headquarters: Remote, USA Help empower our global customers to connect to culture through their passions. Why you'll love this role StockX has redefined the global marketplace for culture — where buyers and sellers transact with confidence on an always-on digital exchange. We are building the next frontier of creator-driven, culturally rich commerce that blends excitement, community, expertise, and transaction in one platform. This initiative is designed to empower sellers and creators to build sustainable businesses while creating moments that drive deep engagement. To support this effort, we are forming a category-led Go-To-Market organization that scales with culture, category dynamics, and community expertise. The Category Manager is a foundational hire tasked with owning the growth and strategic trajectory of a major category. You will serve as the chief operator, strategist, and ma",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "crm",
-        "sales",
-        "ai"
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Remote Usability Testers (US-Based) — $25/hr ($100 Total Budget)",
+      "url": "https://www.reddit.com/r/forhire/comments/1x67c3v/hiring_remote_usability_testers_usbased_25hr_100/",
+      "published": "2026-10-15T00:12:54+00:00",
+      "snippet": "Hello everyone, Our software development team is seeking US-based participants to evaluate an unreleased web platform and provide structured feedback before our public launch. Role &amp; Overview: About the Platform: A new web-based software platform requiring usability and user-flow testing. Task: Navigate through features, test core workflows, and log any usability issues or bugs. Time Required: Approximately 4 hours total. Communication Method: Reddit Direct Messages. Compensation: $25/hr ($100 total budget) paid upon completion. Location: 100% Remote (US residents only). Requirements: Located in the United States. Access to a desktop/laptop with a stable internet connection. Ability to provide clear, detailed feedback. How to Apply: If interested, please leave a comment below or send a Direct Message (DM) on Reddit ! I will follow up with complete details and next steps. &#32; submit",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
       ],
-      "analysis": {
-        "category": "lead_generation",
-        "priority": "LOW",
-        "opportunity_score": 50,
-        "estimated_value_eur": 750,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Müller`s Solutions: Pre-Sales Senior Consultant (ERP/CRM)/Remote",
-      "url": "https://weworkremotely.com/remote-jobs/muller-s-solutions-pre-sales-senior-consultant-erp-crm-remote",
-      "published": "Tue, 13 Oct 2026 16:12:12 +0000",
-      "snippet": "Headquarters: Cairo, Cairo Governorate, Egypt URL: http://mullerssolutions.com Description Müller's Solutions is seeking an experienced Pre-Sales Senior Consultant specializing in ERP and CRM solutions to join our remote team. In this role, you will leverage your expertise to support the sales process by providing technical insights, conducting product demonstrations, and tailoring solutions to meet client requirements. You will collaborate closely with sales, marketing, and technical teams to develop compelling proposals that drive business growth. Key Responsibilities: Engage with prospective clients to understand their business challenges and requirements related to ERP and CRM systems. Develop and deliver tailored product demonstrations, presentations, and workshops. Collaborate with sales teams to develop winning strategies and solution proposals. Provide technical guidance and supp",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "crm",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "lead_generation",
-        "priority": "LOW",
-        "opportunity_score": 50,
-        "estimated_value_eur": 750,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Remotive",
-      "title": "Senior back-end Engineer",
-      "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-engineer-2091132",
-      "published": "Wed, 30 Sep 2026 13:15:26 GMT",
-      "snippet": "Senior Developer? Work Remote. Get Paid Well. Build What Matters. &#160; Lemon.io connects hand-picked senior developers with vetted startups across the US and Europe &#8212; no bidding wars, no ghosting, just serious opportunities. We're currently hiring for a research-driven AI company on a mission to slash the cost of modern AI &#8212; co-designing hardware, software, algorithms, and models to make AI's benefits accessible to everyone. They're active open-source contributors, building the infrastructure behind next-generation AI at scale. &#160; Open roles: Senior Back-end Engineer (Golang), Senior DevOps Engineer, Senior Site Reliability Engineer, Senior Storage Engineer, Senior Python &amp; LLM Developer, Senior Back-end Engineer (Python) &#160; Why this one's worth a look: You'll be working on infrastructure that directly shapes how AI gets built and deployed, at a company operatin",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "automation",
-        "ai agent",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 49,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "6sense: IT Support Specialist",
-      "url": "https://weworkremotely.com/remote-jobs/6sense-it-support-specialist",
-      "published": "Thu, 15 Oct 2026 07:31:14 +0000",
-      "snippet": "Headquarters: United States, Remote Our Mission: 6sense's mission is to multiply what matters: growth, retention, and efficiency.&nbsp; We envision a future where companies, teams and people reach their full potential. Our People: People are the heart and soul of 6sense. We serve with passion and purpose. We live by our Being 6sense values of Win as One Team, Stay Curious, Do The Right Thing, Own the Outcome, and Create Belonging. &nbsp;Every 6sensor plays a part in deﬁning the future of our industry-leading technology.&nbsp; 6sense is a place where difference-makers roll up their sleeves, take risks, act with integrity, and measure success by the value we create for our customers.&nbsp; We want 6sense to be the best chapter of your career.&nbsp; IT Support Specialist About the Role 6sense is looking for an IT Support Specialist who is passionate about delivering exceptional employee exp",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 49,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Lattice: Lead Product Manager",
-      "url": "https://weworkremotely.com/remote-jobs/lattice-lead-product-manager",
-      "published": "Wed, 14 Oct 2026 07:30:56 +0000",
-      "snippet": "Headquarters: Remote - Canada What You Will Do We are looking for a Lead Product Manager to own the future of the Lattice MCP (Model Context Protocol) server and the integrations that power Lattice AI. This is the connective layer that lets customers use Lattice performance data inside the AI tools they already work in (Claude, ChatGPT, Glean, Microsoft Copilot, and Slack), and that brings third-party productivity data (e.g., Jira, GitHub, Linear, Zoom, Asana) into Lattice. As AI becomes the center of gravity for how companies work, this surface is how Lattice stays connected, interoperable, and indispensable. You’ll join a fully staffed engineering team ready to execute, and together you’ll make ecosystem interoperability a reason customers choose and stay with Lattice.&nbsp; If you enjoy solving complex problems, shaping platform strategy, and working with great internal and external p",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "ai agent",
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 49,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Coinbase: Analyst, Privacy (Privacy Assessments)",
-      "url": "https://weworkremotely.com/remote-jobs/coinbase-analyst-privacy-privacy-assessments",
-      "published": "Wed, 14 Oct 2026 07:30:48 +0000",
-      "snippet": "Headquarters: Remote - USA Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; learn more about working at Coinbase . As a Privacy Analyst on the Privacy Operations team within Security, you'll play a central role in how Coinbase identifies and manages privacy risk across its products and platforms. This team partners with Legal, Product, and Engineering to perform privacy asse",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 49,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Remotive",
-      "title": "Tech Lead Full-Stack Rails Engineer",
-      "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
-      "published": "Wed, 14 Oct 2026 20:33:44 GMT",
-      "snippet": "About Mitre Media Mitre Media is redefining FinTech with AI-driven tools that empower millions of investors. Our portfolio, including Dividend.com and MutualFunds.com, leverages LLMs to deliver novel data insights and visually rich user experiences. For over a decade, we&#8217;ve served individual investors, financial advisors, and top asset managers like BlackRock and Vanguard through our premium data, tools, and advertising solutions. Join our lean, entrepreneurial team to shape the future of AI-powered investing from your location &#177;3 hours from Eastern Time. Our users are deeply engaged, spending over 5 minutes per visit with a bounce rate below 10%, researching investments across hundreds of different categories. With 40 million brokerage accounts in the U.S., we take pride in building tools that make a real impact, fostering a culture of trust, innovation, and dynamism. If you&",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "ai integration",
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 48,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "6sense: Principal Competitive Intelligence Manager",
-      "url": "https://weworkremotely.com/remote-jobs/6sense-principal-competitive-intelligence-manager",
-      "published": "Thu, 15 Oct 2026 07:31:14 +0000",
-      "snippet": "Headquarters: United States, Remote Our Mission: 6sense's mission is to multiply what matters: growth, retention, and efficiency.&nbsp; We envision a future where companies, teams and people reach their full potential. Our People: People are the heart and soul of 6sense. We serve with passion and purpose. We live by our Being 6sense values of Win as One Team, Stay Curious, Do The Right Thing, Own the Outcome, and Create Belonging. &nbsp;Every 6sensor plays a part in deﬁning the future of our industry-leading technology.&nbsp; 6sense is a place where difference-makers roll up their sleeves, take risks, act with integrity, and measure success by the value we create for our customers.&nbsp; We want 6sense to be the best chapter of your career.&nbsp; 6sense Product Marketing Principal Competitive Intelligence Manager Competitive Intelligence &amp; Win/Loss Team: Product Marketing Reports to:",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
+      "employment_signals": [],
+      "score": 34,
+      "confidence": 0.49,
+      "automation_fit": 0.52,
       "matched_keywords": [
         "workflow",
-        "sales",
         "ai"
       ],
       "analysis": {
         "category": "ai_automation",
         "priority": "LOW",
-        "opportunity_score": 48,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Customer.io: Email Deliverability Specialist",
-      "url": "https://weworkremotely.com/remote-jobs/customer-io-email-deliverability-specialist",
-      "published": "Thu, 15 Oct 2026 07:31:00 +0000",
-      "snippet": "Headquarters: Americas Remote About Customer.io Over 9,000 companies — from scrappy startups to global brands — use our platform to send billions of emails, push notifications, in-app messages, and SMS every day. Customer.io powers automated communication that people actually want to receive. We help teams send smarter, more relevant messages using real-time behavioral data. About the role Hi, my name is Caitlin, Senior Manager, Technical Support at Customer.io , and I'm looking for an Email Deliverability Specialist to join our deliverability program within Technical Support. You'll help customers reach the inbox by diagnosing sending issues, advising on best practices, and guiding senders through an email ecosystem that keeps changing. You'll be one of several deliverability experts on a team that shares knowledge across Technical Support, so your work reaches well beyond your own queu",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "automation",
-        "marketing automation",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 48,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Gong.io: Sr. Manager, Enterprise Revenue Architect",
-      "url": "https://weworkremotely.com/remote-jobs/gong-io-sr-manager-enterprise-revenue-architect",
-      "published": "Wed, 14 Oct 2026 07:30:48 +0000",
-      "snippet": "Headquarters: Austin | Chicago | New York City | Salt Lake City | San Francisco | Remote (US) Gong harnesses the power of AI to transform how revenue teams win. The Gong Revenue AI Operating System unifies data, insights, and workflows into a single, trusted system that observes, guides, and acts alongside the world’s most successful revenue teams. Powered by the Gong Revenue Graph, AI-powered intelligence, specialized agents, and trusted applications, Gong helps more than 5,000 companies around the world deeply understand their teams and customers, automate critical sales workflows, and close more deals with less effort. For more information, visit www.gong.io. At Gong, you will join a company built on innovative products, ambitious goals, and passionate people. We are shaping the future of revenue intelligence and we want people who are excited to build what comes next. You will work w",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "workflow",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 48,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Gong.io: Lead Enterprise Revenue Architect (Customer Success)",
-      "url": "https://weworkremotely.com/remote-jobs/gong-io-lead-enterprise-revenue-architect-customer-success",
-      "published": "Wed, 14 Oct 2026 07:30:48 +0000",
-      "snippet": "Headquarters: Remote (US) Gong harnesses the power of AI to transform how revenue teams win. The Gong Revenue AI Operating System unifies data, insights, and workflows into a single, trusted system that observes, guides, and acts alongside the world’s most successful revenue teams. Powered by the Gong Revenue Graph, AI-powered intelligence, specialized agents, and trusted applications, Gong helps more than 5,000 companies around the world deeply understand their teams and customers, automate critical sales workflows, and close more deals with less effort. For more information, visit www.gong.io. At Gong, you will join a company built on innovative products, ambitious goals, and passionate people. We are shaping the future of revenue intelligence and we want people who are excited to build what comes next. You will work with a team that dreams big, moves fast, and cares deeply about the c",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "workflow",
-        "sales",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 48,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Remotive",
-      "title": "Senior React Full-stack Developer",
-      "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133",
-      "published": "Fri, 02 Oct 2026 13:30:06 GMT",
-      "snippet": "Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io &#8212; the marketplace that connects you with hand-picked startups in the US and Europe. &#160; What we offer: The rate depends on your seniority level, skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates &#8212; let us handle the business side of things so you can focus on what you do best. We'll manually find the best project for you according to your skills and preferences. Choose a schedule that works best for you. It&#8217;s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. Communicate directly with the clients. Most of them have technical backgrounds. So",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "automation",
-        "ai agent",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 45,
-        "estimated_value_eur": 11,
+        "opportunity_score": 39,
+        "estimated_value_eur": 100,
         "value_basis": "Detected budget/rate in listing",
         "budget_signals": [
-          11.0
+          25.0,
+          100.0,
+          25.0,
+          100.0
         ],
         "offer": {
           "service": "AI workflow automation",
@@ -886,106 +276,271 @@
       }
     },
     {
-      "source": "Remotive",
-      "title": "Senior AI Engineer",
-      "url": "https://remotive.com/remote-jobs/artificial-intelligence/senior-ai-engineer-2091131",
-      "published": "Fri, 18 Sep 2026 12:23:56 GMT",
-      "snippet": "Are you a talented Senior AI Engineer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io &#8212; the marketplace that connects you with hand-picked startups in the US and Europe. &#160; What we offer: The rate depends on your skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates &#8212; let us handle the business side of things so you can focus on what you do best. We'll manually find the best project for you according to your skills and preferences. Choose a schedule that works best for you. It&#8217;s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. Most of our projects involve working in a fast-paced startup environment. We hope you like it as ",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
+      "source": "We Work Remotely",
+      "title": "AssemblyAI: Senior Research Engineer",
+      "url": "https://weworkremotely.com/remote-jobs/assemblyai-senior-research-engineer",
+      "published": "Sun, 04 Oct 2026 07:31:28 +0000",
+      "snippet": "Headquarters: Remote Why AssemblyAI AssemblyAI builds the best-in-class Voice AI models powering the next generation of voice applications. Our models serve 600M+ inference calls monthly, process 1M+ hours of audio daily, and power 2 billion+ end-user experiences. The Voice AI space is at an inflection point; we’re looking for folks truly excited to join a small team and help define the future of the industry. We are one of the most capital-efficient AI companies on the planet - with under 100 people generating roughly $600K ARR per employee, we sit among the top 5 most revenue-dense teams within the fastest-growing AI companies today. That's not an accident; it's a deliberate choice to stay lean, move fast, and give every person on the team outsized ownership and impact. With thousands of customers including Granola, Fireflies, Figure AI, and CallRail, the company has real scale - proce",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "paying"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
       "matched_keywords": [
-        "automation",
-        "ai agent",
         "ai"
       ],
       "analysis": {
-        "category": "ai_automation",
+        "category": "integration",
         "priority": "LOW",
-        "opportunity_score": 45,
-        "estimated_value_eur": 11,
+        "opportunity_score": 38,
+        "estimated_value_eur": 600,
         "value_basis": "Detected budget/rate in listing",
         "budget_signals": [
-          11.0
+          600.0
         ],
         "offer": {
-          "service": "AI workflow automation",
+          "service": "AI/API/CRM integration",
           "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
     },
     {
-      "source": "Remotive",
-      "title": "Senior .NET Full-stack Developer",
-      "url": "https://remotive.com/remote-jobs/software-development/senior-net-full-stack-developer-2091130",
-      "published": "Thu, 17 Sep 2026 13:22:05 GMT",
-      "snippet": "Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io &#8212; the marketplace that connects you with hand-picked startups in the US and Europe. &#160; What we offer: The rate depends on your seniority level, skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates &#8212; let us handle the business side of things so you can focus on what you do best. Choose a schedule that works best for you. It&#8217;s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. We will support you from the time you submit the application throughout all cooperation stages. Most of our projects involve working in a fast-paced startup environment.",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
+      "source": "We Work Remotely",
+      "title": "Expel: Product Manager, Detection Pipeline",
+      "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline",
+      "published": "Wed, 07 Oct 2026 07:31:00 +0000",
+      "snippet": "Headquarters: Remote You live at the intersection of security and product management, and there's no place you'd rather be. You understand that the detection pipeline isn't just plumbing. It's the connective tissue that turns raw security data into signal, and if ingestion, normalization, or correlation break down, everything downstream suffers. You're not intimidated by the scale and complexity of data flowing through a modern security platform. Quite the opposite: you pride yourself on knowing how data moves from source to detection, where the pipeline breaks, and what it takes to make it fast, reliable, and cost effective. You’ve got an informed opinion about what an MDR should detect, an opinion that comes from customer empathy, hands-on industry knowledge, and a set of experiences that didn’t always go as planned. You can hold a technical conversation with a SOC analyst and turn aro",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "paying"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
       "matched_keywords": [
-        "automation",
-        "ai agent",
         "ai"
       ],
       "analysis": {
-        "category": "ai_automation",
+        "category": "other",
         "priority": "LOW",
-        "opportunity_score": 45,
-        "estimated_value_eur": 11,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          11.0
-        ],
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
         "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
     },
     {
-      "source": "Remotive",
-      "title": "Senior Data Scientist",
-      "url": "https://remotive.com/remote-jobs/data/senior-data-scientist-2091129",
-      "published": "Wed, 16 Sep 2026 12:35:28 GMT",
-      "snippet": "Are you a talented Senior Data Scientist looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io &#8212; the marketplace that connects you with hand-picked startups in the US and Europe. &#160; What we offer: The rate depends on your skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates &#8212; let us handle the business side of things so you can focus on what you do best. We'll manually find the best project for you according to your skills and preferences. Choose a schedule that works best for you. It&#8217;s possible to communicate async or minimally overlap within team working hours. We respect your seniority so you can expect no micromanagement or screen trackers. Most of our projects involve working in a fast-paced startup environment. We hope you like it ",
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
+      "source": "We Work Remotely",
+      "title": "Contra: Senior 3D Designer",
+      "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
+      "published": "Wed, 07 Oct 2026 00:11:33 +0000",
+      "snippet": "Headquarters: San Francisco, CA URL: http://bit.ly/3kLhMdk About Contra Labs Contra Labs sits at the intersection of human creativity and AI. We partner with leading AI labs and product companies to improve their tools across design, video, development, and beyond. Our research is grounded in how top creatives actually work, studying the patterns behind what gets created, what gets chosen, and what resonates. We believe human input will always be at the center of net new creation, and our mission is to help shape technology so human creativity can be amplified to create what today is unimaginable. By joining the Contra Labs network you gain access to paid projects with some of the most innovative companies building the next generation of creative and AI-powered tools. How It Works This is an application to join the network and be eligible for roles as they arise. Projects are staffed on ",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "paid project"
+      ],
+      "employment_signals": [
+        "full-time"
+      ],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
       "matched_keywords": [
-        "automation",
-        "ai agent",
         "ai"
       ],
       "analysis": {
-        "category": "ai_automation",
+        "category": "other",
         "priority": "LOW",
-        "opportunity_score": 45,
-        "estimated_value_eur": 11,
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Contra: Senior Game Designer",
+      "url": "https://weworkremotely.com/remote-jobs/contra-senior-game-designer",
+      "published": "Wed, 07 Oct 2026 00:08:54 +0000",
+      "snippet": "Headquarters: San Francisco, CA URL: http://bit.ly/3kLhMdk About Contra Labs Contra Labs sits at the intersection of human creativity and AI. We partner with leading AI labs and product companies to improve their tools across design, video, development, and beyond. Our research is grounded in how top creatives actually work, studying the patterns behind what gets created, what gets chosen, and what resonates. We believe human input will always be at the center of net new creation, and our mission is to help shape technology so human creativity can be amplified to create what today is unimaginable. By joining the Contra Labs network you gain access to paid projects with some of the most innovative companies building the next generation of creative and AI-powered tools. How It Works This is an application to join the network and be eligible for roles as they arise. Projects are staffed on ",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "paid project"
+      ],
+      "employment_signals": [
+        "full-time"
+      ],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] I'll build your hardware/software project for a fixed price!",
+      "url": "https://www.reddit.com/r/forhire/comments/1x65fky/for_hire_ill_build_your_hardwaresoftware_project/",
+      "published": "2026-10-14T22:44:46+00:00",
+      "snippet": "I specialize in Proof-of-Concept and One-off (single unit) microcontroller-based Embedded control systems. My work blends firmware engineering, electronics design, and custom software into cohesive, reliable devices. I will handle the entire technical stack from circuit design to low‑level firmware, communication protocols, and supporting desktop or cloud tools. I will build from scratch or refine an existing design, with minimal handholding. You don&#39;t need to spend hours a week on project management or redirection: I&#39;ll provide updates at a cadence you request. If you need someone who can design it, build it, program it, and deliver it, I’m available now for freelance and contract work. Very small projects start at a $250 minimum fixed price. &#32; submitted by &#32; /u/NoBulletsLeft [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_support",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 250,
         "value_basis": "Detected budget/rate in listing",
         "budget_signals": [
-          11.0
+          250.0
         ],
         "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+          "service": "AI customer-support automation",
+          "starter_price_eur": 200,
+          "target_price_eur": 500,
+          "premium_price_eur": 1200,
+          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[FOR HIRE] High-Quality Graphic Design with Fast Turnaround @ $20/hr!",
+      "url": "https://www.reddit.com/r/forhire/comments/1x5w5mb/for_hire_highquality_graphic_design_with_fast/",
+      "published": "2026-10-14T16:40:22+00:00",
+      "snippet": "🖌️ Who am I? I’m Eduardo, a Graphic Designer with a bachelor’s degree in Graphic Design. My proficiencies: Photoshop (Photo Editing, Flyers, Folders, Posters, etc.) Illustrator (Logos, Icons, Vector Drawings, Logo Vector Tracing, Flyers, Folders, Posters, etc.); Premiere (Video editing); After Effects; (Motion Graphics, Animated logos, Videos, Icons, etc.); InDesign (Magazines, Manuals, Books, Flyers, Folders, etc.). Due to me having 4+ years of experience with graphic design and being a college graduate, I know many design principles and techniques that allow me to create attractive designs in a lot of different styles. So I assure you I can make you something of high quality, that is going to surpass the expectations you have for something you paid so little for. My Website: https://signedbyeduardo.com/ My Instagram 💼 The offer: Need graphic design services at an affordable cost? I&#39",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 20,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          20.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] US-based: 5-min task, order a Missouri LLC Certificate of Good Standing, $10",
+      "url": "https://www.reddit.com/r/forhire/comments/1x655ha/hiring_usbased_5min_task_order_a_missouri_llc/",
+      "published": "2026-10-14T22:32:10+00:00",
+      "snippet": "Need a US-based person to order a Certificate of Good Standing from the Secretary of State portal and email me the PDF. Takes about 5 minutes. Pay: $10 (PayPal/Wise). The state fee is about $10.50 DM me if you can do it today. Thanks &#32; submitted by &#32; /u/ExtraZebra2361 [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 10,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          10.0,
+          10.0,
+          10.5
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "Reddit r/slavelabour",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
   "analysis": {
     "status": "ready_for_human_review",
     "note": "Scores and prices are estimates, not guaranteed earnings.",
@@ -993,41 +548,11 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-15T10:18:55.123436+00:00",
+    "created_at": "2026-10-15T11:21:08.758384+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
     "drafts": [
-      {
-        "title": "Tines: GTM Systems Specialist",
-        "url": "https://weworkremotely.com/remote-jobs/tines-gtm-systems-specialist",
-        "priority": "MEDIUM",
-        "opportunity_score": 66,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"Tines: GTM Systems Specialist\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Smartsheet: Director, Finance Systems & ERP",
-        "url": "https://weworkremotely.com/remote-jobs/smartsheet-director-finance-systems-erp",
-        "priority": "MEDIUM",
-        "opportunity_score": 66,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"Smartsheet: Director, Finance Systems & ERP\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
       {
         "title": "BeyondTrust: Cyber Defense Engineer",
         "url": "https://weworkremotely.com/remote-jobs/beyondtrust-cyber-defense-engineer",
@@ -1044,106 +569,136 @@
         }
       },
       {
-        "title": "Smartsheet: Group Product Manager – Corporate Systems",
-        "url": "https://weworkremotely.com/remote-jobs/smartsheet-group-product-manager-corporate-systems",
-        "priority": "MEDIUM",
-        "opportunity_score": 61,
+        "title": "[Hiring] Remote architectural product, 3D, archviz, BIM, interiors and QA roles | Proposed budgets: $65k–$100k/year or $25–$70/hour",
+        "url": "https://www.reddit.com/r/forhire/comments/1x62x53/hiring_remote_architectural_product_3d_archviz/",
+        "priority": "LOW",
+        "opportunity_score": 49,
+        "estimated_value_eur": 100000,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Remote architectural product, 3D, archviz, BIM, interiors and QA roles | Proposed budgets: $65k–$100k/year or $25–$70/hour\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "AssemblyAI: Senior GTM AI Engineer",
+        "url": "https://weworkremotely.com/remote-jobs/assemblyai-senior-gtm-ai-engineer",
+        "priority": "LOW",
+        "opportunity_score": 49,
         "estimated_value_eur": 600,
         "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
           "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"Smartsheet: Group Product Manager – Corporate Systems\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"AssemblyAI: Senior GTM AI Engineer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
       },
       {
-        "title": "Humane World for Animals: Web Designer, eCRM",
-        "url": "https://weworkremotely.com/remote-jobs/humane-world-for-animals-web-designer-ecrm-1",
-        "priority": "MEDIUM",
-        "opportunity_score": 60,
-        "estimated_value_eur": 80000,
+        "title": "Twikey: Senior Java Developer",
+        "url": "https://weworkremotely.com/remote-jobs/twikey-senior-java-developer",
+        "priority": "LOW",
+        "opportunity_score": 46,
+        "estimated_value_eur": 650,
         "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
           "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"Humane World for Animals: Web Designer, eCRM\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"Twikey: Senior Java Developer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
       },
       {
-        "title": "Customer.io: Events Marketing Manager, EMEA",
-        "url": "https://weworkremotely.com/remote-jobs/customer-io-events-marketing-manager-emea",
-        "priority": "MEDIUM",
-        "opportunity_score": 59,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"Customer.io: Events Marketing Manager, EMEA\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Current: Producer, Client Experience & Growth (Contract)",
-        "url": "https://weworkremotely.com/remote-jobs/current-producer-client-experience-growth-contract",
-        "priority": "MEDIUM",
-        "opportunity_score": 55,
+        "title": "[HIRING] INFLUENCER OUTREACH VA",
+        "url": "https://www.reddit.com/r/forhire/comments/1x6ehdy/hiring_influencer_outreach_va/",
+        "priority": "LOW",
+        "opportunity_score": 44,
         "estimated_value_eur": 750,
         "offer": {
           "subject": "Proposal: AI lead generation and follow-up",
           "price_eur": 750,
           "starter_price_eur": 300,
-          "message": "Hi,\n\nI saw your request about \"Current: Producer, Client Experience & Growth (Contract)\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"[HIRING] INFLUENCER OUTREACH VA\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
       },
       {
-        "title": "Dropbox: GTM Readiness Manager",
-        "url": "https://weworkremotely.com/remote-jobs/dropbox-gtm-readiness-manager",
+        "title": "[Hiring] Remote Usability Testers (US-Based) — $25/hr ($100 Total Budget)",
+        "url": "https://www.reddit.com/r/forhire/comments/1x67c3v/hiring_remote_usability_testers_usbased_25hr_100/",
         "priority": "LOW",
-        "opportunity_score": 54,
-        "estimated_value_eur": 600,
+        "opportunity_score": 39,
+        "estimated_value_eur": 100,
         "offer": {
           "subject": "Proposal: AI workflow automation",
           "price_eur": 600,
           "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"Dropbox: GTM Readiness Manager\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Remote Usability Testers (US-Based) — $25/hr ($100 Total Budget)\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
       },
       {
-        "title": "Lattice: Senior Contracts Manager",
-        "url": "https://weworkremotely.com/remote-jobs/lattice-senior-contracts-manager",
+        "title": "AssemblyAI: Senior Research Engineer",
+        "url": "https://weworkremotely.com/remote-jobs/assemblyai-senior-research-engineer",
         "priority": "LOW",
-        "opportunity_score": 54,
+        "opportunity_score": 38,
         "estimated_value_eur": 600,
         "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
           "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"Lattice: Senior Contracts Manager\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"AssemblyAI: Senior Research Engineer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
       },
       {
-        "title": "Upgrade: AI Experience Engineer (Conversational AI)",
-        "url": "https://weworkremotely.com/remote-jobs/upgrade-ai-experience-engineer-conversational-ai",
+        "title": "Expel: Product Manager, Detection Pipeline",
+        "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline",
         "priority": "LOW",
-        "opportunity_score": 54,
-        "estimated_value_eur": 600,
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
         "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"Upgrade: AI Experience Engineer (Conversational AI)\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"Expel: Product Manager, Detection Pipeline\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Contra: Senior 3D Designer",
+        "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Contra: Senior Game Designer",
+        "url": "https://weworkremotely.com/remote-jobs/contra-senior-game-designer",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"Contra: Senior Game Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
