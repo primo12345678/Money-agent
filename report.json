@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T05:18:13.016392+00:00",
+  "generated_at": "2026-10-16T07:22:52.968774+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 16,
+    "buyer_leads_found": 15,
     "human_review_required": true
   },
   "opportunities": [
@@ -65,14 +65,14 @@
         "priority": "MEDIUM",
         "opportunity_score": 61,
         "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
+        "value_basis": "Service-band estimate; not a quoted client budget",
         "budget_signals": [],
         "offer": {
           "service": "AI workflow automation",
           "starter_price_eur": 250,
           "target_price_eur": 600,
           "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+          "pitch": "I can help improve your ai automation workflow, confirm the scope first, and propose a measurable small first step."
         },
         "human_approval_required": true
       }
@@ -103,14 +103,14 @@
         "priority": "LOW",
         "opportunity_score": 54,
         "estimated_value_eur": 500,
-        "value_basis": "Service-band estimate; not a quoted budget",
+        "value_basis": "Service-band estimate; not a quoted client budget",
         "budget_signals": [],
         "offer": {
           "service": "AI customer-support automation",
           "starter_price_eur": 200,
           "target_price_eur": 500,
           "premium_price_eur": 1200,
-          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
+          "pitch": "I can help improve your ai support workflow, confirm the scope first, and propose a measurable small first step."
         },
         "human_approval_required": true
       }
@@ -138,18 +138,16 @@
       "analysis": {
         "category": "integration",
         "priority": "LOW",
-        "opportunity_score": 49,
-        "estimated_value_eur": 600,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          600.0
-        ],
+        "opportunity_score": 50,
+        "estimated_value_eur": 650,
+        "value_basis": "Service-band estimate; not a quoted client budget",
+        "budget_signals": [],
         "offer": {
           "service": "AI/API/CRM integration",
           "starter_price_eur": 250,
           "target_price_eur": 650,
           "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+          "pitch": "I can help improve your integration workflow, confirm the scope first, and propose a measurable small first step."
         },
         "human_approval_required": true
       }
@@ -178,130 +176,14 @@
         "priority": "LOW",
         "opportunity_score": 46,
         "estimated_value_eur": 650,
-        "value_basis": "Service-band estimate; not a quoted budget",
+        "value_basis": "Service-band estimate; not a quoted client budget",
         "budget_signals": [],
         "offer": {
           "service": "AI/API/CRM integration",
           "starter_price_eur": 250,
           "target_price_eur": 650,
           "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[HIRING] INFLUENCER OUTREACH VA",
-      "url": "https://www.reddit.com/r/forhire/comments/1x6ehdy/hiring_influencer_outreach_va/",
-      "published": "2026-10-15T06:39:22+00:00",
-      "snippet": "[HIRING] Influencer Outreach Assistant - Full Time, Remote Ruvant Media is an influencer marketing agency working with tech, productivity and lifestyle brands. We are hiring outreach assistants. What you will do: - Find Instagram and YouTube creators (50K to 600K followers) in our niches - Check each creator against our rules (paid partnership label, engagement, views) - Find the brands they work with and their contact emails - Send 40 to 50 personalized outreach emails per day using our templates - Follow up and keep a daily tracker updated Requirements: - Excellent written English - You follow a process exactly as written, every time - Comfortable with Instagram, YouTube, Google Sheets and Gmail - Own laptop and reliable internet - Lead generation or cold email experience is a plus. We will train you. Schedule: Full time, Monday to Friday, with at least 3 hours overlap with Bahrain tim",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [
-        "full time"
-      ],
-      "score": 34,
-      "confidence": 0.49,
-      "automation_fit": 0.52,
-      "matched_keywords": [
-        "lead generation",
-        "ai"
-      ],
-      "analysis": {
-        "category": "lead_generation",
-        "priority": "LOW",
-        "opportunity_score": 44,
-        "estimated_value_eur": 750,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Virtual Assistant — Remote, USA | $20/hour | 10 hours/week",
-      "url": "https://www.reddit.com/r/forhire/comments/1x6y1oj/hiring_virtual_assistant_remote_usa_20hour_10/",
-      "published": "2026-10-15T21:24:01+00:00",
-      "snippet": "Hi everyone! We’re Wonuva, and we’re hiring a part-time virtual assistant to help manage client messages and meeting schedules. Previous virtual assistant experience isn’t required. About Wonuva Wonuva is a software studio that builds AI automation, web applications, SaaS products, and cloud infrastructure. Our clients work directly with the engineers building their software. We’re looking for someone who can help keep client communication organized and meetings running smoothly. Company website: https://wonuva.com/ Pay and schedule $20 USD per hour. 10 hours per week, totaling $200 per week. Remote within the United States. Working hours will be agreed upon before you start. What you’ll do Respond to client chat messages and organize follow-ups. Coordinate availability and schedule client meetings. Send meeting invitations, confirmations, and reminders. Update calendars when meetings ar",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 34,
-      "confidence": 0.49,
-      "automation_fit": 0.52,
-      "matched_keywords": [
-        "automation",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 40,
-        "estimated_value_eur": 200,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          20.0,
-          20.0,
-          200.0,
-          20.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "AssemblyAI: Senior Research Engineer",
-      "url": "https://weworkremotely.com/remote-jobs/assemblyai-senior-research-engineer",
-      "published": "Sun, 04 Oct 2026 07:31:28 +0000",
-      "snippet": "Headquarters: Remote Why AssemblyAI AssemblyAI builds the best-in-class Voice AI models powering the next generation of voice applications. Our models serve 600M+ inference calls monthly, process 1M+ hours of audio daily, and power 2 billion+ end-user experiences. The Voice AI space is at an inflection point; we’re looking for folks truly excited to join a small team and help define the future of the industry. We are one of the most capital-efficient AI companies on the planet - with under 100 people generating roughly $600K ARR per employee, we sit among the top 5 most revenue-dense teams within the fastest-growing AI companies today. That's not an accident; it's a deliberate choice to stay lean, move fast, and give every person on the team outsized ownership and impact. With thousands of customers including Granola, Fireflies, Figure AI, and CallRail, the company has real scale - proce",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "paying"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "LOW",
-        "opportunity_score": 38,
-        "estimated_value_eur": 600,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          600.0
-        ],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+          "pitch": "I can help improve your integration workflow, confirm the scope first, and propose a measurable small first step."
         },
         "human_approval_required": true
       }
@@ -328,19 +210,192 @@
       "analysis": {
         "category": "lead_generation",
         "priority": "LOW",
-        "opportunity_score": 38,
-        "estimated_value_eur": 30,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          30.0,
-          30.0
-        ],
+        "opportunity_score": 44,
+        "estimated_value_eur": 750,
+        "value_basis": "Service-band estimate; not a quoted client budget",
+        "budget_signals": [],
         "offer": {
           "service": "AI lead generation and follow-up",
           "starter_price_eur": 300,
           "target_price_eur": 750,
           "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+          "pitch": "I can help improve your lead generation workflow, confirm the scope first, and propose a measurable small first step."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Virtual Assistant — Remote, USA | $20/hour | 10 hours/week",
+      "url": "https://www.reddit.com/r/forhire/comments/1x6y1oj/hiring_virtual_assistant_remote_usa_20hour_10/",
+      "published": "2026-10-15T21:24:01+00:00",
+      "snippet": "Hi everyone! We’re Wonuva, and we’re hiring a part-time virtual assistant to help manage client messages and meeting schedules. Previous virtual assistant experience isn’t required. About Wonuva Wonuva is a software studio that builds AI automation, web applications, SaaS products, and cloud infrastructure. Our clients work directly with the engineers building their software. We’re looking for someone who can help keep client communication organized and meetings running smoothly. Company website: https://wonuva.com/ Pay and schedule $20 USD per hour. 10 hours per week, totaling $200 per week. Remote within the United States. Working hours will be agreed upon before you start. What you’ll do Respond to client chat messages and organize follow-ups. Coordinate availability and schedule client meetings. Send meeting invitations, confirmations, and reminders. Update calendars when meetings ar",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 34,
+      "confidence": 0.49,
+      "automation_fit": 0.52,
+      "matched_keywords": [
+        "automation",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 43,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted client budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can help improve your ai automation workflow, confirm the scope first, and propose a measurable small first step."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "AssemblyAI: Senior Research Engineer",
+      "url": "https://weworkremotely.com/remote-jobs/assemblyai-senior-research-engineer",
+      "published": "Sun, 04 Oct 2026 07:31:28 +0000",
+      "snippet": "Headquarters: Remote Why AssemblyAI AssemblyAI builds the best-in-class Voice AI models powering the next generation of voice applications. Our models serve 600M+ inference calls monthly, process 1M+ hours of audio daily, and power 2 billion+ end-user experiences. The Voice AI space is at an inflection point; we’re looking for folks truly excited to join a small team and help define the future of the industry. We are one of the most capital-efficient AI companies on the planet - with under 100 people generating roughly $600K ARR per employee, we sit among the top 5 most revenue-dense teams within the fastest-growing AI companies today. That's not an accident; it's a deliberate choice to stay lean, move fast, and give every person on the team outsized ownership and impact. With thousands of customers including Granola, Fireflies, Figure AI, and CallRail, the company has real scale - proce",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "paying"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 38,
+        "estimated_value_eur": 650,
+        "value_basis": "Service-band estimate; not a quoted client budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can help improve your integration workflow, confirm the scope first, and propose a measurable small first step."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Female On-Camera Presenter for YouTube Channel Introduction (Remote) $30–50",
+      "url": "https://www.reddit.com/r/forhire/comments/1x6wr5n/hiring_female_oncamera_presenter_for_youtube/",
+      "published": "2026-10-15T20:31:51+00:00",
+      "snippet": "I&#39;m looking for a female on-camera presenter/actress to record a short (~2-minute) introduction video for an established YouTube entertainment channel. **Requirements:** - Female, 18+, preferably with a youthful appearance (18–25). - Fluent English, preferably with an American accent. - Confident, expressive, and natural on camera. - Friendly, playful personality with a good sense of humor. - Good camera quality (1080p minimum), lighting, and clear audio. - Horizontal (16:9) recording with a clean background and casual, modest clothing. I&#39;ll provide the complete script and recording instructions. No editing required, just the raw video footage. Budget: $ 30–50, depending on experience and quality, including permanent commercial usage rights. If interested, please DM me with a recent on-camera video sample and your expected rate. Thanks! &#32; submitted by &#32; /u/ProfessionalWeb",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted client budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can help improve your other workflow, confirm the scope first, and propose a measurable small first step."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[FOR HIRE] Brand designer helping startups look like one company everywhere (site, socials, deck)",
+      "url": "https://www.reddit.com/r/forhire/comments/1x6uqyd/for_hire_brand_designer_helping_startups_look/",
+      "published": "2026-10-15T19:14:28+00:00",
+      "snippet": "Does your startup&#39;s brand look different on your website, socials, and pitch deck? That&#39;s the problem I fix. I&#39;m Ryan from Myth Studio, a brand designer with 6+ years of experience. I build the logo and the visual system behind it, so everything you put out looks like it comes from the same place. A recent example: I built the identity for a programming education platform that needed to feel approachable instead of intimidating (AlgoStudio, case study here: https://www.heymythstudio.com/work/algostudio/ ). Tell me what you&#39;re building and where your brand feels off, and I&#39;ll tell you how I&#39;d approach it. DM me or email → [ contact@heymythstudio.com ](mailto: contact@heymythstudio.com ). Portfolio: https://www.heymythstudio.com/ Behance: https://www.behance.net/heymyth Rate: $30/hr, or I can quote a fixed price for the whole project. &#32; submitted by &#32; /u/Myt",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted client budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can help improve your other workflow, confirm the scope first, and propose a measurable small first step."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[HIRING] High-End Device Owners Needed for Photos & Videos - $10-$25 Per Device",
+      "url": "https://www.reddit.com/r/forhire/comments/1x6qcix/hiring_highend_device_owners_needed_for_photos/",
+      "published": "2026-10-15T16:28:56+00:00",
+      "snippet": "Hello everyone, we&#39;re looking for people who own certain high-end devices and can take specific pictures and short videos for use in small-scale dropshipping advertisements. Payment ranges from $10 to $25 per collection of pictures and videos, depending on the device. This is ongoing work, with the possibility of completing multiple collections over time. Devices we&#39;re interested in: iPhone 14 and newer models High-end PCs and GPUs, including NVIDIA RTX cards Gaming consoles such as PS5 and Xbox Series S/X Other high-end electronics We&#39;ll provide instructions detailing exactly what pictures and videos are needed. The process is simple and doesn&#39;t require any professional photography experience. If you&#39;re interested, feel free to message me with the device model you own for more information. &#32; submitted by &#32; /u/midasmantics [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted client budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can help improve your other workflow, confirm the scope first, and propose a measurable small first step."
         },
         "human_approval_required": true
       }
@@ -368,14 +423,51 @@
         "priority": "LOW",
         "opportunity_score": 35,
         "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
+        "value_basis": "Service-band estimate; not a quoted client budget",
         "budget_signals": [],
         "offer": {
           "service": "AI workflow improvement",
           "starter_price_eur": 150,
           "target_price_eur": 400,
           "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+          "pitch": "I can help improve your other workflow, confirm the scope first, and propose a measurable small first step."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Reddit Strategist who builds with AI | US AI marketing platform | Remote, EST hours | $20 to $30/hr USD | Full time contract",
+      "url": "https://www.reddit.com/r/forhire/comments/1x6jzk5/hiring_reddit_strategist_who_builds_with_ai_us_ai/",
+      "published": "2026-10-15T12:12:20+00:00",
+      "snippet": "Search Atlas is hiring a Reddit Strategist to own the channel. You&#39;d build the strategy, post, grow the subreddits we own, track sentiment about our name, and send a daily report. This is a hard requirement: you build with AI. Vibe coding, dashboards, and things that run on their own. Send examples of what you&#39;ve built. Also needed: hands on Reddit work for a brand or product, subreddits you&#39;ve moderated or grown with numbers to show, and working knowledge of AutoMod, karma gates, account age limits and flair rules. Pay is $20 to $30 per hour USD. Fully remote, open to any location, EST hours. Apply: https://careers.searchatlas.com/jobs/703505-reddit-strategist/339e1a99-0320-4adc-8326-4b242431c3a6 &#32; submitted by &#32; /u/Mangafried [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [
+        "full time"
+      ],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted client budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can help improve your other workflow, confirm the scope first, and propose a measurable small first step."
         },
         "human_approval_required": true
       }
@@ -403,14 +495,14 @@
         "priority": "LOW",
         "opportunity_score": 35,
         "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
+        "value_basis": "Service-band estimate; not a quoted client budget",
         "budget_signals": [],
         "offer": {
           "service": "AI workflow improvement",
           "starter_price_eur": 150,
           "target_price_eur": 400,
           "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+          "pitch": "I can help improve your other workflow, confirm the scope first, and propose a measurable small first step."
         },
         "human_approval_required": true
       }
@@ -440,14 +532,14 @@
         "priority": "LOW",
         "opportunity_score": 35,
         "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
+        "value_basis": "Service-band estimate; not a quoted client budget",
         "budget_signals": [],
         "offer": {
           "service": "AI workflow improvement",
           "starter_price_eur": 150,
           "target_price_eur": 400,
           "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+          "pitch": "I can help improve your other workflow, confirm the scope first, and propose a measurable small first step."
         },
         "human_approval_required": true
       }
@@ -477,171 +569,14 @@
         "priority": "LOW",
         "opportunity_score": 35,
         "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
+        "value_basis": "Service-band estimate; not a quoted client budget",
         "budget_signals": [],
         "offer": {
           "service": "AI workflow improvement",
           "starter_price_eur": 150,
           "target_price_eur": 400,
           "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Female On-Camera Presenter for YouTube Channel Introduction (Remote) $30–50",
-      "url": "https://www.reddit.com/r/forhire/comments/1x6wr5n/hiring_female_oncamera_presenter_for_youtube/",
-      "published": "2026-10-15T20:31:51+00:00",
-      "snippet": "I&#39;m looking for a female on-camera presenter/actress to record a short (~2-minute) introduction video for an established YouTube entertainment channel. **Requirements:** - Female, 18+, preferably with a youthful appearance (18–25). - Fluent English, preferably with an American accent. - Confident, expressive, and natural on camera. - Friendly, playful personality with a good sense of humor. - Good camera quality (1080p minimum), lighting, and clear audio. - Horizontal (16:9) recording with a clean background and casual, modest clothing. I&#39;ll provide the complete script and recording instructions. No editing required, just the raw video footage. Budget: $ 30–50, depending on experience and quality, including permanent commercial usage rights. If interested, please DM me with a recent on-camera video sample and your expected rate. Thanks! &#32; submitted by &#32; /u/ProfessionalWeb",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 30,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          30.0,
-          30.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[FOR HIRE] Brand designer helping startups look like one company everywhere (site, socials, deck)",
-      "url": "https://www.reddit.com/r/forhire/comments/1x6uqyd/for_hire_brand_designer_helping_startups_look/",
-      "published": "2026-10-15T19:14:28+00:00",
-      "snippet": "Does your startup&#39;s brand look different on your website, socials, and pitch deck? That&#39;s the problem I fix. I&#39;m Ryan from Myth Studio, a brand designer with 6+ years of experience. I build the logo and the visual system behind it, so everything you put out looks like it comes from the same place. A recent example: I built the identity for a programming education platform that needed to feel approachable instead of intimidating (AlgoStudio, case study here: https://www.heymythstudio.com/work/algostudio/ ). Tell me what you&#39;re building and where your brand feels off, and I&#39;ll tell you how I&#39;d approach it. DM me or email → [ contact@heymythstudio.com ](mailto: contact@heymythstudio.com ). Portfolio: https://www.heymythstudio.com/ Behance: https://www.behance.net/heymyth Rate: $30/hr, or I can quote a fixed price for the whole project. &#32; submitted by &#32; /u/Myt",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 30,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          30.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Reddit Strategist who builds with AI | US AI marketing platform | Remote, EST hours | $20 to $30/hr USD | Full time contract",
-      "url": "https://www.reddit.com/r/forhire/comments/1x6jzk5/hiring_reddit_strategist_who_builds_with_ai_us_ai/",
-      "published": "2026-10-15T12:12:20+00:00",
-      "snippet": "Search Atlas is hiring a Reddit Strategist to own the channel. You&#39;d build the strategy, post, grow the subreddits we own, track sentiment about our name, and send a daily report. This is a hard requirement: you build with AI. Vibe coding, dashboards, and things that run on their own. Send examples of what you&#39;ve built. Also needed: hands on Reddit work for a brand or product, subreddits you&#39;ve moderated or grown with numbers to show, and working knowledge of AutoMod, karma gates, account age limits and flair rules. Pay is $20 to $30 per hour USD. Fully remote, open to any location, EST hours. Apply: https://careers.searchatlas.com/jobs/703505-reddit-strategist/339e1a99-0320-4adc-8326-4b242431c3a6 &#32; submitted by &#32; /u/Mangafried [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [
-        "full time"
-      ],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 30,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          20.0,
-          30.0,
-          20.0,
-          30.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[HIRING] High-End Device Owners Needed for Photos & Videos - $10-$25 Per Device",
-      "url": "https://www.reddit.com/r/forhire/comments/1x6qcix/hiring_highend_device_owners_needed_for_photos/",
-      "published": "2026-10-15T16:28:56+00:00",
-      "snippet": "Hello everyone, we&#39;re looking for people who own certain high-end devices and can take specific pictures and short videos for use in small-scale dropshipping advertisements. Payment ranges from $10 to $25 per collection of pictures and videos, depending on the device. This is ongoing work, with the possibility of completing multiple collections over time. Devices we&#39;re interested in: iPhone 14 and newer models High-end PCs and GPUs, including NVIDIA RTX cards Gaming consoles such as PS5 and Xbox Series S/X Other high-end electronics We&#39;ll provide instructions detailing exactly what pictures and videos are needed. The process is simple and doesn&#39;t require any professional photography experience. If you&#39;re interested, feel free to message me with the device model you own for more information. &#32; submitted by &#32; /u/midasmantics [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 25,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          10.0,
-          25.0,
-          10.0,
-          25.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+          "pitch": "I can help improve your other workflow, confirm the scope first, and propose a measurable small first step."
         },
         "human_approval_required": true
       }
@@ -655,12 +590,12 @@
   ],
   "analysis": {
     "status": "ready_for_human_review",
-    "note": "Scores and prices are estimates, not guaranteed earnings.",
-    "next_step": "Review the highest-priority opportunity before contacting the buyer."
+    "note": "Scores and service prices are estimates, not guaranteed earnings. Only explicit project-budget context is treated as a quoted budget.",
+    "next_step": "Review the lead and verify the scope/budget before contacting the buyer."
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-16T05:18:13.043000+00:00",
+    "created_at": "2026-10-16T07:22:53.007327+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -699,8 +634,8 @@
         "title": "AssemblyAI: Senior GTM AI Engineer",
         "url": "https://weworkremotely.com/remote-jobs/assemblyai-senior-gtm-ai-engineer",
         "priority": "LOW",
-        "opportunity_score": 49,
-        "estimated_value_eur": 600,
+        "opportunity_score": 50,
+        "estimated_value_eur": 650,
         "offer": {
           "subject": "Proposal: AI/API/CRM integration",
           "price_eur": 650,
@@ -726,8 +661,8 @@
         }
       },
       {
-        "title": "[HIRING] INFLUENCER OUTREACH VA",
-        "url": "https://www.reddit.com/r/forhire/comments/1x6ehdy/hiring_influencer_outreach_va/",
+        "title": "[Hiring] Software Engineer who can work as a VA | $30/hr | Remote",
+        "url": "https://www.reddit.com/r/forhire/comments/1x6pae7/hiring_software_engineer_who_can_work_as_a_va/",
         "priority": "LOW",
         "opportunity_score": 44,
         "estimated_value_eur": 750,
@@ -735,7 +670,7 @@
           "subject": "Proposal: AI lead generation and follow-up",
           "price_eur": 750,
           "starter_price_eur": 300,
-          "message": "Hi,\n\nI saw your request about \"[HIRING] INFLUENCER OUTREACH VA\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Software Engineer who can work as a VA | $30/hr | Remote\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -744,8 +679,8 @@
         "title": "[Hiring] Virtual Assistant — Remote, USA | $20/hour | 10 hours/week",
         "url": "https://www.reddit.com/r/forhire/comments/1x6y1oj/hiring_virtual_assistant_remote_usa_20hour_10/",
         "priority": "LOW",
-        "opportunity_score": 40,
-        "estimated_value_eur": 200,
+        "opportunity_score": 43,
+        "estimated_value_eur": 600,
         "offer": {
           "subject": "Proposal: AI workflow automation",
           "price_eur": 600,
@@ -760,7 +695,7 @@
         "url": "https://weworkremotely.com/remote-jobs/assemblyai-senior-research-engineer",
         "priority": "LOW",
         "opportunity_score": 38,
-        "estimated_value_eur": 600,
+        "estimated_value_eur": 650,
         "offer": {
           "subject": "Proposal: AI/API/CRM integration",
           "price_eur": 650,
@@ -771,23 +706,8 @@
         }
       },
       {
-        "title": "[Hiring] Software Engineer who can work as a VA | $30/hr | Remote",
-        "url": "https://www.reddit.com/r/forhire/comments/1x6pae7/hiring_software_engineer_who_can_work_as_a_va/",
-        "priority": "LOW",
-        "opportunity_score": 38,
-        "estimated_value_eur": 30,
-        "offer": {
-          "subject": "Proposal: AI lead generation and follow-up",
-          "price_eur": 750,
-          "starter_price_eur": 300,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Software Engineer who can work as a VA | $30/hr | Remote\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Video Editor & Motion Graphics Designer (AI Video Experience) - based in EU",
-        "url": "https://www.reddit.com/r/forhire/comments/1x6obz9/hiring_video_editor_motion_graphics_designer_ai/",
+        "title": "[Hiring] Female On-Camera Presenter for YouTube Channel Introduction (Remote) $30–50",
+        "url": "https://www.reddit.com/r/forhire/comments/1x6wr5n/hiring_female_oncamera_presenter_for_youtube/",
         "priority": "LOW",
         "opportunity_score": 35,
         "estimated_value_eur": 400,
@@ -795,14 +715,14 @@
           "subject": "Proposal: AI workflow improvement",
           "price_eur": 400,
           "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Video Editor & Motion Graphics Designer (AI Video Experience) - based in EU\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Female On-Camera Presenter for YouTube Channel Introduction (Remote) $30–50\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
       },
       {
-        "title": "Expel: Product Manager, Detection Pipeline",
-        "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline",
+        "title": "[FOR HIRE] Brand designer helping startups look like one company everywhere (site, socials, deck)",
+        "url": "https://www.reddit.com/r/forhire/comments/1x6uqyd/for_hire_brand_designer_helping_startups_look/",
         "priority": "LOW",
         "opportunity_score": 35,
         "estimated_value_eur": 400,
@@ -810,7 +730,22 @@
           "subject": "Proposal: AI workflow improvement",
           "price_eur": 400,
           "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"Expel: Product Manager, Detection Pipeline\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"[FOR HIRE] Brand designer helping startups look like one company everywhere (site, socials, deck)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[HIRING] High-End Device Owners Needed for Photos & Videos - $10-$25 Per Device",
+        "url": "https://www.reddit.com/r/forhire/comments/1x6qcix/hiring_highend_device_owners_needed_for_photos/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[HIRING] High-End Device Owners Needed for Photos & Videos - $10-$25 Per Device\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
