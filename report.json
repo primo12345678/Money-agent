@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T13:29:56.655791+00:00",
+  "generated_at": "2026-10-16T14:20:35.681364+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -267,49 +267,80 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[Hiring] Software Engineer who can work as a VA | $30/hr | Remote",
-      "url": "https://www.reddit.com/r/forhire/comments/1x6pae7/hiring_software_engineer_who_can_work_as_a_va/",
-      "published": "2026-10-15T15:49:27+00:00",
-      "snippet": "Salary: $30.00 / hour Location: 100% Remote Type: Contract / Freelance We are looking for a Software Engineer who is interested in transitioning into, or taking on, a Technical Virtual Assistant (VA) role. Note on the role: The day-to-day responsibilities are operational and administrative. However, because our target network and ecosystem consist entirely of developers, founders, and tech executives, standard VAs lack the necessary technical context. We need someone who speaks the language of engineers and understands tech stacks to handle our digital presence authentically. Key Responsibilities • LinkedIn &amp; Engagement Management: Monitor notifications, filter inbound connection requests, and engage with the tech/engineering community through technically sound, natural comments. • Inbox Triage: Manage and filter daily email. You will separate high-value technical opportunities, clie",
+      "title": "[HIRING] LLM Trainer - Agent Function call",
+      "url": "https://www.reddit.com/r/forhire/comments/1x7h8v2/hiring_llm_trainer_agent_function_call/",
+      "published": "2026-10-16T14:09:25+00:00",
+      "snippet": "THIS IS A REMOTE JOB PM ME FOR MORE DETAILS &#32; submitted by &#32; /u/DarkZiderz [link] &#32; [comments]",
       "lead_type": "potential_buyer_request",
       "buyer_intent_score": 25,
       "buyer_signals": [
         "[hiring]"
       ],
       "employment_signals": [],
-      "score": 34,
-      "confidence": 0.49,
-      "automation_fit": 0.52,
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
       "matched_keywords": [
-        "crm",
         "ai"
       ],
       "analysis": {
-        "category": "lead_generation",
+        "category": "other",
         "priority": "LOW",
-        "opportunity_score": 38,
-        "estimated_value_eur": 30,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          30.0,
-          30.0
-        ],
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
         "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[Hiring] Video Editor & Motion Graphics Designer (AI Video Experience) - based in EU",
-      "url": "https://www.reddit.com/r/forhire/comments/1x6obz9/hiring_video_editor_motion_graphics_designer_ai/",
-      "published": "2026-10-15T15:13:36+00:00",
-      "snippet": "Hey everyone! We&#39;re looking for a video editor / motion graphics designer based in EU to collaborate with our creative team on branding, app campaigns, and social-first video content. We&#39;re especially interested in someone with experience using AI video generation tools like Seedance, Kling, and similar platforms. What you&#39;d be working on Turning creative briefs and storyboards into polished video content Editing and creating motion graphics for branding and app advertising campaigns Generating and refining AI video assets using Seedance, Kling, and other tools Compositing AI-generated footage with live-action or stock footage, ensuring visual consistency and smooth transitions Creating short-form content for TikTok, Instagram Reels, and paid social ads What we&#39;re looking for Strong Adobe Premiere Pro skills Experience with After Effects or DaVinci Resolve is a plus Prove",
+      "title": "[HIRING] Video Content Creator (US based)",
+      "url": "https://www.reddit.com/r/forhire/comments/1x7h7g2/hiring_video_content_creator_us_based/",
+      "published": "2026-10-16T14:07:55+00:00",
+      "snippet": "THIS IS A REMOTE JOB PM ME FOR MORE DETAILS &#32; submitted by &#32; /u/DarkZiderz [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[HIRING] AI Quality Analyst (Personalization) -Japanese",
+      "url": "https://www.reddit.com/r/forhire/comments/1x7h646/hiring_ai_quality_analyst_personalization_japanese/",
+      "published": "2026-10-16T14:06:29+00:00",
+      "snippet": "THIS IS A REMOTE JOB PM ME FOR MORE DETAILS &#32; submitted by &#32; /u/DarkZiderz [link] &#32; [comments]",
       "lead_type": "potential_buyer_request",
       "buyer_intent_score": 25,
       "buyer_signals": [
@@ -522,46 +553,6 @@
         },
         "human_approval_required": true
       }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[HIRING] High-End Device Owners Needed for Photos & Videos - $10-$25 Per Device",
-      "url": "https://www.reddit.com/r/forhire/comments/1x6qcix/hiring_highend_device_owners_needed_for_photos/",
-      "published": "2026-10-15T16:28:56+00:00",
-      "snippet": "Hello everyone, we&#39;re looking for people who own certain high-end devices and can take specific pictures and short videos for use in small-scale dropshipping advertisements. Payment ranges from $10 to $25 per collection of pictures and videos, depending on the device. This is ongoing work, with the possibility of completing multiple collections over time. Devices we&#39;re interested in: iPhone 14 and newer models High-end PCs and GPUs, including NVIDIA RTX cards Gaming consoles such as PS5 and Xbox Series S/X Other high-end electronics We&#39;ll provide instructions detailing exactly what pictures and videos are needed. The process is simple and doesn&#39;t require any professional photography experience. If you&#39;re interested, feel free to message me with the device model you own for more information. &#32; submitted by &#32; /u/midasmantics [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 25,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          10.0,
-          25.0,
-          10.0,
-          25.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
     }
   ],
   "errors": [
@@ -577,7 +568,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-16T13:29:56.686809+00:00",
+    "created_at": "2026-10-16T14:20:35.711761+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -673,23 +664,8 @@
         }
       },
       {
-        "title": "[Hiring] Software Engineer who can work as a VA | $30/hr | Remote",
-        "url": "https://www.reddit.com/r/forhire/comments/1x6pae7/hiring_software_engineer_who_can_work_as_a_va/",
-        "priority": "LOW",
-        "opportunity_score": 38,
-        "estimated_value_eur": 30,
-        "offer": {
-          "subject": "Proposal: AI lead generation and follow-up",
-          "price_eur": 750,
-          "starter_price_eur": 300,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Software Engineer who can work as a VA | $30/hr | Remote\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Video Editor & Motion Graphics Designer (AI Video Experience) - based in EU",
-        "url": "https://www.reddit.com/r/forhire/comments/1x6obz9/hiring_video_editor_motion_graphics_designer_ai/",
+        "title": "[HIRING] LLM Trainer - Agent Function call",
+        "url": "https://www.reddit.com/r/forhire/comments/1x7h8v2/hiring_llm_trainer_agent_function_call/",
         "priority": "LOW",
         "opportunity_score": 35,
         "estimated_value_eur": 400,
@@ -697,7 +673,37 @@
           "subject": "Proposal: AI workflow improvement",
           "price_eur": 400,
           "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Video Editor & Motion Graphics Designer (AI Video Experience) - based in EU\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"[HIRING] LLM Trainer - Agent Function call\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[HIRING] Video Content Creator (US based)",
+        "url": "https://www.reddit.com/r/forhire/comments/1x7h7g2/hiring_video_content_creator_us_based/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[HIRING] Video Content Creator (US based)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[HIRING] AI Quality Analyst (Personalization) -Japanese",
+        "url": "https://www.reddit.com/r/forhire/comments/1x7h646/hiring_ai_quality_analyst_personalization_japanese/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[HIRING] AI Quality Analyst (Personalization) -Japanese\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -713,21 +719,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Expel: Product Manager, Detection Pipeline\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Contra: Senior 3D Designer",
-        "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
