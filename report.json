@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T19:19:07.862612+00:00",
+  "generated_at": "2026-10-16T20:12:36.367090+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 12,
+    "buyer_leads_found": 13,
     "human_review_required": true
   },
   "opportunities": [
@@ -480,6 +480,44 @@
         },
         "human_approval_required": true
       }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] Excel/Google Sheets automation, dashboards, VBA/Apps Script, Python + SQL - $20/hr",
+      "url": "https://www.reddit.com/r/forhire/comments/1x7qgh2/for_hire_excelgoogle_sheets_automation_dashboards/",
+      "published": "2026-10-16T20:03:13+00:00",
+      "snippet": "Been doing Excel/Sheets automation work on Upwork, also worked as a Data &amp; Reporting Specialist at a statistical office building automated reporting tools. Based in Poland, working with clients across time zones. What I do: Excel: formulas, pivots, Power Query, Power Pivot, VBA macros Google Sheets: formulas, QUERY, Apps Script automation Python (pandas) and SQL for data cleaning, ETL, reporting automation Dashboards in Excel, Google Sheets, Power BI, Looker Studio Cleaning/merging messy data from multiple sources into something you can actually use Recent work: automated dashboards and reporting systems for international clients, custom macros/scripts to kill repetitive data entry, statistical reports and data processing tools. Currently studying Business Analytics (3rd year, Maria Curie-Sklodowska University), English C1, also fluent in Polish. Rate starts around $20/hr depending o",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "automation"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 20,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          20.0,
+          20.0
+        ],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     }
   ],
   "errors": [
@@ -495,7 +533,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-16T19:19:07.908732+00:00",
+    "created_at": "2026-10-16T20:12:36.413601+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
