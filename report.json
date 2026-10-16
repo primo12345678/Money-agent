@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T11:18:10.951045+00:00",
+  "generated_at": "2026-10-16T12:19:17.929098+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 16,
+    "buyer_leads_found": 14,
     "human_review_required": true
   },
   "opportunities": [
@@ -73,44 +73,6 @@
           "target_price_eur": 600,
           "premium_price_eur": 1500,
           "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] Experienced bilingual (ENG/ESP) operations assistant ready to manage your workflows! — async-friendly | For startups, agencies, nonprofits & independent business owners",
-      "url": "https://www.reddit.com/r/forhire/comments/1x6k5ut/for_hire_experienced_bilingual_engesp_operations/",
-      "published": "2026-10-15T12:21:05+00:00",
-      "snippet": "Hi there! 👋🏻 Do you happen to get overwhelmed with emails, slow client replies, or disorganized workflows? Let me be the one to take that off your plate! 👨‍💻 I’m a bilingual ( English/Spanish ) Operations Coordinator with over 5 years of experience handling client communication, finances (AP-AR) and keeping things running smoothly behind the scenes. Take a look at what I can handle for you : 📧 Inbox management (responding, organizing, prioritizing). 💬 Customer support via email/chat (async communication only, no cold calls ). 💲 Managing Accounts Payable and Receivable processes through QuickBooks. 📅 Scheduling &amp; internal coordination. 🌐 English ↔ Spanish communication with clients. 📱 Social media interactions &amp; DMs. 📋 Project management and miscellaneous personal tasks (previously discussed). Here&#39;s some of my experience as a 5+ year independent professional: Managed high-vol",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "need help with"
-      ],
-      "employment_signals": [],
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "workflow",
-        "crm",
-        "customer support",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_support",
-        "priority": "LOW",
-        "opportunity_score": 54,
-        "estimated_value_eur": 500,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI customer-support automation",
-          "starter_price_eur": 200,
-          "target_price_eur": 500,
-          "premium_price_eur": 1200,
-          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -563,48 +525,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[Hiring] Reddit Strategist who builds with AI | US AI marketing platform | Remote, EST hours | $20 to $30/hr USD | Full time contract",
-      "url": "https://www.reddit.com/r/forhire/comments/1x6jzk5/hiring_reddit_strategist_who_builds_with_ai_us_ai/",
-      "published": "2026-10-15T12:12:20+00:00",
-      "snippet": "Search Atlas is hiring a Reddit Strategist to own the channel. You&#39;d build the strategy, post, grow the subreddits we own, track sentiment about our name, and send a daily report. This is a hard requirement: you build with AI. Vibe coding, dashboards, and things that run on their own. Send examples of what you&#39;ve built. Also needed: hands on Reddit work for a brand or product, subreddits you&#39;ve moderated or grown with numbers to show, and working knowledge of AutoMod, karma gates, account age limits and flair rules. Pay is $20 to $30 per hour USD. Fully remote, open to any location, EST hours. Apply: https://careers.searchatlas.com/jobs/703505-reddit-strategist/339e1a99-0320-4adc-8326-4b242431c3a6 &#32; submitted by &#32; /u/Mangafried [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [
-        "full time"
-      ],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 30,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          20.0,
-          30.0,
-          20.0,
-          30.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[HIRING] High-End Device Owners Needed for Photos & Videos - $10-$25 Per Device",
       "url": "https://www.reddit.com/r/forhire/comments/1x6qcix/hiring_highend_device_owners_needed_for_photos/",
       "published": "2026-10-15T16:28:56+00:00",
@@ -657,7 +577,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-16T11:18:10.980875+00:00",
+    "created_at": "2026-10-16T12:19:17.971484+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -673,21 +593,6 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"BeyondTrust: Cyber Defense Engineer\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[For Hire] Experienced bilingual (ENG/ESP) operations assistant ready to manage your workflows! — async-friendly | For startups, agencies, nonprofits & independent business owners",
-        "url": "https://www.reddit.com/r/forhire/comments/1x6k5ut/for_hire_experienced_bilingual_engesp_operations/",
-        "priority": "LOW",
-        "opportunity_score": 54,
-        "estimated_value_eur": 500,
-        "offer": {
-          "subject": "Proposal: AI customer-support automation",
-          "price_eur": 500,
-          "starter_price_eur": 200,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Experienced bilingual (ENG/ESP) operations assistant ready to manage your workflows! — async-friendly | For startups, agencies, nonprofits & independent business owners\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -808,6 +713,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Expel: Product Manager, Detection Pipeline\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Contra: Senior 3D Designer",
+        "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
