@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T16:12:11.357109+00:00",
+  "generated_at": "2026-10-17T17:12:55.918764+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -38,6 +38,49 @@
     "human_review_required": true
   },
   "opportunities": [
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] Tech-focused freelancer available for short-term and ongoing remote work.",
+      "url": "https://www.reddit.com/r/forhire/comments/1x8ebdv/for_hire_techfocused_freelancer_available_for/",
+      "published": "2026-10-17T16:20:24+00:00",
+      "snippet": "Tech-focused freelancer available for short-term and ongoing remote work. I help individuals and small teams with practical tech tasks that save time and improve workflows. My focus is clean, reliable results without unnecessary complexity. **Services I offer:** - Custom scripts and automation (Python, JavaScript, Zapier/Make, etc.) - Bug fixes, small feature additions, and code clean-up. - Data cleaning, processing, and simple analysis and visualization. - Trading algos, strategies and indicators for Ninjatrader, Tradingview and Tradovate. - AI prompt engineering and complete prompt systems/workflows (ChatGPT, Claude, Gemini, etc.) tailored to specific jobs or industries. - Ready-to-use AI prompt packs and digital tools (Notion templates, automation kits, coding helpers). - Basic website/landing page updates and technical support. **Rates:** - Hourly: $15–$50/hr depending on complexity ",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [
+        "full time"
+      ],
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "automation",
+        "workflow",
+        "zapier",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 52,
+        "estimated_value_eur": 50,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          15.0,
+          50.0
+        ],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
     {
       "source": "Reddit r/forhire",
       "title": "[For Hire] WhatsApp & Messenger bots, business automation and backend development | $15/hour | Remote",
@@ -527,44 +570,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[For Hire] Excel/Google Sheets automation, dashboards, VBA/Apps Script, Python + SQL - $20/hr",
-      "url": "https://www.reddit.com/r/forhire/comments/1x7qgh2/for_hire_excelgoogle_sheets_automation_dashboards/",
-      "published": "2026-10-16T20:03:13+00:00",
-      "snippet": "Been doing Excel/Sheets automation work on Upwork, also worked as a Data &amp; Reporting Specialist at a statistical office building automated reporting tools. Based in Poland, working with clients across time zones. What I do: Excel: formulas, pivots, Power Query, Power Pivot, VBA macros Google Sheets: formulas, QUERY, Apps Script automation Python (pandas) and SQL for data cleaning, ETL, reporting automation Dashboards in Excel, Google Sheets, Power BI, Looker Studio Cleaning/merging messy data from multiple sources into something you can actually use Recent work: automated dashboards and reporting systems for international clients, custom macros/scripts to kill repetitive data entry, statistical reports and data processing tools. Currently studying Business Analytics (3rd year, Maria Curie-Sklodowska University), English C1, also fluent in Polish. Rate starts around $20/hr depending o",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "automation"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 20,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          20.0,
-          20.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[Hiring] create listings on eBay ($50 per 150)",
       "url": "https://www.reddit.com/r/forhire/comments/1x7ttwt/hiring_create_listings_on_ebay_50_per_150/",
       "published": "2026-10-16T22:22:05+00:00",
@@ -694,11 +699,26 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-17T16:12:11.386165+00:00",
+    "created_at": "2026-10-17T17:12:55.958581+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
     "drafts": [
+      {
+        "title": "[For Hire] Tech-focused freelancer available for short-term and ongoing remote work.",
+        "url": "https://www.reddit.com/r/forhire/comments/1x8ebdv/for_hire_techfocused_freelancer_available_for/",
+        "priority": "LOW",
+        "opportunity_score": 52,
+        "estimated_value_eur": 50,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Tech-focused freelancer available for short-term and ongoing remote work.\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
       {
         "title": "[For Hire] WhatsApp & Messenger bots, business automation and backend development | $15/hour | Remote",
         "url": "https://www.reddit.com/r/forhire/comments/1x8d4h4/for_hire_whatsapp_messenger_bots_business/",
@@ -830,21 +850,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[HIRING] GTM for an early-stage B2C app | Paid 1-month contract with a potential full-time role and equity\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Expel: Product Manager, Detection Pipeline",
-        "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"Expel: Product Manager, Detection Pipeline\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
