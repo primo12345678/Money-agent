@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T03:16:46.522792+00:00",
+  "generated_at": "2026-10-17T04:16:08.299413+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -267,10 +267,10 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[HIRING] Remote Social Media Graphic Designer | $15/Graphic | 10–25 Graphics/Month | Ongoing Work",
-      "url": "https://www.reddit.com/r/forhire/comments/1x7zeyb/hiring_remote_social_media_graphic_designer/",
-      "published": "2026-10-17T02:58:45+00:00",
-      "snippet": "Hello! I’m looking for a reliable freelance graphic designer to help create ongoing social media graphics for my content production business. This is a fully remote, contract-based opportunity with the potential for consistent monthly work. This is primarily a design execution role, not a content strategy position. I’ll provide the creative concepts, key messaging, branding, images and design references. Your responsibility is to turn those materials into polished, professional graphics that match an established visual style. I’m looking for someone who can follow creative direction, pay attention to the details and consistently produce quality work without extensive revisions. PAY &amp; WORKLOAD Flat rate: $15 per completed graphic Initial workload: Approximately 18 graphics per month Expected range: 10–25 graphics per month, depending on client needs Each individual graphic counts as o",
+      "title": "[HIRING] GTM for an early-stage B2C app | Paid 1-month contract with a potential full-time role and equity",
+      "url": "https://www.reddit.com/r/forhire/comments/1x80dhy/hiring_gtm_for_an_earlystage_b2c_app_paid_1month/",
+      "published": "2026-10-17T03:52:47+00:00",
+      "snippet": "We&#39;re building an AI kitchen assistant that knows what’s in your pantry, suggests what to cook, and builds a grocery list for what’s missing. I&#39;m a solo technical founder and I can&#39;t keep doing the marketing every day on top of building. We&#39;re looking for someone who can potentially own marketing and distribution. This includes but is not limited to: Marketing and distribution strategy Branding and Awareness Finding channels that bring people to the app, test them, and put our effort where it works Plan and make short videos for Instagram, TikTok and YouTube Shorts, and run those accounts Look after our App Store and Google Play pages, and our blog and SEO We already have a few users and strong growth signals. We&#39;ll work as a team and would be ideally looking for someone who has prior experience in the US consumer markets. The role starts with a paid one-month contrac",
       "lead_type": "potential_buyer_request",
       "buyer_intent_score": 25,
       "buyer_signals": [
@@ -279,29 +279,25 @@
       "employment_signals": [
         "full-time"
       ],
-      "score": 34,
-      "confidence": 0.49,
-      "automation_fit": 0.52,
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
       "matched_keywords": [
-        "workflow",
         "ai"
       ],
       "analysis": {
-        "category": "ai_automation",
+        "category": "other",
         "priority": "LOW",
-        "opportunity_score": 38,
-        "estimated_value_eur": 15,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          15.0,
-          15.0
-        ],
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
         "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -577,7 +573,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-17T03:16:46.564494+00:00",
+    "created_at": "2026-10-17T04:16:08.348862+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -673,16 +669,16 @@
         }
       },
       {
-        "title": "[HIRING] Remote Social Media Graphic Designer | $15/Graphic | 10–25 Graphics/Month | Ongoing Work",
-        "url": "https://www.reddit.com/r/forhire/comments/1x7zeyb/hiring_remote_social_media_graphic_designer/",
+        "title": "[HIRING] GTM for an early-stage B2C app | Paid 1-month contract with a potential full-time role and equity",
+        "url": "https://www.reddit.com/r/forhire/comments/1x80dhy/hiring_gtm_for_an_earlystage_b2c_app_paid_1month/",
         "priority": "LOW",
-        "opportunity_score": 38,
-        "estimated_value_eur": 15,
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
         "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[HIRING] Remote Social Media Graphic Designer | $15/Graphic | 10–25 Graphics/Month | Ongoing Work\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[HIRING] GTM for an early-stage B2C app | Paid 1-month contract with a potential full-time role and equity\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
