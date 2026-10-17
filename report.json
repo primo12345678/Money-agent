@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T07:24:01.764926+00:00",
+  "generated_at": "2026-10-17T08:12:56.680859+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -40,30 +40,28 @@
   "opportunities": [
     {
       "source": "We Work Remotely",
-      "title": "BeyondTrust: Cyber Defense Engineer",
-      "url": "https://weworkremotely.com/remote-jobs/beyondtrust-cyber-defense-engineer",
-      "published": "Sat, 10 Oct 2026 07:30:48 +0000",
-      "snippet": "Headquarters: Remote Manchester, UK BeyondTrust is a place where you can bring your purpose to life through the work that you do, creating a safer world through our cybersecurity SaaS portfolio. Our culture of flexibility, trust, and continual learning means you will be recognized for your growth, and for the impact you make on our success. You will be surrounded by people who challenge, support, and inspire you to be the best version of yourself. The Role BeyondTrust is a global leader in privileged access management. Our products provide remote access and privileged control capabilities that are deployed across thousands of enterprise environments worldwide. That makes us a high-value target. Nation-state actors, ransomware operators, and sophisticated threat groups actively target companies like ours—not just to compromise our corporate environment, but to reach the customers who trus",
+      "title": "Expel: Senior Detection & Response Engineer",
+      "url": "https://weworkremotely.com/remote-jobs/expel-senior-detection-response-engineer",
+      "published": "Sat, 17 Oct 2026 07:30:54 +0000",
+      "snippet": "Headquarters: Remote You're the detection engineer people turn to when they ask \"what does Microsoft actually see here?\" Not the marketing-slide answer, the real map. Which product emits which telemetry, any anticipated ingestion lags, what table or API it lands in, which license tier gates it, how long it survives before it ages out, and where the documentation quietly disagrees with reality. When a new technique drops, your first instinct is to ask which Microsoft signal would catch it, and whether customers have it switched on. You also know Microsoft never sits still. Hunting tables appear, columns get renamed, Graph versions retire, capability shuffles between SKUs, previews go GA, features quietly vanish, and native alert logic shifts underneath you. You've got a repeatable way of staying ahead of that churn instead of finding out when a detection stops firing. You're comfortable b",
       "lead_type": "potential_buyer_request",
       "buyer_intent_score": 25,
       "buyer_signals": [
-        "want to build"
+        "paying"
       ],
       "employment_signals": [],
-      "score": 55,
-      "confidence": 0.7,
-      "automation_fit": 0.7,
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
       "matched_keywords": [
         "automation",
-        "ai agent",
-        "ai integration",
         "workflow",
         "ai"
       ],
       "analysis": {
         "category": "ai_automation",
-        "priority": "MEDIUM",
-        "opportunity_score": 61,
+        "priority": "LOW",
+        "opportunity_score": 49,
         "estimated_value_eur": 600,
         "value_basis": "Service-band estimate; not a quoted budget",
         "budget_signals": [],
@@ -573,22 +571,22 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-17T07:24:01.809737+00:00",
+    "created_at": "2026-10-17T08:12:56.723571+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
     "drafts": [
       {
-        "title": "BeyondTrust: Cyber Defense Engineer",
-        "url": "https://weworkremotely.com/remote-jobs/beyondtrust-cyber-defense-engineer",
-        "priority": "MEDIUM",
-        "opportunity_score": 61,
+        "title": "Expel: Senior Detection & Response Engineer",
+        "url": "https://weworkremotely.com/remote-jobs/expel-senior-detection-response-engineer",
+        "priority": "LOW",
+        "opportunity_score": 49,
         "estimated_value_eur": 600,
         "offer": {
           "subject": "Proposal: AI workflow automation",
           "price_eur": 600,
           "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"BeyondTrust: Cyber Defense Engineer\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"Expel: Senior Detection & Response Engineer\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
