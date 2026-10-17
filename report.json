@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T21:12:24.964365+00:00",
+  "generated_at": "2026-10-17T22:10:53.584567+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -343,43 +343,6 @@
       }
     },
     {
-      "source": "Reddit r/forhire",
-      "title": "[HIRING] GTM for an early-stage B2C app | Paid 1-month contract with a potential full-time role and equity",
-      "url": "https://www.reddit.com/r/forhire/comments/1x80dhy/hiring_gtm_for_an_earlystage_b2c_app_paid_1month/",
-      "published": "2026-10-17T03:52:47+00:00",
-      "snippet": "We&#39;re building an AI kitchen assistant that knows what’s in your pantry, suggests what to cook, and builds a grocery list for what’s missing. I&#39;m a solo technical founder and I can&#39;t keep doing the marketing every day on top of building. We&#39;re looking for someone who can potentially own marketing and distribution. This includes but is not limited to: Marketing and distribution strategy Branding and Awareness Finding channels that bring people to the app, test them, and put our effort where it works Plan and make short videos for Instagram, TikTok and YouTube Shorts, and run those accounts Look after our App Store and Google Play pages, and our blog and SEO We already have a few users and strong growth signals. We&#39;ll work as a team and would be ideally looking for someone who has prior experience in the US consumer markets. The role starts with a paid one-month contrac",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [
-        "full-time"
-      ],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "We Work Remotely",
       "title": "Expel: Product Manager, Detection Pipeline",
       "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline",
@@ -529,6 +492,43 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[FOR HIRE] 2+ Years Backend and Mobile developer",
+      "url": "https://www.reddit.com/r/forhire/comments/1x8mj0e/for_hire_2_years_backend_and_mobile_developer/",
+      "published": "2026-10-17T22:03:22+00:00",
+      "snippet": "Backend developer focused on the Java ecosystem (Spring Boot) and Python, available for freelance work remotely. What I do: - Design and build RESTful APIs (Java/Spring Boot, Python) - Database modeling and SQL (PostgreSQL/MySQL), plus NoSQL - Microservices and event-driven architecture (Kafka, RabbitMQ) - Containerization with Docker - Some mobile/frontend work (React Native, TypeScript, Node.js, Flutter) Experience: - Junior Java Developer (2026) - Backend Developer (volunteer, ~1 year): REST APIs in Java and Python, code reviews, Agile ceremonies - Freelancing since Feb 2025 - Degree in Systems Analysis and Development (IFCE) - AWS Academy Cloud Foundations certified Rate: $20/hour (or fixed price per project, depending on scope) Location/Timezone: Brazil (UTC-3), remote Languages: English (professional working proficiency), Portuguese (native) Availability: 10/hour/week GitHub: githu",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 20,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          20.0
+        ],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[HIRING] Looking for High-End Device Owners - $10-$25 Per Collection",
       "url": "https://www.reddit.com/r/forhire/comments/1x8cudj/hiring_looking_for_highend_device_owners_1025_per/",
       "published": "2026-10-17T15:20:24+00:00",
@@ -620,7 +620,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-17T21:12:25.007798+00:00",
+    "created_at": "2026-10-17T22:10:53.618576+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -746,21 +746,6 @@
         }
       },
       {
-        "title": "[HIRING] GTM for an early-stage B2C app | Paid 1-month contract with a potential full-time role and equity",
-        "url": "https://www.reddit.com/r/forhire/comments/1x80dhy/hiring_gtm_for_an_earlystage_b2c_app_paid_1month/",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[HIRING] GTM for an early-stage B2C app | Paid 1-month contract with a potential full-time role and equity\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "Expel: Product Manager, Detection Pipeline",
         "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline",
         "priority": "LOW",
@@ -771,6 +756,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Expel: Product Manager, Detection Pipeline\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Contra: Senior 3D Designer",
+        "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
