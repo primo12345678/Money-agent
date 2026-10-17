@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T14:13:07.071706+00:00",
+  "generated_at": "2026-10-17T15:12:32.951692+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -481,43 +481,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[HIRING] US college students (or same age) wanted for an ongoing UGC campaign, no experience needed ($200/week)",
-      "url": "https://www.reddit.com/r/forhire/comments/1x7i86b/hiring_us_college_students_or_same_age_wanted_for/",
-      "published": "2026-10-16T14:48:51+00:00",
-      "snippet": "Hey everyone, I run a small UGC agency and we&#39;re looking for US college students to join a high volume campaign with us. If you&#39;re comfortable talking to a camera and can film simple videos on your phone, that&#39;s enough. We&#39;ll give you the ideas, scripts and feedback on every video, so you&#39;ll learn as you go and get better fast. What it looks like: Simple phone videos, several each week Ongoing work, not a one off Real brands, and we handle all the briefing Training from us if you&#39;re new Who we&#39;re after: Currently at a US college or university (or similar age range) Reliable and happy to post consistently Natural on camera, no polish needed If that sounds like you, comment or DM me with your name and a link to your TikTok or Instagram (even a personal one is fine). I&#39;ll send over the details. &#32; submitted by &#32; /u/infinite_pulse [link] &#32; [comments",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 200,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          200.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[For Hire] Excel/Google Sheets automation, dashboards, VBA/Apps Script, Python + SQL - $20/hr",
       "url": "https://www.reddit.com/r/forhire/comments/1x7qgh2/for_hire_excelgoogle_sheets_automation_dashboards/",
       "published": "2026-10-16T20:03:13+00:00",
@@ -591,6 +554,45 @@
         },
         "human_approval_required": true
       }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Developer looking for someone to market my apps",
+      "url": "https://www.reddit.com/r/forhire/comments/1x8btus/hiring_developer_looking_for_someone_to_market_my/",
+      "published": "2026-10-17T14:37:38+00:00",
+      "snippet": "I&#39;m a developer who&#39;s built loads of apps and sites that need paying users. You handle the marketing. I&#39;ll handle the building. I&#39;ll pay per project, and I&#39;m looking for someone I can work with long-term. If you can bring in paying users, I&#39;m happy to pay well for your work. DM me with some previous marketing projects you&#39;ve worked on! Edit: The budget will vary depending on the project and the results we&#39;re aiming for. I&#39;ll definitely pay well above the $15/hr minimum, and I&#39;m happy to negotiate a rate that works for both of us. Not quoting a price here as I&#39;m willing to pay heavily depending on how well the product suceeds! &#32; submitted by &#32; /u/BulkyShoe7712 [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 75,
+      "buyer_signals": [
+        "looking for someone to",
+        "paying",
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 15,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          15.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     }
   ],
   "errors": [
@@ -606,7 +608,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-17T14:13:07.112505+00:00",
+    "created_at": "2026-10-17T15:12:32.994298+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
