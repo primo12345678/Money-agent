@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T19:12:52.067615+00:00",
+  "generated_at": "2026-10-17T20:08:56.762340+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 17,
+    "buyer_leads_found": 15,
     "human_review_required": true
   },
   "opportunities": [
@@ -188,47 +188,6 @@
         "value_basis": "Detected budget/rate in listing",
         "budget_signals": [
           600.0
-        ],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] Remote (US, Eastern time) - Backend/sysadmin: legacy PHP/Python rescue, hosting migrations, API integrations - $45-70/hr",
-      "url": "https://www.reddit.com/r/forhire/comments/1x7ujb6/for_hire_remote_us_eastern_time_backendsysadmin/",
-      "published": "2026-10-16T22:53:54+00:00",
-      "snippet": "I fix the unglamorous infrastructure problems that quietly eat a small team&#39;s time and money. Resume Software &amp; Technical Operations Manager | [Company redacted], SaaS telecom provider | Feb 2022 - Jul 2025 - Owned full-stack web applications, Linux infrastructure, and API integrations for the company&#39;s website, admin portal, and internal tools. - Built REST integrations that linked a sales-data provider to a marketing CRM, automating contact and company sync and eliminating repetitive CSV imports (saving hours per campaign launch). - Provisioned and maintained LAMP and Python application servers (Apache, MySQL/PostgreSQL, Gunicorn) at two hosting providers. Configured SSL, email (Postfix/Dovecot), and monitoring scripts to support 99.9% uptime. - Migrated the corporate site to a new domain and hosting provider several times, cutting monthly infrastructure cost with minimal d",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [
-        "full-time"
-      ],
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "crm",
-        "api integration",
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "LOW",
-        "opportunity_score": 48,
-        "estimated_value_eur": 45,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          45.0
         ],
         "offer": {
           "service": "AI/API/CRM integration",
@@ -570,44 +529,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[Hiring] create listings on eBay ($50 per 150)",
-      "url": "https://www.reddit.com/r/forhire/comments/1x7ttwt/hiring_create_listings_on_ebay_50_per_150/",
-      "published": "2026-10-16T22:22:05+00:00",
-      "snippet": "I am looking for someone who is able to upload items onto ebay you will only need to: create the title, following a template, add photos which will be provided in a dropbox folder also fill in item specifics (50% of the time this will already be filled in by ebay) For 150 listings you will be paid $50 &#32; submitted by &#32; /u/Euphoric-Fly3821 [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 50,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          50.0,
-          50.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[HIRING] Looking for High-End Device Owners - $10-$25 Per Collection",
       "url": "https://www.reddit.com/r/forhire/comments/1x8cudj/hiring_looking_for_highend_device_owners_1025_per/",
       "published": "2026-10-17T15:20:24+00:00",
@@ -699,7 +620,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-17T19:12:52.102526+00:00",
+    "created_at": "2026-10-17T20:08:56.801826+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -760,21 +681,6 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"AssemblyAI: Senior GTM AI Engineer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[For Hire] Remote (US, Eastern time) - Backend/sysadmin: legacy PHP/Python rescue, hosting migrations, API integrations - $45-70/hr",
-        "url": "https://www.reddit.com/r/forhire/comments/1x7ujb6/for_hire_remote_us_eastern_time_backendsysadmin/",
-        "priority": "LOW",
-        "opportunity_score": 48,
-        "estimated_value_eur": 45,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Remote (US, Eastern time) - Backend/sysadmin: legacy PHP/Python rescue, hosting migrations, API integrations - $45-70/hr\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -850,6 +756,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[HIRING] GTM for an early-stage B2C app | Paid 1-month contract with a potential full-time role and equity\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Expel: Product Manager, Detection Pipeline",
+        "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"Expel: Product Manager, Detection Pipeline\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
