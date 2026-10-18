@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T20:08:44.992213+00:00",
+  "generated_at": "2026-10-18T21:11:33.075539+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -146,6 +146,48 @@
           "target_price_eur": 650,
           "premium_price_eur": 1600,
           "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] Full Stack Developer | Android Apps, SaaS MVPs, Landing Pages, Business Websites | $20/hr or fixed price",
+      "url": "https://www.reddit.com/r/forhire/comments/1x9dqtf/for_hire_full_stack_developer_android_apps_saas/",
+      "published": "2026-10-18T20:38:23+00:00",
+      "snippet": "I build web apps, websites and native Android apps, solo and end to end. Everything below is live, so you can open it and judge for yourself. What I build * Android apps, polished and animated, not a default template look * SaaS MVPs and web apps (Next.js, Supabase, auth, payments) * Landing pages and business websites, mobile friendly and fast * AI automations (background jobs, Gemini, email workflows) Rates: $20/hr, or fixed price. $80 for a simple landing page, $150 for multiple pages. Android apps and bigger builds are quoted per project once I know what you need. One round of revisions included. Landing pages usually take 3 to 5 days. Built: * Kanha: Bhagavad Gita Explained https://kanhagita.com/ native Android app I built solo. Google and email sign-in, cloud sync that still works offline, animations, sound, share as image, 600+ content cards. Both the website and the application a",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "automation",
+        "workflow",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 46,
+        "estimated_value_eur": 150,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          20.0,
+          20.0,
+          80.0,
+          150.0
+        ],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -487,43 +529,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[FOR HIRE] 2+ Years Backend and Mobile developer",
-      "url": "https://www.reddit.com/r/forhire/comments/1x8mj0e/for_hire_2_years_backend_and_mobile_developer/",
-      "published": "2026-10-17T22:03:22+00:00",
-      "snippet": "Backend developer focused on the Java ecosystem (Spring Boot) and Python, available for freelance work remotely. What I do: - Design and build RESTful APIs (Java/Spring Boot, Python) - Database modeling and SQL (PostgreSQL/MySQL), plus NoSQL - Microservices and event-driven architecture (Kafka, RabbitMQ) - Containerization with Docker - Some mobile/frontend work (React Native, TypeScript, Node.js, Flutter) Experience: - Junior Java Developer (2026) - Backend Developer (volunteer, ~1 year): REST APIs in Java and Python, code reviews, Agile ceremonies - Freelancing since Feb 2025 - Degree in Systems Analysis and Development (IFCE) - AWS Academy Cloud Foundations certified Rate: $20/hour (or fixed price per project, depending on scope) Location/Timezone: Brazil (UTC-3), remote Languages: English (professional working proficiency), Portuguese (native) Availability: 10/hour/week GitHub: githu",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 20,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          20.0
-        ],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[Hiring] General laborers for home project in Reseda, Hourly , Monday to Wednesday[Hourly $60 - $80]",
       "url": "https://www.reddit.com/r/forhire/comments/1x9714s/hiring_general_laborers_for_home_project_in/",
       "published": "2026-10-18T16:10:15+00:00",
@@ -651,7 +656,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-18T20:08:45.027087+00:00",
+    "created_at": "2026-10-18T21:11:33.113178+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -697,6 +702,21 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"Twikey: Senior Java Developer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] Full Stack Developer | Android Apps, SaaS MVPs, Landing Pages, Business Websites | $20/hr or fixed price",
+        "url": "https://www.reddit.com/r/forhire/comments/1x9dqtf/for_hire_full_stack_developer_android_apps_saas/",
+        "priority": "LOW",
+        "opportunity_score": 46,
+        "estimated_value_eur": 150,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Full Stack Developer | Android Apps, SaaS MVPs, Landing Pages, Business Websites | $20/hr or fixed price\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -787,21 +807,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Expel: Product Manager, Detection Pipeline\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Contra: Senior 3D Designer",
-        "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
