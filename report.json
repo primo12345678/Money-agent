@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T14:12:50.688532+00:00",
+  "generated_at": "2026-10-18T15:12:58.219048+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,53 +34,10 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 16,
+    "buyer_leads_found": 15,
     "human_review_required": true
   },
   "opportunities": [
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] Tech-focused freelancer available for short-term and ongoing remote work.",
-      "url": "https://www.reddit.com/r/forhire/comments/1x8ebdv/for_hire_techfocused_freelancer_available_for/",
-      "published": "2026-10-17T16:20:24+00:00",
-      "snippet": "Tech-focused freelancer available for short-term and ongoing remote work. I help individuals and small teams with practical tech tasks that save time and improve workflows. My focus is clean, reliable results without unnecessary complexity. **Services I offer:** - Custom scripts and automation (Python, JavaScript, Zapier/Make, etc.) - Bug fixes, small feature additions, and code clean-up. - Data cleaning, processing, and simple analysis and visualization. - Trading algos, strategies and indicators for Ninjatrader, Tradingview and Tradovate. - AI prompt engineering and complete prompt systems/workflows (ChatGPT, Claude, Gemini, etc.) tailored to specific jobs or industries. - Ready-to-use AI prompt packs and digital tools (Notion templates, automation kits, coding helpers). - Basic website/landing page updates and technical support. **Rates:** - Hourly: $15–$50/hr depending on complexity ",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [
-        "full time"
-      ],
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "zapier",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 52,
-        "estimated_value_eur": 50,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          15.0,
-          50.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
     {
       "source": "We Work Remotely",
       "title": "Expel: Senior Detection & Response Engineer",
@@ -309,7 +266,7 @@
       "title": "Looking for people who can voiceover remotely for a project [Hiring]",
       "url": "https://www.reddit.com/r/forhire/comments/1x91yny/looking_for_people_who_can_voiceover_remotely_for/",
       "published": "2026-10-18T12:25:34+00:00",
-      "snippet": "We are looking people who can do voiceover remotely for a project • Languages needed - Taiwan-accented Mandarin, Cantonese, Hindi, Bengali, Urdu, Tamil, Spanish (Spain), Mexican Spanish, Brazilian Portuguese, Russian, Japanese, Egyptian Arabic, Saudi Arabic, German, Hanoi-accented Vietnamese, Turkish, Korean, French (France), Filipino, Indonesian, Thai, Italian, Dutch, Polish and Persian (Farsi). • Pay - atleast 30-40$ per hour ( or more depending on performance) • home studio or even close to professional setup is required •Person Should be fluent in the languages mentioned •First you will be auditioned for it then we will be forwarding you to the final project if you are selected Comment down or DM your country and languages you can do and fill this form below https://docs.google.com/forms/d/e/1FAIpQLSckBO_0NGUQPZAv1u69C9Mxud6JHuMI7_6kJGxv7c0NavQ4dw/viewform?usp=publish-editor &#32; su",
+      "snippet": "We are looking people who can do voiceover remotely for a project • Languages needed - Taiwan-accented Mandarin, Cantonese, Hindi, Bengali, Urdu, Tamil, Spanish (Spain), Mexican Spanish, Brazilian Portuguese, Russian, Japanese, Egyptian Arabic, Saudi Arabic, German, Hanoi-accented Vietnamese, Turkish, Korean, French (France), Filipino, Indonesian, Thai, Italian, Dutch, Polish and Persian (Farsi). • Pay - atleast 30-40$ per hour ( or more depending on performance) • home studio or even close to professional setup is required •Person Should be fluent in the languages mentioned •First you will be auditioned for it then we will be forwarding you to the final project if you are selected Comment down or DM your country and languages you can do INTERESTED? GO THROUGH AND FILL THE FORM BELOW ( FORM LINK!! ) &#32; submitted by &#32; /u/Coco_CurrryyyX [link] &#32; [comments]",
       "lead_type": "potential_buyer_request",
       "buyer_intent_score": 25,
       "buyer_signals": [
@@ -647,26 +604,11 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-18T14:12:50.733571+00:00",
+    "created_at": "2026-10-18T15:12:58.260688+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
     "drafts": [
-      {
-        "title": "[For Hire] Tech-focused freelancer available for short-term and ongoing remote work.",
-        "url": "https://www.reddit.com/r/forhire/comments/1x8ebdv/for_hire_techfocused_freelancer_available_for/",
-        "priority": "LOW",
-        "opportunity_score": 52,
-        "estimated_value_eur": 50,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Tech-focused freelancer available for short-term and ongoing remote work.\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
       {
         "title": "Expel: Senior Detection & Response Engineer",
         "url": "https://weworkremotely.com/remote-jobs/expel-senior-detection-response-engineer",
@@ -798,6 +740,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Expel: Product Manager, Detection Pipeline\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Contra: Senior 3D Designer",
+        "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
