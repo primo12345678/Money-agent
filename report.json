@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T12:12:01.151364+00:00",
+  "generated_at": "2026-10-18T13:19:48.526024+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 17,
+    "buyer_leads_found": 18,
     "human_review_required": true
   },
   "opportunities": [
@@ -342,6 +342,41 @@
           "target_price_eur": 650,
           "premium_price_eur": 1600,
           "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "Looking for people who can voiceover remotely for a project [Hiring]",
+      "url": "https://www.reddit.com/r/forhire/comments/1x91yny/looking_for_people_who_can_voiceover_remotely_for/",
+      "published": "2026-10-18T12:25:34+00:00",
+      "snippet": "We are looking people who can do voiceover remotely for a project • Languages needed - Taiwan-accented Mandarin, Cantonese, Hindi, Bengali, Urdu, Tamil, Spanish (Spain), Mexican Spanish, Brazilian Portuguese, Russian, Japanese, Egyptian Arabic, Saudi Arabic, German, Hanoi-accented Vietnamese, Turkish, Korean, French (France), Filipino, Indonesian, Thai, Italian, Dutch, Polish and Persian (Farsi). • Pay - atleast 30-40$ per hour ( or more depending on performance) • home studio or even close to professional setup is required •Person Should be fluent in the languages mentioned •First you will be auditioned for it then we will be forwarding you to the final project if you are selected Comment down or DM your country and languages you can do and fill this form below https://docs.google.com/forms/d/e/1FAIpQLSckBO_0NGUQPZAv1u69C9Mxud6JHuMI7_6kJGxv7c0NavQ4dw/viewform?usp=publish-editor &#32; su",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -693,7 +728,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-18T12:12:01.193581+00:00",
+    "created_at": "2026-10-18T13:19:48.569188+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -819,6 +854,21 @@
         }
       },
       {
+        "title": "Looking for people who can voiceover remotely for a project [Hiring]",
+        "url": "https://www.reddit.com/r/forhire/comments/1x91yny/looking_for_people_who_can_voiceover_remotely_for/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"Looking for people who can voiceover remotely for a project [Hiring]\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "[HIRING] Book Formatter & Cover Layout Designer – Amazon KDP and IngramSpark",
         "url": "https://www.reddit.com/r/forhire/comments/1x8yr60/hiring_book_formatter_cover_layout_designer/",
         "priority": "LOW",
@@ -829,21 +879,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[HIRING] Book Formatter & Cover Layout Designer – Amazon KDP and IngramSpark\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Expel: Product Manager, Detection Pipeline",
-        "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"Expel: Product Manager, Detection Pipeline\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
