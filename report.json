@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T09:14:03.105546+00:00",
+  "generated_at": "2026-10-18T10:13:04.528502+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 15,
+    "buyer_leads_found": 17,
     "human_review_required": true
   },
   "opportunities": [
@@ -236,6 +236,45 @@
       }
     },
     {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] Full-Stack & Mobile App Developer – React Native, Expo, Next.js, TypeScript, Supabase ($30/hr or flat-rate MVP builds)",
+      "url": "https://www.reddit.com/r/forhire/comments/1x8z1sw/for_hire_fullstack_mobile_app_developer_react/",
+      "published": "2026-10-18T09:35:00+00:00",
+      "snippet": "Hey everyone, I am a full-stack and mobile app developer taking on new projects this month. I help non-technical founders, solopreneurs, and small teams turn their ideas or Figma designs into working, production-ready mobile and web apps, with focused MVPs typically delivered in 2 to 3 weeks. Unlike building just prototypes, I have experience shipping real products to the App Store and Google Play, handling everything from architecture and development to monetization, debugging, and post-launch improvements. What I handle: - Cross-platform mobile development with React Native, Expo, TypeScript, and native iOS/Android integrations - Modern web applications with Next.js, React, TypeScript, and clean, responsive interfaces - Database architecture, Supabase, API integrations, and secure offline-first data systems - Payment integration and monetization with RevenueCat, in-app purchases, and s",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "want to build"
+      ],
+      "employment_signals": [],
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "workflow",
+        "api integration",
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 46,
+        "estimated_value_eur": 30,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          30.0
+        ],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
       "source": "We Work Remotely",
       "title": "Fivetran : Enterprise Sales Director",
       "url": "https://weworkremotely.com/remote-jobs/fivetran-enterprise-sales-director",
@@ -303,6 +342,41 @@
           "target_price_eur": 650,
           "premium_price_eur": 1600,
           "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[HIRING] Book Formatter & Cover Layout Designer – Amazon KDP and IngramSpark",
+      "url": "https://www.reddit.com/r/forhire/comments/1x8yr60/hiring_book_formatter_cover_layout_designer/",
+      "published": "2026-10-18T09:15:59+00:00",
+      "snippet": "[HIRING] Book Formatter &amp; Cover Layout Designer – Amazon KDP and IngramSpark Hi everyone! I&#39;m looking for a book formatter and designer to help me prepare my English fantasy novel, When the Spirits Fell Silent , for self-publication through Amazon KDP and IngramSpark. The manuscript is complete and currently contains 366 pages. I already have the cover artwork, ISBN, and back cover text. What I need: Professional interior formatting for a paperback novel. Help selecting a suitable trim size for both publishing platforms. A complete print-ready cover using my existing artwork (front, spine, and back). Proper placement of the ISBN barcode. Print-ready PDF files that meet KDP and IngramSpark requirements. Editable source files, preferably Adobe InDesign. The book will have a black-and-white interior with cream-coloured paper. My planned publication date is November 20, 2026, so I&#3",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -619,7 +693,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-18T09:14:03.158216+00:00",
+    "created_at": "2026-10-18T10:13:04.556509+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -700,6 +774,21 @@
         }
       },
       {
+        "title": "[For Hire] Full-Stack & Mobile App Developer – React Native, Expo, Next.js, TypeScript, Supabase ($30/hr or flat-rate MVP builds)",
+        "url": "https://www.reddit.com/r/forhire/comments/1x8z1sw/for_hire_fullstack_mobile_app_developer_react/",
+        "priority": "LOW",
+        "opportunity_score": 46,
+        "estimated_value_eur": 30,
+        "offer": {
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Full-Stack & Mobile App Developer – React Native, Expo, Next.js, TypeScript, Supabase ($30/hr or flat-rate MVP builds)\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "Fivetran : Enterprise Sales Director",
         "url": "https://weworkremotely.com/remote-jobs/fivetran-enterprise-sales-director",
         "priority": "LOW",
@@ -730,6 +819,21 @@
         }
       },
       {
+        "title": "[HIRING] Book Formatter & Cover Layout Designer – Amazon KDP and IngramSpark",
+        "url": "https://www.reddit.com/r/forhire/comments/1x8yr60/hiring_book_formatter_cover_layout_designer/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[HIRING] Book Formatter & Cover Layout Designer – Amazon KDP and IngramSpark\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "Expel: Product Manager, Detection Pipeline",
         "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline",
         "priority": "LOW",
@@ -740,36 +844,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Expel: Product Manager, Detection Pipeline\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Contra: Senior 3D Designer",
-        "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Contra: Senior Game Designer",
-        "url": "https://weworkremotely.com/remote-jobs/contra-senior-game-designer",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"Contra: Senior Game Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
