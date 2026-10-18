@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T13:19:48.526024+00:00",
+  "generated_at": "2026-10-18T14:12:50.688532+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 18,
+    "buyer_leads_found": 16,
     "human_review_required": true
   },
   "opportunities": [
@@ -77,48 +77,6 @@
           "target_price_eur": 600,
           "premium_price_eur": 1500,
           "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] WhatsApp & Messenger bots, business automation and backend development | $15/hour | Remote",
-      "url": "https://www.reddit.com/r/forhire/comments/1x8d4h4/for_hire_whatsapp_messenger_bots_business/",
-      "published": "2026-10-17T15:32:08+00:00",
-      "snippet": "Hi! I’m Jhon, a backend developer based in Colombia. I build tools that connect business systems and reduce repetitive work. I’m currently taking on small paid projects to expand my freelance portfolio and build long-term working relationships. I can help with: WhatsApp Cloud API and Facebook Messenger bots. Lead capture, routing and handoff to a human team. API integrations, webhooks and workflow automation. Backend APIs and internal business tools. AI-assisted bots using DeepSeek or OpenAI models, selected around your needs and budget. My backend stack includes Rust, Axum, SQLx, PostgreSQL and Redis. I also have experience with Go, Laravel, Docker and React. My projects include academic management systems, QR attendance tracking, role-based permissions, real-time notifications and messaging integrations. My introductory rate is $15 USD/hour. Small fixed-price projects are welcome after",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "paid project"
-      ],
-      "employment_signals": [],
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "api integration",
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "LOW",
-        "opportunity_score": 51,
-        "estimated_value_eur": 15,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          15.0,
-          15.0,
-          15.0
-        ],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -527,45 +485,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[For Hire] Built your app mostly with AI and now it's time to ship it (or it's live and the hosting bill is climbing)? I'm a DevOps/backend engineer who helps with exactly that stage. fixed Price $200 , $20/hr",
-      "url": "https://www.reddit.com/r/forhire/comments/1x8dl26/for_hire_built_your_app_mostly_with_ai_and_now/",
-      "published": "2026-10-17T15:51:11+00:00",
-      "snippet": "AI can write your code. It shouldn&#39;t have unrestricted access to your production environment or your billing, and neither should a stranger. Built your app and now it&#39;s time to ship it (or it&#39;s live and the hosting bill is climbing)? I&#39;m a DevOps/backend engineer who helps with exactly that stage. Who this is for Founders and solo builders whose app works, but who aren&#39;t sure the deployment is set up well, secure, or cheap to run. What I do Diagnose first. I review your deployment pipeline, hosting setup, and billing and tell you what&#39;s wrong, what&#39;s risky, and what&#39;s costing you money. You keep your prod keys. I work from read-only access, exports, screenshots, or a call where you share your screen. I don&#39;t need to hold your production credentials. Hosting cost creep. Vercel and similar platforms are great to start on, but bandwidth, serverless usage,",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 50,
-      "buyer_signals": [
-        "paying",
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 200,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          200.0,
-          20.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[FOR HIRE] Excel/Google Sheets formulas & macros, Python scripts, data cleaning – $20/hr or fixed flat rate",
       "url": "https://www.reddit.com/r/forhire/comments/1x9094z/for_hire_excelgoogle_sheets_formulas_macros/",
       "published": "2026-10-18T10:50:17+00:00",
@@ -728,7 +647,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-18T13:19:48.569188+00:00",
+    "created_at": "2026-10-18T14:12:50.733571+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -744,21 +663,6 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Tech-focused freelancer available for short-term and ongoing remote work.\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[For Hire] WhatsApp & Messenger bots, business automation and backend development | $15/hour | Remote",
-        "url": "https://www.reddit.com/r/forhire/comments/1x8d4h4/for_hire_whatsapp_messenger_bots_business/",
-        "priority": "LOW",
-        "opportunity_score": 51,
-        "estimated_value_eur": 15,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] WhatsApp & Messenger bots, business automation and backend development | $15/hour | Remote\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -879,6 +783,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[HIRING] Book Formatter & Cover Layout Designer – Amazon KDP and IngramSpark\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Expel: Product Manager, Detection Pipeline",
+        "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"Expel: Product Manager, Detection Pipeline\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
