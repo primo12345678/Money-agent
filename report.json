@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T22:11:01.440766+00:00",
+  "generated_at": "2026-10-18T23:09:38.156874+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 20,
+    "buyer_leads_found": 15,
     "human_review_required": true
   },
   "opportunities": [
@@ -193,91 +193,10 @@
       }
     },
     {
-      "source": "Reddit r/slavelabour",
-      "title": "[offer] Full Stack Developer | Android Apps, SaaS MVPs, Landing Pages, Business Websites | $20/hr or fixed price",
-      "url": "https://www.reddit.com/r/slavelabour/comments/1x9dpm7/offer_full_stack_developer_android_apps_saas_mvps/",
-      "published": "2026-10-18T20:37:00+00:00",
-      "snippet": "I build web apps, websites and native Android apps, solo and end to end. Everything below is live, so you can open it and judge for yourself. What I build * Android apps, polished and animated, not a default template look * SaaS MVPs and web apps (Next.js, Supabase, auth, payments) * Landing pages and business websites, mobile friendly and fast * AI automations (background jobs, Gemini, email workflows) Rates: $20/hr, or fixed price. $80 for a simple landing page, $150 for multiple pages. Android apps and bigger builds are quoted per project once I know what you need. One round of revisions included. Landing pages usually take 3 to 5 days. Built: * Kanha: Bhagavad Gita Explained https://kanhagita.com/ native Android app I built solo. Google and email sign-in, cloud sync that still works offline, animations, sound, share as image, 600+ content cards. both the website and the application a",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 46,
-        "estimated_value_eur": 150,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          20.0,
-          20.0,
-          80.0,
-          150.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "Reddit r/forhire",
       "title": "[For Hire] Full-Stack & Mobile App Developer – React Native, Expo, Next.js, TypeScript, Supabase ($30/hr or flat-rate MVP builds)",
       "url": "https://www.reddit.com/r/forhire/comments/1x8z1sw/for_hire_fullstack_mobile_app_developer_react/",
       "published": "2026-10-18T09:35:00+00:00",
-      "snippet": "Hey everyone, I am a full-stack and mobile app developer taking on new projects this month. I help non-technical founders, solopreneurs, and small teams turn their ideas or Figma designs into working, production-ready mobile and web apps, with focused MVPs typically delivered in 2 to 3 weeks. Unlike building just prototypes, I have experience shipping real products to the App Store and Google Play, handling everything from architecture and development to monetization, debugging, and post-launch improvements. What I handle: - Cross-platform mobile development with React Native, Expo, TypeScript, and native iOS/Android integrations - Modern web applications with Next.js, React, TypeScript, and clean, responsive interfaces - Database architecture, Supabase, API integrations, and secure offline-first data systems - Payment integration and monetization with RevenueCat, in-app purchases, and s",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "want to build"
-      ],
-      "employment_signals": [],
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "workflow",
-        "api integration",
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "LOW",
-        "opportunity_score": 46,
-        "estimated_value_eur": 30,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          30.0
-        ],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/slavelabour",
-      "title": "[Offer] Full-Stack & Mobile App Developer – React Native, Expo, Next.js, TypeScript, Supabase ($30/hr or flat-rate MVP builds)",
-      "url": "https://www.reddit.com/r/slavelabour/comments/1x8z2bs/offer_fullstack_mobile_app_developer_react_native/",
-      "published": "2026-10-18T09:35:57+00:00",
       "snippet": "Hey everyone, I am a full-stack and mobile app developer taking on new projects this month. I help non-technical founders, solopreneurs, and small teams turn their ideas or Figma designs into working, production-ready mobile and web apps, with focused MVPs typically delivered in 2 to 3 weeks. Unlike building just prototypes, I have experience shipping real products to the App Store and Google Play, handling everything from architecture and development to monetization, debugging, and post-launch improvements. What I handle: - Cross-platform mobile development with React Native, Expo, TypeScript, and native iOS/Android integrations - Modern web applications with Next.js, React, TypeScript, and clean, responsive interfaces - Database architecture, Supabase, API integrations, and secure offline-first data systems - Payment integration and monetization with RevenueCat, in-app purchases, and s",
       "lead_type": "potential_buyer_request",
       "buyer_intent_score": 25,
@@ -609,44 +528,6 @@
       }
     },
     {
-      "source": "Reddit r/slavelabour",
-      "title": "[Task] Philippines Only - Text only sales for a British recruitment company $3.00p/h",
-      "url": "https://www.reddit.com/r/slavelabour/comments/1x93m9g/task_philippines_only_text_only_sales_for_a/",
-      "published": "2026-10-18T13:45:57+00:00",
-      "snippet": "Looking for someone from the Philippines to help a UK based recruitment company in sales. The sales must be from the Philippines themselves, so someone who is adept, well versed in the local market and the local recruitment scene would be perfect. No previous experience required. The role is paid at a flat $3.00p/h. We&#39;re looking for someone to come on board, understand our mission and thrive with us. Requirements: Philippines only Clear spoken and written English Good understanding of the Philippines formal and informal recruitment scene Results driven, goal oriented, creative and independent at work Please $bid if interested. &#32; submitted by &#32; /u/TennisSkirt1628 [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "looking for someone to"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "lead_generation",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 3,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          3.0,
-          3.0
-        ],
-        "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "Reddit r/forhire",
       "title": "[Hiring] General laborers for home project in Reseda, Hourly , Monday to Wednesday[Hourly $60 - $80]",
       "url": "https://www.reddit.com/r/forhire/comments/1x9714s/hiring_general_laborers_for_home_project_in/",
@@ -723,84 +604,14 @@
         },
         "human_approval_required": true
       }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[for hire] Backend-leaning full-stack dev (Django REST, Laravel, Flutter/React) available for two kinds of work",
-      "url": "https://www.reddit.com/r/forhire/comments/1x8vx1k/for_hire_backendleaning_fullstack_dev_django_rest/",
-      "published": "2026-10-18T06:19:11+00:00",
-      "snippet": "→ Overflow/subcontract: swamped with client work? I take tasks off your plate — you stay client-facing, I work in the background at $15-20/hr. → Direct hire: need a backend/full-stack dev for your own project, short-term or ongoing? Same rate, I work with you directly. How it works: tell me the scope, I quote a time estimate, first small task is free so you can judge the quality before paying anything. GitHub/past work available on request. DMs open. &#32; submitted by &#32; /u/TiglathPileser_2 [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "paying"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 15,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          15.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/slavelabour",
-      "title": "[OFFER] Virtual Assistant | English & Arabic | $1.50/hour",
-      "url": "https://www.reddit.com/r/slavelabour/comments/1x8mi66/offer_virtual_assistant_english_arabic_150hour/",
-      "published": "2026-10-17T22:02:19+00:00",
-      "snippet": "Hi Im looking for a virtual assistant job I&#39;m good at English and Arabic, comfortable using computers, and a fast learner. I can help with things like data entry, internet research, organizing files, basic admin tasks, managing spreadsheets, and other general VA work. If there&#39;s something I haven&#39;t done before, I&#39;m willing to learn and put in the effort to get it done properly. I&#39;m available 4–6 hours a day and can be flexible depending on the workload My rate is $1.50/hour, and I prefer daily payment after the workday is completed I&#39;m reliable willing to learn and happy to start with simple tasks and build from there Feel free to DM me with details about the job and what you need help with Thanks &#32; submitted by &#32; /u/NastyAuspices [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "need help with"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 2,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          1.5,
-          1.5
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "Reddit r/slavelabour",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
   "analysis": {
     "status": "ready_for_human_review",
     "note": "Scores and prices are estimates, not guaranteed earnings.",
@@ -808,7 +619,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-18T22:11:01.476049+00:00",
+    "created_at": "2026-10-18T23:09:38.198888+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -874,21 +685,6 @@
         }
       },
       {
-        "title": "[offer] Full Stack Developer | Android Apps, SaaS MVPs, Landing Pages, Business Websites | $20/hr or fixed price",
-        "url": "https://www.reddit.com/r/slavelabour/comments/1x9dpm7/offer_full_stack_developer_android_apps_saas_mvps/",
-        "priority": "LOW",
-        "opportunity_score": 46,
-        "estimated_value_eur": 150,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[offer] Full Stack Developer | Android Apps, SaaS MVPs, Landing Pages, Business Websites | $20/hr or fixed price\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "[For Hire] Full-Stack & Mobile App Developer – React Native, Expo, Next.js, TypeScript, Supabase ($30/hr or flat-rate MVP builds)",
         "url": "https://www.reddit.com/r/forhire/comments/1x8z1sw/for_hire_fullstack_mobile_app_developer_react/",
         "priority": "LOW",
@@ -899,21 +695,6 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Full-Stack & Mobile App Developer – React Native, Expo, Next.js, TypeScript, Supabase ($30/hr or flat-rate MVP builds)\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Offer] Full-Stack & Mobile App Developer – React Native, Expo, Next.js, TypeScript, Supabase ($30/hr or flat-rate MVP builds)",
-        "url": "https://www.reddit.com/r/slavelabour/comments/1x8z2bs/offer_fullstack_mobile_app_developer_react_native/",
-        "priority": "LOW",
-        "opportunity_score": 46,
-        "estimated_value_eur": 30,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[Offer] Full-Stack & Mobile App Developer – React Native, Expo, Next.js, TypeScript, Supabase ($30/hr or flat-rate MVP builds)\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -959,6 +740,36 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[Hiring] On-camera trading content creator, fluent English, €300 to €600/month retainer + per-view bonus, Remote\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[HIRING] Book Formatter & Cover Layout Designer – Amazon KDP and IngramSpark",
+        "url": "https://www.reddit.com/r/forhire/comments/1x8yr60/hiring_book_formatter_cover_layout_designer/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[HIRING] Book Formatter & Cover Layout Designer – Amazon KDP and IngramSpark\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Expel: Product Manager, Detection Pipeline",
+        "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"Expel: Product Manager, Detection Pipeline\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
