@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T15:12:58.219048+00:00",
+  "generated_at": "2026-10-18T16:13:19.184468+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 15,
+    "buyer_leads_found": 16,
     "human_review_required": true
   },
   "opportunities": [
@@ -518,6 +518,47 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[Hiring] General laborers for home project in Reseda, Hourly , Monday to Wednesday[Hourly $60 - $80]",
+      "url": "https://www.reddit.com/r/forhire/comments/1x9714s/hiring_general_laborers_for_home_project_in/",
+      "published": "2026-10-18T16:10:15+00:00",
+      "snippet": "Hi, I’m a homeowner in Reseda looking to hire 2 laborers to help with work on my house. I’m posting this myself, not through an agency, and there are no fees of any kind to apply. The work: - demo and debris removal, yard cleanup, drywall, painting, hauling - Estimated 3 days, starting at Monday - Hours: 9am to 5pm Pay: Hourly $60 - $80, by cash / Zelle / Venmo Looking for: - Reliable and on time - Own basic tools a plus - Must be able to get to Reseda (exact address shared after we talk) If interested, send me a DM with your experience, availability, and a phone number. &#32; submitted by &#32; /u/DefiIshtao [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 50,
+      "buyer_signals": [
+        "looking to hire",
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 80,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          60.0,
+          80.0,
+          60.0,
+          80.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[For Hire] Full-Stack Developer - Next.js 15, TypeScript, Supabase, Stripe ($30/hr or flat-rate MVP builds)",
       "url": "https://www.reddit.com/r/forhire/comments/1x8xzt7/for_hire_fullstack_developer_nextjs_15_typescript/",
       "published": "2026-10-18T08:26:53+00:00",
@@ -604,7 +645,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-18T15:12:58.260688+00:00",
+    "created_at": "2026-10-18T16:13:19.228294+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
