@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T08:13:44.031771+00:00",
+  "generated_at": "2026-10-18T09:14:03.105546+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -308,41 +308,6 @@
       }
     },
     {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Talent Manager for Minecraft Creators (Long-Term Role)",
-      "url": "https://www.reddit.com/r/forhire/comments/1x854uv/hiring_talent_manager_for_minecraft_creators/",
-      "published": "2026-10-17T08:36:06+00:00",
-      "snippet": "Hey, We’re Awre Studios — a talent management and influencer marketing agency working closely with some of the largest Minecraft creators on YouTube, helping them grow their businesses and secure better opportunities. We’re currently looking to bring on a Talent Manager to join the team - someone who wants to build genuine relationships with creators and brands, take ownership of opportunities, and grow alongside an ambitious agency. 🌐 What we do We work with creators across the Minecraft space, including ManePear, Flowtives, Daiazal (and many more). This includes: Brand partnerships and sponsorships Creator representation and relationship management Influencer marketing campaigns Connecting creators with new business opportunities Building long-term relationships across the industry 🚀 What we&#39;re looking for We don&#39;t just care about previous experience in talent management. We&#3",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "We Work Remotely",
       "title": "Expel: Product Manager, Detection Pipeline",
       "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline",
@@ -529,6 +494,43 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[For Hire] Full-Stack Developer - Next.js 15, TypeScript, Supabase, Stripe ($30/hr or flat-rate MVP builds)",
+      "url": "https://www.reddit.com/r/forhire/comments/1x8xzt7/for_hire_fullstack_developer_nextjs_15_typescript/",
+      "published": "2026-10-18T08:26:53+00:00",
+      "snippet": "Hey everyone, I am a full-stack engineer taking on new projects this month. I help non-technical founders, solopreneurs, and small teams turn their ideas or Figma designs into working production web apps in 2 to 3 weeks. What I handle: - Modern frontend with Next.js 15, React, TypeScript, and clean Tailwind CSS - Database setup with PostgreSQL, Supabase Row-Level Security, and Drizzle ORM - User authentication with Google OAuth, magic links, and session management - Payment gateways with Stripe for one-time checkouts or recurring subscriptions - Transactional email delivery and automated notification pipelines What I have built recently: - A live subscription and contract deadline management web app built on Next.js 15 with automated email reminders and database-level security. - A suite of modular Next.js starter templates with pre-configured authentication and checkout pipelines. Prici",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "want to build"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 30,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          30.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[Hiring] Developer looking for someone to market my apps",
       "url": "https://www.reddit.com/r/forhire/comments/1x8btus/hiring_developer_looking_for_someone_to_market_my/",
       "published": "2026-10-17T14:37:38+00:00",
@@ -617,7 +619,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-18T08:13:44.095898+00:00",
+    "created_at": "2026-10-18T09:14:03.158216+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -728,21 +730,6 @@
         }
       },
       {
-        "title": "[Hiring] Talent Manager for Minecraft Creators (Long-Term Role)",
-        "url": "https://www.reddit.com/r/forhire/comments/1x854uv/hiring_talent_manager_for_minecraft_creators/",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Talent Manager for Minecraft Creators (Long-Term Role)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "Expel: Product Manager, Detection Pipeline",
         "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline",
         "priority": "LOW",
@@ -768,6 +755,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Contra: Senior Game Designer",
+        "url": "https://weworkremotely.com/remote-jobs/contra-senior-game-designer",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"Contra: Senior Game Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
