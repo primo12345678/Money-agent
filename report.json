@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T06:14:38.755060+00:00",
+  "generated_at": "2026-10-18T07:23:52.482989+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -529,13 +529,15 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[HIRING] Looking for High-End Device Owners - $10-$25 Per Collection",
-      "url": "https://www.reddit.com/r/forhire/comments/1x8cudj/hiring_looking_for_highend_device_owners_1025_per/",
-      "published": "2026-10-17T15:20:24+00:00",
-      "snippet": "Hello everyone, we&#39;re looking for people who own certain high-end devices and can take specific pictures and short videos for use in small-scale dropshipping advertisements. Payment ranges from $10 to $25 per collection of pictures and videos, depending on the device. This is ongoing work, with the possibility of completing multiple collections over time. Devices we&#39;re interested in: iPhone 14 and newer models High-end PCs and GPUs, including NVIDIA RTX cards Gaming consoles such as PS5 and Xbox Series S/X Other high-end electronics We&#39;ll provide instructions detailing exactly what pictures and videos are needed. The process is simple and doesn&#39;t require any professional photography experience. If you&#39;re interested, feel free to message me with the device model you own for more information. &#32; submitted by &#32; /u/midasmantics [link] &#32; [comments]",
+      "title": "[Hiring] Developer looking for someone to market my apps",
+      "url": "https://www.reddit.com/r/forhire/comments/1x8btus/hiring_developer_looking_for_someone_to_market_my/",
+      "published": "2026-10-17T14:37:38+00:00",
+      "snippet": "I&#39;m a developer who&#39;s built loads of apps and sites that need paying users. You handle the marketing. I&#39;ll handle the building. I&#39;ll pay per project, and I&#39;m looking for someone I can work with long-term. If you can bring in paying users, I&#39;m happy to pay well for your work. DM me with some previous marketing projects you&#39;ve worked on! Edit: The budget will vary depending on the project and the results we&#39;re aiming for. I&#39;ll definitely pay well above the $15/hr minimum, and I&#39;m happy to negotiate a rate that works for both of us. Not quoting a price here as I&#39;m willing to pay heavily depending on how well the product suceeds! &#32; submitted by &#32; /u/BulkyShoe7712 [link] &#32; [comments]",
       "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
+      "buyer_intent_score": 75,
       "buyer_signals": [
+        "looking for someone to",
+        "paying",
         "[hiring]"
       ],
       "employment_signals": [],
@@ -549,13 +551,10 @@
         "category": "other",
         "priority": "LOW",
         "opportunity_score": 32,
-        "estimated_value_eur": 25,
+        "estimated_value_eur": 15,
         "value_basis": "Detected budget/rate in listing",
         "budget_signals": [
-          10.0,
-          25.0,
-          10.0,
-          25.0
+          15.0
         ],
         "offer": {
           "service": "AI workflow improvement",
@@ -569,16 +568,14 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[Hiring] Developer looking for someone to market my apps",
-      "url": "https://www.reddit.com/r/forhire/comments/1x8btus/hiring_developer_looking_for_someone_to_market_my/",
-      "published": "2026-10-17T14:37:38+00:00",
-      "snippet": "I&#39;m a developer who&#39;s built loads of apps and sites that need paying users. You handle the marketing. I&#39;ll handle the building. I&#39;ll pay per project, and I&#39;m looking for someone I can work with long-term. If you can bring in paying users, I&#39;m happy to pay well for your work. DM me with some previous marketing projects you&#39;ve worked on! Edit: The budget will vary depending on the project and the results we&#39;re aiming for. I&#39;ll definitely pay well above the $15/hr minimum, and I&#39;m happy to negotiate a rate that works for both of us. Not quoting a price here as I&#39;m willing to pay heavily depending on how well the product suceeds! &#32; submitted by &#32; /u/BulkyShoe7712 [link] &#32; [comments]",
+      "title": "[for hire] Backend-leaning full-stack dev (Django REST, Laravel, Flutter/React) available for two kinds of work",
+      "url": "https://www.reddit.com/r/forhire/comments/1x8vx1k/for_hire_backendleaning_fullstack_dev_django_rest/",
+      "published": "2026-10-18T06:19:11+00:00",
+      "snippet": "→ Overflow/subcontract: swamped with client work? I take tasks off your plate — you stay client-facing, I work in the background at $15-20/hr. → Direct hire: need a backend/full-stack dev for your own project, short-term or ongoing? Same rate, I work with you directly. How it works: tell me the scope, I quote a time estimate, first small task is free so you can judge the quality before paying anything. GitHub/past work available on request. DMs open. &#32; submitted by &#32; /u/TiglathPileser_2 [link] &#32; [comments]",
       "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 75,
+      "buyer_intent_score": 25,
       "buyer_signals": [
-        "looking for someone to",
-        "paying",
-        "[hiring]"
+        "paying"
       ],
       "employment_signals": [],
       "score": 27,
@@ -620,7 +617,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-18T06:14:38.792048+00:00",
+    "created_at": "2026-10-18T07:23:52.526502+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
