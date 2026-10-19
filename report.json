@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T11:19:44.337111+00:00",
+  "generated_at": "2026-10-19T12:22:21.619808+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 13,
+    "buyer_leads_found": 15,
     "human_review_required": true
   },
   "opportunities": [
@@ -149,6 +149,45 @@
           "target_price_eur": 600,
           "premium_price_eur": 1500,
           "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] Senior Full-Stack Engineer | Next.js/TypeScript, .NET, e-commerce & system integrations | $35/hr",
+      "url": "https://www.reddit.com/r/forhire/comments/1x9v8eg/for_hire_senior_fullstack_engineer/",
+      "published": "2026-10-19T12:12:39+00:00",
+      "snippet": "Hi! I&#39;m Edilson, a full-stack engineer based in Luanda, Angola (UTC+1), shipping production software since 2018. I currently work remotely for a Spanish e-commerce consultancy and take on a limited number of freelance projects on the side. What I can help with Full-stack web apps &amp; B2B portals: Next.js, React, TypeScript, Node.js, PostgreSQL Headless e-commerce: BigCommerce, Vue Storefront/Alokai, Amplience, custom storefronts Enterprise integrations: SAP ↔ BigCommerce via middleware (Alumio), REST/SOAP APIs, data sync .NET / C#: ASP.NET Web API, Entity Framework, SQL Server, including a payroll SaaS I built and maintain Self-hosted infrastructure: Docker, Traefik, CI/CD, mail servers (SPF/DKIM/DMARC), backups AI integration: LLM features, AI agents and MCP servers wired into existing systems How I work Clear written communication in English, Portuguese or Spanish I own the work ",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "ai agent",
+        "ai integration",
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 45,
+        "estimated_value_eur": 35,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          35.0
+        ],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -327,6 +366,41 @@
           600.0,
           1.0
         ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[HIRING] Sports Video Editor",
+      "url": "https://www.reddit.com/r/forhire/comments/1x9ve1q/hiring_sports_video_editor/",
+      "published": "2026-10-19T12:20:03+00:00",
+      "snippet": "🎬 WE&#39;RE HIRING: Sports Video Editors 🏸⛳🎾🏓 Aylex Academies is looking for talented video editors who don&#39;t just know editing, but know the game. We run four YouTube channels dedicated to coaching and sports content: ⛳ Golf: https://www.youtube.com/@AylexGolf 🎾 Tennis: https://www.youtube.com/@AylexTennis 🏓 Pickleball: https://www.youtube.com/@AylexPickleball Who we&#39;re looking for: ✅ Experienced video editor for YouTube content ✅ Plays, follows, or genuinely understands at least one of these sports ✅ Knows the terminology, rules, and techniques so you can spot the key moments, cut at the right time, and highlight what matters to players ✅ Can turn coaching sessions and drills into engaging, easy-to-follow videos Why does sports knowledge matter? Because an editor who knows the difference between a drop shot and a smash, or a draw and a fade, edits with purpose. You&#39;ll know ",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
         "offer": {
           "service": "AI workflow improvement",
           "starter_price_eur": 150,
@@ -536,7 +610,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-19T11:19:44.373574+00:00",
+    "created_at": "2026-10-19T12:22:21.654120+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -582,6 +656,21 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Full Stack Developer | Android Apps, SaaS MVPs, Landing Pages, Business Websites | $20/hr or fixed price\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] Senior Full-Stack Engineer | Next.js/TypeScript, .NET, e-commerce & system integrations | $35/hr",
+        "url": "https://www.reddit.com/r/forhire/comments/1x9v8eg/for_hire_senior_fullstack_engineer/",
+        "priority": "LOW",
+        "opportunity_score": 45,
+        "estimated_value_eur": 35,
+        "offer": {
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Senior Full-Stack Engineer | Next.js/TypeScript, .NET, e-commerce & system integrations | $35/hr\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -662,8 +751,8 @@
         }
       },
       {
-        "title": "[HIRING] Searching for a 'Short UGC video' creator (30 minutes / day)",
-        "url": "https://www.reddit.com/r/forhire/comments/1x9txf0/hiring_searching_for_a_short_ugc_video_creator_30/",
+        "title": "[HIRING] Sports Video Editor",
+        "url": "https://www.reddit.com/r/forhire/comments/1x9ve1q/hiring_sports_video_editor/",
         "priority": "LOW",
         "opportunity_score": 35,
         "estimated_value_eur": 400,
@@ -671,22 +760,7 @@
           "subject": "Proposal: AI workflow improvement",
           "price_eur": 400,
           "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[HIRING] Searching for a 'Short UGC video' creator (30 minutes / day)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Expel: Product Manager, Detection Pipeline",
-        "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"Expel: Product Manager, Detection Pipeline\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"[HIRING] Sports Video Editor\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
