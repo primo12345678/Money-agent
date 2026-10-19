@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T15:24:38.034029+00:00",
+  "generated_at": "2026-10-19T16:21:10.619771+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 14,
+    "buyer_leads_found": 13,
     "human_review_required": true
   },
   "opportunities": [
@@ -337,47 +337,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[Hiring] On-camera trading content creator, fluent English, €300 to €600/month retainer + per-view bonus, Remote",
-      "url": "https://www.reddit.com/r/forhire/comments/1x99smf/hiring_oncamera_trading_content_creator_fluent/",
-      "published": "2026-10-18T18:00:53+00:00",
-      "snippet": "We&#39;re hiring creators to post short trading videos for Polairyx, an AI macro trading terminal. It reads world news in about 3 seconds and tells traders whether an asset leans bullish or bearish, with the reasons. What you&#39;d do: - Open a new Instagram or TikTok account in the trading niche, dedicated to Polairyx - Post 2 videos a day, 30 to 180 seconds, talking to camera - Normal trading content (market news, your routine, reactions to big releases like CPI or the Fed) with Polairyx mentioned naturally, not like an ad - We send you a brief with example hooks and video ideas Pay: - Monthly retainer: €300 to €600 - Bonus: €1 per 1,000 views from the US and tier-1 countries - A video counts once it passes 5,000 views and at least 60% of its views come from the US and tier-1 countries You need: - Fluent spoken English and comfort on camera - Basic trading knowledge, enough to talk abo",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 36,
-        "estimated_value_eur": 600,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          300.0,
-          600.0,
-          300.0,
-          600.0,
-          1.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[HIRING] Sports Video Editor",
       "url": "https://www.reddit.com/r/forhire/comments/1x9ve1q/hiring_sports_video_editor/",
       "published": "2026-10-19T12:20:03+00:00",
@@ -569,7 +528,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-19T15:24:38.077138+00:00",
+    "created_at": "2026-10-19T16:21:10.651554+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -695,21 +654,6 @@
         }
       },
       {
-        "title": "[Hiring] On-camera trading content creator, fluent English, €300 to €600/month retainer + per-view bonus, Remote",
-        "url": "https://www.reddit.com/r/forhire/comments/1x99smf/hiring_oncamera_trading_content_creator_fluent/",
-        "priority": "LOW",
-        "opportunity_score": 36,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] On-camera trading content creator, fluent English, €300 to €600/month retainer + per-view bonus, Remote\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "[HIRING] Sports Video Editor",
         "url": "https://www.reddit.com/r/forhire/comments/1x9ve1q/hiring_sports_video_editor/",
         "priority": "LOW",
@@ -720,6 +664,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[HIRING] Sports Video Editor\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[HIRING] Searching for a 'Short UGC video' creator (30 minutes / day)",
+        "url": "https://www.reddit.com/r/forhire/comments/1x9txf0/hiring_searching_for_a_short_ugc_video_creator_30/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[HIRING] Searching for a 'Short UGC video' creator (30 minutes / day)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
