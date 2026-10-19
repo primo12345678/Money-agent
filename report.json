@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T10:23:08.463948+00:00",
+  "generated_at": "2026-10-19T11:19:44.337111+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 12,
+    "buyer_leads_found": 13,
     "human_review_required": true
   },
   "opportunities": [
@@ -338,6 +338,41 @@
       }
     },
     {
+      "source": "Reddit r/forhire",
+      "title": "[HIRING] Searching for a 'Short UGC video' creator (30 minutes / day)",
+      "url": "https://www.reddit.com/r/forhire/comments/1x9txf0/hiring_searching_for_a_short_ugc_video_creator_30/",
+      "published": "2026-10-19T11:06:51+00:00",
+      "snippet": "I&#39;m looking for charismatic person that can do simple short-length UGC content videos (usually up to 15-20 seconds) with minimal editing skills. It takes roughly 30 minutes a day. Videos main goal is to market productivity mobile app. Salary: - Base salary of 300-500$ - Bonuses based per views Requirements: - You have to be from (location) US, AU, NZ, UK or CAN. - Face and talking required. - Upwork profile (protects you and me) If this sounds something that you might be interested, DM and I will send you more information and examples. P.S. I&#39;ll provide descriptive documentation and examples that you can easily follow. No weekly meetings required, tho we usually do weekly recap videos that will help you &#32; submitted by &#32; /u/MaartinBlack1996 [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
       "source": "We Work Remotely",
       "title": "Expel: Product Manager, Detection Pipeline",
       "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline",
@@ -501,7 +536,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-19T10:23:08.514162+00:00",
+    "created_at": "2026-10-19T11:19:44.373574+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -627,6 +662,21 @@
         }
       },
       {
+        "title": "[HIRING] Searching for a 'Short UGC video' creator (30 minutes / day)",
+        "url": "https://www.reddit.com/r/forhire/comments/1x9txf0/hiring_searching_for_a_short_ugc_video_creator_30/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[HIRING] Searching for a 'Short UGC video' creator (30 minutes / day)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "Expel: Product Manager, Detection Pipeline",
         "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline",
         "priority": "LOW",
@@ -637,21 +687,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Expel: Product Manager, Detection Pipeline\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Contra: Senior 3D Designer",
-        "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
