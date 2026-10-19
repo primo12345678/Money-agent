@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T09:24:37.002785+00:00",
+  "generated_at": "2026-10-19T10:23:08.463948+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 13,
+    "buyer_leads_found": 12,
     "human_review_required": true
   },
   "opportunities": [
@@ -448,45 +448,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[FOR HIRE] Excel/Google Sheets formulas & macros, Python scripts, data cleaning – $20/hr or fixed flat rate",
-      "url": "https://www.reddit.com/r/forhire/comments/1x9094z/for_hire_excelgoogle_sheets_formulas_macros/",
-      "published": "2026-10-18T10:50:17+00:00",
-      "snippet": "Hi! I do small jobs and technical deliverable tasks, usually delivered within hours: - Excel / Google Sheets: formulas, dashboards, macros, messy data cleanup - Python scripts: file/data processing, simple scrapers, automation - Converting and merging CSV / XLSX / JSON - Fixing broken formulas or small bugs in existing scripts Rate: Fixed price per task (starting from $20 per deliverable, equivalent to $20+/hr). How it works: send me the task (and a sample file if you have one), I reply with the exact price and ETA before starting. For small tasks I send a preview/sample first, full result after payment. Payment: Revolut ( https://revolut.me/michacto ) or SEPA bank transfer (EUR). Reddit account is 6 years old. DM me with your task! &#32; submitted by &#32; /u/bulbaczzPL [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "automation"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 20,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          20.0,
-          20.0,
-          20.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[Hiring] General laborers for home project in Reseda, Hourly , Monday to Wednesday[Hourly $60 - $80]",
       "url": "https://www.reddit.com/r/forhire/comments/1x9714s/hiring_general_laborers_for_home_project_in/",
       "published": "2026-10-18T16:10:15+00:00",
@@ -540,7 +501,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-19T09:24:37.047901+00:00",
+    "created_at": "2026-10-19T10:23:08.514162+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
