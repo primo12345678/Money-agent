@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T18:18:09.319564+00:00",
+  "generated_at": "2026-10-19T19:24:30.223605+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -146,42 +146,6 @@
           "target_price_eur": 650,
           "premium_price_eur": 1600,
           "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Looking to pay for Fusion 360 CAM examples",
-      "url": "https://www.reddit.com/r/forhire/comments/1x9kebp/hiring_looking_to_pay_for_fusion_360_cam_examples/",
-      "published": "2026-10-19T01:48:05+00:00",
-      "snippet": "I work with an AI company running evaluations on machining workflows. We’re looking for experienced Fusion 360 CAM programmers who’d share a few finished projects of their own, with the model, setup, toolpaths and posted G-code. We pay per project, and we’d start with a small batch of 5 to 10. DM me if you’re interested. &#32; submitted by &#32; /u/Tricky_Living5107 [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 34,
-      "confidence": 0.49,
-      "automation_fit": 0.52,
-      "matched_keywords": [
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 43,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -544,6 +508,44 @@
         },
         "human_approval_required": true
       }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[FOR HIRE] Virtual Assistant / Data Entry / Video Editor / Repetitive jobs",
+      "url": "https://www.reddit.com/r/forhire/comments/1xa65bq/for_hire_virtual_assistant_data_entry_video/",
+      "published": "2026-10-19T19:16:03+00:00",
+      "snippet": "Looking for someone to handle your repetitive, boring, or time-consuming tasks? I can help! I have extensive experience working with US-based contractors and top micro-task platforms (Appen, MTurk, Remotask). I deliver fast, reliable work so you can focus on what matters. Here is what I can do for you: Data &amp; Admin: Data entry, transcription, Web research (leads, emails, phone numbers), and MS Office (Excel, Word, PowerPoint). [Portfolio HERE] Video Editing: Reels, TikToks, and YouTube videos using Premiere Pro and CapCut. [Portfolio HERE] Graphic Design: Banners, flyers, posters, business cards, and product catalogs. [Portfolio HERE] Image Processing: Background removal, enhancement, clipping paths, and masking. Outreach: Cold emailing and administrative assistance. Rate: $15/hour DM me if you need help with your tasks or want to see more specific work examples. Let&#39;s get to wor",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 50,
+      "buyer_signals": [
+        "need help with",
+        "looking for someone to"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 15,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          15.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     }
   ],
   "errors": [
@@ -559,7 +561,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-19T18:18:09.360398+00:00",
+    "created_at": "2026-10-19T19:24:30.273030+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -605,21 +607,6 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Senior Full-Stack Engineer | Next.js/TypeScript, .NET, e-commerce & system integrations | $35/hr\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Looking to pay for Fusion 360 CAM examples",
-        "url": "https://www.reddit.com/r/forhire/comments/1x9kebp/hiring_looking_to_pay_for_fusion_360_cam_examples/",
-        "priority": "LOW",
-        "opportunity_score": 43,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Looking to pay for Fusion 360 CAM examples\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -710,6 +697,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[HIRING] Searching for a 'Short UGC video' creator (30 minutes / day)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Expel: Product Manager, Detection Pipeline",
+        "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"Expel: Product Manager, Detection Pipeline\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
