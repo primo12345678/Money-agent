@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T00:12:07.232895+00:00",
+  "generated_at": "2026-10-19T01:27:09.161302+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 15,
+    "buyer_leads_found": 8,
     "human_review_required": true
   },
   "opportunities": [
@@ -151,87 +151,6 @@
       }
     },
     {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] Full Stack Developer | Android Apps, SaaS MVPs, Landing Pages, Business Websites | $20/hr or fixed price",
-      "url": "https://www.reddit.com/r/forhire/comments/1x9dqtf/for_hire_full_stack_developer_android_apps_saas/",
-      "published": "2026-10-18T20:38:23+00:00",
-      "snippet": "I build web apps, websites and native Android apps, solo and end to end. Everything below is live, so you can open it and judge for yourself. What I build * Android apps, polished and animated, not a default template look * SaaS MVPs and web apps (Next.js, Supabase, auth, payments) * Landing pages and business websites, mobile friendly and fast * AI automations (background jobs, Gemini, email workflows) Rates: $20/hr, or fixed price. $80 for a simple landing page, $150 for multiple pages. Android apps and bigger builds are quoted per project once I know what you need. One round of revisions included. Landing pages usually take 3 to 5 days. Built: * Kanha: Bhagavad Gita Explained https://kanhagita.com/ native Android app I built solo. Google and email sign-in, cloud sync that still works offline, animations, sound, share as image, 600+ content cards. Both the website and the application a",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 46,
-        "estimated_value_eur": 150,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          20.0,
-          20.0,
-          80.0,
-          150.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] Full-Stack & Mobile App Developer – React Native, Expo, Next.js, TypeScript, Supabase ($30/hr or flat-rate MVP builds)",
-      "url": "https://www.reddit.com/r/forhire/comments/1x8z1sw/for_hire_fullstack_mobile_app_developer_react/",
-      "published": "2026-10-18T09:35:00+00:00",
-      "snippet": "Hey everyone, I am a full-stack and mobile app developer taking on new projects this month. I help non-technical founders, solopreneurs, and small teams turn their ideas or Figma designs into working, production-ready mobile and web apps, with focused MVPs typically delivered in 2 to 3 weeks. Unlike building just prototypes, I have experience shipping real products to the App Store and Google Play, handling everything from architecture and development to monetization, debugging, and post-launch improvements. What I handle: - Cross-platform mobile development with React Native, Expo, TypeScript, and native iOS/Android integrations - Modern web applications with Next.js, React, TypeScript, and clean, responsive interfaces - Database architecture, Supabase, API integrations, and secure offline-first data systems - Payment integration and monetization with RevenueCat, in-app purchases, and s",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "want to build"
-      ],
-      "employment_signals": [],
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "workflow",
-        "api integration",
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "LOW",
-        "opportunity_score": 46,
-        "estimated_value_eur": 30,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          30.0
-        ],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "We Work Remotely",
       "title": "Fivetran : Enterprise Sales Director",
       "url": "https://weworkremotely.com/remote-jobs/fivetran-enterprise-sales-director",
@@ -299,82 +218,6 @@
           "target_price_eur": 650,
           "premium_price_eur": 1600,
           "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] On-camera trading content creator, fluent English, €300 to €600/month retainer + per-view bonus, Remote",
-      "url": "https://www.reddit.com/r/forhire/comments/1x99smf/hiring_oncamera_trading_content_creator_fluent/",
-      "published": "2026-10-18T18:00:53+00:00",
-      "snippet": "We&#39;re hiring creators to post short trading videos for Polairyx, an AI macro trading terminal. It reads world news in about 3 seconds and tells traders whether an asset leans bullish or bearish, with the reasons. What you&#39;d do: - Open a new Instagram or TikTok account in the trading niche, dedicated to Polairyx - Post 2 videos a day, 30 to 180 seconds, talking to camera - Normal trading content (market news, your routine, reactions to big releases like CPI or the Fed) with Polairyx mentioned naturally, not like an ad - We send you a brief with example hooks and video ideas Pay: - Monthly retainer: €300 to €600 - Bonus: €1 per 1,000 views from the US and tier-1 countries - A video counts once it passes 5,000 views and at least 60% of its views come from the US and tier-1 countries You need: - Fluent spoken English and comfort on camera - Basic trading knowledge, enough to talk abo",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 36,
-        "estimated_value_eur": 600,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          300.0,
-          600.0,
-          300.0,
-          600.0,
-          1.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[HIRING] Book Formatter & Cover Layout Designer – Amazon KDP and IngramSpark",
-      "url": "https://www.reddit.com/r/forhire/comments/1x8yr60/hiring_book_formatter_cover_layout_designer/",
-      "published": "2026-10-18T09:15:59+00:00",
-      "snippet": "[HIRING] Book Formatter &amp; Cover Layout Designer – Amazon KDP and IngramSpark Hi everyone! I&#39;m looking for a book formatter and designer to help me prepare my English fantasy novel, When the Spirits Fell Silent , for self-publication through Amazon KDP and IngramSpark. The manuscript is complete and currently contains 366 pages. I already have the cover artwork, ISBN, and back cover text. What I need: Professional interior formatting for a paperback novel. Help selecting a suitable trim size for both publishing platforms. A complete print-ready cover using my existing artwork (front, spine, and back). Proper placement of the ISBN barcode. Print-ready PDF files that meet KDP and IngramSpark requirements. Editable source files, preferably Adobe InDesign. The book will have a black-and-white interior with cream-coloured paper. My planned publication date is November 20, 2026, so I&#3",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -487,126 +330,13 @@
         },
         "human_approval_required": true
       }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[FOR HIRE] Excel/Google Sheets formulas & macros, Python scripts, data cleaning – $20/hr or fixed flat rate",
-      "url": "https://www.reddit.com/r/forhire/comments/1x9094z/for_hire_excelgoogle_sheets_formulas_macros/",
-      "published": "2026-10-18T10:50:17+00:00",
-      "snippet": "Hi! I do small jobs and technical deliverable tasks, usually delivered within hours: - Excel / Google Sheets: formulas, dashboards, macros, messy data cleanup - Python scripts: file/data processing, simple scrapers, automation - Converting and merging CSV / XLSX / JSON - Fixing broken formulas or small bugs in existing scripts Rate: Fixed price per task (starting from $20 per deliverable, equivalent to $20+/hr). How it works: send me the task (and a sample file if you have one), I reply with the exact price and ETA before starting. For small tasks I send a preview/sample first, full result after payment. Payment: Revolut ( https://revolut.me/michacto ) or SEPA bank transfer (EUR). Reddit account is 6 years old. DM me with your task! &#32; submitted by &#32; /u/bulbaczzPL [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "automation"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 20,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          20.0,
-          20.0,
-          20.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] General laborers for home project in Reseda, Hourly , Monday to Wednesday[Hourly $60 - $80]",
-      "url": "https://www.reddit.com/r/forhire/comments/1x9714s/hiring_general_laborers_for_home_project_in/",
-      "published": "2026-10-18T16:10:15+00:00",
-      "snippet": "Hi, I’m a homeowner in Reseda looking to hire 2 laborers to help with work on my house. I’m posting this myself, not through an agency, and there are no fees of any kind to apply. The work: - demo and debris removal, yard cleanup, drywall, painting, hauling - Estimated 3 days, starting at Monday - Hours: 9am to 5pm Pay: Hourly $60 - $80, by cash / Zelle / Venmo Looking for: - Reliable and on time - Own basic tools a plus - Must be able to get to Reseda (exact address shared after we talk) If interested, send me a DM with your experience, availability, and a phone number. &#32; submitted by &#32; /u/DefiIshtao [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 50,
-      "buyer_signals": [
-        "looking to hire",
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 80,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          60.0,
-          80.0,
-          60.0,
-          80.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] Full-Stack Developer - Next.js 15, TypeScript, Supabase, Stripe ($30/hr or flat-rate MVP builds)",
-      "url": "https://www.reddit.com/r/forhire/comments/1x8xzt7/for_hire_fullstack_developer_nextjs_15_typescript/",
-      "published": "2026-10-18T08:26:53+00:00",
-      "snippet": "Hey everyone, I am a full-stack engineer taking on new projects this month. I help non-technical founders, solopreneurs, and small teams turn their ideas or Figma designs into working production web apps in 2 to 3 weeks. What I handle: - Modern frontend with Next.js 15, React, TypeScript, and clean Tailwind CSS - Database setup with PostgreSQL, Supabase Row-Level Security, and Drizzle ORM - User authentication with Google OAuth, magic links, and session management - Payment gateways with Stripe for one-time checkouts or recurring subscriptions - Transactional email delivery and automated notification pipelines What I have built recently: - A live subscription and contract deadline management web app built on Next.js 15 with automated email reminders and database-level security. - A suite of modular Next.js starter templates with pre-configured authentication and checkout pipelines. Prici",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "want to build"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 30,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          30.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
     }
   ],
   "errors": [
+    {
+      "source": "Reddit r/forhire",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
     {
       "source": "Reddit r/slavelabour",
       "error": "HTTP Error 429: Too Many Requests"
@@ -619,10 +349,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-19T00:12:07.269370+00:00",
+    "created_at": "2026-10-19T01:27:09.197237+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 10,
+    "draft_count": 8,
     "drafts": [
       {
         "title": "Expel: Senior Detection & Response Engineer",
@@ -670,36 +400,6 @@
         }
       },
       {
-        "title": "[For Hire] Full Stack Developer | Android Apps, SaaS MVPs, Landing Pages, Business Websites | $20/hr or fixed price",
-        "url": "https://www.reddit.com/r/forhire/comments/1x9dqtf/for_hire_full_stack_developer_android_apps_saas/",
-        "priority": "LOW",
-        "opportunity_score": 46,
-        "estimated_value_eur": 150,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Full Stack Developer | Android Apps, SaaS MVPs, Landing Pages, Business Websites | $20/hr or fixed price\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[For Hire] Full-Stack & Mobile App Developer – React Native, Expo, Next.js, TypeScript, Supabase ($30/hr or flat-rate MVP builds)",
-        "url": "https://www.reddit.com/r/forhire/comments/1x8z1sw/for_hire_fullstack_mobile_app_developer_react/",
-        "priority": "LOW",
-        "opportunity_score": 46,
-        "estimated_value_eur": 30,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Full-Stack & Mobile App Developer – React Native, Expo, Next.js, TypeScript, Supabase ($30/hr or flat-rate MVP builds)\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "Fivetran : Enterprise Sales Director",
         "url": "https://weworkremotely.com/remote-jobs/fivetran-enterprise-sales-director",
         "priority": "LOW",
@@ -730,36 +430,6 @@
         }
       },
       {
-        "title": "[Hiring] On-camera trading content creator, fluent English, €300 to €600/month retainer + per-view bonus, Remote",
-        "url": "https://www.reddit.com/r/forhire/comments/1x99smf/hiring_oncamera_trading_content_creator_fluent/",
-        "priority": "LOW",
-        "opportunity_score": 36,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] On-camera trading content creator, fluent English, €300 to €600/month retainer + per-view bonus, Remote\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[HIRING] Book Formatter & Cover Layout Designer – Amazon KDP and IngramSpark",
-        "url": "https://www.reddit.com/r/forhire/comments/1x8yr60/hiring_book_formatter_cover_layout_designer/",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[HIRING] Book Formatter & Cover Layout Designer – Amazon KDP and IngramSpark\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "Expel: Product Manager, Detection Pipeline",
         "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline",
         "priority": "LOW",
@@ -770,6 +440,36 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Expel: Product Manager, Detection Pipeline\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Contra: Senior 3D Designer",
+        "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Contra: Senior Game Designer",
+        "url": "https://weworkremotely.com/remote-jobs/contra-senior-game-designer",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"Contra: Senior Game Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
