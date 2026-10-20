@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T16:22:16.367649+00:00",
+  "generated_at": "2026-10-20T17:23:21.657186+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 11,
+    "buyer_leads_found": 8,
     "human_review_required": true
   },
   "opportunities": [
@@ -225,119 +225,6 @@
       }
     },
     {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Remote Usability Testers (US-Based) — $25/hr ($100 Total Budget)",
-      "url": "https://www.reddit.com/r/forhire/comments/1xafa6w/hiring_remote_usability_testers_usbased_25hr_100/",
-      "published": "2026-10-20T01:37:04+00:00",
-      "snippet": "Hello everyone! Our software development team is seeking US-based participants to evaluate an unreleased web platform and provide structured feedback prior to our public launch. Role &amp; Overview: Task: Navigate features, test core user workflows, and log usability feedback or bugs. Time Required: ~4 hours total (flexible over a few days). Compensation: $25/hour ($100 total budget, paid upon completion). Location: 100% Remote (US residents only). Requirements: Based in the United States Laptop or desktop computer with a stable internet connection Ability to provide clear, detailed, and actionable feedback How to Apply: Please send a Direct Message (DM) on Reddit with a short intro. I will follow up with complete details and next steps. &#32; submitted by &#32; /u/pizzadude_09 [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 34,
-      "confidence": 0.49,
-      "automation_fit": 0.52,
-      "matched_keywords": [
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 39,
-        "estimated_value_eur": 100,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          25.0,
-          100.0,
-          25.0,
-          100.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Expel: Technical Account Manager",
-      "url": "https://weworkremotely.com/remote-jobs/expel-technical-account-manager",
-      "published": "Mon, 19 Oct 2026 07:31:28 +0000",
-      "snippet": "Headquarters: Remote You've spent your career helping security teams get more from their technology. You understand what it takes to operationalize security tooling across an enterprise, and your credibility with customers comes from technical depth and hands-on problem solving. As a Technical Account Manager at Expel, you're the dedicated technical advisor for a portfolio of enterprise security programs. You drive platform adoption, deepen integrations into customers' security ecosystems, and ensure they get full value from their investment in Expel's managed detection and response service.&nbsp; You partner closely with Customer Success Managers, who own the commercial relationship and retention outcomes. Your role is to deliver technical depth and expertise that frees CSMs to focus on strategic and executive relationships. When incidents occur, you own the technical response coordinat",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "paying"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "LOW",
-        "opportunity_score": 38,
-        "estimated_value_eur": 650,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "AssemblyAI: Senior Research Engineer",
-      "url": "https://weworkremotely.com/remote-jobs/assemblyai-senior-research-engineer",
-      "published": "Sun, 04 Oct 2026 07:31:28 +0000",
-      "snippet": "Headquarters: Remote Why AssemblyAI AssemblyAI builds the best-in-class Voice AI models powering the next generation of voice applications. Our models serve 600M+ inference calls monthly, process 1M+ hours of audio daily, and power 2 billion+ end-user experiences. The Voice AI space is at an inflection point; we’re looking for folks truly excited to join a small team and help define the future of the industry. We are one of the most capital-efficient AI companies on the planet - with under 100 people generating roughly $600K ARR per employee, we sit among the top 5 most revenue-dense teams within the fastest-growing AI companies today. That's not an accident; it's a deliberate choice to stay lean, move fast, and give every person on the team outsized ownership and impact. With thousands of customers including Granola, Fireflies, Figure AI, and CallRail, the company has real scale - proce",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "paying"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "LOW",
-        "opportunity_score": 38,
-        "estimated_value_eur": 600,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          600.0
-        ],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "We Work Remotely",
       "title": "Contra: Senior 3D Designer",
       "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
@@ -463,10 +350,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-20T16:22:16.417785+00:00",
+    "created_at": "2026-10-20T17:23:21.691624+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 10,
+    "draft_count": 8,
     "drafts": [
       {
         "title": "[FOR HIRE]Need help with Excel, dashboards, or data automation?",
@@ -544,51 +431,6 @@
         }
       },
       {
-        "title": "[Hiring] Remote Usability Testers (US-Based) — $25/hr ($100 Total Budget)",
-        "url": "https://www.reddit.com/r/forhire/comments/1xafa6w/hiring_remote_usability_testers_usbased_25hr_100/",
-        "priority": "LOW",
-        "opportunity_score": 39,
-        "estimated_value_eur": 100,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Remote Usability Testers (US-Based) — $25/hr ($100 Total Budget)\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Expel: Technical Account Manager",
-        "url": "https://weworkremotely.com/remote-jobs/expel-technical-account-manager",
-        "priority": "LOW",
-        "opportunity_score": 38,
-        "estimated_value_eur": 650,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"Expel: Technical Account Manager\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "AssemblyAI: Senior Research Engineer",
-        "url": "https://weworkremotely.com/remote-jobs/assemblyai-senior-research-engineer",
-        "priority": "LOW",
-        "opportunity_score": 38,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"AssemblyAI: Senior Research Engineer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "Contra: Senior 3D Designer",
         "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
         "priority": "LOW",
@@ -614,6 +456,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Contra: Senior Game Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Online & San Diego CA. Looking for video streaming guidance",
+        "url": "https://www.reddit.com/r/forhire/comments/1xagcrk/hiring_online_san_diego_ca_looking_for_video/",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 200,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Online & San Diego CA. Looking for video streaming guidance\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
