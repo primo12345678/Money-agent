@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T22:17:54.504403+00:00",
+  "generated_at": "2026-10-20T23:15:29.269569+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 10,
+    "buyer_leads_found": 11,
     "human_review_required": true
   },
   "opportunities": [
@@ -302,6 +302,43 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[Hiring] looking for a Japanese teacher!",
+      "url": "https://www.reddit.com/r/forhire/comments/1xb6n1k/hiring_looking_for_a_japanese_teacher/",
+      "published": "2026-10-20T22:48:51+00:00",
+      "snippet": "Hello everyone! I want to start to learn Japanese so I’m looking for an online Japanese teacher to teach me Japanese! :) it will be paid each month and I want to learn each class every 5 days a week and it lasts an hour You will be paid $150 each month if that’s okay! I prefer a teacher who knows N1 or N2 Please reply or dm me! ^^ &#32; submitted by &#32; /u/Historical_Cup_7552 [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 150,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          150.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[Hiring] Client Support Representative | Remote (US) | $26 to $30 an hour | Full-time",
       "url": "https://www.reddit.com/r/forhire/comments/1xb5kot/hiring_client_support_representative_remote_us_26/",
       "published": "2026-10-20T22:02:13+00:00",
@@ -434,7 +471,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-20T22:17:54.546037+00:00",
+    "created_at": "2026-10-20T23:15:29.318824+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -545,6 +582,21 @@
         }
       },
       {
+        "title": "[Hiring] looking for a Japanese teacher!",
+        "url": "https://www.reddit.com/r/forhire/comments/1xb6n1k/hiring_looking_for_a_japanese_teacher/",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 150,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] looking for a Japanese teacher!\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "[Hiring] Client Support Representative | Remote (US) | $26 to $30 an hour | Full-time",
         "url": "https://www.reddit.com/r/forhire/comments/1xb5kot/hiring_client_support_representative_remote_us_26/",
         "priority": "LOW",
@@ -570,21 +622,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[Hiring] Looking to create a presentation style box for a cake knife and server\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] (Detroit MI) [Hiring] Jewelry company is hiring for Executive Operations Assistant. Extensive experience is not required. $19.00–$22.00 per hour. Training Provided.",
-        "url": "https://www.reddit.com/r/forhire/comments/1xaycnp/hiring_detroit_mi_hiring_jewelry_company_is/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 22,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] (Detroit MI) [Hiring] Jewelry company is hiring for Executive Operations Assistant. Extensive experience is not required. $19.00–$22.00 per hour. Training Provided.\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
