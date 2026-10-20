@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T07:30:54.803983+00:00",
+  "generated_at": "2026-10-20T08:21:19.704812+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 15,
+    "buyer_leads_found": 14,
     "human_review_required": true
   },
   "opportunities": [
@@ -337,41 +337,6 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "Expel: Product Manager, Detection Pipeline",
-      "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline",
-      "published": "Wed, 07 Oct 2026 07:31:00 +0000",
-      "snippet": "Headquarters: Remote You live at the intersection of security and product management, and there's no place you'd rather be. You understand that the detection pipeline isn't just plumbing. It's the connective tissue that turns raw security data into signal, and if ingestion, normalization, or correlation break down, everything downstream suffers. You're not intimidated by the scale and complexity of data flowing through a modern security platform. Quite the opposite: you pride yourself on knowing how data moves from source to detection, where the pipeline breaks, and what it takes to make it fast, reliable, and cost effective. You’ve got an informed opinion about what an MDR should detect, an opinion that comes from customer empathy, hands-on industry knowledge, and a set of experiences that didn’t always go as planned. You can hold a technical conversation with a SOC analyst and turn aro",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "paying"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
       "title": "Contra: Senior 3D Designer",
       "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
       "published": "Wed, 07 Oct 2026 00:11:33 +0000",
@@ -611,7 +576,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-20T07:30:54.848250+00:00",
+    "created_at": "2026-10-20T08:21:19.735220+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -737,21 +702,6 @@
         }
       },
       {
-        "title": "Expel: Product Manager, Detection Pipeline",
-        "url": "https://weworkremotely.com/remote-jobs/expel-product-manager-detection-pipeline",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"Expel: Product Manager, Detection Pipeline\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "Contra: Senior 3D Designer",
         "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
         "priority": "LOW",
@@ -762,6 +712,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Contra: Senior Game Designer",
+        "url": "https://weworkremotely.com/remote-jobs/contra-senior-game-designer",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"Contra: Senior Game Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
