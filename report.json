@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T17:23:21.657186+00:00",
+  "generated_at": "2026-10-20T18:20:25.794345+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,10 +34,53 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 8,
+    "buyer_leads_found": 9,
     "human_review_required": true
   },
   "opportunities": [
+    {
+      "source": "Reddit r/forhire",
+      "title": "​[For Hire] Dedicated Technical Operations Partner — I'll handle your servers, automations, CRM & custom tools for a flat $230/mo",
+      "url": "https://www.reddit.com/r/forhire/comments/1xaygcr/for_hire_dedicated_technical_operations_partner/",
+      "published": "2026-10-20T17:29:41+00:00",
+      "snippet": "Most small businesses get stuck between fixing broken tech themselves at midnight, paying $200/mo for &quot;maintenance bots&quot; that only click update on plugins, or hiring a $150/hr freelancer who disappears the next month. I run Net Cooky . Instead of just building a website and walking away, I act as your ongoing technical operations partner—handling the recurring systems, reporting, and infrastructure behind your business every month. What I take off your desk: Web &amp; Hosting : Full website care, Plesk/cPanel/VPS management, DNS, SSL, backups, and fixing email deliverability Automations &amp; CRM: Connecting your apps with Zapier, Make, Google Apps Script, and webhooks so you stop copy-pasting data. CRM cleanup and Stripe setups. Automated Client Reporting &amp; Custom Tools : Building pipelines that turn your raw data, photos, or location pins into branded PDF reports, interac",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "paying"
+      ],
+      "employment_signals": [],
+      "score": 55,
+      "confidence": 0.7,
+      "automation_fit": 0.7,
+      "matched_keywords": [
+        "automation",
+        "workflow",
+        "zapier",
+        "crm",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "MEDIUM",
+        "opportunity_score": 58,
+        "estimated_value_eur": 230,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          230.0,
+          200.0,
+          150.0
+        ],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
     {
       "source": "Reddit r/forhire",
       "title": "[FOR HIRE]Need help with Excel, dashboards, or data automation?",
@@ -300,14 +343,13 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[Hiring] Online & San Diego CA. Looking for video streaming guidance",
-      "url": "https://www.reddit.com/r/forhire/comments/1xagcrk/hiring_online_san_diego_ca_looking_for_video/",
-      "published": "2026-10-20T02:28:49+00:00",
-      "snippet": "I have built a website around video streaming and am looking to hire someone for a project to help me put together the equipment needed to stream religious sermons from multiple locations. I&#39;ve been doing it myself so far and have had spotty results. Some places have very nice cameras that hook into a central hub and the speaker wears a mic so the end result is crisp with great audio whereas others look and sound like something from a 2000&#39;s single cam horror movie. So now I would like to put together my own package of equipment I can install quickly at a location to stream reliably and would love some expert guidance on what to purchase and how to set things up. Below is some of the equipment and software I&#39;ve been looking at or already used. This is a project and I am thinking a one time consulting fee of $200-500 but if this is inappropriate please let me know what the goi",
+      "title": "[Hiring] (Detroit MI) [Hiring] Jewelry company is hiring for Executive Operations Assistant. Extensive experience is not required. $19.00–$22.00 per hour. Training Provided.",
+      "url": "https://www.reddit.com/r/forhire/comments/1xaycnp/hiring_detroit_mi_hiring_jewelry_company_is/",
+      "published": "2026-10-20T17:25:42+00:00",
+      "snippet": "www.jovejd.com &#32; submitted by &#32; /u/Hayasdan2020 [link] &#32; [comments]",
       "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 50,
+      "buyer_intent_score": 25,
       "buyer_signals": [
-        "looking to hire",
         "[hiring]"
       ],
       "employment_signals": [],
@@ -320,11 +362,12 @@
       "analysis": {
         "category": "other",
         "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 200,
+        "opportunity_score": 32,
+        "estimated_value_eur": 22,
         "value_basis": "Detected budget/rate in listing",
         "budget_signals": [
-          200.0
+          19.0,
+          22.0
         ],
         "offer": {
           "service": "AI workflow improvement",
@@ -350,11 +393,26 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-20T17:23:21.691624+00:00",
+    "created_at": "2026-10-20T18:20:25.834121+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 8,
+    "draft_count": 9,
     "drafts": [
+      {
+        "title": "​[For Hire] Dedicated Technical Operations Partner — I'll handle your servers, automations, CRM & custom tools for a flat $230/mo",
+        "url": "https://www.reddit.com/r/forhire/comments/1xaygcr/for_hire_dedicated_technical_operations_partner/",
+        "priority": "MEDIUM",
+        "opportunity_score": 58,
+        "estimated_value_eur": 230,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"​[For Hire] Dedicated Technical Operations Partner — I'll handle your servers, automations, CRM & custom tools for a flat $230/mo\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
       {
         "title": "[FOR HIRE]Need help with Excel, dashboards, or data automation?",
         "url": "https://www.reddit.com/r/forhire/comments/1xaqerd/for_hireneed_help_with_excel_dashboards_or_data/",
@@ -461,16 +519,16 @@
         }
       },
       {
-        "title": "[Hiring] Online & San Diego CA. Looking for video streaming guidance",
-        "url": "https://www.reddit.com/r/forhire/comments/1xagcrk/hiring_online_san_diego_ca_looking_for_video/",
+        "title": "[Hiring] (Detroit MI) [Hiring] Jewelry company is hiring for Executive Operations Assistant. Extensive experience is not required. $19.00–$22.00 per hour. Training Provided.",
+        "url": "https://www.reddit.com/r/forhire/comments/1xaycnp/hiring_detroit_mi_hiring_jewelry_company_is/",
         "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 200,
+        "opportunity_score": 32,
+        "estimated_value_eur": 22,
         "offer": {
           "subject": "Proposal: AI workflow improvement",
           "price_eur": 400,
           "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Online & San Diego CA. Looking for video streaming guidance\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"[Hiring] (Detroit MI) [Hiring] Jewelry company is hiring for Executive Operations Assistant. Extensive experience is not required. $19.00–$22.00 per hour. Training Provided.\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
