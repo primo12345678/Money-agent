@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T13:30:59.730866+00:00",
+  "generated_at": "2026-10-20T14:22:38.970637+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -108,6 +108,42 @@
           "target_price_eur": 600,
           "premium_price_eur": 1500,
           "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Looking for sales partners in India: sell an AI phone agent to local businesses, set your own price, keep the markup every month",
+      "url": "https://www.reddit.com/r/forhire/comments/1xat9uv/hiring_looking_for_sales_partners_in_india_sell/",
+      "published": "2026-10-20T14:14:11+00:00",
+      "snippet": "I built an AI voice agent that answers and makes real phone calls for businesses. It’s live and taking calls now. I’m good at building and bad at selling, so I’m looking for a few people who are good at selling. What it does Picks up the business’s calls 24/7 on an Indian number, so no missed calls after hours Speaks Hindi and English and switches mid-sentence the way callers actually talk Uses natural Indian voices, not a robotic IVR Handles inbound and outbound calls (bookings, enquiries, follow-ups, reminders) Writes a summary of every call so the owner doesn’t have to listen to recordings Gives each client their own dashboard: call history, summaries, and a prepaid wallet How you make money I give you a fixed partner rate per minute (currently ₹5/min ) You charge your client whatever you want on top. Billing is per minute Example: you sell at ₹9/min. A clinic using 3,000 min/month ea",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 34,
+      "confidence": 0.49,
+      "automation_fit": 0.52,
+      "matched_keywords": [
+        "crm",
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "LOW",
+        "opportunity_score": 47,
+        "estimated_value_eur": 750,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -338,41 +374,6 @@
       }
     },
     {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] (Remote) Mood Board Template Designer",
-      "url": "https://www.reddit.com/r/forhire/comments/1xa8rsx/hiring_remote_mood_board_template_designer/",
-      "published": "2026-10-19T20:53:54+00:00",
-      "snippet": "Hey everyone! We&#39;re looking for design students for our template design gig for Onton.com , an SF-based tech startup building a product search engine specifically for interior design. We recently launched a digital Canvas feature that lets users build mood boards for home projects. We’re looking a few design students with a strong visual eye to help us build out our initial library of featured templates. You can think early days of Canva when they were launching their template ecosystem, but tailored for interior design and mood board aesthetics. What you’ll be doing: Designing aesthetic, well-curated mood board templates using our online Canvas tool and product search engine. (onton.com/canvas) Experimenting with interior design styles, color palettes, and spatial product pairings. Building featured launch work that will be front and center for our current 1M per month active users ",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "We Work Remotely",
       "title": "Contra: Senior 3D Designer",
       "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
@@ -537,7 +538,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-20T13:30:59.757380+00:00",
+    "created_at": "2026-10-20T14:22:39.013477+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -568,6 +569,21 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"Expel: Senior Detection & Response Engineer\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Looking for sales partners in India: sell an AI phone agent to local businesses, set your own price, keep the markup every month",
+        "url": "https://www.reddit.com/r/forhire/comments/1xat9uv/hiring_looking_for_sales_partners_in_india_sell/",
+        "priority": "LOW",
+        "opportunity_score": 47,
+        "estimated_value_eur": 750,
+        "offer": {
+          "subject": "Proposal: AI lead generation and follow-up",
+          "price_eur": 750,
+          "starter_price_eur": 300,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Looking for sales partners in India: sell an AI phone agent to local businesses, set your own price, keep the markup every month\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -658,21 +674,6 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"AssemblyAI: Senior Research Engineer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] (Remote) Mood Board Template Designer",
-        "url": "https://www.reddit.com/r/forhire/comments/1xa8rsx/hiring_remote_mood_board_template_designer/",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] (Remote) Mood Board Template Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
