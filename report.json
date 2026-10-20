@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T05:18:44.520846+00:00",
+  "generated_at": "2026-10-20T06:19:54.385458+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 16,
+    "buyer_leads_found": 15,
     "human_review_required": true
   },
   "opportunities": [
@@ -296,43 +296,6 @@
           "target_price_eur": 650,
           "premium_price_eur": 1600,
           "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Paid creative intern",
-      "url": "https://www.reddit.com/r/forhire/comments/1xajbfh/hiring_paid_creative_intern/",
-      "published": "2026-10-20T05:04:54+00:00",
-      "snippet": "Who we are We’re an early-stage startup building a new way to make video. We license real actors, models and influencers and generate films, ads and video with them. No set, no crew, no shoot day. The person in the film approves every cut and gets paid every time their face is used. What we’re doing Making generated video that’s indistinguishable from the real thing . Real faces, real light, real movement, real voices. We think this is how most of the world’s video will be made, and we’re building the company that makes it. Who we’re looking for Someone who thinks like a filmmaker and works like an editor . You know how to: Film: frame a shot, pace a scene and tell a story in seconds Generate: use AI video and image tools hands-on, and make the output look real, not generated Edit: cut, grade and keep a film looking consistent Sound: build dialogue, effects and music that sell the scene ",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [
-        "full-time"
-      ],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -648,7 +611,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-20T05:18:44.554432+00:00",
+    "created_at": "2026-10-20T06:19:54.431573+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -759,21 +722,6 @@
         }
       },
       {
-        "title": "[Hiring] Paid creative intern",
-        "url": "https://www.reddit.com/r/forhire/comments/1xajbfh/hiring_paid_creative_intern/",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Paid creative intern\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "[Hiring] (Remote) Mood Board Template Designer",
         "url": "https://www.reddit.com/r/forhire/comments/1xa8rsx/hiring_remote_mood_board_template_designer/",
         "priority": "LOW",
@@ -799,6 +747,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Expel: Product Manager, Detection Pipeline\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Contra: Senior 3D Designer",
+        "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
