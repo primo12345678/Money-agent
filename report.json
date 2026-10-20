@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T11:19:14.722769+00:00",
+  "generated_at": "2026-10-20T12:19:53.767348+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -38,6 +38,43 @@
     "human_review_required": true
   },
   "opportunities": [
+    {
+      "source": "Reddit r/forhire",
+      "title": "[FOR HIRE]Need help with Excel, dashboards, or data automation?",
+      "url": "https://www.reddit.com/r/forhire/comments/1xaqerd/for_hireneed_help_with_excel_dashboards_or_data/",
+      "published": "2026-10-20T12:08:49+00:00",
+      "snippet": "&#x200B; I&#39;m offering freelance services to help businesses simplify their workflows and get more value out of their data. Here&#39;s what I can help with: Excel dashboards &amp; reporting – clear, interactive dashboards to track KPIs and support better decisions. Process automation – formulas, macros, and custom tools to reduce repetitive manual work. Data cleaning &amp; analysis – organize, validate, and transform messy data into useful insights. Custom Excel templates – tools for tracking costs, inventory, production, performance, and more. Workflow optimization – identify bottlenecks and find practical ways to improve existing processes. Data privacy is a priority. I understand that business data can be sensitive, so I&#39;m happy to build solutions using dummy or anonymized data. We can develop and test a working example without requiring access to your actual company data. If r",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "need help with"
+      ],
+      "employment_signals": [],
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "automation",
+        "workflow",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 49,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
     {
       "source": "We Work Remotely",
       "title": "Expel: Senior Detection & Response Engineer",
@@ -485,44 +522,6 @@
         },
         "human_approval_required": true
       }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[FOR HIRE] Virtual Assistant / Data Entry / Video Editor / Repetitive jobs",
-      "url": "https://www.reddit.com/r/forhire/comments/1xa65bq/for_hire_virtual_assistant_data_entry_video/",
-      "published": "2026-10-19T19:16:03+00:00",
-      "snippet": "Looking for someone to handle your repetitive, boring, or time-consuming tasks? I can help! I have extensive experience working with US-based contractors and top micro-task platforms (Appen, MTurk, Remotask). I deliver fast, reliable work so you can focus on what matters. Here is what I can do for you: Data &amp; Admin: Data entry, transcription, Web research (leads, emails, phone numbers), and MS Office (Excel, Word, PowerPoint). [Portfolio HERE] Video Editing: Reels, TikToks, and YouTube videos using Premiere Pro and CapCut. [Portfolio HERE] Graphic Design: Banners, flyers, posters, business cards, and product catalogs. [Portfolio HERE] Image Processing: Background removal, enhancement, clipping paths, and masking. Outreach: Cold emailing and administrative assistance. Rate: $15/hour DM me if you need help with your tasks or want to see more specific work examples. Let&#39;s get to wor",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 50,
-      "buyer_signals": [
-        "need help with",
-        "looking for someone to"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 15,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          15.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
     }
   ],
   "errors": [
@@ -538,11 +537,26 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-20T11:19:14.751106+00:00",
+    "created_at": "2026-10-20T12:19:53.800075+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
     "drafts": [
+      {
+        "title": "[FOR HIRE]Need help with Excel, dashboards, or data automation?",
+        "url": "https://www.reddit.com/r/forhire/comments/1xaqerd/for_hireneed_help_with_excel_dashboards_or_data/",
+        "priority": "LOW",
+        "opportunity_score": 49,
+        "estimated_value_eur": 600,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[FOR HIRE]Need help with Excel, dashboards, or data automation?\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
       {
         "title": "Expel: Senior Detection & Response Engineer",
         "url": "https://weworkremotely.com/remote-jobs/expel-senior-detection-response-engineer",
@@ -674,21 +688,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Contra: Senior Game Designer",
-        "url": "https://weworkremotely.com/remote-jobs/contra-senior-game-designer",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"Contra: Senior Game Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
