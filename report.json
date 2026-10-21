@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T11:20:05.977039+00:00",
+  "generated_at": "2026-10-21T12:21:19.762736+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -305,6 +305,46 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[Hiring] Records Management Specialist - Detroit, MI (Onsite) - $45k–$55k/year",
+      "url": "https://www.reddit.com/r/forhire/comments/1xbl2bg/hiring_records_management_specialist_detroit_mi/",
+      "published": "2026-10-21T11:53:15+00:00",
+      "snippet": "We are seeking a detail-oriented Records Management Specialist to join our client’s Information Governance team at an established law firm in Detroit, MI. This role supports attorneys, legal teams, and administrative staff in managing physical files and information systems according to established records protocols. You will contribute to the accuracy, security, and accessibility of legal records while collaborating with an experienced governance team. Key Responsibilities Maintain accurate on-site file, container, barcode, and storage records. Update records management software and respond to attorney and staff requests promptly. Move, review, categorize, index, and document physical client files. Support records retention, disposal, and destruction processes in compliance with policy. Prepare records activity reports and metrics for stakeholders. Train office staff on records procedure",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [
+        "benefits package"
+      ],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_support",
+        "priority": "LOW",
+        "opportunity_score": 34,
+        "estimated_value_eur": 55,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          45.0,
+          55.0
+        ],
+        "offer": {
+          "service": "AI customer-support automation",
+          "starter_price_eur": 200,
+          "target_price_eur": 500,
+          "premium_price_eur": 1200,
+          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[Hiring] looking for a Japanese teacher!",
       "url": "https://www.reddit.com/r/forhire/comments/1xb6n1k/hiring_looking_for_a_japanese_teacher/",
       "published": "2026-10-20T22:48:51+00:00",
@@ -462,44 +502,6 @@
         },
         "human_approval_required": true
       }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] (Detroit MI) [Hiring] Jewelry company is hiring for Executive Operations Assistant. Extensive experience is not required. $19.00–$22.00 per hour. Training Provided.",
-      "url": "https://www.reddit.com/r/forhire/comments/1xaycnp/hiring_detroit_mi_hiring_jewelry_company_is/",
-      "published": "2026-10-20T17:25:42+00:00",
-      "snippet": "www.jovejd.com &#32; submitted by &#32; /u/Hayasdan2020 [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 22,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          19.0,
-          22.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
     }
   ],
   "errors": [
@@ -515,7 +517,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-21T11:20:06.019364+00:00",
+    "created_at": "2026-10-21T12:21:19.796531+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -626,6 +628,21 @@
         }
       },
       {
+        "title": "[Hiring] Records Management Specialist - Detroit, MI (Onsite) - $45k–$55k/year",
+        "url": "https://www.reddit.com/r/forhire/comments/1xbl2bg/hiring_records_management_specialist_detroit_mi/",
+        "priority": "LOW",
+        "opportunity_score": 34,
+        "estimated_value_eur": 55,
+        "offer": {
+          "subject": "Proposal: AI customer-support automation",
+          "price_eur": 500,
+          "starter_price_eur": 200,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Records Management Specialist - Detroit, MI (Onsite) - $45k–$55k/year\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "[Hiring] looking for a Japanese teacher!",
         "url": "https://www.reddit.com/r/forhire/comments/1xb6n1k/hiring_looking_for_a_japanese_teacher/",
         "priority": "LOW",
@@ -651,21 +668,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[Hiring] Texas Residents: Remote Voter Outreach Gig – Earn a $120 Stipend + Referral Bonuses\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Client Support Representative | Remote (US) | $26 to $30 an hour | Full-time",
-        "url": "https://www.reddit.com/r/forhire/comments/1xb5kot/hiring_client_support_representative_remote_us_26/",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 30,
-        "offer": {
-          "subject": "Proposal: AI customer-support automation",
-          "price_eur": 500,
-          "starter_price_eur": 200,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Client Support Representative | Remote (US) | $26 to $30 an hour | Full-time\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
