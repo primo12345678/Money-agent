@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T15:20:44.158538+00:00",
+  "generated_at": "2026-10-21T16:21:11.381446+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,10 +34,49 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 8,
+    "buyer_leads_found": 9,
     "human_review_required": true
   },
   "opportunities": [
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] Full-Service Digital Agency: High-Converting Websites, Social Media & Dedicated Client Acquisition Systems ($2,500/mo retainer or $1,500 fixed per site)",
+      "url": "https://www.reddit.com/r/forhire/comments/1xbra96/for_hire_fullservice_digital_agency/",
+      "published": "2026-10-21T16:06:14+00:00",
+      "snippet": "Hey everyone! 👋 My team and I are a full-service digital agency operating out of Eastern Europe. Our core focus isn&#39;t just building pretty websites — we help small-to-medium businesses, agencies, and founders directly acquire more clients and scale their revenue. We combine custom web development with active social media management and dedicated lead generation systems to ensure your business constantly brings in paying customers. We just wrapped up a project and recorded a quick breakdown showing the UI/UX, responsiveness, and conversion flow: 🎬 Check out our work breakdown on TikTok: https://vt.tiktok.com/ZSgUt5nMt/ How we help you get more clients &amp; grow: • Client Acquisition &amp; Lead Generation: Strategic systems designed to bring high-value clients straight to your business. • High-Converting Web Design &amp; Development: Custom built landing pages, web apps, and e-commerc",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "paying"
+      ],
+      "employment_signals": [],
+      "score": 34,
+      "confidence": 0.49,
+      "automation_fit": 0.52,
+      "matched_keywords": [
+        "lead generation",
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "LOW",
+        "opportunity_score": 49,
+        "estimated_value_eur": 2500,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          2500.0,
+          1500.0
+        ],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
     {
       "source": "We Work Remotely",
       "title": "Expel: Senior Detection & Response Engineer",
@@ -357,11 +396,26 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-21T15:20:44.198879+00:00",
+    "created_at": "2026-10-21T16:21:11.417155+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 8,
+    "draft_count": 9,
     "drafts": [
+      {
+        "title": "[For Hire] Full-Service Digital Agency: High-Converting Websites, Social Media & Dedicated Client Acquisition Systems ($2,500/mo retainer or $1,500 fixed per site)",
+        "url": "https://www.reddit.com/r/forhire/comments/1xbra96/for_hire_fullservice_digital_agency/",
+        "priority": "LOW",
+        "opportunity_score": 49,
+        "estimated_value_eur": 2500,
+        "offer": {
+          "subject": "Proposal: AI lead generation and follow-up",
+          "price_eur": 750,
+          "starter_price_eur": 300,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Full-Service Digital Agency: High-Converting Websites, Social Media & Dedicated Client Acquisition Systems ($2,500/mo retainer or $1,500 fixed per site)\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
       {
         "title": "Expel: Senior Detection & Response Engineer",
         "url": "https://weworkremotely.com/remote-jobs/expel-senior-detection-response-engineer",
