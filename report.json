@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T21:18:34.963504+00:00",
+  "generated_at": "2026-10-21T22:17:17.303652+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 9,
+    "buyer_leads_found": 10,
     "human_review_required": true
   },
   "opportunities": [
@@ -146,6 +146,43 @@
           "target_price_eur": 650,
           "premium_price_eur": 1600,
           "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] Multi-Exit Technical Founder and Early Stage Engineer. I build frontier tech.",
+      "url": "https://www.reddit.com/r/forhire/comments/1xc05vp/for_hire_multiexit_technical_founder_and_early/",
+      "published": "2026-10-21T21:34:01+00:00",
+      "snippet": "Hello all! I have 14 years of experience in software engineering and early stage startups. I started working at NASA robotics, then I spent 12 years working exclusively at startups and small businesses. I&#39;ve been through multiple exits, built products with billions of dollars worth of financial transactions, started a PE fund, ran a successful agency, and advised entrepreneurs for years. I&#39;ve been a foundational part of over a dozen product launches. What makes me different is my business savvy as well as elite technical knowledge. I&#39;m the perfect counterpart for top tier entrepreneurs and CEOs. - I help founders on the first 1-2 years of a startup journey from pre-seed/MVP to traction, team building and scaling. - I help business owners implement agentic tools and frontier engineering into their ops, marketing, sales and product. - I train and advise entrepreneurs and teams ",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [
+        "full time"
+      ],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "LOW",
+        "opportunity_score": 39,
+        "estimated_value_eur": 750,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -388,10 +425,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-21T21:18:35.004148+00:00",
+    "created_at": "2026-10-21T22:17:17.336225+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 9,
+    "draft_count": 10,
     "drafts": [
       {
         "title": "[For Hire] Full-Service Digital Agency: High-Converting Websites, Social Media & Dedicated Client Acquisition Systems ($2,500/mo retainer or $1,500 fixed per site)",
@@ -434,6 +471,21 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"Twikey: Senior Java Developer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] Multi-Exit Technical Founder and Early Stage Engineer. I build frontier tech.",
+        "url": "https://www.reddit.com/r/forhire/comments/1xc05vp/for_hire_multiexit_technical_founder_and_early/",
+        "priority": "LOW",
+        "opportunity_score": 39,
+        "estimated_value_eur": 750,
+        "offer": {
+          "subject": "Proposal: AI lead generation and follow-up",
+          "price_eur": 750,
+          "starter_price_eur": 300,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Multi-Exit Technical Founder and Early Stage Engineer. I build frontier tech.\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
