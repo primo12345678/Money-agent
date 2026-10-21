@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T18:19:27.373733+00:00",
+  "generated_at": "2026-10-21T19:24:05.417997+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 6,
+    "buyer_leads_found": 8,
     "human_review_required": true
   },
   "opportunities": [
@@ -260,6 +260,82 @@
         },
         "human_approval_required": true
       }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] Developer & Systems Enthusiast - Web Scraping, Custom APIs, Dashboards, Full Web Page ($15–$25/hr or Project-based)",
+      "url": "https://www.reddit.com/r/forhire/comments/1xbvdka/for_hire_developer_systems_enthusiast_web/",
+      "published": "2026-10-21T18:33:43+00:00",
+      "snippet": "Hello redditors! I am looking to take on freelance projects to expand my portfolio and continue sharpening my skills. Whether you need a quick script, a fully responsive landing page, or a reliable game server setup, I&#39;m here to bring your ideas to life ;) What I Can Do For You : Web Development &amp; Design: Custom APIs development (Node.js, Python, etc.). Data extraction and Web Scraping solutions. Interactive Dashboards for data visualization. Responsive Web Pages built with modern TailwindCSS or Bootstrap. Game Servers &amp; Infrastructure: Minecraft Server setup, management, and configuration. Custom plugin development. Performance tuning, optimization, and troubleshooting. Why work with me? Because I am actively building my professional portfolio and gaining experience, I am dedicated to delivering clean code, great communication, and high-quality results. Rates are budget-frie",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 25,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          15.0,
+          25.0
+        ],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] Front-end Developer – Next.js, React, Tailwind – Websites, Fixes & Figma to Code – $10/hr",
+      "url": "https://www.reddit.com/r/forhire/comments/1xbw7b2/for_hire_frontend_developer_nextjs_react_tailwind/",
+      "published": "2026-10-21T19:03:58+00:00",
+      "snippet": "Hi, I am a front-end developer who builds fast, responsive websites with Next.js, React and Tailwind CSS. I can send you my portfolio of some live Next.js sites I have built. All the sites I built are fully responsive, SEO-optimized and have working contact forms (even multilingual). I can help with: New websites and landing pages Figma/design to code Responsive and cross-browser fixes Contact forms, SEO setup and performance Deployment and domain setup Rate: $10/hr, or a fixed price for defined projects Availability: Can start immediately, quick replies (CET timezone) Payment: PayPal or Wise Send me a DM with your project details and I’ll get back to you fast. &#32; submitted by &#32; /u/Random-Vehicle [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 10,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          10.0,
+          10.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     }
   ],
   "errors": [
@@ -275,10 +351,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-21T18:19:27.412760+00:00",
+    "created_at": "2026-10-21T19:24:05.461436+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 6,
+    "draft_count": 8,
     "drafts": [
       {
         "title": "[For Hire] Full-Service Digital Agency: High-Converting Websites, Social Media & Dedicated Client Acquisition Systems ($2,500/mo retainer or $1,500 fixed per site)",
@@ -366,6 +442,36 @@
           "price_eur": 500,
           "starter_price_eur": 200,
           "message": "Hi,\n\nI saw your request about \"[Hiring] YouTube & Paid Social Media Specialist – Accounting / Tax - Remote\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] Developer & Systems Enthusiast - Web Scraping, Custom APIs, Dashboards, Full Web Page ($15–$25/hr or Project-based)",
+        "url": "https://www.reddit.com/r/forhire/comments/1xbvdka/for_hire_developer_systems_enthusiast_web/",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 25,
+        "offer": {
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Developer & Systems Enthusiast - Web Scraping, Custom APIs, Dashboards, Full Web Page ($15–$25/hr or Project-based)\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] Front-end Developer – Next.js, React, Tailwind – Websites, Fixes & Figma to Code – $10/hr",
+        "url": "https://www.reddit.com/r/forhire/comments/1xbw7b2/for_hire_frontend_developer_nextjs_react_tailwind/",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 10,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Front-end Developer – Next.js, React, Tailwind – Websites, Fixes & Figma to Code – $10/hr\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
