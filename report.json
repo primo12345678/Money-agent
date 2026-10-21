@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T14:23:24.077496+00:00",
+  "generated_at": "2026-10-21T15:20:44.158538+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 9,
+    "buyer_leads_found": 8,
     "human_review_required": true
   },
   "opportunities": [
@@ -265,16 +265,18 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[Hiring] looking for a Japanese teacher!",
-      "url": "https://www.reddit.com/r/forhire/comments/1xb6n1k/hiring_looking_for_a_japanese_teacher/",
-      "published": "2026-10-20T22:48:51+00:00",
-      "snippet": "Hello everyone! I want to start to learn Japanese so I’m looking for an online Japanese teacher to teach me Japanese! :) it will be paid each month and I want to learn each class every 5 days a week and it lasts an hour You will be paid $150 each month if that’s okay! I prefer a teacher who knows N1 or N2 Please reply or dm me! ^^ &#32; submitted by &#32; /u/Historical_Cup_7552 [link] &#32; [comments]",
+      "title": "[Hiring] YouTube & Paid Social Media Specialist – Accounting / Tax - Remote",
+      "url": "https://www.reddit.com/r/forhire/comments/1xbpn1g/hiring_youtube_paid_social_media_specialist/",
+      "published": "2026-10-21T15:05:04+00:00",
+      "snippet": "Seeking an experienced YouTube &amp; paid social specialist to plan, execute, monitor, and optimize campaigns during the tax-season marketing cycle. You’ll be the key execution resource for in-house YouTube media buying, with additional paid social support during peak periods, working closely with the Senior Manager of Paid Social and broader media team. Details: 100% remote ( Central or Eastern time zones only ) • $35/hr • 1 opening • no relocation • no visa sponsorship Contract: Partial-year, mid-December–April • peak season is 40 hrs/week (full-time), focused on YouTube campaign management with Meta/TikTok execution support as needed. What you’d do: Manage hands-on YouTube and Demand Gen campaign planning and execution (builds, trafficking, QA, ongoing maintenance) Monitor and optimize performance across the funnel — pacing, delivery, creative, targeting, budgets Analyze performance a",
       "lead_type": "potential_buyer_request",
       "buyer_intent_score": 25,
       "buyer_signals": [
         "[hiring]"
       ],
-      "employment_signals": [],
+      "employment_signals": [
+        "full-time"
+      ],
       "score": 27,
       "confidence": 0.42,
       "automation_fit": 0.46,
@@ -282,20 +284,20 @@
         "ai"
       ],
       "analysis": {
-        "category": "other",
+        "category": "ai_support",
         "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 150,
+        "opportunity_score": 34,
+        "estimated_value_eur": 35,
         "value_basis": "Detected budget/rate in listing",
         "budget_signals": [
-          150.0
+          35.0
         ],
         "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+          "service": "AI customer-support automation",
+          "starter_price_eur": 200,
+          "target_price_eur": 500,
+          "premium_price_eur": 1200,
+          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -340,46 +342,6 @@
         },
         "human_approval_required": true
       }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Looking to create a presentation style box for a cake knife and server",
-      "url": "https://www.reddit.com/r/forhire/comments/1xb5m8u/hiring_looking_to_create_a_presentation_style_box/",
-      "published": "2026-10-20T22:03:58+00:00",
-      "snippet": "I have a Lenox Forevermore stainless steel (silver plate) cake knife and server that I found at a flea market. I&#39;m looking for someone to create a box to store them. My thought is a hinged wood box with a fabric interior and a magnetic closure. Maybe &quot;forevermore&quot; written (stamped? burned?) on the outside in some nice font. The knife is 13 inches long by 1 inch wide by 1/2 inch tall. The server is 11 inches long by 3 inches at the widest point in the wedge shape, and 2-3/4 inches high at the tip. The neck of the server is 1/2 inch so instead of full foam inserts a bar across the box width with openings for the handles might be better. The contents in question look like this: https://www.etsy.com/listing/4444574981/lenox-forevermore-wedding-cake-server The set runs about $30 to $40 on etsy today and I paid $20 for it so I know the box will cost more than the set. I don&#39;t",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 50,
-      "buyer_signals": [
-        "looking for someone to",
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 40,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          30.0,
-          40.0,
-          20.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
     }
   ],
   "errors": [
@@ -395,10 +357,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-21T14:23:24.128399+00:00",
+    "created_at": "2026-10-21T15:20:44.198879+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 9,
+    "draft_count": 8,
     "drafts": [
       {
         "title": "Expel: Senior Detection & Response Engineer",
@@ -491,16 +453,16 @@
         }
       },
       {
-        "title": "[Hiring] looking for a Japanese teacher!",
-        "url": "https://www.reddit.com/r/forhire/comments/1xb6n1k/hiring_looking_for_a_japanese_teacher/",
+        "title": "[Hiring] YouTube & Paid Social Media Specialist – Accounting / Tax - Remote",
+        "url": "https://www.reddit.com/r/forhire/comments/1xbpn1g/hiring_youtube_paid_social_media_specialist/",
         "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 150,
+        "opportunity_score": 34,
+        "estimated_value_eur": 35,
         "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] looking for a Japanese teacher!\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "subject": "Proposal: AI customer-support automation",
+          "price_eur": 500,
+          "starter_price_eur": 200,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] YouTube & Paid Social Media Specialist – Accounting / Tax - Remote\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -516,21 +478,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[Hiring] Texas Residents: Remote Voter Outreach Gig – Earn a $120 Stipend + Referral Bonuses\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Looking to create a presentation style box for a cake knife and server",
-        "url": "https://www.reddit.com/r/forhire/comments/1xb5m8u/hiring_looking_to_create_a_presentation_style_box/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 40,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Looking to create a presentation style box for a cake knife and server\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
