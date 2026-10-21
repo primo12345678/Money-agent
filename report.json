@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T16:21:11.381446+00:00",
+  "generated_at": "2026-10-21T17:19:47.456659+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 9,
+    "buyer_leads_found": 8,
     "human_review_required": true
   },
   "opportunities": [
@@ -140,46 +140,6 @@
         "estimated_value_eur": 650,
         "value_basis": "Service-band estimate; not a quoted budget",
         "budget_signals": [],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Remote Python / AI / ML Engineer – $3,000 USD/Month",
-      "url": "https://www.reddit.com/r/forhire/comments/1xb9rv2/hiring_remote_python_ai_ml_engineer_3000_usdmonth/",
-      "published": "2026-10-21T01:14:29+00:00",
-      "snippet": "Hi everyone! We are hiring an experienced Python / AI Engineer for a long-term remote opportunity. We are looking for someone with strong technical skills and hands-on experience building AI-powered applications and scalable backend systems. Required Skills: Python, FastAPI, Django Artificial Intelligence and Machine Learning LLMs, OpenAI APIs, LangChain Microsoft Azure and AWS REST APIs, SQL, PostgreSQL Docker, Git, CI/CD Responsibilities: Develop and maintain Python backend services Build and integrate AI/ML solutions Design and optimize APIs Collaborate with our remote engineering team Compensation: $3,000 USD/month Schedule: [Specify expected weekly hours] Location: Remote Contract: Long-term How to Apply: Please send a Reddit DM with your resume, LinkedIn profile link, relevant experience, GitHub or portfolio, and availability. Thank you! &#32; submitted by &#32; /u/MaryannGeorgia29",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "LOW",
-        "opportunity_score": 44,
-        "estimated_value_eur": 3000,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          3000.0,
-          3000.0,
-          3000.0,
-          3000.0
-        ],
         "offer": {
           "service": "AI/API/CRM integration",
           "starter_price_eur": 250,
@@ -396,10 +356,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-21T16:21:11.417155+00:00",
+    "created_at": "2026-10-21T17:19:47.803862+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 9,
+    "draft_count": 8,
     "drafts": [
       {
         "title": "[For Hire] Full-Service Digital Agency: High-Converting Websites, Social Media & Dedicated Client Acquisition Systems ($2,500/mo retainer or $1,500 fixed per site)",
@@ -442,21 +402,6 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"Twikey: Senior Java Developer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Remote Python / AI / ML Engineer – $3,000 USD/Month",
-        "url": "https://www.reddit.com/r/forhire/comments/1xb9rv2/hiring_remote_python_ai_ml_engineer_3000_usdmonth/",
-        "priority": "LOW",
-        "opportunity_score": 44,
-        "estimated_value_eur": 3000,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Remote Python / AI / ML Engineer – $3,000 USD/Month\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
