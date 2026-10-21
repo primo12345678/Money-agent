@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T12:21:19.762736+00:00",
+  "generated_at": "2026-10-21T13:30:51.678488+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,53 +34,10 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 12,
+    "buyer_leads_found": 10,
     "human_review_required": true
   },
   "opportunities": [
-    {
-      "source": "Reddit r/forhire",
-      "title": "​[For Hire] Dedicated Technical Operations Partner — I'll handle your servers, automations, CRM & custom tools for a flat $230/mo",
-      "url": "https://www.reddit.com/r/forhire/comments/1xaygcr/for_hire_dedicated_technical_operations_partner/",
-      "published": "2026-10-20T17:29:41+00:00",
-      "snippet": "Most small businesses get stuck between fixing broken tech themselves at midnight, paying $200/mo for &quot;maintenance bots&quot; that only click update on plugins, or hiring a $150/hr freelancer who disappears the next month. I run Net Cooky . Instead of just building a website and walking away, I act as your ongoing technical operations partner—handling the recurring systems, reporting, and infrastructure behind your business every month. What I take off your desk: Web &amp; Hosting : Full website care, Plesk/cPanel/VPS management, DNS, SSL, backups, and fixing email deliverability Automations &amp; CRM: Connecting your apps with Zapier, Make, Google Apps Script, and webhooks so you stop copy-pasting data. CRM cleanup and Stripe setups. Automated Client Reporting &amp; Custom Tools : Building pipelines that turn your raw data, photos, or location pins into branded PDF reports, interac",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "paying"
-      ],
-      "employment_signals": [],
-      "score": 55,
-      "confidence": 0.7,
-      "automation_fit": 0.7,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "zapier",
-        "crm",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "MEDIUM",
-        "opportunity_score": 58,
-        "estimated_value_eur": 230,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          230.0,
-          200.0,
-          150.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
     {
       "source": "We Work Remotely",
       "title": "Expel: Senior Detection & Response Engineer",
@@ -234,43 +191,6 @@
       "title": "Contra: Senior 3D Designer",
       "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
       "published": "Wed, 07 Oct 2026 00:11:33 +0000",
-      "snippet": "Headquarters: San Francisco, CA URL: http://bit.ly/3kLhMdk About Contra Labs Contra Labs sits at the intersection of human creativity and AI. We partner with leading AI labs and product companies to improve their tools across design, video, development, and beyond. Our research is grounded in how top creatives actually work, studying the patterns behind what gets created, what gets chosen, and what resonates. We believe human input will always be at the center of net new creation, and our mission is to help shape technology so human creativity can be amplified to create what today is unimaginable. By joining the Contra Labs network you gain access to paid projects with some of the most innovative companies building the next generation of creative and AI-powered tools. How It Works This is an application to join the network and be eligible for roles as they arise. Projects are staffed on ",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "paid project"
-      ],
-      "employment_signals": [
-        "full-time"
-      ],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Contra: Senior Game Designer",
-      "url": "https://weworkremotely.com/remote-jobs/contra-senior-game-designer",
-      "published": "Wed, 07 Oct 2026 00:08:54 +0000",
       "snippet": "Headquarters: San Francisco, CA URL: http://bit.ly/3kLhMdk About Contra Labs Contra Labs sits at the intersection of human creativity and AI. We partner with leading AI labs and product companies to improve their tools across design, video, development, and beyond. Our research is grounded in how top creatives actually work, studying the patterns behind what gets created, what gets chosen, and what resonates. We believe human input will always be at the center of net new creation, and our mission is to help shape technology so human creativity can be amplified to create what today is unimaginable. By joining the Contra Labs network you gain access to paid projects with some of the most innovative companies building the next generation of creative and AI-powered tools. How It Works This is an application to join the network and be eligible for roles as they arise. Projects are staffed on ",
       "lead_type": "potential_buyer_request",
       "buyer_intent_score": 25,
@@ -517,26 +437,11 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-21T12:21:19.796531+00:00",
+    "created_at": "2026-10-21T13:30:51.722995+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
     "drafts": [
-      {
-        "title": "​[For Hire] Dedicated Technical Operations Partner — I'll handle your servers, automations, CRM & custom tools for a flat $230/mo",
-        "url": "https://www.reddit.com/r/forhire/comments/1xaygcr/for_hire_dedicated_technical_operations_partner/",
-        "priority": "MEDIUM",
-        "opportunity_score": 58,
-        "estimated_value_eur": 230,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"​[For Hire] Dedicated Technical Operations Partner — I'll handle your servers, automations, CRM & custom tools for a flat $230/mo\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
       {
         "title": "Expel: Senior Detection & Response Engineer",
         "url": "https://weworkremotely.com/remote-jobs/expel-senior-detection-response-engineer",
@@ -613,21 +518,6 @@
         }
       },
       {
-        "title": "Contra: Senior Game Designer",
-        "url": "https://weworkremotely.com/remote-jobs/contra-senior-game-designer",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"Contra: Senior Game Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "[Hiring] Records Management Specialist - Detroit, MI (Onsite) - $45k–$55k/year",
         "url": "https://www.reddit.com/r/forhire/comments/1xbl2bg/hiring_records_management_specialist_detroit_mi/",
         "priority": "LOW",
@@ -668,6 +558,36 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[Hiring] Texas Residents: Remote Voter Outreach Gig – Earn a $120 Stipend + Referral Bonuses\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Client Support Representative | Remote (US) | $26 to $30 an hour | Full-time",
+        "url": "https://www.reddit.com/r/forhire/comments/1xb5kot/hiring_client_support_representative_remote_us_26/",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 30,
+        "offer": {
+          "subject": "Proposal: AI customer-support automation",
+          "price_eur": 500,
+          "starter_price_eur": 200,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Client Support Representative | Remote (US) | $26 to $30 an hour | Full-time\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Looking to create a presentation style box for a cake knife and server",
+        "url": "https://www.reddit.com/r/forhire/comments/1xb5m8u/hiring_looking_to_create_a_presentation_style_box/",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 40,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Looking to create a presentation style box for a cake knife and server\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
