@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T17:19:47.456659+00:00",
+  "generated_at": "2026-10-21T18:19:27.373733+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 8,
+    "buyer_leads_found": 6,
     "human_review_required": true
   },
   "opportunities": [
@@ -224,46 +224,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[Hiring] Records Management Specialist - Detroit, MI (Onsite) - $45k–$55k/year",
-      "url": "https://www.reddit.com/r/forhire/comments/1xbl2bg/hiring_records_management_specialist_detroit_mi/",
-      "published": "2026-10-21T11:53:15+00:00",
-      "snippet": "We are seeking a detail-oriented Records Management Specialist to join our client’s Information Governance team at an established law firm in Detroit, MI. This role supports attorneys, legal teams, and administrative staff in managing physical files and information systems according to established records protocols. You will contribute to the accuracy, security, and accessibility of legal records while collaborating with an experienced governance team. Key Responsibilities Maintain accurate on-site file, container, barcode, and storage records. Update records management software and respond to attorney and staff requests promptly. Move, review, categorize, index, and document physical client files. Support records retention, disposal, and destruction processes in compliance with policy. Prepare records activity reports and metrics for stakeholders. Train office staff on records procedure",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [
-        "benefits package"
-      ],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_support",
-        "priority": "LOW",
-        "opportunity_score": 34,
-        "estimated_value_eur": 55,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          45.0,
-          55.0
-        ],
-        "offer": {
-          "service": "AI customer-support automation",
-          "starter_price_eur": 200,
-          "target_price_eur": 500,
-          "premium_price_eur": 1200,
-          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[Hiring] YouTube & Paid Social Media Specialist – Accounting / Tax - Remote",
       "url": "https://www.reddit.com/r/forhire/comments/1xbpn1g/hiring_youtube_paid_social_media_specialist/",
       "published": "2026-10-21T15:05:04+00:00",
@@ -300,47 +260,6 @@
         },
         "human_approval_required": true
       }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Texas Residents: Remote Voter Outreach Gig – Earn a $120 Stipend + Referral Bonuses",
-      "url": "https://www.reddit.com/r/forhire/comments/1xbf9sc/hiring_texas_residents_remote_voter_outreach_gig/",
-      "published": "2026-10-21T06:05:42+00:00",
-      "snippet": "I’m currently working as a voting ambassador for RALLY Texas, and they are paying people a $120 stipend to help out with some quick voter outreach. I need to bring in a few more people to hit my goal, so I wanted to share the opportunity here. How it works: You sign up and attend a 1-hour Zoom training session to get set up. You use a quick mobile browser tool to make and share simple voting plans with 25 people you know in Texas (like friends, family, or neighbors). The Pay: RALLY Texas pays you a direct $120 stipend once you complete your list. Once you finish your onboarding, you also get your own link—which means you can refer other people just like I&#39;m doing and make an extra $25 per person. (Just to clear up the legal side: you don&#39;t even have to be a registered voter to do this, and the pay is strictly for your time doing the outreach—not based on how anyone actually votes",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 50,
-      "buyer_signals": [
-        "paying",
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 120,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          120.0,
-          120.0,
-          120.0,
-          25.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
     }
   ],
   "errors": [
@@ -356,10 +275,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-21T17:19:47.803862+00:00",
+    "created_at": "2026-10-21T18:19:27.412760+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 8,
+    "draft_count": 6,
     "drafts": [
       {
         "title": "[For Hire] Full-Service Digital Agency: High-Converting Websites, Social Media & Dedicated Client Acquisition Systems ($2,500/mo retainer or $1,500 fixed per site)",
@@ -437,21 +356,6 @@
         }
       },
       {
-        "title": "[Hiring] Records Management Specialist - Detroit, MI (Onsite) - $45k–$55k/year",
-        "url": "https://www.reddit.com/r/forhire/comments/1xbl2bg/hiring_records_management_specialist_detroit_mi/",
-        "priority": "LOW",
-        "opportunity_score": 34,
-        "estimated_value_eur": 55,
-        "offer": {
-          "subject": "Proposal: AI customer-support automation",
-          "price_eur": 500,
-          "starter_price_eur": 200,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Records Management Specialist - Detroit, MI (Onsite) - $45k–$55k/year\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "[Hiring] YouTube & Paid Social Media Specialist – Accounting / Tax - Remote",
         "url": "https://www.reddit.com/r/forhire/comments/1xbpn1g/hiring_youtube_paid_social_media_specialist/",
         "priority": "LOW",
@@ -462,21 +366,6 @@
           "price_eur": 500,
           "starter_price_eur": 200,
           "message": "Hi,\n\nI saw your request about \"[Hiring] YouTube & Paid Social Media Specialist – Accounting / Tax - Remote\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Texas Residents: Remote Voter Outreach Gig – Earn a $120 Stipend + Referral Bonuses",
-        "url": "https://www.reddit.com/r/forhire/comments/1xbf9sc/hiring_texas_residents_remote_voter_outreach_gig/",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 120,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Texas Residents: Remote Voter Outreach Gig – Earn a $120 Stipend + Referral Bonuses\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
