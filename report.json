@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T05:19:26.308807+00:00",
+  "generated_at": "2026-10-21T06:21:08.134146+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 11,
+    "buyer_leads_found": 12,
     "human_review_required": true
   },
   "opportunities": [
@@ -342,6 +342,47 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[Hiring] Texas Residents: Remote Voter Outreach Gig – Earn a $120 Stipend + Referral Bonuses",
+      "url": "https://www.reddit.com/r/forhire/comments/1xbf9sc/hiring_texas_residents_remote_voter_outreach_gig/",
+      "published": "2026-10-21T06:05:42+00:00",
+      "snippet": "I’m currently working as a voting ambassador for RALLY Texas, and they are paying people a $120 stipend to help out with some quick voter outreach. I need to bring in a few more people to hit my goal, so I wanted to share the opportunity here. How it works: You sign up and attend a 1-hour Zoom training session to get set up. You use a quick mobile browser tool to make and share simple voting plans with 25 people you know in Texas (like friends, family, or neighbors). The Pay: RALLY Texas pays you a direct $120 stipend once you complete your list. Once you finish your onboarding, you also get your own link—which means you can refer other people just like I&#39;m doing and make an extra $25 per person. (Just to clear up the legal side: you don&#39;t even have to be a registered voter to do this, and the pay is strictly for your time doing the outreach—not based on how anyone actually votes",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 50,
+      "buyer_signals": [
+        "paying",
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 120,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          120.0,
+          120.0,
+          120.0,
+          25.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[Hiring] Client Support Representative | Remote (US) | $26 to $30 an hour | Full-time",
       "url": "https://www.reddit.com/r/forhire/comments/1xb5kot/hiring_client_support_representative_remote_us_26/",
       "published": "2026-10-20T22:02:13+00:00",
@@ -474,7 +515,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-21T05:19:26.355688+00:00",
+    "created_at": "2026-10-21T06:21:08.176596+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -600,6 +641,21 @@
         }
       },
       {
+        "title": "[Hiring] Texas Residents: Remote Voter Outreach Gig – Earn a $120 Stipend + Referral Bonuses",
+        "url": "https://www.reddit.com/r/forhire/comments/1xbf9sc/hiring_texas_residents_remote_voter_outreach_gig/",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 120,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Texas Residents: Remote Voter Outreach Gig – Earn a $120 Stipend + Referral Bonuses\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "[Hiring] Client Support Representative | Remote (US) | $26 to $30 an hour | Full-time",
         "url": "https://www.reddit.com/r/forhire/comments/1xb5kot/hiring_client_support_representative_remote_us_26/",
         "priority": "LOW",
@@ -610,21 +666,6 @@
           "price_eur": 500,
           "starter_price_eur": 200,
           "message": "Hi,\n\nI saw your request about \"[Hiring] Client Support Representative | Remote (US) | $26 to $30 an hour | Full-time\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Looking to create a presentation style box for a cake knife and server",
-        "url": "https://www.reddit.com/r/forhire/comments/1xb5m8u/hiring_looking_to_create_a_presentation_style_box/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 40,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Looking to create a presentation style box for a cake knife and server\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
