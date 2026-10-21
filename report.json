@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T00:14:42.491648+00:00",
+  "generated_at": "2026-10-21T01:27:09.028295+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -82,43 +82,6 @@
       }
     },
     {
-      "source": "Reddit r/forhire",
-      "title": "[FOR HIRE]Need help with Excel, dashboards, or data automation?",
-      "url": "https://www.reddit.com/r/forhire/comments/1xaqerd/for_hireneed_help_with_excel_dashboards_or_data/",
-      "published": "2026-10-20T12:08:49+00:00",
-      "snippet": "&#x200B; I&#39;m offering freelance services to help businesses simplify their workflows and get more value out of their data. Here&#39;s what I can help with: Excel dashboards &amp; reporting – clear, interactive dashboards to track KPIs and support better decisions. Process automation – formulas, macros, and custom tools to reduce repetitive manual work. Data cleaning &amp; analysis – organize, validate, and transform messy data into useful insights. Custom Excel templates – tools for tracking costs, inventory, production, performance, and more. Workflow optimization – identify bottlenecks and find practical ways to improve existing processes. Data privacy is a priority. I understand that business data can be sensitive, so I&#39;m happy to build solutions using dummy or anonymized data. We can develop and test a working example without requiring access to your actual company data. If r",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "need help with"
-      ],
-      "employment_signals": [],
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 49,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "We Work Remotely",
       "title": "Expel: Senior Detection & Response Engineer",
       "url": "https://weworkremotely.com/remote-jobs/expel-senior-detection-response-engineer",
@@ -181,6 +144,46 @@
         "estimated_value_eur": 650,
         "value_basis": "Service-band estimate; not a quoted budget",
         "budget_signals": [],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Remote Python / AI / ML Engineer – $3,000 USD/Month",
+      "url": "https://www.reddit.com/r/forhire/comments/1xb9rv2/hiring_remote_python_ai_ml_engineer_3000_usdmonth/",
+      "published": "2026-10-21T01:14:29+00:00",
+      "snippet": "Hi everyone! We are hiring an experienced Python / AI Engineer for a long-term remote opportunity. We are looking for someone with strong technical skills and hands-on experience building AI-powered applications and scalable backend systems. Required Skills: Python, FastAPI, Django Artificial Intelligence and Machine Learning LLMs, OpenAI APIs, LangChain Microsoft Azure and AWS REST APIs, SQL, PostgreSQL Docker, Git, CI/CD Responsibilities: Develop and maintain Python backend services Build and integrate AI/ML solutions Design and optimize APIs Collaborate with our remote engineering team Compensation: $3,000 USD/month Schedule: [Specify expected weekly hours] Location: Remote Contract: Long-term How to Apply: Please send a Reddit DM with your resume, LinkedIn profile link, relevant experience, GitHub or portfolio, and availability. Thank you! &#32; submitted by &#32; /u/MaryannGeorgia29",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 44,
+        "estimated_value_eur": 3000,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          3000.0,
+          3000.0,
+          3000.0,
+          3000.0
+        ],
         "offer": {
           "service": "AI/API/CRM integration",
           "starter_price_eur": 250,
@@ -471,7 +474,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-21T00:14:42.526791+00:00",
+    "created_at": "2026-10-21T01:27:09.116693+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -487,21 +490,6 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"​[For Hire] Dedicated Technical Operations Partner — I'll handle your servers, automations, CRM & custom tools for a flat $230/mo\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[FOR HIRE]Need help with Excel, dashboards, or data automation?",
-        "url": "https://www.reddit.com/r/forhire/comments/1xaqerd/for_hireneed_help_with_excel_dashboards_or_data/",
-        "priority": "LOW",
-        "opportunity_score": 49,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[FOR HIRE]Need help with Excel, dashboards, or data automation?\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -532,6 +520,21 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"Twikey: Senior Java Developer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Remote Python / AI / ML Engineer – $3,000 USD/Month",
+        "url": "https://www.reddit.com/r/forhire/comments/1xb9rv2/hiring_remote_python_ai_ml_engineer_3000_usdmonth/",
+        "priority": "LOW",
+        "opportunity_score": 44,
+        "estimated_value_eur": 3000,
+        "offer": {
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Remote Python / AI / ML Engineer – $3,000 USD/Month\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
