@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T17:18:49.700419+00:00",
+  "generated_at": "2026-10-22T18:18:02.006968+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 11,
+    "buyer_leads_found": 16,
     "human_review_required": true
   },
   "opportunities": [
@@ -154,6 +154,42 @@
       }
     },
     {
+      "source": "Reddit r/slavelabour",
+      "title": "[Offer] Virtual Assistant & Graphic Designer Available — Excel, Design, Video Editing & More",
+      "url": "https://www.reddit.com/r/slavelabour/comments/1xbcukc/offer_virtual_assistant_graphic_designer/",
+      "published": "2026-10-21T03:47:55+00:00",
+      "snippet": "1 Hi everyone! I&#39;m available for freelance work and can help with administrative tasks, creative projects, and everyday business needs. Here&#39;s what I can help with: 🎨 Graphic Design: Promotional posters, product advertisements, social media graphics, typography, and photo compositing using Affinity Photo and Affinity Designer. 📊 Excel &amp; Data Entry: Data cleaning with Power Query, PivotTables, XLOOKUP, INDEX/MATCH, spreadsheet organization, and record management. 🎬 Basic Video Editing: Cutting, sequencing, transitions, and simple effects using Kdenlive or CapCut. 📑 PowerPoint Presentations: Clean slide layouts, visual organization, and presentation design. 🔎 Online Research: Gathering information, building contact lists, and organizing research in spreadsheets. 💬 Customer Support: Chat-based support, written communication, and maintaining customer records. I have previous expe",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "need help with"
+      ],
+      "employment_signals": [],
+      "score": 34,
+      "confidence": 0.49,
+      "automation_fit": 0.52,
+      "matched_keywords": [
+        "customer support",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_support",
+        "priority": "LOW",
+        "opportunity_score": 44,
+        "estimated_value_eur": 500,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI customer-support automation",
+          "starter_price_eur": 200,
+          "target_price_eur": 500,
+          "premium_price_eur": 1200,
+          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
       "source": "Reddit r/forhire",
       "title": "[HIRING] Nominee Director - U.K. - £700",
       "url": "https://www.reddit.com/r/forhire/comments/1xcl8ne/hiring_nominee_director_uk_700/",
@@ -187,6 +223,44 @@
           "target_price_eur": 750,
           "premium_price_eur": 2000,
           "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/slavelabour",
+      "title": "[OFFER] Digital Artist, VA, Reel editor, freelance 4$/ hour",
+      "url": "https://www.reddit.com/r/slavelabour/comments/1xberzc/offer_digital_artist_va_reel_editor_freelance_4/",
+      "published": "2026-10-21T05:35:54+00:00",
+      "snippet": "Hi everyone, I’m a student currently looking for some freelance/remote work that I can do I’m willing to work for $4/hour , and I’m pretty flexible with the kind of work I can take on. I have work experience with a UK-based tutoring platform , where I’ve worked on reels, video editing, social media content and graphic design. I’m used to working with deadlines and I’m very punctual with my work. Some of the things I can help with: Excel / data entry Video and reel editing, including 1-minute videos Social media content and management Canva designs Simple graphic design Digital art and illustrations Presentations Voiceovers and narration Customer support Content creation Educational/solution videos Basic photo editing I’m also very comfortable communicating in English. I have a natural American accent and I’m quite conversational, so I’m open to voiceover, narration, customer support, or ",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "need help with"
+      ],
+      "employment_signals": [],
+      "score": 34,
+      "confidence": 0.49,
+      "automation_fit": 0.52,
+      "matched_keywords": [
+        "customer support",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_support",
+        "priority": "LOW",
+        "opportunity_score": 40,
+        "estimated_value_eur": 4,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          4.0
+        ],
+        "offer": {
+          "service": "AI customer-support automation",
+          "starter_price_eur": 200,
+          "target_price_eur": 500,
+          "premium_price_eur": 1200,
+          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -264,6 +338,41 @@
       }
     },
     {
+      "source": "Reddit r/slavelabour",
+      "title": "[Task] Looking for someone to vibe code/model a rigged low-poly anime character 20$",
+      "url": "https://www.reddit.com/r/slavelabour/comments/1xb1pm0/task_looking_for_someone_to_vibe_codemodel_a/",
+      "published": "2026-10-20T19:30:01+00:00",
+      "snippet": "Hey! I’m looking to pay someone to create a 3D character closely matching the attached reference, but with blue hair. Same overall face, hairstyle, proportions, and construction-worker outfit—just a hair color change. I want that cute, low-poly anime look with rounded curves, without being too blocky. I’m open to vibe coding, traditional modeling, or a mix, as long as the finished model looks good and works. Requirements: Fully textured model with an editable Blender file. Full-body rig, including hands and fingers. Basic facial controls for blinking, expressions, and talking. Clean movement without obvious clipping or joints collapsing. Please send examples of your work, your price, and an estimated turnaround time. A short clip showing how one of your models moves would be helpful! DM ME TO SEE EXAMPLES OF WHAT THE MODEL NEEDS TO LOOK LIKE &#32; submitted by &#32; /u/Quirky_Discussion5",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "looking for someone to"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
       "source": "We Work Remotely",
       "title": "Contra: Senior 3D Designer",
       "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
@@ -333,6 +442,44 @@
           "target_price_eur": 400,
           "premium_price_eur": 1000,
           "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/slavelabour",
+      "title": "[OFFER] I'll automate a manual data transfer between two business apps | From $50",
+      "url": "https://www.reddit.com/r/slavelabour/comments/1xcd7wd/offer_ill_automate_a_manual_data_transfer_between/",
+      "published": "2026-10-22T08:46:44+00:00",
+      "snippet": "Do you regularly export records from one application, rearrange the data, and import it into another? I&#39;ll build a repeatable way to transfer that data without manually processing the same records every time. The base project covers: - Two existing systems and one-way data transfer - One record type, with agreed field mappings - Basic error logging so failed transfers can be investigated - Setup instructions and a guide to running the integration. Price: $50 for a straightforward transfer where the systems provide usable APIs or predictable import/export formats. Two-way synchronisation, historical data migrations, complex transformations, and ongoing hosting aren&#39;t included in the base price. I&#39;ll assess the systems and confirm the scope and fixed price before starting. I work with existing systems rather than assuming they need replacing. Implementation can use Go or Python",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 50,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          50.0,
+          50.0
+        ],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -454,14 +601,47 @@
         },
         "human_approval_required": true
       }
-    }
-  ],
-  "errors": [
+    },
     {
       "source": "Reddit r/slavelabour",
-      "error": "HTTP Error 429: Too Many Requests"
+      "title": "[OFFER] Front-end dev (Next.js/React) – website fixes, landing pages, responsive bugs – $10/hr",
+      "url": "https://www.reddit.com/r/slavelabour/comments/1xbw3g8/offer_frontend_dev_nextjsreact_website_fixes/",
+      "published": "2026-10-21T19:00:09+00:00",
+      "snippet": "Hey! I’m a front-end developer with several live business sites built in Next.js, React, HTML, CSS and JavaScript. I can send you my portfolio of some live Next.js sites I have built. Things I can do quickly: Fix layout or mobile responsiveness issues Build landing pages or small business sites Convert Figma designs to pixel-perfect code Add contact forms, basic SEO and speed fixes Deploy sites (Vercel, Netlify) and connect domains Small JS/React bugs and tweaks Rate: $10/hr. Small fixes can be a flat price, so just tell me what you need and I’ll quote it. For new clients I’m happy to do part of the work first so you can see the quality before paying. Comment and send me a DM with what you need! &#32; submitted by &#32; /u/Random-Vehicle [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "paying"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 10,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          10.0,
+          10.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     }
   ],
+  "errors": [],
   "analysis": {
     "status": "ready_for_human_review",
     "note": "Scores and prices are estimates, not guaranteed earnings.",
@@ -469,7 +649,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-22T17:18:49.739444+00:00",
+    "created_at": "2026-10-22T18:18:02.048872+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -520,6 +700,21 @@
         }
       },
       {
+        "title": "[Offer] Virtual Assistant & Graphic Designer Available — Excel, Design, Video Editing & More",
+        "url": "https://www.reddit.com/r/slavelabour/comments/1xbcukc/offer_virtual_assistant_graphic_designer/",
+        "priority": "LOW",
+        "opportunity_score": 44,
+        "estimated_value_eur": 500,
+        "offer": {
+          "subject": "Proposal: AI customer-support automation",
+          "price_eur": 500,
+          "starter_price_eur": 200,
+          "message": "Hi,\n\nI saw your request about \"[Offer] Virtual Assistant & Graphic Designer Available — Excel, Design, Video Editing & More\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "[HIRING] Nominee Director - U.K. - £700",
         "url": "https://www.reddit.com/r/forhire/comments/1xcl8ne/hiring_nominee_director_uk_700/",
         "priority": "LOW",
@@ -530,6 +725,21 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"[HIRING] Nominee Director - U.K. - £700\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[OFFER] Digital Artist, VA, Reel editor, freelance 4$/ hour",
+        "url": "https://www.reddit.com/r/slavelabour/comments/1xberzc/offer_digital_artist_va_reel_editor_freelance_4/",
+        "priority": "LOW",
+        "opportunity_score": 40,
+        "estimated_value_eur": 4,
+        "offer": {
+          "subject": "Proposal: AI customer-support automation",
+          "price_eur": 500,
+          "starter_price_eur": 200,
+          "message": "Hi,\n\nI saw your request about \"[OFFER] Digital Artist, VA, Reel editor, freelance 4$/ hour\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -565,6 +775,21 @@
         }
       },
       {
+        "title": "[Task] Looking for someone to vibe code/model a rigged low-poly anime character 20$",
+        "url": "https://www.reddit.com/r/slavelabour/comments/1xb1pm0/task_looking_for_someone_to_vibe_codemodel_a/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Task] Looking for someone to vibe code/model a rigged low-poly anime character 20$\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "Contra: Senior 3D Designer",
         "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
         "priority": "LOW",
@@ -575,51 +800,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Contra: Senior Game Designer",
-        "url": "https://weworkremotely.com/remote-jobs/contra-senior-game-designer",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"Contra: Senior Game Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[For Hire] Developer & Systems Enthusiast - Web Scraping, Custom APIs, Dashboards, Full Web Page ($15–$25/hr or Project-based)",
-        "url": "https://www.reddit.com/r/forhire/comments/1xbvdka/for_hire_developer_systems_enthusiast_web/",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 25,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Developer & Systems Enthusiast - Web Scraping, Custom APIs, Dashboards, Full Web Page ($15–$25/hr or Project-based)\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Web Developer Needed to Build a Website — $50 Budget",
-        "url": "https://www.reddit.com/r/forhire/comments/1xcb5t2/hiring_web_developer_needed_to_build_a_website_50/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 50,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Web Developer Needed to Build a Website — $50 Budget\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
