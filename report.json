@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T12:22:32.669631+00:00",
+  "generated_at": "2026-10-22T13:33:48.172786+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -194,6 +194,45 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[HIRING] 100% Remote Chatter",
+      "url": "https://www.reddit.com/r/forhire/comments/1xchgo3/hiring_100_remote_chatter/",
+      "published": "2026-10-22T12:40:12+00:00",
+      "snippet": "We’re adding ten new people to our expanding team of chatters. You’ll be working with warm inbound leads, with training provided and coaching sessions every week. Compensation &amp; Growth 💰 Typical earnings: $500-$1,500/month 🏆 Top closers and managers: $5,000+/month 💵 Payments every two weeks 📈 Opportunity to work your way into management What you’ll need: 📝 C1+ written English ⌨️ Typing speed of 50 WPM or higher 💻 Laptop/PC and stable 20+ Mbps internet 🚀 Sales mindset and willingness to take feedback We’re looking for people who want to improve and stick around long term. Interested in joining? Send me &#39; CHATTER &#39; via PM for the next steps. &#32; submitted by &#32; /u/CoolestSquirter [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "LOW",
+        "opportunity_score": 44,
+        "estimated_value_eur": 5000,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          500.0,
+          1500.0,
+          5000.0
+        ],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[For Hire] Multi-Exit Technical Founder and Early Stage Engineer. I build frontier tech.",
       "url": "https://www.reddit.com/r/forhire/comments/1xc05vp/for_hire_multiexit_technical_founder_and_early/",
       "published": "2026-10-21T21:34:01+00:00",
@@ -269,43 +308,6 @@
       "title": "Contra: Senior 3D Designer",
       "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
       "published": "Wed, 07 Oct 2026 00:11:33 +0000",
-      "snippet": "Headquarters: San Francisco, CA URL: http://bit.ly/3kLhMdk About Contra Labs Contra Labs sits at the intersection of human creativity and AI. We partner with leading AI labs and product companies to improve their tools across design, video, development, and beyond. Our research is grounded in how top creatives actually work, studying the patterns behind what gets created, what gets chosen, and what resonates. We believe human input will always be at the center of net new creation, and our mission is to help shape technology so human creativity can be amplified to create what today is unimaginable. By joining the Contra Labs network you gain access to paid projects with some of the most innovative companies building the next generation of creative and AI-powered tools. How It Works This is an application to join the network and be eligible for roles as they arise. Projects are staffed on ",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "paid project"
-      ],
-      "employment_signals": [
-        "full-time"
-      ],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Contra: Senior Game Designer",
-      "url": "https://weworkremotely.com/remote-jobs/contra-senior-game-designer",
-      "published": "Wed, 07 Oct 2026 00:08:54 +0000",
       "snippet": "Headquarters: San Francisco, CA URL: http://bit.ly/3kLhMdk About Contra Labs Contra Labs sits at the intersection of human creativity and AI. We partner with leading AI labs and product companies to improve their tools across design, video, development, and beyond. Our research is grounded in how top creatives actually work, studying the patterns behind what gets created, what gets chosen, and what resonates. We believe human input will always be at the center of net new creation, and our mission is to help shape technology so human creativity can be amplified to create what today is unimaginable. By joining the Contra Labs network you gain access to paid projects with some of the most innovative companies building the next generation of creative and AI-powered tools. How It Works This is an application to join the network and be eligible for roles as they arise. Projects are staffed on ",
       "lead_type": "potential_buyer_request",
       "buyer_intent_score": 25,
@@ -466,7 +468,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-22T12:22:32.704079+00:00",
+    "created_at": "2026-10-22T13:33:48.214223+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -532,6 +534,21 @@
         }
       },
       {
+        "title": "[HIRING] 100% Remote Chatter",
+        "url": "https://www.reddit.com/r/forhire/comments/1xchgo3/hiring_100_remote_chatter/",
+        "priority": "LOW",
+        "opportunity_score": 44,
+        "estimated_value_eur": 5000,
+        "offer": {
+          "subject": "Proposal: AI lead generation and follow-up",
+          "price_eur": 750,
+          "starter_price_eur": 300,
+          "message": "Hi,\n\nI saw your request about \"[HIRING] 100% Remote Chatter\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "[For Hire] Multi-Exit Technical Founder and Early Stage Engineer. I build frontier tech.",
         "url": "https://www.reddit.com/r/forhire/comments/1xc05vp/for_hire_multiexit_technical_founder_and_early/",
         "priority": "LOW",
@@ -572,21 +589,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Contra: Senior Game Designer",
-        "url": "https://weworkremotely.com/remote-jobs/contra-senior-game-designer",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"Contra: Senior Game Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
