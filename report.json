@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T16:22:47.175656+00:00",
+  "generated_at": "2026-10-22T17:18:49.700419+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 12,
+    "buyer_leads_found": 11,
     "human_review_required": true
   },
   "opportunities": [
@@ -149,45 +149,6 @@
           "target_price_eur": 650,
           "premium_price_eur": 1600,
           "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[HIRING] 100% Remote Chatter",
-      "url": "https://www.reddit.com/r/forhire/comments/1xchgo3/hiring_100_remote_chatter/",
-      "published": "2026-10-22T12:40:12+00:00",
-      "snippet": "We’re adding ten new people to our expanding team of chatters. You’ll be working with warm inbound leads, with training provided and coaching sessions every week. Compensation &amp; Growth 💰 Typical earnings: $500-$1,500/month 🏆 Top closers and managers: $5,000+/month 💵 Payments every two weeks 📈 Opportunity to work your way into management What you’ll need: 📝 C1+ written English ⌨️ Typing speed of 50 WPM or higher 💻 Laptop/PC and stable 20+ Mbps internet 🚀 Sales mindset and willingness to take feedback We’re looking for people who want to improve and stick around long term. Interested in joining? Send me &#39; CHATTER &#39; via PM for the next steps. &#32; submitted by &#32; /u/CoolestSquirter [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "lead_generation",
-        "priority": "LOW",
-        "opportunity_score": 44,
-        "estimated_value_eur": 5000,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          500.0,
-          1500.0,
-          5000.0
-        ],
-        "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -508,7 +469,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-22T16:22:47.220051+00:00",
+    "created_at": "2026-10-22T17:18:49.739444+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -554,21 +515,6 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"Twikey: Senior Java Developer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[HIRING] 100% Remote Chatter",
-        "url": "https://www.reddit.com/r/forhire/comments/1xchgo3/hiring_100_remote_chatter/",
-        "priority": "LOW",
-        "opportunity_score": 44,
-        "estimated_value_eur": 5000,
-        "offer": {
-          "subject": "Proposal: AI lead generation and follow-up",
-          "price_eur": 750,
-          "starter_price_eur": 300,
-          "message": "Hi,\n\nI saw your request about \"[HIRING] 100% Remote Chatter\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -659,6 +605,21 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Developer & Systems Enthusiast - Web Scraping, Custom APIs, Dashboards, Full Web Page ($15–$25/hr or Project-based)\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Web Developer Needed to Build a Website — $50 Budget",
+        "url": "https://www.reddit.com/r/forhire/comments/1xcb5t2/hiring_web_developer_needed_to_build_a_website_50/",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 50,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Web Developer Needed to Build a Website — $50 Budget\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
