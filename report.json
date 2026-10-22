@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T19:24:29.357631+00:00",
+  "generated_at": "2026-10-22T20:18:13.676993+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 10,
+    "buyer_leads_found": 11,
     "human_review_required": true
   },
   "opportunities": [
@@ -149,6 +149,48 @@
           "target_price_eur": 650,
           "premium_price_eur": 1600,
           "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Travel Coordinator, In Office in Montvale, NJ, $60,000 to $65,000/year, Full Time",
+      "url": "https://www.reddit.com/r/forhire/comments/1xctgr2/hiring_travel_coordinator_in_office_in_montvale/",
+      "published": "2026-10-22T20:13:15+00:00",
+      "snippet": "Travella Concierge is a luxury travel company based in North Jersey. We are hiring a Travel Coordinator to support our client trips and our sales team, and to make sure every detail of a trip is planned and confirmed before the client travels. What you will do: - Support our salespeople with bookings, confirmations, and itineraries - Coordinate with hotels, airlines, and other travel partners - Double check dates, names, and details so nothing falls through the cracks - Help keep client trips running smoothly from planning through travel Who we are looking for: - High energy and a real passion for travel - Extremely detail oriented and organized - Previous experience in the travel industry - Comfortable in a fast paced, client first office environment This is a full time, in office position in Montvale, NJ. Pay is $60,000 to $65,000 a year, depending on experience. To apply, email your r",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [
+        "full time"
+      ],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "LOW",
+        "opportunity_score": 44,
+        "estimated_value_eur": 65000,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          60000.0,
+          65000.0,
+          60000.0,
+          65000.0
+        ],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -431,7 +473,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-22T19:24:29.386977+00:00",
+    "created_at": "2026-10-22T20:18:13.720583+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -477,6 +519,21 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"Twikey: Senior Java Developer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Travel Coordinator, In Office in Montvale, NJ, $60,000 to $65,000/year, Full Time",
+        "url": "https://www.reddit.com/r/forhire/comments/1xctgr2/hiring_travel_coordinator_in_office_in_montvale/",
+        "priority": "LOW",
+        "opportunity_score": 44,
+        "estimated_value_eur": 65000,
+        "offer": {
+          "subject": "Proposal: AI lead generation and follow-up",
+          "price_eur": 750,
+          "starter_price_eur": 300,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Travel Coordinator, In Office in Montvale, NJ, $60,000 to $65,000/year, Full Time\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -567,21 +624,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[Hiring] Web Developer Needed to Build a Website — $50 Budget\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[For hire] Need help with school essays, projects, or resume building?",
-        "url": "https://www.reddit.com/r/forhire/comments/1xckn26/for_hire_need_help_with_school_essays_projects_or/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 25,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[For hire] Need help with school essays, projects, or resume building?\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
