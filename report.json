@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T11:20:35.557465+00:00",
+  "generated_at": "2026-10-22T12:22:32.669631+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 12,
+    "buyer_leads_found": 11,
     "human_review_required": true
   },
   "opportunities": [
@@ -340,45 +340,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[Hiring] YouTube & Paid Social Media Specialist – Accounting / Tax - Remote",
-      "url": "https://www.reddit.com/r/forhire/comments/1xbpn1g/hiring_youtube_paid_social_media_specialist/",
-      "published": "2026-10-21T15:05:04+00:00",
-      "snippet": "Seeking an experienced YouTube &amp; paid social specialist to plan, execute, monitor, and optimize campaigns during the tax-season marketing cycle. You’ll be the key execution resource for in-house YouTube media buying, with additional paid social support during peak periods, working closely with the Senior Manager of Paid Social and broader media team. Details: 100% remote ( Central or Eastern time zones only ) • $35/hr • 1 opening • no relocation • no visa sponsorship Contract: Partial-year, mid-December–April • peak season is 40 hrs/week (full-time), focused on YouTube campaign management with Meta/TikTok execution support as needed. What you’d do: Manage hands-on YouTube and Demand Gen campaign planning and execution (builds, trafficking, QA, ongoing maintenance) Monitor and optimize performance across the funnel — pacing, delivery, creative, targeting, budgets Analyze performance a",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [
-        "full-time"
-      ],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_support",
-        "priority": "LOW",
-        "opportunity_score": 34,
-        "estimated_value_eur": 35,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          35.0
-        ],
-        "offer": {
-          "service": "AI customer-support automation",
-          "starter_price_eur": 200,
-          "target_price_eur": 500,
-          "premium_price_eur": 1200,
-          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[For Hire] Developer & Systems Enthusiast - Web Scraping, Custom APIs, Dashboards, Full Web Page ($15–$25/hr or Project-based)",
       "url": "https://www.reddit.com/r/forhire/comments/1xbvdka/for_hire_developer_systems_enthusiast_web/",
       "published": "2026-10-21T18:33:43+00:00",
@@ -505,7 +466,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-22T11:20:35.591451+00:00",
+    "created_at": "2026-10-22T12:22:32.704079+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -631,21 +592,6 @@
         }
       },
       {
-        "title": "[Hiring] YouTube & Paid Social Media Specialist – Accounting / Tax - Remote",
-        "url": "https://www.reddit.com/r/forhire/comments/1xbpn1g/hiring_youtube_paid_social_media_specialist/",
-        "priority": "LOW",
-        "opportunity_score": 34,
-        "estimated_value_eur": 35,
-        "offer": {
-          "subject": "Proposal: AI customer-support automation",
-          "price_eur": 500,
-          "starter_price_eur": 200,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] YouTube & Paid Social Media Specialist – Accounting / Tax - Remote\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "[For Hire] Developer & Systems Enthusiast - Web Scraping, Custom APIs, Dashboards, Full Web Page ($15–$25/hr or Project-based)",
         "url": "https://www.reddit.com/r/forhire/comments/1xbvdka/for_hire_developer_systems_enthusiast_web/",
         "priority": "LOW",
@@ -656,6 +602,21 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Developer & Systems Enthusiast - Web Scraping, Custom APIs, Dashboards, Full Web Page ($15–$25/hr or Project-based)\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Freelance Remote Position - Electronics Engineer (PCB Sourcing & Suppli Chain)",
+        "url": "https://www.reddit.com/r/forhire/comments/1xbspb3/hiring_freelance_remote_position_electronics/",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 20,
+        "offer": {
+          "subject": "Proposal: AI customer-support automation",
+          "price_eur": 500,
+          "starter_price_eur": 200,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Freelance Remote Position - Electronics Engineer (PCB Sourcing & Suppli Chain)\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
