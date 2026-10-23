@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T21:18:57.156715+00:00",
+  "generated_at": "2026-10-23T22:18:15.315818+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 14,
+    "buyer_leads_found": 13,
     "human_review_required": true
   },
   "opportunities": [
@@ -225,42 +225,6 @@
           "target_price_eur": 500,
           "premium_price_eur": 1200,
           "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Remote AI Video Editor for Tech YouTube Channel | ₹10k–15k/month",
-      "url": "https://www.reddit.com/r/forhire/comments/1xdgtfi/hiring_remote_ai_video_editor_for_tech_youtube/",
-      "published": "2026-10-23T15:14:27+00:00",
-      "snippet": "I&#39;m looking for a self-driven AI video editor/content creator to help grow my personal brand in software engineering, AI, DSA, system design, and tech careers. Compensation: ₹10,000–₹15,000/month initially, with required AI tool subscriptions provided separately. Scope of work: End-to-end content creation, including topic research, scripting, AI avatar and voice generation using my authorized likeness, editing, captions, visuals, and final quality checks. Target output: I&#39;d eventually like to scale toward 8–10 long-form YouTube videos and 30–40 Shorts/Reels per month. This is a longer-term target, not an expectation from day one. We&#39;ll agree on realistic deliverables based on quality, production time, and the workflow we establish. Getting started: We&#39;ll begin with a paid two-week trial, with the payment, deliverables, deadlines, and revision limits agreed upon in advance",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 34,
-      "confidence": 0.49,
-      "automation_fit": 0.52,
-      "matched_keywords": [
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 43,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -573,7 +537,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-23T21:18:57.207511+00:00",
+    "created_at": "2026-10-23T22:18:15.351396+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -654,21 +618,6 @@
         }
       },
       {
-        "title": "[Hiring] Remote AI Video Editor for Tech YouTube Channel | ₹10k–15k/month",
-        "url": "https://www.reddit.com/r/forhire/comments/1xdgtfi/hiring_remote_ai_video_editor_for_tech_youtube/",
-        "priority": "LOW",
-        "opportunity_score": 43,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Remote AI Video Editor for Tech YouTube Channel | ₹10k–15k/month\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "[HIRING] Truckers Wanted ASAP",
         "url": "https://www.reddit.com/r/forhire/comments/1xdlotu/hiring_truckers_wanted_asap/",
         "priority": "LOW",
@@ -724,6 +673,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Devops engineer and cloud costs optimization(FinOps) .\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] On-camera presenters & UGC creators — paid shoots, ongoing work (Ireland, UK, US, English-speaking EU)",
+        "url": "https://www.reddit.com/r/forhire/comments/1xdjx1j/hiring_oncamera_presenters_ugc_creators_paid/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] On-camera presenters & UGC creators — paid shoots, ongoing work (Ireland, UK, US, English-speaking EU)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
