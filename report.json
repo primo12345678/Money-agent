@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T11:20:07.199418+00:00",
+  "generated_at": "2026-10-23T12:16:24.106812+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 11,
+    "buyer_leads_found": 12,
     "human_review_required": true
   },
   "opportunities": [
@@ -304,6 +304,41 @@
       }
     },
     {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Head of Fundraising & Investor Partnerships | Remote | Early-Stage AI Startup",
+      "url": "https://www.reddit.com/r/forhire/comments/1xdc69b/hiring_head_of_fundraising_investor_partnerships/",
+      "published": "2026-10-23T12:05:30+00:00",
+      "snippet": "We&#39;re an early-stage deep-tech startup operating at the intersection of AI, robotics, and decentralized technology . We&#39;re looking for an experienced fundraising professional or investor relations leader who can help us secure investment and build strong relationships with venture capital firms, angel investors, family offices, and strategic investors. Who we&#39;re looking for: Proven experience in startup fundraising or venture capital. Established relationships with active investors and VC decision-makers. Experience securing investor meetings and supporting successful funding rounds. Strong understanding of pre-seed and seed-stage investments. Connections in AI, deep tech, robotics, or crypto-native venture capital are a major advantage. The opportunity: Remote, flexible engagement. Senior leadership or fractional advisory role. Competitive compensation structure, negotiable ",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_support",
+        "priority": "LOW",
+        "opportunity_score": 37,
+        "estimated_value_eur": 500,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI customer-support automation",
+          "starter_price_eur": 200,
+          "target_price_eur": 500,
+          "premium_price_eur": 1200,
+          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
       "source": "We Work Remotely",
       "title": "Contra: Senior 3D Designer",
       "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
@@ -471,7 +506,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-23T11:20:07.242045+00:00",
+    "created_at": "2026-10-23T12:16:24.404071+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -582,6 +617,21 @@
         }
       },
       {
+        "title": "[Hiring] Head of Fundraising & Investor Partnerships | Remote | Early-Stage AI Startup",
+        "url": "https://www.reddit.com/r/forhire/comments/1xdc69b/hiring_head_of_fundraising_investor_partnerships/",
+        "priority": "LOW",
+        "opportunity_score": 37,
+        "estimated_value_eur": 500,
+        "offer": {
+          "subject": "Proposal: AI customer-support automation",
+          "price_eur": 500,
+          "starter_price_eur": 200,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Head of Fundraising & Investor Partnerships | Remote | Early-Stage AI Startup\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "Contra: Senior 3D Designer",
         "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
         "priority": "LOW",
@@ -607,21 +657,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Contra: Senior Game Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Dallas cleaners, handymen, movers: I am building an app that sends you jobs, no lead fees, you keep your quote [$30/hr]",
-        "url": "https://www.reddit.com/r/forhire/comments/1xd2wyf/hiring_dallas_cleaners_handymen_movers_i_am/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 50,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Dallas cleaners, handymen, movers: I am building an app that sends you jobs, no lead fees, you keep your quote [$30/hr]\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
