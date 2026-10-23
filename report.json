@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T07:33:09.403501+00:00",
+  "generated_at": "2026-10-23T08:23:42.818938+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,52 +34,10 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 13,
+    "buyer_leads_found": 12,
     "human_review_required": true
   },
   "opportunities": [
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] AI Automation Developer | Claude Code, n8n, RAG | $24/hr",
-      "url": "https://www.reddit.com/r/forhire/comments/1xc9apt/for_hire_ai_automation_developer_claude_code_n8n/",
-      "published": "2026-10-22T04:47:35+00:00",
-      "snippet": "I build automations for small teams. Anthropic-certified, working mostly with Claude Code, n8n and Python. What I build: Claude Code agents that do a defined job and report what they did. n8n workflows that connect your tools and run on a schedule. RAG chatbots that answer from your own documents. Lead generation pipelines that find, check and log leads. Examples with public code: Lead generation system: https://github.com/tariqosmani/smai-leadgen RAG chatbot: https://github.com/tariqosmani/RAG_Chatbot Invoice automation: https://github.com/tariqosmani/Invoice-Automation Scrape-and-diff pipeline: https://github.com/tariqosmani/scrape-pipeline How I work: I start with one narrow workflow, show it working on your real examples, and agree what happens when it gets something wrong before it goes live. Fixed price per workflow or hourly, paid in USD. Timezone: Pakistan (UTC+5), 20+ hours per ",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 62,
-      "confidence": 0.77,
-      "automation_fit": 0.76,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "n8n",
-        "chatbot",
-        "lead generation",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "MEDIUM",
-        "opportunity_score": 61,
-        "estimated_value_eur": 24,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          24.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
     {
       "source": "We Work Remotely",
       "title": "Expel: Senior Detection & Response Engineer",
@@ -552,26 +510,11 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-23T07:33:09.448311+00:00",
+    "created_at": "2026-10-23T08:23:42.853762+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
     "drafts": [
-      {
-        "title": "[For Hire] AI Automation Developer | Claude Code, n8n, RAG | $24/hr",
-        "url": "https://www.reddit.com/r/forhire/comments/1xc9apt/for_hire_ai_automation_developer_claude_code_n8n/",
-        "priority": "MEDIUM",
-        "opportunity_score": 61,
-        "estimated_value_eur": 24,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] AI Automation Developer | Claude Code, n8n, RAG | $24/hr\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
       {
         "title": "Expel: Senior Detection & Response Engineer",
         "url": "https://weworkremotely.com/remote-jobs/expel-senior-detection-response-engineer",
@@ -703,6 +646,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Contra: Senior Game Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Dallas cleaners, handymen, movers: I am building an app that sends you jobs, no lead fees, you keep your quote [$30/hr]",
+        "url": "https://www.reddit.com/r/forhire/comments/1xd2wyf/hiring_dallas_cleaners_handymen_movers_i_am/",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 50,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Dallas cleaners, handymen, movers: I am building an app that sends you jobs, no lead fees, you keep your quote [$30/hr]\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
