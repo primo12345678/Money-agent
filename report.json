@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T23:18:10.286580+00:00",
+  "generated_at": "2026-10-23T00:16:35.389032+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -197,6 +197,46 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[Hiring] IT Support Virtual Assistant | Remote – US, Canada, UK, EU & Mexico | Starting at $200 USD/Up to $3000 USD/month",
+      "url": "https://www.reddit.com/r/forhire/comments/1xcyd2z/hiring_it_support_virtual_assistant_remote_us/",
+      "published": "2026-10-22T23:36:52+00:00",
+      "snippet": "I’m looking for a reliable virtual assistant to provide routine IT support. This is a fully remote, part-time position intended to become a long-term working arrangement. Responsibilities: Troubleshoot common software, browser, email, and connectivity issues. Gather error messages and document troubleshooting steps. Maintain brief support notes and follow up on unresolved issues. Escalate problems that require more advanced technical assistance. Requirements: Have a work laptop equipped with a working webcam and reliable internet. Comfortable troubleshooting everyday computer issues and explaining problems clearly. Dependable, organized, and able to follow written instructions. Location: Primarily seeking candidates currently residing in the United States, Canada, United Kingdom, Ireland, or the Netherlands . Residents of Mexico and other European Union countries will also be considered.",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_support",
+        "priority": "LOW",
+        "opportunity_score": 44,
+        "estimated_value_eur": 3000,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          200.0,
+          3000.0,
+          200.0,
+          3000.0
+        ],
+        "offer": {
+          "service": "AI customer-support automation",
+          "starter_price_eur": 200,
+          "target_price_eur": 500,
+          "premium_price_eur": 1200,
+          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[HIRING] Nominee Director - U.K. - £700",
       "url": "https://www.reddit.com/r/forhire/comments/1xcl8ne/hiring_nominee_director_uk_700/",
       "published": "2026-10-22T15:11:31+00:00",
@@ -223,43 +263,6 @@
           700.0,
           700.0
         ],
-        "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] Multi-Exit Technical Founder and Early Stage Engineer. I build frontier tech.",
-      "url": "https://www.reddit.com/r/forhire/comments/1xc05vp/for_hire_multiexit_technical_founder_and_early/",
-      "published": "2026-10-21T21:34:01+00:00",
-      "snippet": "Hello all! I have 14 years of experience in software engineering and early stage startups. I started working at NASA robotics, then I spent 12 years working exclusively at startups and small businesses. I&#39;ve been through multiple exits, built products with billions of dollars worth of financial transactions, started a PE fund, ran a successful agency, and advised entrepreneurs for years. I&#39;ve been a foundational part of over a dozen product launches. What makes me different is my business savvy as well as elite technical knowledge. I&#39;m the perfect counterpart for top tier entrepreneurs and CEOs. - I help founders on the first 1-2 years of a startup journey from pre-seed/MVP to traction, team building and scaling. - I help business owners implement agentic tools and frontier engineering into their ops, marketing, sales and product. - I train and advise entrepreneurs and teams ",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [
-        "full time"
-      ],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "lead_generation",
-        "priority": "LOW",
-        "opportunity_score": 39,
-        "estimated_value_eur": 750,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
         "offer": {
           "service": "AI lead generation and follow-up",
           "starter_price_eur": 300,
@@ -473,7 +476,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-22T23:18:10.329433+00:00",
+    "created_at": "2026-10-23T00:16:35.432438+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -539,6 +542,21 @@
         }
       },
       {
+        "title": "[Hiring] IT Support Virtual Assistant | Remote – US, Canada, UK, EU & Mexico | Starting at $200 USD/Up to $3000 USD/month",
+        "url": "https://www.reddit.com/r/forhire/comments/1xcyd2z/hiring_it_support_virtual_assistant_remote_us/",
+        "priority": "LOW",
+        "opportunity_score": 44,
+        "estimated_value_eur": 3000,
+        "offer": {
+          "subject": "Proposal: AI customer-support automation",
+          "price_eur": 500,
+          "starter_price_eur": 200,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] IT Support Virtual Assistant | Remote – US, Canada, UK, EU & Mexico | Starting at $200 USD/Up to $3000 USD/month\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "[HIRING] Nominee Director - U.K. - £700",
         "url": "https://www.reddit.com/r/forhire/comments/1xcl8ne/hiring_nominee_director_uk_700/",
         "priority": "LOW",
@@ -549,21 +567,6 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"[HIRING] Nominee Director - U.K. - £700\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[For Hire] Multi-Exit Technical Founder and Early Stage Engineer. I build frontier tech.",
-        "url": "https://www.reddit.com/r/forhire/comments/1xc05vp/for_hire_multiexit_technical_founder_and_early/",
-        "priority": "LOW",
-        "opportunity_score": 39,
-        "estimated_value_eur": 750,
-        "offer": {
-          "subject": "Proposal: AI lead generation and follow-up",
-          "price_eur": 750,
-          "starter_price_eur": 300,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Multi-Exit Technical Founder and Early Stage Engineer. I build frontier tech.\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
