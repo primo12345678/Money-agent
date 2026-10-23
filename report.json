@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T14:25:52.472593+00:00",
+  "generated_at": "2026-10-23T15:23:37.861892+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -195,38 +195,36 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[HIRING] Nominee Director - U.K. - £700",
-      "url": "https://www.reddit.com/r/forhire/comments/1xcl8ne/hiring_nominee_director_uk_700/",
-      "published": "2026-10-22T15:11:31+00:00",
-      "snippet": "I’m an American director of a UK limited company that sells on Amazon. Essentially Amazon has enforced HMRC VAT residency rules. If you’re a non resident, you don’t qualify to have your VAT paid at the time the return is due. Most of the sales from my business are VAT free items, but Amazon would remit VAT just in case to stay in compliance with HMRC due to residency requirements--this significantly hampers cash flow. In an effort to keep the cash flow the same as it is, I&#39;m seeking to appoint a UK Resident Nominee Director. Annual Appointment Fee paid would be £700 (One-time fee). Renewal would be likely at the same or higher rates (negotiable) Must be a U.K. resident KYC documents will be requested (UK photo card driving licence, utility bill, e.g.) Legal Agreement with Indemnity Clause would need to be signed (to protect Nominee Director from HMRC VAT obligations or any legal debt",
+      "title": "[Hiring] Remote AI Video Editor for Tech YouTube Channel | ₹10k–15k/month",
+      "url": "https://www.reddit.com/r/forhire/comments/1xdgtfi/hiring_remote_ai_video_editor_for_tech_youtube/",
+      "published": "2026-10-23T15:14:27+00:00",
+      "snippet": "I&#39;m looking for a self-driven AI video editor/content creator to help grow my personal brand in software engineering, AI, DSA, system design, and tech careers. Compensation: ₹10,000–₹15,000/month initially, with required AI tool subscriptions provided separately. Scope of work: End-to-end content creation, including topic research, scripting, AI avatar and voice generation using my authorized likeness, editing, captions, visuals, and final quality checks. Target output: I&#39;d eventually like to scale toward 8–10 long-form YouTube videos and 30–40 Shorts/Reels per month. This is a longer-term target, not an expectation from day one. We&#39;ll agree on realistic deliverables based on quality, production time, and the workflow we establish. Getting started: We&#39;ll begin with a paid two-week trial, with the payment, deliverables, deadlines, and revision limits agreed upon in advance",
       "lead_type": "potential_buyer_request",
       "buyer_intent_score": 25,
       "buyer_signals": [
         "[hiring]"
       ],
       "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
+      "score": 34,
+      "confidence": 0.49,
+      "automation_fit": 0.52,
       "matched_keywords": [
+        "workflow",
         "ai"
       ],
       "analysis": {
-        "category": "lead_generation",
+        "category": "ai_automation",
         "priority": "LOW",
-        "opportunity_score": 40,
-        "estimated_value_eur": 700,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          700.0,
-          700.0
-        ],
+        "opportunity_score": 43,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
         "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -465,7 +463,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-23T14:25:52.514344+00:00",
+    "created_at": "2026-10-23T15:23:37.911636+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -531,16 +529,16 @@
         }
       },
       {
-        "title": "[HIRING] Nominee Director - U.K. - £700",
-        "url": "https://www.reddit.com/r/forhire/comments/1xcl8ne/hiring_nominee_director_uk_700/",
+        "title": "[Hiring] Remote AI Video Editor for Tech YouTube Channel | ₹10k–15k/month",
+        "url": "https://www.reddit.com/r/forhire/comments/1xdgtfi/hiring_remote_ai_video_editor_for_tech_youtube/",
         "priority": "LOW",
-        "opportunity_score": 40,
-        "estimated_value_eur": 700,
+        "opportunity_score": 43,
+        "estimated_value_eur": 600,
         "offer": {
-          "subject": "Proposal: AI lead generation and follow-up",
-          "price_eur": 750,
-          "starter_price_eur": 300,
-          "message": "Hi,\n\nI saw your request about \"[HIRING] Nominee Director - U.K. - £700\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Remote AI Video Editor for Tech YouTube Channel | ₹10k–15k/month\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
