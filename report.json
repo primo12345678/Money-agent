@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T20:15:27.039350+00:00",
+  "generated_at": "2026-10-23T21:18:57.156715+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 12,
+    "buyer_leads_found": 14,
     "human_review_required": true
   },
   "opportunities": [
@@ -71,6 +71,42 @@
           "target_price_eur": 600,
           "premium_price_eur": 1500,
           "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] Experienced C#/.NET Developer Available for Freelance Work — Bug Fixes, APIs, SQL, React, and More",
+      "url": "https://www.reddit.com/r/forhire/comments/1xdpaul/for_hire_experienced_cnet_developer_available_for/",
+      "published": "2026-10-23T20:34:50+00:00",
+      "snippet": "Hey everyone! I&#39;m a software developer based in Missouri, and I&#39;ve been working professionally in the field for close to 10 years now. Most of my experience is with C#/.NET, ASP.NET, SQL Server, and REST APIs, though I&#39;ve also spent a fair amount of time working with React, TypeScript, and other web technologies. I&#39;ve worked on enterprise applications for companies like GEICO and CarShield, along with a handful of smaller projects of my own. I&#39;m currently looking to pick up some freelance work, particularly smaller projects or development tasks that someone needs help getting across the finish line. Maybe you&#39;ve got an application that&#39;s doing something it shouldn&#39;t, an API integration that&#39;s giving you trouble, a SQL query that&#39;s become a headache, or even a feature you&#39;ve been meaning to implement but just haven&#39;t had the time to tackle. ",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 34,
+      "confidence": 0.49,
+      "automation_fit": 0.52,
+      "matched_keywords": [
+        "api integration",
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 46,
+        "estimated_value_eur": 650,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -341,6 +377,42 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[For Hire] Devops engineer and cloud costs optimization(FinOps) .",
+      "url": "https://www.reddit.com/r/forhire/comments/1xdqd3i/for_hire_devops_engineer_and_cloud_costs/",
+      "published": "2026-10-23T21:17:41+00:00",
+      "snippet": "AI can write your code. It shouldn&#39;t have unrestricted access to your production environment or your billing, and neither should a stranger. Built your app and now it&#39;s time to ship it (or it&#39;s live and the hosting bill is climbing)? I&#39;m a DevOps/backend engineer who helps with exactly that stage. **Who this is for** Founders and solo builders whose app works, but who aren&#39;t sure the deployment is set up well, secure, or cheap to run. **What I do** * Diagnose first. I review your deployment pipeline, hosting setup, and billing and tell you what&#39;s wrong, what&#39;s risky, and what&#39;s costing you money. You keep your prod keys. I work from read-only access, exports, screenshots, or a call where you share your screen. I don&#39;t need to hold your production credentials. * Hosting cost creep. Vercel and similar platforms are great to start on, but bandwidth, serve",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 50,
+      "buyer_signals": [
+        "paying",
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[Hiring] On-camera presenters & UGC creators — paid shoots, ongoing work (Ireland, UK, US, English-speaking EU)",
       "url": "https://www.reddit.com/r/forhire/comments/1xdjx1j/hiring_oncamera_presenters_ugc_creators_paid/",
       "published": "2026-10-23T17:10:01+00:00",
@@ -501,7 +573,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-23T20:15:27.139939+00:00",
+    "created_at": "2026-10-23T21:18:57.207511+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -517,6 +589,21 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"Expel: Senior Detection & Response Engineer\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] Experienced C#/.NET Developer Available for Freelance Work — Bug Fixes, APIs, SQL, React, and More",
+        "url": "https://www.reddit.com/r/forhire/comments/1xdpaul/for_hire_experienced_cnet_developer_available_for/",
+        "priority": "LOW",
+        "opportunity_score": 46,
+        "estimated_value_eur": 650,
+        "offer": {
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Experienced C#/.NET Developer Available for Freelance Work — Bug Fixes, APIs, SQL, React, and More\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -627,8 +714,8 @@
         }
       },
       {
-        "title": "[Hiring] On-camera presenters & UGC creators — paid shoots, ongoing work (Ireland, UK, US, English-speaking EU)",
-        "url": "https://www.reddit.com/r/forhire/comments/1xdjx1j/hiring_oncamera_presenters_ugc_creators_paid/",
+        "title": "[For Hire] Devops engineer and cloud costs optimization(FinOps) .",
+        "url": "https://www.reddit.com/r/forhire/comments/1xdqd3i/for_hire_devops_engineer_and_cloud_costs/",
         "priority": "LOW",
         "opportunity_score": 35,
         "estimated_value_eur": 400,
@@ -636,22 +723,7 @@
           "subject": "Proposal: AI workflow improvement",
           "price_eur": 400,
           "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] On-camera presenters & UGC creators — paid shoots, ongoing work (Ireland, UK, US, English-speaking EU)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Contra: Senior 3D Designer",
-        "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Devops engineer and cloud costs optimization(FinOps) .\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
