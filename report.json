@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T16:24:32.795323+00:00",
+  "generated_at": "2026-10-23T17:19:48.185040+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -231,41 +231,6 @@
     },
     {
       "source": "We Work Remotely",
-      "title": "Fivetran : Enterprise Sales Director",
-      "url": "https://weworkremotely.com/remote-jobs/fivetran-enterprise-sales-director",
-      "published": "Fri, 16 Oct 2026 07:30:46 +0000",
-      "snippet": "Headquarters: Remote, Massachusetts, United States, AMER From Fivetran’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maintenance required. We’re proud that more organizations continue to leverage our technology every day to become truly data-driven. About Us Fivetran and dbt Labs are bringing together two industry-leading companies with a shared mission: helping organizations unlock the full value of their data. Together, we’re delivering the data infrastructure layer that helps organizations move, transform, and trust their data — from the moment data moves, through every transformation, to the context teams and AI systems rely on. Fivetran helps organizations automate data movement across the systems, clo",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "looking to hire"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "lead_generation",
-        "priority": "LOW",
-        "opportunity_score": 39,
-        "estimated_value_eur": 750,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
       "title": "AssemblyAI: Senior Research Engineer",
       "url": "https://weworkremotely.com/remote-jobs/assemblyai-senior-research-engineer",
       "published": "Sun, 04 Oct 2026 07:31:28 +0000",
@@ -332,6 +297,41 @@
           "target_price_eur": 500,
           "premium_price_eur": 1200,
           "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] On-camera presenters & UGC creators — paid shoots, ongoing work (Ireland, UK, US, English-speaking EU)",
+      "url": "https://www.reddit.com/r/forhire/comments/1xdjx1j/hiring_oncamera_presenters_ugc_creators_paid/",
+      "published": "2026-10-23T17:10:01+00:00",
+      "snippet": "We&#39;re an Ireland-based marketing and media agency launching a new production wing, and we&#39;re building a roster of on-camera talent for TV-standard field content, street interviews and UGC ads. The work covers our own brands, a new sports media brand (combat sports and horse racing), and client work. \\*\\*WHO WE&#39;RE LOOKING FOR\\*\\* Presenters / field hosts: confident with the public, quick on your feet, able to handle any personality off the cuff. Street interviews, event and raceday coverage, sit-down interviews. UGC creators: natural to-camera delivery for ads, especially if you&#39;re into padel, Pilates, fitness, wellness, combat sports or racing. \\*\\*WHERE\\*\\* You must be based in Ireland, the UK, the US, or an EU country with fluent, native-level English. Shoots happen in person in those locations. \\*\\*HOW IT WORKS\\*\\* \\\\- All shoots are paid, with rates based on experienc",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -463,7 +463,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-23T16:24:32.828584+00:00",
+    "created_at": "2026-10-23T17:19:48.337305+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -544,21 +544,6 @@
         }
       },
       {
-        "title": "Fivetran : Enterprise Sales Director",
-        "url": "https://weworkremotely.com/remote-jobs/fivetran-enterprise-sales-director",
-        "priority": "LOW",
-        "opportunity_score": 39,
-        "estimated_value_eur": 750,
-        "offer": {
-          "subject": "Proposal: AI lead generation and follow-up",
-          "price_eur": 750,
-          "starter_price_eur": 300,
-          "message": "Hi,\n\nI saw your request about \"Fivetran : Enterprise Sales Director\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "AssemblyAI: Senior Research Engineer",
         "url": "https://weworkremotely.com/remote-jobs/assemblyai-senior-research-engineer",
         "priority": "LOW",
@@ -584,6 +569,21 @@
           "price_eur": 500,
           "starter_price_eur": 200,
           "message": "Hi,\n\nI saw your request about \"[Hiring] Head of Fundraising & Investor Partnerships | Remote | Early-Stage AI Startup\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] On-camera presenters & UGC creators — paid shoots, ongoing work (Ireland, UK, US, English-speaking EU)",
+        "url": "https://www.reddit.com/r/forhire/comments/1xdjx1j/hiring_oncamera_presenters_ugc_creators_paid/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] On-camera presenters & UGC creators — paid shoots, ongoing work (Ireland, UK, US, English-speaking EU)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
