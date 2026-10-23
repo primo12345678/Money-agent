@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T02:18:25.613789+00:00",
+  "generated_at": "2026-10-23T03:20:24.852886+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 11,
+    "buyer_leads_found": 13,
     "human_review_required": true
   },
   "opportunities": [
@@ -309,6 +309,41 @@
       }
     },
     {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Looking for a Virtual Assistant",
+      "url": "https://www.reddit.com/r/forhire/comments/1xd2kng/hiring_looking_for_a_virtual_assistant/",
+      "published": "2026-10-23T02:58:57+00:00",
+      "snippet": "Hey everyone, I’m currently looking for a reliable virtual assistant to help support my YouTube channels. The role mainly involves finding engaging clips from TikTok for different video niches, organizing the content, and helping promote and share videos across social media platforms such as Facebook and X. This is a fully remote position, and I’m looking for someone who is reliable, detail-oriented, easy to communicate with, and QUICK to respond during work times. No previous experience is required, although knowledge or experience with promoting and sharing videos on social media is a plus. There will be a paid trial to make sure it’s a good fit for both of us. If you’re interested, please send me a message with your availability (in EST) and your hourly rate (in CAD). Will not respond to “interested” only messages. &#32; submitted by &#32; /u/TopDevelopment7651 [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_support",
+        "priority": "LOW",
+        "opportunity_score": 37,
+        "estimated_value_eur": 500,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI customer-support automation",
+          "starter_price_eur": 200,
+          "target_price_eur": 500,
+          "premium_price_eur": 1200,
+          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
       "source": "We Work Remotely",
       "title": "Contra: Senior 3D Designer",
       "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
@@ -372,6 +407,45 @@
         "estimated_value_eur": 400,
         "value_basis": "Service-band estimate; not a quoted budget",
         "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Dallas cleaners, handymen, movers: I am building an app that sends you jobs, no lead fees, you keep your quote [$30/hr]",
+      "url": "https://www.reddit.com/r/forhire/comments/1xd2wyf/hiring_dallas_cleaners_handymen_movers_i_am/",
+      "published": "2026-10-23T03:15:34+00:00",
+      "snippet": "I’m building an iPhone app called Skiltap and I’m looking for people around Dallas who do cleaning, handyman work, moving, repairs or pretty much any kind of local service. One thing I’ve noticed is how much money people end up spending on these service platforms without even knowing if they’ll get any actual work out of it. Some charge you just to contact a customer, and you could spend $50 on leads and not land a single job. That’s one of the main reasons I started building this. The idea is pretty simple. Customers post what they need done, you send them a quote and if they pick you, they pay through the app. The payment is held until the job is completed and confirmed so you’re not stuck chasing someone for money afterward. Signing up is free, there’s no monthly subscription and I’m also giving every new pro their first 5 quotes completely free. You can try the app, browse available ",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 50,
+      "buyer_signals": [
+        "paying",
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 50,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          30.0,
+          50.0
+        ],
         "offer": {
           "service": "AI workflow improvement",
           "starter_price_eur": 150,
@@ -476,7 +550,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-23T02:18:25.657951+00:00",
+    "created_at": "2026-10-23T03:20:24.885555+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -587,6 +661,21 @@
         }
       },
       {
+        "title": "[Hiring] Looking for a Virtual Assistant",
+        "url": "https://www.reddit.com/r/forhire/comments/1xd2kng/hiring_looking_for_a_virtual_assistant/",
+        "priority": "LOW",
+        "opportunity_score": 37,
+        "estimated_value_eur": 500,
+        "offer": {
+          "subject": "Proposal: AI customer-support automation",
+          "price_eur": 500,
+          "starter_price_eur": 200,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Looking for a Virtual Assistant\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "Contra: Senior 3D Designer",
         "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
         "priority": "LOW",
@@ -612,21 +701,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Contra: Senior Game Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Web Developer Needed to Build a Website — $50 Budget",
-        "url": "https://www.reddit.com/r/forhire/comments/1xcb5t2/hiring_web_developer_needed_to_build_a_website_50/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 50,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Web Developer Needed to Build a Website — $50 Budget\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
