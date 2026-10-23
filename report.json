@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T13:29:48.627654+00:00",
+  "generated_at": "2026-10-23T14:25:52.472593+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 12,
+    "buyer_leads_found": 11,
     "human_review_required": true
   },
   "opportunities": [
@@ -450,47 +450,6 @@
         },
         "human_approval_required": true
       }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For hire] Need help with school essays, projects, or resume building?",
-      "url": "https://www.reddit.com/r/forhire/comments/1xckn26/for_hire_need_help_with_school_essays_projects_or/",
-      "published": "2026-10-22T14:48:49+00:00",
-      "snippet": "💻 AFFORDABLE WRITING, EDITING &amp; RESUME SERVICES! 💻📚 Need help with APA formatting, proofreading an essay, creating a resume, or writing a professional cover letter? I’m offering affordable, friendly writing and document assistance! 📖 ACADEMIC &amp; STUDENT SERVICES ✏️ Essay proofreading &amp; editing —** $5/page ✏️ APA 7th edition formatting — Starting at $10 ✏️ In-text citations &amp; reference pages — $10–$20 ✏️ Essay structure &amp; organization help — Starting at $15 ✏️ Grammar &amp; spelling corrections — $5/page ✏️ Assignment guidance &amp; feedback — Starting at $15 ✏️ Microsoft Word formatting — Starting at $1**0 💼 RESUME &amp; EMPLOYMENT SERVICES 📄 Resume updates &amp; improvements — $15 📄 Resume built from scratch — $25 📄 Professional cover letters — $15 📄 Resume proofreading &amp; formatting — $10 📄 Job application assistance — Starting at $10 🌟 SPECIAL PACKAGE DEALS! 🌟 🎓 ",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "need help with"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 25,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          5.0,
-          10.0,
-          10.0,
-          20.0,
-          15.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
     }
   ],
   "errors": [
@@ -506,7 +465,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-23T13:29:48.659871+00:00",
+    "created_at": "2026-10-23T14:25:52.514344+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
