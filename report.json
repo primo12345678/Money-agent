@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T07:27:02.266485+00:00",
+  "generated_at": "2026-10-24T08:16:03.120693+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 12,
+    "buyer_leads_found": 13,
     "human_review_required": true
   },
   "opportunities": [
@@ -149,6 +149,42 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[FOR HIRE] Full-Stack Web & App Developer | Bring Me Your Idea, I’ll Build It | Only 5 Projects.",
+      "url": "https://www.reddit.com/r/forhire/comments/1xe2cwl/for_hire_fullstack_web_app_developer_bring_me/",
+      "published": "2026-10-24T07:31:32+00:00",
+      "snippet": "I’ve opened up slots for 5 new projects and I’m looking for people with ideas they want to turn into real products. Have an idea for a SaaS, a web app, a mobile app, a marketplace, an AI-powered tool, or something more complicated? Bring it to me. I’ll work with you to build it. I’m not limited to landing pages and basic websites. Here are some things I’ve actually built: WorkSquare ( worksquare.co ) : A career platform with an ML-based feed, a full messaging system with features you’d expect from a dedicated messenger, a working karma and reputation engine, and voice-based AI interview preparation. Play store link Nymph : Built the complete frontend for a popular dating app. TradeFlock ( tradeflock.net ) : Built a fully automated news platform with no content writers or reporters. Other SaaS projects : Including integrated booking systems for dental clinics and other custom business app",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "want to build"
+      ],
+      "employment_signals": [],
+      "score": 34,
+      "confidence": 0.49,
+      "automation_fit": 0.52,
+      "matched_keywords": [
+        "ai integration",
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 43,
+        "estimated_value_eur": 650,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[HIRING] Senior Linux Systems Administrator - Huntsville, AL - Secret Clearance",
       "url": "https://www.reddit.com/r/forhire/comments/1xds0xy/hiring_senior_linux_systems_administrator/",
       "published": "2026-10-23T22:27:28+00:00",
@@ -221,6 +257,46 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[Hiring] High Ticket Closer | 10-15% commission | $3k-$8k/month retainers | Remote, US/EU hours",
+      "url": "https://www.reddit.com/r/forhire/comments/1xe2yy1/hiring_high_ticket_closer_1015_commission/",
+      "published": "2026-10-24T08:09:40+00:00",
+      "snippet": "We’re FH, a content and growth agency for clinics and founders. We have warm, inbound leads and need an experienced closer to turn them into retainer clients. The role Deal size: $3,000 to $8,000 per month Commission: 10 to 15% of cash collected Leads: 6 booked calls a week now, growing to 10+ Fully remote, US or EU business hours You Proven high ticket closing experience, ideally B2B or agency services Comfortable with discovery-led calls, not pushy scripts Reliable and fast on follow-ups Must have solid american accent or you should be must from europe/USA To apply, DM me with: Your track record: what you’ve sold, deal size, cash collected, close rate A 2-minute Loom on how you’d handle “I need to think about it” Serious, experienced closers only. &#32; submitted by &#32; /u/TurnCareful6104 [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 42,
+        "estimated_value_eur": 8000,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          3.0,
+          8.0,
+          3000.0,
+          8000.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[HIRING] Truckers Wanted ASAP",
       "url": "https://www.reddit.com/r/forhire/comments/1xdlotu/hiring_truckers_wanted_asap/",
       "published": "2026-10-23T18:16:48+00:00",
@@ -253,43 +329,6 @@
           "target_price_eur": 400,
           "premium_price_eur": 1000,
           "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "AssemblyAI: Senior Research Engineer",
-      "url": "https://weworkremotely.com/remote-jobs/assemblyai-senior-research-engineer",
-      "published": "Sun, 04 Oct 2026 07:31:28 +0000",
-      "snippet": "Headquarters: Remote Why AssemblyAI AssemblyAI builds the best-in-class Voice AI models powering the next generation of voice applications. Our models serve 600M+ inference calls monthly, process 1M+ hours of audio daily, and power 2 billion+ end-user experiences. The Voice AI space is at an inflection point; we’re looking for folks truly excited to join a small team and help define the future of the industry. We are one of the most capital-efficient AI companies on the planet - with under 100 people generating roughly $600K ARR per employee, we sit among the top 5 most revenue-dense teams within the fastest-growing AI companies today. That's not an accident; it's a deliberate choice to stay lean, move fast, and give every person on the team outsized ownership and impact. With thousands of customers including Granola, Fireflies, Figure AI, and CallRail, the company has real scale - proce",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "paying"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "LOW",
-        "opportunity_score": 38,
-        "estimated_value_eur": 600,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          600.0
-        ],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -488,7 +527,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-24T07:27:02.300402+00:00",
+    "created_at": "2026-10-24T08:16:03.189415+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -539,6 +578,21 @@
         }
       },
       {
+        "title": "[FOR HIRE] Full-Stack Web & App Developer | Bring Me Your Idea, I’ll Build It | Only 5 Projects.",
+        "url": "https://www.reddit.com/r/forhire/comments/1xe2cwl/for_hire_fullstack_web_app_developer_bring_me/",
+        "priority": "LOW",
+        "opportunity_score": 43,
+        "estimated_value_eur": 650,
+        "offer": {
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[FOR HIRE] Full-Stack Web & App Developer | Bring Me Your Idea, I’ll Build It | Only 5 Projects.\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "[HIRING] Senior Linux Systems Administrator - Huntsville, AL - Secret Clearance",
         "url": "https://www.reddit.com/r/forhire/comments/1xds0xy/hiring_senior_linux_systems_administrator/",
         "priority": "LOW",
@@ -569,6 +623,21 @@
         }
       },
       {
+        "title": "[Hiring] High Ticket Closer | 10-15% commission | $3k-$8k/month retainers | Remote, US/EU hours",
+        "url": "https://www.reddit.com/r/forhire/comments/1xe2yy1/hiring_high_ticket_closer_1015_commission/",
+        "priority": "LOW",
+        "opportunity_score": 42,
+        "estimated_value_eur": 8000,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] High Ticket Closer | 10-15% commission | $3k-$8k/month retainers | Remote, US/EU hours\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "[HIRING] Truckers Wanted ASAP",
         "url": "https://www.reddit.com/r/forhire/comments/1xdlotu/hiring_truckers_wanted_asap/",
         "priority": "LOW",
@@ -579,21 +648,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[HIRING] Truckers Wanted ASAP\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "AssemblyAI: Senior Research Engineer",
-        "url": "https://weworkremotely.com/remote-jobs/assemblyai-senior-research-engineer",
-        "priority": "LOW",
-        "opportunity_score": 38,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"AssemblyAI: Senior Research Engineer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -624,21 +678,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Devops engineer and cloud costs optimization(FinOps) .\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] On-camera presenters & UGC creators — paid shoots, ongoing work (Ireland, UK, US, English-speaking EU)",
-        "url": "https://www.reddit.com/r/forhire/comments/1xdjx1j/hiring_oncamera_presenters_ugc_creators_paid/",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] On-camera presenters & UGC creators — paid shoots, ongoing work (Ireland, UK, US, English-speaking EU)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
