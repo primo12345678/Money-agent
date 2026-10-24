@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T15:14:39.363201+00:00",
+  "generated_at": "2026-10-24T16:14:50.125578+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 14,
+    "buyer_leads_found": 13,
     "human_review_required": true
   },
   "opportunities": [
@@ -368,41 +368,6 @@
       }
     },
     {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] On-camera presenters & UGC creators — paid shoots, ongoing work (Ireland, UK, US, English-speaking EU)",
-      "url": "https://www.reddit.com/r/forhire/comments/1xdjx1j/hiring_oncamera_presenters_ugc_creators_paid/",
-      "published": "2026-10-23T17:10:01+00:00",
-      "snippet": "We&#39;re an Ireland-based marketing and media agency launching a new production wing, and we&#39;re building a roster of on-camera talent for TV-standard field content, street interviews and UGC ads. The work covers our own brands, a new sports media brand (combat sports and horse racing), and client work. \\*\\*WHO WE&#39;RE LOOKING FOR\\*\\* Presenters / field hosts: confident with the public, quick on your feet, able to handle any personality off the cuff. Street interviews, event and raceday coverage, sit-down interviews. UGC creators: natural to-camera delivery for ads, especially if you&#39;re into padel, Pilates, fitness, wellness, combat sports or racing. \\*\\*WHERE\\*\\* You must be based in Ireland, the UK, the US, or an EU country with fluent, native-level English. Shoots happen in person in those locations. \\*\\*HOW IT WORKS\\*\\* \\\\- All shoots are paid, with rates based on experienc",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "We Work Remotely",
       "title": "Contra: Senior 3D Designer",
       "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
@@ -565,7 +530,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-24T15:14:39.411078+00:00",
+    "created_at": "2026-10-24T16:14:50.167566+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -706,8 +671,8 @@
         }
       },
       {
-        "title": "[Hiring] On-camera presenters & UGC creators — paid shoots, ongoing work (Ireland, UK, US, English-speaking EU)",
-        "url": "https://www.reddit.com/r/forhire/comments/1xdjx1j/hiring_oncamera_presenters_ugc_creators_paid/",
+        "title": "Contra: Senior 3D Designer",
+        "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
         "priority": "LOW",
         "opportunity_score": 35,
         "estimated_value_eur": 400,
@@ -715,7 +680,7 @@
           "subject": "Proposal: AI workflow improvement",
           "price_eur": 400,
           "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] On-camera presenters & UGC creators — paid shoots, ongoing work (Ireland, UK, US, English-speaking EU)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
