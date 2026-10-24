@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T20:09:05.015277+00:00",
+  "generated_at": "2026-10-24T21:13:17.805651+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 14,
+    "buyer_leads_found": 12,
     "human_review_required": true
   },
   "opportunities": [
@@ -114,42 +114,6 @@
       }
     },
     {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] Experienced C#/.NET Developer Available for Freelance Work — Bug Fixes, APIs, SQL, React, and More",
-      "url": "https://www.reddit.com/r/forhire/comments/1xdpaul/for_hire_experienced_cnet_developer_available_for/",
-      "published": "2026-10-23T20:34:50+00:00",
-      "snippet": "Hey everyone! I&#39;m a software developer based in Missouri, and I&#39;ve been working professionally in the field for close to 10 years now. Most of my experience is with C#/.NET, ASP.NET, SQL Server, and REST APIs, though I&#39;ve also spent a fair amount of time working with React, TypeScript, and other web technologies. I&#39;ve worked on enterprise applications for companies like GEICO and CarShield, along with a handful of smaller projects of my own. I&#39;m currently looking to pick up some freelance work, particularly smaller projects or development tasks that someone needs help getting across the finish line. Maybe you&#39;ve got an application that&#39;s doing something it shouldn&#39;t, an API integration that&#39;s giving you trouble, a SQL query that&#39;s become a headache, or even a feature you&#39;ve been meaning to implement but just haven&#39;t had the time to tackle. ",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 34,
-      "confidence": 0.49,
-      "automation_fit": 0.52,
-      "matched_keywords": [
-        "api integration",
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "LOW",
-        "opportunity_score": 46,
-        "estimated_value_eur": 650,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "We Work Remotely",
       "title": "Twikey: Senior Java Developer",
       "url": "https://weworkremotely.com/remote-jobs/twikey-senior-java-developer",
@@ -217,114 +181,6 @@
           "target_price_eur": 650,
           "premium_price_eur": 1600,
           "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[HIRING] Senior Linux Systems Administrator - Huntsville, AL - Secret Clearance",
-      "url": "https://www.reddit.com/r/forhire/comments/1xds0xy/hiring_senior_linux_systems_administrator/",
-      "published": "2026-10-23T22:27:28+00:00",
-      "snippet": "unofficial estimate: 100-150K Title: Senior Linux Systems Administrator At KBR, we deliver science, technology and engineering solutions to governments and companies around the world. KBR employs approximately 37,000 people worldwide with customers in more than 85 countries and operations in over 28 countries. KBR is proud to work with its customers across the globe to provide technology, value-added services, and long-term operations and maintenance services to ensure consistent delivery with predictable results. Trinzic is the future independent company to be created through the planned spin-off of KBR&#39;s Mission Technology Solutions business, expected in January 2027. Our people work at the frontier of what is possible, delivering solutions in challenging environments and advancing some of the world&#39;s highest-priority national security and space missions. Backed by decades of m",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 34,
-      "confidence": 0.49,
-      "automation_fit": 0.52,
-      "matched_keywords": [
-        "automation",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 43,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[HIRING] Senior Infrastructure Engineer - Huntsville AL - Secret Clearance",
-      "url": "https://www.reddit.com/r/forhire/comments/1xdry7y/hiring_senior_infrastructure_engineer_huntsville/",
-      "published": "2026-10-23T22:23:58+00:00",
-      "snippet": "unofficial estimate: 100-150K Title: Senior Infrastructure Engineer At KBR, we deliver science, technology and engineering solutions to governments and companies around the world. KBR employs approximately 37,000 people worldwide with customers in more than 85 countries and operations in over 28 countries. KBR is proud to work with its customers across the globe to provide technology, value-added services, and long-term operations and maintenance services to ensure consistent delivery with predictable results. Trinzic is the future independent company to be created through the planned spin-off of KBR&#39;s Mission Technology Solutions business, expected in January 2027. Our people work at the frontier of what is possible, delivering solutions in challenging environments and advancing some of the world&#39;s highest-priority national security and space missions. Backed by decades of missi",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 34,
-      "confidence": 0.49,
-      "automation_fit": 0.52,
-      "matched_keywords": [
-        "automation",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 43,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] Devops engineer and cloud costs optimization(FinOps) .",
-      "url": "https://www.reddit.com/r/forhire/comments/1xdqd3i/for_hire_devops_engineer_and_cloud_costs/",
-      "published": "2026-10-23T21:17:41+00:00",
-      "snippet": "AI can write your code. It shouldn&#39;t have unrestricted access to your production environment or your billing, and neither should a stranger. Built your app and now it&#39;s time to ship it (or it&#39;s live and the hosting bill is climbing)? I&#39;m a DevOps/backend engineer who helps with exactly that stage. **Who this is for** Founders and solo builders whose app works, but who aren&#39;t sure the deployment is set up well, secure, or cheap to run. **What I do** * Diagnose first. I review your deployment pipeline, hosting setup, and billing and tell you what&#39;s wrong, what&#39;s risky, and what&#39;s costing you money. You keep your prod keys. I work from read-only access, exports, screenshots, or a call where you share your screen. I don&#39;t need to hold your production credentials. * Hosting cost creep. Vercel and similar platforms are great to start on, but bandwidth, serve",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 50,
-      "buyer_signals": [
-        "paying",
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -519,6 +375,80 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[FOR HIRE] Senior engineer: I fix and secure apps built with AI or left behind by an agency | Laravel, React, React Native | $50/hr",
+      "url": "https://www.reddit.com/r/forhire/comments/1xdyn6f/for_hire_senior_engineer_i_fix_and_secure_apps/",
+      "published": "2026-10-24T03:57:15+00:00",
+      "snippet": "Who I am I&#39;m Alan, a senior full-stack engineer and fractional CTO. 9+ years shipping products for funded startups, from MVP to production. You work directly with me. Who I help Founders whose app is live but nobody really knows how it&#39;s built: it was vibe-coded with Lovable, Bolt or Cursor, or the agency that built it disappeared. Every change breaks something and security is a guess. What I do Security &amp; code review, fixed price: a plain answer to &quot;does my app hold up and what do I fix first&quot;, with a findings report and a call. Fixes and features on the code you already have, before anyone talks about a rewrite. Ongoing maintenance so it stays up and patched. Stack: Laravel, React / Next.js, React Native / Expo, Node, PostgreSQL / MySQL, Stripe, AWS / Cloudflare / Docker, and AI features (Claude / OpenAI). Proof Portfolio and case studies: https://alanmaccormack.c",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 50,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          50.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] Medical student available for research assistance, literature reviews, and data analysis ($20/hr)",
+      "url": "https://www.reddit.com/r/forhire/comments/1xeir21/for_hire_medical_student_available_for_research/",
+      "published": "2026-10-24T20:18:11+00:00",
+      "snippet": "Hi! I&#39;m a fifth-year medical student based in Thailand, and I&#39;m looking to take on some freelance research work. I&#39;ve been involved in several research projects over the past few years, mostly in clinical medicine, epidemiology, and machine learning. I&#39;ve worked with clinical datasets, statistical models, medical imaging, and scientific manuscripts. I can help with literature searches (PubMed, Google Scholar), screening papers, extracting data for systematic reviews, and organizing references. I also do statistical analysis in Python, including data cleaning, regression, and visualization. If you&#39;re working on a manuscript, I can help with proofreading, editing abstracts, formatting tables and figures, or checking references. I&#39;m also comfortable writing Python scripts for research tasks that would otherwise take hours to do manually. Most of my experience is in m",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 20,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          20.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[HIRING] Remote Data Research Assistant - $15/hr",
       "url": "https://www.reddit.com/r/forhire/comments/1xeezga/hiring_remote_data_research_assistant_15hr/",
       "published": "2026-10-24T17:46:40+00:00",
@@ -569,7 +499,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-24T20:09:05.055069+00:00",
+    "created_at": "2026-10-24T21:13:17.855017+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -605,21 +535,6 @@
         }
       },
       {
-        "title": "[For Hire] Experienced C#/.NET Developer Available for Freelance Work — Bug Fixes, APIs, SQL, React, and More",
-        "url": "https://www.reddit.com/r/forhire/comments/1xdpaul/for_hire_experienced_cnet_developer_available_for/",
-        "priority": "LOW",
-        "opportunity_score": 46,
-        "estimated_value_eur": 650,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Experienced C#/.NET Developer Available for Freelance Work — Bug Fixes, APIs, SQL, React, and More\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "Twikey: Senior Java Developer",
         "url": "https://weworkremotely.com/remote-jobs/twikey-senior-java-developer",
         "priority": "LOW",
@@ -650,51 +565,6 @@
         }
       },
       {
-        "title": "[HIRING] Senior Linux Systems Administrator - Huntsville, AL - Secret Clearance",
-        "url": "https://www.reddit.com/r/forhire/comments/1xds0xy/hiring_senior_linux_systems_administrator/",
-        "priority": "LOW",
-        "opportunity_score": 43,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[HIRING] Senior Linux Systems Administrator - Huntsville, AL - Secret Clearance\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[HIRING] Senior Infrastructure Engineer - Huntsville AL - Secret Clearance",
-        "url": "https://www.reddit.com/r/forhire/comments/1xdry7y/hiring_senior_infrastructure_engineer_huntsville/",
-        "priority": "LOW",
-        "opportunity_score": 43,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[HIRING] Senior Infrastructure Engineer - Huntsville AL - Secret Clearance\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[For Hire] Devops engineer and cloud costs optimization(FinOps) .",
-        "url": "https://www.reddit.com/r/forhire/comments/1xdqd3i/for_hire_devops_engineer_and_cloud_costs/",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Devops engineer and cloud costs optimization(FinOps) .\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "Contra: Senior 3D Designer",
         "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
         "priority": "LOW",
@@ -720,6 +590,66 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Contra: Senior Game Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] We handle your entire IT Infrastructure, Device Management & Security for less than the cost of 1 Junior Tech",
+        "url": "https://www.reddit.com/r/forhire/comments/1xe77gj/for_hire_we_handle_your_entire_it_infrastructure/",
+        "priority": "LOW",
+        "opportunity_score": 34,
+        "estimated_value_eur": 100,
+        "offer": {
+          "subject": "Proposal: AI customer-support automation",
+          "price_eur": 500,
+          "starter_price_eur": 200,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] We handle your entire IT Infrastructure, Device Management & Security for less than the cost of 1 Junior Tech\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] English to Japanese translation of manga",
+        "url": "https://www.reddit.com/r/forhire/comments/1xe7uwq/hiring_english_to_japanese_translation_of_manga/",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 150,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] English to Japanese translation of manga\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[FOR HIRE] 3D Artist/ Available for jobs!",
+        "url": "https://www.reddit.com/r/forhire/comments/1xeh4mr/for_hire_3d_artist_available_for_jobs/",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 15,
+        "offer": {
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[FOR HIRE] 3D Artist/ Available for jobs!\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[FOR HIRE] Senior engineer: I fix and secure apps built with AI or left behind by an agency | Laravel, React, React Native | $50/hr",
+        "url": "https://www.reddit.com/r/forhire/comments/1xdyn6f/for_hire_senior_engineer_i_fix_and_secure_apps/",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 50,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[FOR HIRE] Senior engineer: I fix and secure apps built with AI or left behind by an agency | Laravel, React, React Native | $50/hr\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
