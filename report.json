@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T17:15:09.127925+00:00",
+  "generated_at": "2026-10-24T18:11:45.664475+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -295,44 +295,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[HIRING] Truckers Wanted ASAP",
-      "url": "https://www.reddit.com/r/forhire/comments/1xdlotu/hiring_truckers_wanted_asap/",
-      "published": "2026-10-23T18:16:48+00:00",
-      "snippet": "&#x200B; NOW HIRING! BASED IN THE US 🇺🇲 ONLY! DRIVERS MUST BE ABLE TO DRIVE ONE OF THESE: 🚛 Tractor trailer mostly 53ft Dry van Reefer Flatbed Containers PAY: 💰 $34.35/ HOUR 💵 Over $1,350.54/ WEEKLY AVERAGE 🎁 BENEFITS INCLUDED REQUIREMENTS : Must be able to do a DOT drug test. 6+ months experience Are you Interested? 💬 DM ME FOR MORE INFO. &#32; submitted by &#32; /u/Gloomy_Status_7621 [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 42,
-        "estimated_value_eur": 1351,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          34.35,
-          1350.54
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[For Hire] Devops engineer and cloud costs optimization(FinOps) .",
       "url": "https://www.reddit.com/r/forhire/comments/1xdqd3i/for_hire_devops_engineer_and_cloud_costs/",
       "published": "2026-10-23T21:17:41+00:00",
@@ -515,6 +477,44 @@
         },
         "human_approval_required": true
       }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[HIRING] Remote Data Research Assistant - $15/hr",
+      "url": "https://www.reddit.com/r/forhire/comments/1xeezga/hiring_remote_data_research_assistant_15hr/",
+      "published": "2026-10-24T17:46:40+00:00",
+      "snippet": "I&#39;m looking for a few individuals to help with straightforward online research and data management tasks. The work is beginner-friendly and doesn&#39;t require any specific qualifications. Responsibilities include: Gathering information from websites Inputting data into spreadsheets Sorting and verifying information Compiling details from online sources Completing basic administrative tasks Requirements: Basic computer and internet skills Good attention to detail Reliable internet access Ability to work independently and follow instructions No previous experience needed This is a fully remote opportunity with flexible working hours. Compensation: $15 per hour &#32; submitted by &#32; /u/mrbalkannn [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 15,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          15.0,
+          15.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     }
   ],
   "errors": [
@@ -530,7 +530,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-24T17:15:09.159825+00:00",
+    "created_at": "2026-10-24T18:11:45.713931+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -641,21 +641,6 @@
         }
       },
       {
-        "title": "[HIRING] Truckers Wanted ASAP",
-        "url": "https://www.reddit.com/r/forhire/comments/1xdlotu/hiring_truckers_wanted_asap/",
-        "priority": "LOW",
-        "opportunity_score": 42,
-        "estimated_value_eur": 1351,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[HIRING] Truckers Wanted ASAP\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "[For Hire] Devops engineer and cloud costs optimization(FinOps) .",
         "url": "https://www.reddit.com/r/forhire/comments/1xdqd3i/for_hire_devops_engineer_and_cloud_costs/",
         "priority": "LOW",
@@ -681,6 +666,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Contra: Senior Game Designer",
+        "url": "https://weworkremotely.com/remote-jobs/contra-senior-game-designer",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"Contra: Senior Game Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
