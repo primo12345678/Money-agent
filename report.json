@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T18:11:45.664475+00:00",
+  "generated_at": "2026-10-24T19:16:05.997559+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 13,
+    "buyer_leads_found": 14,
     "human_review_required": true
   },
   "opportunities": [
@@ -480,6 +480,45 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[FOR HIRE] 3D Artist/ Available for jobs!",
+      "url": "https://www.reddit.com/r/forhire/comments/1xeh4mr/for_hire_3d_artist_available_for_jobs/",
+      "published": "2026-10-24T19:11:48+00:00",
+      "snippet": "Hello! I’m David, a 3D Artist — and I’m excited to announce that I’m open for commissions and collaborations! With over three years of professional experience in 3D modeling, texturing, and rendering, I specialize in both hard surface and organic modeling, across stylized and realistic style. Since 2019, I’ve worked as a freelancer and contractor, creating characters, props, and miniatures for animations, video games, and 3D printing . Here’s what I can do for you: 3D Miniatures for Printing 3D Models for Cosplay Characters for Videogames/Animation (Game-ready) Retopology &amp; UV Mapping Hand-Painted &amp; PBR Texturing Integration in Unity / Unreal Engine Character &amp; Prop Lighting Rendering I’m available for part-time, full-time, or freelance work My rates are $15/hour or a fixed price depending on the project. Payment methods: Crypto, Payoneer, Xoom, Bank Transfer (US) or Paypal C",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [
+        "full-time"
+      ],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 15,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          15.0
+        ],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[HIRING] Remote Data Research Assistant - $15/hr",
       "url": "https://www.reddit.com/r/forhire/comments/1xeezga/hiring_remote_data_research_assistant_15hr/",
       "published": "2026-10-24T17:46:40+00:00",
@@ -530,7 +569,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-24T18:11:45.713931+00:00",
+    "created_at": "2026-10-24T19:16:06.031590+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
