@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T08:16:03.120693+00:00",
+  "generated_at": "2026-10-24T09:15:59.675406+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,10 +34,48 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 13,
+    "buyer_leads_found": 14,
     "human_review_required": true
   },
   "opportunities": [
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] Custom business software & automation – internal platforms, SaaS, AI workflows",
+      "url": "https://www.reddit.com/r/forhire/comments/1xe3cej/for_hire_custom_business_software_automation/",
+      "published": "2026-10-24T08:33:06+00:00",
+      "snippet": "I&#39;ve run a small creative and digital agency since 2022. Along the way I built our own internal platform because nothing on the market fit how we work, and now I build the same kind of tools for other businesses: internal platforms, custom SaaS and automations, designed around your workflow instead of being forced to pay 10 different business to get what you need to run your company. Here are some of the systems and features I&#39;ve built into one platform. Need just one of them? I can build it for you as a standalone tool. Want the whole platform? Choose one of three subscription plans, so you and your team get exactly what you need at a price that fits your budget. Internal platforms / custom SaaS – for any business - Client management (CRM) with pipeline, follow-ups and dashboards - Team chat with channels, private messages and announcements - Shared e-mail inboxes with templates",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "want to build"
+      ],
+      "employment_signals": [],
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "automation",
+        "workflow",
+        "crm",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 54,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
     {
       "source": "We Work Remotely",
       "title": "Expel: Senior Detection & Response Engineer",
@@ -527,11 +565,26 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-24T08:16:03.189415+00:00",
+    "created_at": "2026-10-24T09:15:59.760715+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
     "drafts": [
+      {
+        "title": "[For Hire] Custom business software & automation – internal platforms, SaaS, AI workflows",
+        "url": "https://www.reddit.com/r/forhire/comments/1xe3cej/for_hire_custom_business_software_automation/",
+        "priority": "LOW",
+        "opportunity_score": 54,
+        "estimated_value_eur": 600,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Custom business software & automation – internal platforms, SaaS, AI workflows\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
       {
         "title": "Expel: Senior Detection & Response Engineer",
         "url": "https://weworkremotely.com/remote-jobs/expel-senior-detection-response-engineer",
@@ -663,21 +716,6 @@
           "price_eur": 500,
           "starter_price_eur": 200,
           "message": "Hi,\n\nI saw your request about \"[Hiring] Head of Fundraising & Investor Partnerships | Remote | Early-Stage AI Startup\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[For Hire] Devops engineer and cloud costs optimization(FinOps) .",
-        "url": "https://www.reddit.com/r/forhire/comments/1xdqd3i/for_hire_devops_engineer_and_cloud_costs/",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Devops engineer and cloud costs optimization(FinOps) .\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
