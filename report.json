@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T10:14:57.908233+00:00",
+  "generated_at": "2026-10-25T11:14:44.237438+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 11,
+    "buyer_leads_found": 10,
     "human_review_required": true
   },
   "opportunities": [
@@ -217,44 +217,6 @@
           200.0,
           200.0,
           50.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] English to Japanese translation of manga",
-      "url": "https://www.reddit.com/r/forhire/comments/1xe7uwq/hiring_english_to_japanese_translation_of_manga/",
-      "published": "2026-10-24T12:51:32+00:00",
-      "snippet": "Hello! I am looking for a translator who can translate my manga into Japanese! I’m hoping to share my manga to Japanese audiences and make it popular over in Japan so if you are good at translating in Japanese or are a Japanese native then please dm me! NO AI OR MACHINE TRANSLATION My budget is $150 Thank you! &#32; submitted by &#32; /u/Historical_Cup_7552 [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 50,
-      "buyer_signals": [
-        "budget is",
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 150,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          150.0
         ],
         "offer": {
           "service": "AI workflow improvement",
@@ -471,7 +433,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-25T10:14:57.947973+00:00",
+    "created_at": "2026-10-25T11:14:44.289612+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -552,21 +514,6 @@
         }
       },
       {
-        "title": "[Hiring] English to Japanese translation of manga",
-        "url": "https://www.reddit.com/r/forhire/comments/1xe7uwq/hiring_english_to_japanese_translation_of_manga/",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 150,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] English to Japanese translation of manga\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "[FOR HIRE] 3D Artist/ Available for jobs!",
         "url": "https://www.reddit.com/r/forhire/comments/1xeh4mr/for_hire_3d_artist_available_for_jobs/",
         "priority": "LOW",
@@ -622,6 +569,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[for hire] Backend-leaning full-stack dev (Django REST, Laravel, Flutter/React) available for two kinds of work\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[HIRING] Remote Data Research Assistant - $15/hr",
+        "url": "https://www.reddit.com/r/forhire/comments/1xeezga/hiring_remote_data_research_assistant_15hr/",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 15,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[HIRING] Remote Data Research Assistant - $15/hr\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
