@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T22:11:23.618338+00:00",
+  "generated_at": "2026-10-25T23:11:33.543781+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 11,
+    "buyer_leads_found": 10,
     "human_review_required": true
   },
   "opportunities": [
@@ -381,46 +381,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[HIRING] Procurement & Vendor Management Experts | Remote | $45–$90/hour | 20 Openings",
-      "url": "https://www.reddit.com/r/forhire/comments/1xet4rj/hiring_procurement_vendor_management_experts/",
-      "published": "2026-10-25T04:40:53+00:00",
-      "snippet": "Work Type : Contract Location : Fully Remote Compensation : $45–$90/hour equivalent Estimated Commitment : Approximately 10 hours per task Responsibilities - Design supplier evaluation, bid comparison, and vendor risk assessment tasks. - Review contracts, pricing schedules, RFP responses, and SLAs. - Develop structured evaluation rubrics and scoring criteria. - Ensure tasks require practical judgment and can be graded objectively. Requirements - Hands-on experience in procurement, sourcing, or vendor management. - Experience with supplier scorecards, weighted bid evaluations, or vendor risk frameworks. - Strong written and spoken English (B2 minimum; C1 preferred). - CIPS, CPSM, or equivalent certifications are a plus. - Prior AI experience is not required. Selection Process Submit your application and complete the screening questions. Complete the role-specific AI interview. Profile rev",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 90,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          45.0,
-          90.0,
-          45.0,
-          90.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[for hire] Backend-leaning full-stack dev (Django REST, Laravel, Flutter/React) available for two kinds of work",
       "url": "https://www.reddit.com/r/forhire/comments/1xevznf/for_hire_backendleaning_fullstack_dev_django_rest/",
       "published": "2026-10-25T07:29:37+00:00",
@@ -470,7 +430,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-25T22:11:23.659406+00:00",
+    "created_at": "2026-10-25T23:11:33.585067+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -611,16 +571,16 @@
         }
       },
       {
-        "title": "[HIRING] Procurement & Vendor Management Experts | Remote | $45–$90/hour | 20 Openings",
-        "url": "https://www.reddit.com/r/forhire/comments/1xet4rj/hiring_procurement_vendor_management_experts/",
+        "title": "[for hire] Backend-leaning full-stack dev (Django REST, Laravel, Flutter/React) available for two kinds of work",
+        "url": "https://www.reddit.com/r/forhire/comments/1xevznf/for_hire_backendleaning_fullstack_dev_django_rest/",
         "priority": "LOW",
         "opportunity_score": 32,
-        "estimated_value_eur": 90,
+        "estimated_value_eur": 15,
         "offer": {
           "subject": "Proposal: AI workflow improvement",
           "price_eur": 400,
           "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[HIRING] Procurement & Vendor Management Experts | Remote | $45–$90/hour | 20 Openings\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"[for hire] Backend-leaning full-stack dev (Django REST, Laravel, Flutter/React) available for two kinds of work\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
