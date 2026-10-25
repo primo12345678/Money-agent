@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T06:17:56.021086+00:00",
+  "generated_at": "2026-10-25T07:27:39.228539+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -38,6 +38,47 @@
     "human_review_required": true
   },
   "opportunities": [
+    {
+      "source": "Reddit r/forhire",
+      "title": "[HIRING] Remote Appointment Setter — $30/hr + 10% Commission",
+      "url": "https://www.reddit.com/r/forhire/comments/1xevqla/hiring_remote_appointment_setter_30hr_10/",
+      "published": "2026-10-25T07:14:37+00:00",
+      "snippet": "Quest Labs is looking for an experienced appointment setter to help connect businesses with our AI automation services. What you’ll do: Cold call leads we provide Speak with business owners and decision-makers Qualify prospects Book discovery calls Follow up with leads Requirements: Prior sales, cold calling, or appointment-setting experience required Must work 8 hours/day Must be available to work on Texas time (Central Time) Strong English communication skills Reliable and self-motivated Must be 18+ Pay: $30/hour starting 10% commission on closed clients Projects typically range from $1,000–$10,000+ To apply, DM us directly with: Resume LinkedIn profile Location + time zone Availability Short summary of your sales experience A valid LinkedIn profile and prior sales experience are required. If this is not sent, your request will be denied or ignored, we are only looking for qualified ca",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 34,
+      "confidence": 0.49,
+      "automation_fit": 0.52,
+      "matched_keywords": [
+        "automation",
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "LOW",
+        "opportunity_score": 50,
+        "estimated_value_eur": 10000,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          30.0,
+          30.0,
+          1000.0,
+          10000.0
+        ],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
     {
       "source": "We Work Remotely",
       "title": "Expel: Senior Detection & Response Engineer",
@@ -181,43 +222,6 @@
           "target_price_eur": 400,
           "premium_price_eur": 1000,
           "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] We handle your entire IT Infrastructure, Device Management & Security for less than the cost of 1 Junior Tech",
-      "url": "https://www.reddit.com/r/forhire/comments/1xe77gj/for_hire_we_handle_your_entire_it_infrastructure/",
-      "published": "2026-10-24T12:19:25+00:00",
-      "snippet": "Hey Reddit, If you are running a growing team / company (10–250+ employees) and spending hours troubleshooting device setups, patching vulnerabilities, or overpaying for internal IT Support, we handle the end-to-end delivery for you. My agency can act as your complete outsourced IT Support team. You get senior-level infrastructure management, device lifecycle governance, and security monitoring without employing a dedicated Internal IT Support guy. We take care of it as we work on monthly retainer basis that is much less than the salary of an IT Support person. We take care of all the tech and any additional hiring that you might need (typically starts from 100 USD per month). What We Handle: Endpoint &amp; Device Management: Complete lifecycle management, automated OS/software patching, MDM setup (Intune/Jamf), and seamless employee onboarding. Endpoint Security (EDR) &amp; Threat Monit",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "paying"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_support",
-        "priority": "LOW",
-        "opportunity_score": 34,
-        "estimated_value_eur": 100,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          100.0
-        ],
-        "offer": {
-          "service": "AI customer-support automation",
-          "starter_price_eur": 200,
-          "target_price_eur": 500,
-          "premium_price_eur": 1200,
-          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -467,11 +471,26 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-25T06:17:56.389799+00:00",
+    "created_at": "2026-10-25T07:27:39.262673+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
     "drafts": [
+      {
+        "title": "[HIRING] Remote Appointment Setter — $30/hr + 10% Commission",
+        "url": "https://www.reddit.com/r/forhire/comments/1xevqla/hiring_remote_appointment_setter_30hr_10/",
+        "priority": "LOW",
+        "opportunity_score": 50,
+        "estimated_value_eur": 10000,
+        "offer": {
+          "subject": "Proposal: AI lead generation and follow-up",
+          "price_eur": 750,
+          "starter_price_eur": 300,
+          "message": "Hi,\n\nI saw your request about \"[HIRING] Remote Appointment Setter — $30/hr + 10% Commission\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
       {
         "title": "Expel: Senior Detection & Response Engineer",
         "url": "https://weworkremotely.com/remote-jobs/expel-senior-detection-response-engineer",
@@ -528,21 +547,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Contra: Senior Game Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[For Hire] We handle your entire IT Infrastructure, Device Management & Security for less than the cost of 1 Junior Tech",
-        "url": "https://www.reddit.com/r/forhire/comments/1xe77gj/for_hire_we_handle_your_entire_it_infrastructure/",
-        "priority": "LOW",
-        "opportunity_score": 34,
-        "estimated_value_eur": 100,
-        "offer": {
-          "subject": "Proposal: AI customer-support automation",
-          "price_eur": 500,
-          "starter_price_eur": 200,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] We handle your entire IT Infrastructure, Device Management & Security for less than the cost of 1 Junior Tech\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
