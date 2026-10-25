@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T21:13:17.712195+00:00",
+  "generated_at": "2026-10-25T22:11:23.618338+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 12,
+    "buyer_leads_found": 11,
     "human_review_required": true
   },
   "opportunities": [
@@ -343,45 +343,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[HIRING] Social Media \"Posters\" (up to $200 per month)",
-      "url": "https://www.reddit.com/r/forhire/comments/1xenn0x/hiring_social_media_posters_up_to_200_per_month/",
-      "published": "2026-10-24T23:59:22+00:00",
-      "snippet": "Hey everyone! Our company is looking for people to &quot;just post&quot; on social media, on new TikTok accounts, for up to $200 per month. It&#39;s $50 per account, we give you finished content and captions, and you post! We are looking for reliable applicants, U.S. and Canada only! If you are interested, please pm me the word &quot;social&quot; and your email! &#32; submitted by &#32; /u/Brilliant-Book-5148 [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 200,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          200.0,
-          200.0,
-          50.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[Hiring] Software Engineer | System Architecture looking to hire me work together with individuals, startups, small businesses or teams remotely",
       "url": "https://www.reddit.com/r/forhire/comments/1xf0yfq/hiring_software_engineer_system_architecture/",
       "published": "2026-10-25T12:21:06+00:00",
@@ -509,7 +470,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-25T21:13:17.750889+00:00",
+    "created_at": "2026-10-25T22:11:23.659406+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -635,21 +596,6 @@
         }
       },
       {
-        "title": "[HIRING] Social Media \"Posters\" (up to $200 per month)",
-        "url": "https://www.reddit.com/r/forhire/comments/1xenn0x/hiring_social_media_posters_up_to_200_per_month/",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 200,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[HIRING] Social Media \"Posters\" (up to $200 per month)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "[Hiring] Software Engineer | System Architecture looking to hire me work together with individuals, startups, small businesses or teams remotely",
         "url": "https://www.reddit.com/r/forhire/comments/1xf0yfq/hiring_software_engineer_system_architecture/",
         "priority": "LOW",
@@ -660,6 +606,21 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[Hiring] Software Engineer | System Architecture looking to hire me work together with individuals, startups, small businesses or teams remotely\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[HIRING] Procurement & Vendor Management Experts | Remote | $45–$90/hour | 20 Openings",
+        "url": "https://www.reddit.com/r/forhire/comments/1xet4rj/hiring_procurement_vendor_management_experts/",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 90,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[HIRING] Procurement & Vendor Management Experts | Remote | $45–$90/hour | 20 Openings\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
