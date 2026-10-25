@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T07:27:39.228539+00:00",
+  "generated_at": "2026-10-25T08:14:14.816762+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -75,43 +75,6 @@
           "target_price_eur": 750,
           "premium_price_eur": 2000,
           "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Expel: Senior Detection & Response Engineer",
-      "url": "https://weworkremotely.com/remote-jobs/expel-senior-detection-response-engineer",
-      "published": "Sat, 17 Oct 2026 07:30:54 +0000",
-      "snippet": "Headquarters: Remote You're the detection engineer people turn to when they ask \"what does Microsoft actually see here?\" Not the marketing-slide answer, the real map. Which product emits which telemetry, any anticipated ingestion lags, what table or API it lands in, which license tier gates it, how long it survives before it ages out, and where the documentation quietly disagrees with reality. When a new technique drops, your first instinct is to ask which Microsoft signal would catch it, and whether customers have it switched on. You also know Microsoft never sits still. Hunting tables appear, columns get renamed, Graph versions retire, capability shuffles between SKUs, previews go GA, features quietly vanish, and native alert logic shifts underneath you. You've got a repeatable way of staying ahead of that churn instead of finding out when a detection stops firing. You're comfortable b",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "paying"
-      ],
-      "employment_signals": [],
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 49,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -421,6 +384,43 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[for hire] Backend-leaning full-stack dev (Django REST, Laravel, Flutter/React) available for two kinds of work",
+      "url": "https://www.reddit.com/r/forhire/comments/1xevznf/for_hire_backendleaning_fullstack_dev_django_rest/",
+      "published": "2026-10-25T07:29:37+00:00",
+      "snippet": "→ Overflow/subcontract: swamped with client work? I take tasks off your plate — you stay client-facing, I work in the background at $15-20/hr. → Direct hire: need a backend/full-stack dev for your own project, short-term or ongoing? Same rate, I work with you directly. How it works: tell me the scope, I quote a time estimate, first small task is free so you can judge the quality before paying anything. GitHub/past work available on request. DMs open. &#32; submitted by &#32; /u/TiglathPileser_2 [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "paying"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 15,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          15.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[HIRING] Remote Data Research Assistant - $15/hr",
       "url": "https://www.reddit.com/r/forhire/comments/1xeezga/hiring_remote_data_research_assistant_15hr/",
       "published": "2026-10-24T17:46:40+00:00",
@@ -471,7 +471,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-25T07:27:39.262673+00:00",
+    "created_at": "2026-10-25T08:14:14.858563+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -487,21 +487,6 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"[HIRING] Remote Appointment Setter — $30/hr + 10% Commission\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Expel: Senior Detection & Response Engineer",
-        "url": "https://weworkremotely.com/remote-jobs/expel-senior-detection-response-engineer",
-        "priority": "LOW",
-        "opportunity_score": 49,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"Expel: Senior Detection & Response Engineer\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -622,6 +607,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Medical student available for research assistance, literature reviews, and data analysis ($20/hr)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[for hire] Backend-leaning full-stack dev (Django REST, Laravel, Flutter/React) available for two kinds of work",
+        "url": "https://www.reddit.com/r/forhire/comments/1xevznf/for_hire_backendleaning_fullstack_dev_django_rest/",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 15,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[for hire] Backend-leaning full-stack dev (Django REST, Laravel, Flutter/React) available for two kinds of work\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
