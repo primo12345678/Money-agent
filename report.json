@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T20:09:34.839918+00:00",
+  "generated_at": "2026-10-25T21:13:17.712195+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 11,
+    "buyer_leads_found": 12,
     "human_review_required": true
   },
   "opportunities": [
@@ -76,6 +76,44 @@
           "target_price_eur": 650,
           "premium_price_eur": 1600,
           "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] Full-Stack Developer specializing in custom React apps with Microsoft 365 / SharePoint (Graph API, MSAL, Cloudflare/Azure)",
+      "url": "https://www.reddit.com/r/forhire/comments/1xfcopg/for_hire_fullstack_developer_specializing_in/",
+      "published": "2026-10-25T20:19:31+00:00",
+      "snippet": "Hi Reddit, I specialize in building custom, high-performance web applications that leverage your existing Microsoft 365 ecosystem—eliminating the need for expensive, separate database hosting. If your organization is stuck with rigid out-of-the-box SharePoint templates or Power Apps limitations, I can build clean, tailored web solutions using modern tech stacks. What I Do: Frontend Architecture: Custom React / TypeScript apps styled with Fluent UI so they look, feel, and integrate seamlessly like native Microsoft 365 products. Backendless Architecture: Utilizing SharePoint Lists and Document Libraries as a secure, scalable backend via the Microsoft Graph API. Authentication: Secure user sign-in, MFA, and permission-trimming handled natively via Microsoft Entra ID (Azure AD) and MSAL.js. Hosting &amp; Deployment: Hosting lightning-fast frontends on Cloudflare (or Azure/Netlify depending o",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "paying"
+      ],
+      "employment_signals": [],
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "automation",
+        "ai integration",
+        "workflow",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 54,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -471,7 +509,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-25T20:09:34.870069+00:00",
+    "created_at": "2026-10-25T21:13:17.750889+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -487,6 +525,21 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Python Developer: AI/LLM Pipelines, Data Extraction & Backend Automation | Remote | From $20/hr\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] Full-Stack Developer specializing in custom React apps with Microsoft 365 / SharePoint (Graph API, MSAL, Cloudflare/Azure)",
+        "url": "https://www.reddit.com/r/forhire/comments/1xfcopg/for_hire_fullstack_developer_specializing_in/",
+        "priority": "LOW",
+        "opportunity_score": 54,
+        "estimated_value_eur": 600,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Full-Stack Developer specializing in custom React apps with Microsoft 365 / SharePoint (Graph API, MSAL, Cloudflare/Azure)\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -607,21 +660,6 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[Hiring] Software Engineer | System Architecture looking to hire me work together with individuals, startups, small businesses or teams remotely\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[HIRING] Procurement & Vendor Management Experts | Remote | $45–$90/hour | 20 Openings",
-        "url": "https://www.reddit.com/r/forhire/comments/1xet4rj/hiring_procurement_vendor_management_experts/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 90,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[HIRING] Procurement & Vendor Management Experts | Remote | $45–$90/hour | 20 Openings\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
