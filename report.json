@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T13:22:53.599313+00:00",
+  "generated_at": "2026-10-25T14:14:47.076110+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 10,
+    "buyer_leads_found": 11,
     "human_review_required": true
   },
   "opportunities": [
@@ -309,6 +309,45 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[Hiring] Remote Technical Client Relations & Project Coordinator | Software Agency | $40+/hr",
+      "url": "https://www.reddit.com/r/forhire/comments/1xf2h98/hiring_remote_technical_client_relations_project/",
+      "published": "2026-10-25T13:32:23+00:00",
+      "snippet": "I&#39;m the founder of a software development agency, and we&#39;re looking for a smart, articulate, and adaptable person to join our team in a long-term, client-facing role. What matters most to me isn&#39;t how good you are at coding. It&#39;s your character, communication skills, business judgment, and ability to learn quickly. We already have experienced developers handling technical execution. What we need is someone who understands software development and can help bridge the gap between our developers and clients. What you&#39;ll do - Participate in client meetings, project discussions, and technical conversations as an identified representative of our agency. - Understand client needs and communicate them clearly to our developers. - Explain technical concepts and project updates in a professional, easy-to-understand way. - Coordinate meetings, follow-ups, and ongoing client comm",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [
+        "join our team"
+      ],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 40,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          40.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[For Hire] Medical student available for research assistance, literature reviews, and data analysis ($20/hr)",
       "url": "https://www.reddit.com/r/forhire/comments/1xeir21/for_hire_medical_student_available_for_research/",
       "published": "2026-10-24T20:18:11+00:00",
@@ -433,7 +472,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-25T13:22:53.642950+00:00",
+    "created_at": "2026-10-25T14:14:47.102594+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -544,6 +583,21 @@
         }
       },
       {
+        "title": "[Hiring] Remote Technical Client Relations & Project Coordinator | Software Agency | $40+/hr",
+        "url": "https://www.reddit.com/r/forhire/comments/1xf2h98/hiring_remote_technical_client_relations_project/",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 40,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Remote Technical Client Relations & Project Coordinator | Software Agency | $40+/hr\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "[For Hire] Medical student available for research assistance, literature reviews, and data analysis ($20/hr)",
         "url": "https://www.reddit.com/r/forhire/comments/1xeir21/for_hire_medical_student_available_for_research/",
         "priority": "LOW",
@@ -569,21 +623,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[for hire] Backend-leaning full-stack dev (Django REST, Laravel, Flutter/React) available for two kinds of work\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[HIRING] Remote Data Research Assistant - $15/hr",
-        "url": "https://www.reddit.com/r/forhire/comments/1xeezga/hiring_remote_data_research_assistant_15hr/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 15,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[HIRING] Remote Data Research Assistant - $15/hr\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
