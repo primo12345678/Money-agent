@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T23:11:20.006261+00:00",
+  "generated_at": "2026-10-25T00:10:50.433457+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -150,42 +150,6 @@
       }
     },
     {
-      "source": "Reddit r/forhire",
-      "title": "[FOR HIRE] Full-Stack Web & App Developer | Bring Me Your Idea, I’ll Build It | Only 5 Projects.",
-      "url": "https://www.reddit.com/r/forhire/comments/1xe2cwl/for_hire_fullstack_web_app_developer_bring_me/",
-      "published": "2026-10-24T07:31:32+00:00",
-      "snippet": "I’ve opened up slots for 5 new projects and I’m looking for people with ideas they want to turn into real products. Have an idea for a SaaS, a web app, a mobile app, a marketplace, an AI-powered tool, or something more complicated? Bring it to me. I’ll work with you to build it. I’m not limited to landing pages and basic websites. Here are some things I’ve actually built: WorkSquare ( worksquare.co ) : A career platform with an ML-based feed, a full messaging system with features you’d expect from a dedicated messenger, a working karma and reputation engine, and voice-based AI interview preparation. Play store link Nymph : Built the complete frontend for a popular dating app. TradeFlock ( tradeflock.net ) : Built a fully automated news platform with no content writers or reporters. Other SaaS projects : Including integrated booking systems for dental clinics and other custom business app",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "want to build"
-      ],
-      "employment_signals": [],
-      "score": 34,
-      "confidence": 0.49,
-      "automation_fit": 0.52,
-      "matched_keywords": [
-        "ai integration",
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "LOW",
-        "opportunity_score": 43,
-        "estimated_value_eur": 650,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "We Work Remotely",
       "title": "Contra: Senior 3D Designer",
       "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
@@ -292,6 +256,45 @@
           "target_price_eur": 500,
           "premium_price_eur": 1200,
           "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[HIRING] Social Media \"Posters\" (up to $200 per month)",
+      "url": "https://www.reddit.com/r/forhire/comments/1xenn0x/hiring_social_media_posters_up_to_200_per_month/",
+      "published": "2026-10-24T23:59:22+00:00",
+      "snippet": "Hey everyone! Our company is looking for people to &quot;just post&quot; on social media, on new TikTok accounts, for up to $200 per month. It&#39;s $50 per account, we give you finished content and captions, and you post! We are looking for reliable applicants, U.S. and Canada only! If you are interested, please pm me the word &quot;social&quot; and your email! &#32; submitted by &#32; /u/Brilliant-Book-5148 [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 200,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          200.0,
+          200.0,
+          50.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -462,7 +465,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-24T23:11:20.046773+00:00",
+    "created_at": "2026-10-25T00:10:50.465729+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -513,21 +516,6 @@
         }
       },
       {
-        "title": "[FOR HIRE] Full-Stack Web & App Developer | Bring Me Your Idea, I’ll Build It | Only 5 Projects.",
-        "url": "https://www.reddit.com/r/forhire/comments/1xe2cwl/for_hire_fullstack_web_app_developer_bring_me/",
-        "priority": "LOW",
-        "opportunity_score": 43,
-        "estimated_value_eur": 650,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[FOR HIRE] Full-Stack Web & App Developer | Bring Me Your Idea, I’ll Build It | Only 5 Projects.\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "Contra: Senior 3D Designer",
         "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
         "priority": "LOW",
@@ -568,6 +556,21 @@
           "price_eur": 500,
           "starter_price_eur": 200,
           "message": "Hi,\n\nI saw your request about \"[For Hire] We handle your entire IT Infrastructure, Device Management & Security for less than the cost of 1 Junior Tech\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[HIRING] Social Media \"Posters\" (up to $200 per month)",
+        "url": "https://www.reddit.com/r/forhire/comments/1xenn0x/hiring_social_media_posters_up_to_200_per_month/",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 200,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[HIRING] Social Media \"Posters\" (up to $200 per month)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
