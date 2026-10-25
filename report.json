@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T15:14:44.226928+00:00",
+  "generated_at": "2026-10-25T16:15:17.860657+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -38,6 +38,48 @@
     "human_review_required": true
   },
   "opportunities": [
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] Python Developer: AI/LLM Pipelines, Data Extraction & Backend Automation | Remote | From $20/hr",
+      "url": "https://www.reddit.com/r/forhire/comments/1xezmdp/for_hire_python_developer_aillm_pipelines_data/",
+      "published": "2026-10-25T11:08:58+00:00",
+      "snippet": "Remote | Based in India (IST) | Hourly from $20/hr, or fixed price per project I build the backend plumbing that makes AI and data workflows actually run. CORE SERVICES AI Integration &amp; Prompt Systems - Custom API pipelines using Python and LLMs (OpenAI, Anthropic, open models) - Automated prompt chains and agentic workflows with tool use and logging - Structured outputs, retries and failure handling, so the pipeline doesn&#39;t quietly break Data Extraction &amp; Processing - Scraping, parsing and cleaning messy, unstructured data - Clean, structured output as CSV, JSON or SQL - Deduplication, validation and basic QA checks on the result Backend Automation - Custom scripts and scheduled jobs - Webhook handlers and API integrations - Workflow automation that replaces repetitive manual work HOW I WORK: - Work is split into paid milestones, so you can check quality before committing to",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 55,
+      "confidence": 0.7,
+      "automation_fit": 0.7,
+      "matched_keywords": [
+        "automation",
+        "ai integration",
+        "workflow",
+        "api integration",
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "MEDIUM",
+        "opportunity_score": 56,
+        "estimated_value_eur": 20,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          20.0,
+          20.0
+        ],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
     {
       "source": "Reddit r/forhire",
       "title": "[HIRING] Remote Appointment Setter — $30/hr + 10% Commission",
@@ -102,6 +144,78 @@
         "category": "integration",
         "priority": "LOW",
         "opportunity_score": 46,
+        "estimated_value_eur": 650,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Software Engineer | System Architecture looking to hire me work together with individuals, startups, small businesses or teams remotely",
+      "url": "https://www.reddit.com/r/forhire/comments/1xf1dp3/hiring_software_engineer_system_architecture/",
+      "published": "2026-10-25T12:42:17+00:00",
+      "snippet": "I&#39;m a software Engineer interested in connecting with people building interesting software products and solving real-world problems. I work with Python, JavaScript, React, FastAPI, Node.js, PostgreSQL, System Design, Ai models, Rag and REST APIs. I&#39;m also working on Sentinel, a fraud detection project where I&#39;m exploring backend engineering and transaction analysis with ML models. I&#39;d love to connect with other developers, startup founders, and people working on ambitious ideas. I&#39;m also interested in learning about opportunities to contribute to a team and grow through real-world engineering experience. i would love to connect for budget and work together as teams What kinds of projects are you all working on lately? &#32; submitted by &#32; /u/TechDevCircuit [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 50,
+      "buyer_signals": [
+        "looking to hire",
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 38,
+        "estimated_value_eur": 650,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Software Engineer | System Architecture looking to hire me work together with individuals, startups, small businesses or teams remotely",
+      "url": "https://www.reddit.com/r/forhire/comments/1xf0o2o/hiring_software_engineer_system_architecture/",
+      "published": "2026-10-25T12:06:09+00:00",
+      "snippet": "Hey everyone! I&#39;m a software Engineer interested in connecting with people building interesting software products and solving real-world problems. I work with Python, JavaScript, React, FastAPI, Node.js, PostgreSQL, System Design, Ai models, Rag and REST APIs. I&#39;m also working on Sentinel, a fraud detection project where I&#39;m exploring backend engineering and transaction analysis with ML models. I&#39;d love to connect with other developers, startup founders, and people working on ambitious ideas. I&#39;m also interested in learning about opportunities to contribute to a team and grow through real-world engineering experience. i would love to connect for budget and work together as teams What kinds of projects are you all working on lately? &#32; submitted by &#32; /u/TechDevCircuit [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 50,
+      "buyer_signals": [
+        "looking to hire",
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 38,
         "estimated_value_eur": 650,
         "value_basis": "Service-band estimate; not a quoted budget",
         "budget_signals": [],
@@ -230,18 +344,17 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[FOR HIRE] 3D Artist/ Available for jobs!",
-      "url": "https://www.reddit.com/r/forhire/comments/1xeh4mr/for_hire_3d_artist_available_for_jobs/",
-      "published": "2026-10-24T19:11:48+00:00",
-      "snippet": "Hello! I’m David, a 3D Artist — and I’m excited to announce that I’m open for commissions and collaborations! With over three years of professional experience in 3D modeling, texturing, and rendering, I specialize in both hard surface and organic modeling, across stylized and realistic style. Since 2019, I’ve worked as a freelancer and contractor, creating characters, props, and miniatures for animations, video games, and 3D printing . Here’s what I can do for you: 3D Miniatures for Printing 3D Models for Cosplay Characters for Videogames/Animation (Game-ready) Retopology &amp; UV Mapping Hand-Painted &amp; PBR Texturing Integration in Unity / Unreal Engine Character &amp; Prop Lighting Rendering I’m available for part-time, full-time, or freelance work My rates are $15/hour or a fixed price depending on the project. Payment methods: Crypto, Payoneer, Xoom, Bank Transfer (US) or Paypal C",
+      "title": "[Hiring] Software Engineer | System Architecture looking to hire me work together with individuals, startups, small businesses or teams remotely",
+      "url": "https://www.reddit.com/r/forhire/comments/1xf0yfq/hiring_software_engineer_system_architecture/",
+      "published": "2026-10-25T12:21:06+00:00",
+      "snippet": "Hey everyone![]( https://www.reddit.com/r/forhire/?f=flair_name%3A%22Hiring%20-%20Open%22 ) I&#39;m a software Engineer interested in connecting with people building interesting software products and solving real-world problems. I work with Python, JavaScript, React, FastAPI, Node.js, PostgreSQL, System Design, Ai models, Rag and REST APIs. I&#39;m also working on Sentinel, a fraud detection project where I&#39;m exploring backend engineering and transaction analysis with ML models. I&#39;d love to connect with other developers, startup founders, and people working on ambitious ideas. I&#39;m also interested in learning about opportunities to contribute to a team and grow through real-world engineering experience. i would love to connect for budget $30/hr and work together as teams What kinds of projects are you all working on lately? &#32; submitted by &#32; /u/TechDevCircuit [link] &#3",
       "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
+      "buyer_intent_score": 50,
       "buyer_signals": [
-        "fixed price"
+        "looking to hire",
+        "[hiring]"
       ],
-      "employment_signals": [
-        "full-time"
-      ],
+      "employment_signals": [],
       "score": 27,
       "confidence": 0.42,
       "automation_fit": 0.46,
@@ -252,10 +365,10 @@
         "category": "integration",
         "priority": "LOW",
         "opportunity_score": 33,
-        "estimated_value_eur": 15,
+        "estimated_value_eur": 30,
         "value_basis": "Detected budget/rate in listing",
         "budget_signals": [
-          15.0
+          30.0
         ],
         "offer": {
           "service": "AI/API/CRM integration",
@@ -309,82 +422,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[Hiring] Remote Technical Client Relations & Project Coordinator | Software Agency | $40+/hr",
-      "url": "https://www.reddit.com/r/forhire/comments/1xf2h98/hiring_remote_technical_client_relations_project/",
-      "published": "2026-10-25T13:32:23+00:00",
-      "snippet": "I&#39;m the founder of a software development agency, and we&#39;re looking for a smart, articulate, and adaptable person to join our team in a long-term, client-facing role. What matters most to me isn&#39;t how good you are at coding. It&#39;s your character, communication skills, business judgment, and ability to learn quickly. We already have experienced developers handling technical execution. What we need is someone who understands software development and can help bridge the gap between our developers and clients. What you&#39;ll do - Participate in client meetings, project discussions, and technical conversations as an identified representative of our agency. - Understand client needs and communicate them clearly to our developers. - Explain technical concepts and project updates in a professional, easy-to-understand way. - Coordinate meetings, follow-ups, and ongoing client comm",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [
-        "join our team"
-      ],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 40,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          40.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] Medical student available for research assistance, literature reviews, and data analysis ($20/hr)",
-      "url": "https://www.reddit.com/r/forhire/comments/1xeir21/for_hire_medical_student_available_for_research/",
-      "published": "2026-10-24T20:18:11+00:00",
-      "snippet": "Hi! I&#39;m a fifth-year medical student based in Thailand, and I&#39;m looking to take on some freelance research work. I&#39;ve been involved in several research projects over the past few years, mostly in clinical medicine, epidemiology, and machine learning. I&#39;ve worked with clinical datasets, statistical models, medical imaging, and scientific manuscripts. I can help with literature searches (PubMed, Google Scholar), screening papers, extracting data for systematic reviews, and organizing references. I also do statistical analysis in Python, including data cleaning, regression, and visualization. If you&#39;re working on a manuscript, I can help with proofreading, editing abstracts, formatting tables and figures, or checking references. I&#39;m also comfortable writing Python scripts for research tasks that would otherwise take hours to do manually. Most of my experience is in m",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 20,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          20.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[for hire] Backend-leaning full-stack dev (Django REST, Laravel, Flutter/React) available for two kinds of work",
       "url": "https://www.reddit.com/r/forhire/comments/1xevznf/for_hire_backendleaning_fullstack_dev_django_rest/",
       "published": "2026-10-25T07:29:37+00:00",
@@ -419,44 +456,6 @@
         },
         "human_approval_required": true
       }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[HIRING] Remote Data Research Assistant - $15/hr",
-      "url": "https://www.reddit.com/r/forhire/comments/1xeezga/hiring_remote_data_research_assistant_15hr/",
-      "published": "2026-10-24T17:46:40+00:00",
-      "snippet": "I&#39;m looking for a few individuals to help with straightforward online research and data management tasks. The work is beginner-friendly and doesn&#39;t require any specific qualifications. Responsibilities include: Gathering information from websites Inputting data into spreadsheets Sorting and verifying information Compiling details from online sources Completing basic administrative tasks Requirements: Basic computer and internet skills Good attention to detail Reliable internet access Ability to work independently and follow instructions No previous experience needed This is a fully remote opportunity with flexible working hours. Compensation: $15 per hour &#32; submitted by &#32; /u/mrbalkannn [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 15,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          15.0,
-          15.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
     }
   ],
   "errors": [
@@ -472,11 +471,26 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-25T15:14:44.254329+00:00",
+    "created_at": "2026-10-25T16:15:17.912274+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
     "drafts": [
+      {
+        "title": "[For Hire] Python Developer: AI/LLM Pipelines, Data Extraction & Backend Automation | Remote | From $20/hr",
+        "url": "https://www.reddit.com/r/forhire/comments/1xezmdp/for_hire_python_developer_aillm_pipelines_data/",
+        "priority": "MEDIUM",
+        "opportunity_score": 56,
+        "estimated_value_eur": 20,
+        "offer": {
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Python Developer: AI/LLM Pipelines, Data Extraction & Backend Automation | Remote | From $20/hr\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
       {
         "title": "[HIRING] Remote Appointment Setter — $30/hr + 10% Commission",
         "url": "https://www.reddit.com/r/forhire/comments/1xevqla/hiring_remote_appointment_setter_30hr_10/",
@@ -503,6 +517,36 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"Twikey: Senior Java Developer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Software Engineer | System Architecture looking to hire me work together with individuals, startups, small businesses or teams remotely",
+        "url": "https://www.reddit.com/r/forhire/comments/1xf1dp3/hiring_software_engineer_system_architecture/",
+        "priority": "LOW",
+        "opportunity_score": 38,
+        "estimated_value_eur": 650,
+        "offer": {
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Software Engineer | System Architecture looking to hire me work together with individuals, startups, small businesses or teams remotely\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Software Engineer | System Architecture looking to hire me work together with individuals, startups, small businesses or teams remotely",
+        "url": "https://www.reddit.com/r/forhire/comments/1xf0o2o/hiring_software_engineer_system_architecture/",
+        "priority": "LOW",
+        "opportunity_score": 38,
+        "estimated_value_eur": 650,
+        "offer": {
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Software Engineer | System Architecture looking to hire me work together with individuals, startups, small businesses or teams remotely\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -553,16 +597,16 @@
         }
       },
       {
-        "title": "[FOR HIRE] 3D Artist/ Available for jobs!",
-        "url": "https://www.reddit.com/r/forhire/comments/1xeh4mr/for_hire_3d_artist_available_for_jobs/",
+        "title": "[Hiring] Software Engineer | System Architecture looking to hire me work together with individuals, startups, small businesses or teams remotely",
+        "url": "https://www.reddit.com/r/forhire/comments/1xf0yfq/hiring_software_engineer_system_architecture/",
         "priority": "LOW",
         "opportunity_score": 33,
-        "estimated_value_eur": 15,
+        "estimated_value_eur": 30,
         "offer": {
           "subject": "Proposal: AI/API/CRM integration",
           "price_eur": 650,
           "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[FOR HIRE] 3D Artist/ Available for jobs!\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Software Engineer | System Architecture looking to hire me work together with individuals, startups, small businesses or teams remotely\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -578,51 +622,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[HIRING] Procurement & Vendor Management Experts | Remote | $45–$90/hour | 20 Openings\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Remote Technical Client Relations & Project Coordinator | Software Agency | $40+/hr",
-        "url": "https://www.reddit.com/r/forhire/comments/1xf2h98/hiring_remote_technical_client_relations_project/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 40,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Remote Technical Client Relations & Project Coordinator | Software Agency | $40+/hr\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[For Hire] Medical student available for research assistance, literature reviews, and data analysis ($20/hr)",
-        "url": "https://www.reddit.com/r/forhire/comments/1xeir21/for_hire_medical_student_available_for_research/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 20,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Medical student available for research assistance, literature reviews, and data analysis ($20/hr)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[for hire] Backend-leaning full-stack dev (Django REST, Laravel, Flutter/React) available for two kinds of work",
-        "url": "https://www.reddit.com/r/forhire/comments/1xevznf/for_hire_backendleaning_fullstack_dev_django_rest/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 15,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[for hire] Backend-leaning full-stack dev (Django REST, Laravel, Flutter/React) available for two kinds of work\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
