@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T18:26:24.035568+00:00",
+  "generated_at": "2026-10-26T19:31:56.220138+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 5,
+    "buyer_leads_found": 7,
     "human_review_required": true
   },
   "opportunities": [
@@ -164,6 +164,41 @@
       }
     },
     {
+      "source": "Reddit r/forhire",
+      "title": "[HIRING] Looking for a local helper in San Diego!",
+      "url": "https://www.reddit.com/r/forhire/comments/1xg6lzc/hiring_looking_for_a_local_helper_in_san_diego/",
+      "published": "2026-10-26T19:27:56+00:00",
+      "snippet": "Hi everyone! I’m looking for someone available during the week of November 9 and TwitchCon weekend to help with a small personal project around the city. If you’re local, reliable, and interested, please DM me with your availability and rates! ♡ &#32; submitted by &#32; /u/Impressive_Dot_5727 [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
       "source": "We Work Remotely",
       "title": "Contra: Senior 3D Designer",
       "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
@@ -236,6 +271,44 @@
         },
         "human_approval_required": true
       }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Part-Time collaborators who can work remotely. ($20/hr)",
+      "url": "https://www.reddit.com/r/forhire/comments/1xg6cvh/hiring_parttime_collaborators_who_can_work/",
+      "published": "2026-10-26T19:18:29+00:00",
+      "snippet": "Hey EVERYONE! 👋 I’m looking for a reliable US/North America/South America based part time collaborator who can support communication and collaboration in a remote environment. The role is part-time, generally around 1–2 hours per day, with flexibility depending on the workload and your availability. **REQUIREMENTS: - Age : 25+ - English: Fluent (clear and confident while communication) - Availability for Remote Work : (laptop/desktop setup with a stable internet connection) - Available Time Commitment : 1 or 2 hours a day - Someone who can follow the instructions clearly and work independently. **Roles: Your main responsibility for this role is communication. Especially you could support our business with your Professional or Native English and communication skill. Will explain about the details while discussion. **Compensation: You&#39;ll be paid $20 per hour for your work, with payment",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_support",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 20,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          20.0,
+          20.0
+        ],
+        "offer": {
+          "service": "AI customer-support automation",
+          "starter_price_eur": 200,
+          "target_price_eur": 500,
+          "premium_price_eur": 1200,
+          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     }
   ],
   "errors": [
@@ -251,10 +324,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-26T18:26:24.076719+00:00",
+    "created_at": "2026-10-26T19:31:56.261533+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 5,
+    "draft_count": 7,
     "drafts": [
       {
         "title": "[For Hire] Workflow automation, API integrations, scraping & data cleanup (Python, SQL, Linux) | Remote | $40/hr or fixed price/project",
@@ -302,6 +375,21 @@
         }
       },
       {
+        "title": "[HIRING] Looking for a local helper in San Diego!",
+        "url": "https://www.reddit.com/r/forhire/comments/1xg6lzc/hiring_looking_for_a_local_helper_in_san_diego/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[HIRING] Looking for a local helper in San Diego!\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "Contra: Senior 3D Designer",
         "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
         "priority": "LOW",
@@ -327,6 +415,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[FOR HIRE] I rebuild slow or broken small-business websites into clean responsive pages — remote, from $150\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Part-Time collaborators who can work remotely. ($20/hr)",
+        "url": "https://www.reddit.com/r/forhire/comments/1xg6cvh/hiring_parttime_collaborators_who_can_work/",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 20,
+        "offer": {
+          "subject": "Proposal: AI customer-support automation",
+          "price_eur": 500,
+          "starter_price_eur": 200,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Part-Time collaborators who can work remotely. ($20/hr)\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
