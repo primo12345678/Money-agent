@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T17:28:39.693660+00:00",
+  "generated_at": "2026-10-26T18:26:24.035568+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,10 +34,55 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 6,
+    "buyer_leads_found": 5,
     "human_review_required": true
   },
   "opportunities": [
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] Workflow automation, API integrations, scraping & data cleanup (Python, SQL, Linux) | Remote | $40/hr or fixed price/project",
+      "url": "https://www.reddit.com/r/forhire/comments/1xg3kdd/for_hire_workflow_automation_api_integrations/",
+      "published": "2026-10-26T17:36:23+00:00",
+      "snippet": "What I do I automate repetitive business work so you stop doing it by hand. Typical jobs: Connecting tools through REST APIs and webhooks (CRMs, marketing automation, payment tools, spreadsheets, internal systems) Replacing manual CSV imports and exports with scheduled data syncs Spreadsheet automation: Excel macros, Google Sheets and Apps Script, auto-updating reports Web scraping and monitoring (prices, listings, availability, changes to a page) delivered to a sheet, database, or your inbox Data cleanup: deduplicating, reformatting, merging messy files, and converting between formats (CSV, Excel, JSON, XML) Bulk file and document processing: batch renaming, PDF text and table extraction, invoice and form data entry Email automation: parsing incoming messages, auto-sorting, scheduled reports, and notifications Custom Slack and Discord bots, plus alerts for things you currently check by ",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [
+        "full-time"
+      ],
+      "score": 69,
+      "confidence": 0.84,
+      "automation_fit": 0.82,
+      "matched_keywords": [
+        "automation",
+        "workflow",
+        "zapier",
+        "crm",
+        "api integration",
+        "marketing automation",
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "MEDIUM",
+        "opportunity_score": 68,
+        "estimated_value_eur": 40,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          40.0
+        ],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
     {
       "source": "Reddit r/forhire",
       "title": "[For Hire] Python dev – data cleanup, PDF-to-spreadsheet extraction & Zapier/Make automations | fixed prices from $25",
@@ -114,87 +159,6 @@
           "target_price_eur": 650,
           "premium_price_eur": 1600,
           "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] [Europe] Google Sheets / Excel / Apps Script automation, scripts and integrations, from $25",
-      "url": "https://www.reddit.com/r/forhire/comments/1xfikj4/for_hire_europe_google_sheets_excel_apps_script/",
-      "published": "2026-10-26T00:34:13+00:00",
-      "snippet": "I build the spreadsheet automation you don&#39;t have time for: Apps Script and VBA macros, scheduled reports, sheet-to-sheet and sheet-to-API syncs (Shopify, Stripe, Airtable, Notion), cleanup of messy imports, dashboards that update themselves. How it works: 1. You describe the task and share a sample sheet (anonymised is fine). 2. I reply with what I&#39;d build, how long it takes and a fixed price. 3. I send a working version on a copy of your sheet so you can try it on your own data. You pay (card via Revolut, or crypto) only when it does what you asked, then I move it into your file. Small tweaks after are free. Typical jobs: $25-150, usually delivered within 1-3 days. I&#39;m a software engineering student, so I&#39;ll tell you straight if something is outside what I can do properly. Budget/Rates: $25 minimum, fixed price per job. Comment or DM with the task and a sample. &#32; su",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 34,
-      "confidence": 0.49,
-      "automation_fit": 0.52,
-      "matched_keywords": [
-        "automation",
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "LOW",
-        "opportunity_score": 40,
-        "estimated_value_eur": 25,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          25.0,
-          25.0,
-          25.0
-        ],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Remote Executive Assistant for Administrative Support - $20/hr",
-      "url": "https://www.reddit.com/r/forhire/comments/1xfikw7/hiring_remote_executive_assistant_for/",
-      "published": "2026-10-26T00:34:38+00:00",
-      "snippet": "Hi everyone, I am looking to bring on a part time virtual assistant to assist with routine administrative tasks and workflow organization. Key Responsibilities: Organization: Managing digital files, updating daily task logs, and keeping shared documentation organized. Research: Conducting basic online research and drafting brief summaries as needed. Data Entry: Formatting spreadsheets, organizing contact lists, and handling basic typing tasks. Requirements: Location: Must currently reside in the US, Canada, or the EU (to ensure timezone alignment). Language: MUST BE FLUENT IN ENGLISH (Strong written and clear verbal communication skills are strictly required). Technical: Reliable internet connection and desktop access. Availability: Prompt responsiveness during standard business hours. Compensation &amp; Terms: Rate: $20/hr (Initial project budget capped at $100 for onboarding tasks). Pa",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 50,
-      "buyer_signals": [
-        "project budget",
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 34,
-      "confidence": 0.49,
-      "automation_fit": 0.52,
-      "matched_keywords": [
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 39,
-        "estimated_value_eur": 100,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          20.0,
-          20.0,
-          100.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -287,11 +251,26 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-26T17:28:39.734857+00:00",
+    "created_at": "2026-10-26T18:26:24.076719+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 6,
+    "draft_count": 5,
     "drafts": [
+      {
+        "title": "[For Hire] Workflow automation, API integrations, scraping & data cleanup (Python, SQL, Linux) | Remote | $40/hr or fixed price/project",
+        "url": "https://www.reddit.com/r/forhire/comments/1xg3kdd/for_hire_workflow_automation_api_integrations/",
+        "priority": "MEDIUM",
+        "opportunity_score": 68,
+        "estimated_value_eur": 40,
+        "offer": {
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Workflow automation, API integrations, scraping & data cleanup (Python, SQL, Linux) | Remote | $40/hr or fixed price/project\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
       {
         "title": "[For Hire] Python dev – data cleanup, PDF-to-spreadsheet extraction & Zapier/Make automations | fixed prices from $25",
         "url": "https://www.reddit.com/r/forhire/comments/1xfulxz/for_hire_python_dev_data_cleanup_pdftospreadsheet/",
@@ -318,36 +297,6 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"Twikey: Senior Java Developer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[For Hire] [Europe] Google Sheets / Excel / Apps Script automation, scripts and integrations, from $25",
-        "url": "https://www.reddit.com/r/forhire/comments/1xfikj4/for_hire_europe_google_sheets_excel_apps_script/",
-        "priority": "LOW",
-        "opportunity_score": 40,
-        "estimated_value_eur": 25,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] [Europe] Google Sheets / Excel / Apps Script automation, scripts and integrations, from $25\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Remote Executive Assistant for Administrative Support - $20/hr",
-        "url": "https://www.reddit.com/r/forhire/comments/1xfikw7/hiring_remote_executive_assistant_for/",
-        "priority": "LOW",
-        "opportunity_score": 39,
-        "estimated_value_eur": 100,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Remote Executive Assistant for Administrative Support - $20/hr\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
