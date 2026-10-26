@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T04:24:14.935574+00:00",
+  "generated_at": "2026-10-26T05:22:41.649594+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 9,
+    "buyer_leads_found": 8,
     "human_review_required": true
   },
   "opportunities": [
@@ -230,42 +230,6 @@
       }
     },
     {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Software Engineer | System Architecture looking to hire me work together with individuals, startups, small businesses or teams remotely",
-      "url": "https://www.reddit.com/r/forhire/comments/1xf0o2o/hiring_software_engineer_system_architecture/",
-      "published": "2026-10-25T12:06:09+00:00",
-      "snippet": "Hey everyone! I&#39;m a software Engineer interested in connecting with people building interesting software products and solving real-world problems. I work with Python, JavaScript, React, FastAPI, Node.js, PostgreSQL, System Design, Ai models, Rag and REST APIs. I&#39;m also working on Sentinel, a fraud detection project where I&#39;m exploring backend engineering and transaction analysis with ML models. I&#39;d love to connect with other developers, startup founders, and people working on ambitious ideas. I&#39;m also interested in learning about opportunities to contribute to a team and grow through real-world engineering experience. i would love to connect for budget and work together as teams What kinds of projects are you all working on lately? &#32; submitted by &#32; /u/TechDevCircuit [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 50,
-      "buyer_signals": [
-        "looking to hire",
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "LOW",
-        "opportunity_score": 38,
-        "estimated_value_eur": 650,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "We Work Remotely",
       "title": "Contra: Senior 3D Designer",
       "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
@@ -391,10 +355,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-26T04:24:14.968638+00:00",
+    "created_at": "2026-10-26T05:22:41.693788+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 9,
+    "draft_count": 8,
     "drafts": [
       {
         "title": "[For Hire] Full-Stack Developer specializing in custom React apps with Microsoft 365 / SharePoint (Graph API, MSAL, Cloudflare/Azure)",
@@ -459,21 +423,6 @@
       {
         "title": "[Hiring] Software Engineer | System Architecture looking to hire me work together with individuals, startups, small businesses or teams remotely",
         "url": "https://www.reddit.com/r/forhire/comments/1xf1dp3/hiring_software_engineer_system_architecture/",
-        "priority": "LOW",
-        "opportunity_score": 38,
-        "estimated_value_eur": 650,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Software Engineer | System Architecture looking to hire me work together with individuals, startups, small businesses or teams remotely\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Software Engineer | System Architecture looking to hire me work together with individuals, startups, small businesses or teams remotely",
-        "url": "https://www.reddit.com/r/forhire/comments/1xf0o2o/hiring_software_engineer_system_architecture/",
         "priority": "LOW",
         "opportunity_score": 38,
         "estimated_value_eur": 650,
