@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T09:29:33.513352+00:00",
+  "generated_at": "2026-10-26T10:28:44.719416+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 9,
+    "buyer_leads_found": 7,
     "human_review_required": true
   },
   "opportunities": [
@@ -232,76 +232,6 @@
       }
     },
     {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Part time illustrator for TTRPG",
-      "url": "https://www.reddit.com/r/forhire/comments/1xfre38/hiring_part_time_illustrator_for_ttrpg/",
-      "published": "2026-10-26T08:46:27+00:00",
-      "snippet": "Looking for a part time illustrator for an upcoming TTRPG. Payment is 250,000 HUF converted to your local currency at the time of wire transfer. Required work is part time, 20 hours per week, done remotely. Please fill out this form to apply: https://docs.google.com/forms/d/e/1FAIpQLSeeLmOmrQoRbWRKbzbNHYrtwydg8XVT42szZPu-GjtWYY2wPA/viewform?usp=publish-editor &#32; submitted by &#32; /u/zoliking2 [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Part time marketing for TTRPG",
-      "url": "https://www.reddit.com/r/forhire/comments/1xfrblr/hiring_part_time_marketing_for_ttrpg/",
-      "published": "2026-10-26T08:42:03+00:00",
-      "snippet": "Looking for a part time marketing/social media expert for community building and crowd funding for an upcoming TTRPG. Payment is 300,000 HUF converted to your local currency at the time of wire transfer. Required work is part time, 20 hours per week, done remotely. Please fill out this form to apply: https://docs.google.com/forms/d/e/1FAIpQLSfa7hGYGtn6Oo6RI5mwm1R5-s66GKdKgF-kHHnLDALP-f9IeA/viewform?usp=publish-editor &#32; submitted by &#32; /u/zoliking2 [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "We Work Remotely",
       "title": "Contra: Senior 3D Designer",
       "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
@@ -389,10 +319,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-26T09:29:33.556248+00:00",
+    "created_at": "2026-10-26T10:28:44.754767+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 9,
+    "draft_count": 7,
     "drafts": [
       {
         "title": "[For Hire] Full-Stack Developer specializing in custom React apps with Microsoft 365 / SharePoint (Graph API, MSAL, Cloudflare/Azure)",
@@ -465,36 +395,6 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[Hiring] Remote Executive Assistant for Administrative Support - $20/hr\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Part time illustrator for TTRPG",
-        "url": "https://www.reddit.com/r/forhire/comments/1xfre38/hiring_part_time_illustrator_for_ttrpg/",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Part time illustrator for TTRPG\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Part time marketing for TTRPG",
-        "url": "https://www.reddit.com/r/forhire/comments/1xfrblr/hiring_part_time_marketing_for_ttrpg/",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Part time marketing for TTRPG\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
