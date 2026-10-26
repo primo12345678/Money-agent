@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T00:15:12.207588+00:00",
+  "generated_at": "2026-10-26T01:33:46.598873+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 9,
+    "buyer_leads_found": 10,
     "human_review_required": true
   },
   "opportunities": [
@@ -150,6 +150,87 @@
           "target_price_eur": 650,
           "premium_price_eur": 1600,
           "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] [Europe] Google Sheets / Excel / Apps Script automation, scripts and integrations, from $25",
+      "url": "https://www.reddit.com/r/forhire/comments/1xfikj4/for_hire_europe_google_sheets_excel_apps_script/",
+      "published": "2026-10-26T00:34:13+00:00",
+      "snippet": "I build the spreadsheet automation you don&#39;t have time for: Apps Script and VBA macros, scheduled reports, sheet-to-sheet and sheet-to-API syncs (Shopify, Stripe, Airtable, Notion), cleanup of messy imports, dashboards that update themselves. How it works: 1. You describe the task and share a sample sheet (anonymised is fine). 2. I reply with what I&#39;d build, how long it takes and a fixed price. 3. I send a working version on a copy of your sheet so you can try it on your own data. You pay (card via Revolut, or crypto) only when it does what you asked, then I move it into your file. Small tweaks after are free. Typical jobs: $25-150, usually delivered within 1-3 days. I&#39;m a software engineering student, so I&#39;ll tell you straight if something is outside what I can do properly. Budget/Rates: $25 minimum, fixed price per job. Comment or DM with the task and a sample. &#32; su",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 34,
+      "confidence": 0.49,
+      "automation_fit": 0.52,
+      "matched_keywords": [
+        "automation",
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 40,
+        "estimated_value_eur": 25,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          25.0,
+          25.0,
+          25.0
+        ],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Remote Executive Assistant for Administrative Support - $20/hr",
+      "url": "https://www.reddit.com/r/forhire/comments/1xfikw7/hiring_remote_executive_assistant_for/",
+      "published": "2026-10-26T00:34:38+00:00",
+      "snippet": "Hi everyone, I am looking to bring on a part time virtual assistant to assist with routine administrative tasks and workflow organization. Key Responsibilities: Organization: Managing digital files, updating daily task logs, and keeping shared documentation organized. Research: Conducting basic online research and drafting brief summaries as needed. Data Entry: Formatting spreadsheets, organizing contact lists, and handling basic typing tasks. Requirements: Location: Must currently reside in the US, Canada, or the EU (to ensure timezone alignment). Language: MUST BE FLUENT IN ENGLISH (Strong written and clear verbal communication skills are strictly required). Technical: Reliable internet connection and desktop access. Availability: Prompt responsiveness during standard business hours. Compensation &amp; Terms: Rate: $20/hr (Initial project budget capped at $100 for onboarding tasks). Pa",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 50,
+      "buyer_signals": [
+        "project budget",
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 34,
+      "confidence": 0.49,
+      "automation_fit": 0.52,
+      "matched_keywords": [
+        "workflow",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 39,
+        "estimated_value_eur": 100,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          20.0,
+          20.0,
+          100.0
+        ],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -337,43 +418,6 @@
         },
         "human_approval_required": true
       }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[for hire] Backend-leaning full-stack dev (Django REST, Laravel, Flutter/React) available for two kinds of work",
-      "url": "https://www.reddit.com/r/forhire/comments/1xevznf/for_hire_backendleaning_fullstack_dev_django_rest/",
-      "published": "2026-10-25T07:29:37+00:00",
-      "snippet": "→ Overflow/subcontract: swamped with client work? I take tasks off your plate — you stay client-facing, I work in the background at $15-20/hr. → Direct hire: need a backend/full-stack dev for your own project, short-term or ongoing? Same rate, I work with you directly. How it works: tell me the scope, I quote a time estimate, first small task is free so you can judge the quality before paying anything. GitHub/past work available on request. DMs open. &#32; submitted by &#32; /u/TiglathPileser_2 [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "paying"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 15,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          15.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
     }
   ],
   "errors": [
@@ -389,10 +433,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-26T00:15:12.239722+00:00",
+    "created_at": "2026-10-26T01:33:46.640876+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 9,
+    "draft_count": 10,
     "drafts": [
       {
         "title": "[For Hire] Python Developer: AI/LLM Pipelines, Data Extraction & Backend Automation | Remote | From $20/hr",
@@ -435,6 +479,36 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"Twikey: Senior Java Developer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] [Europe] Google Sheets / Excel / Apps Script automation, scripts and integrations, from $25",
+        "url": "https://www.reddit.com/r/forhire/comments/1xfikj4/for_hire_europe_google_sheets_excel_apps_script/",
+        "priority": "LOW",
+        "opportunity_score": 40,
+        "estimated_value_eur": 25,
+        "offer": {
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] [Europe] Google Sheets / Excel / Apps Script automation, scripts and integrations, from $25\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Remote Executive Assistant for Administrative Support - $20/hr",
+        "url": "https://www.reddit.com/r/forhire/comments/1xfikw7/hiring_remote_executive_assistant_for/",
+        "priority": "LOW",
+        "opportunity_score": 39,
+        "estimated_value_eur": 100,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Remote Executive Assistant for Administrative Support - $20/hr\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -510,21 +584,6 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[Hiring] Software Engineer | System Architecture looking to hire me work together with individuals, startups, small businesses or teams remotely\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[for hire] Backend-leaning full-stack dev (Django REST, Laravel, Flutter/React) available for two kinds of work",
-        "url": "https://www.reddit.com/r/forhire/comments/1xevznf/for_hire_backendleaning_fullstack_dev_django_rest/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 15,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[for hire] Backend-leaning full-stack dev (Django REST, Laravel, Flutter/React) available for two kinds of work\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
