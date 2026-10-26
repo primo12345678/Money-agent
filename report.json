@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T07:40:53.671990+00:00",
+  "generated_at": "2026-10-26T08:32:52.614567+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 8,
+    "buyer_leads_found": 7,
     "human_review_required": true
   },
   "opportunities": [
@@ -304,43 +304,6 @@
         },
         "human_approval_required": true
       }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "🎬 [Hiring] Creative AI Video Creator for High-Growth Brands | Remote, India, Philippines | 12 USD per Project + Paid Training",
-      "url": "https://www.reddit.com/r/forhire/comments/1xfp5ml/hiring_creative_ai_video_creator_for_highgrowth/",
-      "published": "2026-10-26T06:23:01+00:00",
-      "snippet": "Hey everyone 👋 I’m Gabriel from 09Aether Studio . We create content for fast-growing brands, and I’m looking for a creative, idea-driven person in India to help produce short-form videos using AI tools. This isn’t a highly technical role. If you have a good eye, love storytelling, and enjoy experimenting with new creative tools, you’ll pick up the rest quickly. What you’ll be doing: Creating videos with AI video tools Brainstorming content ideas and creative angles Writing short scripts and concepts Bringing fresh ideas to the table for different brands and campaigns Who we’re looking for: Naturally creative: you think in hooks, visuals, and stories Curious about AI and excited to experiment Interested in working with ambitious, high-growth brands Self-motivated and reliable with deadlines No coding or technical background needed Requirements: A laptop and a stable Wi-Fi connection Engli",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 12,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          12.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
     }
   ],
   "errors": [
@@ -356,10 +319,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-26T07:40:53.717106+00:00",
+    "created_at": "2026-10-26T08:32:52.658436+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 8,
+    "draft_count": 7,
     "drafts": [
       {
         "title": "[For Hire] Full-Stack Developer specializing in custom React apps with Microsoft 365 / SharePoint (Graph API, MSAL, Cloudflare/Azure)",
@@ -462,21 +425,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Contra: Senior Game Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "🎬 [Hiring] Creative AI Video Creator for High-Growth Brands | Remote, India, Philippines | 12 USD per Project + Paid Training",
-        "url": "https://www.reddit.com/r/forhire/comments/1xfp5ml/hiring_creative_ai_video_creator_for_highgrowth/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 12,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"🎬 [Hiring] Creative AI Video Creator for High-Growth Brands | Remote, India, Philippines | 12 USD per Project + Paid Training\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
