@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T01:33:46.598873+00:00",
+  "generated_at": "2026-10-26T02:24:14.923531+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,52 +34,10 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 10,
+    "buyer_leads_found": 9,
     "human_review_required": true
   },
   "opportunities": [
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] Python Developer: AI/LLM Pipelines, Data Extraction & Backend Automation | Remote | From $20/hr",
-      "url": "https://www.reddit.com/r/forhire/comments/1xezmdp/for_hire_python_developer_aillm_pipelines_data/",
-      "published": "2026-10-25T11:08:58+00:00",
-      "snippet": "Remote | Based in India (IST) | Hourly from $20/hr, or fixed price per project I build the backend plumbing that makes AI and data workflows actually run. CORE SERVICES AI Integration &amp; Prompt Systems - Custom API pipelines using Python and LLMs (OpenAI, Anthropic, open models) - Automated prompt chains and agentic workflows with tool use and logging - Structured outputs, retries and failure handling, so the pipeline doesn&#39;t quietly break Data Extraction &amp; Processing - Scraping, parsing and cleaning messy, unstructured data - Clean, structured output as CSV, JSON or SQL - Deduplication, validation and basic QA checks on the result Backend Automation - Custom scripts and scheduled jobs - Webhook handlers and API integrations - Workflow automation that replaces repetitive manual work HOW I WORK: - Work is split into paid milestones, so you can check quality before committing to",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 55,
-      "confidence": 0.7,
-      "automation_fit": 0.7,
-      "matched_keywords": [
-        "automation",
-        "ai integration",
-        "workflow",
-        "api integration",
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "MEDIUM",
-        "opportunity_score": 56,
-        "estimated_value_eur": 20,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          20.0,
-          20.0
-        ],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
     {
       "source": "Reddit r/forhire",
       "title": "[For Hire] Full-Stack Developer specializing in custom React apps with Microsoft 365 / SharePoint (Graph API, MSAL, Cloudflare/Azure)",
@@ -433,26 +391,11 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-26T01:33:46.640876+00:00",
+    "created_at": "2026-10-26T02:24:14.957989+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 10,
+    "draft_count": 9,
     "drafts": [
-      {
-        "title": "[For Hire] Python Developer: AI/LLM Pipelines, Data Extraction & Backend Automation | Remote | From $20/hr",
-        "url": "https://www.reddit.com/r/forhire/comments/1xezmdp/for_hire_python_developer_aillm_pipelines_data/",
-        "priority": "MEDIUM",
-        "opportunity_score": 56,
-        "estimated_value_eur": 20,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Python Developer: AI/LLM Pipelines, Data Extraction & Backend Automation | Remote | From $20/hr\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
       {
         "title": "[For Hire] Full-Stack Developer specializing in custom React apps with Microsoft 365 / SharePoint (Graph API, MSAL, Cloudflare/Azure)",
         "url": "https://www.reddit.com/r/forhire/comments/1xfcopg/for_hire_fullstack_developer_specializing_in/",
