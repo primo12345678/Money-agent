@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T20:19:32.819308+00:00",
+  "generated_at": "2026-10-26T21:20:53.617292+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 9,
+    "buyer_leads_found": 10,
     "human_review_required": true
   },
   "opportunities": [
@@ -201,6 +201,41 @@
           "target_price_eur": 600,
           "premium_price_eur": 1500,
           "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] Writer looking for paid jobs",
+      "url": "https://www.reddit.com/r/forhire/comments/1xg8qjz/for_hire_writer_looking_for_paid_jobs/",
+      "published": "2026-10-26T20:47:52+00:00",
+      "snippet": "Hi everyone! I’m Etta, a writer and editor with 10 years of experience, available for paid remote projects. I help creators develop their ideas into structured stories, write scripts, and improve existing material. You can hire me for short projects, a complete script, or ongoing writing and editing support. My published comic work includes Hijacked, Bailout, Moirai, and Tech Bro, produced by Etta Studios. Portfolio: https://drive.google.com/drive/folders/13VdJeVKQDCK61hDe5JecpMKU9AB0ZzEk?usp=drive_link Published work: ettastudios.com I can help with: Comics and webtoons: Concepts, issue outlines, scripts, page and panel breakdowns, dialogue, and captions. Games and visual novels: Narrative development, character routes, branching dialogue, choices, cutscenes, and alternate endings. Film, television, and animation: Outlines, treatments, screenplays, episode scripts, and rewrites. Story d",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "paid project"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_support",
+        "priority": "LOW",
+        "opportunity_score": 37,
+        "estimated_value_eur": 500,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI customer-support automation",
+          "starter_price_eur": 200,
+          "target_price_eur": 500,
+          "premium_price_eur": 1200,
+          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -404,10 +439,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-26T20:19:32.860377+00:00",
+    "created_at": "2026-10-26T21:20:53.653770+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 9,
+    "draft_count": 10,
     "drafts": [
       {
         "title": "[For Hire] Workflow automation, API integrations, scraping & data cleanup (Python, SQL, Linux) | Remote | $40/hr or fixed price/project",
@@ -465,6 +500,21 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[Hiring] Senior Paid Media Manager - Full Time - Remote (USA only) - $100k+/yr + benefits\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] Writer looking for paid jobs",
+        "url": "https://www.reddit.com/r/forhire/comments/1xg8qjz/for_hire_writer_looking_for_paid_jobs/",
+        "priority": "LOW",
+        "opportunity_score": 37,
+        "estimated_value_eur": 500,
+        "offer": {
+          "subject": "Proposal: AI customer-support automation",
+          "price_eur": 500,
+          "starter_price_eur": 200,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Writer looking for paid jobs\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
