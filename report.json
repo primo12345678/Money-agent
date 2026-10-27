@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T06:23:55.482343+00:00",
+  "generated_at": "2026-10-27T07:36:21.750733+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,55 +34,10 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 10,
+    "buyer_leads_found": 9,
     "human_review_required": true
   },
   "opportunities": [
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] Workflow automation, API integrations, scraping & data cleanup (Python, SQL, Linux) | Remote | $40/hr or fixed price/project",
-      "url": "https://www.reddit.com/r/forhire/comments/1xg3kdd/for_hire_workflow_automation_api_integrations/",
-      "published": "2026-10-26T17:36:23+00:00",
-      "snippet": "What I do I automate repetitive business work so you stop doing it by hand. Typical jobs: Connecting tools through REST APIs and webhooks (CRMs, marketing automation, payment tools, spreadsheets, internal systems) Replacing manual CSV imports and exports with scheduled data syncs Spreadsheet automation: Excel macros, Google Sheets and Apps Script, auto-updating reports Web scraping and monitoring (prices, listings, availability, changes to a page) delivered to a sheet, database, or your inbox Data cleanup: deduplicating, reformatting, merging messy files, and converting between formats (CSV, Excel, JSON, XML) Bulk file and document processing: batch renaming, PDF text and table extraction, invoice and form data entry Email automation: parsing incoming messages, auto-sorting, scheduled reports, and notifications Custom Slack and Discord bots, plus alerts for things you currently check by ",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [
-        "full-time"
-      ],
-      "score": 69,
-      "confidence": 0.84,
-      "automation_fit": 0.82,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "zapier",
-        "crm",
-        "api integration",
-        "marketing automation",
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "MEDIUM",
-        "opportunity_score": 68,
-        "estimated_value_eur": 40,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          40.0
-        ],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
     {
       "source": "We Work Remotely",
       "title": "Twikey: Senior Java Developer",
@@ -432,26 +387,11 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-27T06:23:55.523729+00:00",
+    "created_at": "2026-10-27T07:36:21.784992+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 10,
+    "draft_count": 9,
     "drafts": [
-      {
-        "title": "[For Hire] Workflow automation, API integrations, scraping & data cleanup (Python, SQL, Linux) | Remote | $40/hr or fixed price/project",
-        "url": "https://www.reddit.com/r/forhire/comments/1xg3kdd/for_hire_workflow_automation_api_integrations/",
-        "priority": "MEDIUM",
-        "opportunity_score": 68,
-        "estimated_value_eur": 40,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Workflow automation, API integrations, scraping & data cleanup (Python, SQL, Linux) | Remote | $40/hr or fixed price/project\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
       {
         "title": "Twikey: Senior Java Developer",
         "url": "https://weworkremotely.com/remote-jobs/twikey-senior-java-developer",
