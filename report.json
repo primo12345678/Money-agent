@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T17:33:13.395280+00:00",
+  "generated_at": "2026-10-27T18:28:07.907463+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 5,
+    "buyer_leads_found": 6,
     "human_review_required": true
   },
   "opportunities": [
@@ -187,6 +187,43 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[For Hire] Full-Stack Developer | React, Next.js, Python, APIs & DevOps | Remote",
+      "url": "https://www.reddit.com/r/forhire/comments/1xgvva8/for_hire_fullstack_developer_react_nextjs_python/",
+      "published": "2026-10-27T15:38:26+00:00",
+      "snippet": "I&#39;m a full-stack developer available for remote freelance projects and contract work. I build web applications, improve existing products, fix bugs, integrate APIs, and handle deployment. What I can help with React, Next.js, TypeScript and Tailwind CSS development Backend APIs with Node.js, Express or Python/FastAPI PostgreSQL, Supabase and database integrations Debugging and fixing existing web applications Docker, Linux/VPS deployment and server configuration AI API and tool-calling integrations How I work I can take a clearly scoped task from investigation through implementation, testing and delivery. I&#39;m comfortable working with an existing codebase as well as building new features. Portfolio: https://frhan-portfolio.vercel.app/ Availability: Remote, project-based or ongoing freelance work. Rate: Starting at $15/hour, depending on the scope and requirements. If you have a pai",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "paid project"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 15,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          15.0
+        ],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[Hiring] Marketing Person - Inbound/Web/SEO",
       "url": "https://www.reddit.com/r/forhire/comments/1xgwwmx/hiring_marketing_person_inboundwebseo/",
       "published": "2026-10-27T16:16:11+00:00",
@@ -238,10 +275,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-27T17:33:13.429356+00:00",
+    "created_at": "2026-10-27T18:28:07.949381+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 5,
+    "draft_count": 6,
     "drafts": [
       {
         "title": "Twikey: Senior Java Developer",
@@ -299,6 +336,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Full-stack dev, 7+ yrs | I fix and launch apps built with Lovable, Bolt or Cursor | Remote | fixed prices from $490\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] Full-Stack Developer | React, Next.js, Python, APIs & DevOps | Remote",
+        "url": "https://www.reddit.com/r/forhire/comments/1xgvva8/for_hire_fullstack_developer_react_nextjs_python/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 15,
+        "offer": {
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Full-Stack Developer | React, Next.js, Python, APIs & DevOps | Remote\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
