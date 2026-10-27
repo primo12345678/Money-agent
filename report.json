@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T15:35:11.722773+00:00",
+  "generated_at": "2026-10-27T16:35:36.345191+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 6,
+    "buyer_leads_found": 5,
     "human_review_required": true
   },
   "opportunities": [
@@ -186,51 +186,15 @@
       }
     },
     {
-      "source": "We Work Remotely",
-      "title": "Contra: Senior 3D Designer",
-      "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
-      "published": "Wed, 07 Oct 2026 00:11:33 +0000",
-      "snippet": "Headquarters: San Francisco, CA URL: http://bit.ly/3kLhMdk About Contra Labs Contra Labs sits at the intersection of human creativity and AI. We partner with leading AI labs and product companies to improve their tools across design, video, development, and beyond. Our research is grounded in how top creatives actually work, studying the patterns behind what gets created, what gets chosen, and what resonates. We believe human input will always be at the center of net new creation, and our mission is to help shape technology so human creativity can be amplified to create what today is unimaginable. By joining the Contra Labs network you gain access to paid projects with some of the most innovative companies building the next generation of creative and AI-powered tools. How It Works This is an application to join the network and be eligible for roles as they arise. Projects are staffed on ",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "paid project"
-      ],
-      "employment_signals": [
-        "full-time"
-      ],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "Reddit r/forhire",
-      "title": "[Hiring] Cold Email / Marketing Expert",
-      "url": "https://www.reddit.com/r/forhire/comments/1xguosw/hiring_cold_email_marketing_expert/",
-      "published": "2026-10-27T14:54:05+00:00",
-      "snippet": "I need someone to set up a cold email campaign for me. This would include pricing out smartlead/instantly/some other software, setting up mailboxes, drafting an email (with my help), creating a campaign, any other recommendations, etc. I can provide data. I may be interested in cold calling or other marketing as well for someone with other marketing skills. I do not have a strict budget but based on a quick search it looks like people are asking $15-30 an hour for this kind of work on here. Please let me know your hourly rate, or if you prefer to do flat rate. &#32; submitted by &#32; /u/indyprivatelending [link] &#32; [comments]",
+      "title": "[Hiring] Marketing Person - Inbound/Web/SEO",
+      "url": "https://www.reddit.com/r/forhire/comments/1xgwwmx/hiring_marketing_person_inboundwebseo/",
+      "published": "2026-10-27T16:16:11+00:00",
+      "snippet": "Looking for someone to help with online marketing for my site for inbound leads. I&#39;m a local private hard money lender specializing in investment properties. I have already done some basic SEO, GMB page, a few backlinks, a bit of cold calling and I am working on setting up cold emailing. I am looking for someone to help me with marketing the site for INBOUND leads. Open to any suggestions. Would like to start by putting together a marketing plan / proposal (I can pay for this part if it takes time). Going rate on here seems to be $15-20 an hour but send over your rate, I am flexible. I can also potentially do performance based for outbound / cold calling if anyone is interested (1% of amount lent, up to $1M) but that is separate from what I&#39;m looking for here. &#32; submitted by &#32; /u/indyprivatelending [link] &#32; [comments]",
       "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
+      "buyer_intent_score": 50,
       "buyer_signals": [
+        "looking for someone to",
         "[hiring]"
       ],
       "employment_signals": [],
@@ -241,20 +205,21 @@
         "ai"
       ],
       "analysis": {
-        "category": "other",
+        "category": "lead_generation",
         "priority": "LOW",
-        "opportunity_score": 32,
+        "opportunity_score": 33,
         "estimated_value_eur": 15,
         "value_basis": "Detected budget/rate in listing",
         "budget_signals": [
-          15.0
+          15.0,
+          1.0
         ],
         "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -273,10 +238,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-27T15:35:11.756023+00:00",
+    "created_at": "2026-10-27T16:35:36.392827+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 6,
+    "draft_count": 5,
     "drafts": [
       {
         "title": "Twikey: Senior Java Developer",
@@ -339,31 +304,16 @@
         }
       },
       {
-        "title": "Contra: Senior 3D Designer",
-        "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
+        "title": "[Hiring] Marketing Person - Inbound/Web/SEO",
+        "url": "https://www.reddit.com/r/forhire/comments/1xgwwmx/hiring_marketing_person_inboundwebseo/",
         "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Cold Email / Marketing Expert",
-        "url": "https://www.reddit.com/r/forhire/comments/1xguosw/hiring_cold_email_marketing_expert/",
-        "priority": "LOW",
-        "opportunity_score": 32,
+        "opportunity_score": 33,
         "estimated_value_eur": 15,
         "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Cold Email / Marketing Expert\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "subject": "Proposal: AI lead generation and follow-up",
+          "price_eur": 750,
+          "starter_price_eur": 300,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Marketing Person - Inbound/Web/SEO\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
