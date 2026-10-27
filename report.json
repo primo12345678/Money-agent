@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T19:32:02.901137+00:00",
+  "generated_at": "2026-10-27T20:25:01.567513+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 5,
+    "buyer_leads_found": 7,
     "human_review_required": true
   },
   "opportunities": [
@@ -70,6 +70,45 @@
           "target_price_eur": 650,
           "premium_price_eur": 1600,
           "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] Full-stack developer (React, TypeScript, Node.js, Python) | AI agents, payments, mobile apps, security audits | Remote, Brazil (UTC-3) | $35/hr or fixed price",
+      "url": "https://www.reddit.com/r/forhire/comments/1xh2n85/for_hire_fullstack_developer_react_typescript/",
+      "published": "2026-10-27T19:45:18+00:00",
+      "snippet": "Hi r/forhire , I&#39;m Pedro, a full-stack developer in Brazil (UTC-3) working remotely in English. I&#39;ve spent 3+ years shipping production web and mobile products end to end, and I&#39;m taking on new projects now (part-time capacity). What I build Web apps and APIs: React, TypeScript, Next.js, Node.js/Express, Python/FastAPI, PostgreSQL and SQLite Mobile apps: Android and iOS with Capacitor, released to Google Play and the App Store, with Firebase push notifications Payments: Stripe Connect (Express accounts, payouts), card checkout, in-app wallets, Mercado Pago AI features: Gemini, OpenAI and Claude APIs, agents that call real tools, RAG, local models (Ollama, LM Studio), LLM evals Automation: Python scraping and browser automation, WhatsApp integrations Security and infra: code audits and hardening (OWASP Top 10), Docker, nginx, Linux VPS, DNS and email setup Recent work Part-tim",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "automation",
+        "ai agent",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 45,
+        "estimated_value_eur": 35,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          35.0
+        ],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -140,6 +179,41 @@
         "budget_signals": [
           490.0
         ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[HIRING] Gaming Video Editor for New YouTube Channel — Ongoing Work, Pay Negotiable",
+      "url": "https://www.reddit.com/r/forhire/comments/1xh3ef7/hiring_gaming_video_editor_for_new_youtube/",
+      "published": "2026-10-27T20:13:20+00:00",
+      "snippet": "Hey everyone! I&#39;m looking for a reliable video editor to work with me on a new gaming YouTube channel. The goal is to upload videos daily, so I&#39;m hoping to find someone interested in a consistent, ongoing collaboration as the channel grows. What the job involves: - Taking streaming footage that has already been cut down to around 30 minutes and doing the final edits. - Adding transitions, sound effects, zooms, captions, and memes where appropriate. - Improving pacing and keeping the videos entertaining without overcomplicating the editing style. - Delivering polished, YouTube-ready videos consistently. What I&#39;m looking for: - Someone familiar with gaming content and YouTube editing. - Good attention to detail and a sense of comedic timing. - Reliability and the ability to meet deadlines. - Previous editing samples or a portfolio would be a plus. Payment: Open to discussion. I",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
         "offer": {
           "service": "AI workflow improvement",
           "starter_price_eur": 150,
@@ -240,10 +314,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-27T19:32:02.932945+00:00",
+    "created_at": "2026-10-27T20:25:01.610721+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 5,
+    "draft_count": 7,
     "drafts": [
       {
         "title": "Twikey: Senior Java Developer",
@@ -256,6 +330,21 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"Twikey: Senior Java Developer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] Full-stack developer (React, TypeScript, Node.js, Python) | AI agents, payments, mobile apps, security audits | Remote, Brazil (UTC-3) | $35/hr or fixed price",
+        "url": "https://www.reddit.com/r/forhire/comments/1xh2n85/for_hire_fullstack_developer_react_typescript/",
+        "priority": "LOW",
+        "opportunity_score": 45,
+        "estimated_value_eur": 35,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Full-stack developer (React, TypeScript, Node.js, Python) | AI agents, payments, mobile apps, security audits | Remote, Brazil (UTC-3) | $35/hr or fixed price\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -286,6 +375,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Full-stack dev, 7+ yrs | I fix and launch apps built with Lovable, Bolt or Cursor | Remote | fixed prices from $490\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[HIRING] Gaming Video Editor for New YouTube Channel — Ongoing Work, Pay Negotiable",
+        "url": "https://www.reddit.com/r/forhire/comments/1xh3ef7/hiring_gaming_video_editor_for_new_youtube/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[HIRING] Gaming Video Editor for New YouTube Channel — Ongoing Work, Pay Negotiable\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
