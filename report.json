@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T11:25:23.895073+00:00",
+  "generated_at": "2026-10-27T12:25:44.029655+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 9,
+    "buyer_leads_found": 5,
     "human_review_required": true
   },
   "opportunities": [
@@ -154,48 +154,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[Hiring] Senior Paid Media Manager - Full Time - Remote (USA only) - $100k+/yr + benefits",
-      "url": "https://www.reddit.com/r/forhire/comments/1xg76nl/hiring_senior_paid_media_manager_full_time_remote/",
-      "published": "2026-10-26T19:49:33+00:00",
-      "snippet": "We&#39;re a paid media agency hiring a full-time Senior Paid Media Manager . Role: Senior Paid Media Manager (full time, salaried) Location: USA only, must be authorized to work in the USA Pay: $100k/yr plus full benefits Start: ASAP, jumping straight into BFCM planning and execution Requirements 5+ years of paid media experience, mostly ecommerce Deep, hands-on Google Ads and Meta Ads expertise Experience with TikTok, CTV, and other platforms Strong account management, optimization, and client communication Regular use of AI in your workflows To apply: DM me your LinkedIn profile and resume. &#32; submitted by &#32; /u/SeasonedAdManager [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [
-        "full-time",
-        "full time"
-      ],
-      "score": 34,
-      "confidence": 0.49,
-      "automation_fit": 0.52,
-      "matched_keywords": [
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 39,
-        "estimated_value_eur": 100,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          100.0,
-          100.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[For Hire] Meta Ads | Sales Funnels | Tech Integrations | Follow Up Automations",
       "url": "https://www.reddit.com/r/forhire/comments/1xggg1k/for_hire_meta_ads_sales_funnels_tech_integrations/",
       "published": "2026-10-27T02:16:05+00:00",
@@ -225,76 +183,6 @@
           "target_price_eur": 600,
           "premium_price_eur": 1500,
           "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] Writer looking for paid jobs",
-      "url": "https://www.reddit.com/r/forhire/comments/1xg8qjz/for_hire_writer_looking_for_paid_jobs/",
-      "published": "2026-10-26T20:47:52+00:00",
-      "snippet": "Hi everyone! I’m Etta, a writer and editor with 10 years of experience, available for paid remote projects. I help creators develop their ideas into structured stories, write scripts, and improve existing material. You can hire me for short projects, a complete script, or ongoing writing and editing support. My published comic work includes Hijacked, Bailout, Moirai, and Tech Bro, produced by Etta Studios. Portfolio: https://drive.google.com/drive/folders/13VdJeVKQDCK61hDe5JecpMKU9AB0ZzEk?usp=drive_link Published work: ettastudios.com I can help with: Comics and webtoons: Concepts, issue outlines, scripts, page and panel breakdowns, dialogue, and captions. Games and visual novels: Narrative development, character routes, branching dialogue, choices, cutscenes, and alternate endings. Film, television, and animation: Outlines, treatments, screenplays, episode scripts, and rewrites. Story d",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "paid project"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_support",
-        "priority": "LOW",
-        "opportunity_score": 37,
-        "estimated_value_eur": 500,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI customer-support automation",
-          "starter_price_eur": 200,
-          "target_price_eur": 500,
-          "premium_price_eur": 1200,
-          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[HIRING] Looking for a local helper in San Diego!",
-      "url": "https://www.reddit.com/r/forhire/comments/1xg6lzc/hiring_looking_for_a_local_helper_in_san_diego/",
-      "published": "2026-10-26T19:27:56+00:00",
-      "snippet": "Hi everyone! I’m looking for someone available during the week of November 9 and TwitchCon weekend to help with a small personal project around the city. If you’re local, reliable, and interested, please DM me with your availability and rates! ♡ &#32; submitted by &#32; /u/Impressive_Dot_5727 [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -335,44 +223,6 @@
         },
         "human_approval_required": true
       }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Paid Media Assistant - Contractor - Remote (Canada/Mexico/South America, USA hours) - $25+/hr",
-      "url": "https://www.reddit.com/r/forhire/comments/1xg77r1/hiring_paid_media_assistant_contractor_remote/",
-      "published": "2026-10-26T19:50:40+00:00",
-      "snippet": "We&#39;re a paid media agency hiring a contract Paid Media Assistant . Role: Paid Media Assistant (contractor) Location: Remote, ideally based in Canada, Mexico, or South America Hours: Regular USA business hours Pay: $25+/hr What you&#39;ll do Account research and reporting Ad copy drafts and creative ideas Campaign QA and ad builds Grow into client-facing work as you develop Who we&#39;re looking for Organized, responsive, and curious Eager to build hands-on paid media skills (Google Ads, Meta, and more) To apply: DM me your LinkedIn profile and resume. &#32; submitted by &#32; /u/SeasonedAdManager [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 25,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          25.0,
-          25.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
     }
   ],
   "errors": [
@@ -388,10 +238,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-27T11:25:23.935968+00:00",
+    "created_at": "2026-10-27T12:25:44.070998+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 9,
+    "draft_count": 5,
     "drafts": [
       {
         "title": "Twikey: Senior Java Developer",
@@ -439,21 +289,6 @@
         }
       },
       {
-        "title": "[Hiring] Senior Paid Media Manager - Full Time - Remote (USA only) - $100k+/yr + benefits",
-        "url": "https://www.reddit.com/r/forhire/comments/1xg76nl/hiring_senior_paid_media_manager_full_time_remote/",
-        "priority": "LOW",
-        "opportunity_score": 39,
-        "estimated_value_eur": 100,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Senior Paid Media Manager - Full Time - Remote (USA only) - $100k+/yr + benefits\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "[For Hire] Meta Ads | Sales Funnels | Tech Integrations | Follow Up Automations",
         "url": "https://www.reddit.com/r/forhire/comments/1xggg1k/for_hire_meta_ads_sales_funnels_tech_integrations/",
         "priority": "LOW",
@@ -469,36 +304,6 @@
         }
       },
       {
-        "title": "[For Hire] Writer looking for paid jobs",
-        "url": "https://www.reddit.com/r/forhire/comments/1xg8qjz/for_hire_writer_looking_for_paid_jobs/",
-        "priority": "LOW",
-        "opportunity_score": 37,
-        "estimated_value_eur": 500,
-        "offer": {
-          "subject": "Proposal: AI customer-support automation",
-          "price_eur": 500,
-          "starter_price_eur": 200,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Writer looking for paid jobs\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[HIRING] Looking for a local helper in San Diego!",
-        "url": "https://www.reddit.com/r/forhire/comments/1xg6lzc/hiring_looking_for_a_local_helper_in_san_diego/",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[HIRING] Looking for a local helper in San Diego!\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "Contra: Senior 3D Designer",
         "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
         "priority": "LOW",
@@ -509,21 +314,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Paid Media Assistant - Contractor - Remote (Canada/Mexico/South America, USA hours) - $25+/hr",
-        "url": "https://www.reddit.com/r/forhire/comments/1xg77r1/hiring_paid_media_assistant_contractor_remote/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 25,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Paid Media Assistant - Contractor - Remote (Canada/Mexico/South America, USA hours) - $25+/hr\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
