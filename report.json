@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T20:25:01.567513+00:00",
+  "generated_at": "2026-10-27T21:22:15.974267+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 7,
+    "buyer_leads_found": 8,
     "human_review_required": true
   },
   "opportunities": [
@@ -102,6 +102,45 @@
         "value_basis": "Detected budget/rate in listing",
         "budget_signals": [
           35.0
+        ],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] Remote Developer | PHP, Python, Automation & Internal Business Tools | $15/hour",
+      "url": "https://www.reddit.com/r/forhire/comments/1xh4rwo/for_hire_remote_developer_php_python_automation/",
+      "published": "2026-10-27T21:04:41+00:00",
+      "snippet": "Hi! I’m Dennis, a software developer based in Colombia. I help businesses build and improve internal tools, automate repetitive processes, and connect systems. My experience includes: Business applications: Developing tools for logistics operations, electronic documents and pre-billing workflows. Automation and reporting: Combining information from MySQL and SQL Server, preparing reports and distributing them by email. Integrations: Working with REST APIs, SOAP services, XML and data from warehouse and transport systems. Support and maintenance: Troubleshooting issues, testing changes and writing user manuals and technical documentation. One project I developed replaced a previous shipping document system. It reduced the end-to-end processing of 120 documents from at least 60 minutes to approximately 2–3 minutes. Technologies: PHP, Python, JavaScript, MySQL, SQL Server, Git and Linux. I ",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "need help with"
+      ],
+      "employment_signals": [],
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "automation",
+        "workflow",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 45,
+        "estimated_value_eur": 15,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          15.0
         ],
         "offer": {
           "service": "AI workflow automation",
@@ -191,41 +230,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[HIRING] Gaming Video Editor for New YouTube Channel — Ongoing Work, Pay Negotiable",
-      "url": "https://www.reddit.com/r/forhire/comments/1xh3ef7/hiring_gaming_video_editor_for_new_youtube/",
-      "published": "2026-10-27T20:13:20+00:00",
-      "snippet": "Hey everyone! I&#39;m looking for a reliable video editor to work with me on a new gaming YouTube channel. The goal is to upload videos daily, so I&#39;m hoping to find someone interested in a consistent, ongoing collaboration as the channel grows. What the job involves: - Taking streaming footage that has already been cut down to around 30 minutes and doing the final edits. - Adding transitions, sound effects, zooms, captions, and memes where appropriate. - Improving pacing and keeping the videos entertaining without overcomplicating the editing style. - Delivering polished, YouTube-ready videos consistently. What I&#39;m looking for: - Someone familiar with gaming content and YouTube editing. - Good attention to detail and a sense of comedic timing. - Reliability and the ability to meet deadlines. - Previous editing samples or a portfolio would be a plus. Payment: Open to discussion. I",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[For Hire] Full-Stack Developer | React, Next.js, Python, APIs & DevOps | Remote",
       "url": "https://www.reddit.com/r/forhire/comments/1xgvva8/for_hire_fullstack_developer_react_nextjs_python/",
       "published": "2026-10-27T15:38:26+00:00",
@@ -299,6 +303,44 @@
         },
         "human_approval_required": true
       }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[FOR HIRE] Tonight — Quick Programming Help & Small Tasks (€10+)",
+      "url": "https://www.reddit.com/r/forhire/comments/1xh3st2/for_hire_tonight_quick_programming_help_small/",
+      "published": "2026-10-27T20:28:17+00:00",
+      "snippet": "Hey everyone, I&#39;m looking to pick up some small paid tasks tonight. I&#39;m a computer science student and can help with HTML/CSS, JavaScript, C++, Python, Java, Dart, Flutter, SQL, debugging, APIs, general programming issues, or pretty much anything tech-related that I can reasonably handle. I&#39;m offering quick, affordable help starting at €10 depending on the task. I&#39;m available immediately and can agree on a fixed price beforehand. If you have a small task you&#39;ve been putting off or know someone who needs a hand, please send me a DM. I&#39;d really appreciate it! &#32; submitted by &#32; /u/DontNerfAkali [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 10,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          10.0,
+          10.0
+        ],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     }
   ],
   "errors": [
@@ -314,10 +356,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-27T20:25:01.610721+00:00",
+    "created_at": "2026-10-27T21:22:16.008445+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 7,
+    "draft_count": 8,
     "drafts": [
       {
         "title": "Twikey: Senior Java Developer",
@@ -345,6 +387,21 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Full-stack developer (React, TypeScript, Node.js, Python) | AI agents, payments, mobile apps, security audits | Remote, Brazil (UTC-3) | $35/hr or fixed price\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] Remote Developer | PHP, Python, Automation & Internal Business Tools | $15/hour",
+        "url": "https://www.reddit.com/r/forhire/comments/1xh4rwo/for_hire_remote_developer_php_python_automation/",
+        "priority": "LOW",
+        "opportunity_score": 45,
+        "estimated_value_eur": 15,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Remote Developer | PHP, Python, Automation & Internal Business Tools | $15/hour\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -380,21 +437,6 @@
         }
       },
       {
-        "title": "[HIRING] Gaming Video Editor for New YouTube Channel — Ongoing Work, Pay Negotiable",
-        "url": "https://www.reddit.com/r/forhire/comments/1xh3ef7/hiring_gaming_video_editor_for_new_youtube/",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[HIRING] Gaming Video Editor for New YouTube Channel — Ongoing Work, Pay Negotiable\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "[For Hire] Full-Stack Developer | React, Next.js, Python, APIs & DevOps | Remote",
         "url": "https://www.reddit.com/r/forhire/comments/1xgvva8/for_hire_fullstack_developer_react_nextjs_python/",
         "priority": "LOW",
@@ -420,6 +462,21 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"[Hiring] Marketing Person - Inbound/Web/SEO\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[FOR HIRE] Tonight — Quick Programming Help & Small Tasks (€10+)",
+        "url": "https://www.reddit.com/r/forhire/comments/1xh3st2/for_hire_tonight_quick_programming_help_small/",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 10,
+        "offer": {
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[FOR HIRE] Tonight — Quick Programming Help & Small Tasks (€10+)\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
