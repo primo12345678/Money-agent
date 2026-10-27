@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T09:26:44.441717+00:00",
+  "generated_at": "2026-10-27T10:26:54.150958+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 9,
+    "buyer_leads_found": 10,
     "human_review_required": true
   },
   "opportunities": [
@@ -70,6 +70,45 @@
           "target_price_eur": 650,
           "premium_price_eur": 1600,
           "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "Title: [Hiring] Remote AI Training & LLM Evaluation Expert – $2,000/month",
+      "url": "https://www.reddit.com/r/forhire/comments/1xgnx9k/title_hiring_remote_ai_training_llm_evaluation/",
+      "published": "2026-10-27T09:32:10+00:00",
+      "snippet": "Hi everyone! I am looking to hire an experienced AI training professional for a long-term remote opportunity. The ideal candidate has hands-on experience with AI training platforms such as Outlier, DataAnnotation, Alignerr, Mercor, or similar services. Responsibilities: Evaluate AI-generated responses for accuracy, quality, and relevance. Review and improve AI training data. Work on prompt engineering and LLM evaluation tasks. Provide structured feedback to improve AI model performance. Requirements: Previous experience in AI training or LLM evaluation. Strong written English and communication skills. Excellent attention to detail and analytical thinking. Reliable, professional, and able to work independently. Compensation: $2,000/month. Location: Remote Type: Long-term contract. If interested, please send me a Reddit DM with a brief introduction, your relevant experience, and the AI tra",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 50,
+      "buyer_signals": [
+        "looking to hire",
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 42,
+        "estimated_value_eur": 2000,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          2000.0,
+          2000.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -387,10 +426,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-27T09:26:44.472194+00:00",
+    "created_at": "2026-10-27T10:26:54.192632+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 9,
+    "draft_count": 10,
     "drafts": [
       {
         "title": "Twikey: Senior Java Developer",
@@ -403,6 +442,21 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"Twikey: Senior Java Developer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Title: [Hiring] Remote AI Training & LLM Evaluation Expert – $2,000/month",
+        "url": "https://www.reddit.com/r/forhire/comments/1xgnx9k/title_hiring_remote_ai_training_llm_evaluation/",
+        "priority": "LOW",
+        "opportunity_score": 42,
+        "estimated_value_eur": 2000,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"Title: [Hiring] Remote AI Training & LLM Evaluation Expert – $2,000/month\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
