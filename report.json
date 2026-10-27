@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T18:28:07.907463+00:00",
+  "generated_at": "2026-10-27T19:32:02.901137+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 6,
+    "buyer_leads_found": 5,
     "human_review_required": true
   },
   "opportunities": [
@@ -109,41 +109,6 @@
           "target_price_eur": 400,
           "premium_price_eur": 1000,
           "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] Meta Ads | Sales Funnels | Tech Integrations | Follow Up Automations",
-      "url": "https://www.reddit.com/r/forhire/comments/1xggg1k/for_hire_meta_ads_sales_funnels_tech_integrations/",
-      "published": "2026-10-27T02:16:05+00:00",
-      "snippet": "Hey all! My name is Ilona, and I’ve spent the last 7 years working with multiple 7-figure business owners, handling everything from their marketing strategies and sales funnels to Meta ads, backend integrations and follow-up automations. I’m looking to take on a few more clients, specifically established business owners who already have a proven offer but need someone experienced to handle the marketing and tech side of things. One of the biggest advantages of working with me is that you don’t need to hire three different people to manage your ads, build your funnels and connect all the tech. I can handle all of it. I’ve worked with plenty of different platforms and systems over the years, so chances are I’ve already worked with whatever you’re using. I’m also not someone who needs to be told what to do every step of the way. I can look at what you currently have, figure out what needs i",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "need help with"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "automation"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 38,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -275,10 +240,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-27T18:28:07.949381+00:00",
+    "created_at": "2026-10-27T19:32:02.932945+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 6,
+    "draft_count": 5,
     "drafts": [
       {
         "title": "Twikey: Senior Java Developer",
@@ -306,21 +271,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Title: [Hiring] Remote AI Training & LLM Evaluation Expert – $2,000/month\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[For Hire] Meta Ads | Sales Funnels | Tech Integrations | Follow Up Automations",
-        "url": "https://www.reddit.com/r/forhire/comments/1xggg1k/for_hire_meta_ads_sales_funnels_tech_integrations/",
-        "priority": "LOW",
-        "opportunity_score": 38,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Meta Ads | Sales Funnels | Tech Integrations | Follow Up Automations\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
