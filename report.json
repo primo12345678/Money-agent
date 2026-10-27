@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T13:39:50.027654+00:00",
+  "generated_at": "2026-10-27T14:36:48.365245+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 6,
+    "buyer_leads_found": 5,
     "human_review_required": true
   },
   "opportunities": [
@@ -109,45 +109,6 @@
           "target_price_eur": 400,
           "premium_price_eur": 1000,
           "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Remote Customer Support Representative – US/Canada – $25–35/hr",
-      "url": "https://www.reddit.com/r/forhire/comments/1xg9meq/hiring_remote_customer_support_representative/",
-      "published": "2026-10-26T21:21:35+00:00",
-      "snippet": "We&#39;re hiring part-time Customer Support Representatives based in the US or Canada to help manage customer emails and chat inquiries. Job Details : Pay: $25–35/hour, depending on experience Hours: 15–20 per week Location: Remote (US/Canada) Type: Part-time, ongoing Schedule: Flexible, with agreed working hours What You&#39;ll Do : Respond to customer emails and chat messages Answer routine questions using provided guidelines Keep customer interaction records organized Escalate issues that need further attention Requirements : Strong written English Reliable computer and internet access Basic Google Docs and Sheets skills Good attention to detail Previous customer support experience is a plus, but not required. Training and instructions will be provided. To Apply: Please PM me with your state/province, weekly availability, and a short summary of your relevant experience. &#32; submitte",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 34,
-      "confidence": 0.49,
-      "automation_fit": 0.52,
-      "matched_keywords": [
-        "customer support",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_support",
-        "priority": "LOW",
-        "opportunity_score": 40,
-        "estimated_value_eur": 25,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          25.0,
-          25.0
-        ],
-        "offer": {
-          "service": "AI customer-support automation",
-          "starter_price_eur": 200,
-          "target_price_eur": 500,
-          "premium_price_eur": 1200,
-          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -275,10 +236,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-27T13:39:50.073613+00:00",
+    "created_at": "2026-10-27T14:36:48.407462+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 6,
+    "draft_count": 5,
     "drafts": [
       {
         "title": "Twikey: Senior Java Developer",
@@ -306,21 +267,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Title: [Hiring] Remote AI Training & LLM Evaluation Expert – $2,000/month\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Remote Customer Support Representative – US/Canada – $25–35/hr",
-        "url": "https://www.reddit.com/r/forhire/comments/1xg9meq/hiring_remote_customer_support_representative/",
-        "priority": "LOW",
-        "opportunity_score": 40,
-        "estimated_value_eur": 25,
-        "offer": {
-          "subject": "Proposal: AI customer-support automation",
-          "price_eur": 500,
-          "starter_price_eur": 200,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Remote Customer Support Representative – US/Canada – $25–35/hr\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
