@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T01:43:16.242772+00:00",
+  "generated_at": "2026-10-28T02:32:06.882987+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 7,
+    "buyer_leads_found": 8,
     "human_review_required": true
   },
   "opportunities": [
@@ -228,6 +228,47 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[For Hire] Hi! I'm Laura, a comic artist offering services for comics, manga, and webtoons.(N*FW, Yaoi, Yuri, Furry, doujinshi, furry and SFW) this is my portfolio: https://www.artstation.com/animatkstudios",
+      "url": "https://www.reddit.com/r/forhire/comments/1xhbmvg/for_hire_hi_im_laura_a_comic_artist_offering/",
+      "published": "2026-10-28T01:58:04+00:00",
+      "snippet": "this is my portfolio: https://www.artstation.com/animatkstudios ART SERVICES - Sketching: $18 / $25 / $35 - Inking: $20 (line art) / $30 (standard) / $40 (high quality) - Coloring: $18 / $25 / $35 per page - Flatting: $10/page - Shading &amp; lighting: $12/page - Lettering: $8–$10/page FULLY FINISHED PAGES - B&amp;W: $45 / $55 / $75 per page - Color: $60 / $75 / $110 per page WEBTOON PANELS - B&amp;W: $9 / $11 / $15 per panel - Color: $10 / $15 / $22 per panel DELIVERY TIMES - Sketching, inking, and coloring: 5 pages per week - Flatting, shading &amp; lighting, and lettering: 3 pages per day - Fully finished comic pages: 1 page per week - Webtoon panels: up to 20 at Level 1 or 10 at Level 3 PAYMENT AND DISCOUNTS - 20% off when paying for the entire project upfront. - 15% off when paying 50% upfront, or 30% upfront with gradual payments as pages are completed. - Individual pages: 50% upfr",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "paying"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 110,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          18.0,
+          25.0,
+          35.0,
+          20.0,
+          30.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[Hiring] Marketing Person - Inbound/Web/SEO",
       "url": "https://www.reddit.com/r/forhire/comments/1xgwwmx/hiring_marketing_person_inboundwebseo/",
       "published": "2026-10-27T16:16:11+00:00",
@@ -317,10 +358,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-28T01:43:16.284234+00:00",
+    "created_at": "2026-10-28T02:32:06.915939+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 7,
+    "draft_count": 8,
     "drafts": [
       {
         "title": "Twikey: Senior Java Developer",
@@ -393,6 +434,21 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Full-Stack Developer | React, Next.js, Python, APIs & DevOps | Remote\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] Hi! I'm Laura, a comic artist offering services for comics, manga, and webtoons.(N*FW, Yaoi, Yuri, Furry, doujinshi, furry and SFW) this is my portfolio: https://www.artstation.com/animatkstudios",
+        "url": "https://www.reddit.com/r/forhire/comments/1xhbmvg/for_hire_hi_im_laura_a_comic_artist_offering/",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 110,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Hi! I'm Laura, a comic artist offering services for comics, manga, and webtoons.(N*FW, Yaoi, Yuri, Furry, doujinshi, furry and SFW) this is my portfolio: https://www.artstation.com/animatkstudios\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
