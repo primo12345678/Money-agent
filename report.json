@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T04:29:38.905192+00:00",
+  "generated_at": "2026-10-28T05:29:02.273667+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -148,6 +148,43 @@
           "target_price_eur": 600,
           "premium_price_eur": 1500,
           "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] Full-stack dev, 7+ yrs | I fix and launch apps built with Lovable, Bolt or Cursor | Remote | fixed prices from $490",
+      "url": "https://www.reddit.com/r/forhire/comments/1xgssnh/for_hire_fullstack_dev_7_yrs_i_fix_and_launch/",
+      "published": "2026-10-27T13:38:58+00:00",
+      "snippet": "If you built your app with Lovable, Bolt or Cursor and it mostly works but you can&#39;t get it live, that&#39;s the part I usually get hired for. I&#39;m Badii, a full-stack dev with 7+ years of experience. I work alone, no agency and no subcontractors. Things I fix most often: Login and signup flows that break once real users show up Supabase row-level security that&#39;s missing or wrong Stripe payments and webhooks that don&#39;t update the database Deploys, custom domains and env vars Moving off Lovable or Bolt hosting to your own repo, Supabase and hosting Sometimes it&#39;s one bug. Sometimes a founder needs someone to own the tech side for a few months. I do both. Stack: TypeScript, Node, NestJS, Angular, React/Next.js, Prisma, PostgreSQL, Supabase, Stripe. Work: themerchantengine.com , a headless commerce platform I built on NestJS, Angular, Prisma and Postgres badii.studio , my",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 490,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          490.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -306,43 +343,6 @@
         },
         "human_approval_required": true
       }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] AI-crawler readability audit for your website - Remote - $10",
-      "url": "https://www.reddit.com/r/forhire/comments/1xhdoic/for_hire_aicrawler_readability_audit_for_your/",
-      "published": "2026-10-28T03:39:48+00:00",
-      "snippet": "Website owner, or someone who just launched something: I will run a 24-point audit of your site for how readable it is to AI crawlers and answer engines, and send you the scored report with fixes. What you get, in about 20 minutes: - A 0-100 score and grade across five groups: crawler access, machine-readable structure, content extractability, trust signals, speed - Every failure with the exact fix, in priority order - A ready-to-paste llms.txt and a robots.txt block that actually lets the right bots in - The raw evidence behind each finding, so you can check my work Why you&#39;d care: if GPTBot, ClaudeBot or PerplexityBot is blocked, or your copy only renders client-side, you are invisible in the answer engines people now use instead of Google. Most sites fail on boring, fixable things. You can see the tool and run a free partial audit yourself before paying: https://isagentready.verce",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "paying"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 10,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          10.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
     }
   ],
   "errors": [
@@ -358,7 +358,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-28T04:29:38.939089+00:00",
+    "created_at": "2026-10-28T05:29:02.317890+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 8,
@@ -404,6 +404,21 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Remote Developer | PHP, Python, Automation & Internal Business Tools | $15/hour\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] Full-stack dev, 7+ yrs | I fix and launch apps built with Lovable, Bolt or Cursor | Remote | fixed prices from $490",
+        "url": "https://www.reddit.com/r/forhire/comments/1xgssnh/for_hire_fullstack_dev_7_yrs_i_fix_and_launch/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 490,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Full-stack dev, 7+ yrs | I fix and launch apps built with Lovable, Bolt or Cursor | Remote | fixed prices from $490\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -464,21 +479,6 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[FOR HIRE] Tonight — Quick Programming Help & Small Tasks (€10+)\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[For Hire] AI-crawler readability audit for your website - Remote - $10",
-        "url": "https://www.reddit.com/r/forhire/comments/1xhdoic/for_hire_aicrawler_readability_audit_for_your/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 10,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] AI-crawler readability audit for your website - Remote - $10\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
