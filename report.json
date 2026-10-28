@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T16:37:22.954534+00:00",
+  "generated_at": "2026-10-28T17:33:13.470562+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,10 +34,50 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 10,
+    "buyer_leads_found": 11,
     "human_review_required": true
   },
   "opportunities": [
+    {
+      "source": "We Work Remotely",
+      "title": "SimpleTiger: Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)",
+      "url": "https://weworkremotely.com/remote-jobs/simpletiger-web-developer-wordpress-hubspot-u-s-based-remote-contractor",
+      "published": "Wed, 28 Oct 2026 16:49:37 +0000",
+      "snippet": "Headquarters: Sarasota, FL URL: https://www.simpletiger.com/ SimpleTiger is hiring a part-time contract web developer to build, improve, and troubleshoot client websites in WordPress and HubSpot, with the potential to grow into a larger role. We’re a B2B SaaS marketing agency helping software companies grow through SEO, content marketing, paid media, and answer engine optimization (AEO). Our clients’ websites are where much of that work comes to life, and we’re looking for a developer who can turn ideas into clean, functional pages quickly. As part of our delivery team, you’ll work primarily on client websites, translating designs, campaign concepts, and SEO recommendations into effective web experiences. From building new pages to fixing issues on existing sites, you’ll help turn our marketing strategy into work that’s ready to launch. Key responsibilities Build, update, or troubleshoot",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "looking for a developer"
+      ],
+      "employment_signals": [],
+      "score": 62,
+      "confidence": 0.77,
+      "automation_fit": 0.76,
+      "matched_keywords": [
+        "automation",
+        "workflow",
+        "zapier",
+        "n8n",
+        "crm",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "MEDIUM",
+        "opportunity_score": 67,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
     {
       "source": "Reddit r/forhire",
       "title": "[For Hire] Software Engineer | AI Applications, Web Development & Automation | $25/hr",
@@ -195,44 +235,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[Hiring] FULL REMOTE: run our TikTok + Instagram in your country, from your phone | up to ~€1,600/month | beginners welcome | US · UK · ES · MX · CO · RO",
-      "url": "https://www.reddit.com/r/forhire/comments/1xhp73u/hiring_full_remote_run_our_tiktok_instagram_in/",
-      "published": "2026-10-28T14:12:47+00:00",
-      "snippet": "If you&#39;re tired of aesthetic clinics making the bad reviews disappear, you&#39;re in the right place. EsteTrue is an app where patients review aesthetic doctors and the reviews stay up. Clinics can&#39;t delete them, and patients can post under an alias. Real doctors, real reviews, zero &quot;my cousin&#39;s friend said she&#39;s good&quot;. We&#39;re launching country by country (US, UK, Spain, Mexico, Colombia, Romania and more), and we&#39;re hiring one social media manager in each. You&#39;d be the person who makes us sound local. It&#39;s FULL REMOTE: you work from home. What you do You run our TikTok and Instagram in your country from your own phone, posting every day: our ready-made videos plus yours. You film 30 short videos a month, 15-45 seconds: your face, your voice, your language. We supply the brief and the hook. You read our captions before they go out and fix anything",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 50,
-      "buyer_signals": [
-        "paying",
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 42,
-        "estimated_value_eur": 1600,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          1600.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[Hiring] Urgent Hiring : Senior DevOps / MLOps Engineer - Fully Remote | $40–50K",
       "url": "https://www.reddit.com/r/forhire/comments/1xhojb8/hiring_urgent_hiring_senior_devops_mlops_engineer/",
       "published": "2026-10-28T13:47:14+00:00",
@@ -298,6 +300,44 @@
         "estimated_value_eur": 400,
         "value_basis": "Service-band estimate; not a quoted budget",
         "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] $200/month for 7 comments per day",
+      "url": "https://www.reddit.com/r/forhire/comments/1xhuez0/hiring_200month_for_7_comments_per_day/",
+      "published": "2026-10-28T17:22:24+00:00",
+      "snippet": "Get $200/month for making 7 comments per day What you need: - aged reddit account - Telegram - I will provide comments to post and details. &#32; submitted by &#32; /u/Spacmonitor [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 200,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          200.0,
+          200.0
+        ],
         "offer": {
           "service": "AI workflow improvement",
           "starter_price_eur": 150,
@@ -438,11 +478,26 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-28T16:37:22.988586+00:00",
+    "created_at": "2026-10-28T17:33:13.499276+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
     "drafts": [
+      {
+        "title": "SimpleTiger: Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)",
+        "url": "https://weworkremotely.com/remote-jobs/simpletiger-web-developer-wordpress-hubspot-u-s-based-remote-contractor",
+        "priority": "MEDIUM",
+        "opportunity_score": 67,
+        "estimated_value_eur": 600,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"SimpleTiger: Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
       {
         "title": "[For Hire] Software Engineer | AI Applications, Web Development & Automation | $25/hr",
         "url": "https://www.reddit.com/r/forhire/comments/1xhngr9/for_hire_software_engineer_ai_applications_web/",
@@ -504,21 +559,6 @@
         }
       },
       {
-        "title": "[Hiring] FULL REMOTE: run our TikTok + Instagram in your country, from your phone | up to ~€1,600/month | beginners welcome | US · UK · ES · MX · CO · RO",
-        "url": "https://www.reddit.com/r/forhire/comments/1xhp73u/hiring_full_remote_run_our_tiktok_instagram_in/",
-        "priority": "LOW",
-        "opportunity_score": 42,
-        "estimated_value_eur": 1600,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] FULL REMOTE: run our TikTok + Instagram in your country, from your phone | up to ~€1,600/month | beginners welcome | US · UK · ES · MX · CO · RO\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "[Hiring] Urgent Hiring : Senior DevOps / MLOps Engineer - Fully Remote | $40–50K",
         "url": "https://www.reddit.com/r/forhire/comments/1xhojb8/hiring_urgent_hiring_senior_devops_mlops_engineer/",
         "priority": "LOW",
@@ -549,6 +589,21 @@
         }
       },
       {
+        "title": "[Hiring] $200/month for 7 comments per day",
+        "url": "https://www.reddit.com/r/forhire/comments/1xhuez0/hiring_200month_for_7_comments_per_day/",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 200,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] $200/month for 7 comments per day\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "[For Hire] Hi! I'm Laura, a comic artist offering services for comics, manga, and webtoons.(N*FW, Yaoi, Yuri, Furry, doujinshi, furry and SFW) this is my portfolio: https://www.artstation.com/animatkstudios",
         "url": "https://www.reddit.com/r/forhire/comments/1xhbmvg/for_hire_hi_im_laura_a_comic_artist_offering/",
         "priority": "LOW",
@@ -574,21 +629,6 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"[For Hire] FP&A & Financial Modeling | 7+ yrs in finance | Budgets, cash forecasts, margin analysis, dashboards | from $30/hr\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[FOR HIRE] Tonight — Quick Programming Help & Small Tasks (€10+)",
-        "url": "https://www.reddit.com/r/forhire/comments/1xh3st2/for_hire_tonight_quick_programming_help_small/",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 10,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[FOR HIRE] Tonight — Quick Programming Help & Small Tasks (€10+)\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
