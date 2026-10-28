@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T14:41:05.593336+00:00",
+  "generated_at": "2026-10-28T15:38:03.237636+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 9,
+    "buyer_leads_found": 10,
     "human_review_required": true
   },
   "opportunities": [
@@ -149,6 +149,46 @@
           "target_price_eur": 600,
           "premium_price_eur": 1500,
           "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[HIRING] Commissioned Sales - $1000+ At Quota",
+      "url": "https://www.reddit.com/r/forhire/comments/1xhpxrm/hiring_commissioned_sales_1000_at_quota/",
+      "published": "2026-10-28T14:41:28+00:00",
+      "snippet": "Hiring for a commissioned sales role. Base pay: $500 per month; commission rate: 2-3%; quota: $25k per month. Limitless earning potential. Top performers regularly earn $1500+. Leads are provided. About 40 hours a week. Sales experience preferred. To apply, you will need to provide: Your resume or CV, highlighting relevant sales experience and measurable results. A webcam video of less than two minutes introducing yourself and describing your relevant sales experience. Results from an internet speed test . Proof of CEFR C1 or C2 English proficiency, or results from the designated English proficiency test . Please use your personal email. Results from a three-minute typing test . Please message me if you are interested in applying for further instructions. &#32; submitted by &#32; /u/Pr0b0pass [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "LOW",
+        "opportunity_score": 44,
+        "estimated_value_eur": 1500,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          1000.0,
+          500.0,
+          25.0,
+          1500.0
+        ],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -398,10 +438,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-28T14:41:05.630083+00:00",
+    "created_at": "2026-10-28T15:38:03.279800+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 9,
+    "draft_count": 10,
     "drafts": [
       {
         "title": "[For Hire] Software Engineer | AI Applications, Web Development & Automation | $25/hr",
@@ -444,6 +484,21 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Remote Developer | PHP, Python, Automation & Internal Business Tools | $15/hour\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[HIRING] Commissioned Sales - $1000+ At Quota",
+        "url": "https://www.reddit.com/r/forhire/comments/1xhpxrm/hiring_commissioned_sales_1000_at_quota/",
+        "priority": "LOW",
+        "opportunity_score": 44,
+        "estimated_value_eur": 1500,
+        "offer": {
+          "subject": "Proposal: AI lead generation and follow-up",
+          "price_eur": 750,
+          "starter_price_eur": 300,
+          "message": "Hi,\n\nI saw your request about \"[HIRING] Commissioned Sales - $1000+ At Quota\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
