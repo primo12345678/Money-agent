@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T13:43:58.296998+00:00",
+  "generated_at": "2026-10-28T14:41:05.593336+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 8,
+    "buyer_leads_found": 9,
     "human_review_required": true
   },
   "opportunities": [
@@ -116,45 +116,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[For Hire] Full-stack developer (React, TypeScript, Node.js, Python) | AI agents, payments, mobile apps, security audits | Remote, Brazil (UTC-3) | $35/hr or fixed price",
-      "url": "https://www.reddit.com/r/forhire/comments/1xh2n85/for_hire_fullstack_developer_react_typescript/",
-      "published": "2026-10-27T19:45:18+00:00",
-      "snippet": "Hi r/forhire , I&#39;m Pedro, a full-stack developer in Brazil (UTC-3) working remotely in English. I&#39;ve spent 3+ years shipping production web and mobile products end to end, and I&#39;m taking on new projects now (part-time capacity). What I build Web apps and APIs: React, TypeScript, Next.js, Node.js/Express, Python/FastAPI, PostgreSQL and SQLite Mobile apps: Android and iOS with Capacitor, released to Google Play and the App Store, with Firebase push notifications Payments: Stripe Connect (Express accounts, payouts), card checkout, in-app wallets, Mercado Pago AI features: Gemini, OpenAI and Claude APIs, agents that call real tools, RAG, local models (Ollama, LM Studio), LLM evals Automation: Python scraping and browser automation, WhatsApp integrations Security and infra: code audits and hardening (OWASP Top 10), Docker, nginx, Linux VPS, DNS and email setup Recent work Part-tim",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "automation",
-        "ai agent",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 45,
-        "estimated_value_eur": 35,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          35.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[For Hire] Remote Developer | PHP, Python, Automation & Internal Business Tools | $15/hour",
       "url": "https://www.reddit.com/r/forhire/comments/1xh4rwo/for_hire_remote_developer_php_python_automation/",
       "published": "2026-10-27T21:04:41+00:00",
@@ -181,6 +142,84 @@
         "value_basis": "Detected budget/rate in listing",
         "budget_signals": [
           15.0
+        ],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] FULL REMOTE: run our TikTok + Instagram in your country, from your phone | up to ~€1,600/month | beginners welcome | US · UK · ES · MX · CO · RO",
+      "url": "https://www.reddit.com/r/forhire/comments/1xhp73u/hiring_full_remote_run_our_tiktok_instagram_in/",
+      "published": "2026-10-28T14:12:47+00:00",
+      "snippet": "If you&#39;re tired of aesthetic clinics making the bad reviews disappear, you&#39;re in the right place. EsteTrue is an app where patients review aesthetic doctors and the reviews stay up. Clinics can&#39;t delete them, and patients can post under an alias. Real doctors, real reviews, zero &quot;my cousin&#39;s friend said she&#39;s good&quot;. We&#39;re launching country by country (US, UK, Spain, Mexico, Colombia, Romania and more), and we&#39;re hiring one social media manager in each. You&#39;d be the person who makes us sound local. It&#39;s FULL REMOTE: you work from home. What you do You run our TikTok and Instagram in your country from your own phone, posting every day: our ready-made videos plus yours. You film 30 short videos a month, 15-45 seconds: your face, your voice, your language. We supply the brief and the hook. You read our captions before they go out and fix anything",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 50,
+      "buyer_signals": [
+        "paying",
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 42,
+        "estimated_value_eur": 1600,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          1600.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Urgent Hiring : Senior DevOps / MLOps Engineer - Fully Remote | $40–50K",
+      "url": "https://www.reddit.com/r/forhire/comments/1xhojb8/hiring_urgent_hiring_senior_devops_mlops_engineer/",
+      "published": "2026-10-28T13:47:14+00:00",
+      "snippet": "The role - own production infrastructure and the ML platform for a US-based client: DevOps / Platform AWS: ECS, CloudFront, Load Balancers, production infrastructure Terraform (IaC) · Docker · Kubernetes (EKS) Go services in production Postgres + Redis performance tuning CI/CD pipeline build &amp; maintenance Infrastructure security &amp; firewall management MLOps / ML Platform Deploy, serve and monitor ML models in production (FastAPI/TorchServe/Triton or similar) Experiment tracking &amp; model registry (MLflow, Weights &amp; Biases, or DVC) ML pipeline orchestration (Kubeflow, Airflow, Argo Workflows) GPU scheduling on Kubernetes; training vs. inference resource isolation Model monitoring &amp; drift detection (Prometheus/Grafana/OpenTelemetry) CI/CD adapted for models (retraining, canary/A-B rollout, versioning) Nice to have: Python fluency, feature stores (Feast), SageMaker/Vertex A",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [
+        "per annum"
+      ],
+      "score": 34,
+      "confidence": 0.49,
+      "automation_fit": 0.52,
+      "matched_keywords": [
+        "workflow",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 39,
+        "estimated_value_eur": 40,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          40.0
         ],
         "offer": {
           "service": "AI workflow automation",
@@ -359,10 +398,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-28T13:43:58.321883+00:00",
+    "created_at": "2026-10-28T14:41:05.630083+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 8,
+    "draft_count": 9,
     "drafts": [
       {
         "title": "[For Hire] Software Engineer | AI Applications, Web Development & Automation | $25/hr",
@@ -395,21 +434,6 @@
         }
       },
       {
-        "title": "[For Hire] Full-stack developer (React, TypeScript, Node.js, Python) | AI agents, payments, mobile apps, security audits | Remote, Brazil (UTC-3) | $35/hr or fixed price",
-        "url": "https://www.reddit.com/r/forhire/comments/1xh2n85/for_hire_fullstack_developer_react_typescript/",
-        "priority": "LOW",
-        "opportunity_score": 45,
-        "estimated_value_eur": 35,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Full-stack developer (React, TypeScript, Node.js, Python) | AI agents, payments, mobile apps, security audits | Remote, Brazil (UTC-3) | $35/hr or fixed price\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "[For Hire] Remote Developer | PHP, Python, Automation & Internal Business Tools | $15/hour",
         "url": "https://www.reddit.com/r/forhire/comments/1xh4rwo/for_hire_remote_developer_php_python_automation/",
         "priority": "LOW",
@@ -420,6 +444,36 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Remote Developer | PHP, Python, Automation & Internal Business Tools | $15/hour\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] FULL REMOTE: run our TikTok + Instagram in your country, from your phone | up to ~€1,600/month | beginners welcome | US · UK · ES · MX · CO · RO",
+        "url": "https://www.reddit.com/r/forhire/comments/1xhp73u/hiring_full_remote_run_our_tiktok_instagram_in/",
+        "priority": "LOW",
+        "opportunity_score": 42,
+        "estimated_value_eur": 1600,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] FULL REMOTE: run our TikTok + Instagram in your country, from your phone | up to ~€1,600/month | beginners welcome | US · UK · ES · MX · CO · RO\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Urgent Hiring : Senior DevOps / MLOps Engineer - Fully Remote | $40–50K",
+        "url": "https://www.reddit.com/r/forhire/comments/1xhojb8/hiring_urgent_hiring_senior_devops_mlops_engineer/",
+        "priority": "LOW",
+        "opportunity_score": 39,
+        "estimated_value_eur": 40,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Urgent Hiring : Senior DevOps / MLOps Engineer - Fully Remote | $40–50K\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
