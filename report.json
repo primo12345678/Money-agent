@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T06:28:06.926670+00:00",
+  "generated_at": "2026-10-28T07:44:48.692995+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 8,
+    "buyer_leads_found": 9,
     "human_review_required": true
   },
   "opportunities": [
@@ -179,6 +179,43 @@
         "budget_signals": [
           490.0
         ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Contra: Senior 3D Designer",
+      "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
+      "published": "Wed, 07 Oct 2026 00:11:33 +0000",
+      "snippet": "Headquarters: San Francisco, CA URL: http://bit.ly/3kLhMdk About Contra Labs Contra Labs sits at the intersection of human creativity and AI. We partner with leading AI labs and product companies to improve their tools across design, video, development, and beyond. Our research is grounded in how top creatives actually work, studying the patterns behind what gets created, what gets chosen, and what resonates. We believe human input will always be at the center of net new creation, and our mission is to help shape technology so human creativity can be amplified to create what today is unimaginable. By joining the Contra Labs network you gain access to paid projects with some of the most innovative companies building the next generation of creative and AI-powered tools. How It Works This is an application to join the network and be eligible for roles as they arise. Projects are staffed on ",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "paid project"
+      ],
+      "employment_signals": [
+        "full-time"
+      ],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
         "offer": {
           "service": "AI workflow improvement",
           "starter_price_eur": 150,
@@ -358,10 +395,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-28T06:28:07.230358+00:00",
+    "created_at": "2026-10-28T07:44:48.728927+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 8,
+    "draft_count": 9,
     "drafts": [
       {
         "title": "Twikey: Senior Java Developer",
@@ -419,6 +456,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Full-stack dev, 7+ yrs | I fix and launch apps built with Lovable, Bolt or Cursor | Remote | fixed prices from $490\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Contra: Senior 3D Designer",
+        "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
