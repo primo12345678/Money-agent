@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T22:26:23.725707+00:00",
+  "generated_at": "2026-10-28T23:23:14.100232+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -80,6 +80,47 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[For Hire] Full-Stack Development, AI Integration & Custom Software | $30/hr",
+      "url": "https://www.reddit.com/r/forhire/comments/1xi2ujj/for_hire_fullstack_development_ai_integration/",
+      "published": "2026-10-28T22:37:04+00:00",
+      "snippet": "I&#39;m a software engineer available for freelance projects, from full-stack web applications and custom business software to AI integrations, automation, and backend development. I&#39;ve built applications across different domains and can help bring your next project to life. What I&#39;ve built: AI restaurant assistant: Reads invoices, PDFs, daily reports, and pricing data. Owners can ask questions like &quot;What did we spend on produce last month?&quot; and get the figure, plus predictions. Company knowledge assistant: Employees ask questions in plain language and get answers from internal documents, with a RAG pipeline and role-based access. Emotional support platform: AI chatbot for personalized support, with a system connecting users to trained listeners when needed. Communications platform: Voice calls, video calls, and SMS in one application. Employee management desktop applic",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 50,
+      "buyer_signals": [
+        "fixed price",
+        "want to build"
+      ],
+      "employment_signals": [],
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "automation",
+        "ai integration",
+        "chatbot",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_support",
+        "priority": "LOW",
+        "opportunity_score": 50,
+        "estimated_value_eur": 30,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          30.0
+        ],
+        "offer": {
+          "service": "AI customer-support automation",
+          "starter_price_eur": 200,
+          "target_price_eur": 500,
+          "premium_price_eur": 1200,
+          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[For Hire] Software Engineer | AI Applications, Web Development & Automation | $25/hr",
       "url": "https://www.reddit.com/r/forhire/comments/1xhngr9/for_hire_software_engineer_ai_applications_web/",
       "published": "2026-10-28T13:02:27+00:00",
@@ -150,46 +191,6 @@
           "target_price_eur": 650,
           "premium_price_eur": 1600,
           "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[HIRING] Commissioned Sales - $1000+ At Quota",
-      "url": "https://www.reddit.com/r/forhire/comments/1xhpxrm/hiring_commissioned_sales_1000_at_quota/",
-      "published": "2026-10-28T14:41:28+00:00",
-      "snippet": "Hiring for a commissioned sales role. Base pay: $500 per month; commission rate: 2-3%; quota: $25k per month. Limitless earning potential. Top performers regularly earn $1500+. Leads are provided. About 40 hours a week. Sales experience preferred. To apply, you will need to provide: Your resume or CV, highlighting relevant sales experience and measurable results. A webcam video of less than two minutes introducing yourself and describing your relevant sales experience. Results from an internet speed test . Proof of CEFR C1 or C2 English proficiency, or results from the designated English proficiency test . Please use your personal email. Results from a three-minute typing test . Please message me if you are interested in applying for further instructions. &#32; submitted by &#32; /u/Pr0b0pass [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "lead_generation",
-        "priority": "LOW",
-        "opportunity_score": 44,
-        "estimated_value_eur": 1500,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          1000.0,
-          500.0,
-          25.0,
-          1500.0
-        ],
-        "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -398,7 +399,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-28T22:26:23.756478+00:00",
+    "created_at": "2026-10-28T23:23:14.122453+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 9,
@@ -414,6 +415,21 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"SimpleTiger: Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] Full-Stack Development, AI Integration & Custom Software | $30/hr",
+        "url": "https://www.reddit.com/r/forhire/comments/1xi2ujj/for_hire_fullstack_development_ai_integration/",
+        "priority": "LOW",
+        "opportunity_score": 50,
+        "estimated_value_eur": 30,
+        "offer": {
+          "subject": "Proposal: AI customer-support automation",
+          "price_eur": 500,
+          "starter_price_eur": 200,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Full-Stack Development, AI Integration & Custom Software | $30/hr\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -444,21 +460,6 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"Twikey: Senior Java Developer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[HIRING] Commissioned Sales - $1000+ At Quota",
-        "url": "https://www.reddit.com/r/forhire/comments/1xhpxrm/hiring_commissioned_sales_1000_at_quota/",
-        "priority": "LOW",
-        "opportunity_score": 44,
-        "estimated_value_eur": 1500,
-        "offer": {
-          "subject": "Proposal: AI lead generation and follow-up",
-          "price_eur": 750,
-          "starter_price_eur": 300,
-          "message": "Hi,\n\nI saw your request about \"[HIRING] Commissioned Sales - $1000+ At Quota\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
