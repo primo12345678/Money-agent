@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T07:44:48.692995+00:00",
+  "generated_at": "2026-10-28T08:36:16.976926+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -153,43 +153,6 @@
       }
     },
     {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] Full-stack dev, 7+ yrs | I fix and launch apps built with Lovable, Bolt or Cursor | Remote | fixed prices from $490",
-      "url": "https://www.reddit.com/r/forhire/comments/1xgssnh/for_hire_fullstack_dev_7_yrs_i_fix_and_launch/",
-      "published": "2026-10-27T13:38:58+00:00",
-      "snippet": "If you built your app with Lovable, Bolt or Cursor and it mostly works but you can&#39;t get it live, that&#39;s the part I usually get hired for. I&#39;m Badii, a full-stack dev with 7+ years of experience. I work alone, no agency and no subcontractors. Things I fix most often: Login and signup flows that break once real users show up Supabase row-level security that&#39;s missing or wrong Stripe payments and webhooks that don&#39;t update the database Deploys, custom domains and env vars Moving off Lovable or Bolt hosting to your own repo, Supabase and hosting Sometimes it&#39;s one bug. Sometimes a founder needs someone to own the tech side for a few months. I do both. Stack: TypeScript, Node, NestJS, Angular, React/Next.js, Prisma, PostgreSQL, Supabase, Stripe. Work: themerchantengine.com , a headless commerce platform I built on NestJS, Angular, Prisma and Postgres badii.studio , my",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 490,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          490.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "We Work Remotely",
       "title": "Contra: Senior 3D Designer",
       "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
@@ -306,6 +269,43 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[For Hire] FP&A & Financial Modeling | 7+ yrs in finance | Budgets, cash forecasts, margin analysis, dashboards | from $30/hr",
+      "url": "https://www.reddit.com/r/forhire/comments/1xhi2l2/for_hire_fpa_financial_modeling_7_yrs_in_finance/",
+      "published": "2026-10-28T08:03:50+00:00",
+      "snippet": "Your numbers should tell you what to do next. I connect them to the decisions you make. See my live partial models (no sign-up): https://fpabyclint.com Experience: 7+ years in international banking and finance: financial modeling and analysis, budgets and cash forecasts, margin and profitability reviews, and daily accounting and reconciliation. Method: Reconcile first, then model. I build around the few drivers that move your profit and end every report with what to do next. What I can do for you Numbers Health Check: a cleaned-up P&amp;L, margin by product or location, a 13-week cash view, and a one-page memo on the three things to fix first Model or dashboard build: a 12-month budget and forecast with scenarios, or a KPI dashboard in Excel or Google Sheets, with a video walkthrough Finance Hub: your whole operation in one system, covering sales, purchasing, inventory, approvals, ledger",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 30,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          30.0
+        ],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[Hiring] Marketing Person - Inbound/Web/SEO",
       "url": "https://www.reddit.com/r/forhire/comments/1xgwwmx/hiring_marketing_person_inboundwebseo/",
       "published": "2026-10-27T16:16:11+00:00",
@@ -395,7 +395,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-28T07:44:48.728927+00:00",
+    "created_at": "2026-10-28T08:36:17.021822+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 9,
@@ -446,21 +446,6 @@
         }
       },
       {
-        "title": "[For Hire] Full-stack dev, 7+ yrs | I fix and launch apps built with Lovable, Bolt or Cursor | Remote | fixed prices from $490",
-        "url": "https://www.reddit.com/r/forhire/comments/1xgssnh/for_hire_fullstack_dev_7_yrs_i_fix_and_launch/",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 490,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Full-stack dev, 7+ yrs | I fix and launch apps built with Lovable, Bolt or Cursor | Remote | fixed prices from $490\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "Contra: Senior 3D Designer",
         "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
         "priority": "LOW",
@@ -501,6 +486,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Hi! I'm Laura, a comic artist offering services for comics, manga, and webtoons.(N*FW, Yaoi, Yuri, Furry, doujinshi, furry and SFW) this is my portfolio: https://www.artstation.com/animatkstudios\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] FP&A & Financial Modeling | 7+ yrs in finance | Budgets, cash forecasts, margin analysis, dashboards | from $30/hr",
+        "url": "https://www.reddit.com/r/forhire/comments/1xhi2l2/for_hire_fpa_financial_modeling_7_yrs_in_finance/",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 30,
+        "offer": {
+          "subject": "Proposal: AI lead generation and follow-up",
+          "price_eur": 750,
+          "starter_price_eur": 300,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] FP&A & Financial Modeling | 7+ yrs in finance | Budgets, cash forecasts, margin analysis, dashboards | from $30/hr\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
