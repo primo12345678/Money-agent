@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T19:34:47.240922+00:00",
+  "generated_at": "2026-10-28T20:27:44.815536+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -274,6 +274,41 @@
       }
     },
     {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] Independent OSINT Research: Scam Assessment, Identity Verification & Due Diligence",
+      "url": "https://www.reddit.com/r/forhire/comments/1xhzhox/for_hire_independent_osint_research_scam/",
+      "published": "2026-10-28T20:25:24+00:00",
+      "snippet": "Hi Reader, I provide independent Open-Source Intelligence (OSINT) research to help individuals, entrepreneurs, and businesses investigate online identities, assess potential fraud, evaluate digital reputations, and conduct preliminary due diligence before making important decisions. Using publicly available information, historical records, digital footprints, and other appropriate open-source methods (tools) , I examine relevant evidence, identify inconsistencies, and document potential risk indicators. My work focuses on producing structured, evidence-based findings rather than relying on assumptions, appearances, or unverified claims. Before paying an unfamiliar online seller, hiring someone or entering a business relationship, it can be worth examining the available evidence first. My Services include: 1/ Website risk assessments: I look into / analyze: Domain history, publicly availa",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "paying"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
       "source": "We Work Remotely",
       "title": "Contra: Senior 3D Designer",
       "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
@@ -387,44 +422,6 @@
         },
         "human_approval_required": true
       }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[FOR HIRE] Tonight — Quick Programming Help & Small Tasks (€10+)",
-      "url": "https://www.reddit.com/r/forhire/comments/1xh3st2/for_hire_tonight_quick_programming_help_small/",
-      "published": "2026-10-27T20:28:17+00:00",
-      "snippet": "Hey everyone, I&#39;m looking to pick up some small paid tasks tonight. I&#39;m a computer science student and can help with HTML/CSS, JavaScript, C++, Python, Java, Dart, Flutter, SQL, debugging, APIs, general programming issues, or pretty much anything tech-related that I can reasonably handle. I&#39;m offering quick, affordable help starting at €10 depending on the task. I&#39;m available immediately and can agree on a fixed price beforehand. If you have a small task you&#39;ve been putting off or know someone who needs a hand, please send me a DM. I&#39;d really appreciate it! &#32; submitted by &#32; /u/DontNerfAkali [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 10,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          10.0,
-          10.0
-        ],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
     }
   ],
   "errors": [
@@ -440,7 +437,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-28T19:34:47.274195+00:00",
+    "created_at": "2026-10-28T20:27:44.847562+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -536,6 +533,21 @@
         }
       },
       {
+        "title": "[For Hire] Independent OSINT Research: Scam Assessment, Identity Verification & Due Diligence",
+        "url": "https://www.reddit.com/r/forhire/comments/1xhzhox/for_hire_independent_osint_research_scam/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Independent OSINT Research: Scam Assessment, Identity Verification & Due Diligence\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "Contra: Senior 3D Designer",
         "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
         "priority": "LOW",
@@ -576,21 +588,6 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"[For Hire] FP&A & Financial Modeling | 7+ yrs in finance | Budgets, cash forecasts, margin analysis, dashboards | from $30/hr\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[FOR HIRE] Tonight — Quick Programming Help & Small Tasks (€10+)",
-        "url": "https://www.reddit.com/r/forhire/comments/1xh3st2/for_hire_tonight_quick_programming_help_small/",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 10,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[FOR HIRE] Tonight — Quick Programming Help & Small Tasks (€10+)\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
