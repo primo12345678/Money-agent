@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T14:41:44.984150+00:00",
+  "generated_at": "2026-10-29T15:39:08.530221+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 11,
+    "buyer_leads_found": 10,
     "human_review_required": true
   },
   "opportunities": [
@@ -304,41 +304,6 @@
       }
     },
     {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] Independent OSINT Research: Scam Assessment, Identity Verification & Due Diligence",
-      "url": "https://www.reddit.com/r/forhire/comments/1xhzhox/for_hire_independent_osint_research_scam/",
-      "published": "2026-10-28T20:25:24+00:00",
-      "snippet": "Hi Reader, I provide independent Open-Source Intelligence (OSINT) research to help individuals, entrepreneurs, and businesses investigate online identities, assess potential fraud, evaluate digital reputations, and conduct preliminary due diligence before making important decisions. Using publicly available information, historical records, digital footprints, and other appropriate open-source methods (tools) , I examine relevant evidence, identify inconsistencies, and document potential risk indicators. My work focuses on producing structured, evidence-based findings rather than relying on assumptions, appearances, or unverified claims. Before paying an unfamiliar online seller, hiring someone or entering a business relationship, it can be worth examining the available evidence first. My Services include: 1/ Website risk assessments: I look into / analyze: Domain history, publicly availa",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "paying"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "We Work Remotely",
       "title": "Contra: Senior 3D Designer",
       "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
@@ -365,6 +330,45 @@
         "estimated_value_eur": 400,
         "value_basis": "Service-band estimate; not a quoted budget",
         "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Native speakers (FR/AR/DE/IT) for paid remote conversation recordings – from US$175/finished hour",
+      "url": "https://www.reddit.com/r/forhire/comments/1xin9tj/hiring_native_speakers_frardeit_for_paid_remote/",
+      "published": "2026-10-29T15:34:19+00:00",
+      "snippet": "I&#39;m producing a conversational speech project and recruiting native speakers of French, Arabic, German and Italian. Ideal: pairs who live together (couples, roommates, friends) who chat naturally from topic prompts, each on their own mic, from home. - Pay: from US$175 per finished hour (about 1.25 to 2 hours of your time) - Paid within 5 days of the client paying for your approved hours - Multi-month project, flexible schedule, fully remote You need: native speaker, 18+, a decent microphone and a quiet room (WAV 48 kHz / 24-bit, unprocessed), and the ease to chat without talking over each other. Use: AI training data only, under a perpetual licence. No voice cloning, no broadcast. Not eligible: residents of Washington, Nevada, Illinois, Texas, mainland China or Vietnam. Apply here (2 minutes): https://forms.gle/bnt1Ja7Rg7eYpPVv6 &#32; submitted by &#32; /u/ultracryptocurrency [link] ",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 50,
+      "buyer_signals": [
+        "paying",
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 175,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          175.0,
+          175.0
+        ],
         "offer": {
           "service": "AI workflow improvement",
           "starter_price_eur": 150,
@@ -411,46 +415,6 @@
         },
         "human_approval_required": true
       }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] 3D Animator for Product Videos - $15/hr equivalent ($10 per ~30s video / Long-term)",
-      "url": "https://www.reddit.com/r/forhire/comments/1xhxcdu/hiring_3d_animator_for_product_videos_15hr/",
-      "published": "2026-10-28T19:06:41+00:00",
-      "snippet": "Hi everyone, We are looking for a reliable and detail-oriented 3D animator to produce ongoing, short silent product videos (~30 seconds each) showcasing mechanical device operations. Project Scope : Long-term collaboration with regular video tasks. Style &amp; Output : Clean mechanical animations and product visualizations. Compensation : $15/hr equivalent structure ($10 per video, paid securely via Crypto or PayPal). If you have solid experience with Blender, Maya, or similar tools, please send me a Direct Message (DM) with your portfolio links. Looking forward to collaborating! &#32; submitted by &#32; /u/EdwardCole90 [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 15,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          15.0,
-          10.0,
-          15.0,
-          10.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
     }
   ],
   "errors": [
@@ -466,7 +430,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-29T14:41:45.018239+00:00",
+    "created_at": "2026-10-29T15:39:08.565418+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -577,21 +541,6 @@
         }
       },
       {
-        "title": "[For Hire] Independent OSINT Research: Scam Assessment, Identity Verification & Due Diligence",
-        "url": "https://www.reddit.com/r/forhire/comments/1xhzhox/for_hire_independent_osint_research_scam/",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Independent OSINT Research: Scam Assessment, Identity Verification & Due Diligence\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "Contra: Senior 3D Designer",
         "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
         "priority": "LOW",
@@ -602,6 +551,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Native speakers (FR/AR/DE/IT) for paid remote conversation recordings – from US$175/finished hour",
+        "url": "https://www.reddit.com/r/forhire/comments/1xin9tj/hiring_native_speakers_frardeit_for_paid_remote/",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 175,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Native speakers (FR/AR/DE/IT) for paid remote conversation recordings – from US$175/finished hour\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
