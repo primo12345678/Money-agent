@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T23:23:14.100232+00:00",
+  "generated_at": "2026-10-29T00:24:39.353436+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 9,
+    "buyer_leads_found": 10,
     "human_review_required": true
   },
   "opportunities": [
@@ -197,6 +197,44 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[Hiring] Florida - React/Node dev to fix a bug in my side project, $1,000 flat",
+      "url": "https://www.reddit.com/r/forhire/comments/1xi4keq/hiring_florida_reactnode_dev_to_fix_a_bug_in_my/",
+      "published": "2026-10-28T23:50:04+00:00",
+      "snippet": "Hey all. I&#39;ve got a small personal project (React front end, Node API, Postgres on Railway) that&#39;s mostly working, but there&#39;s one bug I&#39;ve been fighting for a couple weeks and I&#39;m done banging my head on it. Not a build-from-scratch thing, I just need someone who knows what they&#39;re doing to come in and sort it out. The bug: when a user logs out and logs back in, the dashboard shows the previous session&#39;s data instead of pulling fresh from the API. It stays stale until you hard reload. I&#39;m guessing it&#39;s cached state not clearing on logout but I haven&#39;t been able to pin it down. Fixed = it loads fresh data on its own every time after login, no manual refresh. I&#39;d prefer someone in Florida because part of it runs on a machine at my place and I&#39;d rather sit down and walk through the setup together for an hour than try to explain it all over Di",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 50,
+      "buyer_signals": [
+        "paying",
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 41,
+        "estimated_value_eur": 1000,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          1000.0
+        ],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[Hiring] Urgent Hiring : Senior DevOps / MLOps Engineer - Fully Remote | $40–50K",
       "url": "https://www.reddit.com/r/forhire/comments/1xhojb8/hiring_urgent_hiring_senior_devops_mlops_engineer/",
       "published": "2026-10-28T13:47:14+00:00",
@@ -309,47 +347,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[For Hire] Hi! I'm Laura, a comic artist offering services for comics, manga, and webtoons.(N*FW, Yaoi, Yuri, Furry, doujinshi, furry and SFW) this is my portfolio: https://www.artstation.com/animatkstudios",
-      "url": "https://www.reddit.com/r/forhire/comments/1xhbmvg/for_hire_hi_im_laura_a_comic_artist_offering/",
-      "published": "2026-10-28T01:58:04+00:00",
-      "snippet": "this is my portfolio: https://www.artstation.com/animatkstudios ART SERVICES - Sketching: $18 / $25 / $35 - Inking: $20 (line art) / $30 (standard) / $40 (high quality) - Coloring: $18 / $25 / $35 per page - Flatting: $10/page - Shading &amp; lighting: $12/page - Lettering: $8–$10/page FULLY FINISHED PAGES - B&amp;W: $45 / $55 / $75 per page - Color: $60 / $75 / $110 per page WEBTOON PANELS - B&amp;W: $9 / $11 / $15 per panel - Color: $10 / $15 / $22 per panel DELIVERY TIMES - Sketching, inking, and coloring: 5 pages per week - Flatting, shading &amp; lighting, and lettering: 3 pages per day - Fully finished comic pages: 1 page per week - Webtoon panels: up to 20 at Level 1 or 10 at Level 3 PAYMENT AND DISCOUNTS - 20% off when paying for the entire project upfront. - 15% off when paying 50% upfront, or 30% upfront with gradual payments as pages are completed. - Individual pages: 50% upfr",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "paying"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 110,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          18.0,
-          25.0,
-          35.0,
-          20.0,
-          30.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[For Hire] FP&A & Financial Modeling | 7+ yrs in finance | Budgets, cash forecasts, margin analysis, dashboards | from $30/hr",
       "url": "https://www.reddit.com/r/forhire/comments/1xhi2l2/for_hire_fpa_financial_modeling_7_yrs_in_finance/",
       "published": "2026-10-28T08:03:50+00:00",
@@ -384,6 +381,46 @@
         },
         "human_approval_required": true
       }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] 3D Animator for Product Videos - $15/hr equivalent ($10 per ~30s video / Long-term)",
+      "url": "https://www.reddit.com/r/forhire/comments/1xhxcdu/hiring_3d_animator_for_product_videos_15hr/",
+      "published": "2026-10-28T19:06:41+00:00",
+      "snippet": "Hi everyone, We are looking for a reliable and detail-oriented 3D animator to produce ongoing, short silent product videos (~30 seconds each) showcasing mechanical device operations. Project Scope : Long-term collaboration with regular video tasks. Style &amp; Output : Clean mechanical animations and product visualizations. Compensation : $15/hr equivalent structure ($10 per video, paid securely via Crypto or PayPal). If you have solid experience with Blender, Maya, or similar tools, please send me a Direct Message (DM) with your portfolio links. Looking forward to collaborating! &#32; submitted by &#32; /u/EdwardCole90 [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 15,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          15.0,
+          10.0,
+          15.0,
+          10.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     }
   ],
   "errors": [
@@ -399,10 +436,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-28T23:23:14.122453+00:00",
+    "created_at": "2026-10-29T00:24:39.658248+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 9,
+    "draft_count": 10,
     "drafts": [
       {
         "title": "SimpleTiger: Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)",
@@ -465,6 +502,21 @@
         }
       },
       {
+        "title": "[Hiring] Florida - React/Node dev to fix a bug in my side project, $1,000 flat",
+        "url": "https://www.reddit.com/r/forhire/comments/1xi4keq/hiring_florida_reactnode_dev_to_fix_a_bug_in_my/",
+        "priority": "LOW",
+        "opportunity_score": 41,
+        "estimated_value_eur": 1000,
+        "offer": {
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Florida - React/Node dev to fix a bug in my side project, $1,000 flat\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "[Hiring] Urgent Hiring : Senior DevOps / MLOps Engineer - Fully Remote | $40–50K",
         "url": "https://www.reddit.com/r/forhire/comments/1xhojb8/hiring_urgent_hiring_senior_devops_mlops_engineer/",
         "priority": "LOW",
@@ -510,21 +562,6 @@
         }
       },
       {
-        "title": "[For Hire] Hi! I'm Laura, a comic artist offering services for comics, manga, and webtoons.(N*FW, Yaoi, Yuri, Furry, doujinshi, furry and SFW) this is my portfolio: https://www.artstation.com/animatkstudios",
-        "url": "https://www.reddit.com/r/forhire/comments/1xhbmvg/for_hire_hi_im_laura_a_comic_artist_offering/",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 110,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Hi! I'm Laura, a comic artist offering services for comics, manga, and webtoons.(N*FW, Yaoi, Yuri, Furry, doujinshi, furry and SFW) this is my portfolio: https://www.artstation.com/animatkstudios\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "[For Hire] FP&A & Financial Modeling | 7+ yrs in finance | Budgets, cash forecasts, margin analysis, dashboards | from $30/hr",
         "url": "https://www.reddit.com/r/forhire/comments/1xhi2l2/for_hire_fpa_financial_modeling_7_yrs_in_finance/",
         "priority": "LOW",
@@ -535,6 +572,21 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"[For Hire] FP&A & Financial Modeling | 7+ yrs in finance | Budgets, cash forecasts, margin analysis, dashboards | from $30/hr\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] 3D Animator for Product Videos - $15/hr equivalent ($10 per ~30s video / Long-term)",
+        "url": "https://www.reddit.com/r/forhire/comments/1xhxcdu/hiring_3d_animator_for_product_videos_15hr/",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 15,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] 3D Animator for Product Videos - $15/hr equivalent ($10 per ~30s video / Long-term)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
