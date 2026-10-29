@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T22:28:00.013044+00:00",
+  "generated_at": "2026-10-29T23:24:25.482002+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 11,
+    "buyer_leads_found": 9,
     "human_review_required": true
   },
   "opportunities": [
@@ -74,6 +74,47 @@
           "target_price_eur": 600,
           "premium_price_eur": 1500,
           "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] I'm a Full-Stack Development, AI Integration & Custom Software | $30/hr",
+      "url": "https://www.reddit.com/r/forhire/comments/1xizlwm/for_hire_im_a_fullstack_development_ai/",
+      "published": "2026-10-29T23:23:54+00:00",
+      "snippet": "I&#39;m a software engineer available for freelance projects, from full-stack web applications and custom business software to AI integrations, automation, and backend development. I&#39;ve built applications across different domains and can help bring your next project to life. What I&#39;ve built: AI restaurant assistant: Reads invoices, PDFs, daily reports, and pricing data. Owners can ask questions like &quot;What did we spend on produce last month?&quot; and get the figure, plus predictions. Company knowledge assistant: Employees ask questions in plain language and get answers from internal documents, with a RAG pipeline and role-based access. Emotional support platform: AI chatbot for personalized support, with a system connecting users to trained listeners when needed. Communications platform: Voice calls, video calls, and SMS in one application. Employee management desktop applic",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 50,
+      "buyer_signals": [
+        "fixed price",
+        "want to build"
+      ],
+      "employment_signals": [],
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "automation",
+        "ai integration",
+        "chatbot",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_support",
+        "priority": "LOW",
+        "opportunity_score": 50,
+        "estimated_value_eur": 30,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          30.0
+        ],
+        "offer": {
+          "service": "AI customer-support automation",
+          "starter_price_eur": 200,
+          "target_price_eur": 500,
+          "premium_price_eur": 1200,
+          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -229,45 +270,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[Hiring] (Remote, US) $15/hr to record casual conversations with 2 friends, up to ~50 hrs over 2 weeks",
-      "url": "https://www.reddit.com/r/forhire/comments/1xiawy7/hiring_remote_us_15hr_to_record_casual/",
-      "published": "2026-10-29T04:59:47+00:00",
-      "snippet": "Zero Billion (zerobillion.ai) collects natural conversation audio to help train AI to understand American accents. This is not voice cloning. - You + 2 friends hop on a call from home and talk about whatever you want - $15/hr each, paid through PayPal - Your group picks how much to record over 2 weeks (about 1 to 3.5 hrs a day), up to about $750 each - Must have grown up speaking American English - Signup is a 2 minute form + a 10 second mic check. Not every group is selected, and it&#39;s free to join. Sign up: https://forms.fillout.com/t/6yZuQwbMhaus?src=reddit-forhire Questions: [ santi@zerobillion.ai ](mailto: santi@zerobillion.ai ) &#32; submitted by &#32; /u/Good_Consequence58 [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 37,
-        "estimated_value_eur": 750,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          15.0,
-          15.0,
-          750.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[FOR HIRE] Got a game or app idea but don't have the time or skills to make it? I'll make it for you. (7 years Unity experience)",
       "url": "https://www.reddit.com/r/forhire/comments/1xiojrr/for_hire_got_a_game_or_app_idea_but_dont_have_the/",
       "published": "2026-10-29T16:20:59+00:00",
@@ -278,43 +280,6 @@
         "project budget"
       ],
       "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Contra: Senior 3D Designer",
-      "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
-      "published": "Wed, 07 Oct 2026 00:11:33 +0000",
-      "snippet": "Headquarters: San Francisco, CA URL: http://bit.ly/3kLhMdk About Contra Labs Contra Labs sits at the intersection of human creativity and AI. We partner with leading AI labs and product companies to improve their tools across design, video, development, and beyond. Our research is grounded in how top creatives actually work, studying the patterns behind what gets created, what gets chosen, and what resonates. We believe human input will always be at the center of net new creation, and our mission is to help shape technology so human creativity can be amplified to create what today is unimaginable. By joining the Contra Labs network you gain access to paid projects with some of the most innovative companies building the next generation of creative and AI-powered tools. How It Works This is an application to join the network and be eligible for roles as they arise. Projects are staffed on ",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "paid project"
-      ],
-      "employment_signals": [
-        "full-time"
-      ],
       "score": 27,
       "confidence": 0.42,
       "automation_fit": 0.46,
@@ -413,43 +378,6 @@
         },
         "human_approval_required": true
       }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] I help B2B software companies turn more of their visitors into demo requests. Free site audit to start 25USD/hr",
-      "url": "https://www.reddit.com/r/forhire/comments/1xi7pp5/for_hire_i_help_b2b_software_companies_turn_more/",
-      "published": "2026-10-29T02:12:28+00:00",
-      "snippet": "Hi there. I design and build websites for B2B software companies with complex products or services, like DSCSA compliance software, health clinics, and regulatory software Most of these sites have the same problem. Users land, don&#39;t understand the product/service in the first few seconds, and leave without booking a demo. More traffic doesn&#39;t fix that. A clearer site does. What changes when we work together More demo requests from the traffic you already have. I fix the pages buyers land on, then test what works. Buyers get what you do in 10 seconds. Clear headline, clear proof, one clear next step. Your team ships pages without waiting on a developer. Built in Webflow or Astro/Sanity, so marketing can edit and publish. You show up when buyers ask ChatGPT. Pages structured so AI search tools can find and cite you. New site live in 2 weeks , not a quarter. I use AI tools I built m",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 25,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          25.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
     }
   ],
   "errors": [
@@ -465,10 +393,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-29T22:28:00.046350+00:00",
+    "created_at": "2026-10-29T23:24:25.522580+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 10,
+    "draft_count": 9,
     "drafts": [
       {
         "title": "SimpleTiger: Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)",
@@ -481,6 +409,21 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"SimpleTiger: Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] I'm a Full-Stack Development, AI Integration & Custom Software | $30/hr",
+        "url": "https://www.reddit.com/r/forhire/comments/1xizlwm/for_hire_im_a_fullstack_development_ai/",
+        "priority": "LOW",
+        "opportunity_score": 50,
+        "estimated_value_eur": 30,
+        "offer": {
+          "subject": "Proposal: AI customer-support automation",
+          "price_eur": 500,
+          "starter_price_eur": 200,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] I'm a Full-Stack Development, AI Integration & Custom Software | $30/hr\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -546,21 +489,6 @@
         }
       },
       {
-        "title": "[Hiring] (Remote, US) $15/hr to record casual conversations with 2 friends, up to ~50 hrs over 2 weeks",
-        "url": "https://www.reddit.com/r/forhire/comments/1xiawy7/hiring_remote_us_15hr_to_record_casual/",
-        "priority": "LOW",
-        "opportunity_score": 37,
-        "estimated_value_eur": 750,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] (Remote, US) $15/hr to record casual conversations with 2 friends, up to ~50 hrs over 2 weeks\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "[FOR HIRE] Got a game or app idea but don't have the time or skills to make it? I'll make it for you. (7 years Unity experience)",
         "url": "https://www.reddit.com/r/forhire/comments/1xiojrr/for_hire_got_a_game_or_app_idea_but_dont_have_the/",
         "priority": "LOW",
@@ -571,21 +499,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[FOR HIRE] Got a game or app idea but don't have the time or skills to make it? I'll make it for you. (7 years Unity experience)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Contra: Senior 3D Designer",
-        "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
