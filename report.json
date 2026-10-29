@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T10:33:05.501462+00:00",
+  "generated_at": "2026-10-29T11:28:36.545001+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -120,6 +120,42 @@
       }
     },
     {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] App Developer | Got an app stuck halfway? Built with AI? I'll help you get it shipped",
+      "url": "https://www.reddit.com/r/forhire/comments/1xih6tr/for_hire_app_developer_got_an_app_stuck_halfway/",
+      "published": "2026-10-29T11:18:32+00:00",
+      "snippet": "Built an app with Cursor, Claude Code, Lovable, or Bolt, but now it&#39;s breaking, buggy, or refusing to work the way you want? Or maybe you&#39;re stuck on a technical problem and need someone experienced to get you past it. I can help you get unstuck. I&#39;m a software engineer with 5+ years of professional experience building and shipping applications. I work across iOS, Android, macOS, watchOS, visionOS and backend systems, and I&#39;m comfortable jumping into existing codebases, figuring out what&#39;s wrong, and getting things working properly. Things I can help with: - AI-generated code that&#39;s messy, broken, or doesn&#39;t work as expected - Bugs you&#39;ve been fighting with for hours or days - Features that are half-built and need someone to finish them - Apps that work locally but break in production - API integrations, authentication, databases, and backend issues - Slow",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 34,
+      "confidence": 0.49,
+      "automation_fit": 0.52,
+      "matched_keywords": [
+        "api integration",
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 46,
+        "estimated_value_eur": 650,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
       "source": "We Work Remotely",
       "title": "Twikey: Senior Java Developer",
       "url": "https://weworkremotely.com/remote-jobs/twikey-senior-java-developer",
@@ -224,46 +260,6 @@
           "target_price_eur": 750,
           "premium_price_eur": 2000,
           "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Urgent Hiring : Senior DevOps / MLOps Engineer - Fully Remote | $40–50K",
-      "url": "https://www.reddit.com/r/forhire/comments/1xhojb8/hiring_urgent_hiring_senior_devops_mlops_engineer/",
-      "published": "2026-10-28T13:47:14+00:00",
-      "snippet": "The role - own production infrastructure and the ML platform for a US-based client: DevOps / Platform AWS: ECS, CloudFront, Load Balancers, production infrastructure Terraform (IaC) · Docker · Kubernetes (EKS) Go services in production Postgres + Redis performance tuning CI/CD pipeline build &amp; maintenance Infrastructure security &amp; firewall management MLOps / ML Platform Deploy, serve and monitor ML models in production (FastAPI/TorchServe/Triton or similar) Experiment tracking &amp; model registry (MLflow, Weights &amp; Biases, or DVC) ML pipeline orchestration (Kubeflow, Airflow, Argo Workflows) GPU scheduling on Kubernetes; training vs. inference resource isolation Model monitoring &amp; drift detection (Prometheus/Grafana/OpenTelemetry) CI/CD adapted for models (retraining, canary/A-B rollout, versioning) Nice to have: Python fluency, feature stores (Feast), SageMaker/Vertex A",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [
-        "per annum"
-      ],
-      "score": 34,
-      "confidence": 0.49,
-      "automation_fit": 0.52,
-      "matched_keywords": [
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 39,
-        "estimated_value_eur": 40,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          40.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -470,7 +466,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-29T10:33:05.535883+00:00",
+    "created_at": "2026-10-29T11:28:36.582635+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -501,6 +497,21 @@
           "price_eur": 500,
           "starter_price_eur": 200,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Full-Stack Development, AI Integration & Custom Software | $30/hr\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] App Developer | Got an app stuck halfway? Built with AI? I'll help you get it shipped",
+        "url": "https://www.reddit.com/r/forhire/comments/1xih6tr/for_hire_app_developer_got_an_app_stuck_halfway/",
+        "priority": "LOW",
+        "opportunity_score": 46,
+        "estimated_value_eur": 650,
+        "offer": {
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] App Developer | Got an app stuck halfway? Built with AI? I'll help you get it shipped\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -546,21 +557,6 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"Salesloft: Enterprise Account Executive\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Urgent Hiring : Senior DevOps / MLOps Engineer - Fully Remote | $40–50K",
-        "url": "https://www.reddit.com/r/forhire/comments/1xhojb8/hiring_urgent_hiring_senior_devops_mlops_engineer/",
-        "priority": "LOW",
-        "opportunity_score": 39,
-        "estimated_value_eur": 40,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Urgent Hiring : Senior DevOps / MLOps Engineer - Fully Remote | $40–50K\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
