@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T20:29:02.602351+00:00",
+  "generated_at": "2026-10-29T21:27:20.699988+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -193,44 +193,6 @@
       }
     },
     {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Florida - React/Node dev to fix a bug in my side project, $1,000 flat",
-      "url": "https://www.reddit.com/r/forhire/comments/1xi4keq/hiring_florida_reactnode_dev_to_fix_a_bug_in_my/",
-      "published": "2026-10-28T23:50:04+00:00",
-      "snippet": "Hey all. I&#39;ve got a small personal project (React front end, Node API, Postgres on Railway) that&#39;s mostly working, but there&#39;s one bug I&#39;ve been fighting for a couple weeks and I&#39;m done banging my head on it. Not a build-from-scratch thing, I just need someone who knows what they&#39;re doing to come in and sort it out. The bug: when a user logs out and logs back in, the dashboard shows the previous session&#39;s data instead of pulling fresh from the API. It stays stale until you hard reload. I&#39;m guessing it&#39;s cached state not clearing on logout but I haven&#39;t been able to pin it down. Fixed = it loads fresh data on its own every time after login, no manual refresh. I&#39;d prefer someone in Florida because part of it runs on a machine at my place and I&#39;d rather sit down and walk through the setup together for an hour than try to explain it all over Di",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 50,
-      "buyer_signals": [
-        "paying",
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "LOW",
-        "opportunity_score": 41,
-        "estimated_value_eur": 1000,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          1000.0
-        ],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "We Work Remotely",
       "title": "Salesloft: Enterprise Account Executive",
       "url": "https://weworkremotely.com/remote-jobs/salesloft-enterprise-account-executive",
@@ -417,6 +379,43 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[For Hire] SQL, Data Analysis & Data Engineering | Tutoring and Freelance Support | Remote",
+      "url": "https://www.reddit.com/r/forhire/comments/1xiwdld/for_hire_sql_data_analysis_data_engineering/",
+      "published": "2026-10-29T21:11:57+00:00",
+      "snippet": "&#x200B; Hi everyone! I&#39;m a data professional offering practical tutoring and freelance support in SQL, Data Analysis, and Data Engineering. What I can help with: SQL: Learn from the basics, practise queries, joins, aggregations, and solve real-world problems. Data Analysis: SQL-based analysis, data exploration, reporting, and Power BI. Data Engineering: SQL transformations, Python/PySpark, ETL/ELT pipelines, Airflow, cloud data platforms, and troubleshooting. I enjoy explaining concepts in a practical way, helping people understand why something works rather than just giving them the answer. I&#39;m happy to work with beginners as well as people who need help with specific data tasks. I&#39;m also available for small freelance projects, SQL development, data troubleshooting, and other suitable data-related work. Rates: Tutoring and practical lessons: $25/hour Freelance data work: st",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "need help with"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_support",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 25,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          25.0
+        ],
+        "offer": {
+          "service": "AI customer-support automation",
+          "starter_price_eur": 200,
+          "target_price_eur": 500,
+          "premium_price_eur": 1200,
+          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[For Hire] I help B2B software companies turn more of their visitors into demo requests. Free site audit to start 25USD/hr",
       "url": "https://www.reddit.com/r/forhire/comments/1xi7pp5/for_hire_i_help_b2b_software_companies_turn_more/",
       "published": "2026-10-29T02:12:28+00:00",
@@ -466,7 +465,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-29T20:29:02.639944+00:00",
+    "created_at": "2026-10-29T21:27:20.733868+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -527,21 +526,6 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Full Stack Developer | Android Apps, SaaS MVPs, Landing Pages, Business Websites | $20/hr or fixed price\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Florida - React/Node dev to fix a bug in my side project, $1,000 flat",
-        "url": "https://www.reddit.com/r/forhire/comments/1xi4keq/hiring_florida_reactnode_dev_to_fix_a_bug_in_my/",
-        "priority": "LOW",
-        "opportunity_score": 41,
-        "estimated_value_eur": 1000,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Florida - React/Node dev to fix a bug in my side project, $1,000 flat\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -617,6 +601,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[Hiring] Native speakers (FR/AR/DE/IT) for paid remote conversation recordings – from US$175/finished hour\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] SQL, Data Analysis & Data Engineering | Tutoring and Freelance Support | Remote",
+        "url": "https://www.reddit.com/r/forhire/comments/1xiwdld/for_hire_sql_data_analysis_data_engineering/",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 25,
+        "offer": {
+          "subject": "Proposal: AI customer-support automation",
+          "price_eur": 500,
+          "starter_price_eur": 200,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] SQL, Data Analysis & Data Engineering | Tutoring and Freelance Support | Remote\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
