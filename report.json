@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T18:30:45.550890+00:00",
+  "generated_at": "2026-10-29T19:37:07.600102+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 12,
+    "buyer_leads_found": 13,
     "human_review_required": true
   },
   "opportunities": [
@@ -306,6 +306,42 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[Hiring] full stack react native developer to build my vision in to a production grade app.",
+      "url": "https://www.reddit.com/r/forhire/comments/1xithu9/hiring_full_stack_react_native_developer_to_build/",
+      "published": "2026-10-29T19:23:21+00:00",
+      "snippet": "I have an app idea and done some vibe coding but got no technical background, so I’m looking to hire someone to build it for me. The features I want include user profiles, company profiles, a social feed with text, images and videos, comments, likes, communities, and a working karma system like reddit. I also want a messaging system that supports media sharing, a recommendation engine for discovering relevant people and communities, and an AI-powered voice interview feature with Browser’s streaming text-to-speech (So it doesn’t burn a lot of tokens) and feedback. Other requirements include connection requests, following companies, notifications, and apps for both iOS and Android. I’m open to suggestions on the technology and using existing solutions where possible. But would prefer react native with Expo EAS so it can be cross platform. For developers and agencies, how much would you quo",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 50,
+      "buyer_signals": [
+        "looking to hire",
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_support",
+        "priority": "LOW",
+        "opportunity_score": 37,
+        "estimated_value_eur": 500,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI customer-support automation",
+          "starter_price_eur": 200,
+          "target_price_eur": 500,
+          "premium_price_eur": 1200,
+          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[Hiring] Experienced English Voice-Over Artists | Long-Term Opportunity | ₹150–₹200",
       "url": "https://www.reddit.com/r/forhire/comments/1xiphl7/hiring_experienced_english_voiceover_artists/",
       "published": "2026-10-29T16:55:12+00:00",
@@ -502,7 +538,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-29T18:30:45.586395+00:00",
+    "created_at": "2026-10-29T19:37:07.635897+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -613,6 +649,21 @@
         }
       },
       {
+        "title": "[Hiring] full stack react native developer to build my vision in to a production grade app.",
+        "url": "https://www.reddit.com/r/forhire/comments/1xithu9/hiring_full_stack_react_native_developer_to_build/",
+        "priority": "LOW",
+        "opportunity_score": 37,
+        "estimated_value_eur": 500,
+        "offer": {
+          "subject": "Proposal: AI customer-support automation",
+          "price_eur": 500,
+          "starter_price_eur": 200,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] full stack react native developer to build my vision in to a production grade app.\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "[Hiring] Experienced English Voice-Over Artists | Long-Term Opportunity | ₹150–₹200",
         "url": "https://www.reddit.com/r/forhire/comments/1xiphl7/hiring_experienced_english_voiceover_artists/",
         "priority": "LOW",
@@ -638,21 +689,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[FOR HIRE] Got a game or app idea but don't have the time or skills to make it? I'll make it for you. (7 years Unity experience)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Contra: Senior 3D Designer",
-        "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
