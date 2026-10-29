@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T15:39:08.530221+00:00",
+  "generated_at": "2026-10-29T16:38:32.835706+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 10,
+    "buyer_leads_found": 12,
     "human_review_required": true
   },
   "opportunities": [
@@ -193,6 +193,48 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[For Hire] Full Stack Developer | Android Apps, SaaS MVPs, Landing Pages, Business Websites | $20/hr or fixed price",
+      "url": "https://www.reddit.com/r/forhire/comments/1xiorg3/for_hire_full_stack_developer_android_apps_saas/",
+      "published": "2026-10-29T16:28:43+00:00",
+      "snippet": "I build web apps, websites and native Android apps, solo and end to end. Everything below is live, so you can open it and judge for yourself. What I build * Android apps, polished and animated, not a default template look * SaaS MVPs and web apps (Next.js, Supabase, auth, payments) * Landing pages and business websites, mobile friendly and fast * AI automations (background jobs, Gemini, email workflows) Rates: $20/hr, or fixed price. $80 for a simple landing page, $150 for multiple pages. Android apps and bigger builds are quoted per project once I know what you need. One round of revisions included. Landing pages usually take 3 to 5 days. Built: * Kanha: Bhagavad Gita Explained https://kanhagita.com/ native Android app I built solo. Google and email sign-in, cloud sync that still works offline, animations, sound, share as image, 600+ content cards. both the website and the application a",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "automation",
+        "workflow",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 46,
+        "estimated_value_eur": 150,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          20.0,
+          20.0,
+          80.0,
+          150.0
+        ],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[Hiring] Florida - React/Node dev to fix a bug in my side project, $1,000 flat",
       "url": "https://www.reddit.com/r/forhire/comments/1xi4keq/hiring_florida_reactnode_dev_to_fix_a_bug_in_my/",
       "published": "2026-10-28T23:50:04+00:00",
@@ -293,6 +335,41 @@
           15.0,
           750.0
         ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[FOR HIRE] Got a game or app idea but don't have the time or skills to make it? I'll make it for you. (7 years Unity experience)",
+      "url": "https://www.reddit.com/r/forhire/comments/1xiojrr/for_hire_got_a_game_or_app_idea_but_dont_have_the/",
+      "published": "2026-10-29T16:20:59+00:00",
+      "snippet": "Hey! So, have you got a game idea you&#39;ve been sitting on for ages but don&#39;t have the time to actually make? Or maybe you&#39;ve already started something and you&#39;re completely stuck? Well, that&#39;s where I come in! I&#39;m a solo game developer with around 7 years of experience working in Unity. I&#39;ve worked on quite a few projects under NDA, designing and developing games for other people, as well as making plenty of my own stuff. I can handle pretty much the entire development process myself. Programming, game design, 2D/3D art, animations, UI, mechanics, environments, all that lovely stuff. I can work with different art styles too, whether you&#39;re after pixel art, low poly, stylised 3D or something else entirely. One thing about me is that when I get into a project, I REALLY get into it I have ADHD and tend to hyperfocus pretty heavily. If I&#39;m working on your g",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "project budget"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
         "offer": {
           "service": "AI workflow improvement",
           "starter_price_eur": 150,
@@ -430,7 +507,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-29T15:39:08.565418+00:00",
+    "created_at": "2026-10-29T16:38:32.868541+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -496,6 +573,21 @@
         }
       },
       {
+        "title": "[For Hire] Full Stack Developer | Android Apps, SaaS MVPs, Landing Pages, Business Websites | $20/hr or fixed price",
+        "url": "https://www.reddit.com/r/forhire/comments/1xiorg3/for_hire_full_stack_developer_android_apps_saas/",
+        "priority": "LOW",
+        "opportunity_score": 46,
+        "estimated_value_eur": 150,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Full Stack Developer | Android Apps, SaaS MVPs, Landing Pages, Business Websites | $20/hr or fixed price\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "[Hiring] Florida - React/Node dev to fix a bug in my side project, $1,000 flat",
         "url": "https://www.reddit.com/r/forhire/comments/1xi4keq/hiring_florida_reactnode_dev_to_fix_a_bug_in_my/",
         "priority": "LOW",
@@ -541,6 +633,21 @@
         }
       },
       {
+        "title": "[FOR HIRE] Got a game or app idea but don't have the time or skills to make it? I'll make it for you. (7 years Unity experience)",
+        "url": "https://www.reddit.com/r/forhire/comments/1xiojrr/for_hire_got_a_game_or_app_idea_but_dont_have_the/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[FOR HIRE] Got a game or app idea but don't have the time or skills to make it? I'll make it for you. (7 years Unity experience)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "Contra: Senior 3D Designer",
         "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
         "priority": "LOW",
@@ -551,36 +658,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"Contra: Senior 3D Designer\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Native speakers (FR/AR/DE/IT) for paid remote conversation recordings – from US$175/finished hour",
-        "url": "https://www.reddit.com/r/forhire/comments/1xin9tj/hiring_native_speakers_frardeit_for_paid_remote/",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 175,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Native speakers (FR/AR/DE/IT) for paid remote conversation recordings – from US$175/finished hour\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[For Hire] I help B2B software companies turn more of their visitors into demo requests. Free site audit to start 25USD/hr",
-        "url": "https://www.reddit.com/r/forhire/comments/1xi7pp5/for_hire_i_help_b2b_software_companies_turn_more/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 25,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] I help B2B software companies turn more of their visitors into demo requests. Free site audit to start 25USD/hr\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
