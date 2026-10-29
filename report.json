@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T03:31:29.338871+00:00",
+  "generated_at": "2026-10-29T04:33:00.942859+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 10,
+    "buyer_leads_found": 13,
     "human_review_required": true
   },
   "opportunities": [
@@ -309,6 +309,41 @@
       }
     },
     {
+      "source": "Reddit r/slavelabour",
+      "title": "[OFFER] Experienced Writer | Ghostwriting, Fiction, Editing & Research",
+      "url": "https://www.reddit.com/r/slavelabour/comments/1xgxl18/offer_experienced_writer_ghostwriting_fiction/",
+      "published": "2026-10-27T16:40:54+00:00",
+      "snippet": "Hey everyone! I’m an experienced freelance writer looking to take on new paid projects. I’ve spent around 10 years working on fiction and research-based writing, with creative writing certifications from Wesleyan University. Here’s what I can help with: Ghostwriting: Novels, short stories, and fiction developed from your ideas, outlines, or existing material. Fiction Writing: Romance, dark romance, fantasy, character development, and dialogue. (among other genres) Editing &amp; Proofreading: Improving grammar, flow, pacing, consistency, and readability while preserving your voice. Research-Based Writing: Articles, informative content, and research-heavy assignments. Story Development: Plot outlines, worldbuilding, character profiles, and developing rough concepts into cohesive stories. I’m particularly interested in substantial projects and ongoing collaborations, although I’m open to sm",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "paid project"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
       "source": "We Work Remotely",
       "title": "Contra: Senior 3D Designer",
       "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
@@ -346,6 +381,47 @@
       }
     },
     {
+      "source": "Reddit r/slavelabour",
+      "title": "[TASK] Looking to Pay Someone $10/Week to Submit Job Applications for Me ($200 Bonus if I'm Hired)",
+      "url": "https://www.reddit.com/r/slavelabour/comments/1xia55h/task_looking_to_pay_someone_10week_to_submit_job/",
+      "published": "2026-10-29T04:15:27+00:00",
+      "snippet": "I&#39;m looking for someone to help me submit job applications for a one-week paid trial, with the possibility of continuing if things go well. Pay and Bonuses $0.20 per completed application , up to 50 per week ($10 maximum). $10 bonus per distinct position that results in an interview. $200 bonus if I&#39;m hired for a position you applied to or referred me to apply for myself. Base pay will be sent at the end of the week via PayPal or another agreed-upon method after I verify the applications. Bonuses are paid when the qualifying interview invitation or job offer is received. What I&#39;m Looking For Spread applications throughout the week. Aim for around 5-10 per weekday when suitable opportunities are available. Avoid submitting everything at once. Diversify across companies. Prioritize suitable positions at different employers rather than applying to numerous roles at one company. ",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "looking for someone to"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 200,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          10.0,
+          200.0,
+          0.2,
+          10.0,
+          10.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
       "source": "Reddit r/forhire",
       "title": "[For Hire] I help B2B software companies turn more of their visitors into demo requests. Free site audit to start 25USD/hr",
       "url": "https://www.reddit.com/r/forhire/comments/1xi7pp5/for_hire_i_help_b2b_software_companies_turn_more/",
@@ -370,6 +446,44 @@
         "estimated_value_eur": 25,
         "value_basis": "Detected budget/rate in listing",
         "budget_signals": [
+          25.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/slavelabour",
+      "title": "[Task] Natural retouch of a family photo for our Christmas card – $25",
+      "url": "https://www.reddit.com/r/slavelabour/comments/1xi3znb/task_natural_retouch_of_a_family_photo_for_our/",
+      "published": "2026-10-28T23:25:17+00:00",
+      "snippet": "Retouching a family photo for our Christmas card and looking for a natural, professional retouch and color correction. Requests: tone down the harsh sunlight on one person&#39;s head and forehead, slightly slim the woman&#39;s legs and the man&#39;s stomach, and lightly whiten teeth. All edits should be subtle and must not look AI-generated or obviously edited. Please share a portfolio or before/after examples. Full-res photo sent via DM to selected applicants. Paying $25 via PayPal. Thanks! &#32; submitted by &#32; /u/Jpfresh1 [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "paying"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 25,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          25.0,
           25.0
         ],
         "offer": {
@@ -423,12 +537,7 @@
       }
     }
   ],
-  "errors": [
-    {
-      "source": "Reddit r/slavelabour",
-      "error": "HTTP Error 429: Too Many Requests"
-    }
-  ],
+  "errors": [],
   "analysis": {
     "status": "ready_for_human_review",
     "note": "Scores and prices are estimates, not guaranteed earnings.",
@@ -436,7 +545,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-29T03:31:29.378046+00:00",
+    "created_at": "2026-10-29T04:33:00.977695+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -547,6 +656,21 @@
         }
       },
       {
+        "title": "[OFFER] Experienced Writer | Ghostwriting, Fiction, Editing & Research",
+        "url": "https://www.reddit.com/r/slavelabour/comments/1xgxl18/offer_experienced_writer_ghostwriting_fiction/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[OFFER] Experienced Writer | Ghostwriting, Fiction, Editing & Research\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "Contra: Senior 3D Designer",
         "url": "https://weworkremotely.com/remote-jobs/contra-senior-3d-designer",
         "priority": "LOW",
@@ -562,31 +686,16 @@
         }
       },
       {
-        "title": "[For Hire] I help B2B software companies turn more of their visitors into demo requests. Free site audit to start 25USD/hr",
-        "url": "https://www.reddit.com/r/forhire/comments/1xi7pp5/for_hire_i_help_b2b_software_companies_turn_more/",
+        "title": "[TASK] Looking to Pay Someone $10/Week to Submit Job Applications for Me ($200 Bonus if I'm Hired)",
+        "url": "https://www.reddit.com/r/slavelabour/comments/1xia55h/task_looking_to_pay_someone_10week_to_submit_job/",
         "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 25,
+        "opportunity_score": 33,
+        "estimated_value_eur": 200,
         "offer": {
           "subject": "Proposal: AI workflow improvement",
           "price_eur": 400,
           "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] I help B2B software companies turn more of their visitors into demo requests. Free site audit to start 25USD/hr\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] 3D Animator for Product Videos - $15/hr equivalent ($10 per ~30s video / Long-term)",
-        "url": "https://www.reddit.com/r/forhire/comments/1xhxcdu/hiring_3d_animator_for_product_videos_15hr/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 15,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] 3D Animator for Product Videos - $15/hr equivalent ($10 per ~30s video / Long-term)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "message": "Hi,\n\nI saw your request about \"[TASK] Looking to Pay Someone $10/Week to Submit Job Applications for Me ($200 Bonus if I'm Hired)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
