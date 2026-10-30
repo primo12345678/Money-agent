@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T15:37:47.585132+00:00",
+  "generated_at": "2026-10-30T16:35:00.655708+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 9,
+    "buyer_leads_found": 11,
     "human_review_required": true
   },
   "opportunities": [
@@ -236,6 +236,41 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[Hiring] Utility Operations Application Specialist (Contract)- Paramus, NJ",
+      "url": "https://www.reddit.com/r/forhire/comments/1xjjv0p/hiring_utility_operations_application_specialist/",
+      "published": "2026-10-30T16:21:09+00:00",
+      "snippet": "Above &amp; Beyond Talent is seeking an experienced Utility Operations Application Specialist to support and maintain Mobile Workforce Management (MWM) and Enterprise Asset Management (EAM) applications. This role focuses on application support, SQL troubleshooting, system integrations, data integrity, and ensuring reliable technology operations within a regulated utility environment. Key Qualifications: Bachelor&#39;s degree or equivalent required. 5+ years of experience in utility operations and related applications. Hands-on experience supporting MWM and/or EAM systems. Strong SQL skills (Oracle or MS SQL Server). Experience with ServiceNow, ITIL, and change management processes. Strong troubleshooting, analytical, and communication skills. Experience with IFS MWM, HxGN, Kloudgin, or similar platforms preferred. Meter Management/AMI experience is a plus. Experience with APIs, integrat",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 40,
+        "estimated_value_eur": 650,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[Hiring] Jr. Customer Analyst - Baytown TX",
       "url": "https://www.reddit.com/r/forhire/comments/1xjfot1/hiring_jr_customer_analyst_baytown_tx/",
       "published": "2026-10-30T13:40:56+00:00",
@@ -244,6 +279,41 @@
       "buyer_intent_score": 25,
       "buyer_signals": [
         "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "LOW",
+        "opportunity_score": 39,
+        "estimated_value_eur": 750,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "IMPULSE UNIVERSE INC: Asian American Expo Marketing - Local Community & Influencer Outreach",
+      "url": "https://weworkremotely.com/remote-jobs/impulse-universe-inc-asian-american-expo-marketing-local-community-influencer-outreach",
+      "published": "Fri, 30 Oct 2026 16:01:08 +0000",
+      "snippet": "Headquarters: United States URL: https://impulseuniverse.com Benefits: Bonus based on performance Company parties Flexible schedule About the Event America’s largest Lunar New Year spectacle is back and bolder than ever! Spanning 7 massive halls with over 1,400 vendors, the Asian American Expo brings you the ultimate celebration of mouthwatering Asian street food, nonstop cultural performances, and high-energy excitement. Step into the Year of the Ram, grab your official Red Envelope at the door, and get ready to experience the luckiest weekend of the year! About the Role We are seeking a high-energy, results-obsessed Marketing Contractor to drive direct ticket sales for the Asian American Expo 2027, America’s largest Lunar New Year celebration (7 massive halls, 1,400+ vendors, and hourly cash Red Envelope prize drops taking place January 16–17, 2027 at the Fairplex in Pomona, CA). This ",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "paying"
       ],
       "employment_signals": [],
       "score": 27,
@@ -397,10 +467,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-30T15:37:47.616513+00:00",
+    "created_at": "2026-10-30T16:35:00.684316+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 9,
+    "draft_count": 10,
     "drafts": [
       {
         "title": "SimpleTiger: Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)",
@@ -478,6 +548,21 @@
         }
       },
       {
+        "title": "[Hiring] Utility Operations Application Specialist (Contract)- Paramus, NJ",
+        "url": "https://www.reddit.com/r/forhire/comments/1xjjv0p/hiring_utility_operations_application_specialist/",
+        "priority": "LOW",
+        "opportunity_score": 40,
+        "estimated_value_eur": 650,
+        "offer": {
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Utility Operations Application Specialist (Contract)- Paramus, NJ\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "[Hiring] Jr. Customer Analyst - Baytown TX",
         "url": "https://www.reddit.com/r/forhire/comments/1xjfot1/hiring_jr_customer_analyst_baytown_tx/",
         "priority": "LOW",
@@ -488,6 +573,21 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"[Hiring] Jr. Customer Analyst - Baytown TX\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "IMPULSE UNIVERSE INC: Asian American Expo Marketing - Local Community & Influencer Outreach",
+        "url": "https://weworkremotely.com/remote-jobs/impulse-universe-inc-asian-american-expo-marketing-local-community-influencer-outreach",
+        "priority": "LOW",
+        "opportunity_score": 39,
+        "estimated_value_eur": 750,
+        "offer": {
+          "subject": "Proposal: AI lead generation and follow-up",
+          "price_eur": 750,
+          "starter_price_eur": 300,
+          "message": "Hi,\n\nI saw your request about \"IMPULSE UNIVERSE INC: Asian American Expo Marketing - Local Community & Influencer Outreach\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -518,21 +618,6 @@
           "price_eur": 500,
           "starter_price_eur": 200,
           "message": "Hi,\n\nI saw your request about \"[For Hire] SQL, Data Analysis & Data Engineering | Tutoring and Freelance Support | Remote\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[HIRING] U.S. ONLY CONTENT PARTNERS EARN UPTO $20 PER POST AND MORE BASED ON VIEWS",
-        "url": "https://www.reddit.com/r/forhire/comments/1xj8edq/hiring_us_only_content_partners_earn_upto_20_per/",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 20,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[HIRING] U.S. ONLY CONTENT PARTNERS EARN UPTO $20 PER POST AND MORE BASED ON VIEWS\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
