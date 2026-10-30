@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T14:43:41.326365+00:00",
+  "generated_at": "2026-10-30T15:37:47.585132+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 10,
+    "buyer_leads_found": 9,
     "human_review_required": true
   },
   "opportunities": [
@@ -236,48 +236,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[For Hire] Full Stack Developer | Android Apps, SaaS MVPs, Landing Pages, Business Websites | $20/hr or fixed price",
-      "url": "https://www.reddit.com/r/forhire/comments/1xiorg3/for_hire_full_stack_developer_android_apps_saas/",
-      "published": "2026-10-29T16:28:43+00:00",
-      "snippet": "I build web apps, websites and native Android apps, solo and end to end. Everything below is live, so you can open it and judge for yourself. What I build * Android apps, polished and animated, not a default template look * SaaS MVPs and web apps (Next.js, Supabase, auth, payments) * Landing pages and business websites, mobile friendly and fast * AI automations (background jobs, Gemini, email workflows) Rates: $20/hr, or fixed price. $80 for a simple landing page, $150 for multiple pages. Android apps and bigger builds are quoted per project once I know what you need. One round of revisions included. Landing pages usually take 3 to 5 days. Built: * Kanha: Bhagavad Gita Explained https://kanhagita.com/ native Android app I built solo. Google and email sign-in, cloud sync that still works offline, animations, sound, share as image, 600+ content cards. both the website and the application a",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 46,
-        "estimated_value_eur": 150,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          20.0,
-          20.0,
-          80.0,
-          150.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[Hiring] Jr. Customer Analyst - Baytown TX",
       "url": "https://www.reddit.com/r/forhire/comments/1xjfot1/hiring_jr_customer_analyst_baytown_tx/",
       "published": "2026-10-30T13:40:56+00:00",
@@ -439,10 +397,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-30T14:43:41.357314+00:00",
+    "created_at": "2026-10-30T15:37:47.616513+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 10,
+    "draft_count": 9,
     "drafts": [
       {
         "title": "SimpleTiger: Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)",
@@ -515,21 +473,6 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"Twikey: Senior Java Developer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[For Hire] Full Stack Developer | Android Apps, SaaS MVPs, Landing Pages, Business Websites | $20/hr or fixed price",
-        "url": "https://www.reddit.com/r/forhire/comments/1xiorg3/for_hire_full_stack_developer_android_apps_saas/",
-        "priority": "LOW",
-        "opportunity_score": 46,
-        "estimated_value_eur": 150,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Full Stack Developer | Android Apps, SaaS MVPs, Landing Pages, Business Websites | $20/hr or fixed price\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
