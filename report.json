@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T17:29:26.114799+00:00",
+  "generated_at": "2026-10-30T18:28:00.484450+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 11,
+    "buyer_leads_found": 13,
     "human_review_required": true
   },
   "opportunities": [
@@ -376,6 +376,43 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[Hiring] Machine Assembler I -Rancho Dominguez, CA",
+      "url": "https://www.reddit.com/r/forhire/comments/1xjmcvj/hiring_machine_assembler_i_rancho_dominguez_ca/",
+      "published": "2026-10-30T17:52:28+00:00",
+      "snippet": "Above &amp; Beyond Talent is seeking a mechanically inclined Machine Assembler I to assemble small machine components and equipment according to engineering drawings, quality standards, and production specifications. This position offers a clean, air-conditioned work environment. Key Qualifications: 1–3 years of automotive, machine shop, manufacturing, or similar experience. Ability to read and interpret engineering drawings and specifications. Proficiency with hand tools, power tools, and measuring instruments. Mechanical aptitude and good manual dexterity. Trade school, machinist apprenticeship, or machine tool technology training preferred. Ability to lift up to 40 lbs. Key Responsibilities: Assemble machine components according to engineering drawings and work instructions. Meet production timelines and quality standards. Use hand/power tools and measuring instruments. Maintain an or",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [
+        "full-time"
+      ],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[For Hire] SQL, Data Analysis & Data Engineering | Tutoring and Freelance Support | Remote",
       "url": "https://www.reddit.com/r/forhire/comments/1xiwdld/for_hire_sql_data_analysis_data_engineering/",
       "published": "2026-10-29T21:11:57+00:00",
@@ -452,6 +489,43 @@
         },
         "human_approval_required": true
       }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "‎‎[FOR HIRE] Product Architect & Full Stack Dev | I design and build your SaaS from scratch ($20/hr or fixed)",
+      "url": "https://www.reddit.com/r/forhire/comments/1xjja0k/for_hire_product_architect_full_stack_dev_i/",
+      "published": "2026-10-30T16:00:10+00:00",
+      "snippet": "‎Hi everyone, ‎I have a habit of over analyzing every possible point of failure before writing a single line of code. ‎While that might make me obsessively thorough, it makes your product bulletproof ‎AI can generate a .md file with a basic database schema, but it can&#39;t build a product that actually survives the market. ‎It can&#39;t analyze your competitors, map out human UX, or give your project a unique visual soul. ‎I am a Product architect and Full stack developer. ‎I don’t just take a list of features and blindly code them ‎ ‎ And above all, I will treat your project like it’s my own startup ‎Before a single line of code is written, I look at the market, extract the strengths of your competitors, eliminate their weaknesses, and integrate everything into a seamless, unified product vision ‎ ‎ How I build (my process): ‎ 1. Product strategy &amp; UX mapping ‎I don’t just say &quo",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 20,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          20.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     }
   ],
   "errors": [
@@ -467,7 +541,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-30T17:29:26.143630+00:00",
+    "created_at": "2026-10-30T18:28:00.523268+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -608,16 +682,16 @@
         }
       },
       {
-        "title": "[For Hire] SQL, Data Analysis & Data Engineering | Tutoring and Freelance Support | Remote",
-        "url": "https://www.reddit.com/r/forhire/comments/1xiwdld/for_hire_sql_data_analysis_data_engineering/",
+        "title": "[Hiring] Machine Assembler I -Rancho Dominguez, CA",
+        "url": "https://www.reddit.com/r/forhire/comments/1xjmcvj/hiring_machine_assembler_i_rancho_dominguez_ca/",
         "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 25,
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
         "offer": {
-          "subject": "Proposal: AI customer-support automation",
-          "price_eur": 500,
-          "starter_price_eur": 200,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] SQL, Data Analysis & Data Engineering | Tutoring and Freelance Support | Remote\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Machine Assembler I -Rancho Dominguez, CA\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
