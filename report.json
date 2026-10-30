@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T05:30:25.023654+00:00",
+  "generated_at": "2026-10-30T06:29:58.312992+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 9,
+    "buyer_leads_found": 8,
     "human_review_required": true
   },
   "opportunities": [
@@ -115,42 +115,6 @@
           "target_price_eur": 500,
           "premium_price_eur": 1200,
           "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] App Developer | Got an app stuck halfway? Built with AI? I'll help you get it shipped",
-      "url": "https://www.reddit.com/r/forhire/comments/1xih6tr/for_hire_app_developer_got_an_app_stuck_halfway/",
-      "published": "2026-10-29T11:18:32+00:00",
-      "snippet": "Built an app with Cursor, Claude Code, Lovable, or Bolt, but now it&#39;s breaking, buggy, or refusing to work the way you want? Or maybe you&#39;re stuck on a technical problem and need someone experienced to get you past it. I can help you get unstuck. I&#39;m a software engineer with 5+ years of professional experience building and shipping applications. I work across iOS, Android, macOS, watchOS, visionOS and backend systems, and I&#39;m comfortable jumping into existing codebases, figuring out what&#39;s wrong, and getting things working properly. Things I can help with: - AI-generated code that&#39;s messy, broken, or doesn&#39;t work as expected - Bugs you&#39;ve been fighting with for hours or days - Features that are half-built and need someone to finish them - Apps that work locally but break in production - API integrations, authentication, databases, and backend issues - Slow",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 34,
-      "confidence": 0.49,
-      "automation_fit": 0.52,
-      "matched_keywords": [
-        "api integration",
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "LOW",
-        "opportunity_score": 46,
-        "estimated_value_eur": 650,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -393,10 +357,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-30T05:30:25.047898+00:00",
+    "created_at": "2026-10-30T06:29:58.336143+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 9,
+    "draft_count": 8,
     "drafts": [
       {
         "title": "SimpleTiger: Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)",
@@ -424,21 +388,6 @@
           "price_eur": 500,
           "starter_price_eur": 200,
           "message": "Hi,\n\nI saw your request about \"[For Hire] I'm a Full-Stack Development, AI Integration & Custom Software | $30/hr\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[For Hire] App Developer | Got an app stuck halfway? Built with AI? I'll help you get it shipped",
-        "url": "https://www.reddit.com/r/forhire/comments/1xih6tr/for_hire_app_developer_got_an_app_stuck_halfway/",
-        "priority": "LOW",
-        "opportunity_score": 46,
-        "estimated_value_eur": 650,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] App Developer | Got an app stuck halfway? Built with AI? I'll help you get it shipped\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
