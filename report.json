@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T06:29:58.312992+00:00",
+  "generated_at": "2026-10-30T07:46:12.740853+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 8,
+    "buyer_leads_found": 10,
     "human_review_required": true
   },
   "opportunities": [
@@ -68,6 +68,47 @@
         "estimated_value_eur": 600,
         "value_basis": "Service-band estimate; not a quoted budget",
         "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Smartsheet: Manager, Engineering (Remote Eligible in Bulgaria)",
+      "url": "https://weworkremotely.com/remote-jobs/smartsheet-manager-engineering-remote-eligible-in-bulgaria",
+      "published": "Fri, 30 Oct 2026 07:31:10 +0000",
+      "snippet": "Headquarters: -REMOTE, BULGARIA- For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual tasks and uncovering insights at scale, we create the space for people to focus on what truly matters: judgment, creativity, and big thinking. That is magic at work, and it’s what we show up for every day. Smartsheet is a tech company with a human story to tell. We’re here to empower teams to manage projects, automate workflows, and rapidly build new secure solutions, using simple no-code tools. We’re revolutionaries – so for us, changing the way the world works is all in a day’s work. As a global leader in Intelligent Work Management with a market cap of $10bn, we’ve continued to scale our engineering presence ",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "want to build"
+      ],
+      "employment_signals": [],
+      "score": 55,
+      "confidence": 0.7,
+      "automation_fit": 0.7,
+      "matched_keywords": [
+        "automation",
+        "ai agent",
+        "workflow",
+        "no-code",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "MEDIUM",
+        "opportunity_score": 56,
+        "estimated_value_eur": 10,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          10.0
+        ],
         "offer": {
           "service": "AI workflow automation",
           "starter_price_eur": 250,
@@ -342,6 +383,48 @@
         },
         "human_approval_required": true
       }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[HIRING] U.S. ONLY CONTENT PARTNERS EARN UPTO $20 PER POST AND MORE BASED ON VIEWS",
+      "url": "https://www.reddit.com/r/forhire/comments/1xj8edq/hiring_us_only_content_partners_earn_upto_20_per/",
+      "published": "2026-10-30T06:58:41+00:00",
+      "snippet": "Hi I&#39;m the founder of Backdoor AI and I&#39;m looking to hire folks from the US as content partners. you can be anyone, university student, part time or full time worker who just wants to earn some extra cash on the side by posting for backdoor on their socials and share within their network. You can earn anywhere from $5-$20 per post depending on your reach plus more reach based incentives. if you&#39;re someone who likes to post or is good at writing and has a good following and wants to capitalise on that. You&#39;d be a perfect fit for this. if interested you can reach out to me directly at [ sarvagya@backdoorai.app ](mailto: sarvagya@backdoorai.app ) Share if you know anyone who might be interested &#32; submitted by &#32; /u/Historical-Deer-4062 [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 50,
+      "buyer_signals": [
+        "looking to hire",
+        "[hiring]"
+      ],
+      "employment_signals": [
+        "full time"
+      ],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 20,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          20.0,
+          5.0,
+          20.0
+        ],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     }
   ],
   "errors": [
@@ -357,10 +440,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-30T06:29:58.336143+00:00",
+    "created_at": "2026-10-30T07:46:12.770087+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 8,
+    "draft_count": 10,
     "drafts": [
       {
         "title": "SimpleTiger: Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)",
@@ -373,6 +456,21 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"SimpleTiger: Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Smartsheet: Manager, Engineering (Remote Eligible in Bulgaria)",
+        "url": "https://weworkremotely.com/remote-jobs/smartsheet-manager-engineering-remote-eligible-in-bulgaria",
+        "priority": "MEDIUM",
+        "opportunity_score": 56,
+        "estimated_value_eur": 10,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"Smartsheet: Manager, Engineering (Remote Eligible in Bulgaria)\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -478,6 +576,21 @@
           "price_eur": 500,
           "starter_price_eur": 200,
           "message": "Hi,\n\nI saw your request about \"[For Hire] SQL, Data Analysis & Data Engineering | Tutoring and Freelance Support | Remote\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[HIRING] U.S. ONLY CONTENT PARTNERS EARN UPTO $20 PER POST AND MORE BASED ON VIEWS",
+        "url": "https://www.reddit.com/r/forhire/comments/1xj8edq/hiring_us_only_content_partners_earn_upto_20_per/",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 20,
+        "offer": {
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[HIRING] U.S. ONLY CONTENT PARTNERS EARN UPTO $20 PER POST AND MORE BASED ON VIEWS\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
