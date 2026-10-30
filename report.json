@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T13:47:47.694557+00:00",
+  "generated_at": "2026-10-30T14:43:41.326365+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 11,
+    "buyer_leads_found": 10,
     "human_review_required": true
   },
   "opportunities": [
@@ -115,6 +115,44 @@
           "target_price_eur": 600,
           "premium_price_eur": 1500,
           "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
+      "title": "Toptal: Client Advisor",
+      "url": "https://weworkremotely.com/remote-jobs/toptal-client-advisor",
+      "published": "Wed, 30 Sep 2026 15:18:11 +0000",
+      "snippet": "Headquarters: Remote URL: https://www.toptal.com/ Job Summary Our Client Advisors turn inbound interest from small- and medium-sized businesses into Toptal clients. You will be the first conversation a prospective client has with Toptal. You will respond to immediate-assistance requests within five minutes, quickly understand the business problem behind the request, connect necessary Toptal specialists, and help guide the client forward through the sales process. You will need to do a great deal in a short conversation: establish trust, diagnose the need, recognize relevant opportunities, explain Toptal’s value proposition, address concerns, and convert the business to sale. This is a high energy, consultative sales role at inbound velocity where excellence will mean running a high volume of first conversations, asking better questions than the client expected, and constantly building mo",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 50,
+      "buyer_signals": [
+        "paying",
+        "want to build"
+      ],
+      "employment_signals": [],
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "workflow",
+        "crm",
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "LOW",
+        "opportunity_score": 50,
+        "estimated_value_eur": 750,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -310,80 +348,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[FOR HIRE] Got a game or app idea but don't have the time or skills to make it? I'll make it for you. (7 years Unity experience)",
-      "url": "https://www.reddit.com/r/forhire/comments/1xiojrr/for_hire_got_a_game_or_app_idea_but_dont_have_the/",
-      "published": "2026-10-29T16:20:59+00:00",
-      "snippet": "Hey! So, have you got a game idea you&#39;ve been sitting on for ages but don&#39;t have the time to actually make? Or maybe you&#39;ve already started something and you&#39;re completely stuck? Well, that&#39;s where I come in! I&#39;m a solo game developer with around 7 years of experience working in Unity. I&#39;ve worked on quite a few projects under NDA, designing and developing games for other people, as well as making plenty of my own stuff. I can handle pretty much the entire development process myself. Programming, game design, 2D/3D art, animations, UI, mechanics, environments, all that lovely stuff. I can work with different art styles too, whether you&#39;re after pixel art, low poly, stylised 3D or something else entirely. One thing about me is that when I get into a project, I REALLY get into it I have ADHD and tend to hyperfocus pretty heavily. If I&#39;m working on your g",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "project budget"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Native speakers (FR/AR/DE/IT) for paid remote conversation recordings – from US$175/finished hour",
-      "url": "https://www.reddit.com/r/forhire/comments/1xin9tj/hiring_native_speakers_frardeit_for_paid_remote/",
-      "published": "2026-10-29T15:34:19+00:00",
-      "snippet": "I&#39;m producing a conversational speech project and recruiting native speakers of French, Arabic, German and Italian. Ideal: pairs who live together (couples, roommates, friends) who chat naturally from topic prompts, each on their own mic, from home. - Pay: from US$175 per finished hour (about 1.25 to 2 hours of your time) - Paid within 5 days of the client paying for your approved hours - Multi-month project, flexible schedule, fully remote You need: native speaker, 18+, a decent microphone and a quiet room (WAV 48 kHz / 24-bit, unprocessed), and the ease to chat without talking over each other. Use: AI training data only, under a perpetual licence. No voice cloning, no broadcast. Not eligible: residents of Washington, Nevada, Illinois, Texas, mainland China or Vietnam. Apply here (2 minutes): https://forms.gle/bnt1Ja7Rg7eYpPVv6 &#32; submitted by &#32; /u/ultracryptocurrency [link] ",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 50,
-      "buyer_signals": [
-        "paying",
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 175,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          175.0,
-          175.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[For Hire] SQL, Data Analysis & Data Engineering | Tutoring and Freelance Support | Remote",
       "url": "https://www.reddit.com/r/forhire/comments/1xiwdld/for_hire_sql_data_analysis_data_engineering/",
       "published": "2026-10-29T21:11:57+00:00",
@@ -475,7 +439,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-30T13:47:47.735034+00:00",
+    "created_at": "2026-10-30T14:43:41.357314+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -506,6 +470,21 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"Smartsheet: Manager, Engineering (Remote Eligible in Bulgaria)\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Toptal: Client Advisor",
+        "url": "https://weworkremotely.com/remote-jobs/toptal-client-advisor",
+        "priority": "LOW",
+        "opportunity_score": 50,
+        "estimated_value_eur": 750,
+        "offer": {
+          "subject": "Proposal: AI lead generation and follow-up",
+          "price_eur": 750,
+          "starter_price_eur": 300,
+          "message": "Hi,\n\nI saw your request about \"Toptal: Client Advisor\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -586,36 +565,6 @@
         }
       },
       {
-        "title": "[FOR HIRE] Got a game or app idea but don't have the time or skills to make it? I'll make it for you. (7 years Unity experience)",
-        "url": "https://www.reddit.com/r/forhire/comments/1xiojrr/for_hire_got_a_game_or_app_idea_but_dont_have_the/",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[FOR HIRE] Got a game or app idea but don't have the time or skills to make it? I'll make it for you. (7 years Unity experience)\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Native speakers (FR/AR/DE/IT) for paid remote conversation recordings – from US$175/finished hour",
-        "url": "https://www.reddit.com/r/forhire/comments/1xin9tj/hiring_native_speakers_frardeit_for_paid_remote/",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 175,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Native speakers (FR/AR/DE/IT) for paid remote conversation recordings – from US$175/finished hour\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "[For Hire] SQL, Data Analysis & Data Engineering | Tutoring and Freelance Support | Remote",
         "url": "https://www.reddit.com/r/forhire/comments/1xiwdld/for_hire_sql_data_analysis_data_engineering/",
         "priority": "LOW",
@@ -626,6 +575,21 @@
           "price_eur": 500,
           "starter_price_eur": 200,
           "message": "Hi,\n\nI saw your request about \"[For Hire] SQL, Data Analysis & Data Engineering | Tutoring and Freelance Support | Remote\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[HIRING] U.S. ONLY CONTENT PARTNERS EARN UPTO $20 PER POST AND MORE BASED ON VIEWS",
+        "url": "https://www.reddit.com/r/forhire/comments/1xj8edq/hiring_us_only_content_partners_earn_upto_20_per/",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 20,
+        "offer": {
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[HIRING] U.S. ONLY CONTENT PARTNERS EARN UPTO $20 PER POST AND MORE BASED ON VIEWS\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
