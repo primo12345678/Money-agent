@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T22:22:22.466626+00:00",
+  "generated_at": "2026-10-31T23:21:17.858505+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 15,
+    "buyer_leads_found": 16,
     "human_review_required": true
   },
   "opportunities": [
@@ -415,6 +415,44 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[For Hire] I build autonomous AI agents and mobile apps. €70/h or fixed price. Example: an agent that runs my three live games 24/7, code public. Remote, worldwide.",
+      "url": "https://www.reddit.com/r/forhire/comments/1xknzd6/for_hire_i_build_autonomous_ai_agents_and_mobile/",
+      "published": "2026-10-31T23:06:27+00:00",
+      "snippet": "I&#39;m on UTC+2, so I overlap with all of Europe and US mornings, and I answer the same day. Fluent English. What I do: AI agents that run real operations without a human in the loop, and mobile apps for iOS and Android, end to end. The example: Stagenator. It runs three of my live mobile games. Every 5 minutes it checks who is playing. When someone is, it decides what to do, makes a new level with AI (a word hidden in a photo, or an 8 second film clip with sound), checks its own work with Gemini vision, ships it into the live app, and can send that player a promo code. Every night it reads the day and rewrites its own playbook. The hard limits live in code, so the model can only pick from a few safe actions. Built in 9 days with Google ADK, Gemini, Veo, ControlNet, Firebase and Cloud Run. - Code: github.com/ksvslk/stagenator - Live dashboard, every decision as it happens: stagenator-mi",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 34,
+      "confidence": 0.49,
+      "automation_fit": 0.52,
+      "matched_keywords": [
+        "ai agent",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 39,
+        "estimated_value_eur": 70,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          70.0
+        ],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[FOR HIRE] Indian Web Developer,Building Business Websites for Just $50 (Domain Included)",
       "url": "https://www.reddit.com/r/forhire/comments/1xk5v9w/for_hire_indian_web_developerbuilding_business/",
       "published": "2026-10-31T09:34:35+00:00",
@@ -619,7 +657,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-31T22:22:22.493667+00:00",
+    "created_at": "2026-10-31T23:21:17.888305+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
