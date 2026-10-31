@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T04:29:07.204090+00:00",
+  "generated_at": "2026-10-31T05:26:41.064451+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -153,6 +153,43 @@
           "target_price_eur": 750,
           "premium_price_eur": 2000,
           "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] 15+ yrs product, design & full-stack builder, shipped a live AI product. Open to remote contract work now",
+      "url": "https://www.reddit.com/r/forhire/comments/1xk1tcb/for_hire_15_yrs_product_design_fullstack_builder/",
+      "published": "2026-10-31T05:19:38+00:00",
+      "snippet": "Hey everyone, I&#39;ve spent 15+ years building digital products: heading design and frontend teams at media and tech companies, then founding my own AI startup, where I built and shipped a live AI virtual try-on that runs on phones, desktops and in-store kiosks. Honestly, the past few weeks have been a grind. I&#39;m a founder bootstrapping with very little runway, and I&#39;ve been applying non-stop while keeping my product alive. I&#39;m not looking for handouts, just real work I can deliver on. What I can take on: React/TypeScript/React Native web and mobile apps, landing pages and Shopify stores, UI/UX design, AI integrations (LLMs, chatbots, computer vision), deployments on AWS/Vercel, and MVPs end to end. I&#39;ve also led teams of up to 15 and shipped a bank&#39;s leads platform in about 30 days. Remote, flexible hours, comfortable with US/UK/EU time zones. Fixed price or hourly,",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 41,
+      "confidence": 0.56,
+      "automation_fit": 0.58,
+      "matched_keywords": [
+        "ai integration",
+        "chatbot",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_support",
+        "priority": "LOW",
+        "opportunity_score": 47,
+        "estimated_value_eur": 500,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI customer-support automation",
+          "starter_price_eur": 200,
+          "target_price_eur": 500,
+          "premium_price_eur": 1200,
+          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -486,48 +523,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[HIRING] U.S. ONLY CONTENT PARTNERS EARN UPTO $20 PER POST AND MORE BASED ON VIEWS",
-      "url": "https://www.reddit.com/r/forhire/comments/1xj8edq/hiring_us_only_content_partners_earn_upto_20_per/",
-      "published": "2026-10-30T06:58:41+00:00",
-      "snippet": "Hi I&#39;m the founder of Backdoor AI and I&#39;m looking to hire folks from the US as content partners. you can be anyone, university student, part time or full time worker who just wants to earn some extra cash on the side by posting for backdoor on their socials and share within their network. You can earn anywhere from $5-$20 per post depending on your reach plus more reach based incentives. if you&#39;re someone who likes to post or is good at writing and has a good following and wants to capitalise on that. You&#39;d be a perfect fit for this. if interested you can reach out to me directly at [ sarvagya@backdoorai.app ](mailto: sarvagya@backdoorai.app ) Share if you know anyone who might be interested &#32; submitted by &#32; /u/Historical-Deer-4062 [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 50,
-      "buyer_signals": [
-        "looking to hire",
-        "[hiring]"
-      ],
-      "employment_signals": [
-        "full time"
-      ],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 20,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          20.0,
-          5.0,
-          20.0
-        ],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[HIRING] [PAID] [18+ NSFW] American Female Voice (18+) – Texas/Southern Accent Preferred – Human Voice Only",
       "url": "https://www.reddit.com/r/forhire/comments/1xk025w/hiring_paid_18_nsfw_american_female_voice_18/",
       "published": "2026-10-31T03:42:51+00:00",
@@ -614,7 +609,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-31T04:29:07.231015+00:00",
+    "created_at": "2026-10-31T05:26:41.104681+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -660,6 +655,21 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"Toptal: Client Advisor\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] 15+ yrs product, design & full-stack builder, shipped a live AI product. Open to remote contract work now",
+        "url": "https://www.reddit.com/r/forhire/comments/1xk1tcb/for_hire_15_yrs_product_design_fullstack_builder/",
+        "priority": "LOW",
+        "opportunity_score": 47,
+        "estimated_value_eur": 500,
+        "offer": {
+          "subject": "Proposal: AI customer-support automation",
+          "price_eur": 500,
+          "starter_price_eur": 200,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] 15+ yrs product, design & full-stack builder, shipped a live AI product. Open to remote contract work now\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -750,21 +760,6 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"IMPULSE UNIVERSE INC: Asian American Expo Marketing - Local Community & Influencer Outreach\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Salesloft: Enterprise Account Executive",
-        "url": "https://weworkremotely.com/remote-jobs/salesloft-enterprise-account-executive",
-        "priority": "LOW",
-        "opportunity_score": 39,
-        "estimated_value_eur": 750,
-        "offer": {
-          "subject": "Proposal: AI lead generation and follow-up",
-          "price_eur": 750,
-          "starter_price_eur": 300,
-          "message": "Hi,\n\nI saw your request about \"Salesloft: Enterprise Account Executive\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
