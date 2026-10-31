@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T08:30:56.345847+00:00",
+  "generated_at": "2026-10-31T09:27:06.852136+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 16,
+    "buyer_leads_found": 15,
     "human_review_required": true
   },
   "opportunities": [
@@ -345,41 +345,6 @@
       }
     },
     {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Jr. Customer Analyst - Baytown TX",
-      "url": "https://www.reddit.com/r/forhire/comments/1xjfot1/hiring_jr_customer_analyst_baytown_tx/",
-      "published": "2026-10-30T13:40:56+00:00",
-      "snippet": "Above &amp; Beyond Talent is seeking a detail-oriented Jr. Customer Analyst to support customer and financial operations. This role focuses on invoice verification, spreadsheet management, data accuracy, and documentation across multiple systems. Key Qualifications: Strong attention to detail and numerical accuracy. Proficiency in Microsoft Excel (formulas, sorting, filtering, and basic analysis). Experience with Salesforce and Google Sheets. Strong organizational and time-management skills. Experience in customer analysis, data analysis, operations, or finance. Familiarity with invoice processing or billing operations preferred. Key Responsibilities: Review and verify customer invoices for accuracy. Create and maintain spreadsheets tracking financial and customer data. Organize documentation across multiple systems. Ensure data consistency and accuracy. Support internal teams with repor",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "lead_generation",
-        "priority": "LOW",
-        "opportunity_score": 39,
-        "estimated_value_eur": 750,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "We Work Remotely",
       "title": "IMPULSE UNIVERSE INC: Asian American Expo Marketing - Local Community & Influencer Outreach",
       "url": "https://weworkremotely.com/remote-jobs/impulse-universe-inc-asian-american-expo-marketing-local-community-influencer-outreach",
@@ -648,7 +613,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-31T08:30:56.382463+00:00",
+    "created_at": "2026-10-31T09:27:06.881644+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -774,21 +739,6 @@
         }
       },
       {
-        "title": "[Hiring] Jr. Customer Analyst - Baytown TX",
-        "url": "https://www.reddit.com/r/forhire/comments/1xjfot1/hiring_jr_customer_analyst_baytown_tx/",
-        "priority": "LOW",
-        "opportunity_score": 39,
-        "estimated_value_eur": 750,
-        "offer": {
-          "subject": "Proposal: AI lead generation and follow-up",
-          "price_eur": 750,
-          "starter_price_eur": 300,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Jr. Customer Analyst - Baytown TX\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "IMPULSE UNIVERSE INC: Asian American Expo Marketing - Local Community & Influencer Outreach",
         "url": "https://weworkremotely.com/remote-jobs/impulse-universe-inc-asian-american-expo-marketing-local-community-influencer-outreach",
         "priority": "LOW",
@@ -799,6 +749,21 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"IMPULSE UNIVERSE INC: Asian American Expo Marketing - Local Community & Influencer Outreach\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "Salesloft: Enterprise Account Executive",
+        "url": "https://weworkremotely.com/remote-jobs/salesloft-enterprise-account-executive",
+        "priority": "LOW",
+        "opportunity_score": 39,
+        "estimated_value_eur": 750,
+        "offer": {
+          "subject": "Proposal: AI lead generation and follow-up",
+          "price_eur": 750,
+          "starter_price_eur": 300,
+          "message": "Hi,\n\nI saw your request about \"Salesloft: Enterprise Account Executive\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
