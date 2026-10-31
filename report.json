@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T17:19:53.126052+00:00",
+  "generated_at": "2026-10-31T18:24:39.256051+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -232,6 +232,43 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[For Hire] Need a Developer? I Can Help With Your Web, Mobile or Backend Project",
+      "url": "https://www.reddit.com/r/forhire/comments/1xkb3b7/for_hire_need_a_developer_i_can_help_with_your/",
+      "published": "2026-10-31T14:04:54+00:00",
+      "snippet": "I need to put myself out there because I have a personal goal I&#39;m seriously working towards. I&#39;m trying to make $3,000 before December 1st, and I&#39;m putting my software engineering skills to work to make it happen. I&#39;m a Software Engineer with experience in building web applications, mobile applications and backend systems. Some of the things I can help with: •Frontend development: React.js, Next.js, TypeScript and Tailwind CSS. •Backend development: Node.js, Express.js and PHP. •Database management: PostgreSQL and MySQL. •REST API development and third-party integrations. •React Native and Expo mobile applications. •Payment integrations, authentication and backend systems. •VPS deployment, Nginx and CI/CD. I&#39;m open to freelance gigs, one-off tasks, short-term contracts, ongoing projects and remote opportunities. It doesn&#39;t have to be a massive project. If you have",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "looking for a developer"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 45,
+        "estimated_value_eur": 3000,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          3000.0
+        ],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[Hiring] IT Support Virtual Assistant | Remote – US, Canada, UK, EU & Mexico | Starting at $200 USD/Up to $3000 USD/month",
       "url": "https://www.reddit.com/r/forhire/comments/1xjvkb3/hiring_it_support_virtual_assistant_remote_us/",
       "published": "2026-10-31T00:03:26+00:00",
@@ -272,39 +309,36 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[Hiring] Commission-Only Sales Reps (Remote, US): Websites for Local Businesses, 30% per sale",
-      "url": "https://www.reddit.com/r/forhire/comments/1xjtbqz/hiring_commissiononly_sales_reps_remote_us/",
-      "published": "2026-10-30T22:26:16+00:00",
-      "snippet": "Buildzaro builds websites for small local businesses. We&#39;re looking for independent 1099 reps anywhere in the US. You earn 30% of every website sale ($149.70 / $389.70 / $899.70) once the customer has paid and onboarding is done. Monthly plans pay 100% of the first month after the client stays 3 months, plus recurring commission. You get a training portal with certification, role-play practice, ready-made demo sites and local lead lists. Apply at https://buildzaro.com or email hellobuildzaro@gmail.com . &#32; submitted by &#32; /u/Buildzaro_Hiring [link] &#32; [comments]",
+      "title": "[For Hire] Freelance Copywriter & Creative Strategist Available",
+      "url": "https://www.reddit.com/r/forhire/comments/1xkgikv/for_hire_freelance_copywriter_creative_strategist/",
+      "published": "2026-10-31T17:45:03+00:00",
+      "snippet": "I&#39;m someone who values communication, research and understanding what a business actually needs before starting a project. I am also very open to feedback and changing how I approach things. If your business has a particular workflow, brand voice, preferred tools or working method, I&#39;m willing to adapt and learn to fit your requirements. I&#39;m particularly interested in fitness and wellness businesses, information products, online courses and e-commerce brands, but I&#39;m open to exploring other industries too. I&#39;m still building my professional experience, so I value opportunities where I can contribute, learn and develop alongside the businesses I work with. I&#39;m currently looking for opportunities to work with businesses, entrepreneurs, creators and online brands that need help with their marketing communication. I&#39;m a freelance copywriter and aspiring creative s",
       "lead_type": "potential_buyer_request",
       "buyer_intent_score": 25,
       "buyer_signals": [
-        "[hiring]"
+        "need help with"
       ],
       "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
+      "score": 34,
+      "confidence": 0.49,
+      "automation_fit": 0.52,
       "matched_keywords": [
+        "workflow",
         "ai"
       ],
       "analysis": {
-        "category": "lead_generation",
+        "category": "ai_automation",
         "priority": "LOW",
-        "opportunity_score": 40,
-        "estimated_value_eur": 900,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          149.7,
-          389.7,
-          899.7
-        ],
+        "opportunity_score": 43,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
         "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -375,41 +409,6 @@
           "target_price_eur": 750,
           "premium_price_eur": 2000,
           "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Service Center Rep - Fort Mill, SC",
-      "url": "https://www.reddit.com/r/forhire/comments/1xjpuif/hiring_service_center_rep_fort_mill_sc/",
-      "published": "2026-10-30T20:04:55+00:00",
-      "snippet": "Hey folks, We are currently seeking detail-oriented and efficient Back Office Agents to support our Client&#39;s Credit Card Division. Good fit if you have the following requirements: Strong English proficiency, particularly in written communication and reading comprehension. Excellent attention to detail and accuracy when reviewing and processing information. Strong computer skills, including Microsoft Office and the ability to navigate multiple systems. Ability to manage high volumes of tasks efficiently while meeting productivity and quality standards. Previous experience in back-office operations, administrative support, customer service, or financial services preferred. Performance Objectives / What you&#39;ll be doing: Review customer accounts and resolve account-related issues. Provide administrative and operational support to the Credit Card Division. Respond to inquiries from ag",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_support",
-        "priority": "LOW",
-        "opportunity_score": 37,
-        "estimated_value_eur": 500,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI customer-support automation",
-          "starter_price_eur": 200,
-          "target_price_eur": 500,
-          "premium_price_eur": 1200,
-          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -620,7 +619,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-31T17:19:53.170489+00:00",
+    "created_at": "2026-10-31T18:24:39.299529+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -701,6 +700,21 @@
         }
       },
       {
+        "title": "[For Hire] Need a Developer? I Can Help With Your Web, Mobile or Backend Project",
+        "url": "https://www.reddit.com/r/forhire/comments/1xkb3b7/for_hire_need_a_developer_i_can_help_with_your/",
+        "priority": "LOW",
+        "opportunity_score": 45,
+        "estimated_value_eur": 3000,
+        "offer": {
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Need a Developer? I Can Help With Your Web, Mobile or Backend Project\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "[Hiring] IT Support Virtual Assistant | Remote – US, Canada, UK, EU & Mexico | Starting at $200 USD/Up to $3000 USD/month",
         "url": "https://www.reddit.com/r/forhire/comments/1xjvkb3/hiring_it_support_virtual_assistant_remote_us/",
         "priority": "LOW",
@@ -716,16 +730,16 @@
         }
       },
       {
-        "title": "[Hiring] Commission-Only Sales Reps (Remote, US): Websites for Local Businesses, 30% per sale",
-        "url": "https://www.reddit.com/r/forhire/comments/1xjtbqz/hiring_commissiononly_sales_reps_remote_us/",
+        "title": "[For Hire] Freelance Copywriter & Creative Strategist Available",
+        "url": "https://www.reddit.com/r/forhire/comments/1xkgikv/for_hire_freelance_copywriter_creative_strategist/",
         "priority": "LOW",
-        "opportunity_score": 40,
-        "estimated_value_eur": 900,
+        "opportunity_score": 43,
+        "estimated_value_eur": 600,
         "offer": {
-          "subject": "Proposal: AI lead generation and follow-up",
-          "price_eur": 750,
-          "starter_price_eur": 300,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Commission-Only Sales Reps (Remote, US): Websites for Local Businesses, 30% per sale\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Freelance Copywriter & Creative Strategist Available\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -756,21 +770,6 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"Salesloft: Enterprise Account Executive\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Service Center Rep - Fort Mill, SC",
-        "url": "https://www.reddit.com/r/forhire/comments/1xjpuif/hiring_service_center_rep_fort_mill_sc/",
-        "priority": "LOW",
-        "opportunity_score": 37,
-        "estimated_value_eur": 500,
-        "offer": {
-          "subject": "Proposal: AI customer-support automation",
-          "price_eur": 500,
-          "starter_price_eur": 200,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Service Center Rep - Fort Mill, SC\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
