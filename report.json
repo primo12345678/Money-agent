@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T05:26:41.064451+00:00",
+  "generated_at": "2026-10-31T06:29:29.160949+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 15,
+    "buyer_leads_found": 16,
     "human_review_required": true
   },
   "opportunities": [
@@ -523,6 +523,45 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[Hiring] iPhone night city footage in China – $45 flat (~2-3 hours of work)",
+      "url": "https://www.reddit.com/r/forhire/comments/1xk0tzv/hiring_iphone_night_city_footage_in_china_45_flat/",
+      "published": "2026-10-31T04:23:54+00:00",
+      "snippet": "Hi! I&#39;m looking for someone living in a big Chinese city (Shanghai, Shenzhen, Chongqing, Chengdu, Guangzhou, HK) to shoot night footage on an iPhone. The job: - ~25 minutes of footage total: 150 clips of ~10 seconds each (or continuous walking footage, I can cut it myself) - Estimated time: 2–3 hours of shooting during an evening walk - iPhone, Full HD (1080p), vertical 9:16 - Night scenes: skyscrapers, neon streets, parks, walking POV - Steady shots, no watermarks, no close-up faces Budget: $45 flat (~$15–22/hr) - Half paid after the first 30 clips are delivered - Remaining half paid on completion Payment via PayPal / USDT (we can discuss) If it goes well, there will be more batches (350+ clips). Delivery: Google Drive / WeTransfer / Baidu Pan, original files. Full commercial usage rights transfer to me. Interested? DM me with a link to any night footage you&#39;ve already shot (Ins",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 45,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          45.0,
+          45.0,
+          15.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[HIRING] [PAID] [18+ NSFW] American Female Voice (18+) – Texas/Southern Accent Preferred – Human Voice Only",
       "url": "https://www.reddit.com/r/forhire/comments/1xk025w/hiring_paid_18_nsfw_american_female_voice_18/",
       "published": "2026-10-31T03:42:51+00:00",
@@ -609,7 +648,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-31T05:26:41.104681+00:00",
+    "created_at": "2026-10-31T06:29:29.193809+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
