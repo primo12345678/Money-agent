@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T16:22:53.566029+00:00",
+  "generated_at": "2026-10-31T17:19:53.126052+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 14,
+    "buyer_leads_found": 15,
     "human_review_required": true
   },
   "opportunities": [
@@ -531,6 +531,46 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[HIRING] USA-Based On-Camera Product Review Creators | $20–$30 Per Video | Long-Term Collaboration",
+      "url": "https://www.reddit.com/r/forhire/comments/1xkfshy/hiring_usabased_oncamera_product_review_creators/",
+      "published": "2026-10-31T17:15:57+00:00",
+      "snippet": "I&#39;m looking for USA-based UGC creators who are comfortable speaking directly to the camera and reviewing consumer products. Budget: $20–$30 per completed video. Video Requirements - 2–3 minute product review. - Creator must appear on camera and speak naturally in English. - Hands-on product demonstration. - Show the product clearly while explaining its features. - Natural American English presentation preferred. - Basic editing and text overlays. - 1080p MP4 final delivery. - One minor revision included. Product Categories - Tech gadgets and electronics - Smart home products - Kitchen appliances - Car accessories - Home improvement tools How It Works We provide the product brief, script, and filming instructions. The sponsoring brand ships the product directly to your US address. You personally test and demonstrate the product. You film, edit, and deliver the completed video. We publ",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 30,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          20.0,
+          30.0,
+          20.0,
+          30.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[HIRING] [PAID] [18+ NSFW] American Female Voice (18+) – Texas/Southern Accent Preferred – Human Voice Only",
       "url": "https://www.reddit.com/r/forhire/comments/1xk025w/hiring_paid_18_nsfw_american_female_voice_18/",
       "published": "2026-10-31T03:42:51+00:00",
@@ -580,7 +620,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-31T16:22:53.605377+00:00",
+    "created_at": "2026-10-31T17:19:53.170489+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
