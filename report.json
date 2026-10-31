@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T09:27:06.852136+00:00",
+  "generated_at": "2026-10-31T10:23:21.379421+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -488,6 +488,44 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[FOR HIRE] Indian Web Developer,Building Business Websites for Just $50 (Domain Included)",
+      "url": "https://www.reddit.com/r/forhire/comments/1xk5v9w/for_hire_indian_web_developerbuilding_business/",
+      "published": "2026-10-31T09:34:35+00:00",
+      "snippet": "Hey everyone! I&#39;m from India, and Diwali is coming soon. I&#39;m trying to earn some money before the festival, so I&#39;m offering to build a professional website for your business for just 50USD (domain included) Whether you own a small business, startup, local shop, or any other business, I&#39;d love to help you get a website up and running. I don&#39;t have a personal portfolio yet, but I&#39;ve built websites for actual clients. Here&#39;s one of my recent projects: https://24inncsn.com The price is negotiable too, so feel free to reach out even if your budget is a little lower. &#32; submitted by &#32; /u/Adept_Paint472 [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "budget is"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 50,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          50.0,
+          50.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[Hiring] iPhone night city footage in China – $45 flat (~2-3 hours of work)",
       "url": "https://www.reddit.com/r/forhire/comments/1xk0tzv/hiring_iphone_night_city_footage_in_china_45_flat/",
       "published": "2026-10-31T04:23:54+00:00",
@@ -561,43 +599,6 @@
         },
         "human_approval_required": true
       }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "‎‎[FOR HIRE] Product Architect & Full Stack Dev | I design and build your SaaS from scratch ($20/hr or fixed)",
-      "url": "https://www.reddit.com/r/forhire/comments/1xjja0k/for_hire_product_architect_full_stack_dev_i/",
-      "published": "2026-10-30T16:00:10+00:00",
-      "snippet": "‎Hi everyone, ‎I have a habit of over analyzing every possible point of failure before writing a single line of code. ‎While that might make me obsessively thorough, it makes your product bulletproof ‎AI can generate a .md file with a basic database schema, but it can&#39;t build a product that actually survives the market. ‎It can&#39;t analyze your competitors, map out human UX, or give your project a unique visual soul. ‎I am a Product architect and Full stack developer. ‎I don’t just take a list of features and blindly code them ‎ ‎ And above all, I will treat your project like it’s my own startup ‎Before a single line of code is written, I look at the market, extract the strengths of your competitors, eliminate their weaknesses, and integrate everything into a seamless, unified product vision ‎ ‎ How I build (my process): ‎ 1. Product strategy &amp; UX mapping ‎I don’t just say &quo",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 20,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          20.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
     }
   ],
   "errors": [
@@ -613,7 +614,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-31T09:27:06.881644+00:00",
+    "created_at": "2026-10-31T10:23:21.422364+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
