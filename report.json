@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T00:29:10.763554+00:00",
+  "generated_at": "2026-10-31T01:44:17.131647+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 14,
+    "buyer_leads_found": 13,
     "human_review_required": true
   },
   "opportunities": [
@@ -153,47 +153,6 @@
           "target_price_eur": 750,
           "premium_price_eur": 2000,
           "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] I'm a Full-Stack Development, AI Integration & Custom Software | $30/hr",
-      "url": "https://www.reddit.com/r/forhire/comments/1xizlwm/for_hire_im_a_fullstack_development_ai/",
-      "published": "2026-10-29T23:23:54+00:00",
-      "snippet": "I&#39;m a software engineer available for freelance projects, from full-stack web applications and custom business software to AI integrations, automation, and backend development. I&#39;ve built applications across different domains and can help bring your next project to life. What I&#39;ve built: AI restaurant assistant: Reads invoices, PDFs, daily reports, and pricing data. Owners can ask questions like &quot;What did we spend on produce last month?&quot; and get the figure, plus predictions. Company knowledge assistant: Employees ask questions in plain language and get answers from internal documents, with a RAG pipeline and role-based access. Emotional support platform: AI chatbot for personalized support, with a system connecting users to trained listeners when needed. Communications platform: Voice calls, video calls, and SMS in one application. Employee management desktop applic",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 50,
-      "buyer_signals": [
-        "fixed price",
-        "want to build"
-      ],
-      "employment_signals": [],
-      "score": 48,
-      "confidence": 0.63,
-      "automation_fit": 0.64,
-      "matched_keywords": [
-        "automation",
-        "ai integration",
-        "chatbot",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_support",
-        "priority": "LOW",
-        "opportunity_score": 50,
-        "estimated_value_eur": 30,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          30.0
-        ],
-        "offer": {
-          "service": "AI customer-support automation",
-          "starter_price_eur": 200,
-          "target_price_eur": 500,
-          "premium_price_eur": 1200,
-          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -579,7 +538,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-31T00:29:10.787433+00:00",
+    "created_at": "2026-10-31T01:44:17.157773+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -625,21 +584,6 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"Toptal: Client Advisor\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[For Hire] I'm a Full-Stack Development, AI Integration & Custom Software | $30/hr",
-        "url": "https://www.reddit.com/r/forhire/comments/1xizlwm/for_hire_im_a_fullstack_development_ai/",
-        "priority": "LOW",
-        "opportunity_score": 50,
-        "estimated_value_eur": 30,
-        "offer": {
-          "subject": "Proposal: AI customer-support automation",
-          "price_eur": 500,
-          "starter_price_eur": 200,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] I'm a Full-Stack Development, AI Integration & Custom Software | $30/hr\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -730,6 +674,21 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"Salesloft: Enterprise Account Executive\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Service Center Rep - Fort Mill, SC",
+        "url": "https://www.reddit.com/r/forhire/comments/1xjpuif/hiring_service_center_rep_fort_mill_sc/",
+        "priority": "LOW",
+        "opportunity_score": 37,
+        "estimated_value_eur": 500,
+        "offer": {
+          "subject": "Proposal: AI customer-support automation",
+          "price_eur": 500,
+          "starter_price_eur": 200,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Service Center Rep - Fort Mill, SC\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
