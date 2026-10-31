@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T02:33:42.590645+00:00",
+  "generated_at": "2026-10-31T03:30:20.291467+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 13,
+    "buyer_leads_found": 14,
     "human_review_required": true
   },
   "opportunities": [
@@ -229,6 +229,45 @@
           "target_price_eur": 500,
           "premium_price_eur": 1200,
           "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Commission-Only Sales Reps (Remote, US): Websites for Local Businesses, 30% per sale",
+      "url": "https://www.reddit.com/r/forhire/comments/1xjtbqz/hiring_commissiononly_sales_reps_remote_us/",
+      "published": "2026-10-30T22:26:16+00:00",
+      "snippet": "Buildzaro builds websites for small local businesses. We&#39;re looking for independent 1099 reps anywhere in the US. You earn 30% of every website sale ($149.70 / $389.70 / $899.70) once the customer has paid and onboarding is done. Monthly plans pay 100% of the first month after the client stays 3 months, plus recurring commission. You get a training portal with certification, role-play practice, ready-made demo sites and local lead lists. Apply at https://buildzaro.com or email hellobuildzaro@gmail.com . &#32; submitted by &#32; /u/Buildzaro_Hiring [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "LOW",
+        "opportunity_score": 40,
+        "estimated_value_eur": 900,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          149.7,
+          389.7,
+          899.7
+        ],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -538,7 +577,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-31T02:33:42.626362+00:00",
+    "created_at": "2026-10-31T03:30:20.328210+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -619,6 +658,21 @@
         }
       },
       {
+        "title": "[Hiring] Commission-Only Sales Reps (Remote, US): Websites for Local Businesses, 30% per sale",
+        "url": "https://www.reddit.com/r/forhire/comments/1xjtbqz/hiring_commissiononly_sales_reps_remote_us/",
+        "priority": "LOW",
+        "opportunity_score": 40,
+        "estimated_value_eur": 900,
+        "offer": {
+          "subject": "Proposal: AI lead generation and follow-up",
+          "price_eur": 750,
+          "starter_price_eur": 300,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Commission-Only Sales Reps (Remote, US): Websites for Local Businesses, 30% per sale\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "[Hiring] Utility Operations Application Specialist (Contract)- Paramus, NJ",
         "url": "https://www.reddit.com/r/forhire/comments/1xjjv0p/hiring_utility_operations_application_specialist/",
         "priority": "LOW",
@@ -674,21 +728,6 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"Salesloft: Enterprise Account Executive\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Service Center Rep - Fort Mill, SC",
-        "url": "https://www.reddit.com/r/forhire/comments/1xjpuif/hiring_service_center_rep_fort_mill_sc/",
-        "priority": "LOW",
-        "opportunity_score": 37,
-        "estimated_value_eur": 500,
-        "offer": {
-          "subject": "Proposal: AI customer-support automation",
-          "price_eur": 500,
-          "starter_price_eur": 200,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Service Center Rep - Fort Mill, SC\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
