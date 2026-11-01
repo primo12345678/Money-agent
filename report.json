@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T16:24:34.025024+00:00",
+  "generated_at": "2026-11-01T17:20:42.291546+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 12,
+    "buyer_leads_found": 10,
     "human_review_required": true
   },
   "opportunities": [
@@ -233,42 +233,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[For Hire] Freelance Copywriter & Creative Strategist Available",
-      "url": "https://www.reddit.com/r/forhire/comments/1xkgikv/for_hire_freelance_copywriter_creative_strategist/",
-      "published": "2026-10-31T17:45:03+00:00",
-      "snippet": "I&#39;m someone who values communication, research and understanding what a business actually needs before starting a project. I am also very open to feedback and changing how I approach things. If your business has a particular workflow, brand voice, preferred tools or working method, I&#39;m willing to adapt and learn to fit your requirements. I&#39;m particularly interested in fitness and wellness businesses, information products, online courses and e-commerce brands, but I&#39;m open to exploring other industries too. I&#39;m still building my professional experience, so I value opportunities where I can contribute, learn and develop alongside the businesses I work with. I&#39;m currently looking for opportunities to work with businesses, entrepreneurs, creators and online brands that need help with their marketing communication. I&#39;m a freelance copywriter and aspiring creative s",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "need help with"
-      ],
-      "employment_signals": [],
-      "score": 34,
-      "confidence": 0.49,
-      "automation_fit": 0.52,
-      "matched_keywords": [
-        "workflow",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "LOW",
-        "opportunity_score": 43,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[Hiring] remote blockchain development mentor — budget up to $6,000 usd",
       "url": "https://www.reddit.com/r/forhire/comments/1xkttho/hiring_remote_blockchain_development_mentor/",
       "published": "2026-11-01T04:15:09+00:00",
@@ -305,41 +269,6 @@
           "target_price_eur": 400,
           "premium_price_eur": 1000,
           "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "IMPULSE UNIVERSE INC: Asian American Expo Marketing - Local Community & Influencer Outreach",
-      "url": "https://weworkremotely.com/remote-jobs/impulse-universe-inc-asian-american-expo-marketing-local-community-influencer-outreach",
-      "published": "Fri, 30 Oct 2026 16:01:08 +0000",
-      "snippet": "Headquarters: United States URL: https://impulseuniverse.com Benefits: Bonus based on performance Company parties Flexible schedule About the Event America’s largest Lunar New Year spectacle is back and bolder than ever! Spanning 7 massive halls with over 1,400 vendors, the Asian American Expo brings you the ultimate celebration of mouthwatering Asian street food, nonstop cultural performances, and high-energy excitement. Step into the Year of the Ram, grab your official Red Envelope at the door, and get ready to experience the luckiest weekend of the year! About the Role We are seeking a high-energy, results-obsessed Marketing Contractor to drive direct ticket sales for the Asian American Expo 2027, America’s largest Lunar New Year celebration (7 massive halls, 1,400+ vendors, and hourly cash Red Envelope prize drops taking place January 16–17, 2027 at the Fairplex in Pomona, CA). This ",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "paying"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "lead_generation",
-        "priority": "LOW",
-        "opportunity_score": 39,
-        "estimated_value_eur": 750,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -512,7 +441,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-11-01T16:24:34.059832+00:00",
+    "created_at": "2026-11-01T17:20:42.315676+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -593,21 +522,6 @@
         }
       },
       {
-        "title": "[For Hire] Freelance Copywriter & Creative Strategist Available",
-        "url": "https://www.reddit.com/r/forhire/comments/1xkgikv/for_hire_freelance_copywriter_creative_strategist/",
-        "priority": "LOW",
-        "opportunity_score": 43,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Freelance Copywriter & Creative Strategist Available\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "[Hiring] remote blockchain development mentor — budget up to $6,000 usd",
         "url": "https://www.reddit.com/r/forhire/comments/1xkttho/hiring_remote_blockchain_development_mentor/",
         "priority": "LOW",
@@ -618,21 +532,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[Hiring] remote blockchain development mentor — budget up to $6,000 usd\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "IMPULSE UNIVERSE INC: Asian American Expo Marketing - Local Community & Influencer Outreach",
-        "url": "https://weworkremotely.com/remote-jobs/impulse-universe-inc-asian-american-expo-marketing-local-community-influencer-outreach",
-        "priority": "LOW",
-        "opportunity_score": 39,
-        "estimated_value_eur": 750,
-        "offer": {
-          "subject": "Proposal: AI lead generation and follow-up",
-          "price_eur": 750,
-          "starter_price_eur": 300,
-          "message": "Hi,\n\nI saw your request about \"IMPULSE UNIVERSE INC: Asian American Expo Marketing - Local Community & Influencer Outreach\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -663,6 +562,36 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[Hiring] Voiceover / On-Camera Creator for 10-Sec Casual Webcam Intro + 3-Min YouTube Voiceover (Remote) - $20 USD + Tip (~15-Min Task)\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Software License Troubleshooting",
+        "url": "https://www.reddit.com/r/forhire/comments/1xl395d/hiring_software_license_troubleshooting/",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 15,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Software License Troubleshooting\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Software License Troubleshooting — $15/hr+",
+        "url": "https://www.reddit.com/r/forhire/comments/1xl1cr4/hiring_software_license_troubleshooting_15hr/",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 15,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Software License Troubleshooting — $15/hr+\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
