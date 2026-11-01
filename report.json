@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T17:20:42.291546+00:00",
+  "generated_at": "2026-11-01T18:24:56.930001+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 10,
+    "buyer_leads_found": 11,
     "human_review_required": true
   },
   "opportunities": [
@@ -353,6 +353,44 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[For Hire] Reddit & X/Twitter Growth Specialist | Organic Marketing | $20/hr",
+      "url": "https://www.reddit.com/r/forhire/comments/1xl9sji/for_hire_reddit_xtwitter_growth_specialist/",
+      "published": "2026-11-01T18:01:09+00:00",
+      "snippet": "Hey everyone! I&#39;m a freelance digital marketer with hands-on experience helping clients attract traffic, grow their audiences, and generate paying customers through Reddit and X/Twitter. Here&#39;s what I&#39;ve worked on: X/Twitter Marketing: Managed accounts for OnlyFans creators and helped generate paying subscribers through organic growth and audience engagement. Reddit Marketing: Worked with AI companion platforms, creating posts that gained Google visibility and brought in customers. One campaign helped generate approximately $16K in sales. Online Reputation &amp; PR: Helped individuals with Google Knowledge Panels and secured features in online magazines and publications. What I can help with: Reddit and X/Twitter marketing strategy Organic audience growth and community management Competitor research and content planning Profile optimization and audience engagement Traffic and",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "paying"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "lead_generation",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 20,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          20.0,
+          16.0
+        ],
+        "offer": {
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[Hiring] Software License Troubleshooting",
       "url": "https://www.reddit.com/r/forhire/comments/1xl395d/hiring_software_license_troubleshooting/",
       "published": "2026-11-01T13:36:46+00:00",
@@ -441,7 +479,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-11-01T17:20:42.315676+00:00",
+    "created_at": "2026-11-01T18:24:56.955527+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -567,6 +605,21 @@
         }
       },
       {
+        "title": "[For Hire] Reddit & X/Twitter Growth Specialist | Organic Marketing | $20/hr",
+        "url": "https://www.reddit.com/r/forhire/comments/1xl9sji/for_hire_reddit_xtwitter_growth_specialist/",
+        "priority": "LOW",
+        "opportunity_score": 33,
+        "estimated_value_eur": 20,
+        "offer": {
+          "subject": "Proposal: AI lead generation and follow-up",
+          "price_eur": 750,
+          "starter_price_eur": 300,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Reddit & X/Twitter Growth Specialist | Organic Marketing | $20/hr\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "[Hiring] Software License Troubleshooting",
         "url": "https://www.reddit.com/r/forhire/comments/1xl395d/hiring_software_license_troubleshooting/",
         "priority": "LOW",
@@ -577,21 +630,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[Hiring] Software License Troubleshooting\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Software License Troubleshooting — $15/hr+",
-        "url": "https://www.reddit.com/r/forhire/comments/1xl1cr4/hiring_software_license_troubleshooting_15hr/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 15,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Software License Troubleshooting — $15/hr+\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
