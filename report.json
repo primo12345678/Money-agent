@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T08:34:54.044311+00:00",
+  "generated_at": "2026-11-01T09:29:24.732472+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 13,
+    "buyer_leads_found": 14,
     "human_review_required": true
   },
   "opportunities": [
@@ -120,6 +120,44 @@
       }
     },
     {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] -I build websites, desktop apps, custom software, edit videos and pretty much anything tech-related — affordable rates",
+      "url": "https://www.reddit.com/r/forhire/comments/1xky7t3/for_hire_i_build_websites_desktop_apps_custom/",
+      "published": "2026-11-01T08:51:10+00:00",
+      "snippet": "Hey everyone! I&#39;m taking on some freelance work and looking to work with people who need things built, improved or edited. I can help with pretty much anything in the tech and creative space, including: Websites: Modern, professional, high-quality websites designed to turn visitors into customers. Desktop applications: Fully functional Windows/macOS apps, from simple tools to more complex applications. Custom software: Business tools, automation systems, dashboards, internal software and custom solutions. Video editing: Long-form videos, YouTube content, short-form clips, social media edits and larger editing projects. Software customisation: Improving existing applications, adding features, fixing issues and tailoring software to your needs. AI integrations: AI-powered tools, workflows and automation. I&#39;m flexible with projects and happy to work on something completely different",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "need help with"
+      ],
+      "employment_signals": [],
+      "score": 48,
+      "confidence": 0.63,
+      "automation_fit": 0.64,
+      "matched_keywords": [
+        "automation",
+        "ai integration",
+        "workflow",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 54,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
       "source": "We Work Remotely",
       "title": "Toptal: Client Advisor",
       "url": "https://weworkremotely.com/remote-jobs/toptal-client-advisor",
@@ -153,43 +191,6 @@
           "target_price_eur": 750,
           "premium_price_eur": 2000,
           "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] 15+ yrs product, design & full-stack builder, shipped a live AI product. Open to remote contract work now",
-      "url": "https://www.reddit.com/r/forhire/comments/1xk1tcb/for_hire_15_yrs_product_design_fullstack_builder/",
-      "published": "2026-10-31T05:19:38+00:00",
-      "snippet": "Hey everyone, I&#39;ve spent 15+ years building digital products: heading design and frontend teams at media and tech companies, then founding my own AI startup, where I built and shipped a live AI virtual try-on that runs on phones, desktops and in-store kiosks. Honestly, the past few weeks have been a grind. I&#39;m a founder bootstrapping with very little runway, and I&#39;ve been applying non-stop while keeping my product alive. I&#39;m not looking for handouts, just real work I can deliver on. What I can take on: React/TypeScript/React Native web and mobile apps, landing pages and Shopify stores, UI/UX design, AI integrations (LLMs, chatbots, computer vision), deployments on AWS/Vercel, and MVPs end to end. I&#39;ve also led teams of up to 15 and shipped a bank&#39;s leads platform in about 30 days. Remote, flexible hours, comfortable with US/UK/EU time zones. Fixed price or hourly,",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "ai integration",
-        "chatbot",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_support",
-        "priority": "LOW",
-        "opportunity_score": 47,
-        "estimated_value_eur": 500,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI customer-support automation",
-          "starter_price_eur": 200,
-          "target_price_eur": 500,
-          "premium_price_eur": 1200,
-          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -420,6 +421,46 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[Hiring] Voiceover / On-Camera Creator for 10-Sec Casual Webcam Intro + 3-Min YouTube Voiceover (Remote) - $20 USD + Tip (~15-Min Task)",
+      "url": "https://www.reddit.com/r/forhire/comments/1xkymu0/hiring_voiceover_oncamera_creator_for_10sec/",
+      "published": "2026-11-01T09:17:30+00:00",
+      "snippet": "Looking to hire a fluent English speaker with a natural North American, British, or Australian accent to record a quick 10-second casual on-camera intro and a 3-minute voiceover for a behind-the-scenes YouTube production walkthrough video. The script is 100% written and ready to read (~400 words total), so the entire recording should take no more than 15 to 20 minutes of your time. Job Scope &amp; Deliverables: Part 1 — First 10 Seconds (On-Camera Video + Audio): Record yourself sitting casually at your normal home desk or computer setup (a clean webcam or smartphone camera in a regular t-shirt/hoodie is preferred—no studio backdrop, suit, or green screen needed) reading a 2-sentence introduction. Part 2 — Remaining ~3 Minutes (Audio Voiceover Only): Read the rest of our pre-written 400-word script at a natural, conversational pace explaining our video research and Adobe Premiere Pro edi",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 50,
+      "buyer_signals": [
+        "looking to hire",
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 34,
+      "confidence": 0.49,
+      "automation_fit": 0.52,
+      "matched_keywords": [
+        "workflow",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "LOW",
+        "opportunity_score": 38,
+        "estimated_value_eur": 20,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          20.0,
+          20.0
+        ],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[FOR HIRE] Indian Web Developer,Building Business Websites for Just $50 (Domain Included)",
       "url": "https://www.reddit.com/r/forhire/comments/1xk5v9w/for_hire_indian_web_developerbuilding_business/",
       "published": "2026-10-31T09:34:35+00:00",
@@ -548,7 +589,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-11-01T08:34:54.082058+00:00",
+    "created_at": "2026-11-01T09:29:24.755634+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -584,6 +625,21 @@
         }
       },
       {
+        "title": "[For Hire] -I build websites, desktop apps, custom software, edit videos and pretty much anything tech-related — affordable rates",
+        "url": "https://www.reddit.com/r/forhire/comments/1xky7t3/for_hire_i_build_websites_desktop_apps_custom/",
+        "priority": "LOW",
+        "opportunity_score": 54,
+        "estimated_value_eur": 600,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] -I build websites, desktop apps, custom software, edit videos and pretty much anything tech-related — affordable rates\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "Toptal: Client Advisor",
         "url": "https://weworkremotely.com/remote-jobs/toptal-client-advisor",
         "priority": "LOW",
@@ -594,21 +650,6 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"Toptal: Client Advisor\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[For Hire] 15+ yrs product, design & full-stack builder, shipped a live AI product. Open to remote contract work now",
-        "url": "https://www.reddit.com/r/forhire/comments/1xk1tcb/for_hire_15_yrs_product_design_fullstack_builder/",
-        "priority": "LOW",
-        "opportunity_score": 47,
-        "estimated_value_eur": 500,
-        "offer": {
-          "subject": "Proposal: AI customer-support automation",
-          "price_eur": 500,
-          "starter_price_eur": 200,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] 15+ yrs product, design & full-stack builder, shipped a live AI product. Open to remote contract work now\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
