@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T23:21:17.858505+00:00",
+  "generated_at": "2026-11-01T00:28:21.567383+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 16,
+    "buyer_leads_found": 15,
     "human_review_required": true
   },
   "opportunities": [
@@ -263,46 +263,6 @@
           "target_price_eur": 650,
           "premium_price_eur": 1600,
           "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] IT Support Virtual Assistant | Remote – US, Canada, UK, EU & Mexico | Starting at $200 USD/Up to $3000 USD/month",
-      "url": "https://www.reddit.com/r/forhire/comments/1xjvkb3/hiring_it_support_virtual_assistant_remote_us/",
-      "published": "2026-10-31T00:03:26+00:00",
-      "snippet": "I’m looking for a reliable virtual assistant to provide routine IT support. This is a fully remote, part-time position intended to become a long-term working arrangement. Responsibilities: Troubleshoot common software, browser, email, and connectivity issues. Gather error messages and document troubleshooting steps. Maintain brief support notes and follow up on unresolved issues. Escalate problems that require more advanced technical assistance. Requirements: Have a work laptop equipped with a working webcam and reliable internet. Comfortable troubleshooting everyday computer issues and explaining problems clearly. Dependable, organized, and able to follow written instructions. Location: Primarily seeking candidates currently residing in the United States, Canada, United Kingdom, Ireland, the Netherlands or Norway . Residents of Mexico and other European Union countries will also be cons",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_support",
-        "priority": "LOW",
-        "opportunity_score": 44,
-        "estimated_value_eur": 3000,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          200.0,
-          3000.0,
-          200.0,
-          3000.0
-        ],
-        "offer": {
-          "service": "AI customer-support automation",
-          "starter_price_eur": 200,
-          "target_price_eur": 500,
-          "premium_price_eur": 1200,
-          "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -657,7 +617,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-10-31T23:21:17.888305+00:00",
+    "created_at": "2026-11-01T00:28:21.605379+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -753,21 +713,6 @@
         }
       },
       {
-        "title": "[Hiring] IT Support Virtual Assistant | Remote – US, Canada, UK, EU & Mexico | Starting at $200 USD/Up to $3000 USD/month",
-        "url": "https://www.reddit.com/r/forhire/comments/1xjvkb3/hiring_it_support_virtual_assistant_remote_us/",
-        "priority": "LOW",
-        "opportunity_score": 44,
-        "estimated_value_eur": 3000,
-        "offer": {
-          "subject": "Proposal: AI customer-support automation",
-          "price_eur": 500,
-          "starter_price_eur": 200,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] IT Support Virtual Assistant | Remote – US, Canada, UK, EU & Mexico | Starting at $200 USD/Up to $3000 USD/month\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "[For Hire] Freelance Copywriter & Creative Strategist Available",
         "url": "https://www.reddit.com/r/forhire/comments/1xkgikv/for_hire_freelance_copywriter_creative_strategist/",
         "priority": "LOW",
@@ -808,6 +753,21 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"Salesloft: Enterprise Account Executive\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] I build autonomous AI agents and mobile apps. €70/h or fixed price. Example: an agent that runs my three live games 24/7, code public. Remote, worldwide.",
+        "url": "https://www.reddit.com/r/forhire/comments/1xknzd6/for_hire_i_build_autonomous_ai_agents_and_mobile/",
+        "priority": "LOW",
+        "opportunity_score": 39,
+        "estimated_value_eur": 70,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] I build autonomous AI agents and mobile apps. €70/h or fixed price. Example: an agent that runs my three live games 24/7, code public. Remote, worldwide.\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
