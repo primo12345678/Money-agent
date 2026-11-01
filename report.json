@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T14:24:44.660671+00:00",
+  "generated_at": "2026-11-01T15:22:35.958538+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -233,43 +233,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[For Hire] Need a Developer? I Can Help With Your Web, Mobile or Backend Project",
-      "url": "https://www.reddit.com/r/forhire/comments/1xkb3b7/for_hire_need_a_developer_i_can_help_with_your/",
-      "published": "2026-10-31T14:04:54+00:00",
-      "snippet": "I need to put myself out there because I have a personal goal I&#39;m seriously working towards. I&#39;m trying to make $3,000 before December 1st, and I&#39;m putting my software engineering skills to work to make it happen. I&#39;m a Software Engineer with experience in building web applications, mobile applications and backend systems. Some of the things I can help with: •Frontend development: React.js, Next.js, TypeScript and Tailwind CSS. •Backend development: Node.js, Express.js and PHP. •Database management: PostgreSQL and MySQL. •REST API development and third-party integrations. •React Native and Expo mobile applications. •Payment integrations, authentication and backend systems. •VPS deployment, Nginx and CI/CD. I&#39;m open to freelance gigs, one-off tasks, short-term contracts, ongoing projects and remote opportunities. It doesn&#39;t have to be a massive project. If you have",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "looking for a developer"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "LOW",
-        "opportunity_score": 45,
-        "estimated_value_eur": 3000,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          3000.0
-        ],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[For Hire] Freelance Copywriter & Creative Strategist Available",
       "url": "https://www.reddit.com/r/forhire/comments/1xkgikv/for_hire_freelance_copywriter_creative_strategist/",
       "published": "2026-10-31T17:45:03+00:00",
@@ -461,44 +424,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[Hiring] Native Mandarin speakers to record short lines from home, paid $35 per accepted hour",
-      "url": "https://www.reddit.com/r/forhire/comments/1xk9cdf/hiring_native_mandarin_speakers_to_record_short/",
-      "published": "2026-10-31T12:48:01+00:00",
-      "snippet": "Paid work from home: native Mandarin speakers wanted to record short scripted lines (read passages). About 1 hour of recordings each, on your phone or laptop in a quiet room, in your own time. Pay: $35 per accepted hour of audio, sent after each batch is checked. Start with a 5-line sample in the browser; if it passes, you get your full set the same day. Apply and record your sample here: https://review.realloop.in/jobs?j=eyJwIjoicGlwZWxpbmUtZGVtbyIsImwiOiJ6aCIsImgiOjEsImMiOiJyZWFkIHBhc3NhZ2VzIiwiZSI6MTc5ODYzNDU4MzQ1NH0.HT-y5HlakvGlBJtFJMV91-NIdGY5a9O5ncn3EPzammw &#32; submitted by &#32; /u/ArcherGreen2094 [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 35,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          35.0,
-          35.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[HIRING] USA-Based On-Camera Product Review Creators | $20–$30 Per Video | Long-Term Collaboration",
       "url": "https://www.reddit.com/r/forhire/comments/1xkfshy/hiring_usabased_oncamera_product_review_creators/",
       "published": "2026-10-31T17:15:57+00:00",
@@ -536,6 +461,82 @@
         },
         "human_approval_required": true
       }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Software License Troubleshooting",
+      "url": "https://www.reddit.com/r/forhire/comments/1xl395d/hiring_software_license_troubleshooting/",
+      "published": "2026-11-01T13:36:46+00:00",
+      "snippet": "Hello, I’m looking for an experienced Reverse Engineering / Software Security Developer. I own a software bot that requires a license key to access. I need an expert to inspect the licensing mechanism, identify the issue, and help me restore access or repair the licensing system. Required skills: * Reverse Engineering * Python / JavaScript debugging * Software License Systems * Software Security This is a paid project. I’m ready to start immediately. Please send me your experience, portfolio, and estimated price. budget $15/hr+ Thank you. &#32; submitted by &#32; /u/ouijla [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 50,
+      "buyer_signals": [
+        "paid project",
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 15,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          15.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[Hiring] Software License Troubleshooting — $15/hr+",
+      "url": "https://www.reddit.com/r/forhire/comments/1xl1cr4/hiring_software_license_troubleshooting_15hr/",
+      "published": "2026-11-01T12:02:30+00:00",
+      "snippet": "Hello, I’m looking for an experienced Reverse Engineering / Software Security Developer. I own a software bot that requires a license key to access. I need an expert to inspect the licensing mechanism, identify the issue, and help me restore access or repair the licensing system. Required skills: * Reverse Engineering * Python / JavaScript debugging * Software License Systems * Software Security This is a paid project. I’m ready to start immediately. Please send me your experience, portfolio, and estimated price. Thank you. &#32; submitted by &#32; /u/ouijla [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 50,
+      "buyer_signals": [
+        "paid project",
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 32,
+        "estimated_value_eur": 15,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          15.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
     }
   ],
   "errors": [
@@ -551,7 +552,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-11-01T14:24:44.685636+00:00",
+    "created_at": "2026-11-01T15:22:35.992797+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 10,
@@ -632,21 +633,6 @@
         }
       },
       {
-        "title": "[For Hire] Need a Developer? I Can Help With Your Web, Mobile or Backend Project",
-        "url": "https://www.reddit.com/r/forhire/comments/1xkb3b7/for_hire_need_a_developer_i_can_help_with_your/",
-        "priority": "LOW",
-        "opportunity_score": 45,
-        "estimated_value_eur": 3000,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] Need a Developer? I Can Help With Your Web, Mobile or Backend Project\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "[For Hire] Freelance Copywriter & Creative Strategist Available",
         "url": "https://www.reddit.com/r/forhire/comments/1xkgikv/for_hire_freelance_copywriter_creative_strategist/",
         "priority": "LOW",
@@ -702,6 +688,21 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[For Hire] I build autonomous AI agents and mobile apps. €70/h or fixed price. Example: an agent that runs my three live games 24/7, code public. Remote, worldwide.\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Voiceover / On-Camera Creator for 10-Sec Casual Webcam Intro + 3-Min YouTube Voiceover (Remote) - $20 USD + Tip (~15-Min Task)",
+        "url": "https://www.reddit.com/r/forhire/comments/1xkymu0/hiring_voiceover_oncamera_creator_for_10sec/",
+        "priority": "LOW",
+        "opportunity_score": 38,
+        "estimated_value_eur": 20,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Voiceover / On-Camera Creator for 10-Sec Casual Webcam Intro + 3-Min YouTube Voiceover (Remote) - $20 USD + Tip (~15-Min Task)\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
