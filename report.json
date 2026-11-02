@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T11:39:44.328937+00:00",
+  "generated_at": "2026-11-02T12:43:56.608919+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -167,6 +167,47 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[For Hire] I design and build your website. $150 to $250, fixed price, live in days.",
+      "url": "https://www.reddit.com/r/forhire/comments/1xlvxj9/for_hire_i_design_and_build_your_website_150_to/",
+      "published": "2026-11-02T12:32:10+00:00",
+      "snippet": "One person does the design and the build, so nothing gets lost in handover. $150: custom design, built and live. One-page site. $250: up to 5 pages on WordPress or Next.js. Domain connected, hosting included for the first year. $100: Figma design only, 24 hours. 10+ years as a UI/UX designer and developer. Work: https://www.behance.net/tugrulfirat/ https://rapidlander.com DM me for more designs. 50% to start, 50% on delivery. &#32; submitted by &#32; /u/designisart [link] &#32; [comments]",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "fixed price"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "integration",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 250,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          150.0,
+          250.0,
+          150.0,
+          250.0,
+          100.0
+        ],
+        "offer": {
+          "service": "AI/API/CRM integration",
+          "starter_price_eur": 250,
+          "target_price_eur": 650,
+          "premium_price_eur": 1600,
+          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[For Hire] Reddit & X/Twitter Growth Specialist | Organic Marketing | $20/hr",
       "url": "https://www.reddit.com/r/forhire/comments/1xl9sji/for_hire_reddit_xtwitter_growth_specialist/",
       "published": "2026-11-01T18:01:09+00:00",
@@ -199,44 +240,6 @@
           "target_price_eur": 750,
           "premium_price_eur": 2000,
           "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Software License Troubleshooting",
-      "url": "https://www.reddit.com/r/forhire/comments/1xl395d/hiring_software_license_troubleshooting/",
-      "published": "2026-11-01T13:36:46+00:00",
-      "snippet": "Hello, I’m looking for an experienced Reverse Engineering / Software Security Developer. I own a software bot that requires a license key to access. I need an expert to inspect the licensing mechanism, identify the issue, and help me restore access or repair the licensing system. Required skills: * Reverse Engineering * Python / JavaScript debugging * Software License Systems * Software Security This is a paid project. I’m ready to start immediately. Please send me your experience, portfolio, and estimated price. budget $15/hr+ Thank you. &#32; submitted by &#32; /u/ouijla [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 50,
-      "buyer_signals": [
-        "paid project",
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 15,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          15.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -294,7 +297,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-11-02T11:39:44.360721+00:00",
+    "created_at": "2026-11-02T12:43:56.644399+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 6,
@@ -345,6 +348,21 @@
         }
       },
       {
+        "title": "[For Hire] I design and build your website. $150 to $250, fixed price, live in days.",
+        "url": "https://www.reddit.com/r/forhire/comments/1xlvxj9/for_hire_i_design_and_build_your_website_150_to/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 250,
+        "offer": {
+          "subject": "Proposal: AI/API/CRM integration",
+          "price_eur": 650,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] I design and build your website. $150 to $250, fixed price, live in days.\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "[For Hire] Reddit & X/Twitter Growth Specialist | Organic Marketing | $20/hr",
         "url": "https://www.reddit.com/r/forhire/comments/1xl9sji/for_hire_reddit_xtwitter_growth_specialist/",
         "priority": "LOW",
@@ -355,21 +373,6 @@
           "price_eur": 750,
           "starter_price_eur": 300,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Reddit & X/Twitter Growth Specialist | Organic Marketing | $20/hr\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Software License Troubleshooting",
-        "url": "https://www.reddit.com/r/forhire/comments/1xl395d/hiring_software_license_troubleshooting/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 15,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Software License Troubleshooting\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
