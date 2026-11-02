@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T14:50:25.441683+00:00",
+  "generated_at": "2026-11-02T15:45:02.112961+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 5,
+    "buyer_leads_found": 6,
     "human_review_required": true
   },
   "opportunities": [
@@ -167,6 +167,41 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[Hiring] Graphic designer (branding and packaging design) intern",
+      "url": "https://www.reddit.com/r/forhire/comments/1xlzvlc/hiring_graphic_designer_branding_and_packaging/",
+      "published": "2026-11-02T15:15:27+00:00",
+      "snippet": "We&#39;re Hiring Graphic Designer (branding and packaging design) Interns at Kwezika! We&#39;re looking for creative individuals based in India who are passionate about brand strategy, visual identity, and packaging design. We&#39;re particularly interested in individuals who have strong design potential, a good eye for detail, and a genuine understanding of how strategy translates into visual communication. You&#39;ll be working on real client projects and contributing to different stages of the branding process. What you&#39;ll be working on: • Brand Strategy: Research, positioning, brand personality, and strategic direction. • Visual Identity: Logo design, typography, colour palettes, and cohesive identity systems. • Packaging Design: Developing packaging concepts, visual systems, and designs that bring brands to life. What we&#39;re looking for: • Strong design fundamentals and a por",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[For Hire] I design and build your website. $150 to $250, fixed price, live in days.",
       "url": "https://www.reddit.com/r/forhire/comments/1xlvxj9/for_hire_i_design_and_build_your_website_150_to/",
       "published": "2026-11-02T12:32:10+00:00",
@@ -258,10 +293,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-11-02T14:50:25.477272+00:00",
+    "created_at": "2026-11-02T15:45:02.148374+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 5,
+    "draft_count": 6,
     "drafts": [
       {
         "title": "[For Hire] US-based operator: AI automation, resume + LinkedIn rewrites, UGC video packs, and healthcare credentialing | From $97",
@@ -304,6 +339,21 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"Smartsheet: Manager, Engineering (Remote Eligible in Bulgaria)\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Graphic designer (branding and packaging design) intern",
+        "url": "https://www.reddit.com/r/forhire/comments/1xlzvlc/hiring_graphic_designer_branding_and_packaging/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Graphic designer (branding and packaging design) intern\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
