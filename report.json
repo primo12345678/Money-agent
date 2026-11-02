@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T12:43:56.608919+00:00",
+  "generated_at": "2026-11-02T13:57:34.581878+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 6,
+    "buyer_leads_found": 7,
     "human_review_required": true
   },
   "opportunities": [
@@ -208,6 +208,44 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[For Hire] Reddit & X/Twitter Marketing Specialist | Organic Growth & Customer Acquisition",
+      "url": "https://www.reddit.com/r/forhire/comments/1xlwn5v/for_hire_reddit_xtwitter_marketing_specialist/",
+      "published": "2026-11-02T13:05:21+00:00",
+      "snippet": "Hey everyone! I&#39;ve been working in organic marketing for a while, mainly focusing on Reddit and X/Twitter. Here are some results from my previous campaigns: Reddit Marketing (AI Companion Platform) 42K+ unique visitors 14.8K+ signups 193 paying customers $16.7K+ in tracked revenue X/Twitter Management 2.3M impressions 65.5K engagements 38.7K profile visits 20.6K likes I&#39;ve also helped clients with Google Knowledge Panels and getting featured in online publications. I can help with Reddit marketing, X/Twitter account management, organic growth, competitor research, audience engagement, and driving traffic that converts. I&#39;m open to working with businesses, creators, and agencies on an ongoing basis. My starting rate is around $350/month, depending on the scope of work and your requirements. Happy to share screenshots of my previous results. Feel free to DM me if you&#39;re int",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "paying"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 34,
+        "estimated_value_eur": 350,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          16.7,
+          350.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[For Hire] Reddit & X/Twitter Growth Specialist | Organic Marketing | $20/hr",
       "url": "https://www.reddit.com/r/forhire/comments/1xl9sji/for_hire_reddit_xtwitter_growth_specialist/",
       "published": "2026-11-01T18:01:09+00:00",
@@ -297,10 +335,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-11-02T12:43:56.644399+00:00",
+    "created_at": "2026-11-02T13:57:34.605853+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 6,
+    "draft_count": 7,
     "drafts": [
       {
         "title": "[For Hire] US-based operator: AI automation, resume + LinkedIn rewrites, UGC video packs, and healthcare credentialing | From $97",
@@ -358,6 +396,21 @@
           "price_eur": 650,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"[For Hire] I design and build your website. $150 to $250, fixed price, live in days.\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[For Hire] Reddit & X/Twitter Marketing Specialist | Organic Growth & Customer Acquisition",
+        "url": "https://www.reddit.com/r/forhire/comments/1xlwn5v/for_hire_reddit_xtwitter_marketing_specialist/",
+        "priority": "LOW",
+        "opportunity_score": 34,
+        "estimated_value_eur": 350,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[For Hire] Reddit & X/Twitter Marketing Specialist | Organic Growth & Customer Acquisition\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
