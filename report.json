@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T17:44:46.101524+00:00",
+  "generated_at": "2026-11-02T18:41:15.628392+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,56 +34,10 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 7,
+    "buyer_leads_found": 6,
     "human_review_required": true
   },
   "opportunities": [
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] US-based operator: AI automation, resume + LinkedIn rewrites, UGC video packs, and healthcare credentialing | From $97",
-      "url": "https://www.reddit.com/r/forhire/comments/1xll1wd/for_hire_usbased_operator_ai_automation_resume/",
-      "published": "2026-11-02T02:06:27+00:00",
-      "snippet": "Need a defined project completed without a long consulting engagement? I’m taking on remote project and hourly work in four service areas. AI workflow and agent setup I build practical workflows using Zapier, Make, or n8n for tasks such as lead capture, CRM updates, form routing, scheduling, follow-ups, notifications, and recurring administrative work. Packages: $197 / $397 / $797 View AI workflow packages Resume + LinkedIn rewrite Truthful, ATS-friendly rewrites that improve positioning without inventing experience, credentials, dates, or results. Packages: $97 / $127 / $179 View resume and LinkedIn packages AI-generated UGC-style video packs Short-form creator-style videos for social content, product promotion, testing hooks, and paid or organic campaigns. Packages: $149 / $249 View UGC video packages Healthcare credentialing support CAQH work, payer enrollment, application follow-up, ",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "paid project"
-      ],
-      "employment_signals": [],
-      "score": 62,
-      "confidence": 0.77,
-      "automation_fit": 0.76,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "zapier",
-        "n8n",
-        "crm",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "MEDIUM",
-        "opportunity_score": 69,
-        "estimated_value_eur": 797,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          97.0,
-          197.0,
-          397.0,
-          797.0,
-          97.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
     {
       "source": "We Work Remotely",
       "title": "SimpleTiger: Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)",
@@ -328,26 +282,11 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-11-02T17:44:46.141893+00:00",
+    "created_at": "2026-11-02T18:41:15.665710+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 7,
+    "draft_count": 6,
     "drafts": [
-      {
-        "title": "[For Hire] US-based operator: AI automation, resume + LinkedIn rewrites, UGC video packs, and healthcare credentialing | From $97",
-        "url": "https://www.reddit.com/r/forhire/comments/1xll1wd/for_hire_usbased_operator_ai_automation_resume/",
-        "priority": "MEDIUM",
-        "opportunity_score": 69,
-        "estimated_value_eur": 797,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] US-based operator: AI automation, resume + LinkedIn rewrites, UGC video packs, and healthcare credentialing | From $97\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
       {
         "title": "SimpleTiger: Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)",
         "url": "https://weworkremotely.com/remote-jobs/simpletiger-web-developer-wordpress-hubspot-u-s-based-remote-contractor",
