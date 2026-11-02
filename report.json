@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T06:55:20.302224+00:00",
+  "generated_at": "2026-11-02T08:15:36.917949+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 9,
+    "buyer_leads_found": 6,
     "human_review_required": true
   },
   "opportunities": [
@@ -166,80 +166,6 @@
       }
     },
     {
-      "source": "We Work Remotely",
-      "title": "Toptal: Client Advisor",
-      "url": "https://weworkremotely.com/remote-jobs/toptal-client-advisor",
-      "published": "Wed, 30 Sep 2026 15:18:11 +0000",
-      "snippet": "Headquarters: Remote URL: https://www.toptal.com/ Job Summary Our Client Advisors turn inbound interest from small- and medium-sized businesses into Toptal clients. You will be the first conversation a prospective client has with Toptal. You will respond to immediate-assistance requests within five minutes, quickly understand the business problem behind the request, connect necessary Toptal specialists, and help guide the client forward through the sales process. You will need to do a great deal in a short conversation: establish trust, diagnose the need, recognize relevant opportunities, explain Toptal’s value proposition, address concerns, and convert the business to sale. This is a high energy, consultative sales role at inbound velocity where excellence will mean running a high volume of first conversations, asking better questions than the client expected, and constantly building mo",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 50,
-      "buyer_signals": [
-        "paying",
-        "want to build"
-      ],
-      "employment_signals": [],
-      "score": 41,
-      "confidence": 0.56,
-      "automation_fit": 0.58,
-      "matched_keywords": [
-        "workflow",
-        "crm",
-        "ai"
-      ],
-      "analysis": {
-        "category": "lead_generation",
-        "priority": "LOW",
-        "opportunity_score": 50,
-        "estimated_value_eur": 750,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Twikey: Senior Java Developer",
-      "url": "https://weworkremotely.com/remote-jobs/twikey-senior-java-developer",
-      "published": "Thu, 17 Sep 2026 10:51:23 +0000",
-      "snippet": "Headquarters: Ghent - Belgium URL: https://www.twikey.com/jobs Are you a driven back-end developer who doesn't wait for instructions, but is already thinking two steps ahead? Who experiments with new technologies and smart solutions alongside the job? Then we want to talk to you. Straight forward but clear: Twikey isn't looking for someone to just execute. We're looking for someone who thinks, does and keeps going when the going gets tough. Because fintech is evolving at breakneck speed. That calls for real ownership and for someone who can dive deep on the technical side to keep innovating and improving our platform. You get plenty in return, such as the freedom and responsibility to deliver your own projects. Thanks in part to our organisational structure, you can shape your ideas in the short term and see the results of your hard work quickly. Driven by your passion for building scala",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "looking for someone to"
-      ],
-      "employment_signals": [],
-      "score": 34,
-      "confidence": 0.49,
-      "automation_fit": 0.52,
-      "matched_keywords": [
-        "api integration",
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "LOW",
-        "opportunity_score": 46,
-        "estimated_value_eur": 650,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
       "source": "Reddit r/forhire",
       "title": "[For Hire] Reddit & X/Twitter Growth Specialist | Organic Marketing | $20/hr",
       "url": "https://www.reddit.com/r/forhire/comments/1xl9sji/for_hire_reddit_xtwitter_growth_specialist/",
@@ -283,44 +209,6 @@
       "url": "https://www.reddit.com/r/forhire/comments/1xl395d/hiring_software_license_troubleshooting/",
       "published": "2026-11-01T13:36:46+00:00",
       "snippet": "Hello, I’m looking for an experienced Reverse Engineering / Software Security Developer. I own a software bot that requires a license key to access. I need an expert to inspect the licensing mechanism, identify the issue, and help me restore access or repair the licensing system. Required skills: * Reverse Engineering * Python / JavaScript debugging * Software License Systems * Software Security This is a paid project. I’m ready to start immediately. Please send me your experience, portfolio, and estimated price. budget $15/hr+ Thank you. &#32; submitted by &#32; /u/ouijla [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 50,
-      "buyer_signals": [
-        "paid project",
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 15,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          15.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Software License Troubleshooting — $15/hr+",
-      "url": "https://www.reddit.com/r/forhire/comments/1xl1cr4/hiring_software_license_troubleshooting_15hr/",
-      "published": "2026-11-01T12:02:30+00:00",
-      "snippet": "Hello, I’m looking for an experienced Reverse Engineering / Software Security Developer. I own a software bot that requires a license key to access. I need an expert to inspect the licensing mechanism, identify the issue, and help me restore access or repair the licensing system. Required skills: * Reverse Engineering * Python / JavaScript debugging * Software License Systems * Software Security This is a paid project. I’m ready to start immediately. Please send me your experience, portfolio, and estimated price. Thank you. &#32; submitted by &#32; /u/ouijla [link] &#32; [comments]",
       "lead_type": "potential_buyer_request",
       "buyer_intent_score": 50,
       "buyer_signals": [
@@ -406,10 +294,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-11-02T06:55:20.326355+00:00",
+    "created_at": "2026-11-02T08:15:36.947884+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 9,
+    "draft_count": 6,
     "drafts": [
       {
         "title": "[For Hire] US-based operator: AI automation, resume + LinkedIn rewrites, UGC video packs, and healthcare credentialing | From $97",
@@ -457,36 +345,6 @@
         }
       },
       {
-        "title": "Toptal: Client Advisor",
-        "url": "https://weworkremotely.com/remote-jobs/toptal-client-advisor",
-        "priority": "LOW",
-        "opportunity_score": 50,
-        "estimated_value_eur": 750,
-        "offer": {
-          "subject": "Proposal: AI lead generation and follow-up",
-          "price_eur": 750,
-          "starter_price_eur": 300,
-          "message": "Hi,\n\nI saw your request about \"Toptal: Client Advisor\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Twikey: Senior Java Developer",
-        "url": "https://weworkremotely.com/remote-jobs/twikey-senior-java-developer",
-        "priority": "LOW",
-        "opportunity_score": 46,
-        "estimated_value_eur": 650,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"Twikey: Senior Java Developer\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
         "title": "[For Hire] Reddit & X/Twitter Growth Specialist | Organic Marketing | $20/hr",
         "url": "https://www.reddit.com/r/forhire/comments/1xl9sji/for_hire_reddit_xtwitter_growth_specialist/",
         "priority": "LOW",
@@ -512,21 +370,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[Hiring] Software License Troubleshooting\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Software License Troubleshooting — $15/hr+",
-        "url": "https://www.reddit.com/r/forhire/comments/1xl1cr4/hiring_software_license_troubleshooting_15hr/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 15,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Software License Troubleshooting — $15/hr+\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
