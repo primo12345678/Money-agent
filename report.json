@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T10:44:10.258077+00:00",
+  "generated_at": "2026-11-03T11:39:19.891047+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 8,
+    "buyer_leads_found": 7,
     "human_review_required": true
   },
   "opportunities": [
@@ -267,47 +267,6 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[For Hire] I design and build your website. $150 to $250, fixed price, live in days.",
-      "url": "https://www.reddit.com/r/forhire/comments/1xlvxj9/for_hire_i_design_and_build_your_website_150_to/",
-      "published": "2026-11-02T12:32:10+00:00",
-      "snippet": "One person does the design and the build, so nothing gets lost in handover. $150: custom design, built and live. One-page site. $250: up to 5 pages on WordPress or Next.js. Domain connected, hosting included for the first year. $100: Figma design only, 24 hours. 10+ years as a UI/UX designer and developer. Work: https://www.behance.net/tugrulfirat/ https://rapidlander.com DM me for more designs. 50% to start, 50% on delivery. &#32; submitted by &#32; /u/designisart [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "integration",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 250,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          150.0,
-          250.0,
-          150.0,
-          250.0,
-          100.0
-        ],
-        "offer": {
-          "service": "AI/API/CRM integration",
-          "starter_price_eur": 250,
-          "target_price_eur": 650,
-          "premium_price_eur": 1600,
-          "pitch": "I can automate the integration workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
       "title": "[FOR HIRE] High-Quality Graphic Design with Fast Turnaround @ $20/hr!",
       "url": "https://www.reddit.com/r/forhire/comments/1xm339x/for_hire_highquality_graphic_design_with_fast/",
       "published": "2026-11-02T17:13:37+00:00",
@@ -357,10 +316,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-11-03T10:44:10.293743+00:00",
+    "created_at": "2026-11-03T11:39:20.034306+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 8,
+    "draft_count": 7,
     "drafts": [
       {
         "title": "SimpleTiger: Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)",
@@ -448,21 +407,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[Hiring] Graphic designer (branding and packaging design) intern\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[For Hire] I design and build your website. $150 to $250, fixed price, live in days.",
-        "url": "https://www.reddit.com/r/forhire/comments/1xlvxj9/for_hire_i_design_and_build_your_website_150_to/",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 250,
-        "offer": {
-          "subject": "Proposal: AI/API/CRM integration",
-          "price_eur": 650,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] I design and build your website. $150 to $250, fixed price, live in days.\". I can help with ai/api/crm integration and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €650 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
