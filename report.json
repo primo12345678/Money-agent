@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T15:34:05.983965+00:00",
+  "generated_at": "2026-11-03T16:40:31.616747+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 8,
+    "buyer_leads_found": 6,
     "human_review_required": true
   },
   "opportunities": [
@@ -196,14 +196,13 @@
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[HIRING] Video Editor to Record and Create a 20–40 Second Windows Software Showcase",
-      "url": "https://www.reddit.com/r/forhire/comments/1xm0u1c/hiring_video_editor_to_record_and_create_a_2040/",
-      "published": "2026-11-02T15:51:29+00:00",
-      "snippet": "I&#39;m looking for someone to create a professional 20–40 second showcase video for my Windows desktop application. The goal is to showcase the software&#39;s main features in a clean, modern, and visually appealing way, similar to Apple-style product videos. What I&#39;m looking for: Record the software in action using screen capture. Showcase its main features and how they work. Edit the footage into a polished 20–40 second video. Add smooth transitions, animations, zooms, and motion graphics where appropriate. Include background music and sound effects. I&#39;ll provide access to the software, a list of its key features, and any necessary instructions. Ideally, you have experience creating promotional/showcase videos for software, apps, or SaaS products. If you&#39;re interested, please send me: Examples of similar work you&#39;ve done. Your estimated price for the project. Your expe",
+      "title": "[Hiring] Remote Client Outreach Assistant for a Video Editing Studio – % of every client you bring – Part-time, Online",
+      "url": "https://www.reddit.com/r/forhire/comments/1xmw5bv/hiring_remote_client_outreach_assistant_for_a/",
+      "published": "2026-11-03T15:35:19+00:00",
+      "snippet": "We&#39;re a small video editing studio (YouTube long-form, Shorts/Reels, gaming, educational content) looking for a part-time assistant to find and contact potential clients. What you&#39;ll do - Find creators, small brands and agencies that need video editing (YouTube, Instagram, TikTok, hiring posts) - Send short, personal emails and applications using our templates and portfolio - Track every lead and reply in a shared sheet - Hand interested clients to us. You don&#39;t edit What we need - Good written English, natural and not salesy - Know your way around YouTube/Instagram creator culture - {HOURS} hours a week, reliable updates - No cold-spamming and no bots. Every message is written by a person Pay: You get a % of what each client you bring us pays or a straight 15$ or X$/hr we aggree on. I&#39;ll go over the details in DMs. Location: Remote, any time zone (we&#39;re IST). To appl",
       "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 50,
+      "buyer_intent_score": 25,
       "buyer_signals": [
-        "looking for someone to",
         "[hiring]"
       ],
       "employment_signals": [],
@@ -214,18 +213,18 @@
         "ai"
       ],
       "analysis": {
-        "category": "other",
+        "category": "lead_generation",
         "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
+        "opportunity_score": 39,
+        "estimated_value_eur": 750,
         "value_basis": "Service-band estimate; not a quoted budget",
         "budget_signals": [],
         "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+          "service": "AI lead generation and follow-up",
+          "starter_price_eur": 300,
+          "target_price_eur": 750,
+          "premium_price_eur": 2000,
+          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -264,78 +263,6 @@
         },
         "human_approval_required": true
       }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Graphic designer (branding and packaging design) intern",
-      "url": "https://www.reddit.com/r/forhire/comments/1xlzvlc/hiring_graphic_designer_branding_and_packaging/",
-      "published": "2026-11-02T15:15:27+00:00",
-      "snippet": "We&#39;re Hiring Graphic Designer (branding and packaging design) Interns at Kwezika! We&#39;re looking for creative individuals based in India who are passionate about brand strategy, visual identity, and packaging design. We&#39;re particularly interested in individuals who have strong design potential, a good eye for detail, and a genuine understanding of how strategy translates into visual communication. You&#39;ll be working on real client projects and contributing to different stages of the branding process. What you&#39;ll be working on: • Brand Strategy: Research, positioning, brand personality, and strategic direction. • Visual Identity: Logo design, typography, colour palettes, and cohesive identity systems. • Packaging Design: Developing packaging concepts, visual systems, and designs that bring brands to life. What we&#39;re looking for: • Strong design fundamentals and a por",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[FOR HIRE] High-Quality Graphic Design with Fast Turnaround @ $20/hr!",
-      "url": "https://www.reddit.com/r/forhire/comments/1xm339x/for_hire_highquality_graphic_design_with_fast/",
-      "published": "2026-11-02T17:13:37+00:00",
-      "snippet": "🖌️ Who am I? I’m Eduardo, a Graphic Designer with a bachelor’s degree in Graphic Design. My proficiencies: Photoshop (Photo Editing, Flyers, Folders, Posters, etc.) Illustrator (Logos, Icons, Vector Drawings, Logo Vector Tracing, Flyers, Folders, Posters, etc.); Premiere (Video editing); After Effects; (Motion Graphics, Animated logos, Videos, Icons, etc.); InDesign (Magazines, Manuals, Books, Flyers, Folders, etc.). Due to me having 4+ years of experience with graphic design and being a college graduate, I know many design principles and techniques that allow me to create attractive designs in a lot of different styles. So I assure you I can make you something of high quality, that is going to surpass the expectations you have for something you paid so little for. My Website: https://signedbyeduardo.com/ My Instagram 💼 The offer: Need graphic design services at an affordable cost? I&#39",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "fixed price"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 20,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          20.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
     }
   ],
   "errors": [
@@ -351,10 +278,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-11-03T15:34:06.010461+00:00",
+    "created_at": "2026-11-03T16:40:31.641390+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 8,
+    "draft_count": 6,
     "drafts": [
       {
         "title": "SimpleTiger: Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)",
@@ -417,16 +344,16 @@
         }
       },
       {
-        "title": "[HIRING] Video Editor to Record and Create a 20–40 Second Windows Software Showcase",
-        "url": "https://www.reddit.com/r/forhire/comments/1xm0u1c/hiring_video_editor_to_record_and_create_a_2040/",
+        "title": "[Hiring] Remote Client Outreach Assistant for a Video Editing Studio – % of every client you bring – Part-time, Online",
+        "url": "https://www.reddit.com/r/forhire/comments/1xmw5bv/hiring_remote_client_outreach_assistant_for_a/",
         "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
+        "opportunity_score": 39,
+        "estimated_value_eur": 750,
         "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[HIRING] Video Editor to Record and Create a 20–40 Second Windows Software Showcase\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "subject": "Proposal: AI lead generation and follow-up",
+          "price_eur": 750,
+          "starter_price_eur": 300,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Remote Client Outreach Assistant for a Video Editing Studio – % of every client you bring – Part-time, Online\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
@@ -442,36 +369,6 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[Hiring] Social Media & Reddit Manager\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Graphic designer (branding and packaging design) intern",
-        "url": "https://www.reddit.com/r/forhire/comments/1xlzvlc/hiring_graphic_designer_branding_and_packaging/",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Graphic designer (branding and packaging design) intern\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[FOR HIRE] High-Quality Graphic Design with Fast Turnaround @ $20/hr!",
-        "url": "https://www.reddit.com/r/forhire/comments/1xm339x/for_hire_highquality_graphic_design_with_fast/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 20,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[FOR HIRE] High-Quality Graphic Design with Fast Turnaround @ $20/hr!\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
