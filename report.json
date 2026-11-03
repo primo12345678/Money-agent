@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T09:44:14.493657+00:00",
+  "generated_at": "2026-11-03T10:44:10.258077+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 7,
+    "buyer_leads_found": 8,
     "human_review_required": true
   },
   "opportunities": [
@@ -153,6 +153,43 @@
           "target_price_eur": 500,
           "premium_price_eur": 1200,
           "pitch": "I can automate the ai support workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[HIRING] Gameram is looking for a Content Creator!",
+      "url": "https://www.reddit.com/r/forhire/comments/1xmpnp7/hiring_gameram_is_looking_for_a_content_creator/",
+      "published": "2026-11-03T10:39:08+00:00",
+      "snippet": "Location: Remote (USA) Type: Freelance / Part-time (20 hours a week) Rate: $1,500/month About Gameram Gameram is a mobile app designed for gamers. We&#39;re building a strong social presence across X, Instagram, TikTok, Facebook, and Gameram and we&#39;re looking for a content creator who’ll be the face of Gameram and create short-form and long-form content. What You&#39;ll Do Play and record gameplay footage across trending games Edit raw footage into short-form clips (Reels and TikToks) Design thumbnails for video content Adapt content formatting to fit the norms and best practices of each platform (X, Instagram, TikTok, Facebook, Bluesky) Help bring Gameram&#39;s community and gaming culture to life through authentic, engaging content What We&#39;re Looking For An actual gamer, we’re looking for a true gamer, a person who knows and understands games like Fortnite, Roblox, Minecraft, G",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 42,
+        "estimated_value_eur": 1500,
+        "value_basis": "Detected budget/rate in listing",
+        "budget_signals": [
+          1500.0
+        ],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -320,10 +357,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-11-03T09:44:14.526452+00:00",
+    "created_at": "2026-11-03T10:44:10.293743+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 7,
+    "draft_count": 8,
     "drafts": [
       {
         "title": "SimpleTiger: Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)",
@@ -366,6 +403,21 @@
           "price_eur": 500,
           "starter_price_eur": 200,
           "message": "Hi,\n\nI saw your request about \"[For Hire] Experienced bilingual (ENG/ESP) operations assistant ready to manage your workflows! — async-friendly | For startups, agencies, nonprofits & independent business owners\". I can help with ai customer-support automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €200, with the full solution targeted at about €500 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[HIRING] Gameram is looking for a Content Creator!",
+        "url": "https://www.reddit.com/r/forhire/comments/1xmpnp7/hiring_gameram_is_looking_for_a_content_creator/",
+        "priority": "LOW",
+        "opportunity_score": 42,
+        "estimated_value_eur": 1500,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[HIRING] Gameram is looking for a Content Creator!\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
