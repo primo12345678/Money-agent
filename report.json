@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T13:58:21.144227+00:00",
+  "generated_at": "2026-11-03T14:48:35.022470+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -34,7 +34,7 @@
   ],
   "lead_quality": {
     "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 7,
+    "buyer_leads_found": 8,
     "human_review_required": true
   },
   "opportunities": [
@@ -232,6 +232,41 @@
     },
     {
       "source": "Reddit r/forhire",
+      "title": "[Hiring] Social Media & Reddit Manager",
+      "url": "https://www.reddit.com/r/forhire/comments/1xmu1sv/hiring_social_media_reddit_manager/",
+      "published": "2026-11-03T14:15:22+00:00",
+      "snippet": "We&#39;re looking for a creative, proactive, and detail-oriented person to manage our social media presence, with a strong focus on Reddit. Main Responsibilities: - Manage and grow social media accounts. - Create engaging posts and captions. - Manage and maintain a Reddit account, including posting, commenting, and interacting with communities. - Identify relevant subreddits and engagement opportunities. - Keep up with social media trends, viral content, and platform updates. - Monitor engagement, track performance, and suggest new strategies. - Maintain a consistent posting schedule and online presence. What We&#39;re Looking For: - Good written English and communication skills. - Previous experience managing social media accounts. - Good understanding of Reddit, its culture, rules, and different communities. - Creativity and the ability to come up with engaging content ideas. - Strong ",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "employment_signals": [],
+      "score": 27,
+      "confidence": 0.42,
+      "automation_fit": 0.46,
+      "matched_keywords": [
+        "ai"
+      ],
+      "analysis": {
+        "category": "other",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow improvement",
+          "starter_price_eur": 150,
+          "target_price_eur": 400,
+          "premium_price_eur": 1000,
+          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
       "title": "[Hiring] Graphic designer (branding and packaging design) intern",
       "url": "https://www.reddit.com/r/forhire/comments/1xlzvlc/hiring_graphic_designer_branding_and_packaging/",
       "published": "2026-11-02T15:15:27+00:00",
@@ -316,10 +351,10 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-11-03T13:58:21.184600+00:00",
+    "created_at": "2026-11-03T14:48:35.060353+00:00",
     "auto_send": false,
     "auto_signup": false,
-    "draft_count": 7,
+    "draft_count": 8,
     "drafts": [
       {
         "title": "SimpleTiger: Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)",
@@ -392,6 +427,21 @@
           "price_eur": 400,
           "starter_price_eur": 150,
           "message": "Hi,\n\nI saw your request about \"[HIRING] Video Editor to Record and Create a 20–40 Second Windows Software Showcase\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] Social Media & Reddit Manager",
+        "url": "https://www.reddit.com/r/forhire/comments/1xmu1sv/hiring_social_media_reddit_manager/",
+        "priority": "LOW",
+        "opportunity_score": 35,
+        "estimated_value_eur": 400,
+        "offer": {
+          "subject": "Proposal: AI workflow improvement",
+          "price_eur": 400,
+          "starter_price_eur": 150,
+          "message": "Hi,\n\nI saw your request about \"[Hiring] Social Media & Reddit Manager\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
