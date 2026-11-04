@@ -1,0 +1,54 @@
+{
+  "updated_at": "2026-11-04T10:31:12.346437+00:00",
+  "status_values": [
+    "contacted",
+    "lost",
+    "new",
+    "proposal_sent",
+    "qualified",
+    "replied",
+    "reviewed",
+    "won"
+  ],
+  "leads": [
+    {
+      "lead_id": "2b7fc6697d71",
+      "title": "[FOR HIRE] GAME DEVELOPER | PROGRAMMER | TEAM LEAD | TECH LEAD | PROJECT MANAGER",
+      "url": "https://www.reddit.com/r/forhire/comments/1xnjqzf/for_hire_game_developer_programmer_team_lead_tech/",
+      "source": "Reddit r/forhire",
+      "first_seen_at": "2026-11-04T10:31:12.346437+00:00",
+      "last_seen_at": "2026-11-04T10:31:12.346437+00:00",
+      "status": "new",
+      "notes": "",
+      "latest_score": 63,
+      "actual_revenue_eur": 0,
+      "payment_confirmed": false
+    },
+    {
+      "lead_id": "9a5e94d07e27",
+      "title": "[For Hire] AI chatbot for your website - answers FAQs 24/7 & captures leads - $25/hr",
+      "url": "https://www.reddit.com/r/forhire/comments/1xnbc03/for_hire_ai_chatbot_for_your_website_answers_faqs/",
+      "source": "Reddit r/forhire",
+      "first_seen_at": "2026-11-04T10:31:12.346437+00:00",
+      "last_seen_at": "2026-11-04T10:31:12.346437+00:00",
+      "status": "new",
+      "notes": "",
+      "latest_score": 60,
+      "actual_revenue_eur": 0,
+      "payment_confirmed": false
+    },
+    {
+      "lead_id": "c1f5036eb5ee",
+      "title": "[FOR HIRE] Marketing & Operations Assistant | SEO, Google Ads, WordPress & Virtual Support",
+      "url": "https://www.reddit.com/r/forhire/comments/1xmx1gp/for_hire_marketing_operations_assistant_seo/",
+      "source": "Reddit r/forhire",
+      "first_seen_at": "2026-11-04T10:31:12.346437+00:00",
+      "last_seen_at": "2026-11-04T10:31:12.346437+00:00",
+      "status": "new",
+      "notes": "",
+      "latest_score": 60,
+      "actual_revenue_eur": 0,
+      "payment_confirmed": false
+    }
+  ]
+}

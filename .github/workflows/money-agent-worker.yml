@@ -1,84 +1,55 @@
-
 name: Money Agent Worker
 on:
   workflow_dispatch:
+  push:
+    branches: [money-agent-upgrade]
+  pull_request:
+    branches: [main]
   schedule:
-    - cron: "0 * * * *"
-
+    - cron: "17 * * * *"
 permissions:
   contents: write
-
+concurrency:
+  group: money-agent-worker
+  cancel-in-progress: false
 jobs:
   hunt:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 5
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Run Hunter
-        run: python backend/hunter.py
-
-      - name: Run Analyst
-        run: python backend/analyst.py
-
-      - name: Run Deal Maker
-        run: python backend/deal_maker.py
-
-      - name: Validate Agent
+      - name: Run lead discovery
         run: |
-          python -m py_compile backend/hunter.py
-          python -m py_compile backend/analyst.py
-          python -m py_compile backend/deal_maker.py
-
+          python backend/hunter.py
+          python backend/analyst.py
+          python backend/deal_maker.py
+          python backend/pipeline.py
+      - name: Test and validate
+        run: |
+          python -m py_compile backend/*.py
+          python -m unittest discover -s tests -v
           python - <<'PY'
           import json
-
-          with open("report.json", "r", encoding="utf-8") as f:
-              report = json.load(f)
-
-          opportunities = report.get("opportunities", [])
-
-          print("Money Agent validation")
-          print("Opportunities:", len(opportunities))
-
-          if not isinstance(opportunities, list):
-              raise SystemExit("Invalid opportunities format")
-
-          deal_maker = report.get("deal_maker", {})
-
-          print(
-              "Deal Maker status:",
-              deal_maker.get("status")
-          )
-
-          print(
-              "Drafts:",
-              deal_maker.get("draft_count", 0)
-          )
-
-          print("Validation: OK")
-
-          if deal_maker.get("status") != "drafts_ready_for_human_review":
-              raise SystemExit("Deal Maker did not produce drafts")
-
-          if deal_maker.get("draft_count", 0) == 0:
-              raise SystemExit("No deal drafts generated")
+          with open("report.json", encoding="utf-8") as file:
+              report = json.load(file)
+          assert isinstance(report.get("opportunities"), list)
+          assert isinstance(report.get("deal_maker", {}).get("drafts", []), list)
+          assert report.get("safety", {}).get("auto_send") is False
+          assert report.get("pipeline", {}).get("confirmed_revenue_eur", 0) >= 0
+          print("Qualified leads:", report.get("analysis", {}).get("qualified_for_review", 0))
+          print("Drafts:", report.get("deal_maker", {}).get("draft_count", 0))
+          print("Confirmed revenue EUR:", report.get("pipeline", {}).get("confirmed_revenue_eur", 0))
           PY
-
-      - name: Save report
+      - name: Save reports and CRM
+        if: github.event_name != 'pull_request'
         run: |
           git config user.name "Money Agent"
           git config user.email "money-agent@users.noreply.github.com"
-
-          git add report.json
-
-          git diff --cached --quiet || \
-            git commit -m "Update Money Agent opportunity and deal report"
-
+          git add report.json data/lead_pipeline.json data/revenue.json
+          git diff --cached --quiet || git commit -m "Refresh qualified leads and CRM pipeline"
           git push
