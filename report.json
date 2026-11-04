@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T02:49:35.644322+00:00",
+  "generated_at": "2026-11-04T10:11:37.634026+00:00",
   "agent": "Money Agent",
   "mode": "opportunity_hunter_and_analyst",
   "target": "Find potential buyers for AI automation services",
@@ -80,6 +80,46 @@
     },
     {
       "source": "We Work Remotely",
+      "title": "Reframe Space Inc.: Digital Marketing Specialist - Organic Growth and Lead Generation",
+      "url": "https://weworkremotely.com/remote-jobs/reframe-space-inc-digital-marketing-specialist-organic-growth-and-lead-generation",
+      "published": "Wed, 04 Nov 2026 09:33:18 +0000",
+      "snippet": "Headquarters: California URL: http://www.reframespace.com About Reframe Space Reframe Space Inc. is a fast-growing, US-based office space innovation company focused on helping businesses optimize their workplaces. Our products include office sound pods and modular conference rooms that make office space more flexible and functional. We grew rapidly the past year and are looking for someone to join our young, remote-focused team. We value initiative, clear communication, and consistent follow-through as we continue to grow. About the role You will own the day-to-day processes that build our organic digital marketing growth over time: developing prospect lists, running email and LinkedIn outreach, coordinating content production, and maintaining an active social media presence. This role is about steady execution, thoughtful follow-up, and improving results through a consistent process. Yo",
+      "lead_type": "potential_buyer_request",
+      "buyer_intent_score": 25,
+      "buyer_signals": [
+        "looking for someone to"
+      ],
+      "employment_signals": [],
+      "score": 62,
+      "confidence": 0.77,
+      "automation_fit": 0.76,
+      "matched_keywords": [
+        "automation",
+        "workflow",
+        "zapier",
+        "lead generation",
+        "crm",
+        "ai"
+      ],
+      "analysis": {
+        "category": "ai_automation",
+        "priority": "MEDIUM",
+        "opportunity_score": 66,
+        "estimated_value_eur": 600,
+        "value_basis": "Service-band estimate; not a quoted budget",
+        "budget_signals": [],
+        "offer": {
+          "service": "AI workflow automation",
+          "starter_price_eur": 250,
+          "target_price_eur": 600,
+          "premium_price_eur": 1500,
+          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        },
+        "human_approval_required": true
+      }
+    },
+    {
+      "source": "We Work Remotely",
       "title": "Smartsheet: Manager, Engineering (Remote Eligible in Bulgaria)",
       "url": "https://weworkremotely.com/remote-jobs/smartsheet-manager-engineering-remote-eligible-in-bulgaria",
       "published": "Fri, 30 Oct 2026 07:31:10 +0000",
@@ -115,43 +155,6 @@
           "target_price_eur": 600,
           "premium_price_eur": 1500,
           "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[HIRING] Gameram is looking for a Content Creator!",
-      "url": "https://www.reddit.com/r/forhire/comments/1xmpnp7/hiring_gameram_is_looking_for_a_content_creator/",
-      "published": "2026-11-03T10:39:08+00:00",
-      "snippet": "Location: Remote (USA) Type: Freelance / Part-time (20 hours a week) Rate: $1,500/month About Gameram Gameram is a mobile app designed for gamers. We&#39;re building a strong social presence across X, Instagram, TikTok, Facebook, and Gameram and we&#39;re looking for a content creator who’ll be the face of Gameram and create short-form and long-form content. What You&#39;ll Do Play and record gameplay footage across trending games Edit raw footage into short-form clips (Reels and TikToks) Design thumbnails for video content Adapt content formatting to fit the norms and best practices of each platform (X, Instagram, TikTok, Facebook, Bluesky) Help bring Gameram&#39;s community and gaming culture to life through authentic, engaging content What We&#39;re Looking For An actual gamer, we’re looking for a true gamer, a person who knows and understands games like Fortnite, Roblox, Minecraft, G",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 42,
-        "estimated_value_eur": 1500,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          1500.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
         },
         "human_approval_required": true
       }
@@ -391,7 +394,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-11-04T02:49:35.675655+00:00",
+    "created_at": "2026-11-04T10:11:37.665637+00:00",
     "auto_send": false,
     "auto_signup": false,
     "draft_count": 9,
@@ -412,6 +415,21 @@
         }
       },
       {
+        "title": "Reframe Space Inc.: Digital Marketing Specialist - Organic Growth and Lead Generation",
+        "url": "https://weworkremotely.com/remote-jobs/reframe-space-inc-digital-marketing-specialist-organic-growth-and-lead-generation",
+        "priority": "MEDIUM",
+        "opportunity_score": 66,
+        "estimated_value_eur": 600,
+        "offer": {
+          "subject": "Proposal: AI workflow automation",
+          "price_eur": 600,
+          "starter_price_eur": 250,
+          "message": "Hi,\n\nI saw your request about \"Reframe Space Inc.: Digital Marketing Specialist - Organic Growth and Lead Generation\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
         "title": "Smartsheet: Manager, Engineering (Remote Eligible in Bulgaria)",
         "url": "https://weworkremotely.com/remote-jobs/smartsheet-manager-engineering-remote-eligible-in-bulgaria",
         "priority": "MEDIUM",
@@ -422,21 +440,6 @@
           "price_eur": 600,
           "starter_price_eur": 250,
           "message": "Hi,\n\nI saw your request about \"Smartsheet: Manager, Engineering (Remote Eligible in Bulgaria)\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[HIRING] Gameram is looking for a Content Creator!",
-        "url": "https://www.reddit.com/r/forhire/comments/1xmpnp7/hiring_gameram_is_looking_for_a_content_creator/",
-        "priority": "LOW",
-        "opportunity_score": 42,
-        "estimated_value_eur": 1500,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[HIRING] Gameram is looking for a Content Creator!\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
           "human_approval_required": true,
           "auto_send": false
         }
