@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T10:31:12.292098+00:00",
+  "generated_at": "2026-11-04T13:07:56.679507+00:00",
   "agent": "Money Agent",
   "mode": "qualified_buyer_hunter_and_offer_analyst",
   "commercial_goal": "Find genuine buyers for small-business workflow automation pilots",
@@ -25,8 +25,8 @@
     "qualified_leads": 3,
     "rejected_by_reason": {
       "no_relevant_service": 17,
-      "no_explicit_buyer_intent": 2,
-      "employment_listing": 3
+      "no_explicit_buyer_intent": 3,
+      "employment_listing": 2
     },
     "employment_feeds_removed": true,
     "minimum_rule": "Relevant service signal plus explicit buyer intent or explicit budget; ordinary employment listings rejected."
@@ -37,7 +37,7 @@
       "title": "[FOR HIRE] GAME DEVELOPER | PROGRAMMER | TEAM LEAD | TECH LEAD | PROJECT MANAGER",
       "url": "https://www.reddit.com/r/forhire/comments/1xnjqzf/for_hire_game_developer_programmer_team_lead_tech/",
       "published": "2026-11-04T09:17:54+00:00",
-      "age_days": 0.1,
+      "age_days": 0.2,
       "snippet": "Im Looking for work I help bring games from concept to release, including development, infrastructure, and post-launch support. SERVICES: Full game development — solo, from scratch to release Team building, coordination & management Game programming & feature development Technical leadership & architecture Project planning & production management Backend, multiplayer & infrastructure Analytics, advertising & monetization Post-release updates, optimization & maintenance PLATFORMS & ENGINES: All genres and project sizes — from prototypes and indie games to large commercial projects. Platforms: PC, mobile, consoles & web Engines: Unity, Unreal Engine, Godot AI-POWERED DEVELOPMENT: I work extensively with AI coding agents and AI assistants to automate routine tasks, accelerate development, improve workflows, analyze code, and identify bugs. The result: faster development and lower costs while maintaining code quality and control over technical decisions. WORK FORMATS: Solo Development | Freelance | Contracts | Team development RATES: Project-based or hourly. $15-25 / hr PORTFOLIO: https://drive.google.com/drive/folders/1Z1Zf4KEqoUdhfToH6fbRW06ZArvV84Il submitted by /u/YuriyCowBoy [link",
       "service_category": "ai_automation",
       "service_signals": [
@@ -85,7 +85,7 @@
       "title": "[For Hire] AI chatbot for your website - answers FAQs 24/7 & captures leads - $25/hr",
       "url": "https://www.reddit.com/r/forhire/comments/1xnbc03/for_hire_ai_chatbot_for_your_website_answers_faqs/",
       "published": "2026-11-04T01:29:17+00:00",
-      "age_days": 0.4,
+      "age_days": 0.5,
       "snippet": "I build AI chatbots for websites that answer FAQs and capture leads 24/7. Also ManyChat Instagram bots, and websites with a chatbot plus quiz. Rate: $25/hr. Samples available on request. DM me with your use case. submitted by /u/Successful-Fig424 [link] [comments]",
       "service_category": "customer_support",
       "service_signals": [
@@ -133,7 +133,7 @@
       "title": "[FOR HIRE] Marketing & Operations Assistant | SEO, Google Ads, WordPress & Virtual Support",
       "url": "https://www.reddit.com/r/forhire/comments/1xmx1gp/for_hire_marketing_operations_assistant_seo/",
       "published": "2026-11-03T16:08:47+00:00",
-      "age_days": 0.8,
+      "age_days": 0.9,
       "snippet": "Your website needs updates, leads need follow-up, marketing tasks keep getting pushed to next week, and your inbox is slowly becoming a second job. At some point, growth starts creating more work than one person can realistically manage. That's where I come in. Hi, I'm Joy, a Marketing & Operations Assistant with 4+ years of experience helping businesses stay organized, maintain a strong online presence, and keep important projects moving forward. Portfolio: https://joyamani.com/ What I Can Help With Marketing Support * SEO optimization * Google Ads setup and management * Local SEO * Google Business Profile management * Ad copywriting * Content publishing and formatting * Social media scheduling and management Website Support * WordPress management * Website updates and maintenance * Landing page creation * Web development support Operations & Virtual Assistance * Email and inbox management * Calendar management * Customer support * CRM management * Lead generation and outreach * Appointment setting * Research and data entry * SOP creation * Reporting and documentation Why Clients Work With Me I don't just complete tasks, I help keep things moving. I've supported businesses with da",
       "service_category": "lead_generation",
       "service_signals": [
@@ -208,7 +208,7 @@
   },
   "deal_maker": {
     "status": "no_qualified_drafts",
-    "created_at": "2026-11-04T10:31:12.315853+00:00",
+    "created_at": "2026-11-04T13:07:56.702997+00:00",
     "auto_send": false,
     "draft_count": 0,
     "drafts": []
