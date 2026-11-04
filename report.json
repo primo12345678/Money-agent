@@ -1,539 +1,233 @@
 {
-  "generated_at": "2026-11-04T10:11:37.634026+00:00",
+  "generated_at": "2026-11-04T10:31:12.292098+00:00",
   "agent": "Money Agent",
-  "mode": "opportunity_hunter_and_analyst",
-  "target": "Find potential buyers for AI automation services",
+  "mode": "qualified_buyer_hunter_and_offer_analyst",
+  "commercial_goal": "Find genuine buyers for small-business workflow automation pilots",
   "safety": {
     "auto_submit": false,
     "auto_signup": false,
     "auto_spend": false,
-    "auto_click_ads": false,
-    "auto_send": false
+    "auto_send": false,
+    "human_approval_required": true
   },
   "sources": [
     {
       "name": "Reddit r/forhire",
-      "url": "https://www.reddit.com/r/forhire/new/.rss",
-      "attribution_required": true
+      "url": "https://www.reddit.com/r/forhire/new/.rss"
     },
     {
-      "name": "Reddit r/slavelabour",
-      "url": "https://www.reddit.com/r/slavelabour/new/.rss",
-      "attribution_required": true
-    },
-    {
-      "name": "Remotive",
-      "url": "https://remotive.com/remote-jobs/feed",
-      "attribution_required": true
-    },
-    {
-      "name": "We Work Remotely",
-      "url": "https://weworkremotely.com/remote-jobs.rss",
-      "attribution_required": true
+      "name": "Reddit r/DoneDirtCheap",
+      "url": "https://www.reddit.com/r/DoneDirtCheap/new/.rss"
     }
   ],
-  "lead_quality": {
-    "rule": "Require relevant keywords and buyer-intent signals; filter ordinary vacancies.",
-    "buyer_leads_found": 9,
-    "human_review_required": true
+  "quality_control": {
+    "candidate_count": 3,
+    "qualified_leads": 3,
+    "rejected_by_reason": {
+      "no_relevant_service": 17,
+      "no_explicit_buyer_intent": 2,
+      "employment_listing": 3
+    },
+    "employment_feeds_removed": true,
+    "minimum_rule": "Relevant service signal plus explicit buyer intent or explicit budget; ordinary employment listings rejected."
   },
   "opportunities": [
     {
-      "source": "We Work Remotely",
-      "title": "SimpleTiger: Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)",
-      "url": "https://weworkremotely.com/remote-jobs/simpletiger-web-developer-wordpress-hubspot-u-s-based-remote-contractor",
-      "published": "Wed, 28 Oct 2026 16:49:37 +0000",
-      "snippet": "Headquarters: Sarasota, FL URL: https://www.simpletiger.com/ SimpleTiger is hiring a part-time contract web developer to build, improve, and troubleshoot client websites in WordPress and HubSpot, with the potential to grow into a larger role. We’re a B2B SaaS marketing agency helping software companies grow through SEO, content marketing, paid media, and answer engine optimization (AEO). Our clients’ websites are where much of that work comes to life, and we’re looking for a developer who can turn ideas into clean, functional pages quickly. As part of our delivery team, you’ll work primarily on client websites, translating designs, campaign concepts, and SEO recommendations into effective web experiences. From building new pages to fixing issues on existing sites, you’ll help turn our marketing strategy into work that’s ready to launch. Key responsibilities Build, update, or troubleshoot",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "looking for a developer"
+      "source": "Reddit r/forhire",
+      "title": "[FOR HIRE] GAME DEVELOPER | PROGRAMMER | TEAM LEAD | TECH LEAD | PROJECT MANAGER",
+      "url": "https://www.reddit.com/r/forhire/comments/1xnjqzf/for_hire_game_developer_programmer_team_lead_tech/",
+      "published": "2026-11-04T09:17:54+00:00",
+      "age_days": 0.1,
+      "snippet": "Im Looking for work I help bring games from concept to release, including development, infrastructure, and post-launch support. SERVICES: Full game development — solo, from scratch to release Team building, coordination & management Game programming & feature development Technical leadership & architecture Project planning & production management Backend, multiplayer & infrastructure Analytics, advertising & monetization Post-release updates, optimization & maintenance PLATFORMS & ENGINES: All genres and project sizes — from prototypes and indie games to large commercial projects. Platforms: PC, mobile, consoles & web Engines: Unity, Unreal Engine, Godot AI-POWERED DEVELOPMENT: I work extensively with AI coding agents and AI assistants to automate routine tasks, accelerate development, improve workflows, analyze code, and identify bugs. The result: faster development and lower costs while maintaining code quality and control over technical decisions. WORK FORMATS: Solo Development | Freelance | Contracts | Team development RATES: Project-based or hourly. $15-25 / hr PORTFOLIO: https://drive.google.com/drive/folders/1Z1Zf4KEqoUdhfToH6fbRW06ZArvV84Il submitted by /u/YuriyCowBoy [link",
+      "service_category": "ai_automation",
+      "service_signals": [
+        "automate"
       ],
-      "employment_signals": [],
-      "score": 62,
-      "confidence": 0.77,
-      "automation_fit": 0.76,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "zapier",
-        "n8n",
-        "crm",
-        "ai"
-      ],
+      "buyer_signals": [],
+      "buyer_intent_score": 68,
+      "explicit_budget": true,
+      "budget_signal": "RATES: Project-based or hourly. $15",
+      "lead_type": "explicit_service_buyer_request",
+      "human_review_required": true,
       "analysis": {
         "category": "ai_automation",
-        "priority": "MEDIUM",
-        "opportunity_score": 67,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        "category_label": "AI/workflow automation",
+        "priority": "LOW",
+        "opportunity_score": 63,
+        "score_components": {
+          "buyer_intent": 27,
+          "service_fit": 8,
+          "explicit_budget": 15,
+          "recency": 10,
+          "specificity": 3
         },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Reframe Space Inc.: Digital Marketing Specialist - Organic Growth and Lead Generation",
-      "url": "https://weworkremotely.com/remote-jobs/reframe-space-inc-digital-marketing-specialist-organic-growth-and-lead-generation",
-      "published": "Wed, 04 Nov 2026 09:33:18 +0000",
-      "snippet": "Headquarters: California URL: http://www.reframespace.com About Reframe Space Reframe Space Inc. is a fast-growing, US-based office space innovation company focused on helping businesses optimize their workplaces. Our products include office sound pods and modular conference rooms that make office space more flexible and functional. We grew rapidly the past year and are looking for someone to join our young, remote-focused team. We value initiative, clear communication, and consistent follow-through as we continue to grow. About the role You will own the day-to-day processes that build our organic digital marketing growth over time: developing prospect lists, running email and LinkedIn outreach, coordinating content production, and maintaining an active social media presence. This role is about steady execution, thoughtful follow-up, and improving results through a consistent process. Yo",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "looking for someone to"
-      ],
-      "employment_signals": [],
-      "score": 62,
-      "confidence": 0.77,
-      "automation_fit": 0.76,
-      "matched_keywords": [
-        "automation",
-        "workflow",
-        "zapier",
-        "lead generation",
-        "crm",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "MEDIUM",
-        "opportunity_score": 66,
-        "estimated_value_eur": 600,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
+        "suggested_offer": {
+          "name": "Lead Response Mini-System",
+          "pilot_price_eur": 149,
+          "standard_setup_price_eur": 299,
+          "monthly_support_price_eur": 39,
+          "scope": [
+            "Capture enquiries from one agreed form or mailbox",
+            "Log enquiries in a client-owned Google Sheet",
+            "Send an acknowledgement and notify the business owner",
+            "Create a simple follow-up reminder and status tracker"
+          ],
+          "delivery_note": "Final scope, access, privacy terms and price must be agreed with the customer."
         },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "We Work Remotely",
-      "title": "Smartsheet: Manager, Engineering (Remote Eligible in Bulgaria)",
-      "url": "https://weworkremotely.com/remote-jobs/smartsheet-manager-engineering-remote-eligible-in-bulgaria",
-      "published": "Fri, 30 Oct 2026 07:31:10 +0000",
-      "snippet": "Headquarters: -REMOTE, BULGARIA- For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual tasks and uncovering insights at scale, we create the space for people to focus on what truly matters: judgment, creativity, and big thinking. That is magic at work, and it’s what we show up for every day. Smartsheet is a tech company with a human story to tell. We’re here to empower teams to manage projects, automate workflows, and rapidly build new secure solutions, using simple no-code tools. We’re revolutionaries – so for us, changing the way the world works is all in a day’s work. As a global leader in Intelligent Work Management with a market cap of $10bn, we’ve continued to scale our engineering presence ",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "want to build"
-      ],
-      "employment_signals": [],
-      "score": 55,
-      "confidence": 0.7,
-      "automation_fit": 0.7,
-      "matched_keywords": [
-        "automation",
-        "ai agent",
-        "workflow",
-        "no-code",
-        "ai"
-      ],
-      "analysis": {
-        "category": "ai_automation",
-        "priority": "MEDIUM",
-        "opportunity_score": 56,
-        "estimated_value_eur": 10,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          10.0
-        ],
-        "offer": {
-          "service": "AI workflow automation",
-          "starter_price_eur": 250,
-          "target_price_eur": 600,
-          "premium_price_eur": 1500,
-          "pitch": "I can automate the ai automation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
+        "suggested_pilot_price_eur": 149,
+        "price_is_our_test_offer_not_customer_budget": true,
+        "eligible_for_human_review": false,
+        "reason": "Relevant service signal plus explicit buyer-intent evidence. A human must verify the post and scope before contact."
       }
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[Hiring] Remote Client Outreach Assistant for a Video Editing Studio – % of every client you bring – Part-time, Online",
-      "url": "https://www.reddit.com/r/forhire/comments/1xmw5bv/hiring_remote_client_outreach_assistant_for_a/",
-      "published": "2026-11-03T15:35:19+00:00",
-      "snippet": "We&#39;re a small video editing studio (YouTube long-form, Shorts/Reels, gaming, educational content) looking for a part-time assistant to find and contact potential clients. What you&#39;ll do - Find creators, small brands and agencies that need video editing (YouTube, Instagram, TikTok, hiring posts) - Send short, personal emails and applications using our templates and portfolio - Track every lead and reply in a shared sheet - Hand interested clients to us. You don&#39;t edit What we need - Good written English, natural and not salesy - Know your way around YouTube/Instagram creator culture - {HOURS} hours a week, reliable updates - No cold-spamming and no bots. Every message is written by a person Pay: You get a % of what each client you bring us pays or a straight 15$ or X$/hr we aggree on. I&#39;ll go over the details in DMs. Location: Remote, any time zone (we&#39;re IST). To appl",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
+      "title": "[For Hire] AI chatbot for your website - answers FAQs 24/7 & captures leads - $25/hr",
+      "url": "https://www.reddit.com/r/forhire/comments/1xnbc03/for_hire_ai_chatbot_for_your_website_answers_faqs/",
+      "published": "2026-11-04T01:29:17+00:00",
+      "age_days": 0.4,
+      "snippet": "I build AI chatbots for websites that answer FAQs and capture leads 24/7. Also ManyChat Instagram bots, and websites with a chatbot plus quiz. Rate: $25/hr. Samples available on request. DM me with your use case. submitted by /u/Successful-Fig424 [link] [comments]",
+      "service_category": "customer_support",
+      "service_signals": [
+        "chatbot"
       ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
+      "buyer_signals": [],
+      "buyer_intent_score": 60,
+      "explicit_budget": true,
+      "budget_signal": "Rate: $25",
+      "lead_type": "explicit_service_buyer_request",
+      "human_review_required": true,
+      "analysis": {
+        "category": "customer_support",
+        "category_label": "Customer enquiry/support workflow",
+        "priority": "LOW",
+        "opportunity_score": 60,
+        "score_components": {
+          "buyer_intent": 24,
+          "service_fit": 8,
+          "explicit_budget": 15,
+          "recency": 10,
+          "specificity": 3
+        },
+        "suggested_offer": {
+          "name": "Lead Response Mini-System",
+          "pilot_price_eur": 149,
+          "standard_setup_price_eur": 299,
+          "monthly_support_price_eur": 39,
+          "scope": [
+            "Capture enquiries from one agreed form or mailbox",
+            "Log enquiries in a client-owned Google Sheet",
+            "Send an acknowledgement and notify the business owner",
+            "Create a simple follow-up reminder and status tracker"
+          ],
+          "delivery_note": "Final scope, access, privacy terms and price must be agreed with the customer."
+        },
+        "suggested_pilot_price_eur": 149,
+        "price_is_our_test_offer_not_customer_budget": true,
+        "eligible_for_human_review": false,
+        "reason": "Relevant service signal plus explicit buyer-intent evidence. A human must verify the post and scope before contact."
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[FOR HIRE] Marketing & Operations Assistant | SEO, Google Ads, WordPress & Virtual Support",
+      "url": "https://www.reddit.com/r/forhire/comments/1xmx1gp/for_hire_marketing_operations_assistant_seo/",
+      "published": "2026-11-03T16:08:47+00:00",
+      "age_days": 0.8,
+      "snippet": "Your website needs updates, leads need follow-up, marketing tasks keep getting pushed to next week, and your inbox is slowly becoming a second job. At some point, growth starts creating more work than one person can realistically manage. That's where I come in. Hi, I'm Joy, a Marketing & Operations Assistant with 4+ years of experience helping businesses stay organized, maintain a strong online presence, and keep important projects moving forward. Portfolio: https://joyamani.com/ What I Can Help With Marketing Support * SEO optimization * Google Ads setup and management * Local SEO * Google Business Profile management * Ad copywriting * Content publishing and formatting * Social media scheduling and management Website Support * WordPress management * Website updates and maintenance * Landing page creation * Web development support Operations & Virtual Assistance * Email and inbox management * Calendar management * Customer support * CRM management * Lead generation and outreach * Appointment setting * Research and data entry * SOP creation * Reporting and documentation Why Clients Work With Me I don't just complete tasks, I help keep things moving. I've supported businesses with da",
+      "service_category": "lead_generation",
+      "service_signals": [
+        "lead generation"
       ],
+      "buyer_signals": [],
+      "buyer_intent_score": 60,
+      "explicit_budget": true,
+      "budget_signal": "Rate 💰 $15",
+      "lead_type": "explicit_service_buyer_request",
+      "human_review_required": true,
       "analysis": {
         "category": "lead_generation",
+        "category_label": "Lead capture and follow-up",
         "priority": "LOW",
-        "opportunity_score": 39,
-        "estimated_value_eur": 750,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        "opportunity_score": 60,
+        "score_components": {
+          "buyer_intent": 24,
+          "service_fit": 8,
+          "explicit_budget": 15,
+          "recency": 10,
+          "specificity": 3
         },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] LinkedIn creators for a product launch [$150-$400] per post, 10-15 slots, remote, preferred usa",
-      "url": "https://www.reddit.com/r/forhire/comments/1xn1ucb/hiring_linkedin_creators_for_a_product_launch/",
-      "published": "2026-11-03T19:02:09+00:00",
-      "snippet": "Hey everyone, I’m the founder of [one line — e.g. “a small SaaS tool that helps sales teams write cold emails faster”]. We’re launching it on LinkedIn around [date] and I want to do it through creators instead of burning cash on LinkedIn ads. The idea — 10 to 15 creators posting about it in the same 2-3 day window so it actually shows up in feeds and doesn’t die after one post. Not looking for a big celebrity account. I’d rather work with 15 people in the 5k–60k follower range who get real comments than one 300k account with 20 likes. Who this is for You post on LinkedIn regularly (2-3x a week minimum) Audience is mostly B2B / SaaS / sales / founders / startup people You write in your own voice. I’ll give you early access + a short brief, no script Any country, posts in English Pay &amp; terms 1 post per creator (text, carousel or short video, your call), live between [10th nov] and [15t",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "lead_generation",
-        "priority": "LOW",
-        "opportunity_score": 36,
-        "estimated_value_eur": 400,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          150.0,
-          400.0
-        ],
-        "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
+        "suggested_offer": {
+          "name": "Lead Response Mini-System",
+          "pilot_price_eur": 149,
+          "standard_setup_price_eur": 299,
+          "monthly_support_price_eur": 39,
+          "scope": [
+            "Capture enquiries from one agreed form or mailbox",
+            "Log enquiries in a client-owned Google Sheet",
+            "Send an acknowledgement and notify the business owner",
+            "Create a simple follow-up reminder and status tracker"
+          ],
+          "delivery_note": "Final scope, access, privacy terms and price must be agreed with the customer."
         },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[For Hire] What if you had an extra pair of hands for & hours a day?",
-      "url": "https://www.reddit.com/r/forhire/comments/1xn2lw0/for_hire_what_if_you_had_an_extra_pair_of_hands/",
-      "published": "2026-11-03T19:30:01+00:00",
-      "snippet": "Hey guys! I&#39;m not here looking for a specific job title. I&#39;m here to offer my time to anyone who might need an extra pair of hands. I have 8 hours a day available, and I&#39;m genuinely open to doing pretty much any kind of online work. I could be your personal assistant, 100% remotely. I can learn how your business works, work alongside you, or simply take care of whatever tasks you need help with. It could be routine stuff like managing emails, online research, organizing things, or pretty much anything that can be done remotely. The tools I have are an iPhone 17 Pro Max, a good level of English, and most importantly, I&#39;m willing to learn and put in the time. I&#39;m asking for just $400 a month. That&#39;s less than what a bottle of water costs you in terms of your daily expenses, but it would genuinely mean a lot to me. If you think you could use an extra pair of hands, f",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "need help with"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          400.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Social Media & Reddit Manager",
-      "url": "https://www.reddit.com/r/forhire/comments/1xmu1sv/hiring_social_media_reddit_manager/",
-      "published": "2026-11-03T14:15:22+00:00",
-      "snippet": "We&#39;re looking for a creative, proactive, and detail-oriented person to manage our social media presence, with a strong focus on Reddit. Main Responsibilities: - Manage and grow social media accounts. - Create engaging posts and captions. - Manage and maintain a Reddit account, including posting, commenting, and interacting with communities. - Identify relevant subreddits and engagement opportunities. - Keep up with social media trends, viral content, and platform updates. - Monitor engagement, track performance, and suggest new strategies. - Maintain a consistent posting schedule and online presence. What We&#39;re Looking For: - Good written English and communication skills. - Previous experience managing social media accounts. - Good understanding of Reddit, its culture, rules, and different communities. - Creativity and the ability to come up with engaging content ideas. - Strong ",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "value_basis": "Service-band estimate; not a quoted budget",
-        "budget_signals": [],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] BD Lead for a crypto growth agency, starting $15/hr, Remote",
-      "url": "https://www.reddit.com/r/forhire/comments/1xn36yo/hiring_bd_lead_for_a_crypto_growth_agency/",
-      "published": "2026-11-03T19:51:19+00:00",
-      "snippet": "We&#39;re Growgami, a growth agency for crypto projects ( https://growgami.com ). We help teams grow through KOLs, communities and content, and we need more people on the frontline bringing in clients. Pay starts at $15/hr, depending on experience. Fully remote, ongoing. What you&#39;d do: - run cold outreach over email, LinkedIn and X - keep warm leads moving - take deals from first call to signed You&#39;d fit if you&#39;ve done cold email or LinkedIn outbound for a living, or you already know founders building in crypto. No CV. Apply through the short form, where you walk us through a few real deal situations: https://forms.growgami.com/careers/bd-lead Put the word &quot;frontline&quot; at the top of your application so we know you read this. Please apply through the form or PM, not in the comments. &#32; submitted by &#32; /u/Kangrim_ [link] &#32; [comments]",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "lead_generation",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 15,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          15.0,
-          15.0
-        ],
-        "offer": {
-          "service": "AI lead generation and follow-up",
-          "starter_price_eur": 300,
-          "target_price_eur": 750,
-          "premium_price_eur": 2000,
-          "pitch": "I can automate the lead generation workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] Video editor for construction company short-form content (Reels/TikTok/X), $25–40 per video, Remote",
-      "url": "https://www.reddit.com/r/forhire/comments/1xn2svp/hiring_video_editor_for_construction_company/",
-      "published": "2026-11-03T19:37:07+00:00",
-      "snippet": "We&#39;re iFixit General Contractor, a family-owned remodeling and home repair company in Langhorne, PA. We film a lot on the job: before-and-afters, carpentry close-ups, and quick trade tips that explain the &quot;why&quot; behind a technique. Our best tip video got 13K+ views, and we want more like it, consistently. Pay: $25–40 per finished video, depending on length and experience. Paid per video, ongoing. What we need: - Short vertical videos (15–60 sec) cut from our raw job footage - Strong hooks in the first 2 seconds, clean captions, simple branding (logo and colors provided) - Ready-to-post versions for Instagram Reels, TikTok and X - Ongoing work, starting with about 3–5 videos a week Nice to have: experience with trades/DIY content and a sense for what gets views. To apply: PM me with your portfolio (short-form examples, please) and your usual turnaround. Remote is fine. &#32; ",
-      "lead_type": "potential_buyer_request",
-      "buyer_intent_score": 25,
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "employment_signals": [],
-      "score": 27,
-      "confidence": 0.42,
-      "automation_fit": 0.46,
-      "matched_keywords": [
-        "ai"
-      ],
-      "analysis": {
-        "category": "other",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 25,
-        "value_basis": "Detected budget/rate in listing",
-        "budget_signals": [
-          25.0,
-          25.0
-        ],
-        "offer": {
-          "service": "AI workflow improvement",
-          "starter_price_eur": 150,
-          "target_price_eur": 400,
-          "premium_price_eur": 1000,
-          "pitch": "I can automate the other workflow, connect the required tools, and deliver a measurable working flow."
-        },
-        "human_approval_required": true
+        "suggested_pilot_price_eur": 149,
+        "price_is_our_test_offer_not_customer_budget": true,
+        "eligible_for_human_review": false,
+        "reason": "Relevant service signal plus explicit buyer-intent evidence. A human must verify the post and scope before contact."
       }
     }
   ],
   "errors": [
     {
-      "source": "Reddit r/slavelabour",
+      "source": "Reddit r/DoneDirtCheap",
       "error": "HTTP Error 429: Too Many Requests"
     }
   ],
+  "commercial_model": {
+    "offer": {
+      "name": "Lead Response Mini-System",
+      "pilot_price_eur": 149,
+      "standard_setup_price_eur": 299,
+      "monthly_support_price_eur": 39,
+      "scope": [
+        "Capture enquiries from one agreed form or mailbox",
+        "Log enquiries in a client-owned Google Sheet",
+        "Send an acknowledgement and notify the business owner",
+        "Create a simple follow-up reminder and status tracker"
+      ],
+      "delivery_note": "Final scope, access, privacy terms and price must be agreed with the customer."
+    },
+    "target": "One paid pilot, then repeatable setup and monthly support revenue",
+    "revenue_definition": "Only customer payments recorded as received count as revenue."
+  },
   "analysis": {
-    "status": "ready_for_human_review",
-    "note": "Scores and prices are estimates, not guaranteed earnings.",
-    "next_step": "Review the highest-priority opportunity before contacting the buyer."
+    "status": "no_qualified_leads",
+    "qualified_for_review": 0,
+    "total_candidates": 3,
+    "note": "No lead is contacted automatically. No revenue is claimed until payment is recorded."
   },
   "deal_maker": {
-    "status": "drafts_ready_for_human_review",
-    "created_at": "2026-11-04T10:11:37.665637+00:00",
+    "status": "no_qualified_drafts",
+    "created_at": "2026-11-04T10:31:12.315853+00:00",
     "auto_send": false,
-    "auto_signup": false,
-    "draft_count": 9,
-    "drafts": [
-      {
-        "title": "SimpleTiger: Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)",
-        "url": "https://weworkremotely.com/remote-jobs/simpletiger-web-developer-wordpress-hubspot-u-s-based-remote-contractor",
-        "priority": "MEDIUM",
-        "opportunity_score": 67,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"SimpleTiger: Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Reframe Space Inc.: Digital Marketing Specialist - Organic Growth and Lead Generation",
-        "url": "https://weworkremotely.com/remote-jobs/reframe-space-inc-digital-marketing-specialist-organic-growth-and-lead-generation",
-        "priority": "MEDIUM",
-        "opportunity_score": 66,
-        "estimated_value_eur": 600,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"Reframe Space Inc.: Digital Marketing Specialist - Organic Growth and Lead Generation\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "Smartsheet: Manager, Engineering (Remote Eligible in Bulgaria)",
-        "url": "https://weworkremotely.com/remote-jobs/smartsheet-manager-engineering-remote-eligible-in-bulgaria",
-        "priority": "MEDIUM",
-        "opportunity_score": 56,
-        "estimated_value_eur": 10,
-        "offer": {
-          "subject": "Proposal: AI workflow automation",
-          "price_eur": 600,
-          "starter_price_eur": 250,
-          "message": "Hi,\n\nI saw your request about \"Smartsheet: Manager, Engineering (Remote Eligible in Bulgaria)\". I can help with ai workflow automation and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €250, with the full solution targeted at about €600 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Remote Client Outreach Assistant for a Video Editing Studio – % of every client you bring – Part-time, Online",
-        "url": "https://www.reddit.com/r/forhire/comments/1xmw5bv/hiring_remote_client_outreach_assistant_for_a/",
-        "priority": "LOW",
-        "opportunity_score": 39,
-        "estimated_value_eur": 750,
-        "offer": {
-          "subject": "Proposal: AI lead generation and follow-up",
-          "price_eur": 750,
-          "starter_price_eur": 300,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Remote Client Outreach Assistant for a Video Editing Studio – % of every client you bring – Part-time, Online\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] LinkedIn creators for a product launch [$150-$400] per post, 10-15 slots, remote, preferred usa",
-        "url": "https://www.reddit.com/r/forhire/comments/1xn1ucb/hiring_linkedin_creators_for_a_product_launch/",
-        "priority": "LOW",
-        "opportunity_score": 36,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI lead generation and follow-up",
-          "price_eur": 750,
-          "starter_price_eur": 300,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] LinkedIn creators for a product launch [$150-$400] per post, 10-15 slots, remote, preferred usa\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[For Hire] What if you had an extra pair of hands for & hours a day?",
-        "url": "https://www.reddit.com/r/forhire/comments/1xn2lw0/for_hire_what_if_you_had_an_extra_pair_of_hands/",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[For Hire] What if you had an extra pair of hands for & hours a day?\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Social Media & Reddit Manager",
-        "url": "https://www.reddit.com/r/forhire/comments/1xmu1sv/hiring_social_media_reddit_manager/",
-        "priority": "LOW",
-        "opportunity_score": 35,
-        "estimated_value_eur": 400,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Social Media & Reddit Manager\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] BD Lead for a crypto growth agency, starting $15/hr, Remote",
-        "url": "https://www.reddit.com/r/forhire/comments/1xn36yo/hiring_bd_lead_for_a_crypto_growth_agency/",
-        "priority": "LOW",
-        "opportunity_score": 33,
-        "estimated_value_eur": 15,
-        "offer": {
-          "subject": "Proposal: AI lead generation and follow-up",
-          "price_eur": 750,
-          "starter_price_eur": 300,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] BD Lead for a crypto growth agency, starting $15/hr, Remote\". I can help with ai lead generation and follow-up and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €300, with the full solution targeted at about €750 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] Video editor for construction company short-form content (Reels/TikTok/X), $25–40 per video, Remote",
-        "url": "https://www.reddit.com/r/forhire/comments/1xn2svp/hiring_video_editor_for_construction_company/",
-        "priority": "LOW",
-        "opportunity_score": 32,
-        "estimated_value_eur": 25,
-        "offer": {
-          "subject": "Proposal: AI workflow improvement",
-          "price_eur": 400,
-          "starter_price_eur": 150,
-          "message": "Hi,\n\nI saw your request about \"[Hiring] Video editor for construction company short-form content (Reels/TikTok/X), $25–40 per video, Remote\". I can help with ai workflow improvement and focus on a working, measurable result.\n\nSuggested first step: a small implementation/audit for €150, with the full solution targeted at about €400 depending on scope.\n\nI can map the current workflow, identify the highest-value automation, and propose the exact tools and deliverables before any larger commitment.\n\nIf useful, I can send a short implementation plan.\n\nBest,\nMoney Agent",
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      }
-    ]
+    "draft_count": 0,
+    "drafts": []
+  },
+  "pipeline": {
+    "tracked_leads": 3,
+    "status_counts": {
+      "contacted": 0,
+      "lost": 0,
+      "new": 3,
+      "proposal_sent": 0,
+      "qualified": 0,
+      "replied": 0,
+      "reviewed": 0,
+      "won": 0
+    },
+    "confirmed_revenue_eur": 0,
+    "revenue_rule": "Only confirmed payments count; suggested prices are not revenue.",
+    "crm_file": "data/lead_pipeline.json",
+    "revenue_file": "data/revenue.json"
   }
 }
