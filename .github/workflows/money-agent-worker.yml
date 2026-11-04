@@ -1,6 +1,10 @@
 name: Money Agent Worker
 on:
   workflow_dispatch:
+  push:
+    branches: [money-agent-upgrade]
+  pull_request:
+    branches: [main]
   schedule:
     - cron: "17 * * * *"
 permissions:
@@ -42,6 +46,7 @@ jobs:
           print("Confirmed revenue EUR:", report.get("pipeline", {}).get("confirmed_revenue_eur", 0))
           PY
       - name: Save reports and CRM
+        if: github.event_name != 'pull_request'
         run: |
           git config user.name "Money Agent"
           git config user.email "money-agent@users.noreply.github.com"
