@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T01:29:49.033428+00:00",
+  "generated_at": "2026-11-05T09:36:06.275154+00:00",
   "agent": "Money Agent",
   "mode": "qualified_buyer_hunter_and_offer_analyst",
   "commercial_goal": "Find genuine buyers for small-business workflow automation pilots",
@@ -24,9 +24,9 @@
     "candidate_count": 2,
     "qualified_leads": 2,
     "rejected_by_reason": {
-      "no_relevant_service": 16,
-      "employment_listing": 5,
-      "no_explicit_buyer_intent": 2
+      "no_relevant_service": 17,
+      "no_explicit_buyer_intent": 2,
+      "employment_listing": 4
     },
     "employment_feeds_removed": true,
     "minimum_rule": "Relevant service signal plus explicit buyer intent or explicit budget; ordinary employment listings rejected."
@@ -37,7 +37,7 @@
       "title": "[For Hire] Frontend Developer (5+ yrs) — Websites, UI implementation, and frontend builds — $25/hr",
       "url": "https://www.reddit.com/r/forhire/comments/1xo2hw4/for_hire_frontend_developer_5_yrs_websites_ui/",
       "published": "2026-11-04T22:51:19+00:00",
-      "age_days": 0.1,
+      "age_days": 0.4,
       "snippet": "I create and maintain production-ready websites and frontend implementations with fast turnaround and clean, reliable code. My focus is on clear communication to keep projects moving efficiently and avoid unnecessary back and forth. Check out my Portfolio . WHAT I CAN HELP YOU WITH Converting designs into live, production-ready websites Frontend implementation for websites and web applications Building responsive landing pages UI implementation and interface improvements WordPress theme implementation and customization Shopify theme implementation and customization Maintaining and improving existing frontend code ABOUT I’m a frontend developer and web consultant with 5+ years of experience building websites and web applications for startups, founders, and businesses. I focus on delivering clean, reliable frontend implementations ready for real-world use. Hourly Rate: $25/hr TECHNOLOGIES - Languages & Frameworks: JavaScript, TypeScript, React, Next.js, Node.js, PHP - UI & Styling: Tailwind CSS, SCSS, Styled Components, Figma - CMS: WordPress, Contentful, Sanity, Strapi - E-commerce: Shopify, Shopify Liquid - API Integrations: Stripe, Auth0, SendGrid, Mailchimp, Google Maps, Cloudina",
       "service_category": "integration",
       "service_signals": [
@@ -85,7 +85,7 @@
       "title": "[For Hire] GTM Engineer | Clay tables, enriched lead lists, n8n + HubSpot automations | Fixed price from $50",
       "url": "https://www.reddit.com/r/forhire/comments/1xo0n63/for_hire_gtm_engineer_clay_tables_enriched_lead/",
       "published": "2026-11-04T21:34:47+00:00",
-      "age_days": 0.2,
+      "age_days": 0.5,
       "snippet": "Hi, I’m a GTM engineer. I build the systems behind outbound: enrichment, lead lists and the automations that connect your tools. Fixed-price offers: Clay table fix ($50 to $150): broken waterfalls, formulas, HTTP API columns, credits burning too fast. Enriched lead list ($150 for 300 leads): you send your ICP and I return verified emails plus a personalized first line, built in your Clay workspace. n8n automation ($100 to $400): form or Calendly to HubSpot, lead routing, Slack alerts, auto-enrichment of new signups. HubSpot cleanup ($100 to $250): dedupe, properties, lifecycle stages, pipelines. What I’ve built: a personal GTM engine (n8n, Clay, Neon, HubSpot and a Next.js ops console) and a self-hosted job-signal tracker in n8n. Portfolio: https://www.mohamedlandolsi.tech/ The first 3 clients get 30% off in exchange for an honest review. I can send a free 20-lead sample before you pay anything. DM me with what you need and I’ll reply with a fixed quote within 24h. submitted by /u/Alarmed-Sector-6427 [link] [comments]",
       "service_category": "ai_automation",
       "service_signals": [
@@ -160,7 +160,7 @@
   },
   "deal_maker": {
     "status": "no_qualified_drafts",
-    "created_at": "2026-11-05T01:29:49.055008+00:00",
+    "created_at": "2026-11-05T09:36:06.293034+00:00",
     "auto_send": false,
     "draft_count": 0,
     "drafts": []
