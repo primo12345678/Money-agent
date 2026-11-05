@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T20:27:32.970364+00:00",
+  "generated_at": "2026-11-05T01:29:49.033428+00:00",
   "agent": "Money Agent",
   "mode": "qualified_buyer_hunter_and_offer_analyst",
   "commercial_goal": "Find genuine buyers for small-business workflow automation pilots",
@@ -21,12 +21,12 @@
     }
   ],
   "quality_control": {
-    "candidate_count": 1,
-    "qualified_leads": 1,
+    "candidate_count": 2,
+    "qualified_leads": 2,
     "rejected_by_reason": {
-      "no_relevant_service": 17,
-      "no_explicit_buyer_intent": 4,
-      "employment_listing": 3
+      "no_relevant_service": 16,
+      "employment_listing": 5,
+      "no_explicit_buyer_intent": 2
     },
     "employment_feeds_removed": true,
     "minimum_rule": "Relevant service signal plus explicit buyer intent or explicit budget; ordinary employment listings rejected."
@@ -34,28 +34,76 @@
   "opportunities": [
     {
       "source": "Reddit r/forhire",
-      "title": "[FOR HIRE] GAME DEVELOPER | PROGRAMMER | TEAM LEAD | TECH LEAD | PROJECT MANAGER",
-      "url": "https://www.reddit.com/r/forhire/comments/1xnjqzf/for_hire_game_developer_programmer_team_lead_tech/",
-      "published": "2026-11-04T09:17:54+00:00",
-      "age_days": 0.5,
-      "snippet": "Im Looking for work I help bring games from concept to release, including development, infrastructure, and post-launch support. SERVICES: Full game development — solo, from scratch to release Team building, coordination & management Game programming & feature development Technical leadership & architecture Project planning & production management Backend, multiplayer & infrastructure Analytics, advertising & monetization Post-release updates, optimization & maintenance PLATFORMS & ENGINES: All genres and project sizes — from prototypes and indie games to large commercial projects. Platforms: PC, mobile, consoles & web Engines: Unity, Unreal Engine, Godot AI-POWERED DEVELOPMENT: I work extensively with AI coding agents and AI assistants to automate routine tasks, accelerate development, improve workflows, analyze code, and identify bugs. The result: faster development and lower costs while maintaining code quality and control over technical decisions. WORK FORMATS: Solo Development | Freelance | Contracts | Team development RATES: Project-based or hourly. $15-25 / hr PORTFOLIO: https://drive.google.com/drive/folders/1Z1Zf4KEqoUdhfToH6fbRW06ZArvV84Il submitted by /u/YuriyCowBoy [link",
-      "service_category": "ai_automation",
+      "title": "[For Hire] Frontend Developer (5+ yrs) — Websites, UI implementation, and frontend builds — $25/hr",
+      "url": "https://www.reddit.com/r/forhire/comments/1xo2hw4/for_hire_frontend_developer_5_yrs_websites_ui/",
+      "published": "2026-11-04T22:51:19+00:00",
+      "age_days": 0.1,
+      "snippet": "I create and maintain production-ready websites and frontend implementations with fast turnaround and clean, reliable code. My focus is on clear communication to keep projects moving efficiently and avoid unnecessary back and forth. Check out my Portfolio . WHAT I CAN HELP YOU WITH Converting designs into live, production-ready websites Frontend implementation for websites and web applications Building responsive landing pages UI implementation and interface improvements WordPress theme implementation and customization Shopify theme implementation and customization Maintaining and improving existing frontend code ABOUT I’m a frontend developer and web consultant with 5+ years of experience building websites and web applications for startups, founders, and businesses. I focus on delivering clean, reliable frontend implementations ready for real-world use. Hourly Rate: $25/hr TECHNOLOGIES - Languages & Frameworks: JavaScript, TypeScript, React, Next.js, Node.js, PHP - UI & Styling: Tailwind CSS, SCSS, Styled Components, Figma - CMS: WordPress, Contentful, Sanity, Strapi - E-commerce: Shopify, Shopify Liquid - API Integrations: Stripe, Auth0, SendGrid, Mailchimp, Google Maps, Cloudina",
+      "service_category": "integration",
       "service_signals": [
-        "automate"
+        "api integration"
       ],
       "buyer_signals": [],
-      "buyer_intent_score": 68,
+      "buyer_intent_score": 60,
       "explicit_budget": true,
-      "budget_signal": "RATES: Project-based or hourly. $15",
+      "budget_signal": "Rate: $25",
+      "lead_type": "explicit_service_buyer_request",
+      "human_review_required": true,
+      "analysis": {
+        "category": "integration",
+        "category_label": "Email, form, spreadsheet or CRM integration",
+        "priority": "LOW",
+        "opportunity_score": 60,
+        "score_components": {
+          "buyer_intent": 24,
+          "service_fit": 8,
+          "explicit_budget": 15,
+          "recency": 10,
+          "specificity": 3
+        },
+        "suggested_offer": {
+          "name": "Lead Response Mini-System",
+          "pilot_price_eur": 149,
+          "standard_setup_price_eur": 299,
+          "monthly_support_price_eur": 39,
+          "scope": [
+            "Capture enquiries from one agreed form or mailbox",
+            "Log enquiries in a client-owned Google Sheet",
+            "Send an acknowledgement and notify the business owner",
+            "Create a simple follow-up reminder and status tracker"
+          ],
+          "delivery_note": "Final scope, access, privacy terms and price must be agreed with the customer."
+        },
+        "suggested_pilot_price_eur": 149,
+        "price_is_our_test_offer_not_customer_budget": true,
+        "eligible_for_human_review": false,
+        "reason": "Relevant service signal plus explicit buyer-intent evidence. A human must verify the post and scope before contact."
+      }
+    },
+    {
+      "source": "Reddit r/forhire",
+      "title": "[For Hire] GTM Engineer | Clay tables, enriched lead lists, n8n + HubSpot automations | Fixed price from $50",
+      "url": "https://www.reddit.com/r/forhire/comments/1xo0n63/for_hire_gtm_engineer_clay_tables_enriched_lead/",
+      "published": "2026-11-04T21:34:47+00:00",
+      "age_days": 0.2,
+      "snippet": "Hi, I’m a GTM engineer. I build the systems behind outbound: enrichment, lead lists and the automations that connect your tools. Fixed-price offers: Clay table fix ($50 to $150): broken waterfalls, formulas, HTTP API columns, credits burning too fast. Enriched lead list ($150 for 300 leads): you send your ICP and I return verified emails plus a personalized first line, built in your Clay workspace. n8n automation ($100 to $400): form or Calendly to HubSpot, lead routing, Slack alerts, auto-enrichment of new signups. HubSpot cleanup ($100 to $250): dedupe, properties, lifecycle stages, pipelines. What I’ve built: a personal GTM engine (n8n, Clay, Neon, HubSpot and a Next.js ops console) and a self-hosted job-signal tracker in n8n. Portfolio: https://www.mohamedlandolsi.tech/ The first 3 clients get 30% off in exchange for an honest review. I can send a free 20-lead sample before you pay anything. DM me with what you need and I’ll reply with a fixed quote within 24h. submitted by /u/Alarmed-Sector-6427 [link] [comments]",
+      "service_category": "ai_automation",
+      "service_signals": [
+        "n8n"
+      ],
+      "buyer_signals": [],
+      "buyer_intent_score": 60,
+      "explicit_budget": true,
+      "budget_signal": "Fixed price from $50",
       "lead_type": "explicit_service_buyer_request",
       "human_review_required": true,
       "analysis": {
         "category": "ai_automation",
         "category_label": "AI/workflow automation",
         "priority": "LOW",
-        "opportunity_score": 63,
+        "opportunity_score": 60,
         "score_components": {
-          "buyer_intent": 27,
+          "buyer_intent": 24,
           "service_fit": 8,
           "explicit_budget": 15,
           "recency": 10,
@@ -107,22 +155,22 @@
   "analysis": {
     "status": "no_qualified_leads",
     "qualified_for_review": 0,
-    "total_candidates": 1,
+    "total_candidates": 2,
     "note": "No lead is contacted automatically. No revenue is claimed until payment is recorded."
   },
   "deal_maker": {
     "status": "no_qualified_drafts",
-    "created_at": "2026-11-04T20:27:32.985365+00:00",
+    "created_at": "2026-11-05T01:29:49.055008+00:00",
     "auto_send": false,
     "draft_count": 0,
     "drafts": []
   },
   "pipeline": {
-    "tracked_leads": 3,
+    "tracked_leads": 5,
     "status_counts": {
       "contacted": 0,
       "lost": 0,
-      "new": 3,
+      "new": 5,
       "proposal_sent": 0,
       "qualified": 0,
       "replied": 0,
