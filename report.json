@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T18:05:37.620405+00:00",
+  "generated_at": "2026-11-05T23:41:19.162102+00:00",
   "agent": "Money Agent",
   "mode": "qualified_buyer_hunter_and_offer_analyst",
   "commercial_goal": "Find genuine buyers for small-business workflow automation pilots",
@@ -25,8 +25,8 @@
     "qualified_leads": 0,
     "rejected_by_reason": {
       "no_relevant_service": 20,
-      "no_explicit_buyer_intent": 2,
-      "employment_listing": 3
+      "employment_listing": 2,
+      "no_explicit_buyer_intent": 3
     },
     "employment_feeds_removed": true,
     "minimum_rule": "Relevant service signal plus explicit buyer intent or explicit budget; ordinary employment listings rejected."
@@ -63,7 +63,7 @@
   },
   "deal_maker": {
     "status": "no_qualified_drafts",
-    "created_at": "2026-11-05T18:05:37.644523+00:00",
+    "created_at": "2026-11-05T23:41:19.181704+00:00",
     "auto_send": false,
     "draft_count": 0,
     "drafts": []
