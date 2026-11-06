@@ -6,6 +6,7 @@ SOURCES=[("Reddit r/forhire","https://www.reddit.com/r/forhire/new/.rss"),("Redd
 MAX_AGE_DAYS=14
 SERVICE_TERMS={"ai_automation":["ai automation","workflow automation","n8n","zapier","make.com","ai agent","automate","automation workflow"],"lead_generation":["lead generation","lead capture","lead follow-up","lead follow up","crm automation","sales automation"],"customer_support":["customer support automation","support chatbot","customer service chatbot","chatbot","ticket automation"],"integration":["api integration","google sheets automation","email automation","webhook","crm integration","integrate"]}
 BUYER_SIGNALS=["looking for a freelancer","need a freelancer","seeking a freelancer","hiring a freelancer","freelancer needed","need someone to build","looking for someone to build","looking to hire a freelancer","contractor needed","paid project","fixed price project","fixed-price project","project budget","budget is","budget:","paying for","will pay for","freelance project","commissioned project"]
+SELLER_TITLE_RE=re.compile(r"^\s*\[for hire\]",re.I)
 EMPLOYMENT_SIGNALS=["full-time","full time","part-time","part time","annual salary","per annum","job opening","job vacancy","apply for this job","join our team","employment opportunity","benefits package","career opportunity","position is","salary range","internship","entry-level role","remote job","looking for a job"]
 BUDGET_PATTERN=re.compile(r"(?:budget|project budget|pay|paying|fixed[- ]price|rate)[^\n]{0,35}(?:[$€£]\s*\d[\d,.]*|\d[\d,.]*\s*(?:USD|EUR|GBP))",re.I)
 def fetch(url):
@@ -42,6 +43,7 @@ def budget_signal(text):
 def evaluate(title,description,published,url,source):
  combined=clean(f"{title} {description}");low=combined.lower();category,service_hits=classify_service(combined);buy_hits=buyer_signals(combined);employment=[t for t in EMPLOYMENT_SIGNALS if t in low];budget=budget_signal(combined)
  if employment:return None,"employment_listing"
+ if SELLER_TITLE_RE.search(title):return None,"service_provider_listing"
  if not category:return None,"no_relevant_service"
  if not buy_hits and not budget:return None,"no_explicit_buyer_intent"
  age=None
