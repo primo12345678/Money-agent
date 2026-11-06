@@ -1,21 +1,25 @@
 name: Money Agent Worker
+
 on:
   workflow_dispatch:
   push:
-    branches: [money-agent-upgrade]
+    branches: [main]
   pull_request:
     branches: [main]
   schedule:
     - cron: "17 * * * *"
+
 permissions:
   contents: write
+
 concurrency:
   group: money-agent-worker
   cancel-in-progress: false
+
 jobs:
   hunt:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -23,33 +27,42 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Run lead discovery
+      - name: Run buyer discovery and CRM pipeline
         run: |
           python backend/hunter.py
           python backend/analyst.py
           python backend/deal_maker.py
           python backend/pipeline.py
-      - name: Test and validate
+      - name: Test and validate fresh report
         run: |
           python -m py_compile backend/*.py
           python -m unittest discover -s tests -v
           python - <<'PY'
           import json
+          from datetime import datetime, timezone
           with open("report.json", encoding="utf-8") as file:
               report = json.load(file)
           assert isinstance(report.get("opportunities"), list)
           assert isinstance(report.get("deal_maker", {}).get("drafts", []), list)
           assert report.get("safety", {}).get("auto_send") is False
-          assert report.get("pipeline", {}).get("confirmed_revenue_eur", 0) >= 0
-          print("Qualified leads:", report.get("analysis", {}).get("qualified_for_review", 0))
+          assert report.get("safety", {}).get("auto_spend") is False
+          generated = datetime.fromisoformat(report["generated_at"].replace("Z", "+00:00"))
+          age_minutes = (datetime.now(timezone.utc) - generated).total_seconds() / 60
+          assert age_minutes < 10, f"Report is stale: {age_minutes:.1f} minutes"
+          for lead in report["opportunities"]:
+              assert lead.get("service_signals"), "Lead missing service evidence"
+              assert lead.get("buyer_signals"), "Lead missing buyer-intent evidence"
+          print("Fresh report age (minutes):", round(age_minutes, 1))
+          print("Candidates:", report.get("quality_control", {}).get("candidate_count", 0))
+          print("Qualified for human review:", report.get("analysis", {}).get("qualified_for_review", 0))
           print("Drafts:", report.get("deal_maker", {}).get("draft_count", 0))
           print("Confirmed revenue EUR:", report.get("pipeline", {}).get("confirmed_revenue_eur", 0))
           PY
-      - name: Save reports and CRM
+      - name: Save report and CRM
         if: github.event_name != 'pull_request'
         run: |
           git config user.name "Money Agent"
           git config user.email "money-agent@users.noreply.github.com"
           git add report.json data/lead_pipeline.json data/revenue.json
-          git diff --cached --quiet || git commit -m "Refresh qualified leads and CRM pipeline"
+          git diff --cached --quiet || git commit -m "Refresh buyer opportunities and CRM pipeline"
           git push
