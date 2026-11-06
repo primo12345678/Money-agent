@@ -28,26 +28,31 @@ jobs:
         with:
           gradle-version: '8.9'
 
-      # The stable keystore is stored only in GitHub Actions Secrets.
+      # A single protected repository secret contains the keystore and password.
       # Pull-request builds use the disposable debug key and are not for installation.
-      - name: Validate stable signing secrets
+      - name: Prepare stable signing key
         if: github.event_name != 'pull_request'
         env:
-          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
-          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_SIGNING_BUNDLE_BASE64: ${{ secrets.ANDROID_SIGNING_BUNDLE_BASE64 }}
         run: |
-          test -n "$ANDROID_KEYSTORE_BASE64" || (echo "::error::Missing ANDROID_KEYSTORE_BASE64 repository secret" && exit 1)
-          test -n "$ANDROID_KEYSTORE_PASSWORD" || (echo "::error::Missing ANDROID_KEYSTORE_PASSWORD repository secret" && exit 1)
-          echo "$ANDROID_KEYSTORE_BASE64" | base64 --decode > "$RUNNER_TEMP/moneyagent-release.jks"
-          test -s "$RUNNER_TEMP/moneyagent-release.jks"
+          test -n "$ANDROID_SIGNING_BUNDLE_BASE64" || (echo "::error::Missing ANDROID_SIGNING_BUNDLE_BASE64 repository secret" && exit 1)
+          echo "$ANDROID_SIGNING_BUNDLE_BASE64" | base64 --decode > "$RUNNER_TEMP/android-signing-bundle.zip"
+          mkdir -p "$RUNNER_TEMP/android-signing"
+          unzip -q "$RUNNER_TEMP/android-signing-bundle.zip" -d "$RUNNER_TEMP/android-signing"
+          test -s "$RUNNER_TEMP/android-signing/moneyagent-release.jks"
+          test -s "$RUNNER_TEMP/android-signing/password.txt"
+          echo "ANDROID_KEYSTORE_PATH=$RUNNER_TEMP/android-signing/moneyagent-release.jks" >> "$GITHUB_ENV"
+          echo "ANDROID_KEYSTORE_PASSWORD=$(cat "$RUNNER_TEMP/android-signing/password.txt")" >> "$GITHUB_ENV"
 
       - name: Build APK
         env:
-          ANDROID_KEYSTORE_PATH: ${{ github.event_name == 'pull_request' && '' || format('{0}/moneyagent-release.jks', runner.temp) }}
-          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
           ANDROID_KEY_ALIAS: moneyagent
-          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
-        run: gradle assembleDebug
+          ANDROID_KEY_PASSWORD: ${{ github.event_name == 'pull_request' && '' || '' }}
+        run: |
+          if [ "$GITHUB_EVENT_NAME" != "pull_request" ]; then
+            export ANDROID_KEY_PASSWORD="$ANDROID_KEYSTORE_PASSWORD"
+          fi
+          gradle assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
