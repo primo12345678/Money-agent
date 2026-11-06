@@ -28,6 +28,7 @@ import java.text.NumberFormat;
 import java.util.Locale;
 import java.util.Currency;
 import java.util.Date;
+import java.util.TimeZone;
 import java.text.SimpleDateFormat;
 
 public class MainActivity extends Activity {
@@ -209,13 +210,26 @@ public class MainActivity extends Activity {
             card(content, "ПОДГОТВЕНИ ЧЕРНОВИ", String.valueOf(drafts), WHITE);
             card(content, "ПОТВЪРДЕНИ ПРИХОДИ", String.format(Locale.US, "%.2f €", revenue), GREEN);
 
+            String generatedAt = agentReport.optString("generated_at", "");
+            long reportAgeMinutes = reportAgeMinutes(generatedAt);
+            String ageLabel = reportAgeMinutes < 0
+                    ? "Възраст на отчета: неизвестна"
+                    : "Възраст на отчета: " + reportAgeMinutes + " мин.";
             TextView status = text(
                     "Статус: " + (analysis == null ? "няма данни" :
                     analysis.optString("status", "неизвестен")) +
-                    "\nПоследно обновяване: " + agentReport.optString("generated_at", "неизвестно"),
+                    "\nПоследно обновяване (UTC): " + (generatedAt.isEmpty() ? "неизвестно" : generatedAt) +
+                    "\n" + ageLabel,
                     12, MUTED, false);
             status.setPadding(0, dp(4), 0, dp(8));
             content.addView(status);
+            if (reportAgeMinutes > 90) {
+                TextView stale = text(
+                        "⚠️ Отчетът е остарял. Не вземай решения по тези данни; изчакай успешно обновяване.",
+                        12, Color.rgb(251, 191, 36), false);
+                stale.setPadding(0, 0, 0, dp(8));
+                content.addView(stale);
+            }
 
             JSONArray errors = agentReport.optJSONArray("errors");
             if (errors != null && errors.length() > 0) {
@@ -240,6 +254,19 @@ public class MainActivity extends Activity {
                 12, MUTED, false);
         safety.setPadding(0, dp(8), 0, dp(18));
         content.addView(safety);
+    }
+
+    private long reportAgeMinutes(String timestamp) {
+        try {
+            if (timestamp == null || timestamp.length() < 19) return -1;
+            SimpleDateFormat parser = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss", Locale.ROOT);
+            parser.setTimeZone(TimeZone.getTimeZone("UTC"));
+            Date generated = parser.parse(timestamp.substring(0, 19));
+            if (generated == null) return -1;
+            return Math.max(0, (System.currentTimeMillis() - generated.getTime()) / 60000L);
+        } catch (Exception e) {
+            return -1;
+        }
     }
 
     private void refreshAgentReport() {
