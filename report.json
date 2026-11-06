@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T12:36:07.402041+00:00",
+  "generated_at": "2026-11-06T12:36:23.636912+00:00",
   "agent": "Money Agent",
   "mode": "qualified_buyer_hunter_and_offer_analyst",
   "commercial_goal": "Find genuine buyers for small-business workflow automation pilots",
@@ -172,7 +172,7 @@
   },
   "deal_maker": {
     "status": "drafts_ready_for_human_review",
-    "created_at": "2026-11-06T12:36:07.416382+00:00",
+    "created_at": "2026-11-06T12:36:23.655471+00:00",
     "auto_send": false,
     "draft_count": 2,
     "drafts": [
