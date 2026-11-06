@@ -1,12 +1,15 @@
 name: Build MoneyAgent APK
+
 on:
   pull_request:
     branches: [main]
   workflow_dispatch:
   push:
     branches: [main]
+
 permissions:
   contents: read
+
 jobs:
   test-backend:
     runs-on: ubuntu-latest
@@ -19,7 +22,13 @@ jobs:
         run: |
           python -m py_compile backend/*.py
           python -m unittest discover -s tests -v
-          python -c "import json; r=json.load(open('report.json')); assert r['safety']['auto_send'] is False and r['safety']['auto_spend'] is False"
+          python - <<'PY'
+          import json
+          report = json.load(open("report.json", encoding="utf-8"))
+          assert report["safety"]["auto_send"] is False
+          assert report["safety"]["auto_spend"] is False
+          PY
+
   build-apk:
     runs-on: ubuntu-latest
     needs: test-backend
@@ -32,9 +41,10 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: "8.9"
-      - name: Prepare stable signing key
+
+      # Release/manual builds fail closed: never silently fall back to a debug key.
+      - name: Prepare permanent signing key
         if: github.event_name != 'pull_request'
-        continue-on-error: true
         env:
           SIGNING_BUNDLE: ${{ secrets.ANDROID_SIGNING_BUNDLE_BASE64 }}
         run: |
@@ -42,52 +52,67 @@ jobs:
           import base64, io, os, pathlib, zipfile
           raw = os.environ.get("SIGNING_BUNDLE", "").strip()
           if not raw:
-              raise SystemExit("Missing repository secret ANDROID_SIGNING_BUNDLE_BASE64")
+              raise SystemExit("Missing ANDROID_SIGNING_BUNDLE_BASE64 repository secret.")
           try:
               decoded = base64.b64decode("".join(raw.split()), validate=True)
           except Exception as exc:
-              raise SystemExit("Signing secret is not valid Base64; recreate the Base64 ZIP value.") from exc
+              raise SystemExit("Signing secret is not valid Base64.") from exc
           stream = io.BytesIO(decoded)
           if not zipfile.is_zipfile(stream):
-              raise SystemExit("Signing secret decodes but is not a ZIP. Expected ZIP containing moneyagent-release.jks and password.txt.")
+              raise SystemExit("Signing secret is not a ZIP archive.")
           target = pathlib.Path(os.environ["RUNNER_TEMP"]) / "android-signing"
           target.mkdir(parents=True, exist_ok=True)
           with zipfile.ZipFile(stream) as archive:
-              files = {pathlib.PurePosixPath(n).name: n for n in archive.namelist() if not n.endswith("/")}
+              files = {pathlib.PurePosixPath(name).name: name for name in archive.namelist() if not name.endswith("/")}
               for name in ("moneyagent-release.jks", "password.txt"):
                   if name not in files:
-                      raise SystemExit("Signing ZIP is missing " + name)
+                      raise SystemExit("Signing archive is missing " + name)
                   data = archive.read(files[name])
                   if not data:
-                      raise SystemExit("Signing ZIP contains an empty " + name)
+                      raise SystemExit("Signing archive contains an empty " + name)
                   (target / name).write_bytes(data)
           password = (target / "password.txt").read_text(encoding="utf-8").strip()
           if not password:
-              raise SystemExit("Signing password file is empty")
-          with open(os.environ["GITHUB_ENV"], "a") as env:
+              raise SystemExit("Signing password file is empty.")
+          with open(os.environ["GITHUB_ENV"], "a", encoding="utf-8") as env:
               env.write("ANDROID_KEYSTORE_PATH=" + str(target / "moneyagent-release.jks") + "\n")
               env.write("ANDROID_KEYSTORE_PASSWORD=" + password + "\n")
           PY
+          keytool -list -keystore "$RUNNER_TEMP/android-signing/moneyagent-release.jks" -storepass "$ANDROID_KEYSTORE_PASSWORD" -alias moneyagent >/dev/null
+
       - name: Build APK
         env:
           ANDROID_KEY_ALIAS: moneyagent
         run: |
-          if [ -n "$ANDROID_KEYSTORE_PASSWORD" ] && [ -n "$ANDROID_KEYSTORE_PATH" ]; then
-            echo "Building with the configured stable signing key."
+          if [ "${{ github.event_name }}" != "pull_request" ]; then
             export ANDROID_KEY_PASSWORD="$ANDROID_KEYSTORE_PASSWORD"
+            echo "Building with the permanent MoneyAgent signing key."
           else
-            echo "::warning::Stable signing key is not configured or could not be validated. Building a temporary debug-signed APK; do not use it for a permanent installation."
+            echo "Pull-request validation build; artifact will not be published."
           fi
           gradle --no-daemon assembleDebug
-      - name: Verify APK
+
+      - name: Verify APK signature
         run: |
           APK=app/build/outputs/apk/debug/app-debug.apk
           test -s "$APK"
           "$ANDROID_HOME/build-tools/35.0.0/apksigner" verify --verbose "$APK"
-      - name: Upload APK
+
+      - name: Verify permanent certificate fingerprint
+        if: github.event_name != 'pull_request'
+        run: |
+          APK=app/build/outputs/apk/debug/app-debug.apk
+          APK_CERT_SHA=$("$ANDROID_HOME/build-tools/35.0.0/apksigner" verify --print-certs "$APK" | awk -F': ' '/Signer #1 certificate SHA-256 digest:/ {gsub(":","",$2); print tolower($2)}')
+          KEY_CERT_SHA=$(keytool -exportcert -alias moneyagent -keystore "$ANDROID_KEYSTORE_PATH" -storepass "$ANDROID_KEYSTORE_PASSWORD" | sha256sum | awk '{print tolower($1)}')
+          test -n "$APK_CERT_SHA"
+          test "$APK_CERT_SHA" = "$KEY_CERT_SHA"
+          echo "APK certificate matches the permanent moneyagent keystore."
+
+      - name: Upload signed APK
+        if: github.event_name != 'pull_request'
         uses: actions/upload-artifact@v4
         with:
-          name: MoneyAgent-debug-${{ github.run_number }}
+          name: MoneyAgent-signed-${{ github.run_number }}
           path: app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
-          retention-days: 14
+          retention-days: 30
