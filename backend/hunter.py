@@ -12,9 +12,18 @@ from email.utils import parsedate_to_datetime
 SOURCES = [
     ("Reddit r/forhire", "https://www.reddit.com/r/forhire/new/.rss?limit=50"),
     ("Reddit r/DoneDirtCheap", "https://www.reddit.com/r/DoneDirtCheap/new/.rss?limit=50"),
-    ("Reddit r/slavelabour", "https://www.reddit.com/r/slavelabour/new/.rss?limit=50"),
+    ("Reddit r/smallbusiness", "https://www.reddit.com/r/smallbusiness/.rss?limit=30"),
+    ("Reddit r/Entrepreneur", "https://www.reddit.com/r/Entrepreneur/.rss?limit=30"),
+    ("Reddit r/ecommerce", "https://www.reddit.com/r/ecommerce/.rss?limit=30"),
 ]
 MAX_AGE_DAYS = 14
+
+HN_QUERIES = [
+    '"looking for help" automation',
+    '"need help" Zapier OR n8n',
+    '"workflow automation" "looking for"',
+    '"AI agent" "need someone"',
+]
 SERVICE_TERMS = {
     "ai_automation": ["ai automation", "workflow automation", "n8n", "zapier", "make.com", "ai agent", "automation workflow", "chatgpt integration"],
     "lead_generation": ["lead generation", "lead capture", "lead follow-up", "lead follow up", "crm automation", "sales automation"],
@@ -57,11 +66,9 @@ BUDGET_PATTERN = re.compile(
 
 def fetch(url):
     last_error = None
-    urls = [url, url.replace("www.reddit.com", "old.reddit.com")]
-    for candidate_url in urls:
-      for attempt in range(2):
+    for attempt in range(3):
         request = urllib.request.Request(
-            candidate_url,
+            url,
             headers={
                 "User-Agent": "MoneyAgent/1.0 (public RSS opportunity research; contact: repository owner)",
                 "Accept": "application/atom+xml, application/rss+xml, application/xml, text/xml",
@@ -73,15 +80,13 @@ def fetch(url):
         except urllib.error.HTTPError as error:
             last_error = error
             if error.code != 429 or attempt == 1:
-                if error.code == 429 and candidate_url != urls[-1]:
-                    break
                 raise
             retry_after = error.headers.get("Retry-After", "3")
             try:
-                delay = min(8, max(2, int(retry_after)))
+                delay = min(12, max(3, int(retry_after)))
             except ValueError:
                 delay = 3
-            time.sleep(delay)
+            time.sleep(delay * (attempt + 1))
     raise last_error
 
 
@@ -219,6 +224,33 @@ def parse_feed(xml_text, source):
     return found, rejected
 
 
+
+def fetch_hacker_news(query):
+    from urllib.parse import urlencode
+    params = urlencode({"query": query, "tags": "story", "hitsPerPage": 50})
+    request = urllib.request.Request(
+        "https://hn.algolia.com/api/v1/search_by_date?" + params,
+        headers={"User-Agent": "MoneyAgent/1.0 public lead research"},
+    )
+    with urllib.request.urlopen(request, timeout=15) as response:
+        payload = json.loads(response.read().decode("utf-8", "ignore"))
+    found = []
+    rejected = {}
+    for hit in payload.get("hits", []):
+        title = clean(hit.get("title") or "")
+        description = clean(hit.get("story_text") or hit.get("comment_text") or "")
+        created = hit.get("created_at", "")
+        published = parse_date(created)
+        object_id = hit.get("objectID", "")
+        url = hit.get("url") or (f"https://news.ycombinator.com/item?id={object_id}" if object_id else "")
+        lead, reason = evaluate(title, description, published, url, "Hacker News")
+        if lead:
+            found.append(lead)
+        else:
+            rejected[reason] = rejected.get(reason, 0) + 1
+    return found, rejected
+
+
 def main():
     opportunities, errors, rejected = [], [], {}
     for source, url in SOURCES:
@@ -229,6 +261,15 @@ def main():
                 rejected[reason] = rejected.get(reason, 0) + count
         except Exception as error:
             errors.append({"source": source, "error": str(error)[:300]})
+
+    for query in HN_QUERIES:
+        try:
+            found, skipped = fetch_hacker_news(query)
+            opportunities.extend(found)
+            for reason, count in skipped.items():
+                rejected[reason] = rejected.get(reason, 0) + count
+        except Exception as error:
+            errors.append({"source": "Hacker News: " + query, "error": str(error)[:300]})
 
     unique, seen = [], set()
     for item in sorted(
@@ -253,7 +294,7 @@ def main():
             "auto_send": False,
             "human_approval_required": True,
         },
-        "sources": [{"name": name, "url": url} for name, url in SOURCES],
+        "sources": [{"name": name, "url": url} for name, url in SOURCES] + [{"name": "Hacker News Algolia", "url": "https://hn.algolia.com/api"}],
         "quality_control": {
             "candidate_count": len(opportunities),
             "qualified_leads": len(unique),
