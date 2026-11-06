@@ -6,6 +6,9 @@ class HunterTests(unittest.TestCase):
  def test_rejects_job(self):
   lead,reason=evaluate("Remote AI Automation Engineer","Full-time role. Salary range $120,000. Join our team.",datetime.now(timezone.utc),"https://example.com/job","test")
   self.assertIsNone(lead);self.assertEqual(reason,"employment_listing")
+ def test_rejects_for_hire_service_provider(self):
+  lead,reason=evaluate("[For Hire] AI engineer – AI agents and workflow automation","I am looking for freelance work. Rate: $20/hr. Portfolio available.",datetime.now(timezone.utc),"https://example.com/for-hire","test")
+  self.assertIsNone(lead);self.assertEqual(reason,"service_provider_listing")
  def test_accepts_paid_project(self):
   lead,reason=evaluate("[Hiring] Freelance n8n automation","Looking for a freelancer for a paid project. Budget is €500.",datetime.now(timezone.utc),"https://example.com/project","test")
   self.assertEqual(reason,"");self.assertIsNotNone(lead);self.assertTrue(lead["explicit_budget"])
