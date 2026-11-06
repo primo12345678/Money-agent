@@ -16,10 +16,10 @@ SOURCES = [
 ]
 MAX_AGE_DAYS = 14
 SERVICE_TERMS = {
-    "ai_automation": ["ai automation", "workflow automation", "n8n", "zapier", "make.com", "ai agent", "automate", "automation workflow", "chatgpt integration"],
+    "ai_automation": ["ai automation", "workflow automation", "n8n", "zapier", "make.com", "ai agent", "automation workflow", "chatgpt integration"],
     "lead_generation": ["lead generation", "lead capture", "lead follow-up", "lead follow up", "crm automation", "sales automation"],
     "customer_support": ["customer support automation", "support chatbot", "customer service chatbot", "chatbot", "ticket automation"],
-    "integration": ["api integration", "google sheets automation", "email automation", "webhook", "crm integration", "integrate"],
+    "integration": ["api integration", "google sheets automation", "email automation", "webhook", "crm integration"],
 }
 BUYER_SIGNALS = [
     "[hiring]", "[task]", "looking for a freelancer", "need a freelancer",
@@ -44,7 +44,7 @@ SELLER_SIGNALS = [
 EMPLOYMENT_SIGNALS = [
     "full-time", "full time", "part-time", "part time", "annual salary",
     "per annum", "job opening", "job vacancy", "apply for this job",
-    "join our team", "employment opportunity", "benefits package",
+    "join our team", "employment opportunity", "benefits package", "hourly", "per hour", "salary", "financial controller", "software engineer",
     "career opportunity", "position is", "salary range", "internship",
     "entry-level role", "remote job", "looking for a job",
 ]
@@ -57,9 +57,11 @@ BUDGET_PATTERN = re.compile(
 
 def fetch(url):
     last_error = None
-    for attempt in range(2):
+    urls = [url, url.replace("www.reddit.com", "old.reddit.com")]
+    for candidate_url in urls:
+      for attempt in range(2):
         request = urllib.request.Request(
-            url,
+            candidate_url,
             headers={
                 "User-Agent": "MoneyAgent/1.0 (public RSS opportunity research; contact: repository owner)",
                 "Accept": "application/atom+xml, application/rss+xml, application/xml, text/xml",
@@ -71,6 +73,8 @@ def fetch(url):
         except urllib.error.HTTPError as error:
             last_error = error
             if error.code != 429 or attempt == 1:
+                if error.code == 429 and candidate_url != urls[-1]:
+                    break
                 raise
             retry_after = error.headers.get("Retry-After", "3")
             try:
@@ -152,6 +156,16 @@ def evaluate(title, description, published, url, source):
     category, service_hits = classify_service(combined)
     buyer_hits = buyer_signals(combined)
     budget = budget_signal(combined)
+    project_intent = any(term in lower for term in (
+        "paid project", "fixed price", "fixed-price", "project budget",
+        "one-off project", "pilot project", "build an automation",
+        "build a workflow", "set up an automation", "automation setup",
+    ))
+    # A generic [Hiring] tag or hourly job advert is not a buyer for our packaged service.
+    if buyer_hits == ["[hiring]"] and not budget and not project_intent:
+        return None, "employment_listing"
+    if any(term in lower for term in ("hourly", "per hour", "/hr", "salary")) and not project_intent and not budget:
+        return None, "employment_listing"
     if not category:
         return None, "no_relevant_service"
     if not buyer_hits and not budget:
