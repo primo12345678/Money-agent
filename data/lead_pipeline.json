@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T23:41:19.209103+00:00",
+  "updated_at": "2026-11-06T06:56:56.046448+00:00",
   "status_values": [
     "contacted",
     "lost",
@@ -11,6 +11,32 @@
     "won"
   ],
   "leads": [
+    {
+      "lead_id": "d30dfc664843",
+      "title": "[For Hire] AI engineer – AI agents, MCP servers, web apps and MVPs",
+      "url": "https://www.reddit.com/r/forhire/comments/1xp63z6/for_hire_ai_engineer_ai_agents_mcp_servers_web/",
+      "source": "Reddit r/forhire",
+      "first_seen_at": "2026-11-06T06:56:56.046448+00:00",
+      "last_seen_at": "2026-11-06T06:56:56.046448+00:00",
+      "status": "new",
+      "notes": "",
+      "latest_score": 63,
+      "actual_revenue_eur": 0,
+      "payment_confirmed": false
+    },
+    {
+      "lead_id": "b0d154e059b9",
+      "title": "[For Hire] Support Ops + AI Support Automation | Remote, CST time zone | $15/hr",
+      "url": "https://www.reddit.com/r/forhire/comments/1xozmr5/for_hire_support_ops_ai_support_automation_remote/",
+      "source": "Reddit r/forhire",
+      "first_seen_at": "2026-11-06T06:56:56.046448+00:00",
+      "last_seen_at": "2026-11-06T06:56:56.046448+00:00",
+      "status": "new",
+      "notes": "",
+      "latest_score": 60,
+      "actual_revenue_eur": 0,
+      "payment_confirmed": false
+    },
     {
       "lead_id": "fa1131e2b2b5",
       "title": "[For Hire] Frontend Developer (5+ yrs) — Websites, UI implementation, and frontend builds — $25/hr",
