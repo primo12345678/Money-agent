@@ -36,7 +36,7 @@ def analyze(item):
     specificity = min(10, len(buyer_signals) * 3 + len(service_signals) * 2)
     score = min(100, 35 + buyer_score + service_score + budget_score + recency + specificity)
     # Human review requires a real buyer signal, not merely a keyword or our own suggested price.
-    eligible = bool(buyer_signals) and bool(service_signals) and score >= 65
+    eligible = bool(buyer_signals or has_budget) and bool(service_signals) and score >= 65
     priority = "HIGH" if score >= 80 else "MEDIUM" if score >= 65 else "LOW"
     return {
         **item,
