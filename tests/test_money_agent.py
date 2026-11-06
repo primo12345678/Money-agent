@@ -2,7 +2,8 @@ import unittest
 from datetime import datetime, timezone
 
 from backend.hunter import evaluate, budget_signal
-from backend.analyst import analyze
+from backend.analyst import analyze, OFFER
+from backend.deal_maker import build_draft
 
 
 class HunterTests(unittest.TestCase):
