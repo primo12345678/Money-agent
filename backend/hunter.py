@@ -8,9 +8,10 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
-# Public RSS sources only. The worker is rate-limited and never logs in or posts.
+# Public RSS/API sources only. The worker is rate-limited and never logs in or posts.
 SOURCES = [
     ("Reddit r/forhire", "https://www.reddit.com/r/forhire/new/.rss?limit=50"),
+    ("Reddit r/ecommerce", "https://www.reddit.com/r/ecommerce/.rss?limit=30"),
 ]
 MAX_AGE_DAYS = 14
 
