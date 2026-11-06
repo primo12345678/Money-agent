@@ -79,7 +79,7 @@ def fetch(url):
                 return response.read().decode("utf-8", "ignore")
         except urllib.error.HTTPError as error:
             last_error = error
-            if error.code != 429 or attempt == 1:
+            if error.code != 429 or attempt == 2:
                 raise
             retry_after = error.headers.get("Retry-After", "3")
             try:
