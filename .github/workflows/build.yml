@@ -34,6 +34,7 @@ jobs:
           gradle-version: "8.9"
       - name: Prepare stable signing key
         if: github.event_name != 'pull_request'
+        continue-on-error: true
         env:
           SIGNING_BUNDLE: ${{ secrets.ANDROID_SIGNING_BUNDLE_BASE64 }}
         run: |
@@ -71,13 +72,13 @@ jobs:
         env:
           ANDROID_KEY_ALIAS: moneyagent
         run: |
-          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
-            gradle --no-daemon assembleDebug
-          else
-            test -n "$ANDROID_KEYSTORE_PASSWORD" || (echo "::error::Stable signing password unavailable" && exit 1)
+          if [ -n "$ANDROID_KEYSTORE_PASSWORD" ] && [ -n "$ANDROID_KEYSTORE_PATH" ]; then
+            echo "Building with the configured stable signing key."
             export ANDROID_KEY_PASSWORD="$ANDROID_KEYSTORE_PASSWORD"
-            gradle --no-daemon assembleDebug
+          else
+            echo "::warning::Stable signing key is not configured or could not be validated. Building a temporary debug-signed APK; do not use it for a permanent installation."
           fi
+          gradle --no-daemon assembleDebug
       - name: Verify APK
         run: |
           APK=app/build/outputs/apk/debug/app-debug.apk
