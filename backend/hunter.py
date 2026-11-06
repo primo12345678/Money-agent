@@ -44,7 +44,7 @@ SELLER_SIGNALS = [
 EMPLOYMENT_SIGNALS = [
     "full-time", "full time", "part-time", "part time", "annual salary",
     "per annum", "job opening", "job vacancy", "apply for this job",
-    "join our team", "employment opportunity", "benefits package", "hourly", "per hour", "salary", "financial controller", "software engineer",
+    "join our team", "employment opportunity", "benefits package", "financial controller", "software engineer",
     "career opportunity", "position is", "salary range", "internship",
     "entry-level role", "remote job", "looking for a job",
 ]
