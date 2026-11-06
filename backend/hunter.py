@@ -11,10 +11,6 @@ from email.utils import parsedate_to_datetime
 # Public RSS sources only. The worker is rate-limited and never logs in or posts.
 SOURCES = [
     ("Reddit r/forhire", "https://www.reddit.com/r/forhire/new/.rss?limit=50"),
-    ("Reddit r/DoneDirtCheap", "https://www.reddit.com/r/DoneDirtCheap/new/.rss?limit=50"),
-    ("Reddit r/smallbusiness", "https://www.reddit.com/r/smallbusiness/.rss?limit=30"),
-    ("Reddit r/Entrepreneur", "https://www.reddit.com/r/Entrepreneur/.rss?limit=30"),
-    ("Reddit r/ecommerce", "https://www.reddit.com/r/ecommerce/.rss?limit=30"),
 ]
 MAX_AGE_DAYS = 14
 
@@ -23,12 +19,6 @@ HN_QUERIES = [
     '"need help" Zapier OR n8n',
     '"workflow automation" "looking for"',
     '"AI agent" "need someone"',
-]
-BLUESKY_QUERIES = [
-    '"looking for" automation',
-    '"need help" Zapier',
-    '"need help" n8n',
-    '"AI agent" business automation',
 ]
 SERVICE_TERMS = {
     "ai_automation": ["ai automation", "workflow automation", "n8n", "zapier", "make.com", "ai agent", "automation workflow", "chatgpt integration"],
@@ -258,36 +248,6 @@ def fetch_hacker_news(query):
 
 
 
-def fetch_bluesky(query):
-    from urllib.parse import urlencode
-    params = urlencode({"q": query, "limit": 100, "sort": "latest"})
-    request = urllib.request.Request(
-        "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?" + params,
-        headers={"User-Agent": "MoneyAgent/1.0 public buyer-intent research"},
-    )
-    with urllib.request.urlopen(request, timeout=15) as response:
-        payload = json.loads(response.read().decode("utf-8", "ignore"))
-    found = []
-    rejected = {}
-    for item in payload.get("posts", []):
-        record = item.get("record", {})
-        author = item.get("author", {})
-        title = clean(record.get("text", ""))[:180]
-        description = clean(record.get("text", ""))
-        created = record.get("createdAt", "")
-        published = parse_date(created)
-        uri = item.get("uri", "")
-        rkey = uri.rsplit("/", 1)[-1] if uri else ""
-        handle = author.get("handle", "")
-        url = f"https://bsky.app/profile/{handle}/post/{rkey}" if handle and rkey else ""
-        lead, reason = evaluate(title, description, published, url, "Bluesky")
-        if lead:
-            found.append(lead)
-        else:
-            rejected[reason] = rejected.get(reason, 0) + 1
-    return found, rejected
-
-
 def main():
     opportunities, errors, rejected = [], [], {}
     for source, url in SOURCES:
@@ -307,15 +267,6 @@ def main():
                 rejected[reason] = rejected.get(reason, 0) + count
         except Exception as error:
             errors.append({"source": "Hacker News: " + query, "error": str(error)[:300]})
-
-    for query in BLUESKY_QUERIES:
-        try:
-            found, skipped = fetch_bluesky(query)
-            opportunities.extend(found)
-            for reason, count in skipped.items():
-                rejected[reason] = rejected.get(reason, 0) + count
-        except Exception as error:
-            errors.append({"source": "Bluesky: " + query, "error": str(error)[:300]})
 
     unique, seen = [], set()
     for item in sorted(
@@ -340,7 +291,7 @@ def main():
             "auto_send": False,
             "human_approval_required": True,
         },
-        "sources": [{"name": name, "url": url} for name, url in SOURCES] + [{"name": "Hacker News Algolia", "url": "https://hn.algolia.com/api"}, {"name": "Bluesky public search", "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts"}],
+        "sources": [{"name": name, "url": url} for name, url in SOURCES] + [{"name": "Hacker News Algolia", "url": "https://hn.algolia.com/api"}],
         "quality_control": {
             "candidate_count": len(opportunities),
             "qualified_leads": len(unique),
