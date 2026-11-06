@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T15:09:37.317943+00:00",
+  "generated_at": "2026-11-06T20:56:30.193552+00:00",
   "agent": "Money Agent",
   "mode": "qualified_buyer_hunter_and_offer_analyst",
   "commercial_goal": "Find genuine buyers for small-business workflow automation pilots",
@@ -24,8 +24,8 @@
     "candidate_count": 0,
     "qualified_leads": 0,
     "rejected_by_reason": {
-      "service_provider_listing": 41,
-      "employment_listing": 10,
+      "service_provider_listing": 39,
+      "employment_listing": 12,
       "no_relevant_service": 4,
       "no_explicit_buyer_intent": 3
     },
@@ -60,7 +60,7 @@
   },
   "deal_maker": {
     "status": "no_qualified_drafts",
-    "created_at": "2026-11-06T15:09:37.332223+00:00",
+    "created_at": "2026-11-06T20:56:30.214382+00:00",
     "auto_send": false,
     "draft_count": 0,
     "drafts": []
