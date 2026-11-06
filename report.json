@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T12:40:05.588281+00:00",
+  "generated_at": "2026-11-06T12:40:45.312556+00:00",
   "agent": "Money Agent",
   "mode": "qualified_buyer_hunter_and_offer_analyst",
   "commercial_goal": "Find genuine buyers for small-business workflow automation pilots",
@@ -16,28 +16,12 @@
       "url": "https://www.reddit.com/r/forhire/new/.rss?limit=50"
     },
     {
-      "name": "Reddit r/DoneDirtCheap",
-      "url": "https://www.reddit.com/r/DoneDirtCheap/new/.rss?limit=50"
-    },
-    {
-      "name": "Reddit r/smallbusiness",
-      "url": "https://www.reddit.com/r/smallbusiness/.rss?limit=30"
-    },
-    {
-      "name": "Reddit r/Entrepreneur",
-      "url": "https://www.reddit.com/r/Entrepreneur/.rss?limit=30"
-    },
-    {
       "name": "Reddit r/ecommerce",
       "url": "https://www.reddit.com/r/ecommerce/.rss?limit=30"
     },
     {
       "name": "Hacker News Algolia",
       "url": "https://hn.algolia.com/api"
-    },
-    {
-      "name": "Bluesky public search",
-      "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts"
     }
   ],
   "quality_control": {
@@ -46,8 +30,8 @@
     "rejected_by_reason": {
       "employment_listing": 10,
       "service_provider_listing": 41,
-      "no_relevant_service": 35,
-      "no_explicit_buyer_intent": 4
+      "no_relevant_service": 6,
+      "no_explicit_buyer_intent": 3
     },
     "employment_feeds_removed": true,
     "seller_posts_rejected": true,
@@ -56,32 +40,8 @@
   "opportunities": [],
   "errors": [
     {
-      "source": "Reddit r/DoneDirtCheap",
+      "source": "Reddit r/ecommerce",
       "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "Reddit r/smallbusiness",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "Reddit r/Entrepreneur",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "Bluesky: \"looking for\" automation",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "source": "Bluesky: \"need help\" Zapier",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "source": "Bluesky: \"need help\" n8n",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "source": "Bluesky: \"AI agent\" business automation",
-      "error": "HTTP Error 403: Forbidden"
     }
   ],
   "commercial_model": {
@@ -109,7 +69,7 @@
   },
   "deal_maker": {
     "status": "no_qualified_drafts",
-    "created_at": "2026-11-06T12:40:05.606617+00:00",
+    "created_at": "2026-11-06T12:40:45.327020+00:00",
     "auto_send": false,
     "draft_count": 0,
     "drafts": []
