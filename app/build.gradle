@@ -13,7 +13,8 @@ android {
     compileSdk 35
 
     defaultConfig {
-        applicationId 'com.moneyagent.test'
+        // New package ID avoids replacing either legacy install and preserves their local data.
+        applicationId 'com.moneyagent.mobile'
         minSdk 23
         targetSdk 35
         versionCode 3
