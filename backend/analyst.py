@@ -8,12 +8,12 @@ OFFER = {
     "standard_setup_price_eur": 299,
     "monthly_support_price_eur": 39,
     "scope": [
-        "Capture enquiries from one agreed form or mailbox",
-        "Log enquiries in a client-owned Google Sheet",
-        "Send an acknowledgement and notify the business owner",
-        "Create a simple follow-up reminder and status tracker",
+        "Capture enquiries from one agreed form OR one shared mailbox (not both in the pilot)",
+        "Log minimum necessary enquiry fields in a client-owned Google Sheet",
+        "Notify the named business owner; configure an acknowledgement only after customer approval",
+        "Track New, Replied, Follow-up due, Qualified, Won and Lost; create an agreed follow-up reminder",
     ],
-    "delivery_note": "Final scope, access, privacy terms and price must be agreed with the customer.",
+    "delivery_note": "Initial price is a hypothesis, not a validated market rate. Agree scope, access, privacy, message wording and payment terms before work.",
 }
 LABELS = {
     "ai_automation": "AI/workflow automation",
