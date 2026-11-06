@@ -63,6 +63,24 @@ class HunterTests(unittest.TestCase):
         self.assertIsNone(lead)
         self.assertEqual(reason, "service_provider_listing")
 
+    def test_rejects_generic_hiring_tag_for_hourly_job(self):
+        lead, reason = evaluate(
+            "[Hiring] AI Software Engineer - $30~$60/hr",
+            "Looking for an AI agent engineer for ongoing work.",
+            datetime.now(timezone.utc), "https://example.com/hourly-job", "test",
+        )
+        self.assertIsNone(lead)
+        self.assertEqual(reason, "employment_listing")
+
+    def test_rejects_unrelated_role_with_generic_automation_word(self):
+        lead, reason = evaluate(
+            "[Hiring] Financial Controller",
+            "We need a controller to automate monthly reporting.",
+            datetime.now(timezone.utc), "https://example.com/controller", "test",
+        )
+        self.assertIsNone(lead)
+        self.assertEqual(reason, "no_relevant_service")
+
     def test_salary_is_not_project_budget(self):
         self.assertEqual(budget_signal("Salary is $120,000 per year"), "")
 
