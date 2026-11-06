@@ -26,6 +26,9 @@ import org.json.JSONObject;
 
 import java.text.NumberFormat;
 import java.util.Locale;
+import java.util.Currency;
+import java.util.Date;
+import java.text.SimpleDateFormat;
 
 public class MainActivity extends Activity {
 
@@ -46,8 +49,15 @@ public class MainActivity extends Activity {
     private String agentLoadMessage = "Зареждаме актуалния отчет от агента...";
     private boolean agentLoading = false;
 
-    private final NumberFormat money =
-            NumberFormat.getCurrencyInstance(new Locale("bg", "BG"));
+    private final NumberFormat money = createEuroFormat();
+
+    private NumberFormat createEuroFormat() {
+        NumberFormat format = NumberFormat.getCurrencyInstance(new Locale("bg", "BG"));
+        format.setCurrency(Currency.getInstance("EUR"));
+        format.setMinimumFractionDigits(2);
+        format.setMaximumFractionDigits(2);
+        return format;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -412,6 +422,7 @@ public class MainActivity extends Activity {
                         item.put("type", type);
                         item.put("name", description);
                         item.put("amount", value);
+                        item.put("created_at", new SimpleDateFormat("yyyy-MM-dd HH:mm", Locale.ROOT).format(new Date()));
                         transactions.put(item);
 
                         if (type.equals("Приход")) {
@@ -487,7 +498,7 @@ public class MainActivity extends Activity {
     private void setCash() {
         EditText input = new EditText(this);
         input.setSingleLine(true);
-        input.setHint("Начална наличност в лева");
+        input.setHint("Начална наличност в евро");
         input.setHintTextColor(MUTED);
         input.setTextColor(WHITE);
         input.setInputType(8194);
@@ -499,9 +510,13 @@ public class MainActivity extends Activity {
                 .setNegativeButton("Отказ", null)
                 .setPositiveButton("Запази", (dialog, which) -> {
                     try {
-                        cash = Double.parseDouble(
-                                input.getText().toString().trim()
-                                        .replace(",", "."));
+                        double entered = Double.parseDouble(
+                                input.getText().toString().trim().replace(",", "."));
+                        if (!Double.isFinite(entered) || entered < 0) {
+                            toast("Въведи валидна неотрицателна сума.");
+                            return;
+                        }
+                        cash = entered;
                         saveData();
                         renderDashboard();
                         toast("Наличността е обновена.");
@@ -596,7 +611,8 @@ public class MainActivity extends Activity {
 
     private double parseAmount(String value) {
         try {
-            return Double.parseDouble(value.trim().replace(",", "."));
+            double parsed = Double.parseDouble(value.trim().replace(",", "."));
+            return Double.isFinite(parsed) && parsed > 0 ? parsed : 0;
         } catch (Exception e) {
             return 0;
         }
