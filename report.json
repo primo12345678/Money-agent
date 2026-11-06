@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T12:36:23.636912+00:00",
+  "generated_at": "2026-11-06T12:36:57.422331+00:00",
   "agent": "Money Agent",
   "mode": "qualified_buyer_hunter_and_offer_analyst",
   "commercial_goal": "Find genuine buyers for small-business workflow automation pilots",
@@ -25,126 +25,26 @@
     }
   ],
   "quality_control": {
-    "candidate_count": 2,
-    "qualified_leads": 2,
+    "candidate_count": 0,
+    "qualified_leads": 0,
     "rejected_by_reason": {
+      "employment_listing": 8,
       "service_provider_listing": 41,
-      "no_relevant_service": 7
+      "no_relevant_service": 1
     },
     "employment_feeds_removed": true,
     "seller_posts_rejected": true,
     "minimum_rule": "Relevant service need plus explicit buyer intent or a project budget; service-provider posts and ordinary employment listings rejected."
   },
-  "opportunities": [
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] [Onsite] [Netherlands] - Financial Controller (Dutch & English)",
-      "url": "https://www.reddit.com/r/forhire/comments/1xpbbtq/hiring_onsite_netherlands_financial_controller/",
-      "published": "2026-11-06T12:14:50+00:00",
-      "age_days": 0.0,
-      "snippet": "Posting on behalf of a client, we’re a recruitment agency in the Netherlands, hiring a Financial Controller for an international company specialising in centralised IT procurement and global infrastructure standardisation. Based in Nijmegen. You’d be the CFO’s go-to partner on control and reporting: strengthening financial control processes and internal controls, running month-end and year-end closing, preparing reports and management information, contributing to budgeting and forecasting, supporting audits, and helping standardise and automate processes as the finance function scales. You’ll fit if you have 4+ years in financial control or accounting (ideally within a Dutch organisation), a bachelor’s in finance, accounting or business economics, solid knowledge of financial reporting and internal controls, and you’re analytical and calm under deadlines. Fluent Dutch and English are both essential. On-site in Nijmegen, and you’ll need to already be living in the Netherlands with the right to work here. On offer: a permanent contract from the start, market-aligned salary plus commission and 8% holiday allowance, a strong pension plan (15% premium, split 50/50), and a multicultural ",
-      "service_category": "ai_automation",
-      "service_signals": [
-        "automate"
-      ],
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "buyer_intent_score": 70,
-      "explicit_budget": false,
-      "budget_signal": "",
-      "lead_type": "explicit_service_buyer_request",
-      "human_review_required": true,
-      "analysis": {
-        "category": "ai_automation",
-        "category_label": "AI/workflow automation",
-        "priority": "MEDIUM",
-        "opportunity_score": 70,
-        "score_components": {
-          "buyer_intent": 12,
-          "service_fit": 8,
-          "explicit_budget": 0,
-          "recency": 10,
-          "specificity": 5
-        },
-        "suggested_offer": {
-          "name": "Lead Response Mini-System",
-          "pilot_price_eur": 149,
-          "standard_setup_price_eur": 299,
-          "monthly_support_price_eur": 39,
-          "scope": [
-            "Capture enquiries from one agreed form or mailbox",
-            "Log enquiries in a client-owned Google Sheet",
-            "Send an acknowledgement and notify the business owner",
-            "Create a simple follow-up reminder and status tracker"
-          ],
-          "delivery_note": "Final scope, access, privacy terms and price must be agreed with the customer."
-        },
-        "suggested_pilot_price_eur": 149,
-        "price_is_our_test_offer_not_customer_budget": true,
-        "eligible_for_human_review": true,
-        "reason": "Relevant buyer request; verify the post, buyer identity, scope and budget manually before contact."
-      }
-    },
-    {
-      "source": "Reddit r/forhire",
-      "title": "[Hiring] AI Software Engineer - $30~$60/hr",
-      "url": "https://www.reddit.com/r/forhire/comments/1xoidq5/hiring_ai_software_engineer_3060hr/",
-      "published": "2026-11-05T13:16:30+00:00",
-      "age_days": 1.0,
-      "snippet": "We're looking for a skilled AI Software Engineer with a strong background in software development and a deep understanding of AI technologies. The ideal candidate is passionate about building innovative AI-powered solutions and has solid engineering skills. Requirements: - Fluent in English, with strong verbal and written communication skills. - 3+ years of professional experience in software development. - Deep knowledge of AI, machine learning, and LLMs. - Strong problem-solving skills and the ability to work independently. - Experience developing, deploying, and maintaining production-ready software. - Blockchain experience is a strong plus. - Passion for emerging technologies and innovative projects. Nice to Have: - Experience with AI agents and decentralized AI systems. - Familiarity with blockchain ecosystems and Web3 technologies. - Experience working in a startup environment. submitted by /u/geode_echoic [link] [comments]",
-      "service_category": "ai_automation",
-      "service_signals": [
-        "ai agent"
-      ],
-      "buyer_signals": [
-        "[hiring]"
-      ],
-      "buyer_intent_score": 70,
-      "explicit_budget": false,
-      "budget_signal": "",
-      "lead_type": "explicit_service_buyer_request",
-      "human_review_required": true,
-      "analysis": {
-        "category": "ai_automation",
-        "category_label": "AI/workflow automation",
-        "priority": "MEDIUM",
-        "opportunity_score": 70,
-        "score_components": {
-          "buyer_intent": 12,
-          "service_fit": 8,
-          "explicit_budget": 0,
-          "recency": 10,
-          "specificity": 5
-        },
-        "suggested_offer": {
-          "name": "Lead Response Mini-System",
-          "pilot_price_eur": 149,
-          "standard_setup_price_eur": 299,
-          "monthly_support_price_eur": 39,
-          "scope": [
-            "Capture enquiries from one agreed form or mailbox",
-            "Log enquiries in a client-owned Google Sheet",
-            "Send an acknowledgement and notify the business owner",
-            "Create a simple follow-up reminder and status tracker"
-          ],
-          "delivery_note": "Final scope, access, privacy terms and price must be agreed with the customer."
-        },
-        "suggested_pilot_price_eur": 149,
-        "price_is_our_test_offer_not_customer_budget": true,
-        "eligible_for_human_review": true,
-        "reason": "Relevant buyer request; verify the post, buyer identity, scope and budget manually before contact."
-      }
-    }
-  ],
+  "opportunities": [],
   "errors": [
     {
       "source": "Reddit r/DoneDirtCheap",
-      "error": "HTTP Error 429: Too Many Requests"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "source": "Reddit r/slavelabour",
-      "error": "HTTP Error 429: Too Many Requests"
+      "error": "HTTP Error 404: Not Found"
     }
   ],
   "commercial_model": {
@@ -165,50 +65,17 @@
     "revenue_definition": "Only customer payments recorded as received count as revenue."
   },
   "analysis": {
-    "status": "ready_for_human_review",
-    "qualified_for_review": 2,
-    "total_candidates": 2,
+    "status": "no_qualified_leads",
+    "qualified_for_review": 0,
+    "total_candidates": 0,
     "note": "No lead is contacted automatically. No revenue is claimed until payment is recorded."
   },
   "deal_maker": {
-    "status": "drafts_ready_for_human_review",
-    "created_at": "2026-11-06T12:36:23.655471+00:00",
+    "status": "no_qualified_drafts",
+    "created_at": "2026-11-06T12:36:57.455099+00:00",
     "auto_send": false,
-    "draft_count": 2,
-    "drafts": [
-      {
-        "title": "[Hiring] [Onsite] [Netherlands] - Financial Controller (Dutch & English)",
-        "url": "https://www.reddit.com/r/forhire/comments/1xpbbtq/hiring_onsite_netherlands_financial_controller/",
-        "source": "Reddit r/forhire",
-        "priority": "MEDIUM",
-        "opportunity_score": 70,
-        "offer": {
-          "subject": "Quick question about your automation request",
-          "message": "Hi,\n\nI came across your post, “[Hiring] [Onsite] [Netherlands] - Financial Controller (Dutch & English)”, and wanted to ask whether you are still looking for help.\n\nI build small, practical enquiry and workflow automations for small businesses. A first pilot can connect one agreed form or mailbox to a client-owned tracking sheet, send an acknowledgement, notify the owner and create a follow-up reminder.\n\nA tightly scoped pilot starts at €149; I would confirm the exact scope and final price with you before starting. I will not ask for sensitive customer data unless it is necessary and agreed in advance.\n\nIf this matches what you need, I can send a short scope and implementation plan.\n\nBest,\n[Your name]",
-          "source_post": "https://www.reddit.com/r/forhire/comments/1xpbbtq/hiring_onsite_netherlands_financial_controller/",
-          "suggested_pilot_price_eur": 149,
-          "price_is_quote": false,
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      },
-      {
-        "title": "[Hiring] AI Software Engineer - $30~$60/hr",
-        "url": "https://www.reddit.com/r/forhire/comments/1xoidq5/hiring_ai_software_engineer_3060hr/",
-        "source": "Reddit r/forhire",
-        "priority": "MEDIUM",
-        "opportunity_score": 70,
-        "offer": {
-          "subject": "Quick question about your automation request",
-          "message": "Hi,\n\nI came across your post, “[Hiring] AI Software Engineer - $30~$60/hr”, and wanted to ask whether you are still looking for help.\n\nI build small, practical enquiry and workflow automations for small businesses. A first pilot can connect one agreed form or mailbox to a client-owned tracking sheet, send an acknowledgement, notify the owner and create a follow-up reminder.\n\nA tightly scoped pilot starts at €149; I would confirm the exact scope and final price with you before starting. I will not ask for sensitive customer data unless it is necessary and agreed in advance.\n\nIf this matches what you need, I can send a short scope and implementation plan.\n\nBest,\n[Your name]",
-          "source_post": "https://www.reddit.com/r/forhire/comments/1xoidq5/hiring_ai_software_engineer_3060hr/",
-          "suggested_pilot_price_eur": 149,
-          "price_is_quote": false,
-          "human_approval_required": true,
-          "auto_send": false
-        }
-      }
-    ]
+    "draft_count": 0,
+    "drafts": []
   },
   "pipeline": {
     "tracked_leads": 9,
