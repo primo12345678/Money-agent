@@ -349,7 +349,7 @@ public class MainActivity extends Activity {
         LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
                 -1, -2);
         lp.bottomMargin = dp(10);
-        content.addView(box, lp);
+        parent.addView(box, lp);
     }
 
     private void section(String title) {
@@ -388,7 +388,7 @@ public class MainActivity extends Activity {
 
         EditText amount = new EditText(this);
         amount.setSingleLine(true);
-        amount.setHint("Сума в лева");
+        amount.setHint("Сума в евро");
         amount.setHintTextColor(MUTED);
         amount.setTextColor(WHITE);
         amount.setInputType(8194);
@@ -444,7 +444,7 @@ public class MainActivity extends Activity {
 
         EditText amount = new EditText(this);
         amount.setSingleLine(true);
-        amount.setHint("Стойност в лева");
+        amount.setHint("Стойност в евро");
         amount.setHintTextColor(MUTED);
         amount.setTextColor(WHITE);
         amount.setInputType(8194);
