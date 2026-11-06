@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T06:56:56.003094+00:00",
+  "generated_at": "2026-11-06T12:36:07.402041+00:00",
   "agent": "Money Agent",
   "mode": "qualified_buyer_hunter_and_offer_analyst",
   "commercial_goal": "Find genuine buyers for small-business workflow automation pilots",
@@ -13,53 +13,59 @@
   "sources": [
     {
       "name": "Reddit r/forhire",
-      "url": "https://www.reddit.com/r/forhire/new/.rss"
+      "url": "https://www.reddit.com/r/forhire/new/.rss?limit=50"
     },
     {
       "name": "Reddit r/DoneDirtCheap",
-      "url": "https://www.reddit.com/r/DoneDirtCheap/new/.rss"
+      "url": "https://www.reddit.com/r/DoneDirtCheap/new/.rss?limit=50"
+    },
+    {
+      "name": "Reddit r/slavelabour",
+      "url": "https://www.reddit.com/r/slavelabour/new/.rss?limit=50"
     }
   ],
   "quality_control": {
     "candidate_count": 2,
     "qualified_leads": 2,
     "rejected_by_reason": {
-      "employment_listing": 3,
-      "no_relevant_service": 19,
-      "no_explicit_buyer_intent": 1
+      "service_provider_listing": 41,
+      "no_relevant_service": 7
     },
     "employment_feeds_removed": true,
-    "minimum_rule": "Relevant service signal plus explicit buyer intent or explicit budget; ordinary employment listings rejected."
+    "seller_posts_rejected": true,
+    "minimum_rule": "Relevant service need plus explicit buyer intent or a project budget; service-provider posts and ordinary employment listings rejected."
   },
   "opportunities": [
     {
       "source": "Reddit r/forhire",
-      "title": "[For Hire] AI engineer – AI agents, MCP servers, web apps and MVPs",
-      "url": "https://www.reddit.com/r/forhire/comments/1xp63z6/for_hire_ai_engineer_ai_agents_mcp_servers_web/",
-      "published": "2026-11-06T06:43:43+00:00",
+      "title": "[Hiring] [Onsite] [Netherlands] - Financial Controller (Dutch & English)",
+      "url": "https://www.reddit.com/r/forhire/comments/1xpbbtq/hiring_onsite_netherlands_financial_controller/",
+      "published": "2026-11-06T12:14:50+00:00",
       "age_days": 0.0,
-      "snippet": "I'm an AI and full-stack engineer. I'm looking for freelance work, side projects, or a startup idea to build from first version to launch. What I build: - AI agents (tool-calling, multi-agent, with a human approval step before risky actions) - MCP servers so Claude and ChatGPT can use your product - Browser automation for sites and portals with no API - Web apps, backends and MVPs (Next.js, Node.js, Python, Postgres/Supabase) Things I've built: a multi-agent assistant on Google ADK, agents that file tax returns from live invoices, an MCP server with 25+ tools, and payments in 32+ currencies. Rate: $20/hr, or a fixed price per project. Open to part equity for the right startup idea. Availability: 20 hrs/week, Portfolio: https://chandan.studio (12 AI agents you can ask about my work) GitHub: https://github.com/mr-chandan DM me with a short description of your project. submitted by /u/pandapup_600 [link] [comments]",
+      "snippet": "Posting on behalf of a client, we’re a recruitment agency in the Netherlands, hiring a Financial Controller for an international company specialising in centralised IT procurement and global infrastructure standardisation. Based in Nijmegen. You’d be the CFO’s go-to partner on control and reporting: strengthening financial control processes and internal controls, running month-end and year-end closing, preparing reports and management information, contributing to budgeting and forecasting, supporting audits, and helping standardise and automate processes as the finance function scales. You’ll fit if you have 4+ years in financial control or accounting (ideally within a Dutch organisation), a bachelor’s in finance, accounting or business economics, solid knowledge of financial reporting and internal controls, and you’re analytical and calm under deadlines. Fluent Dutch and English are both essential. On-site in Nijmegen, and you’ll need to already be living in the Netherlands with the right to work here. On offer: a permanent contract from the start, market-aligned salary plus commission and 8% holiday allowance, a strong pension plan (15% premium, split 50/50), and a multicultural ",
       "service_category": "ai_automation",
       "service_signals": [
-        "ai agent"
+        "automate"
       ],
-      "buyer_signals": [],
-      "buyer_intent_score": 68,
-      "explicit_budget": true,
-      "budget_signal": "payments in 32+ currencies. Rate: $20",
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "buyer_intent_score": 70,
+      "explicit_budget": false,
+      "budget_signal": "",
       "lead_type": "explicit_service_buyer_request",
       "human_review_required": true,
       "analysis": {
         "category": "ai_automation",
         "category_label": "AI/workflow automation",
-        "priority": "LOW",
-        "opportunity_score": 63,
+        "priority": "MEDIUM",
+        "opportunity_score": 70,
         "score_components": {
-          "buyer_intent": 27,
+          "buyer_intent": 12,
           "service_fit": 8,
-          "explicit_budget": 15,
+          "explicit_budget": 0,
           "recency": 10,
-          "specificity": 3
+          "specificity": 5
         },
         "suggested_offer": {
           "name": "Lead Response Mini-System",
@@ -76,38 +82,40 @@
         },
         "suggested_pilot_price_eur": 149,
         "price_is_our_test_offer_not_customer_budget": true,
-        "eligible_for_human_review": false,
-        "reason": "Relevant service signal plus explicit buyer-intent evidence. A human must verify the post and scope before contact."
+        "eligible_for_human_review": true,
+        "reason": "Relevant buyer request; verify the post, buyer identity, scope and budget manually before contact."
       }
     },
     {
       "source": "Reddit r/forhire",
-      "title": "[For Hire] Support Ops + AI Support Automation | Remote, CST time zone | $15/hr",
-      "url": "https://www.reddit.com/r/forhire/comments/1xozmr5/for_hire_support_ops_ai_support_automation_remote/",
-      "published": "2026-11-06T00:58:51+00:00",
-      "age_days": 0.2,
-      "snippet": "Hey everyone! I’ve got 1.5 decades in customer support and QA (7+ years at a SaaS company), and lately I’ve been building AI tools that take the boring, repetitive stuff off support teams. What I can help with: Setting up or cleaning up support ops (helpdesk, macros, SLAs, QA reviews) AI chat and voice bots that handle common questions and missed calls Automations for ticket routing, follow-ups, and WhatsApp / website replies Reviewing your current support setup and spotting where AI can save time Tools: n8n, ManyChat, ElevenLabs, Claude Code and most common helpdesks Availability: Remote, CST time zone Rate: $$15/hr (negotiable), or a fixed price per project Portfolio/Resume: https://www.linkedin.com/in/kashan-heera/ If this sounds useful, send me a DM 🙂 submitted by /u/No_Regular4328 [link] [comments]",
+      "title": "[Hiring] AI Software Engineer - $30~$60/hr",
+      "url": "https://www.reddit.com/r/forhire/comments/1xoidq5/hiring_ai_software_engineer_3060hr/",
+      "published": "2026-11-05T13:16:30+00:00",
+      "age_days": 1.0,
+      "snippet": "We're looking for a skilled AI Software Engineer with a strong background in software development and a deep understanding of AI technologies. The ideal candidate is passionate about building innovative AI-powered solutions and has solid engineering skills. Requirements: - Fluent in English, with strong verbal and written communication skills. - 3+ years of professional experience in software development. - Deep knowledge of AI, machine learning, and LLMs. - Strong problem-solving skills and the ability to work independently. - Experience developing, deploying, and maintaining production-ready software. - Blockchain experience is a strong plus. - Passion for emerging technologies and innovative projects. Nice to Have: - Experience with AI agents and decentralized AI systems. - Familiarity with blockchain ecosystems and Web3 technologies. - Experience working in a startup environment. submitted by /u/geode_echoic [link] [comments]",
       "service_category": "ai_automation",
       "service_signals": [
-        "n8n"
+        "ai agent"
       ],
-      "buyer_signals": [],
-      "buyer_intent_score": 60,
-      "explicit_budget": true,
-      "budget_signal": "Rate: $$15",
+      "buyer_signals": [
+        "[hiring]"
+      ],
+      "buyer_intent_score": 70,
+      "explicit_budget": false,
+      "budget_signal": "",
       "lead_type": "explicit_service_buyer_request",
       "human_review_required": true,
       "analysis": {
         "category": "ai_automation",
         "category_label": "AI/workflow automation",
-        "priority": "LOW",
-        "opportunity_score": 60,
+        "priority": "MEDIUM",
+        "opportunity_score": 70,
         "score_components": {
-          "buyer_intent": 24,
+          "buyer_intent": 12,
           "service_fit": 8,
-          "explicit_budget": 15,
+          "explicit_budget": 0,
           "recency": 10,
-          "specificity": 3
+          "specificity": 5
         },
         "suggested_offer": {
           "name": "Lead Response Mini-System",
@@ -124,14 +132,18 @@
         },
         "suggested_pilot_price_eur": 149,
         "price_is_our_test_offer_not_customer_budget": true,
-        "eligible_for_human_review": false,
-        "reason": "Relevant service signal plus explicit buyer-intent evidence. A human must verify the post and scope before contact."
+        "eligible_for_human_review": true,
+        "reason": "Relevant buyer request; verify the post, buyer identity, scope and budget manually before contact."
       }
     }
   ],
   "errors": [
     {
       "source": "Reddit r/DoneDirtCheap",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Reddit r/slavelabour",
       "error": "HTTP Error 429: Too Many Requests"
     }
   ],
@@ -153,24 +165,57 @@
     "revenue_definition": "Only customer payments recorded as received count as revenue."
   },
   "analysis": {
-    "status": "no_qualified_leads",
-    "qualified_for_review": 0,
+    "status": "ready_for_human_review",
+    "qualified_for_review": 2,
     "total_candidates": 2,
     "note": "No lead is contacted automatically. No revenue is claimed until payment is recorded."
   },
   "deal_maker": {
-    "status": "no_qualified_drafts",
-    "created_at": "2026-11-06T06:56:56.021576+00:00",
+    "status": "drafts_ready_for_human_review",
+    "created_at": "2026-11-06T12:36:07.416382+00:00",
     "auto_send": false,
-    "draft_count": 0,
-    "drafts": []
+    "draft_count": 2,
+    "drafts": [
+      {
+        "title": "[Hiring] [Onsite] [Netherlands] - Financial Controller (Dutch & English)",
+        "url": "https://www.reddit.com/r/forhire/comments/1xpbbtq/hiring_onsite_netherlands_financial_controller/",
+        "source": "Reddit r/forhire",
+        "priority": "MEDIUM",
+        "opportunity_score": 70,
+        "offer": {
+          "subject": "Quick question about your automation request",
+          "message": "Hi,\n\nI came across your post, “[Hiring] [Onsite] [Netherlands] - Financial Controller (Dutch & English)”, and wanted to ask whether you are still looking for help.\n\nI build small, practical enquiry and workflow automations for small businesses. A first pilot can connect one agreed form or mailbox to a client-owned tracking sheet, send an acknowledgement, notify the owner and create a follow-up reminder.\n\nA tightly scoped pilot starts at €149; I would confirm the exact scope and final price with you before starting. I will not ask for sensitive customer data unless it is necessary and agreed in advance.\n\nIf this matches what you need, I can send a short scope and implementation plan.\n\nBest,\n[Your name]",
+          "source_post": "https://www.reddit.com/r/forhire/comments/1xpbbtq/hiring_onsite_netherlands_financial_controller/",
+          "suggested_pilot_price_eur": 149,
+          "price_is_quote": false,
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      },
+      {
+        "title": "[Hiring] AI Software Engineer - $30~$60/hr",
+        "url": "https://www.reddit.com/r/forhire/comments/1xoidq5/hiring_ai_software_engineer_3060hr/",
+        "source": "Reddit r/forhire",
+        "priority": "MEDIUM",
+        "opportunity_score": 70,
+        "offer": {
+          "subject": "Quick question about your automation request",
+          "message": "Hi,\n\nI came across your post, “[Hiring] AI Software Engineer - $30~$60/hr”, and wanted to ask whether you are still looking for help.\n\nI build small, practical enquiry and workflow automations for small businesses. A first pilot can connect one agreed form or mailbox to a client-owned tracking sheet, send an acknowledgement, notify the owner and create a follow-up reminder.\n\nA tightly scoped pilot starts at €149; I would confirm the exact scope and final price with you before starting. I will not ask for sensitive customer data unless it is necessary and agreed in advance.\n\nIf this matches what you need, I can send a short scope and implementation plan.\n\nBest,\n[Your name]",
+          "source_post": "https://www.reddit.com/r/forhire/comments/1xoidq5/hiring_ai_software_engineer_3060hr/",
+          "suggested_pilot_price_eur": 149,
+          "price_is_quote": false,
+          "human_approval_required": true,
+          "auto_send": false
+        }
+      }
+    ]
   },
   "pipeline": {
-    "tracked_leads": 7,
+    "tracked_leads": 9,
     "status_counts": {
       "contacted": 0,
       "lost": 0,
-      "new": 7,
+      "new": 9,
       "proposal_sent": 0,
       "qualified": 0,
       "replied": 0,

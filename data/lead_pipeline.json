@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T06:56:56.046448+00:00",
+  "updated_at": "2026-11-06T12:36:07.436323+00:00",
   "status_values": [
     "contacted",
     "lost",
@@ -11,6 +11,32 @@
     "won"
   ],
   "leads": [
+    {
+      "lead_id": "4c3aff9d16e7",
+      "title": "[Hiring] [Onsite] [Netherlands] - Financial Controller (Dutch & English)",
+      "url": "https://www.reddit.com/r/forhire/comments/1xpbbtq/hiring_onsite_netherlands_financial_controller/",
+      "source": "Reddit r/forhire",
+      "first_seen_at": "2026-11-06T12:36:07.436323+00:00",
+      "last_seen_at": "2026-11-06T12:36:07.436323+00:00",
+      "status": "new",
+      "notes": "",
+      "latest_score": 70,
+      "actual_revenue_eur": 0,
+      "payment_confirmed": false
+    },
+    {
+      "lead_id": "f1903db8a87b",
+      "title": "[Hiring] AI Software Engineer - $30~$60/hr",
+      "url": "https://www.reddit.com/r/forhire/comments/1xoidq5/hiring_ai_software_engineer_3060hr/",
+      "source": "Reddit r/forhire",
+      "first_seen_at": "2026-11-06T12:36:07.436323+00:00",
+      "last_seen_at": "2026-11-06T12:36:07.436323+00:00",
+      "status": "new",
+      "notes": "",
+      "latest_score": 70,
+      "actual_revenue_eur": 0,
+      "payment_confirmed": false
+    },
     {
       "lead_id": "d30dfc664843",
       "title": "[For Hire] AI engineer – AI agents, MCP servers, web apps and MVPs",
