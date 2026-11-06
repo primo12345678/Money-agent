@@ -78,7 +78,8 @@ jobs:
               env.write("ANDROID_KEYSTORE_PATH=" + str(target / "moneyagent-release.jks") + "\n")
               env.write("ANDROID_KEYSTORE_PASSWORD=" + password + "\n")
           PY
-          keytool -list -keystore "$RUNNER_TEMP/android-signing/moneyagent-release.jks" -storepass "$ANDROID_KEYSTORE_PASSWORD" -alias moneyagent >/dev/null
+          KEYSTORE_PASSWORD="$(cat "$RUNNER_TEMP/android-signing/password.txt")"
+          keytool -list -keystore "$RUNNER_TEMP/android-signing/moneyagent-release.jks" -storepass "$KEYSTORE_PASSWORD" -alias moneyagent >/dev/null
 
       - name: Build APK
         env:
