@@ -23,6 +23,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Sync latest main before processing
+        if: github.event_name != 'pull_request'
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -65,4 +70,5 @@ jobs:
           git config user.email "money-agent@users.noreply.github.com"
           git add report.json data/lead_pipeline.json data/revenue.json
           git diff --cached --quiet || git commit -m "Refresh buyer opportunities and CRM pipeline"
+          git pull --rebase origin main
           git push
