@@ -79,7 +79,7 @@ class HunterTests(unittest.TestCase):
             datetime.now(timezone.utc), "https://example.com/controller", "test",
         )
         self.assertIsNone(lead)
-        self.assertEqual(reason, "no_relevant_service")
+        self.assertEqual(reason, "employment_listing")
 
     def test_salary_is_not_project_budget(self):
         self.assertEqual(budget_signal("Salary is $120,000 per year"), "")
