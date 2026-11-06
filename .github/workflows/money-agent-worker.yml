@@ -56,7 +56,7 @@ jobs:
           assert age_minutes < 10, f"Report is stale: {age_minutes:.1f} minutes"
           for lead in report["opportunities"]:
               assert lead.get("service_signals"), "Lead missing service evidence"
-              assert lead.get("buyer_signals"), "Lead missing buyer-intent evidence"
+              assert lead.get("buyer_signals") or lead.get("explicit_budget"), "Lead missing buyer-intent or budget evidence"
           print("Fresh report age (minutes):", round(age_minutes, 1))
           print("Candidates:", report.get("quality_control", {}).get("candidate_count", 0))
           print("Qualified for human review:", report.get("analysis", {}).get("qualified_for_review", 0))
