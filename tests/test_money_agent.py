@@ -101,5 +101,22 @@ class AnalystTests(unittest.TestCase):
         self.assertEqual(result["suggested_pilot_price_eur"], 149)
 
 
+    def test_pilot_is_narrow_and_customer_approved(self):
+        scope = " ".join(OFFER["scope"]).lower()
+        self.assertIn("one agreed form or one shared mailbox", scope)
+        self.assertIn("customer approves", scope)
+        self.assertIn("follow-up reminder", scope)
+
+    def test_draft_requires_human_approval_and_never_auto_sends(self):
+        draft = build_draft({
+            "title": "Need help with lead follow-up",
+            "url": "https://example.com/request",
+            "analysis": {"suggested_offer": OFFER},
+        })
+        self.assertTrue(draft["human_approval_required"])
+        self.assertFalse(draft["auto_send"])
+        self.assertIn("confirm the exact scope", draft["message"])
+
+
 if __name__ == "__main__":
     unittest.main()
