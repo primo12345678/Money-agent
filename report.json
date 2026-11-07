@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T14:11:24.620015+00:00",
+  "generated_at": "2026-11-07T16:21:24.878094+00:00",
   "agent": "Money Agent",
   "mode": "qualified_buyer_hunter_and_offer_analyst",
   "commercial_goal": "Find genuine buyers for small-business workflow automation pilots",
@@ -60,7 +60,7 @@
   },
   "deal_maker": {
     "status": "no_qualified_drafts",
-    "created_at": "2026-11-07T14:11:24.641939+00:00",
+    "created_at": "2026-11-07T16:21:24.898373+00:00",
     "auto_send": false,
     "draft_count": 0,
     "drafts": []
@@ -83,7 +83,7 @@
     "revenue_file": "data/revenue.json"
   },
   "upwork": {
-    "updated_at": "2026-11-07T14:11:24.701599+00:00",
+    "updated_at": "2026-11-07T16:21:24.954352+00:00",
     "source": "manual_upwork_capture",
     "source_policy": "No Upwork scraping, login automation, Connects purchase, or proposal submission.",
     "candidate_count": 0,
