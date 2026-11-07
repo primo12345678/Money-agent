@@ -100,11 +100,10 @@ class AnalystTests(unittest.TestCase):
         self.assertTrue(result["price_is_our_test_offer_not_customer_budget"])
         self.assertEqual(result["suggested_pilot_price_eur"], 149)
 
-
     def test_pilot_is_narrow_and_customer_approved(self):
         scope = " ".join(OFFER["scope"]).lower()
         self.assertIn("one agreed form or one shared mailbox", scope)
-        self.assertIn("customer approves", scope)
+        self.assertIn("customer approval", scope)
         self.assertIn("follow-up reminder", scope)
 
     def test_draft_requires_human_approval_and_never_auto_sends(self):
