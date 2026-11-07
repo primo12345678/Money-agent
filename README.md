@@ -40,6 +40,16 @@ python backend/upwork_hunter.py
 python -m unittest discover -s tests -v
 ```
 
+## Task executor (first working delivery module)
+
+The local executor can clean or deduplicate approved CSV files and produce a quality report:
+
+```bash
+python backend/executor.py --task tasks/my_task.json
+```
+
+See [task execution instructions](docs/task-execution.md). Customer files must stay outside this public repository. The first executor release supports CSV only; XLSX, Google Sheets API, client delivery and autonomous Upwork submission are not implemented.
+
 ## CRM
 
 ```bash
