@@ -203,11 +203,14 @@ public class MainActivity extends Activity {
             int review = analysis == null ? 0 : analysis.optInt("qualified_for_review", 0);
             double revenue = pipeline == null ? 0 : pipeline.optDouble("confirmed_revenue_eur", 0);
             int drafts = dealMaker == null ? 0 : dealMaker.optInt("draft_count", 0);
+            JSONObject upwork = agentReport.optJSONObject("upwork");
+            int upworkCount = upwork == null ? 0 : upwork.optInt("qualified_count", 0);
 
             card(content, "НОВИ ПУБЛИКАЦИИ ЗА ПРОВЕРКА", String.valueOf(candidates), WHITE);
             card(content, "ЗАПИСИ В CRM", String.valueOf(tracked), WHITE);
             card(content, "ОДОБРЕНИ ЗА ЧОВЕШКИ ПРЕГЛЕД", String.valueOf(review), GREEN);
             card(content, "ПОДГОТВЕНИ ЧЕРНОВИ", String.valueOf(drafts), WHITE);
+            card(content, "UPWORK ПОРЪЧКИ ЗА ПРЕГЛЕД", String.valueOf(upworkCount), GREEN);
             card(content, "ПОТВЪРДЕНИ ПРИХОДИ", String.format(Locale.US, "%.2f €", revenue), GREEN);
 
             String generatedAt = agentReport.optString("generated_at", "");
@@ -248,6 +251,7 @@ public class MainActivity extends Activity {
         actionButton(agentLoading ? "Обновявам..." : "↻ Обнови данните на агента",
                 v -> refreshAgentReport());
         actionButton("👥 Публикации за преглед", v -> showAgentLeads());
+        actionButton("🔎 Upwork поръчки", v -> showUpworkJobs());
         actionButton("💼 Какво продаваме", v -> showCommercialOffer());
         TextView safety = text(
                 "Агентът не изпраща съобщения, не харчи пари и не сключва сделки автоматично. Всяко обръщение към клиент изисква човешко одобрение.",
@@ -339,6 +343,28 @@ public class MainActivity extends Activity {
                 .setMessage(details.toString())
                 .setPositiveButton("Затвори", null)
                 .show();
+    }
+
+    private void showUpworkJobs() {
+        if (agentReport == null) { toast("Първо обнови данните на агента."); return; }
+        JSONObject upwork = agentReport.optJSONObject("upwork");
+        JSONArray jobs = upwork == null ? null : upwork.optJSONArray("opportunities");
+        StringBuilder details = new StringBuilder();
+        if (jobs == null || jobs.length() == 0) {
+            details.append("Няма внесени обяви за оценка. Обявите се добавят ръчно в data/upwork_inbox.json; агентът не влиза автоматично в Upwork.");
+        } else {
+            for (int i = 0; i < jobs.length(); i++) {
+                JSONObject job = jobs.optJSONObject(i);
+                if (job == null) continue;
+                JSONObject draft = job.optJSONObject("proposal_draft");
+                details.append(i + 1).append(". ").append(job.optString("title", "Без заглавие")).append("\n");
+                details.append("Оценка: ").append(job.optInt("score", 0)).append("/100 • ").append(job.optString("decision", "review")).append("\n");
+                details.append(job.optString("url", "")).append("\n");
+                if (draft != null) details.append("Чернова (не е изпратена):\n").append(draft.optString("message", "")).append("\n");
+                details.append("--------------------\n");
+            }
+        }
+        new AlertDialog.Builder(this).setTitle("Upwork — преглед и чернови").setMessage(details.toString()).setPositiveButton("Затвори", null).show();
     }
 
     private void showCommercialOffer() {
