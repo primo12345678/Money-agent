@@ -28,6 +28,9 @@ def normalize_cell(value):
 
 
 def run_task(task):
+    if task.get("approved") is not True or task.get("status") != "approved":
+        raise PermissionError("Task must have approved=true and status=approved before execution")
+
     task_type = task.get("type")
     if task_type not in ALLOWED_TASK_TYPES:
         raise ValueError(f"Unsupported task type: {task_type}")
