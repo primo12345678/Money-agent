@@ -282,12 +282,15 @@ public class MainActivity extends Activity {
         new Thread(() -> {
             HttpURLConnection connection = null;
             try {
-                URL url = new URL("https://raw.githubusercontent.com/primo12345678/Money-agent/main/report.json");
+                URL url = new URL("https://raw.githubusercontent.com/primo12345678/Money-agent/main/report.json?cache_bust=" + System.currentTimeMillis());
                 connection = (HttpURLConnection) url.openConnection();
                 connection.setRequestMethod("GET");
-                connection.setConnectTimeout(12000);
-                connection.setReadTimeout(12000);
+                connection.setConnectTimeout(15000);
+                connection.setReadTimeout(15000);
                 connection.setUseCaches(false);
+                connection.setRequestProperty("Cache-Control", "no-cache, no-store, must-revalidate");
+                connection.setRequestProperty("Pragma", "no-cache");
+                connection.setRequestProperty("Expires", "0");
                 int code = connection.getResponseCode();
                 if (code != 200) throw new Exception("HTTP " + code);
                 BufferedReader reader = new BufferedReader(
