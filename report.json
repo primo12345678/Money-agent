@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T00:58:02.435852+00:00",
+  "generated_at": "2026-11-07T07:16:20.332528+00:00",
   "agent": "Money Agent",
   "mode": "qualified_buyer_hunter_and_offer_analyst",
   "commercial_goal": "Find genuine buyers for small-business workflow automation pilots",
@@ -42,12 +42,12 @@
       "standard_setup_price_eur": 299,
       "monthly_support_price_eur": 39,
       "scope": [
-        "Capture enquiries from one agreed form or mailbox",
-        "Log enquiries in a client-owned Google Sheet",
-        "Send an acknowledgement and notify the business owner",
-        "Create a simple follow-up reminder and status tracker"
+        "Capture enquiries from one agreed form OR one shared mailbox (not both in the pilot)",
+        "Log minimum necessary enquiry fields in a client-owned Google Sheet",
+        "Notify the named business owner; configure an acknowledgement only after customer approval",
+        "Track New, Replied, Follow-up due, Qualified, Won and Lost; create an agreed follow-up reminder"
       ],
-      "delivery_note": "Final scope, access, privacy terms and price must be agreed with the customer."
+      "delivery_note": "Initial price is a hypothesis, not a validated market rate. Agree scope, access, privacy, message wording and payment terms before work."
     },
     "target": "One paid pilot, then repeatable setup and monthly support revenue",
     "revenue_definition": "Only customer payments recorded as received count as revenue."
@@ -60,7 +60,7 @@
   },
   "deal_maker": {
     "status": "no_qualified_drafts",
-    "created_at": "2026-11-07T00:58:02.455224+00:00",
+    "created_at": "2026-11-07T07:16:20.353391+00:00",
     "auto_send": false,
     "draft_count": 0,
     "drafts": []
@@ -81,5 +81,19 @@
     "revenue_rule": "Only confirmed payments count; suggested prices are not revenue.",
     "crm_file": "data/lead_pipeline.json",
     "revenue_file": "data/revenue.json"
+  },
+  "upwork": {
+    "updated_at": "2026-11-07T07:16:20.410442+00:00",
+    "source": "manual_upwork_capture",
+    "source_policy": "No Upwork scraping, login automation, Connects purchase, or proposal submission.",
+    "candidate_count": 0,
+    "qualified_count": 0,
+    "rejected_by_reason": {},
+    "opportunities": [],
+    "safety": {
+      "auto_submit": false,
+      "auto_spend": false,
+      "human_approval_required": true
+    }
   }
 }
