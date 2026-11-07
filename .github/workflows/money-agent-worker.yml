@@ -36,6 +36,7 @@ jobs:
           python backend/analyst.py
           python backend/deal_maker.py
           python backend/pipeline.py
+          python backend/upwork_hunter.py
       - name: Test and validate fresh report
         run: |
           python -m py_compile backend/*.py
@@ -49,6 +50,8 @@ jobs:
           assert isinstance(report.get("deal_maker", {}).get("drafts", []), list)
           assert report.get("safety", {}).get("auto_send") is False
           assert report.get("safety", {}).get("auto_spend") is False
+          assert report.get("upwork", {}).get("safety", {}).get("auto_submit") is False
+          assert report.get("upwork", {}).get("safety", {}).get("auto_spend") is False
           generated = datetime.fromisoformat(report["generated_at"].replace("Z", "+00:00"))
           age_minutes = (datetime.now(timezone.utc) - generated).total_seconds() / 60
           assert age_minutes < 10, f"Report is stale: {age_minutes:.1f} minutes"
@@ -56,9 +59,10 @@ jobs:
               assert lead.get("service_signals"), "Lead missing service evidence"
               assert lead.get("buyer_signals") or lead.get("explicit_budget"), "Lead missing buyer-intent or budget evidence"
           print("Fresh report age (minutes):", round(age_minutes, 1))
-          print("Candidates:", report.get("quality_control", {}).get("candidate_count", 0))
-          print("Qualified for human review:", report.get("analysis", {}).get("qualified_for_review", 0))
-          print("Drafts:", report.get("deal_maker", {}).get("draft_count", 0))
+          print("Service buyer candidates:", report.get("quality_control", {}).get("candidate_count", 0))
+          print("Service buyer drafts:", report.get("deal_maker", {}).get("draft_count", 0))
+          print("Manually captured Upwork jobs:", report.get("upwork", {}).get("candidate_count", 0))
+          print("Upwork jobs qualified:", report.get("upwork", {}).get("qualified_count", 0))
           print("Confirmed revenue EUR:", report.get("pipeline", {}).get("confirmed_revenue_eur", 0))
           PY
       - name: Save report and CRM

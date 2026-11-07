@@ -1,0 +1,18 @@
+{
+  "jobs": [
+    {
+      "job_id": "example-001",
+      "title": "Google Sheets lead tracker and follow-up dashboard",
+      "description": "Need help building a Google Sheets tracker for new leads, status and follow-up dates.",
+      "url": "https://www.upwork.com/jobs/example-001",
+      "job_type": "hourly",
+      "hourly_min": 12,
+      "hourly_max": 20,
+      "proposals": "Less than 5",
+      "payment_verified": true,
+      "client_total_spent": 1250,
+      "client_rating": 4.9,
+      "skills": "Google Sheets, Excel, CRM, lead tracking"
+    }
+  ]
+}
