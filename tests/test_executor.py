@@ -17,6 +17,8 @@ class ExecutorTests(unittest.TestCase):
             source.write_text("Name,Email\n  Alice  , ALICE@EXAMPLE.COM  \nBob,bob@example.com\n", encoding="utf-8")
             task = {
                 "task_id": "clean-1",
+                "approved": True,
+                "status": "approved",
                 "type": "clean_csv",
                 "input_file": "input.csv",
                 "output_file": "output.csv",
@@ -40,12 +42,16 @@ class ExecutorTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             (root / "input.csv").write_text("id,name\n1,A\n1,A\n2,B\n", encoding="utf-8")
-            task = {"type": "deduplicate_csv", "input_file": "input.csv", "output_file": "out.csv"}
+            task = {"type": "deduplicate_csv", "approved": True, "status": "approved", "input_file": "input.csv", "output_file": "out.csv"}
             with patch("backend.executor.ROOT", root):
                 report = run_task(task)
             self.assertEqual(report["rows_in"], 3)
             self.assertEqual(report["rows_out"], 2)
             self.assertEqual(report["duplicates_removed"], 1)
+
+    def test_rejects_task_without_explicit_approval(self):
+        with self.assertRaises(PermissionError):
+            run_task({"type": "clean_csv", "input_file": "input.csv", "output_file": "out.csv"})
 
     def test_rejects_path_traversal(self):
         with self.assertRaises(ValueError):
@@ -54,7 +60,7 @@ class ExecutorTests(unittest.TestCase):
 
     def test_rejects_unsupported_task_type(self):
         with self.assertRaises(ValueError):
-            run_task({"type": "run_shell", "input_file": "in.csv", "output_file": "out.csv"})
+            run_task({"type": "run_shell", "approved": True, "status": "approved", "input_file": "in.csv", "output_file": "out.csv"})
 
     def test_rejects_same_input_and_output(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -62,7 +68,7 @@ class ExecutorTests(unittest.TestCase):
             (root / "in.csv").write_text("a\n1\n", encoding="utf-8")
             with patch("backend.executor.ROOT", root):
                 with self.assertRaises(ValueError):
-                    run_task({"type": "clean_csv", "input_file": "in.csv", "output_file": "in.csv"})
+                    run_task({"type": "clean_csv", "approved": True, "status": "approved", "input_file": "in.csv", "output_file": "in.csv"})
 
 
 if __name__ == "__main__":
