@@ -1,6 +1,6 @@
 # Local task execution
 
-Money Agent can now perform two deterministic spreadsheet tasks on approved CSV files:
+Money Agent can now perform two deterministic spreadsheet tasks on CSV files. Execution is blocked unless the task JSON explicitly contains `"approved": true` and `"status": "approved"`:
 
 - `clean_csv`: trims cell whitespace, collapses repeated spaces, optionally lowercases selected columns.
 - `deduplicate_csv`: performs the same cleaning and removes exact duplicate rows.
@@ -20,6 +20,8 @@ Example task JSON:
 ```json
 {
   "task_id": "client-001",
+  "approved": true,
+  "status": "approved",
   "type": "deduplicate_csv",
   "input_file": "private_jobs/input.csv",
   "output_file": "private_jobs/output.csv",
