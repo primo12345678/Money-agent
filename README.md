@@ -1,32 +1,33 @@
 # Money Agent
 
-Money Agent is a revenue-focused workflow automation service and its internal lead/CRM assistant.
+Money Agent has two revenue channels:
+1. **Freelance work:** evaluate manually captured Upwork jobs, reject unprofitable work, and prepare proposal drafts for human review.
+2. **Our service:** sell the Lead Response Mini-System to small, non-regulated service businesses.
 
-## Chosen business model
+## Freelance job hunter
 
-We will initially sell one narrowly scoped service: **Lead Response Mini-System** for small, non-regulated service businesses that receive enquiries through a simple web form or shared mailbox and currently track them manually.
+The Upwork evaluator works from job details copied by a human into `data/upwork_inbox.json`. It does not log in to Upwork, scrape pages, buy Connects, or submit proposals.
 
-The pilot covers one intake channel, a customer-owned Google Sheet, an owner notification, a simple lead-status pipeline, and an agreed follow-up reminder. An automated acknowledgement is optional and must be approved by the customer before activation.
+Start with the example:
+```bash
+cp data/upwork_inbox.example.json data/upwork_inbox.json
+python backend/upwork_hunter.py
+```
+The resulting `report.json` contains an `upwork` section with scored jobs, rejection reasons, and proposal drafts. Default minimums are USD 8/hour or USD 50 fixed-price; adjust these only after considering delivery time, fees, and actual profit. All proposals require human approval.
 
-See [the service blueprint](docs/lead-response-mini-system.md) for scope, exclusions, delivery steps, acceptance tests, privacy controls, and go/no-go criteria.
+## Our first service: Lead Response Mini-System
 
-## Price hypotheses (not validated market rates)
+For small, non-regulated service businesses that receive enquiries through one simple web form OR one shared mailbox and currently track them manually.
 
-- Pilot: EUR 149.
-- Standard setup after a successful pilot: EUR 299, subject to scope.
-- Optional maintenance: EUR 39/month, only if recurring support is requested.
+The pilot includes one intake channel, a customer-owned Google Sheet, owner notification, a simple lead pipeline, and an agreed follow-up reminder. Automated acknowledgements require customer approval.
 
-These are our test prices, not customer budgets or guaranteed market rates. We will not scale the offer until a paid pilot is delivered and accepted.
+See [the service blueprint](docs/lead-response-mini-system.md).
 
-## Operating model
+Initial price hypotheses (not validated market rates): EUR 149 pilot, EUR 299 standard setup after a successful pilot, optional EUR 39/month maintenance.
 
-1. Discover public posts where a buyer explicitly asks for a paid automation/integration project.
-2. Reject ordinary job listings, service-provider ads, and generic AI discussions.
-3. Score qualified buyer requests with visible reasons.
-4. Draft a personalized offer for human review.
-5. Track leads through a simple CRM pipeline.
-6. Deliver customer work only after scope, access, privacy terms, and payment terms are agreed.
-7. Count revenue only when a payment is confirmed.
+## Existing buyer-opportunity hunter
+
+The public-source hunter searches Reddit RSS and Hacker News for explicit buyer requests for automation services. These sources are limited and do not provide Upwork jobs. It rejects ordinary employment ads and service-provider posts.
 
 ## Run locally
 
@@ -35,6 +36,7 @@ python backend/hunter.py
 python backend/analyst.py
 python backend/deal_maker.py
 python backend/pipeline.py
+python backend/upwork_hunter.py
 python -m unittest discover -s tests -v
 ```
 
@@ -44,14 +46,14 @@ python -m unittest discover -s tests -v
 python backend/crm.py status LEAD_ID contacted --note "Sent approved message"
 python backend/crm.py payment LEAD_ID 149 --note "Pilot payment received" --confirmed
 ```
+Only confirmed payments count as revenue.
 
-Only payments recorded with `--confirmed` count as revenue.
+## Safety and limitations
 
-## Safety
-
+- No automatic Upwork scraping, login automation, Connects purchases, or proposal submission.
 - No automatic sales messages, registrations, purchases, or ad clicks.
-- A person verifies every lead and approves every contact.
+- A person verifies every lead and approves every contact/proposal.
 - Do not store customer personal or sensitive data in this repository.
 - Use customer-owned accounts and least-privilege access.
-- Do not activate customer-facing messages until the customer approves the content and trigger.
+- Do not activate customer-facing messages until the customer approves content and trigger.
 - Do not claim revenue until payment is received and confirmed.
