@@ -23,7 +23,7 @@ def safe_path(value):
 
 def normalize_cell(value):
     value = "" if value is None else str(value)
-    value = re.sub(r"\\s+", " ", value).strip()
+    value = re.sub(r"\s+", " ", value).strip()
     return value
 
 
