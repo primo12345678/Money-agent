@@ -1,6 +1,10 @@
 name: Money Agent Worker
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/money-agent-worker.yml'
   workflow_dispatch:
   pull_request:
     branches: [main]
