@@ -52,7 +52,7 @@ class ExecutorTests(unittest.TestCase):
     def test_rejects_csv_rows_with_extra_columns(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            (root / "input.csv").write_text("id,name\\n1,A,unexpected\\n", encoding="utf-8")
+            (root / "input.csv").write_text("id,name\n1,A,unexpected\n", encoding="utf-8")
             task = {
                 "type": "clean_csv",
                 "approved": True,
