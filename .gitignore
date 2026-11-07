@@ -1,0 +1,11 @@
+# Keep client files, task instructions and generated deliverables out of this public repository.
+private_jobs/
+tasks/
+*.quality.json
+data/upwork_inbox.json
+
+# Local Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
