@@ -66,7 +66,9 @@ def run_task(task):
     if unknown:
         raise ValueError("Unknown lowercase_columns: " + ", ".join(sorted(unknown)))
 
-    for raw in rows:
+    for row_number, raw in enumerate(rows, start=2):
+        if None in raw:
+            raise ValueError(f"CSV row {row_number} contains more values than the header")
         row = {}
         for original, header in zip(reader.fieldnames, headers):
             value = normalize_cell(raw.get(original, ""))
