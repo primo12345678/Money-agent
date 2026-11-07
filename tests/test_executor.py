@@ -30,6 +30,12 @@ class ExecutorTests(unittest.TestCase):
             self.assertEqual(rows[0]["Email"], "ALICE@EXAMPLE.COM")
             self.assertTrue(output.with_suffix(".quality.json").is_file())
 
+    def test_collapses_internal_whitespace(self):
+        self.assertEqual(
+            __import__("backend.executor", fromlist=["normalize_cell"]).normalize_cell("  Alice   Smith  "),
+            "Alice Smith",
+        )
+
     def test_deduplicates_exact_rows(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
