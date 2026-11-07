@@ -49,6 +49,21 @@ class ExecutorTests(unittest.TestCase):
             self.assertEqual(report["rows_out"], 2)
             self.assertEqual(report["duplicates_removed"], 1)
 
+    def test_rejects_csv_rows_with_extra_columns(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "input.csv").write_text("id,name\\n1,A,unexpected\\n", encoding="utf-8")
+            task = {
+                "type": "clean_csv",
+                "approved": True,
+                "status": "approved",
+                "input_file": "input.csv",
+                "output_file": "out.csv",
+            }
+            with patch("backend.executor.ROOT", root):
+                with self.assertRaisesRegex(ValueError, "more values than the header"):
+                    run_task(task)
+
     def test_rejects_task_without_explicit_approval(self):
         with self.assertRaises(PermissionError):
             run_task({"type": "clean_csv", "input_file": "input.csv", "output_file": "out.csv"})
