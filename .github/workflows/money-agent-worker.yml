@@ -5,7 +5,8 @@ on:
   pull_request:
     branches: [main]
   schedule:
-    - cron: "17 * * * *"
+    # Run four times per hour; GitHub may delay scheduled jobs during busy periods.
+    - cron: "*/15 * * * *"
 
 permissions:
   contents: write
